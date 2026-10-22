@@ -24,9 +24,30 @@ for this one.
 
 ## Where things stand (read this first, every session)
 
-**Phase: 3 COMPLETE — all four ATSWA III subjects done. Cost Accounting (15/15).
-Auditing (12/12). Taxation (25/25). Management (10/10).** Next: the Skills project at
-`../SKIILLS/`, same standard, same method.** Reconnaissance done earlier this session:
+**Phase: 4 — the past-question pipeline. This is the live phase.**
+
+Phase 3 is COMPLETE for all four ATSWA III subjects: Cost Accounting (15/15),
+Auditing (12/12), Taxation (25/25), Management (10/10).
+
+**The Skills project at `../SKIILLS/` is ON HOLD by the user's instruction
+(2026-10-22).** Two FR chapters were transcribed before the hold (FR ch1
+Regulatory Framework, FR ch2 Accounting and Reporting Concepts) and the
+scaffold, test suite and README are all in place there — see
+`../SKIILLS/website/PROGRESS.md`. **Do not resume Skills until the user says
+so.** ATSWA III is to be finished completely first, and Phase 4 here no longer
+waits on Skills: the old gate "only after Phase 3 is fully done for BOTH
+projects" is **lifted**.
+
+**What Phase 4 means concretely: transcribe EVERY past question from all 15
+INSIGHT Part III packs, assign each to its diet, and link each one to the
+chapter *and the place inside that chapter* it was worked from, so the
+citation is clickable.** Plus: where a question states something that the law
+or standard no longer supports — Taxation above all, where the Nigeria Tax Act
+2025 / Nigeria Tax Administration Act 2025 reform has displaced the
+CITA/PITA/VAT-Act framework most of these papers were set under — **flag it on
+the question** rather than silently reproducing it as if still correct.
+
+Earlier reconnaissance, kept for reference:
 `Taxation_2026_Study_Text.pdf` extracted (5th edition — reflects the brand-new Nigeria
 Tax Act 2025 / Nigeria Tax Administration Act 2025 reform, effective the September 2026
 diet, replacing the older CITA/PITA/VAT-Act framework), confirmed **25 chapters** from
@@ -290,6 +311,104 @@ content gap, checked in that order, with `PIN` as the last resort.
 Below a confidence threshold (`ATSWA II` used `0.12` on the retrieval margin),
 **no citation renders at all** rather than risk showing a wrong one — silence
 over a wrong link, applied to both the chapter-level and section-level tag.
+
+### B.3a The clickable citation chain — verified against `ATSWA II`'s own code
+
+§B.3 covers how a question is *assigned* to a chapter and section. This covers
+how that assignment becomes **a link the reader can click**, which is a
+separate mechanism and the one the user specifically asked to have copied.
+Every detail below was read out of the working `ATSWA II` implementation on
+2026-10-22, not inferred.
+
+**Where `ATSWA II` actually lives.** `/Users/ndujekwuugochukwu/Desktop/ICAN/ATSWA II`
+— a **sibling of `GREAT LOCK-IN`, not inside it**. This has already caused one
+wasted search (`SKIILLS/PLAN.md` Phase 2 cites it as `ATSWA II/` and a lookup
+relative to `GREAT LOCK-IN` finds nothing). From this file the path is
+`../../ATSWA II/website/`.
+
+**The chain has four links, and all four must be built or the citation is dead:**
+
+1. **Data** — each question object in `data/exams.js` carries two fields:
+   `"ch"` (integer chapter number, or `null`) and `"sec"` (the section number
+   as a *string* exactly as the chapter uses it, e.g. `"8.6"`, or `null`).
+   They sit directly on the question, alongside `n`/`stem`/`options`, for all
+   three question types (`mcq`, `saq`, `secb`).
+
+2. **The link** — `src/exams.js`'s `chBadge(subj, q)` renders the citation:
+
+   ```js
+   function chBadge(subj, q) {
+     if (!q.ch) return '';                       // no citation at all
+     if (q.sec) return '<a class="ch" href="#/s/' + subj + '/' + q.ch + '?sec=' +
+       String(q.sec).replace(/\./g, '-') + '">Chapter ' + q.ch + ' &rarr;</a>';
+     return '<a class="ch" href="#/s/' + subj + '/' + q.ch + '">Chapter ' + q.ch + '</a>';
+   }
+   ```
+
+   Note the three-way behaviour, which is the whole design: **a section-level
+   link with an arrow** when the section is known, **a bare chapter link** when
+   only the chapter is, and **nothing at all** when neither is confident. The
+   dots in the section number become dashes in the query string (`8.6` →
+   `8-6`).
+
+3. **The target** — `src/app.js` gives every rendered section an id built the
+   same way, so the link has something to land on:
+
+   ```js
+   '<section class="sec" id="sec-' + esc(sec.n).replace(/\./g, '-') + '">'
+   ```
+
+   The right-hand table of contents uses the same ids (`#sec-8-6`), so the
+   anchor scheme serves both.
+
+4. **The jump** — `src/app.js`'s `scrollToAnchor()` reads `?sec=` off the
+   route, scrolls to `#sec-<sec>`, and adds a `landed` class for 2.6 seconds
+   so the reader can *see* where they arrived rather than merely being
+   scrolled there:
+
+   ```js
+   el.scrollIntoView({ block: 'start', behavior: 'smooth' });
+   el.classList.add('landed');
+   setTimeout(function () { el.classList.remove('landed'); }, 2600);
+   ```
+
+   with one line of CSS in `src/page.html`:
+   `.sec.landed{background-color:var(--accent-wash,rgba(31,98,68,.08));}`
+   and the badge styled at `.bq .h .ch{…}` / `a.ch:hover{text-decoration:underline;}`.
+
+   It degrades safely: no `?sec=` → scroll to top; a `?sec=` that matches no
+   element → scroll to top. A stale citation never throws.
+
+**The benchmark to match.** Measured on `ATSWA II`'s shipped `data/exams.js`:
+
+| | questions | has `ch` | has `sec` |
+|---|---:|---:|---:|
+| MCQ | 2,859 | 2,418 (84.6%) | 1,953 (68.3%) |
+| Short answer | 1,903 | 1,580 (83.0%) | 1,291 (67.8%) |
+| Section B | 562 | 462 (82.2%) | 373 (66.4%) |
+| **All** | **5,324** | **4,460 (83.8%)** | **3,617 (67.9%)** |
+
+96 papers = 4 subjects × 24 diets (2014-03 to 2026-03). So **~84% chapter
+coverage and ~68% section coverage is the standard that was actually
+achieved**, with the remainder deliberately left uncited rather than guessed.
+Do not treat a lower number here as acceptable without a reason, and do not
+inflate it by lowering the confidence gates.
+
+**Two further per-question dictionaries** sit beside `papers` in the same
+payload, keyed `"<diet>/<subject>/<kind>/<n>"` (e.g. `"2016-09/FA/mcq/3"`):
+
+- **`notes`** (186 entries in `ATSWA II`) — an added explanation for a
+  question whose official solution is a bare answer with no working. TeX is
+  allowed and used heavily.
+- **`flags`** (`corrections.py`'s `FLAGS`) — a correction where **the printed
+  paper or its official key is wrong**. `ATSWA II`'s examples: a key that
+  gives "Bonus" for an MCQ when that is not one of the options and appears to
+  be a short-answer solution set in the wrong column; a key that claims
+  segment reporting features in the *IFRS for SMEs* when the standard
+  expressly exempts SMEs from it.
+
+`flags` is the hook for this project's **scheme-change flagging** requirement
+(Phase 4 below) — same field, same rendering, a different reason for firing.
 
 ### B.4 Tools built mid-project (not from day one)
 
@@ -659,18 +778,134 @@ explicit lesson — no lighter first pass, no rework-later plan):
   side (adapting `tools/*.py`) that doesn't require content to exist yet —
   but *not* running the pipeline against partial content.
 
-### Phase 4 — Past-question pipeline (only after Phase 3 is fully done for BOTH projects)
-- [ ] Adapt and run `extract_papers.py` on `materials/past-questions/`
-- [ ] Seed `CHAPTER_KEYS` in `corrections.py` per subject **before** running
-      `aim.py`, not after
-- [ ] Adapt and run `aim.py` (chapter-level tagging)
-- [ ] Adapt and run `aim_sec.py <ALL 4 CODES>` (section-level tagging)
-- [ ] Adapt and run `build_exams.py`
+### Phase 4 — Past-question pipeline  ← **THE LIVE PHASE**
+
+**Gate lifted.** This used to read "only after Phase 3 is fully done for BOTH
+projects". Skills is now on hold (see "Where things stand"), so Phase 4 runs
+on ATSWA III alone.
+
+#### What the source material actually is — confirmed 2026-10-22
+
+`materials/past-questions/` holds **15 INSIGHT Part III packs**, one per diet,
+**2019-03 (March 2019) through 2026-03 (March 2026)**:
+
+    2019-03  2019-09  2020-03  2020-09  2021-03  2021-09  2022-03  2022-09
+    2023-03  2023-09  2024-03  2024-09  2025-03  2025-09  2026-03
+
+Each pack holds **four papers in this order**: **Principles of Auditing &
+Assurance → Cost Accounting → Taxation → Management**. So the expected yield is
+**15 × 4 = 60 papers**.
+
+Each paper has the **same three-part structure as Part II**, which is why
+`extract_papers.py` should port rather than be rewritten:
+
+- **Section A: Part I** — 30 multiple-choice questions (30 marks), attempt all
+- **Section A: Part II** — 20 short-answer questions (20 marks), attempt all
+- **Section B** — 6 questions, **attempt any four** (50 marks)
+
+followed by the official solutions for all three parts. Answer keys print in
+the plain numbered form (`1.  B` / `2.  A` …) under
+`SECTION A: PART I / MULTIPLE-CHOICE SOLUTIONS`.
+
+**One confirmed difference from Part II:** the Part III packs appear to carry
+**no examiner's comments** — a grep for "EXAMINER" in the 2024-03 pack returns
+nothing, where `ATSWA II`'s `secb` objects have an `examiner` field that is
+populated. Check the remaining 14 packs before concluding it is absent
+throughout; if it is, drop the field rather than shipping it empty.
+
+Expected total, if Part III yields the same per-paper counts as Part II:
+60 papers × (30 + 20 + 6) = **3,360 questions**.
+
+#### Steps
+
+- [ ] **Re-read `../../ATSWA II/website/RESUME.md`** (76 KB, session-by-session)
+      — specifically the 2026-09-18 entry on the four systemic pipeline bugs,
+      before writing any of this. Part B.3 explains why.
+- [ ] Adapt and run `extract_papers.py` on all 15 packs → `data/papers.json`.
+      Expect per-pack subject splitting on the four title pages, and verify the
+      count: 60 papers, 1,800 MCQ, 1,200 SAQ, 360 Section B.
+- [ ] Verify extraction **before** tagging: every paper has 30 MCQ with 5
+      options each, 20 SAQ, 6 Section B, and an answer key of 30 entries.
+      A missing or short paper is an extraction bug, not a source gap.
+- [ ] Seed `CHAPTER_KEYS` in `tools/corrections.py` for all four subjects
+      **before** running `aim.py`, not after (Part B.3). `ATSWA II` seeded
+      16/23/20/6 chapters for FA/PS/QA/IT; here that is 12 Auditing, 15 Cost
+      Accounting, 25 Taxation, 10 Management.
+- [ ] Adapt and run `aim.py` — chapter-level tagging, scored against our own
+      authored `content/<code>/ch*.py`, stem weighted 3× over options.
+- [ ] Adapt and run `aim_sec.py` for **all four codes** — section-level
+      tagging. Keep both gates: `CH_CONF_MIN = 0.10` (don't refine a shaky
+      chapter tag) and `MARGIN_MIN = 0.10` (top section must beat the
+      runner-up).
+- [ ] Adapt and run `build_exams.py` → `data/exams.js`, keeping
+      `CH_CONF_MIN = 0.12` so a thin chapter match renders **no citation at
+      all**. Silence over a wrong link, both levels.
+- [ ] **Build the full clickable chain of §B.3a** — not just the data. The
+      `ch`/`sec` fields are worthless until `chBadge()`, the `id="sec-…"`
+      targets, `scrollToAnchor()` and the `.landed` CSS are all in place.
+      `src/exams.js` and `src/app.js` here were cloned from `ATSWA II`, so
+      check what already exists before writing it: **`data/exams.js` does not
+      exist in this project yet, and the page lazy-loads it and degrades
+      silently** — that is the known gap recorded in
+      `../SKIILLS/website/README.md`.
 - [ ] Spot-check a real, stratified sample per subject before trusting the
-      output (Part B.3 — pipeline bugs hide as "bad citations")
-- [ ] `final_revision.py` once tagging is trustworthy, plus its UI
-      (`src/revision.js`) — don't let the script-without-UI gap `ATSWA II`
-      hit happen here
+      output (Part B.3 — pipeline bugs hide as "bad citations"). Target
+      **≥84% chapter and ≥68% section** coverage, the measured `ATSWA II`
+      benchmark in §B.3a. Do not reach the number by loosening the gates.
+- [ ] **Scheme-change flagging** — see the next sub-section. This is new to
+      this project; `ATSWA II` had no equivalent problem at this scale.
+- [ ] `final_revision.py` once tagging is trustworthy, **plus its UI**
+      (`src/revision.js`) — don't let the script-without-UI gap `ATSWA II` hit
+      happen here.
+
+#### Scheme-change flagging (new requirement, 2026-10-22)
+
+These papers span **2019 to 2026**, and the law moved underneath them. A
+question can be perfectly valid as a historical artefact and **actively wrong
+as current law**. Reproducing it silently teaches the wrong answer.
+
+**The rule: where a question, its options, or its official solution states
+something that the law or standard no longer supports, flag it on the
+question — do not silently reproduce it, and do not quietly "correct" the
+printed paper either.** The reader must see both what was set and what is true
+now.
+
+**Taxation is the acute case.** `Taxation_2026_Study_Text.pdf` is the 5th
+edition and reflects the **Nigeria Tax Act 2025** and **Nigeria Tax
+Administration Act 2025**, effective from the **September 2026 diet**, which
+displace the **CITA / PITA / VAT Act / Stamp Duties Act** framework that
+**every one of the 15 packs was set under**. So essentially the whole Taxation
+question bank needs reading against the new Acts. Expect to flag, at minimum:
+rate changes, threshold and exemption changes, renamed or merged taxes, the
+new **surcharge on fossil fuel products** (study text ch11) having no
+counterpart in older papers, and any administrative provision now sitting in
+NTAA 2025 rather than its old home.
+
+**The other three subjects need a lighter pass but are not exempt:** Auditing
+moved on ISA revisions and on **CAMA 2020** replacing CAMA 1990 (section
+numbers in particular — a pre-2020 paper citing s.331 or s.359 is citing a
+statute that has been renumbered); Cost Accounting and Management are largely
+stable but check anything citing a standard, a statute or a named institution.
+
+**Mechanism: reuse `flags`.** §B.3a documents it — a per-question dictionary
+in `data/exams.js` keyed `"<diet>/<subject>/<kind>/<n>"`, already rendered by
+the app, already used by `ATSWA II` for "the printed key is wrong". A
+scheme-change flag is the same field firing for a different reason. **Do not
+invent a second mechanism.** Consider a `kind` discriminator on the flag
+("key error" vs "superseded law") only if the UI genuinely needs to style them
+differently; decide that when the first fifty are written, not now.
+
+Two things the flag text must do, every time:
+
+1. **Say what the paper says, and why it is no longer right** — naming the
+   provision that changed and the Act that changed it. "Superseded" with no
+   citation is useless to someone revising.
+2. **Say what the answer would be today**, where that is determinable. Where
+   it is not — because the new Act has no equivalent provision — say that
+   instead, plainly.
+
+The same honesty rule as the chapter transcription applies: this is an
+**addition** flagged as such, never a silent edit of the source.
 
 ### Phase 5 — Audit & polish
 - [ ] `audit_answers.py` pass per subject

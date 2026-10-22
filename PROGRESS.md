@@ -3041,3 +3041,163 @@ dangling references**. Final: `data/man.js` **591 KB, 10/10 chapters, 265 sectio
 **Management has no residual items.** All four ATSWA III subjects are complete.
 
 **Next**: the Skills project (`GREAT LOCK-IN/SKIILLS/`), same standard, same method.
+
+---
+
+## Phase 4 planning — ATSWA II investigated, plans updated. 2026-10-22.
+
+User instruction: hold Skills completely, finish ATSWA III, and for Phase 4
+*"transcribe ALL exam PQs and assign them to appropriate year … for stuff like
+taxation where scheme changed maybe you can simply flag a question when it says
+something that is not true now"*, plus *"thoroughly investigate ats 2 where you
+can see that every question is not just associated with but linked to a chapter
+and particular place in that chapter, such that reference can be clicked."*
+
+**Nothing was built this session. The instruction was explicitly to update the
+plans and wait.** What follows is the investigation and the plan changes.
+
+### Where ATSWA II actually is
+
+`/Users/ndujekwuugochukwu/Desktop/ICAN/ATSWA II` — a **sibling of
+`GREAT LOCK-IN`, not inside it**. Worth recording because this already cost a
+wasted search once: `../SKIILLS/PLAN.md` Phase 2 cites it as `ATSWA II/`, a
+lookup relative to `GREAT LOCK-IN` finds nothing, and the earlier session
+concluded it did not exist and used `../ATSWA III/website/` as the scaffold
+template instead. It exists, it is a git repo, and it is complete.
+
+### The citation chain, read out of the working code
+
+The important finding is that **the link is a four-part chain, and the `ch`/
+`sec` data is only the first part.** All four are now documented in PLAN.md
+§B.3a with the actual source quoted:
+
+1. **Data** — each question carries `"ch"` (int or null) and `"sec"` (string
+   like `"8.6"`, or null), on the question object itself, for all three
+   question types.
+2. **Link** — `src/exams.js`'s `chBadge()` builds
+   `#/s/<CODE>/<ch>?sec=<sec with dots → dashes>` and renders three ways:
+   a section link with an arrow, a bare chapter link, or **nothing at all**
+   when neither is confident.
+3. **Target** — `src/app.js` gives each section `id="sec-8-6"`, built by the
+   same dots-to-dashes rule. The right-hand TOC reuses the same ids.
+4. **Jump** — `scrollToAnchor()` reads `?sec=`, scrolls to the element, and
+   adds a `landed` class for 2,600 ms so the reader can see where they
+   arrived. One line of CSS. Degrades to scroll-to-top if the section is
+   missing, so a stale citation never throws.
+
+### The benchmark, measured rather than assumed
+
+Counted directly from ATSWA II's shipped `data/exams.js` — 96 papers, 4
+subjects × 24 diets (2014-03 → 2026-03):
+
+| | questions | has `ch` | has `sec` |
+|---|---:|---:|---:|
+| MCQ | 2,859 | 2,418 (84.6%) | 1,953 (68.3%) |
+| Short answer | 1,903 | 1,580 (83.0%) | 1,291 (67.8%) |
+| Section B | 562 | 462 (82.2%) | 373 (66.4%) |
+| **All** | **5,324** | **4,460 (83.8%)** | **3,617 (67.9%)** |
+
+So **~84% chapter / ~68% section** is the standard actually achieved, with the
+rest deliberately left uncited. That is the target for this project, and it is
+not to be met by loosening the confidence gates.
+
+Also found beside `papers` in the same payload: **`notes`** (186 entries —
+added explanations where the official solution is a bare answer, TeX allowed)
+and **`flags`** (corrections where the printed paper or its own answer key is
+wrong). Both keyed `"<diet>/<subject>/<kind>/<n>"`.
+
+### How the tagging works, and the two gates
+
+`tools/aim.py` is **retrieval, not classification**: in-subject IDF/TF-IDF
+scoring of a question's words against each chapter, with the reference corpus
+being **our own authored `content/<code>/ch*.py`, not the study-text PDF** —
+its docstring explains that scoring against raw PDF text folds in every table
+figure and OCR artefact and lets a chapter win on bulk. A chapter-title hit is
+weighted ×4; chapter length is discounted so the longest cannot win by size;
+a curated per-chapter seed vocabulary (`CHAPTER_KEYS`) is folded in as a
+separate, heavily weighted signal (`9.0 / number of chapters owning the term`).
+
+The MCQ **stem is weighted 3× over the options**, with a comment recording why:
+a stores question whose five options were all officer titles was being dragged
+to the "officers" chapter by the options alone.
+
+`tools/aim_sec.py` repeats the exercise one level down, scoring against the
+sections *within* the chapter already assigned. Its IDF corpus is one chapter's
+sections, so it is noisier, and it carries two explicit gates:
+`CH_CONF_MIN = 0.10` (don't refine a shaky chapter tag) and
+`MARGIN_MIN = 0.10` (the top section must beat the runner-up). `build_exams.py`
+applies a third, `CH_CONF_MIN = 0.12`, before any citation renders at all.
+
+`PIN` / `SEC_PIN` in `corrections.py` are manual per-question overrides —
+27 `PIN` entries in the whole of ATSWA II, i.e. a last resort for irreducible
+ambiguity, not a way to paper over a pipeline bug.
+
+### What the ATSWA III source material actually is
+
+Checked, not assumed. `materials/past-questions/` holds **15 INSIGHT Part III
+packs, 2019-03 through 2026-03**. Each holds **four papers in the order
+Auditing → Cost Accounting → Taxation → Management**, so **60 papers** expected.
+
+Each paper has the **same structure as Part II** — Section A Part I (30 MCQ,
+30 marks), Section A Part II (20 short-answer, 20 marks), Section B (6
+questions, attempt any four, 50 marks) — followed by official solutions, with
+answer keys in the plain `1.  B` numbered form. So `extract_papers.py` should
+port rather than be rewritten. Expected yield **3,360 questions**
+(60 × 56).
+
+**One confirmed difference:** the Part III packs appear to carry **no
+examiner's comments**. A grep for "EXAMINER" in the 2024-03 pack returns
+nothing, where ATSWA II's Section B objects have a populated `examiner` field.
+The remaining 14 packs should be checked before concluding it is absent
+throughout; if so, drop the field rather than ship it empty.
+
+### Scheme-change flagging — the new requirement
+
+These papers span 2019 to 2026 and the law moved underneath them. A question
+can be valid as a historical artefact and **wrong as current law**.
+
+The rule now in PLAN.md: **where a question, its options, or its official
+solution states something the law or standard no longer supports, flag it on
+the question** — neither silently reproduce it nor quietly "correct" the
+printed paper. The reader must see both what was set and what is true now, and
+each flag must (1) name the provision that changed and the Act that changed it
+and (2) say what the answer would be today, or say plainly that the new Act has
+no equivalent provision.
+
+**Taxation is the acute case**: the 2026 study text reflects the **Nigeria Tax
+Act 2025** and **Nigeria Tax Administration Act 2025**, effective the September
+2026 diet, which displace the CITA / PITA / VAT Act / Stamp Duties Act
+framework **every one of the 15 packs was set under**. Essentially the whole
+Taxation bank needs reading against the new Acts.
+
+**The other three are not exempt but need a lighter pass**: Auditing moved on
+ISA revisions and on **CAMA 2020 replacing CAMA 1990** — section numbers above
+all, since a pre-2020 paper citing s.331 or s.359 cites a renumbered statute
+(the same renumbering already flagged inside the FR transcription at
+`SKIILLS` FR ch1 §1.6.17). Cost Accounting and Management are largely stable;
+check anything citing a standard, a statute or a named institution.
+
+**Mechanism: reuse `flags`.** Same per-question dictionary, already rendered by
+the app, already used by ATSWA II for "the printed key is wrong". A
+scheme-change flag is that field firing for a different reason. No second
+mechanism.
+
+### Plan changes made
+
+- `PLAN.md` "Where things stand" rewritten: **Phase 4 is the live phase**, the
+  Skills hold recorded, the old "both projects" gate **lifted**.
+- `PLAN.md` **§B.3a added** — the four-part citation chain with the real code,
+  ATSWA II's exact filesystem location, the measured coverage benchmark, and
+  the `notes` / `flags` dictionaries.
+- `PLAN.md` **Phase 4 rewritten** — the confirmed pack inventory and paper
+  structure, expected counts to verify extraction against, the ordered steps
+  with the three confidence gates named, an explicit step for building the
+  clickable chain (not just the data), and the scheme-change flagging
+  sub-section.
+- `../SKIILLS/PLAN.md` — hold notice at the top with the resume point;
+  `../SKIILLS/website/PROGRESS.md` — same, with the build state.
+
+**Next session: start Phase 4 at the first step — re-read
+`../../ATSWA II/website/RESUME.md`'s 2026-09-18 entry on the four systemic
+pipeline bugs, then port `extract_papers.py`.** Nothing is to be built before
+the user says to continue.
