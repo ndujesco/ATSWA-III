@@ -571,3 +571,11 @@ CH = {
     ], 'src': 'Chapter 9.2', 'sec': '9.2'},
   ]},
 }
+
+
+# Supplement: transcript — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '9.2')['b'].extend([{'note': 'A **transcript** is the monthly account a self-accounting unit submits to the '
+          'Accountant-General. This is the public-sector accounting record named in [September '
+          '2021 short answer 1](#/exams/2021-09/AUD?q=saq-1); it is distinct from an audit '
+          'report or an audit query.',
+  'lbl': 'Past-paper terminology'}])

@@ -1835,3 +1835,23 @@ CH = {
     ], 'src': 'Chapter 3.8', 'sec': '3.8'},
   ]},
 }
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='3.3')['b'].extend([{'note': 'A **bill of materials** lists the materials, specifications/codes and quantities '
+          'needed for a job, process or unit of production. A **purchase requisition** requests '
+          'that materials be ordered; a **materials/stores requisition** authorises their issue '
+          'from stores. The documents serve different stages. [March 2025 MCQ '
+          '23](#/exams/2025-03/CA?q=mcq-23) tests the bill of materials. A master production '
+          'schedule, the bill of materials and inventory records are central inputs to materials '
+          'requirements planning.',
+  'lbl': 'Past-paper document distinctions'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='3.6')['b'].extend([{'note': '**ABC inventory analysis** concentrates control on selected items according to their '
+          'importance/value: A items merit close control, B items intermediate attention and C '
+          'items simpler controls. It is different from activity-based costing, which shares the '
+          'abbreviation ABC. [September 2024 MCQ 6](#/exams/2024-09/CA?q=mcq-6) tests the '
+          'inventory technique.',
+  'lbl': 'Past-paper supplement'}])

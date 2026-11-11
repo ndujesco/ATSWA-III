@@ -1009,3 +1009,12 @@ CH = {
     ], 'src': 'Chapter 6.9', 'sec': '6.9'},
   ]},
 }
+
+
+# Explicit explanatory addition; original source remains above.
+next(s for s in CH['secs'] if s['n']=='6.10')['b'].extend([{'note': '**Current standards.** IAASB’s **ISQM 1** replaced ISQC 1, with **ISQM 2** and **ISA '
+          '220 (Revised)** completing the quality-management framework effective from 15 '
+          'December 2022. The historical quality-control discussion above is retained; use the '
+          'revised framework when identifying the applicable current standard. [IAASB quality '
+          'management](https://www.iaasb.org/focus-areas/quality-management).',
+  'lbl': 'Addition — current standards'}])

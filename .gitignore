@@ -2,3 +2,6 @@
 # derived: regenerate with ../SKIILLS/tools/pdf_toc.py
 materials/study-texts/with-toc/
 .DS_Store
+
+# Generated static release output
+dist/

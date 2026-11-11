@@ -8,12 +8,11 @@ shape the renderer knows, so a typo fails the build instead of the page.
 """
 import importlib.util, json, re, sys
 from pathlib import Path
+from abbreviations import chapter_terms
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT, DATA = ROOT / 'content', ROOT / 'data'
 SUBJECTS = {'ca': ('CA', 15), 'aud': ('AUD', 12), 'tax': ('TAX', 25), 'man': ('MAN', 10)}
-# man not yet added — confirm its total chapter count from its own study-text
-# TOC before adding, per ATSWA III/PLAN.md Phase 2.
 # aud confirmed from 2025_Aud.pdf's own TOC: 12 chapters (Nature/Purpose/Scope of
 # Auditing; Regulatory Framework; Professional Ethics; Auditors' Liability; Audit
 # Planning & Documentation; Audit Evidence & Verification; Audit Tests & Sampling;
@@ -92,6 +91,7 @@ def build(code):
     for f in sorted(d.glob('ch*.py')):
         mod = load(f, f'{code}_{f.stem}')
         ch = mod.CH
+        ch['abbreviations'] = chapter_terms(ch)
         for sec in ch.get('secs', []):
             check_blocks(sec.get('b', []), f'{code} ch{ch["n"]} sec {sec.get("n")}', errs)
         check_tex(ch, f'{code} ch{ch["n"]}', errs)

@@ -784,3 +784,16 @@ CH = {
     ], 'src': 'Chapter 10.5', 'sec': '10.5'},
   ]},
 }
+
+
+# Supplement: database_terms — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '10.9')['b'].extend([{'h4': 'Past-paper supplement — databases and normalisation'},
+ {'p': 'A **database** is an organised, integrated collection of related data. **Normalisation** '
+       'is the process of organising relational tables to reduce unnecessary duplication and '
+       'inconsistent updates. A **database management system (DBMS)** is the software used to '
+       'define, maintain and access a database.'},
+ {'note': '[September 2019 short answer 16](#/exams/2019-09/AUD?q=saq-16) calls an integrated '
+          'set of master files “Normalisation”. Read that printed answer with care: the '
+          'collection is a database; normalisation describes how its relational tables are '
+          'organised. The original key is retained.',
+  'lbl': 'Reading the historical terminology'}])

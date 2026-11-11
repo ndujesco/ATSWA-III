@@ -11,17 +11,16 @@ cd "$(dirname "$0")"
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ATSWA Part III — Study</title>
-<meta name="description" content="The ATSWA Part III subjects (Principles of Auditing & Assurance, Cost Accounting, Taxation, Management) as chapter-by-chapter study notes with worked examples, typeset formulas and per-chapter quizzes, next to past INSIGHT papers.">
+<title>ATSWA Part III — The Great Lock-in</title>
+<meta name="description" content="Your ATSWA Part III study desk: 62 chapters across Cost Accounting, Auditing, Taxation and Management, with worked examples, chapter quizzes and 3,360 past questions from 60 INSIGHT papers.">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#F2F1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#F5F4EF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#12110F" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F6244'/%3E%3Cpath d='M7 6h18v6H13v5h11v6H13v6H7z' fill='%23FCFBF7'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23204E3C'/%3E%3Cpath d='M16 9C13 7 9 7 6 8v16c4-1 7 0 10 2 3-2 6-3 10-2V8c-3-1-7-1-10 1Zm0 0v17' fill='none' stroke='%23FCFBF7' stroke-width='1.6' stroke-linejoin='round'/%3E%3C/svg%3E">
 </head>
 <body>
 HEAD
-  # the fragment carries its own <title>; the head above owns it now
-  grep -v '^<title>ATSWA Part II</title>$' src/page.html
+  cat src/page.html
   echo '<script>'
   cat src/subjects.js src/math.js src/render.js src/app.js src/quiz.js src/revision.js src/exams.js
   echo '</script>'

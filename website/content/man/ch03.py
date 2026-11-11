@@ -3633,3 +3633,40 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Supplement: star_model — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'C.7')["b"].extend([{'h4': 'Past-paper supplement — Galbraith’s Star Model'},
+ {'p': '[March 2023, MCQ 27](#/exams/2023-03/MAN?q=mcq-27) asks for the **Star Model** as a '
+       'framework for organisation-design choices. Jay Galbraith’s own [model '
+       'explanation](https://jaygalbraith.com/services/star-model/) identifies five connected '
+       'design choices:'},
+ {'ul': ['**Strategy** — the organisation’s intended direction.',
+         '**Structure** — how decision-making authority is arranged.',
+         '**Processes** — how work and information move.',
+         '**Rewards** — how incentives support the required behaviour.',
+         '**People** — the skills and human-resource practices needed.']},
+ {'key': 'An organisation’s design includes all five areas. An organisation chart changes '
+         'structure; effective design also aligns the other choices with its strategy.'}])
+
+
+# Supplement: formalisation — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'C.5')['b'].extend([{'note': '**Formalisation** is the extent to which an organisation explicitly states and '
+          'documents expected behaviour, duties, rules and procedures. It differs from '
+          'centralisation, which concerns where decision authority sits. [September 2019 MCQ '
+          '26](#/exams/2019-09/MAN?q=mcq-26) tests this distinction.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: planning_techniques — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'A.10')['b'].extend([{'h4': 'Past-paper supplement — PERT and management by objectives'},
+ {'p': '**Programme Evaluation and Review Technique (PERT)** represents a project as connected '
+       'activities/events so that their order, dependencies and time requirements can be '
+       'examined. Set out the starting event, subsequent events and activity connections; '
+       'estimate activity times and identify the sequence that controls completion. [September '
+       '2019 MCQ 10](#/exams/2019-09/MAN?q=mcq-10) tests the listed steps; its printed exception '
+       'is a syllabus-list distinction, not advice to skip understanding the project.'},
+ {'p': '**Management by objectives (MBO)**, associated with **Peter Drucker**, involves agreeing '
+       'objectives and reviewing performance against the results sought. [March 2022 short '
+       'answer 3](#/exams/2022-03/MAN?q=saq-3) tests the attribution. Objectives should be clear '
+       'enough to guide action and assess achievement.'}])

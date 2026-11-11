@@ -1748,3 +1748,12 @@ CH = {
     ], 'src': 'Chapter 5.7', 'sec': '5.7'},
   ]},
 }
+
+
+# Supplement: abm — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '5.8')['b'].extend([{'note': '**Activity-based management (ABM)** uses activity-based costing information to manage '
+          'and improve activities: investigate cost drivers, remove non-value-adding work, and '
+          'improve the value obtained from resources. **ABC** assigns activity costs to cost '
+          'objects; **ABM** uses the information to improve decisions and operations. [September '
+          '2019 MCQ 29](#/exams/2019-09/CA?q=mcq-29) tests the two abbreviations.',
+  'lbl': 'Past-paper supplement'}])

@@ -1,0 +1,189 @@
+[
+  {
+    "filename": "PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+    "checked": "2026-11-11",
+    "attempts": [
+      {
+        "url": "https://icanig.org/documents/PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      },
+      {
+        "url": "https://icanig.org/ican/documents/PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      }
+    ],
+    "wayback": {
+      "url": "icanig.org/documents/PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20250812031441/https://icanig.org/documents/PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+          "timestamp": "20250812031441"
+        }
+      }
+    },
+    "archiveFetch": {
+      "url": "https://web.archive.org/web/20250812031441id_/https://icanig.org/documents/PART-III-INSIGHT-SEPTEMBER-2016.pdf",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "pdfArchiveIndex": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=icanig.org%2Fdocuments%2FPART-III-INSIGHT-SEPTEMBER-2016.pdf&output=json&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "result": []
+    }
+  },
+  {
+    "filename": "PART-III-INSIGHT-MARCH-2017.pdf",
+    "checked": "2026-11-11",
+    "attempts": [
+      {
+        "url": "https://icanig.org/documents/PART-III-INSIGHT-MARCH-2017.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      },
+      {
+        "url": "https://icanig.org/ican/documents/PART-III-INSIGHT-MARCH-2017.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      }
+    ],
+    "wayback": {
+      "url": "icanig.org/documents/PART-III-INSIGHT-MARCH-2017.pdf",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20250812025126/https://icanig.org/documents/PART-III-INSIGHT-MARCH-2017.pdf",
+          "timestamp": "20250812025126"
+        }
+      }
+    },
+    "archiveFetch": {
+      "url": "https://web.archive.org/web/20250812025126id_/https://icanig.org/documents/PART-III-INSIGHT-MARCH-2017.pdf",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "pdfArchiveIndex": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=icanig.org%2Fdocuments%2FPART-III-INSIGHT-MARCH-2017.pdf&output=json&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "result": []
+    }
+  },
+  {
+    "filename": "PART-III-INSIGHT-SEPT-2017.pdf",
+    "checked": "2026-11-11",
+    "attempts": [
+      {
+        "url": "https://icanig.org/documents/PART-III-INSIGHT-SEPT-2017.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      },
+      {
+        "url": "https://icanig.org/ican/documents/PART-III-INSIGHT-SEPT-2017.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      }
+    ],
+    "wayback": {
+      "url": "icanig.org/documents/PART-III-INSIGHT-SEPT-2017.pdf",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20250812015733/https://icanig.org/documents/PART-III-INSIGHT-SEPT-2017.pdf",
+          "timestamp": "20250812015733"
+        }
+      }
+    },
+    "archiveFetch": {
+      "url": "https://web.archive.org/web/20250812015733id_/https://icanig.org/documents/PART-III-INSIGHT-SEPT-2017.pdf",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 591,
+      "pdf": false
+    },
+    "pdfArchiveIndex": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=icanig.org%2Fdocuments%2FPART-III-INSIGHT-SEPT-2017.pdf&output=json&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "result": []
+    }
+  },
+  {
+    "filename": "PART-III-INSIGHT-MARCH-2018.pdf",
+    "checked": "2026-11-11",
+    "attempts": [
+      {
+        "url": "https://icanig.org/documents/PART-III-INSIGHT-MARCH-2018.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      },
+      {
+        "url": "https://icanig.org/ican/documents/PART-III-INSIGHT-MARCH-2018.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      }
+    ],
+    "wayback": {
+      "url": "icanig.org/documents/PART-III-INSIGHT-MARCH-2018.pdf",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20250812025256/https://icanig.org/documents/PART-III-INSIGHT-MARCH-2018.pdf",
+          "timestamp": "20250812025256"
+        }
+      }
+    },
+    "archiveFetch": {
+      "url": "https://web.archive.org/web/20250812025256id_/https://icanig.org/documents/PART-III-INSIGHT-MARCH-2018.pdf",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "pdfArchiveIndex": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=icanig.org%2Fdocuments%2FPART-III-INSIGHT-MARCH-2018.pdf&output=json&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "result": []
+    }
+  },
+  {
+    "filename": "PART-III-INSIGHT-SEPT-2018.pdf",
+    "checked": "2026-11-11",
+    "attempts": [
+      {
+        "url": "https://icanig.org/documents/PART-III-INSIGHT-SEPT-2018.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      },
+      {
+        "url": "https://icanig.org/ican/documents/PART-III-INSIGHT-SEPT-2018.pdf",
+        "type": "text/html; charset=UTF-8",
+        "bytes": 591,
+        "pdf": false
+      }
+    ],
+    "wayback": {
+      "url": "icanig.org/documents/PART-III-INSIGHT-SEPT-2018.pdf",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20250812021733/https://icanig.org/documents/PART-III-INSIGHT-SEPT-2018.pdf",
+          "timestamp": "20250812021733"
+        }
+      }
+    },
+    "archiveFetch": {
+      "url": "https://web.archive.org/web/20250812021733id_/https://icanig.org/documents/PART-III-INSIGHT-SEPT-2018.pdf",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "pdfArchiveIndex": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=icanig.org%2Fdocuments%2FPART-III-INSIGHT-SEPT-2018.pdf&output=json&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "result": []
+    }
+  }
+]

@@ -5,8 +5,10 @@
   var A = ATSWA, V = A.VIEWS;
 
   function withRevision(cb) {
+    var request = location.hash;
     A.loading('Final Revision');
     A.need('REVISION', 'revision', function (rev) {
+      if (location.hash !== request) return;
       if (!rev) return A.h('<div class="wrap"><p style="padding:60px 0">Could not load the ' +
         'revision bank. Serve this folder over http:// rather than opening the file directly.</p></div>');
       cb(rev);
@@ -23,6 +25,17 @@
   function freqBadge(freq) {
     return '<span class="mono" style="font-size:10px;letter-spacing:.08em;color:var(--ink3);' +
       'white-space:nowrap">ASKED ' + freq + '&times;</span>';
+  }
+
+  function sourceExtras(q, kind) {
+    var sources = (q.sources || []).map(function (source) {
+      var href = source.href + '?q=' + (kind === 'essay' ? 'secb' : kind) + '-' + source.n;
+      return '<a href="' + href + '">' + A.esc(source.label) + '</a>';
+    }).join(' · ');
+    return (sources ? '<p class="cite">' + sources + '</p>' : '') +
+      (q.flags || []).map(function (flag) {
+        return A.flagHTML(flag.sources.join('; ') + ': ' + flag.text);
+      }).join('') + A.sourceFigures(q.sourceFigures);
   }
 
   /* Every diet a cluster was asked in ('2019-03', '2020-09', ...) reduced to
@@ -107,15 +120,15 @@
         var d = rev[s.code];
         var total = d ? d.mcq.length + d.saq.length + d.essay.length : 0;
         return '<a class="subcard" href="#/revision/' + s.code + '" data-sub="' + s.code + '">' +
-          '<div class="r1"><span class="code">' + s.code + '</span>' +
+          '<div class="r1"><span class="subject-icon">' + A.icon(s.icon) + '</span><span class="code">' + s.code + '</span>' +
           '<span class="cnt">' + total + ' questions</span></div>' +
           '<h2>' + A.esc(s.name) + '</h2>' +
-          '<div class="sub">' + A.esc(s.blurb) + '</div></a>';
+          '<div class="sub">' + A.esc(s.summary || s.blurb) + '</div></a>';
       }).join('');
       A.h('<div class="wrap"><section class="shead" style="border:none">' +
         '<div class="code">Final Revision</div><h1>Every past question, most recently ' +
         'asked first</h1>' +
-        '<p>All 24 diets\' MCQ, short-answer and Section B questions, grouped by subject, ' +
+        '<p>All 15 diets\' MCQ, short-answer and Section B questions, grouped by subject, ' +
         'then by question type, near-duplicates across diets merged and ordered by the '  +
         'most recent diet each was asked in. Pick a subject.</p></section>' +
         '<div class="subs">' + cards + '</div><div style="height:60px"></div></div>');
@@ -168,14 +181,16 @@
             freqBadge(q.freq) + chBadge(code, q.ch, q.sec) + '</div>' +
             '<div class="body">' + A.preBlock(q.pre) + A.stemHTML(q) +
             '<div style="margin-top:10px">' + q.options.map(function (o, k) {
-              var on = k === q.a;
+              var info = A.keyInfo(q.key || 'ABCDE'[q.a]);
+              var on = !info.bonus && info.accepted.indexOf(k) >= 0;
               return '<div style="display:flex;gap:10px;padding:4px 0' +
                 (on ? ';color:var(--ok);font-weight:600' : '') + '">' +
                 '<span class="mono" style="width:1.4em;flex:none">' + 'ABCDE'[k] + '</span>' +
                 '<span style="flex:1">' + A.optText(o) + '</span>' +
-                (on ? '<span class="mono" style="font-size:10px;letter-spacing:.1em">ANSWER</span>' : '') +
+                (on ? '<span class="mono" style="font-size:10px;letter-spacing:.1em">' +
+                  (q.studyCorrection ? 'REVIEWED' : 'ANSWER') + '</span>' : '') +
                 '</div>';
-            }).join('') + '</div></div></div>';
+            }).join('') + '</div>' + sourceExtras(q, kind) + '</div></div>';
         }).join('');
       } else if (kind === 'saq') {
         // Topically grouped (see tools/final_revision.py): the list already
@@ -201,10 +216,11 @@
             A.preBlock(q.pre) +
             '<div style="display:flex;justify-content:space-between;gap:14px;align-items:baseline">' +
             '<div style="flex:1">' + R.inl(q.body.join(' ')) + '</div>' + freqBadge(q.freq) + '</div>' +
-            (q.ans ? '<div class="ans"><div class="lbl">Official answer</div>' +
+            (q.ans ? '<div class="ans"><div class="lbl">' +
+                     (q.studyCorrection ? 'Reviewed study answer' : 'Official answer') + '</div>' +
                      R.inl(q.ans.join(' ')) + '</div>' : '') +
             (q.sec ? '<div style="margin-top:8px">' +
-              chBadge(code, q.ch, q.sec) + '</div>' : '') +
+              chBadge(code, q.ch, q.sec) + '</div>' : '') + sourceExtras(q, kind) +
             '</div></div>';
         }).join('');
       } else {
@@ -214,10 +230,10 @@
             '<div class="h"><span class="n">Question ' + b.n + '</span>' +
             freqBadge(b.freq) + chBadge(code, b.ch, b.sec) + '</div>' +
             (b.q && b.q.length ? '<div class="body"><div class="pre">' +
-              A.esc(b.q.join('\n')) + '</div></div>' : '') +
+              A.esc(b.q.join('\n')) + '</div>' + A.relatedReadings(b, code) + '</div>' : '') +
             '<button class="reveal" data-reveal="' + rid + '">Show the official solution</button>' +
             '<div class="sol hid" id="' + rid + '">' +
-            '<div class="pre">' + A.esc(b.solution.join('\n')) + '</div>' +
+            '<div class="pre">' + A.esc(b.solution.join('\n')) + '</div>' + sourceExtras(b, kind) +
             (b.examiner && b.examiner.length
               ? '<div class="exm"><div class="lbl">Examiner&rsquo;s report</div>' +
                 A.esc(b.examiner.join(' ')) + '</div>' : '') +

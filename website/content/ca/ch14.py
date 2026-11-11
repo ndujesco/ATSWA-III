@@ -948,3 +948,25 @@ CH = {
     ], 'src': 'Chapter 14.8', 'sec': '14.8'},
   ]},
 }
+
+
+# Supplement: legacy_terms — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '14.5')['b'].extend([{'h4': 'Past-paper supplement — related cost-management terms'},
+ {'p': '[September 2019 Section B question 5](#/exams/2019-09/CA?q=secb-5) combines several '
+       'modern costing terms. Its full question and solution remain in the paper; these '
+       'definitions connect its additional terminology to this chapter.'},
+ {'ul': ['**Activity-based management (ABM)** — use activity and cost-driver information to '
+         'improve activities and resource use; see [ABC and ABM](#/s/CA/5?sec=5-8).',
+         '**Value chain analysis** — examine the connected activities through which a business '
+         'creates and delivers value, and identify where cost or performance can improve.',
+         '**Kaizen costing** — pursue repeated, incremental cost reductions during production '
+         'through continuous improvement.',
+         '**Materials requirements planning (MRP)** — use the production schedule, bill of '
+         'materials and inventory records to determine what materials are needed, how much, and '
+         'when.',
+         '**Total quality management (TQM)** — involve the whole organisation in preventing '
+         'defects and continually improving processes and customer satisfaction.']},
+ {'note': 'The paper’s other terms are treated in [life cycle costing](#/s/CA/14?sec=14-4), '
+          '[advanced manufacturing technology](#/s/CA/14?sec=14-6) and the target-costing '
+          'discussion above. These added definitions do not replace the printed study text.',
+  'lbl': 'Connecting the full question'}])

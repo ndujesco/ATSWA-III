@@ -931,3 +931,46 @@ CH = {
     ], 'src': 'Chapter 8.10.1 and 8.10.3', 'sec': '8.10'},
   ]},
 }
+
+
+# Supplement: filing — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '8.2')['b'].extend([{'note': '**Centralised filing** keeps an organisation’s files at one designated office or '
+          'registry so authorised staff can access and control them consistently. '
+          '**Decentralised filing** leaves files with individual departments. This concerns '
+          'where records are held, rather than the alphabetical, numerical, subject or '
+          'geographical method used to arrange them. [September 2021 short answer '
+          '20](#/exams/2021-09/MAN?q=saq-20) tests the location distinction.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Explicit explanatory addition; original source remains above.
+next(s for s in CH['secs'] if s['n']=='8.2')['b'].extend([{'note': '[March 2019 MCQ 6](#/exams/2019-03/MAN?q=mcq-6) classifies office records by '
+          'importance as **vital, important, useful and not useful**. The purpose is to decide '
+          'preservation and access priorities; it differs from classifying files by subject or '
+          'alphabetical order.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Source-linked filing supplement; preserve the original chapter and review bank.
+next(s for s in CH['secs'] if s['n']=='8.2')['b'].extend([{'h4': 'Past-paper supplement — filing methods and document care'},
+ {'p': '[September 2025 Section B question 5](#/exams/2025-09/MAN?q=secb-5) distinguishes five '
+       'filing methods: **alphabetical** (by name), **numerical** (assigned numbers, usually '
+       'with a reference index), **alpha-numerical** (letters and numbers), **subject** (by '
+       'topic), and **geographical** (by origin or destination).'},
+ {'p': '[September 2019 Section B question 6](#/exams/2019-09/MAN?q=secb-6) supplies these '
+       'practical controls:'},
+ {'ul': ['File documents only after authorisation or completion of the required action; sort '
+         'batches into logical order first.',
+         'Check document condition and size, retain the enclosures, assign folio numbers and '
+         'label folders.',
+         'Maintain a file register, movement record and incoming/outgoing mail records; know '
+         'which documents must be kept and which may be disposed of.',
+         'Keep cabinets secure, open another volume when a file is full, and use cabinets for '
+         'their intended records.',
+         'Remove files only for authorised work. If a document must be removed, leave a '
+         'substitution note and maintain sheet numbering so the removal can be traced.']},
+ {'note': 'The original 2019 answer also gives paper-handling instructions about folding/copying '
+          'oversized documents and stapling enclosures. Those instructions remain in the full '
+          'source solution; where an original has legal, archival or physical preservation '
+          'requirements, follow the organisation’s applicable document-care rules.',
+  'lbl': 'Reading the historical paper-office instructions'}])

@@ -1055,3 +1055,13 @@ CH = {
     ], 'src': 'Chapter 7.7', 'sec': '7.7'},
   ]},
 }
+
+# Addition from a real past-paper answer; the study text is retained intact.
+next(s for s in CH['secs'] if s['n'] == '7.5')['b'].append({
+    'note': 'Past-paper ratio: [March 2019, short answer 17](#/exams/2019-03/AUD?q=saq-17) '
+            'shows profit after tax divided by the number of ordinary shares. The official key '
+            'calls this “Earning per share”; the usual term is **earnings per share (EPS)**. '
+            'For the simple figures in that question, it measures the profit attributable to '
+            'each ordinary share. It is a per-share measure, not a percentage return.',
+    'lbl': 'Past-paper supplement',
+})

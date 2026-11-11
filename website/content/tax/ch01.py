@@ -925,3 +925,33 @@ CH = {
     ], 'src': 'Chapter 1.3', 'sec': '1.3'},
   ]},
 }
+
+
+# Supplement: year_of_assessment — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '1.10')["b"].extend([{'note': '**Year of assessment (YOA)** means the year for which the taxpayer is assessed to tax, '
+          'as keyed in [March 2021, MCQ 4](#/exams/2021-03/TAX?q=mcq-4). Distinguish it from the '
+          '**basis period**: the period whose income or profit is used for that assessment. They '
+          'need not cover the same dates. Apply the basis-period rules relevant to the question’s '
+          'own period.',
+  'lbl': 'Past-paper terminology'}])
+
+
+# Primary-source or historical clarification; original content remains above.
+next(s for s in CH['secs'] if s['n']=='1.7')['b'].extend([{'note': 'Older papers use **luxury tax** as a classification of tax on non-essential '
+          'goods/services associated with wealthier consumers, such as private jets. [September '
+          '2022 MCQ 5](#/exams/2022-09/TAX?q=mcq-5) and [March 2024 MCQ '
+          '21](#/exams/2024-03/TAX?q=mcq-21) test that historical terminology. It does not '
+          'establish a single current Nigerian rate or a blanket tax on every item a person '
+          'regards as luxurious. Identify the actual VAT, customs/excise or other applicable '
+          'charging provision before computing a liability.',
+  'lbl': 'Past-paper context'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='1.7')['b'].extend([{'note': '**Petroleum profits tax (PPT)** is a historical tax name appearing throughout the '
+          'older papers. A question ranking it as the “most productive” revenue source must be '
+          'read against that question’s year and revenue data; it is not a rule of tax law. The '
+          'current NTA contains specialised petroleum income/hydrocarbon provisions, so the old '
+          'name cannot simply be used as a current universal answer. [March 2021 MCQ '
+          '5](#/exams/2021-03/TAX?q=mcq-5).',
+  'lbl': 'Historical tax terminology'}])

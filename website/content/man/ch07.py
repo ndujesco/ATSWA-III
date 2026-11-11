@@ -423,3 +423,48 @@ CH = {
     ], 'src': 'Chapter 7.3 and 7.4', 'sec': '7.4'},
   ]},
 }
+
+# Past-paper terminology supplements the two limbs of the definition above.
+next(s for s in CH['secs'] if s['n'] == '7.1')['b'].append(
+    {'note': 'The **system resource approach** assesses effectiveness at the input '
+             'stage: can the organisation obtain the resources needed for high '
+             'performance from its environment? The **goal approach** instead '
+             'asks whether its intended outputs and goals are achieved. The first '
+             'is the term tested in [March 2026 MCQ 26]'
+             '(#/exams/2026-03/MAN?q=mcq-26), and corresponds to the outward '
+             'resource-acquisition limb of the definition in this section.',
+     'lbl': 'Past-paper supplement'})
+
+
+# Supplement: effectiveness_models — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '7.1')['b'].extend([{'h4': 'Past-paper supplement — approaches to effectiveness'},
+ {'p': 'The **internal process approach** examines internal health, coordination and efficient '
+       'processes. It is the term in [September 2022 short answer '
+       '18](#/exams/2022-09/MAN?q=saq-18). Compare the goal and system resource approaches '
+       'described above.'},
+ {'p': 'The **competing values framework** recognises that people judge effectiveness using '
+       'different priorities. Its principal contrasts are internal versus external focus and '
+       'flexibility versus control; the original research also distinguishes means from ends. It '
+       'helps explain why one measure cannot represent every stakeholder’s view. [Quinn and '
+       'Rohrbaugh’s original research](https://pubsonline.informs.org/doi/10.1287/mnsc.29.3.363) '
+       'supplies the framework. [September 2023 MCQ 30](#/exams/2023-09/MAN?q=mcq-30) uses the '
+       'model’s name.'},
+ {'note': 'A BCG growth/share matrix classifies a business portfolio; it is not one of these '
+          'general approaches to organisational effectiveness. [September 2023 MCQ '
+          '25](#/exams/2023-09/MAN?q=mcq-25) tests that exception.',
+  'lbl': 'Distinguishing the models'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='7.1')['b'].extend([{'note': 'The **strategic constituencies approach** judges effectiveness by how well an '
+          'organisation meets the requirements of the groups on which its continued operation '
+          'depends. This is the term used by [September 2023 short answer '
+          '18](#/exams/2023-09/MAN?q=saq-18). It directs attention to key stakeholders, rather '
+          'than treating every possible group as equally decisive.',
+  'lbl': 'Past-paper supplement'},
+ {'note': '[March 2025 MCQ 26](#/exams/2025-03/MAN?q=mcq-26) uses the name **Command Team '
+          'Effectiveness (CTEF) Model** for observing, evaluating and improving team '
+          'performance. That is the paper’s team-focused model label; distinguish it from the '
+          'organisation-wide goal, resource, internal-process and competing-values approaches '
+          'above. The full source question and its official key are available at the link.',
+  'lbl': 'Historical model label'}])

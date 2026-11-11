@@ -2086,3 +2086,12 @@ CH = {
     ], 'src': 'Chapter 8.5', 'sec': '8.5'},
   ]},
 }
+
+
+# Supplement: unit_costing — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '8.1')["b"].extend([{'note': '**Unit costing** (also called output costing in this context) is the term keyed in '
+          '[March 2021, short answer 13](#/exams/2021-03/CA?q=saq-13): costs are accumulated by '
+          'element and the unit cost is total cost divided by units produced. This is the per-unit '
+          'averaging idea used in continuous production. Distinguish it from a separately costed '
+          'customer-specific job.',
+  'lbl': 'Past-paper terminology'}])

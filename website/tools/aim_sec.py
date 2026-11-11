@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+"""
+Refine the chapter-level tag on each past question into a section-level one,
+for subjects whose content/<code>/ch*.py files exist.
+
+Same retrieval idea as aim.py, one level down: instead of scoring a question
+against whole chapters, score it against the sections *within* the chapter
+aim.py already assigned. IDF here is computed over that chapter's own
+sections (a small corpus), so it is noisier than the chapter-level pass —
+a 'sec' is only written back when the top section clears the runner-up by a
+real margin, and only for questions whose chapter tag itself was confident.
+Otherwise the question still links to the chapter, just not to one section
+inside it.
+
+Writes 'sec' (e.g. "2.6") and 'secConf' onto each question in data/papers.json.
+"""
+import importlib.util, json, math, re, sys
+from collections import Counter
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+from corrections import SEC_PIN
+from build_exams import split_secb
+from retrieval import answer_boost, heading_phrases, heading_boost, norm as phrase_norm
+
+PHRASE_TEXTS = {}
+HEADING_PHRASES = {}
+
+ROOT = Path(__file__).resolve().parents[2]
+CONTENT = ROOT / 'website' / 'content'
+DATA = ROOT / 'website' / 'data'
+
+CH_CONF_MIN = 0.10   # below this the chapter tag itself is too shaky to refine
+MARGIN_MIN = 0.10    # top section must beat the runner-up by at least this much
+
+STOP = set('''a an the and or but if of to in on at by for with from as is are was were be been
+being it its this that these those which who whom what when where how why not no nor so than then
+there here all any each every both few more most other some such only own same too very can will
+just should now also may might must shall would could into over under above below out up down off
+following use used using given calculate compute determine find state list explain describe outline
+question questions answer answers option options correct following amount total value figure figures
+value values year years period end ended during above below shown table data information account
+accounts b c d e i ii iii iv v vi n gh le d one two three four five six seven eight nine ten'''.split())
+WORD = re.compile(r"[a-z][a-z'-]{2,}")
+
+
+def tokens(s):
+    s = re.sub(r'[₦¢$%,]', ' ', str(s).lower())
+    return [w for w in WORD.findall(s) if w not in STOP and len(w) > 2]
+
+
+def stem(w):
+    for suf in ('ies', 'ing', 'ers', 'es', 's'):
+        if w.endswith(suf) and len(w) - len(suf) >= 4:
+            return w[:-len(suf)] + ('y' if suf == 'ies' else '')
+    return w
+
+
+def bag_of(node, acc):
+    """Walk the block-schema tree exactly as render.js's text() does."""
+    if node is None:
+        return
+    if isinstance(node, str):
+        acc.append(node)
+    elif isinstance(node, list):
+        for v in node:
+            bag_of(v, acc)
+    elif isinstance(node, dict):
+        for v in node.values():
+            bag_of(v, acc)
+
+
+def load_chapter(code, n):
+    path = CONTENT / code.lower() / f'ch{n:02d}.py'
+    if not path.exists():
+        return None
+    spec = importlib.util.spec_from_file_location(f'{code}_{n}', path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod.CH
+
+
+def heading_words(node, acc):
+    """Text from h3/h4 sub-headings inside a section's body. A section that
+    bundles more than one sub-topic under its one top-level title — e.g.
+    ch2's "2.2 Constitutional and legal provisions" holding both "2.2.1 —
+    The 1999 Constitution" and "2.2.2 — The Finance (Control and
+    Management) Act" as h3s — has no way for a query about the second
+    sub-topic to win the section-title boost below, even when it is
+    exactly on-topic, because the words that would earn it ("Finance",
+    "Management", "Act") never appear in the section's own title. Confirmed
+    live: a question naming the Finance (Control and Management) Act was
+    sent to a *different* section purely because that section's own title
+    happened to also contain "Act" and "Federation"."""
+    if isinstance(node, list):
+        for v in node:
+            heading_words(v, acc)
+    elif isinstance(node, dict):
+        for k in ('h3', 'h4'):
+            if isinstance(node.get(k), str):
+                acc.append(node[k])
+        for v in node.values():
+            heading_words(v, acc)
+
+
+def section_index(code, n):
+    """secId -> (title, bag of stemmed words, sub-heading words), for every
+    section of chapter n."""
+    ch = load_chapter(code, n)
+    if not ch:
+        return {}
+    out = {}
+    for sec in ch.get('secs', []):
+        words = []
+        bag_of(sec.get('t'), words)
+        bag_of(sec.get('b'), words)
+        heads = []
+        heading_words(sec.get('b'), heads)
+        PHRASE_TEXTS.setdefault((code, n), {})[sec['n']] = phrase_norm(' '.join(words))
+        out[sec['n']] = (sec.get('t', ''), Counter(stem(w) for w in tokens(' '.join(words))),
+                          set(stem(w) for w in tokens(' '.join(heads))))
+    return out
+
+
+def score_sections(qwords, secs):
+    if not secs:
+        return []
+    N = len(secs)
+    df = Counter()
+    for _, bag, _ in secs.values():
+        for w in bag:
+            df[w] += 1
+    idf = {w: math.log(1 + N / d) for w, d in df.items()}
+    lens = {sid: sum(bag.values()) for sid, (t, bag, hw) in secs.items()}
+    avg = sum(lens.values()) / max(N, 1) or 1
+    out = []
+    for sid, (title, bag, headw) in secs.items():
+        norm = 0.4 + 0.6 * (lens[sid] / avg)
+        titlew = set(stem(w) for w in tokens(title))
+        s = 0.0
+        for w, c in qwords.items():
+            if w not in bag:
+                continue
+            tf = 1 + math.log(bag[w])
+            s += c * idf.get(w, 0) * tf
+            if w in titlew:
+                s += c * idf.get(w, 0) * 4.0
+            elif w in headw:
+                s += c * idf.get(w, 0) * 2.5
+        out.append((sid, s / norm))
+    out.sort(key=lambda kv: -kv[1])
+    return out
+
+
+def flatten(node, acc):
+    if isinstance(node, str):
+        acc.append(node)
+    elif isinstance(node, list):
+        for v in node:
+            flatten(v, acc)
+    elif isinstance(node, dict):
+        for k, v in node.items():
+            flatten(v, acc)
+    return acc
+
+
+def assign(text_parts, sec_idx, answer="", phrase_texts=None):
+    qw = Counter(stem(w) for w in tokens(' '.join(text_parts)))
+    if not qw:
+        return None, 0.0
+    ranked = score_sections(qw, sec_idx)
+    scores = dict(ranked)
+    phrases = HEADING_PHRASES.setdefault(id(sec_idx), heading_phrases({sid: value[0] for sid, value in sec_idx.items()}))
+    heading_boost(scores, ' '.join(text_parts), phrases)
+    ranked = sorted(scores.items(), key=lambda item: -item[1])
+    if answer and not re.search(r'\b(?:not|except|cannot)\b', ' '.join(text_parts), re.I):
+        scores = dict(ranked)
+        answer_boost(scores, answer, phrase_texts or {})
+        ranked = sorted(scores.items(), key=lambda item: -item[1])
+    if not ranked:
+        return None, 0.0
+    top = ranked[0]
+    second = ranked[1][1] if len(ranked) > 1 else 0.0
+    if top[1] <= 0:
+        return None, 0.0
+    margin = (top[1] - second) / top[1]
+    return top[0], margin
+
+
+def main(codes):
+    papers = json.loads((DATA / 'papers.json').read_text())
+    cache = {}
+    stats = Counter()
+
+    def idx_for(code, n):
+        key = (code, n)
+        if key not in cache:
+            cache[key] = section_index(code, n)
+        return cache[key]
+
+    for p in papers:
+        if p['subject'] not in codes:
+            continue
+        # Clear any 'sec'/'secConf' left over from a previous run *before*
+        # recomputing. aim.py's own chapter tag can (and does) change
+        # between runs — e.g. a chapter's seed vocabulary gets refined, or
+        # its reference corpus is rebuilt — and a question left unplaced
+        # this time (margin too thin under its *new* chapter) would
+        # otherwise keep whatever 'sec' it was given under its *old*
+        # chapter, silently pointing at a different chapter's section
+        # number. Confirmed live in data/papers.json before this fix: 243
+        # of 4259 sec-tagged questions across all four subjects had
+        # sec.split('.')[0] != ch — a stale cross-chapter citation that
+        # would either fail to scroll (right chapter, no such section) or,
+        # worse, look confident while pointing at the wrong place entirely.
+        for q in p['mcq'] + p['saq']:
+            q['sec'], q['secConf'] = None, None
+        for s in p['secb_solutions']:
+            s['sec'], s['secConf'] = None, None
+
+        for q in p['mcq']:
+            pin = SEC_PIN.get((p['diet'], p['subject'], 'mcq', q['n']))
+            if pin:
+                q['sec'], q['secConf'] = pin, 1.0
+                stats['mcq_placed'] += 1
+            elif q.get('ch') and q.get('chConf', 0) >= CH_CONF_MIN:
+                parts = (flatten(q['stem'], []) + q.get('pre', [])) * 3 + flatten(q['options'], [])
+                sec_idx = idx_for(p['subject'], q['ch'])
+                letter = p['mcq_key'].get(str(q['n']), '')
+                answer = ' '.join(flatten(q['options']['ABCDE'.index(letter)], [])) if len(letter) == 1 and letter in 'ABCDE' else ''
+                sid, m = assign(parts, sec_idx, answer, PHRASE_TEXTS.get((p['subject'], q['ch'])))
+                if sid and m >= MARGIN_MIN:
+                    q['sec'], q['secConf'] = sid, round(m, 3)
+                    stats['mcq_placed'] += 1
+                else:
+                    stats['mcq_unplaced'] += 1
+        sol = {s['n']: s for s in p['saq_solutions']}
+        for q in p['saq']:
+            pin = SEC_PIN.get((p['diet'], p['subject'], 'saq', q['n']))
+            if pin:
+                q['sec'], q['secConf'] = pin, 1.0
+                stats['saq_placed'] += 1
+            elif q.get('ch') and q.get('chConf', 0) >= CH_CONF_MIN:
+                parts = q['body'] + q.get('pre', []) + (sol[q['n']]['body'] if q['n'] in sol else [])
+                sec_idx = idx_for(p['subject'], q['ch'])
+                sid, m = assign(parts, sec_idx, ' '.join(sol.get(q['n'], {}).get('body', [])), PHRASE_TEXTS.get((p['subject'], q['ch'])))
+                if sid and m >= MARGIN_MIN:
+                    q['sec'], q['secConf'] = sid, round(m, 3)
+                    stats['saq_placed'] += 1
+                else:
+                    stats['saq_unplaced'] += 1
+        secb_qs = split_secb(p['secb_paper'])
+        for s in p['secb_solutions']:
+            pin = SEC_PIN.get((p['diet'], p['subject'], 'secb', s['n']))
+            if pin:
+                s['sec'], s['secConf'] = pin, 1.0
+                stats['secb_placed'] += 1
+            elif s.get('ch') and s.get('chConf', 0) >= CH_CONF_MIN:
+                sec_idx = idx_for(p['subject'], s['ch'])
+                sid, m = assign(secb_qs.get(s['n'], []) * 3 + s['solution'][:60], sec_idx)
+                if sid and m >= MARGIN_MIN:
+                    s['sec'], s['secConf'] = sid, round(m, 3)
+                    stats['secb_placed'] += 1
+                else:
+                    stats['secb_unplaced'] += 1
+
+    (DATA / 'papers.json').write_text(json.dumps(papers, ensure_ascii=False, indent=1))
+    print('section assignment:', dict(stats))
+
+
+if __name__ == '__main__':
+    codes = set(sys.argv[1:]) or {'AUD', 'CA', 'TAX', 'MAN'}
+    main(codes)

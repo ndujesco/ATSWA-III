@@ -1,0 +1,49 @@
+{
+  "reviewDate": "2026-11-11",
+  "sources": [
+    {
+      "title": "Nigeria Tax Act 2025",
+      "url": "https://nass.gov.ng/documents/download/11249",
+      "downloaded": "2026-11-10",
+      "sha256": "41abf6887bc58a3c97116fd9a048aa91ad49c1cab156f39065a58401c0fce94f",
+      "localFile": "materials/reference-laws/Nigeria_Tax_Act_2025.pdf"
+    },
+    {
+      "title": "Nigeria Tax Administration Act 2025",
+      "url": "https://nass.gov.ng/documents/download/11250",
+      "downloaded": "2026-11-10",
+      "sha256": "eb3ea717052f48492cc6441ad23f9e7ac2ad4782395db1c391580cc1adef20e2",
+      "localFile": "materials/reference-laws/Nigeria_Tax_Administration_Act_2025.pdf"
+    },
+    {
+      "title": "Joint Revenue Board of Nigeria (Establishment) Act 2025",
+      "url": "https://nass.gov.ng/documents/download/11247",
+      "downloaded": "2026-11-10",
+      "sha256": "97b648230dee2f6fc1e9f5248343dfb8d6c6d17b4c2d38abe661abee6201e458",
+      "localFile": "materials/reference-laws/Joint_Revenue_Board_of_Nigeria_(Establishment)_Act_2025.pdf"
+    },
+    {
+      "title": "Nigeria Revenue Service (Establishment) Act 2025",
+      "url": "https://nass.gov.ng/documents/download/11251",
+      "downloaded": "2026-11-10",
+      "sha256": "c100f5f10b089ae9a162c0c05fe8ba425b0b79ae936065aa0788893a8ef2b2a8",
+      "localFile": "materials/reference-laws/Nigeria_Revenue_Service_(Establishment)_Act_2025.pdf"
+    }
+  ],
+  "versionNote": "Use National Assembly corrected gazettes released January 2026. Earlier Gombe-hosted NTA copy has 50m small-company / 20bn ETR thresholds; current National Assembly copy has 100m / 50bn. The section numbers around VAT and repeals also differ. Keep source study-text wording and flag disagreements explicitly.",
+  "reverified": "National Assembly download URLs and saved SHA-256 hashes checked on 2026-11-11.",
+  "additionalPrimaryReferences": [
+    {
+      "title": "NIIRA 2025, sections 33–34 and 229",
+      "url": "https://naicom.gov.ng/wp-content/uploads/2025/08/NIIRA-2025.pdf",
+      "verified": "2026-11-11",
+      "note": "Read through the web PDF tool; direct local download returned HTTP 403."
+    },
+    {
+      "title": "IAASB quality-management framework",
+      "url": "https://www.iaasb.org/focus-areas/quality-management",
+      "verified": "2026-11-11",
+      "note": "ISQM 1/2 and ISA 220 (Revised), effective 15 December 2022."
+    }
+  ]
+}

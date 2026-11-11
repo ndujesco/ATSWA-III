@@ -2619,3 +2619,31 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Supplement: business_growth — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'A.7')['b'].extend([{'note': '**Internal/organic growth** occurs when a business expands its own activities, such '
+          'as selling more of its existing products or developing new products. **External '
+          'growth** involves combining with or acquiring another business. [September 2019 MCQ '
+          '2](#/exams/2019-09/MAN?q=mcq-2), [September 2020 short answer '
+          '3](#/exams/2020-09/MAN?q=saq-3) and [March 2022 MCQ 1](#/exams/2022-03/MAN?q=mcq-1) '
+          'test the internal-growth term.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: environmental_management — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'C.1')['b'].extend([{'note': '**Environmental management** means organising and controlling activities to reduce '
+          'harmful environmental effects, limit waste and meet applicable environmental '
+          'requirements. **Environmental degradation** means deterioration of the environment. '
+          '[September 2024 MCQ 10](#/exams/2024-09/MAN?q=mcq-10) reverses these concepts in its '
+          'printed key; the site displays a reviewed correction.',
+  'lbl': 'Past-paper clarification'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='B.4')['b'].extend([{'note': '**PESTEL analysis** examines Political, Economic, Social, Technological, '
+          'Environmental and Legal influences in the general external environment. It is a '
+          'structured environmental-analysis checklist; forecasting estimates how those '
+          'influences may change. [September 2019 short answer 3](#/exams/2019-09/MAN?q=saq-3) '
+          'tests the model’s name.',
+  'lbl': 'Past-paper supplement'}])

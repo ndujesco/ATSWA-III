@@ -3801,3 +3801,119 @@ CH = {
                                                    ],
                   },
 }
+
+# Source-backed additions for concepts tested explicitly in INSIGHT. No
+# study-text material is removed, replaced or shortened by these notes.
+next(s for s in CH['secs'] if s['n'] == 'C.2')['b'].append({
+    'note': '[March 2019, short answer 9](#/exams/2019-03/MAN?q=saq-9) calls the process '
+            'by which consumers acquire purchase and consumption knowledge and experience '
+            '**consumer cognitive learning**. In plain language, buyers learn from information '
+            'and experience and use what they learn in later buying decisions. The same paper’s '
+            '[MCQ 15](#/exams/2019-03/MAN?q=mcq-15) keys **branding** as the exception: '
+            'branding is a marketing action, rather than the consumer’s learning process.',
+    'lbl': 'Past-paper supplement',
+})
+next(s for s in CH['secs'] if s['n'] == 'D.4')['b'].append({
+    'note': '[March 2020, short answer 18](#/exams/2020-03/MAN?q=saq-18) asks for the IFRS '
+            'title used for the profit or loss account. The printed answer is **Statement of '
+            'comprehensive income**. This identifies the financial performance statement; '
+            'distinguish it from the statement of financial position (the balance sheet). '
+            'The historical official title is retained in the past-paper key.',
+    'lbl': 'Past-paper terminology',
+})
+
+
+# Supplement: manual_accounting — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'D.5')["b"].extend([{'h4': 'Past-paper supplement — manual and computerised accounting'},
+ {'p': '[March 2021, short answer 17](#/exams/2021-03/MAN?q=saq-17) defines a **manual accounting '
+       'system** as an analogue means of preparing, monitoring, coordinating and reporting '
+       'financial transactions. In plain language, people maintain and process the records '
+       'manually; a computerised system uses software to process and store them.'},
+ {'p': 'The same diet’s [Section B question 5](#/exams/2021-03/MAN?q=secb-5) compares the systems '
+       'using:'},
+ {'ul': ['the analogue or digital means of recording and processing;',
+         'implementation and transaction costs;',
+         'accuracy and susceptibility to errors;',
+         'processing speed and efficiency;',
+         'physical or electronic controls;',
+         'capacity for data analysis.']},
+ {'note': 'The full printed comparison remains in the past paper. Its blanket cost comparisons '
+          'need context: implementation cost and cost per transaction are different measures, and '
+          'either depends on the scale and design of the system.',
+  'lbl': 'Reading the historical solution'}])
+
+
+# Supplement: leverage_ratio — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'D.3')["b"].extend([{'note': '[September 2021, MCQ 13](#/exams/2021-09/MAN?q=mcq-13) uses **leverage ratios** for '
+          'measures of the extent to which an organisation is financed by debt. They concern its '
+          'financing mix. They are distinct from liquidity measures (ability to meet short-term '
+          'obligations) and profitability measures (returns earned). Debt-to-equity is one such '
+          'financing comparison.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: inventory_control — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'B.4')["b"].extend([{'note': 'The **materials-control** function also covers what [March 2021, short answer '
+          '13](#/exams/2021-03/MAN?q=saq-13) names **inventory control**: monitor raw materials, '
+          'work in progress and finished goods so that the right quantities are available at the '
+          'required times. The three stock stages are different, so checking only finished goods '
+          'is insufficient.',
+  'lbl': 'Past-paper terminology'}])
+
+next(s for s in CH['secs'] if s['n'] == 'D.3')['b'].extend([
+    {'h4': 'Past-paper supplement — interest cover'},
+    {'p': '**Times interest earned**, also called **interest cover**, measures '
+          'how many times earnings before interest and tax cover interest expense.'},
+    {'tex': r'\text{Interest cover} = \frac{\text{Profit before interest and tax}}{\text{Interest expense}}'},
+    {'warn': '[September 2020 MCQ 14](#/exams/2020-09/MAN?q=mcq-14) prints '
+             'a minus sign where interest must be added back to profit before '
+             'tax. Its intended answer is times interest earned, but its formula '
+             'is defective. [ICAN’s explanation]'
+             '(https://icanig.org/ican/assets/docs/pro-study-texts-2021/SFM.pdf) '
+             'confirms the add-back. The original question is preserved.'},
+])
+
+
+# Supplement: point_evaluation — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'A.15')['b'].extend([{'note': 'A **points system of job evaluation** scores a job’s compensable factors, such as '
+          'skill, responsibility and working conditions, then combines the points to compare the '
+          'relative worth of jobs. It evaluates the **job**, while performance appraisal '
+          'evaluates the **employee’s performance**. [September 2019 MCQ '
+          '11](#/exams/2019-09/MAN?q=mcq-11) tests the method.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: breakeven — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'C.7')['b'].extend([{'note': '**Break-even analysis** compares total revenue and total cost at different activity '
+          'levels. At break-even, revenue equals total cost and profit is zero. With constant '
+          'unit selling price and variable cost, break-even units = fixed cost ÷ (selling price '
+          'per unit − variable cost per unit). [September 2020 short answer '
+          '12](#/exams/2020-09/MAN?q=saq-12) asks for the name. The full worked method is in '
+          '[Cost Accounting](#/s/CA/10?sec=10-2).',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: benchmarking — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'B.4')['b'].extend([{'note': '**Benchmarking** compares an organisation’s practices and performance with suitable '
+          'examples of best practice to identify improvements. In quality control, the '
+          'comparison helps locate weaknesses and improve processes; this is the term in '
+          '[September 2020 short answer 15](#/exams/2020-09/MAN?q=saq-15). It differs from '
+          'merely checking a product against its existing specification.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Supplement: bank_functions — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'D.10')['b'].extend([{'note': 'In the distinction tested by [September 2023 MCQ 15](#/exams/2023-09/MAN?q=mcq-15), '
+          '**credit creation** is a primary commercial-bank function alongside deposit-taking '
+          'and lending. Secondary functions include agency services and general utility '
+          'services. The question asks for the exception among secondary functions.',
+  'lbl': 'Past-paper supplement'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='A.10')['b'].extend([{'note': '**Job design** organises work elements and responsibilities into a job. **Job '
+          'analysis** examines an existing or proposed job to identify its duties, requirements '
+          'and working conditions. [September 2019 short answer '
+          '16](#/exams/2019-09/MAN?q=saq-16) asks for job design, not the analysis process '
+          'described above.',
+  'lbl': 'Past-paper distinction'}])

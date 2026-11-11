@@ -1942,3 +1942,12 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Explicit explanatory addition; original source remains above.
+next(s for s in CH['secs'] if s['n']=='13.8')['b'].extend([{'note': 'Older questions name the **Joint Tax Board** as approving a pension fund. The current '
+          'individual deduction in **NTA s.30(2)(a)(iii)** is for contributions under the '
+          '**Pension Reform Act**. Do not substitute the new Joint Revenue Board’s name '
+          'mechanically for the old pension-approval answer. [Primary '
+          'law](https://nass.gov.ng/documents/download/11249).',
+  'lbl': 'Addition — historical pension questions'}])

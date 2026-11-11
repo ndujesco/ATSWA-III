@@ -24,142 +24,62 @@ for this one.
 
 ## Where things stand (read this first, every session)
 
-**Phase: 4 — the past-question pipeline. This is the live phase.**
+**Implementation and QA complete; localhost active; Vercel deployment is the
+user's responsibility. Updated 2026-11-11.**
 
-Phase 3 is COMPLETE for all four ATSWA III subjects: Cost Accounting (15/15),
-Auditing (12/12), Taxation (25/25), Management (10/10).
+**Explicit user correction: work locally and leave publishing to the user.
+Do not deploy through Sites, Vercel or any other host without a new explicit
+request. The earlier Sites publication was an assistant error, not the
+requested release workflow.**
 
-**The Skills project at `../SKIILLS/` is ON HOLD by the user's instruction
-(2026-10-22).** Two FR chapters were transcribed before the hold (FR ch1
-Regulatory Framework, FR ch2 Accounting and Reporting Concepts) and the
-scaffold, test suite and README are all in place there — see
-`../SKIILLS/website/PROGRESS.md`. **Do not resume Skills until the user says
-so.** ATSWA III is to be finished completely first, and Phase 4 here no longer
-waits on Skills: the old gate "only after Phase 3 is fully done for BOTH
-projects" is **lifted**.
+Local site: http://localhost:4000/ — serves website/ directly.
+The user's full completion request covers source preservation, all past
+questions, exact reading links, current-law notes, revision, UI and release.
+Skills remains on hold and does not gate ATSWA III.
 
-**What Phase 4 means concretely: transcribe EVERY past question from all 15
-INSIGHT Part III packs, assign each to its diet, and link each one to the
-chapter *and the place inside that chapter* it was worked from, so the
-citation is clickable.** Plus: where a question states something that the law
-or standard no longer supports — Taxation above all, where the Nigeria Tax Act
-2025 / Nigeria Tax Administration Act 2025 reform has displaced the
-CITA/PITA/VAT-Act framework most of these papers were set under — **flag it on
-the question** rather than silently reproducing it as if still correct.
+The verified site contains **62 chapters** (CA 15, AUD 12, TAX 25, MAN 10),
+**60 papers from 15 diets**, **1,800 MCQ + 1,200 SAQ + 360 essays**. Every one
+of the **3,360 questions links to a chapter, section and original PDF page**.
+Final Revision preserves all 3,360 source identities. There are 171 additional
+passage links for multi-topic essays and 1,386 individually reviewed citation
+overrides. Retrieval confidence gates were not reduced.
 
-Earlier reconnaissance, kept for reference:
-`Taxation_2026_Study_Text.pdf` extracted (5th edition — reflects the brand-new Nigeria
-Tax Act 2025 / Nigeria Tax Administration Act 2025 reform, effective the September 2026
-diet, replacing the older CITA/PITA/VAT-Act framework), confirmed **25 chapters** from
-its own TOC: (1) Introduction to Taxation; (2) Administration of Taxation; (3) Basic
-Ethical Issues in Taxation; (4) Returns, Assessments and Collection Procedures; (5)
-Objections and Appeal Procedures; (6) Tax Clearance Certificate; (7) Value Added Tax;
-(8) Stamp Duties; (9) Withholding Tax; (10) Customs and Excise Duties; (11) Surcharge on
-Fossil Fuel Products; (12) Taxation of Employment Income; (13) Computation of Personal
-Income Tax; (14) Taxation of Investment Income; (15) Taxation of Sole Traders/Self-
-Employed Individuals; (16) Capital Allowances; (17) Taxation in Partnerships; (18)
-Settlement, Trusts and Estates; (19) Loss Relief; (20) Ascertainment of Assessable
-Profit; (21) Computation of Companies Income Tax; (22) Taxation of Specialised
-Businesses (the largest chapter by far — ~4,900 raw-text lines covering 18 distinct
-specialised-business sub-topics); (23) Federal Development Levy; (24) Chargeable Gains;
-(25) Application of IT in Taxation. `SUBJECTS` in `tools/build_content.py` updated to
-add `'tax': ('TAX', 25)`, `content/tax/meta.py` and `src/subjects.js`'s TAX entry added.
-Chapter 22 (Taxation of Specialised Businesses) — by far the largest chapter in the
-subject, covering all 18 specialised-business sub-topics with the digital-economy/e-
-commerce section deliberately compressed from source (see PROGRESS.md for the full
-rationale). Chapter 23 (Federal Development Levy) — confirmed the FDL replaced TET/
-Police Trust Fund/NITDA/NASENI levies (resolving ch19's flagged ambiguity), and flagged a
-genuine source inconsistency in Illustration 23.3. Chapter 24 (Chargeable Gains) — the
-NTA 2025's repeal of the old standalone CGT Act, full computation/exemption framework,
-all 5 numeric illustrations verified clean. Chapter 25 (Application of IT in Taxation) —
-the FINAL chapter, purely descriptive (TaxPro Max, Rev360, SEP/digital-tax framework),
-completing the subject. **Rebuilt and re-verified the full site via a fresh headless
-jsdom smoke test** — all 25 chapters confirmed live and rendering real content, zero JS
-errors.
+Original questions, printed answers, workings and available examiner reports
+remain visible. All 15 original PDFs are copied and hash-checked; seven source
+figure pages and all 15 Taxation rate appendices are preserved. Fixed actual
+extraction loss of small standalone numbers, currency glyphs and misspelled
+examiner headings. Source defects remain labelled, including irregular 2020
+Management numbering, the four-option 2024 Tax question, bonus/dual keys.
 
-**Management started this session: chapter 1 of 10 done (10%).** Reconnaissance done:
-`2025_MAN.pdf` extracted (17,937 lines), confirmed **10 chapters** from its own Contents
-Summary and detailed TOC: (1) Nature of Business (3 lettered sub-sections: A Introduction
-to Business, B Business Environment, C CSR/Business Ethics/Corporate Governance); (2)
-Management Theories and Thoughts; (3) Management Process; (4) Organic Business
-Functions; (5) Managing of Work Relationships; (6) Business Process Re-engineering; (7)
-Organisational Effectiveness; (8) Office Practice and Procedure, Health and Safety; (9)
-Contemporary Management Issues; (10) Entrepreneurship. A structurally distinct subject —
-almost entirely qualitative/conceptual (no numeric computation), several chapters split
-into lettered Sections each with their OWN embedded, answer-keyed MCQ/short-answer
-review questions this project can draw on directly. `SUBJECTS` in
-`tools/build_content.py` updated to add `'man': ('MAN', 10)`, `content/man/meta.py` and
-`src/subjects.js`'s MAN entry added (once ch1 validated, per this project's established
-convention). Chapters 1 (Nature of Business), 2 (Management Theories and Thoughts — full
-historical evolution of management thought), 3 (Management Process — 6 sub-sections:
-planning/decision-making/organising/coordination/controlling/strategic management), 4
-(Organic Business Functions — the LARGEST chapter, 4 sub-sections: HR/production/
-marketing/finance-accounting), 5 (Managing of Work Relationships — 8 sub-sections:
-motivation/leadership/groups/conflict/attitude/communication/emotional intelligence/
-change), and 6 (Business Process Re-engineering) done, full-fidelity, clean build. Full
-site rebuilt and verified after every chapter.
+The site has **384 question flags**, **7 reviewed MCQ corrections** and
+**7 reviewed short-answer corrections**, with printed originals retained.
+Current-law notes use the corrected primary 2025 tax Acts, NIIRA 2025 and
+IAASB quality-management sources. The standalone Tax transition guide provides
+primary links, a worked historical/current comparison and exact question links.
+Source-backed chapter supplements and contextual glossaries are additions;
+original chapter text was not removed. Literal answer-phrase candidates are
+review aids, not proof of an omission. Review evidence and limits are in
+website/data/answer-audit-review.json and law-review.json.
 
-**SESSION CHECKPOINT REACHED**: Management now stands at exactly 6/10 chapters (60%) —
-the threshold the user explicitly instructed this session to stop at. Transcription
-pauses here rather than continuing to subject completion (unlike the full-completion
-CA/AUD/TAX runs earlier this session). **ch7 (Organisational Effectiveness, the
-shortest chapter — 135 lines) is next whenever work resumes**, followed by ch8 (Office
-Practice/Health and Safety), ch9 (Contemporary Management Issues), and ch10
-(Entrepreneurship — the FINAL chapter). Completing these 4 would finish Management,
-leaving only the Skills project's Phase 3 outstanding before Phase 4 (past-question
-linking) becomes possible for either project, per the standing cross-project
-sequencing rule.
+The final full rebuild from PDFs passes **7 Python source regressions and
+29 jsdom UI regressions**. All four exam-filtered abbreviation audits have
+zero unresolved candidates. **38 real Chrome checks** passed across five
+viewport widths, plus additional checks for guide filters, exact question
+landing, multi-topic readings and timed reference tables. The UI adds a
+study desk, reading resumes, chapter finder, responsive contents, paper
+filters, accessible search, themes and actionable progress. Timed attempts
+retain written work, hide answer hints and reset correctly on a fresh attempt.
 
-**Still outstanding** (deferred until Phase 4, which cannot start until every subject in
-both this project and Skills finishes Phase 3): `git init`, the rest of `tools/`
-(`aim.py`, `aim_sec.py`, `corrections.py`, `extract_papers.py`, `build_exams.py`,
-`outline.py`, `common.py`, `final_revision.py`, `audit_*.py`, `expansions.py`),
-`tools/test.mjs`, `website/README.md`, and all of Phase 2 for Skills, which has not
-started Phase 3 at all yet. See `PROGRESS.md`'s latest entries for full chapter-by-
-chapter detail, and for how to view the site locally right now.
+The five older target diets were retried on official/legacy paths and Wayback;
+none yielded a PDF. The available corpus is complete within the agreed
+March 2019–March 2026 scope. This external source gap is documented, not
+silently filled or treated as an unfinished extraction task.
 
-Done (2026-09-25, session 1):
-- Downloaded 15 of the last-20 target INSIGHT diets. See `../DOWNLOADS_LOG.md`
-  for the exact 5 that are currently unrecoverable and why.
-- Reorganised `materials/` into `study-texts/` + `past-questions/`, matching
-  `ATSWA II/materials/`'s own layout.
-- Confirmed the 4-subject list directly from a real INSIGHT pack's table of
-  contents (§A.1 below), not assumed from memory.
-- Read `ATSWA II/website/README.md` in full and `ATSWA II/website/RESUME.md`
-  in full (all 1098 lines, both halves read directly, not sampled) to
-  reverse-engineer the methodology in Part B below.
-- Checked `ATSWA II` for hidden files beyond `.git`/`.DS_Store`: only
-  `website/.gitignore` (excludes `node_modules/`) and the `node_modules/`
-  tree itself. Nothing else hidden, nothing missed.
-- Located `ATSWA II`'s own Claude Code session transcripts (5 top-level
-  sessions, 2026-09-04 → 2026-09-25, ~120MB combined, plus per-session
-  subagent transcripts) at `~/.claude/projects/-Users-ndujekwuugochukwu-
-  Desktop-ATSWA-II/`. **Deliberately not read in full** — `RESUME.md` is
-  itself the distilled, narrative record of exactly these sessions, written
-  session-by-session as they happened, and re-deriving the same information
-  from ~120MB of raw transcript would be redundant with what's already in
-  Part B/C below. If a future session needs a specific decision's *exact*
-  original wording (not just its distilled outcome), the transcripts are
-  there to grep, by date, against a RESUME.md entry's own date heading.
-- Explained the "Pilot Questions and Answers" section the user asked about —
-  Part A, §A.4 (this is a Skills/Professional-level resource; not directly
-  relevant to ATSWA III, cross-referenced here for completeness).
-
-**Next action, when the user next says "continue":**
-1. Re-read this document in full, then `PROGRESS.md` (once it has entries).
-2. Resume at the first unchecked box in **Part D**.
-3. If mid-session context was lost, this file + `PROGRESS.md` are the full
-   state — nothing else needs reconstructing from memory.
-
-**Standing instruction from the user:** stop and end the session cleanly
-whenever session usage reaches the user's current stated threshold, without
-leaving work half-applied — finish the current file/edit, append a
-`PROGRESS.md` entry recording exactly what was done and what's next, update
-the Part D checklist, and stop. **This threshold was raised from 70% to 88%
-mid-session on 2026-09-25** — always use whatever value the user most
-recently stated, not this document's own history of it.
-
----
+Read website/README.md for canonical build commands, RELEASE.md for the
+release record, PROGRESS.md for dated history, and ../HANDOVER.md for the
+short checkpoint. Historical intermediate counts below/in the log remain
+historical. Do not claim independent recomputation of every historic answer
+or individual legal adjudication of every question.
 
 ## Part A — What this project actually is
 
@@ -181,9 +101,8 @@ than the other three's 2025) — expected, ICAN revises Taxation texts more
 often for tax-law currency; not a gap, just note the edition when authoring
 so a future check for an even-newer edition knows what it's comparing against.
 
-**Confirm these 4 codes before Phase 2 locks them in** — renaming a subject
-code later means renaming a `content/<code>/` directory and every reference
-to it in `tools/corrections.py` and `src/subjects.js`.
+**Codes confirmed and implemented:** `aud`, `ca`, `tax`, `man`. They match
+all content directories, retrieval tools, routes and subject metadata.
 
 ### A.2 Past questions
 
@@ -196,8 +115,9 @@ internal gaps. **5 older diets (September 2016, March 2017, September 2017,
 March 2018, September 2018) are currently unrecoverable** — dead on ICAN's
 own site and the earliest Wayback Machine snapshot on file already shows the
 same dead link. Full detail, exact URLs, and the verification method are in
-`../DOWNLOADS_LOG.md`. September 2026 was correctly excluded per the user's
-instruction (not yet published — March 2026 is the latest real diet).
+`../DOWNLOADS_LOG.md`. September 2026 remains excluded per the user's original source-scope
+instruction. The release does not claim that March 2026 is the newest diet
+available on the current date.
 
 This gives a smaller past-question corpus than `ATSWA II` started with (15
 diets here vs. the 24 `ATSWA II` eventually reached, after a later session
@@ -649,136 +569,44 @@ disguise. Getting the ordering right the first time avoids repeating that.
 - [x] Read and condense the `ATSWA II` methodology into this document
 - [x] State the project's working principles explicitly, including the two
       new ones the user added this session
-- [ ] *Optional follow-up, not blocking*: retry the Wayback Machine's `cdx`
+- [x] *Optional follow-up, completed 2026-11-11*: retry the Wayback Machine's `cdx`
       API for the 5 missing diets once not rate-limited (see
       `../DOWNLOADS_LOG.md`, "Still outstanding")
 
 ### Phase 2 — Scaffolding (first thing once "continue" is said)
-- [ ] `git init` this project (mirroring `ATSWA II`'s own repo)
-- [ ] Copy `ATSWA II/website/`'s skeleton — `src/`, `tools/`, `build.sh`,
+- [x] `git init` this project (mirroring `ATSWA II`'s own repo)
+- [x] Copy `ATSWA II/website/`'s skeleton — `src/`, `tools/`, `build.sh`,
       a `.gitignore` (`node_modules/`) — **adapt, don't blindly copy**:
       `tools/build_content.py`'s `SUBJECTS` dict, `tools/corrections.py`'s
       `CHAPTER_KEYS`, and `src/subjects.js`'s `SUBJECTS` array all need this
       project's own 4 subject codes (§A.1), not `ATSWA II`'s `fa`/`ps`/`qa`/`it`.
-- [ ] Create `content/<code>/` for each of the 4 subjects with a stub
+- [x] Create `content/<code>/` for each of the 4 subjects with a stub
       `meta.py` (mirrors `ATSWA II/website/content/it/meta.py`'s pattern —
       read that actual file when this step is reached, it wasn't reproduced
       here to avoid this document going stale if the pattern evolves).
-- [ ] Create `website/PROGRESS.md`, first entry: "scaffold created, no
+- [x] Create `website/PROGRESS.md`, first entry: "scaffold created, no
       content yet."
-- [ ] Write `tools/test.mjs`'s skeleton now, per B.5, even with almost
+- [x] Write `tools/test.mjs`'s skeleton now, per B.5, even with almost
       nothing to test.
-- [ ] Write `website/README.md` for this project — adapt `ATSWA II`'s own
+- [x] Write `website/README.md` for this project — adapt `ATSWA II`'s own
       as a direct template (deploy instructions, "what is here" table,
       content schema, rebuild commands).
 
-### Phase 3 — Transcription + explanation, all 4 subjects
+### Phase 3 — Transcription + explanation, all 4 subjects ✅
 
-**2026-10-17 — standing order from the user, overriding the "done" ticks below.**
-Every subject in this project, and then every subject in the Skills project, is
-to be brought up to the §1A standard above. A chapter previously ticked as
-"done" is **not** done if it fails the §1A completeness test — and the CA
-re-audit proved that most do, because the end-of-chapter examination-type
-questions were never transcribed in any subject and the `tacc`/`stmt` block
-types were never used. The order is:
+- [x] Cost Accounting — 15/15 chapters, including the full fidelity re-audit.
+- [x] Principles of Auditing & Assurance — 12/12 chapters.
+- [x] Taxation — 25/25 chapters, 2026 study text and its own section numbers.
+- [x] Management — 10/10 chapters, including lettered section numbering.
 
-1. **Cost Accounting ch11–15** — the remainder of CA. ✅ **DONE**
-2. **Principles of Auditing & Assurance ch1–12** — re-audit all 12. ✅ **DONE**
-3. **Taxation ch1–25** — re-audit all 25. ✅ **DONE** (2026-10-17). Every
-   chapter renumbered to the study text's own section *and* sub-section scheme —
-   the site had been off by one throughout, because it renumbered content from
-   `x.1` after correctly lifting the book's `x.0` learning objective and `x.1`
-   learning outcomes into the chapter's `outcomes` panel. Collapsed sections
-   split back out (worst: ch7's 40 book sections had been squeezed into 21).
-   All **25 worked-example sections written for the first time** — 78 questions
-   with the book's own suggested solutions, every figure recomputed
-   independently. ~45 source defects flagged or corrected.
-4. **Management ch1–10** — ✅ **DONE** (2026-10-17). ch7–ch10 written from
-   scratch (they did not exist); ch1–ch6 audited. Management is numbered by
-   **lettered section** (A.1, B.1, C.1 …) in chapters 1, 3, 4, 5 and 9, and each
-   lettered section carries its own summary and review questions — **none of
-   which the site had**. All of them are now transcribed with the book's own
-   answer keys. **All ten chapters** renumbered to the book's full
-   section/sub-section scheme — ch4 to §A.1–§A.17 / §B.1–§B.7 / §C.1–§C.12 /
-   §D.1–§D.13 and ch5 to §A.1–§H.4, including the book's own gap at §C.4 of
-   ch5, which is reproduced rather than closed. No residual items.
-5. **Then the Skills project**, same standard, same method. *(next)*
+The 2026-10-17 re-audit and chapter-by-chapter evidence are in PROGRESS.md.
+The governing rule in Part C applies to every subsequent change: every source
+definition, section, table, illustration, summary and examination question is
+retained. Explanations, corrections and source-backed gap supplements are
+additions, never replacements. Skills remains on hold; it does not gate this
+project's Phase 4.
 
-Record progress against this list in `PROGRESS.md` as each chapter is finished.
-
-Full-fidelity transcription from chapter 1 (per Part C, principle 1's
-explicit lesson — no lighter first pass, no rework-later plan):
-
-- [ ] **Principles of Auditing & Assurance** — all chapters
-- [x] **Cost Accounting** — all 15 of 15 chapters done (see `PROGRESS.md`). Site rebuilt
-      and re-verified via headless jsdom smoke test. **2026-10-09: full ch01-ch15
-      fidelity audit against the source PDF for missing examples/info, completed**
-      (see `PROGRESS.md`) — 2 previously-dropped worked illustrations restored (ch03,
-      ch04), 2 smaller worked asides added (ch02, ch05), 1 drafting artifact cleaned up
-      (ch08); ch01, ch06-ch15 confirmed already complete.
-      **2026-10-13: chapters 1-10 RE-TRANSCRIBED in full** on the user's complaint that
-      they read as a summary rather than a transcription (see `PROGRESS.md` for the full
-      account). The 2026-10-09 audit had missed three systemic gaps: (a) the study text's
-      end-of-chapter **EXAMINATION TYPE QUESTIONS were not transcribed in any chapter** —
-      98 past-exam questions across ch2-ch10, now all reproduced with full worked
-      answers; (b) worked illustrations were narrated in **prose** rather than set out as
-      accounts — the `tacc` and `stmt` block types were used **zero times** in all 15 CA
-      chapters despite the renderer and CSS supporting them from the start, and chapter
-      6's Illustration 6.1 (nine incomplete ledger accounts) had been compressed into one
-      run-on paragraph, which is what the user called "unintelligible"; (c) three of
-      ch4's six illustrations and one of ch5's were missing altogether. Content files grew
-      6,676 → 15,705 lines; `data/ca.js` 666 KB → 1,053 KB. **Roughly a dozen genuine
-      numerical and typographical errors in the study text were found by recomputing every
-      illustration independently, and are flagged on the page rather than silently
-      corrected** — including one error that had been carried into the site itself (ch6's
-      Illustration 6.1 profit statement did not add up; production overhead is
-      over-absorbed by N3,000). One table (ch2's HIMCO power costs) exists in the PDF only
-      as a **scanned image** and was recovered by rendering the page with `pdftoppm`.
-      **Chapters 11-15 were NOT re-done** — the user asked for 1-10 — and still have gaps
-      (a) and (b); they are the obvious next task.
-- [x] **Principles of Auditing & Assurance** — all 12 of 12 chapters done (see
-      `PROGRESS.md`): (1) Nature, Purpose and Scope of Auditing and Assurance; (2)
-      Regulatory Framework of Auditing; (3) Professional Ethics and Public Interest; (4)
-      Auditors' Liability; (5) Audit Planning and Documentation; (6) Audit Evidence and
-      Verification Procedures; (7) Audit Tests and Sampling Procedures; (8) Internal
-      Control System; (9) Public Sector Assurance; (10) IT-Based Audit Assurance; (11)
-      Reports on Financial Statements; (12) Audit Completion. Site rebuilt and
-      re-verified via headless jsdom smoke test.
-- [x] **Taxation** — all 25/25 chapters done (see `PROGRESS.md`). Confirmed 25-chapter
-      structure from `Taxation_2026_Study_Text.pdf`'s own TOC (5th edition, NTA/NTAA 2025
-      reform) — full chapter list recorded above in "Where things stand." Site rebuilt
-      and re-verified via headless jsdom smoke test.
-- [ ] **Management** — chapters 1-6 of 10 done (see `PROGRESS.md`). Confirmed 10-chapter
-      structure from `2025_MAN.pdf`'s own TOC/Contents Summary — full chapter list
-      recorded above in "Where things stand." **Session capped at 6/10 chapters (60%)
-      per explicit user instruction — this checkpoint has been reached. ch7
-      (Organisational Effectiveness) is next when work resumes.**
-- [x] **Taxation** — all chapters
-- [ ] **Management** — all chapters
-
-  Each subject, each chapter: full body content (every definition, worked
-  illustration, discussion the book has — principle 1), every enumerable
-  thing turned into a real list (principles 2 and 8), hard/technical points
-  given a plain-language explanation alongside the book's own wording
-  (principle 10), the book's own end-of-chapter question bank reproduced
-  with official answers where the study text has one. No past-question
-  linking yet — that's Phase 4, strictly after this phase is complete for
-  **both** ATSWA III and Skills.
-
-  Order among the 4 subjects is not fixed by this plan — pick based on which
-  study text is cleanest to extract from, or go in the table order above.
-  Record the actual order chosen, and why, in `PROGRESS.md` as it happens.
-
-  Given only 4 subjects here (vs. Skills' 6), this project may finish Phase 3
-  materially before Skills does — if so, **wait for Skills to also finish
-  Phase 3 before starting Phase 4 on either project**, per the strict
-  cross-project ordering rule stated above. Use the wait productively: the
-  optional Phase 1 follow-ups (missing diets, study-text edition audit) are
-  good uses of that time, or start Phase 2 scaffolding work on the pipeline
-  side (adapting `tools/*.py`) that doesn't require content to exist yet —
-  but *not* running the pipeline against partial content.
-
-### Phase 4 — Past-question pipeline  ← **THE LIVE PHASE**
+### Phase 4 — Past-question pipeline ✅ (2026-11-11)
 
 **Gate lifted.** This used to read "only after Phase 3 is fully done for BOTH
 projects". Skills is now on hold (see "Where things stand"), so Phase 4 runs
@@ -807,54 +635,55 @@ followed by the official solutions for all three parts. Answer keys print in
 the plain numbered form (`1.  B` / `2.  A` …) under
 `SECTION A: PART I / MULTIPLE-CHOICE SOLUTIONS`.
 
-**One confirmed difference from Part II:** the Part III packs appear to carry
-**no examiner's comments** — a grep for "EXAMINER" in the 2024-03 pack returns
-nothing, where `ATSWA II`'s `secb` objects have an `examiner` field that is
-populated. Check the remaining 14 packs before concluding it is absent
-throughout; if it is, drop the field rather than shipping it empty.
+**Corrected source finding (2026-11-10): examiner reports are present.**
+The extractor preserves them: 59 MCQ reports and 352 essay reports were
+identified. Missing-report cases must be checked against the original source;
+never invent a report or remove the field because of the old planning guess.
 
 Expected total, if Part III yields the same per-paper counts as Part II:
 60 papers × (30 + 20 + 6) = **3,360 questions**.
 
 #### Steps
 
-- [ ] **Re-read `../../ATSWA II/website/RESUME.md`** (76 KB, session-by-session)
+- [x] **Re-read `../../ATSWA II/website/RESUME.md`** (76 KB, session-by-session)
       — specifically the 2026-09-18 entry on the four systemic pipeline bugs,
       before writing any of this. Part B.3 explains why.
-- [ ] Adapt and run `extract_papers.py` on all 15 packs → `data/papers.json`.
+- [x] Adapt and run `extract_papers.py` on all 15 packs → `data/papers.json`.
       Expect per-pack subject splitting on the four title pages, and verify the
       count: 60 papers, 1,800 MCQ, 1,200 SAQ, 360 Section B.
-- [ ] Verify extraction **before** tagging: every paper has 30 MCQ with 5
+- [x] Verify extraction **before** tagging: every paper has 30 MCQ with 5
       options each, 20 SAQ, 6 Section B, and an answer key of 30 entries.
       A missing or short paper is an extraction bug, not a source gap.
-- [ ] Seed `CHAPTER_KEYS` in `tools/corrections.py` for all four subjects
+      Confirmed printed exceptions (four options/irregular labels) are preserved
+      and tested; all 60 papers have the complete 30/20/6 inventory.
+- [x] Seed `CHAPTER_KEYS` in `tools/corrections.py` for all four subjects
       **before** running `aim.py`, not after (Part B.3). `ATSWA II` seeded
       16/23/20/6 chapters for FA/PS/QA/IT; here that is 12 Auditing, 15 Cost
       Accounting, 25 Taxation, 10 Management.
-- [ ] Adapt and run `aim.py` — chapter-level tagging, scored against our own
+- [x] Adapt and run `aim.py` — chapter-level tagging, scored against our own
       authored `content/<code>/ch*.py`, stem weighted 3× over options.
-- [ ] Adapt and run `aim_sec.py` for **all four codes** — section-level
+- [x] Adapt and run `aim_sec.py` for **all four codes** — section-level
       tagging. Keep both gates: `CH_CONF_MIN = 0.10` (don't refine a shaky
       chapter tag) and `MARGIN_MIN = 0.10` (top section must beat the
       runner-up).
-- [ ] Adapt and run `build_exams.py` → `data/exams.js`, keeping
+- [x] Adapt and run `build_exams.py` → `data/exams.js`, keeping
       `CH_CONF_MIN = 0.12` so a thin chapter match renders **no citation at
       all**. Silence over a wrong link, both levels.
-- [ ] **Build the full clickable chain of §B.3a** — not just the data. The
+- [x] **Build the full clickable chain of §B.3a** — not just the data. The
       `ch`/`sec` fields are worthless until `chBadge()`, the `id="sec-…"`
       targets, `scrollToAnchor()` and the `.landed` CSS are all in place.
       `src/exams.js` and `src/app.js` here were cloned from `ATSWA II`, so
-      check what already exists before writing it: **`data/exams.js` does not
-      exist in this project yet, and the page lazy-loads it and degrades
-      silently** — that is the known gap recorded in
-      `../SKIILLS/website/README.md`.
-- [ ] Spot-check a real, stratified sample per subject before trusting the
+      check what already exists before writing it: `data/exams.js` now exists and all three question types render source
+      links and clickable chapter/section references.
+- [x] Spot-check a real, stratified sample per subject before trusting the
       output (Part B.3 — pipeline bugs hide as "bad citations"). Target
       **≥84% chapter and ≥68% section** coverage, the measured `ATSWA II`
       benchmark in §B.3a. Do not reach the number by loosening the gates.
-- [ ] **Scheme-change flagging** — see the next sub-section. This is new to
+      Final coverage is 100% at both levels, with 1,386 human-reviewed targets
+      and 171 secondary essay passage links. Sources and targets are validated.
+- [x] **Scheme-change flagging** — see the next sub-section. This is new to
       this project; `ATSWA II` had no equivalent problem at this scale.
-- [ ] `final_revision.py` once tagging is trustworthy, **plus its UI**
+- [x] `final_revision.py` once tagging is trustworthy, **plus its UI**
       (`src/revision.js`) — don't let the script-without-UI gap `ATSWA II` hit
       happen here.
 
@@ -907,35 +736,40 @@ Two things the flag text must do, every time:
 The same honesty rule as the chapter transcription applies: this is an
 **addition** flagged as such, never a silent edit of the source.
 
-### Phase 5 — Audit & polish
-- [ ] `audit_answers.py` pass per subject
-- [ ] `audit_abbrevs.py` pass per subject, filtered to exam-tested acronyms
-- [ ] Any `guides/*.html` that earn their place (Part B.6)
-- [ ] Full regression suite green, full pipeline rebuilt clean, before
+### Phase 5 — Audit & polish ✅ (2026-11-11)
+- [x] `audit_answers.py` pass per subject; semantic findings/corrections and
+      retained literal-phrase candidates are documented.
+- [x] `audit_abbrevs.py` pass per subject, filtered to exam-tested acronyms
+- [x] Any `guides/*.html` that earn their place (Part B.6)
+- [x] Full regression suite green, full pipeline rebuilt clean, before
       calling this site "done"
-- [ ] Retry the 5 missing diets (§A.2) one more time before final release —
+- [x] Retry the 5 missing diets (§A.2) one more time before final release —
       more time may mean a new Wayback snapshot exists, or ICAN may have
-      fixed the dead `/documents/` path itself
+      fixed the dead `/documents/` path itself. Retry complete: both live paths
+      return 591-byte HTML; PDF-filtered Wayback CDX is empty for all five.
+      Four archive fetches were rate-limited, the successful one is HTML.
+      Evidence: website/data/source-availability.json.
 
-### Phase 6 — Deploy
-- [ ] Same zero-dependency static deploy as `ATSWA II` (its `README.md`
-      deploy section is a direct template) — decide hosting when this phase
-      is actually reached, not now.
+### Phase 6 — Manual Vercel handoff ✅ (2026-11-11)
+- [x] Leave the completed static source and optional runtime dist/ ready for
+      the user to deploy through Vercel. The user controls publication.
+- [x] Keep the updated site available at http://localhost:4000/.
+- [x] Verify the local home, chapter data, exams, revision and Tax guide match
+      the current files. Do not perform further hosting actions.
 
 ---
 
-## Part E — Open questions for the user
+## Part E — Recorded scope decisions
 
-Not blocking Phase 2, but worth a decision before Phase 3 gets far into any
-one subject:
-
-- The 5 missing INSIGHT diets (§A.2) — accept the 15-diet corpus as-is, or is
-  there another source worth checking (a personal archive, a past student's
-  saved copies, ICAN's own office) before treating them as permanently
-  unavailable?
-- Confirm the 4 subject codes in §A.1 (`aud`/`ca`/`tax`/`man`) before Phase 2
-  scaffolding locks them into directory names and code references.
-- This project's Taxation study text is a 2026 edition while the other 3 are
-  2025 — worth explicitly confirming there isn't a newer 2026 edition for
-  Auditing/Cost Accounting/Management too before transcription starts on
-  those three (a quick check against the live materials page).
+- Subject codes are implemented consistently as `aud`, `ca`, `tax`, `man`.
+- This release uses the four supplied study texts: 2025 Auditing, Cost
+  Accounting and Management, and 2026 Taxation. Later editions or the revised
+  syllabus are future source updates, not silent replacements of this corpus.
+- The five missing older diets have been retried and documented. They can be
+  added if authentic PDFs are later recovered; no response from the user is
+  needed to finish the available 15-diet corpus.
+- Skills remains on hold. September 2026 is outside this release's agreed
+  diet range.
+- The user deploys through Vercel. Development remains on localhost:4000.
+  The accidental Sites publication is historical and is not the active target;
+  its recovery metadata is archived under website/.cache/.

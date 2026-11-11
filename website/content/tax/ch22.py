@@ -5370,3 +5370,27 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Supplement: pioneer_bridge — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '22.2')["b"].extend([{'h4': 'Past-paper bridge — pioneer status and the current incentive'},
+ {'p': 'Older papers use **pioneer status**, **pioneer certificate** and **tax holiday**, '
+       'including [September 2021, MCQ 15](#/exams/2021-09/TAX?q=mcq-15) and [short answer '
+       '15](#/exams/2021-09/TAX?q=saq-15). A tax holiday means a stated period of exemption in the '
+       'historical regime; preserve the period and authority printed in the original question.'},
+ {'warn': 'For current law, Chapter Eight of the [Nigeria Tax Act '
+          '2025](https://nass.gov.ng/documents/download/11249) provides the **economic development '
+          'incentive certificate** and tax-credit framework for priority sectors. The old pioneer '
+          'holiday is not the name or computation of a new certificate under that framework. '
+          'Sections 165–183 and the transitional provisions must be applied to a current case. '
+          'This is a bridge to the historical paper, not an assertion that its old answer is '
+          'current.'}])
+
+
+# Past-paper supplement; retain the original text above.
+next(s for s in CH['secs'] if s['n']=='22.2')['b'].extend([{'note': 'A **cottage industry** conducts production mainly at home or on a small household '
+          'scale rather than in a conventional factory. [March 2025 short answer '
+          '16](#/exams/2025-03/TAX?q=saq-16) asks for that business description. The label alone '
+          'does not establish a current tax exemption: the conditions of the actual incentive or '
+          'relief still have to be met.',
+  'lbl': 'Past-paper terminology'}])

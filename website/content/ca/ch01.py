@@ -739,3 +739,27 @@ CH = {
     ], 'src': 'Chapter 1.2', 'sec': '1.2'},
   ]},
 }
+
+
+# Supplement: information_quality — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '1.3.7')["b"].extend([{'p': '[March 2022, MCQ 4](#/exams/2022-03/CA?q=mcq-4) tests these qualities of good '
+       'cost-accounting information:'},
+ {'ul': ['**Timeliness** — information reaches the decision maker when it can still be used.',
+         '**Accuracy** — the figures and calculations are sufficiently correct for the decision.',
+         '**Cost effectiveness** — the benefit of obtaining information justifies its cost.',
+         '**Robustness** — the information remains dependable for the purpose and conditions in '
+         'which it is used.']},
+ {'note': 'The printed key identifies “Tax consciousness” as the exception in that question. This '
+          'does not mean tax information is never relevant; it distinguishes the listed '
+          'information-quality criteria from a particular reporting subject.',
+  'lbl': 'Past-paper supplement'}])
+
+# Past-paper addition: preserve the study text's methods/techniques list above.
+next(s for s in CH['secs'] if s['n'] == '1.3.3')['b'].extend([
+    {'note': '**Uniform costing** is the use by different organisations of a common '
+             'set of costing principles and procedures, allowing meaningful inter-firm '
+             'comparison of costs and performance. It does not mean that the firms '
+             'must have identical technology. [September 2023 MCQ 23]'
+             '(#/exams/2023-09/CA?q=mcq-23) tests this distinction.',
+     'lbl': 'Past-paper supplement'},
+])

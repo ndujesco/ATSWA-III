@@ -1778,3 +1778,15 @@ CH = {
     ], 'src': 'Chapter 4.6', 'sec': '4.6'},
   ]},
 }
+
+
+# Supplement: co_partnership — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '4.3')["b"].extend([{'h4': 'Past-paper supplement — co-partnership'},
+ {'p': '[March 2021, short answer 11](#/exams/2021-03/CA?q=saq-11) names **co-partnership** as the '
+       'monetary incentive scheme that allows workers to participate in the business. The three '
+       'aspects stated in that question are:'},
+ {'ul': ['a share in capital;', 'a share in profit;', 'a share in control of the business.']},
+ {'note': 'This is participation in the business, rather than simply a premium paid for completing '
+          'an individual job quickly. The source answer supplies an exam-tested term not otherwise '
+          'named in this chapter.',
+  'lbl': 'Source-backed addition'}])

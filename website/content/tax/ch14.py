@@ -1356,3 +1356,12 @@ CH = {
                                                    ],
                   },
 }
+
+next(s for s in CH['secs'] if s['n'] == '14.5')['b'].append(
+    {'note': 'A loan’s **repayment period** or **tenor** is its agreed duration '
+             'for repayment. [September 2022 MCQ 24]'
+             '(#/exams/2022-09/TAX?q=mcq-24) keys “repayment period”. Distinguish '
+             'that duration from a **moratorium**, during which repayment is '
+             'deferred, and from an interest-tax **exemption period**. These '
+             'terms matter when reading the conditions for an interest exemption.',
+     'lbl': 'Past-paper terminology'})

@@ -7,11 +7,42 @@
 
   function key(k) { return A.PK + 'quiz:' + k; }
 
+  function keyInfo(answer) {
+    var value = String(answer || '').toUpperCase();
+    var bonus = value === 'BONUS';
+    var accepted = bonus ? [] : value.split(/[/&]/).map(function (letter) {
+      return letter.length === 1 ? 'ABCDE'.indexOf(letter) : -1;
+    }).filter(function (n) { return n >= 0; });
+    return { a: accepted.length ? accepted[0] : -1, accepted: accepted, bonus: bonus };
+  }
+  function correct(q, picked) {
+    return q.bonus || (q.accepted ? q.accepted.indexOf(picked) >= 0 : picked === q.a);
+  }
+  function answerLabel(q) {
+    return q.bonus ? 'Bonus mark' : (q.accepted || [q.a]).map(function (n) {
+      return 'ABCDE'[n];
+    }).join(' or ');
+  }
+  function flagHTML(flag) {
+    return flag ? '<div class="flagbox"><div class="lbl">Check this</div>' + R.inl(flag) + '</div>' : '';
+  }
+  ATSWA.keyInfo = keyInfo;
+  ATSWA.flagHTML = flagHTML;
+  ATSWA.sourceFigures = function (figures) {
+    return (figures || []).map(function (figure) {
+      return '<details class="source-figure"><summary>' + A.esc(figure.alt) +
+        ' (source page ' + figure.page + ')</summary><a href="' + figure.src +
+        '"><img loading="lazy" src="' + figure.src + '" alt="' + A.esc(figure.alt) + '"></a></details>';
+    }).join('');
+  };
+
   function normPast(q, ans, label) {
+    var useKey = q.studyKey || ans;
     return {
-      q: q.stem, o: q.options, a: 'ABCDE'.indexOf(ans),
+      q: q.stem, o: q.options, a: keyInfo(useKey).a, accepted: keyInfo(useKey).accepted, bonus: keyInfo(useKey).bonus,
+      studyCorrection: !!q.studyKey, printedKey: q.studyKey ? ans : '',
       pre: q.pre || [], src: label, past: true, w: q.w || '', calc: q.calc || '',
-      flag: q.flag || '', sec: q.sec || ''
+      flag: q.flag || '', sec: q.sec || '', sourceFigures: q.sourceFigures || []
     };
   }
 
@@ -38,6 +69,8 @@
           var built = normPast(q, ans, p.name + ' &middot; Q' + q.n);
           built.w = (exams.notes[p.diet + '/' + p.subject + '/mcq/' + q.n] || '');
           built.flag = (exams.flags[p.diet + '/' + p.subject + '/mcq/' + q.n] || '');
+          built.original = A.sourceLink(p, q.sourcePage, 'Open the original question');
+          built.referenceTables = p.referenceTables || [];
           mcq.push(built);
         });
       });
@@ -50,21 +83,26 @@
           if (q.ch !== n || !q.ans) return;
           theory.push({
             q: q.body.join(' '), marks: 1, short: true,
-            a: [{ p: '**' + q.ans.join(' ') + '**' }],
-            src: p.name + ' &middot; Short answer ' + q.n, pre: q.pre || [], sec: q.sec || ''
+            a: [{ p: '**' + (q.studyAns || q.ans).join(' ') + '**' }],
+            src: p.name + ' &middot; Short answer ' + q.n, pre: q.pre || [], sec: q.sec || '',
+            flag: exams.flags[p.diet + '/' + code + '/saq/' + q.n] || '', sourceFigures: q.sourceFigures || [],
+            original: A.sourceLink(p, q.sourcePage, 'Open the original question'), referenceTables: p.referenceTables || []
           });
         });
       });
       exams.papers.forEach(function (p) {
         if (p.subject !== code) return;
         p.secb.forEach(function (b) {
-          if (b.ch !== n || !b.solution || !b.solution.length) return;
+          var ref = A.questionReference(b, n);
+          if (!ref || !b.solution || !b.solution.length) return;
           var a = [{ pre: b.solution.join('\n') }];
           if (b.examiner && b.examiner.length) a.push({ note: b.examiner.join(' ') });
           theory.push({
             q: 'Section B &middot; Question ' + b.n + ' &mdash; the full text is above.',
             marks: 12.5, pre: b.q || [], a: a,
-            src: p.name + ' &middot; Question ' + b.n, sec: b.sec || ''
+            src: p.name + ' &middot; Question ' + b.n, ch: n, sec: ref.sec || '', readings: b.readings || [],
+            flag: exams.flags[p.diet + '/' + code + '/secb/' + b.n] || '', sourceFigures: b.sourceFigures || [],
+            original: A.sourceLink(p, b.sourcePage, 'Open the original question'), referenceTables: p.referenceTables || []
           });
         });
       });
@@ -80,7 +118,7 @@
     var useCh = q.ch || ch;
     if (q.sec && code && useCh) {
       return '<a class="cite"' + sty + ' href="#/s/' + code + '/' + useCh + '?sec=' +
-        String(q.sec).replace(/\./g, '-') + '">' + label + ' &rarr;</a>';
+        String(q.sec).replace(/\./g, '-') + '">' + label + ' &rarr;</a>' + A.relatedReadings(q, code);
     }
     return '<div class="cite"' + sty + '>' + label + '</div>';
   }
@@ -105,10 +143,11 @@
   function tally() {
     var r = 0, w = 0, l = 0;
     Q.mcq.forEach(function (q, i) {
+      if (q.bonus) { r++; return; }
       if (Q.s.look[i]) { l++; return; }
       var a = Q.s.ans[i];
       if (a === undefined) return;
-      if (a === q.a) r++; else w++;
+      if (correct(q, a)) r++; else w++;
     });
     return { r: r, w: w, l: l, done: r + w + l, n: Q.mcq.length };
   }
@@ -117,13 +156,16 @@
   V.quiz = function (code, n) {
     var s = A.subOf(code);
     if (!s) return V.home();
+    var request = location.hash;
     A.loading('Quiz');
     A.need(code, s.file, function (d) {
+      if (location.hash !== request) return;
       if (!d) return V.subject(code);
       var c = null;
       d.chapters.forEach(function (x) { if (x.n === n) c = x; });
       if (!c) return V.subject(code);
       A.need('EXAMS', 'exams', function (ex) {
+        if (location.hash !== request) return;
         var built = chapterQuestions(code, n, c, ex);
         if (!built.mcq.length && !built.theory.length) {
           return A.h('<div class="wrap"><div class="col" style="padding:60px 0">' +
@@ -146,9 +188,11 @@
       key: cfg.key, title: cfg.title, back: cfg.back, code: cfg.code, ch: cfg.ch,
       mcq: cfg.mcq, theory: cfg.theory,
       s: load(cfg.key, cfg.mcq.length + cfg.theory.length),
-      exam: cfg.exam || false, deadline: cfg.deadline || 0
+      exam: cfg.exam || false, timed: !!cfg.exam, deadline: cfg.deadline || 0,
+      referenceTables: cfg.referenceTables || []
     };
     if (Q.s.i >= Q.mcq.length) Q.s.i = Math.max(0, Math.min(Q.s.i, Q.mcq.length - 1));
+    if (Q.exam && Q.deadline && Q.deadline <= Date.now()) { Q.s.phase = 'results'; save(); }
     draw();
   }
 
@@ -161,6 +205,9 @@
 
   function bar(extra) {
     var t = tally();
+    var current = Q.s.phase === 'theory' ? Q.theory[Q.s.ti || 0] : Q.mcq[Q.s.i];
+    var reference = (current && current.referenceTables) || Q.referenceTables;
+    if (reference && reference.length) extra = '<button class="btn sm" data-reference="1">Exam tables</button>' + (extra || '');
     if (Q.exam && Q.deadline) {
       var left = Q.deadline - Date.now();
       extra = '<span class="clock' + (left < 15 * 60000 ? ' low' : '') + '" id="clk">' +
@@ -185,7 +232,7 @@
     var opts = q.o.map(function (o, k) {
       var st = '';
       if (shown) {
-        if (k === q.a) st = 'ok';
+        if (!q.bonus && correct(q, k)) st = 'ok';
         else if (k === picked) st = 'no';
       } else if (k === picked) st = 'pick';
       if (!shown && k === picked) st = 'pick';
@@ -193,7 +240,7 @@
         (st ? ' data-s="' + st + '"' : '') + '>' +
         '<span class="bub">' + 'ABCDE'[k] + '</span>' +
         '<span class="tx">' + A.optText(o) + '</span>' +
-        (shown && k === q.a ? '<span class="mk">Correct</span>' :
+        (shown && !q.bonus && correct(q, k) ? '<span class="mk">Correct</span>' :
          shown && k === picked ? '<span class="mk">Your answer</span>' : '') +
         '</button>';
     }).join('');
@@ -201,14 +248,15 @@
     var why = '';
     if (shown) {
       why = '<div class="why"><div class="lbl">' +
-        (looked ? 'Answer' : (picked === q.a ? 'Why that is right' : 'Why the answer is ' +
-          'ABCDE'[q.a])) + '</div>' +
+        (looked ? 'Answer' : (correct(q, picked) ? 'Why that is right' :
+          (q.studyCorrection ? 'Reviewed answer: ' : 'Official answer: ') + answerLabel(q))) + '</div>' +
         (q.w ? R.blocks(typeof q.w === 'string' ? [{ p: q.w }] : q.w)
-             : '<p>The correct option is <b>' + 'ABCDE'[q.a] + '</b> — ' +
-               A.optText(q.o[q.a]) + '.</p>') +
+             : (q.bonus ? '<p>The official key awards one mark to every candidate, including an unanswered question.</p>' : '<p>The accepted answer is <b>' + answerLabel(q) + '</b> — ' + A.optText(q.o[q.a]) + '.</p>')) +
         (q.calc ? '<div class="calc">' + (typeof q.calc === 'string'
             ? R.blocks([{ tex: q.calc }]) : R.blocks(q.calc)) + '</div>' : '') +
-        citeHTML(q, Q.code, Q.ch) +
+        (q.printedKey ? '<p class="printed-key-note">The source prints ' + A.esc(q.printedKey) +
+          '. Study scoring follows the reviewed correction explained above.</p>' : '') +
+        citeHTML(q, Q.code, Q.ch) + (q.original || '') + A.sourceFigures(q.sourceFigures) +
         '</div>';
     }
 
@@ -220,8 +268,7 @@
       '<span class="sr">' + (i + 1) + ' of ' + Q.mcq.length + '</span></div>' +
       citeTop(q, Q.code, Q.ch) +
       A.preBlock(q.pre) +
-      (q.flag ? '<div class="flagbox"><div class="lbl">Check this</div>' +
-                R.inl(q.flag) + '</div>' : '') +
+      (!Q.exam ? flagHTML(q.flag) : '') +
       '<div class="qstem">' + A.stemHTML(q) + '</div>' +
       '<div class="opts">' + opts + '</div>' +
       (!shown && !Q.exam
@@ -267,16 +314,16 @@
       'text-transform:uppercase;color:var(--accent)">' +
       (t.short ? 'Short answer' : 'Theory') + '</span>' +
       '<span class="mk">' + (t.marks ? t.marks + ' marks' : '') + '</span></div>' +
-      citeTop(t, Q.code, Q.ch) +
+      citeTop(t, Q.code, Q.ch) + (!Q.exam ? (t.original || '') + flagHTML(t.flag) : '') +
       A.preBlock(t.pre) +
       '<div class="qz">' + R.inl(t.q) + '</div>' +
       '<div class="pad"><textarea id="wr" placeholder="Write your answer here — it is saved as you type.">' +
       A.esc(written) + '</textarea></div>' +
-      (open ? '<div class="model">' + R.blocks(t.a) +
+      (open && !Q.exam ? '<div class="model">' + R.blocks(t.a) + A.sourceFigures(t.sourceFigures) +
               citeHTML(t, Q.code, Q.ch, 'display:block;margin-top:12px;padding-top:10px;' +
                 'border-top:1px solid var(--rule2);font-family:var(--mono);font-size:11px;' +
                 'color:var(--ink3)') + '</div>'
-            : '<button class="showans" data-model="' + i + '">Compare with the model answer</button>') +
+            : (!Q.exam ? '<button class="showans" data-model="' + i + '">Compare with the model answer</button>' : '')) +
       '</div>' +
       '<div style="text-align:center;margin-top:16px" class="eyebrow">Theory ' + (i + 1) +
       ' of ' + Q.theory.length + '</div>' +
@@ -289,6 +336,7 @@
       '</div></div></div>');
     var ta = A.el('wr');
     if (ta) ta.addEventListener('input', function () { A.set(wkey, ta.value); });
+    tick();
   }
 
   function results() {
@@ -296,10 +344,10 @@
     if (Q.exam) Q.exam = false;      // reviewing is always in study mode
     var t = tally();
     var score = t.r, out = t.n;
-    if (Q.code) A.saveScore(Q.code, Q.ch, score, out);
+    if (Q.code && Q.ch) A.saveScore(Q.code, Q.ch, score, out);
     var missed = [];
     Q.mcq.forEach(function (q, i) {
-      if (Q.s.look[i] || (Q.s.ans[i] !== undefined && Q.s.ans[i] !== q.a)) missed.push({ q: q, i: i });
+      if (!q.bonus && (Q.s.look[i] || (Q.s.ans[i] !== undefined && !correct(q, Q.s.ans[i])))) missed.push({ q: q, i: i });
     });
     var missHTML = missed.length ? missed.map(function (m) {
       return '<div class="brk"><div class="r"><span class="t">' +
@@ -310,6 +358,8 @@
     A.h('<div class="qwrap">' + bar() + '<div class="qbody"><div class="qcol res">' +
       '<div class="eyebrow">' + Q.title + '</div>' +
       '<div class="big"><b>' + A.pct(score, out) + '%</b><span>' + score + ' of ' + out + '</span></div>' +
+      (Q.theory.length ? '<p class="score-note">Multiple-choice score. Your written answers are saved; ' +
+        'compare them with the official solutions to mark the written sections.</p>' : '') +
       '<div class="grid3">' +
       '<div><b class="num" style="color:var(--ok)">' + t.r + '</b><span>Right</span></div>' +
       '<div><b class="num" style="color:var(--no)">' + t.w + '</b><span>Wrong</span></div>' +
@@ -328,16 +378,17 @@
   function jump() {
     var cells = Q.mcq.map(function (q, i) {
       var c = '';
-      if (Q.s.look[i]) c = 'lk';
-      else if (Q.s.ans[i] !== undefined) c = Q.s.ans[i] === q.a ? 'ok' : 'no';
+      if (Q.exam) { if (Q.s.ans[i] !== undefined) c = 'seen'; }
+      else if (Q.s.look[i]) c = 'lk';
+      else if (Q.s.ans[i] !== undefined) c = correct(q, Q.s.ans[i]) ? 'ok' : 'no';
       if (i === Q.s.i) c += ' now';
       return '<button class="' + c + '" data-goto="' + i + '">' + (i + 1) + '</button>';
     }).join('');
     A.el('sheet-t').innerHTML = 'Answer sheet';
     A.el('sheet-b').innerHTML = '<div class="answersheet">' + cells + '</div>' +
       '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
-      '<button class="btn" data-shuffle="1">Shuffle</button>' +
-      '<button class="btn" data-reset="1">Reset this quiz</button>' +
+      (!Q.exam ? '<button class="btn" data-shuffle="1">Shuffle</button>' +
+      '<button class="btn" data-reset="1">Reset this quiz</button>' : '') +
       (Q.theory.length ? '<button class="btn" data-phase="theory">Theory (' +
         Q.theory.length + ')</button>' : '') +
       '<button class="btn" data-phase="results">Finish and see results</button>' +
@@ -346,10 +397,19 @@
   }
 
   /* ---- events -------------------------------------------------------- */
+  function showReferences() {
+    var current = Q.s.phase === 'theory' ? Q.theory[Q.s.ti || 0] : Q.mcq[Q.s.i];
+    var lines = (current && current.referenceTables) || Q.referenceTables;
+    if (!lines || !lines.length) return;
+    A.el('sheet-t').textContent = 'Reference tables supplied in the exam';
+    A.el('sheet-b').innerHTML = '<p>Use the historical tables supplied for this paper’s original period.</p>' +
+      '<div class="pre">' + A.esc(lines.join('\n')) + '</div>';
+    A.el('sheet').classList.add('on'); A.el('veil').classList.add('on');
+  }
   document.addEventListener('click', function (e) {
     var t = e.target.closest ? e.target.closest('[data-pick],[data-nav],[data-jump],' +
       '[data-look],[data-goto],[data-again],[data-phase],[data-tnav],[data-model],' +
-      '[data-shuffle],[data-reset],[data-reveal]') : null;
+      '[data-shuffle],[data-reset],[data-reveal],[data-reference]') : null;
     if (!t) return;
     var d = t.dataset;
     if (d.reveal) {
@@ -358,6 +418,7 @@
       return;
     }
     if (!Q) return;
+    if (d.reference) { showReferences(); return; }
     if (d.pick !== undefined) {
       Q.s.ans[Q.s.i] = +d.pick; delete Q.s.look[Q.s.i]; save(); draw();
     } else if (d.look) {
@@ -383,6 +444,13 @@
     } else if (d.phase) {
       Q.s.phase = d.phase; save(); A.closeSheet(); draw(); window.scrollTo(0, 0);
     } else if (d.again) {
+      if (Q.timed) {
+        Q.exam = true;
+        var started = Date.now();
+        A.set(A.PK + Q.key + ':start', started);
+        Q.deadline = started + 3 * 60 * 60 * 1000;
+        Q.theory.forEach(function (_, i) { A.set(A.PK + 'wr:' + Q.key + ':' + i, ''); });
+      }
       Q.s = { n: Q.s.n, i: 0, ans: {}, look: {}, phase: 'mcq', ti: 0 }; save(); draw();
     } else if (d.shuffle) {
       for (var i = Q.mcq.length - 1; i > 0; i--) {
@@ -398,7 +466,7 @@
   });
 
   document.addEventListener('keydown', function (e) {
-    if (!Q || /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+    if (!Q || /^(INPUT|TEXTAREA|BUTTON|A|SELECT)$/.test(e.target.tagName)) return;
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     var k = e.key.toUpperCase();
     if (Q.s.phase === 'mcq') {
@@ -410,7 +478,7 @@
         }
         return;
       }
-      if (k === 'S') { Q.s.look[Q.s.i] = 1; save(); draw(); e.preventDefault(); return; }
+      if (k === 'S' && !Q.exam) { Q.s.look[Q.s.i] = 1; save(); draw(); e.preventDefault(); return; }
     }
     if (e.key === 'ArrowRight' || e.key === 'Enter') {
       var b = document.querySelector('[data-nav="1"],[data-tnav="1"]');
@@ -424,6 +492,6 @@
   });
 
   ATSWA.quizStart = start;
-  ATSWA.quizClear = function () { Q = null; };
+  ATSWA.quizClear = function () { if (timer) clearInterval(timer); timer = null; Q = null; };
   ATSWA.chapterQuestions = chapterQuestions;
 })();

@@ -1443,3 +1443,14 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Primary-source or historical clarification; original content remains above.
+next(s for s in CH['secs'] if s['n']=='9.16')['b'].extend([{'warn': '**Primary-law clarification (2026).** The study-text remittance wording above is '
+          'retained. NTAA 2025 s.107 specifically creates non-remittance liability where tax '
+          'deducted/collected/withheld is not remitted by the **21st of the following month**, '
+          'with the tax, a 10% per annum penalty and CBN monetary-policy-rate interest. Use that '
+          'current provision when an old question says 30 days. Filing returns under s.28 is a '
+          'separate obligation. [Corrected National Assembly '
+          'gazette](https://nass.gov.ng/documents/download/11250).',
+  'lbl': 'Addition — current law'}])

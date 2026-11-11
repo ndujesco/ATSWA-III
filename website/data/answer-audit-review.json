@@ -1,0 +1,382 @@
+{
+  "reviewDate": "2026-11-11",
+  "method": "Literal-phrase candidate review, alongside semantic citation review, source-key checks and labelled supplements. Remaining phrase-only nonmatches are not asserted omissions. Original answers retained.",
+  "linkCandidates": [
+    {
+      "key": "2019-09/AUD/mcq/12",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-09/AUD/saq/16",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-09/AUD/saq/14",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/AUD/mcq/12",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/AUD/mcq/18",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/AUD/saq/4",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/AUD/saq/20",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/AUD/saq/2",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-03/AUD/saq/11",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/AUD/mcq/7",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/AUD/saq/10",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-09/AUD/saq/12",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-03/AUD/saq/11",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/AUD/mcq/29",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/AUD/saq/16",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-03/CA/saq/4",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-03/CA/saq/4",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/CA/mcq/29",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/CA/saq/7",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/CA/saq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/CA/saq/15",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-09/CA/saq/2",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/CA/mcq/11",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-03/CA/saq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/CA/saq/5",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-03/CA/mcq/13",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-09/CA/mcq/23",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-09/CA/saq/19",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-03/CA/mcq/14",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/CA/saq/5",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/CA/saq/1",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-03/CA/saq/11",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-03/TAX/saq/19",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/mcq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/saq/13",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/TAX/mcq/9",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/TAX/saq/11",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-09/TAX/mcq/1",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/TAX/mcq/27",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-09/TAX/mcq/25",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-03/TAX/saq/5",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/TAX/mcq/27",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-09/TAX/mcq/30",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2019-09/TAX/saq/16",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-03/TAX/saq/4",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/TAX/mcq/8",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/TAX/mcq/24",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/TAX/saq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-09/TAX/saq/12",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-03/TAX/mcq/5",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-03/TAX/saq/10",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/mcq/8",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/mcq/16",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/mcq/26",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/mcq/29",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-09/TAX/saq/16",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/TAX/mcq/3",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/TAX/mcq/8",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-03/TAX/saq/12",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-09/TAX/saq/1",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2022-09/TAX/saq/17",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/TAX/mcq/7",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/TAX/saq/5",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/TAX/saq/17",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-09/TAX/saq/17",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2024-03/TAX/mcq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-03/TAX/mcq/29",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/TAX/mcq/10",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/TAX/mcq/18",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/TAX/mcq/25",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/TAX/mcq/28",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2021-03/MAN/mcq/6",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2023-03/MAN/mcq/18",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2020-03/MAN/mcq/20",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    },
+    {
+      "key": "2025-09/MAN/mcq/1",
+      "outcome": "retain-semantic-link",
+      "reason": "The assigned passage explains the tested concept; an exact answer phrase in another chapter is not evidence of a different topic. Historical names, synonyms, alternative answers and numeric results are not reliable literal definitions."
+    }
+  ],
+  "limits": "Not an independent recomputation of all 3,360 historical answers or all essay tax computations."
+}

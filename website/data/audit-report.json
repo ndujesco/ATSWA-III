@@ -1,0 +1,41 @@
+{
+  "papers": 60,
+  "diets": 15,
+  "questions": {
+    "mcq": 1800,
+    "saq": 1200,
+    "secb": 360
+  },
+  "citations": {
+    "AUD": {
+      "all": 840,
+      "chapter": 840,
+      "section": 840
+    },
+    "CA": {
+      "all": 840,
+      "chapter": 840,
+      "section": 840
+    },
+    "TAX": {
+      "all": 840,
+      "chapter": 840,
+      "section": 840
+    },
+    "MAN": {
+      "all": 840,
+      "chapter": 840,
+      "section": 840
+    }
+  },
+  "additionalReadingLinks": 171,
+  "flags": 384,
+  "revisionSourceQuestions": 3360,
+  "sourceFigures": 7,
+  "originalPdfs": 15,
+  "questionsWithSourcePage": 3360,
+  "referenceTables": 15,
+  "manualCitationReviews": 1386,
+  "reviewedKeyCorrections": 7,
+  "reviewedShortAnswerCorrections": 7
+}

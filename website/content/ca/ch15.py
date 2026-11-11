@@ -580,3 +580,32 @@ CH = {
     ], 'src': 'Chapter 15.3-15.4', 'sec': '15.3'},
   ]},
 }
+
+# Clarify an exam-tested synonym without altering the source discussion.
+next(s for s in CH['secs'] if s['n'] == '15.2')['b'].append({
+    'note': '[September 2019, MCQ 27](#/exams/2019-09/CA?q=mcq-27) identifies **variety '
+            'reduction** as a cost-reduction technique. It means reducing unnecessary varieties '
+            'of products, components or materials, so that purchasing, stocking, production '
+            'set-ups and handling become simpler. It is closely related to the standardisation '
+            'and simplification discussed here; it does not mean reducing the required quality.',
+    'lbl': 'Past-paper supplement',
+})
+
+
+# Supplement: time_study — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == '15.6')["b"].extend([{'note': '[September 2022, short answer 6](#/exams/2022-09/CA?q=saq-6) calls the measurement of '
+          'the time a reasonably skilled worker needs for the elements of a task **time study**. '
+          'It supports work measurement: establish the task and measure the time needed under the '
+          'stated working conditions. It is different from time booking, which records time '
+          'actually spent on particular jobs.',
+  'lbl': 'Past-paper supplement'}])
+
+# Past-paper addition, with a direct link to the definition being tested.
+next(s for s in CH['secs'] if s['n'] == '15.2')['b'].append(
+    {'note': '**Benchmarking** means continually comparing products, services or '
+             'processes with the best performers, inside or outside the organisation, '
+             'to identify improvements. This is the term sought by [March 2024 '
+             'short answer 11](#/exams/2024-03/CA?q=saq-11). For cost reduction, '
+             'the comparison identifies a performance gap to investigate; it does '
+             'not make another organisation’s cost a suitable target automatically.',
+     'lbl': 'Past-paper supplement'})

@@ -33,6 +33,10 @@ CH = {
   ]},
 
   {'n': '1.2', 't': 'Historical background', 'b': [
+    {'note': 'Past-exam addition: the word **audit** comes from the Latin **audire**, '
+             'meaning **to hear**. INSIGHT March 2019, Principles of Auditing, '
+             'Section A Part II Q1 gives this etymology in its official answer key.',
+     'lbl': 'A term tested in the past papers'},
     {'p': 'The evolution of auditing dates back to the medieval ages. In ancient Egypt and Rome, '
           'people were employed to review the work done by tax collectors and estate managers. '
           'In medieval Britain, an independent person was employed by the Feudal Barons to '
@@ -65,6 +69,12 @@ CH = {
           'the financial statements of the company..." Other West African countries have '
           'similar legislation making the audit of public companies\' financial statements a '
           'mandatory requirement.'},
+    {'warn': 'The study text cites **section 400(1)** for appointment of auditors. '
+             'In **CAMA 2020** the appointment provision is **section 401(1)**; '
+             'section 400 deals with altering accounting requirements. The source '
+             'wording above is retained so the correction is explicit. '
+             '[CAMA 2020, Corporate Affairs Commission](https://www.cac.gov.ng/wp-content/uploads/2020/12/CAMA-NOTE-BOOK-FULL-VERSION.pdf).',
+     'lbl': 'Statutory reference correction'},
     {'p': 'The appointed auditor — who must be a member of a recognised professional accountancy '
           'body, duly licensed to practise, and not disqualified by any legislation — is expected '
           'to express an opinion on the truth and fairness of the Statement of Profit or Loss and '

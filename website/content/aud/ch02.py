@@ -1341,3 +1341,12 @@ CH = {
     ], 'src': 'Chapter 2.10', 'sec': '2.10'},
   ]},
 }
+
+
+# Explicit explanatory addition; original source remains above.
+next(s for s in CH['secs'] if s['n']=='2.13')['b'].extend([{'warn': '**Current-law addition.** The study text’s Insurance Act 2003 provisions above remain '
+          'as printed. **NIIRA 2025 s.229** repeals that Act; the current insurance audit '
+          'provisions are in **ss.33–34** (and s.46 for brokers). Read the corresponding current '
+          'provision rather than reusing the old section number. [NIIRA from '
+          'NAICOM](https://naicom.gov.ng/wp-content/uploads/2025/08/NIIRA-2025.pdf).',
+  'lbl': 'Addition — legislation changed'}])

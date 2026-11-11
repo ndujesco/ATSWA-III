@@ -1647,3 +1647,21 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Supplement: team_performance — an addition; original study-text content is retained.
+next(s for s in CH['secs'] if s['n'] == 'C.3')['b'].extend([{'h4': 'Past-paper supplement — effective groups and team evaluation'},
+ {'p': '[September 2020 Section B question 6](#/exams/2020-09/MAN?q=secb-6) lists eight '
+       'characteristics: shared understanding of aims, commitment, clear individual roles, good '
+       'leadership, effective conflict handling, observance of group norms, loyalty and member '
+       'satisfaction.'},
+ {'ul': ['**Manager evaluation** — a manager or sufficiently senior person assesses the team.',
+         '**360-degree feedback** — use feedback from several relevant people rather than a '
+         'single viewpoint.',
+         '**Objective performance** — compare results with measurable goals set at the beginning '
+         'of the period.',
+         '**Self-evaluation** — members assess individual contributions and the team as a '
+         'whole.']},
+ {'note': 'Choose the method that answers the requirement. A harmonious group can still miss its '
+          'targets; goal-based measures and behavioural feedback answer different questions.',
+  'lbl': 'Applying the printed solution'}])

@@ -1397,3 +1397,14 @@ CH = {
                                                    ],
                   },
 }
+
+
+# Primary-source or historical clarification; original content remains above.
+next(s for s in CH['secs'] if s['n']=='16.9')['b'].extend([{'warn': '**Historical terminal allowance.** [March 2021 short answer '
+          '12](#/exams/2021-03/TAX?q=saq-12) prints a five-year carry-back on cessation. The '
+          'corrected NTA 2025 First Schedule Part I does **not** reproduce a general five-year '
+          'terminal-capital-allowance carry-back. It instead sets annual allowances, disposal '
+          'adjustments, claims and transitional treatment. Keep the printed historical answer '
+          'separate from a current Part I computation. [Primary '
+          'law](https://nass.gov.ng/documents/download/11249).',
+  'lbl': 'Addition — historical/current distinction'}])

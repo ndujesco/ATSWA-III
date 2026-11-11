@@ -3201,3 +3201,227 @@ mechanism.
 `../../ATSWA II/website/RESUME.md`'s 2026-09-18 entry on the four systemic
 pipeline bugs, then port `extract_papers.py`.** Nothing is to be built before
 the user says to continue.
+
+
+---
+
+## 2026-11-10 — Codex takeover; ATSWA III Phase 4 started
+
+User authorised continuation and confirmed that ATSWA III PQs across all four
+subjects are next. Skills stays on hold. Read PLAN.md and the latest Claude
+checkpoint, then ATSWA II RESUME's 2026-09-18 four-bug investigation and its
+extractor/common helpers. Copied and adapted those two helpers for Part III,
+using the 15 actual filenames as the diet inventory. Created root HANDOVER.md
+as a concise current checkpoint alongside this append-only history.
+
+Extraction, citation coverage, law flags and browser behavior are not yet
+validated. Next: run extraction and resolve discrepancies against source.
+
+### Extraction milestone — 2026-11-10
+
+All 15 packs produce 60 papers with 1,800 MCQ + keys, 1,200 SAQ + solutions,
+and 360 Section B questions + solutions. Adapted old Taxation titles
+(Preparing Tax Computations and Returns), March 2021's missing CA exam banner,
+mislabelled September 2022 AUD Section B, curly-quote examiner headers, bare
+SOLUTIONS / QUESTION answer headings, case/punctuation variations in options,
+and SAQ-workings headings that looked like essay solutions.
+
+The source March 2020 MAN first page was rendered and inspected: questions
+are actually numbered 16 onward and some options F-J; normalized internal
+ordinals retain printed metadata. March 2024 TAX Q25 appears with only four
+options in text extraction; render verification still due. Official keys
+include BONUS (2022-09 MAN Q26, 2023-03 AUD Q3) and dual answers (2023-03 TAX
+Q12 A/E, Q14 E/B). No answer was invented for these.
+
+Examiner comments are present: 59 MCQ reports and 352 essay reports detected,
+contradicting the October planning assumption; retain them. Full per-question
+visual PDF checking has not been done.
+
+Ported retrieval tools, seeded all 62 chapters, kept the original confidence
+gates. First chapter pass has 2,620/3,360 above the 0.12 publication gate;
+this is preliminary and below the target, so citation auditing is next.
+
+---
+
+## 2026-11-11 — completion run: source preservation, citations and UI
+
+The user clarified that this session must complete the detailed ATSWA III
+plan, not just polish the UI, preserve every document detail, and link every
+question properly. Skills remains on hold. Work is still active; this is an
+intermediate checkpoint, not a completion claim.
+
+Codex3's files were ahead of its handover: its full bank and revision already
+existed. Independently ran the structural audit and baseline 14 UI regressions,
+then expanded the suite to 22 passing checks. Refreshed the local UI with the
+study desk, reading position, chapter search, subject/year paper filters,
+exact-question links, responsive chapter contents, accessible search, themes
+and actionable progress. Fixed incorrect Part II branding, broken search
+section URLs, delayed-load races and legacy-progress re-import on reset.
+Chrome screenshots exist under website/.cache; final interaction QA is pending.
+
+Substantive defects found and addressed:
+
+- Global furniture stripping discarded every standalone 1–3 digit number,
+  including legitimate calculation data. Footer detection now uses actual PDF
+  page boundaries. March 2019 CA Q4's 200 denominator and a contract-costing
+  fraction numerator were recovered, with source-image verification.
+- Every tax paper's exam-wide Nigerian tax tables had been appended to Section
+  B Q6, polluting its chapter matching and law flags. They are now retained as
+  a separate reference appendix, available in reading/practice/timed mode.
+- Two examiner reports were embedded in solution text because the PDFs print
+  `EXAMINER ‘S REPORT` and `EXAMINE’R COMMENTS`; both forms are now recognised.
+- Reviewed corrections retain original keys: March 2022 CA MCQ19 (cost driver)
+  defaults to A; MCQ8 has a defective market-value key and reviewed B/D
+  interpretations; March 2020 AUD short answer 4 defaults to Audit programme
+  alongside the original Test of controls. The flags explain the evidence.
+- Original copies of all 15 INSIGHT PDFs are included, with SHA-256 provenance
+  and page references derived from unique text matching. Latest audit: 3,347
+  question page references, with 13 short/ambiguous matches awaiting review.
+- Added source-backed explanations for gaps actually tested by past papers,
+  including EPS, consumer learning, manual accounting, co-partnership, unit
+  costing, time study, cost-information qualities, leverage and the Star Model.
+  Galbraith's own site was used for the Star Model. No original chapter body
+  was removed or shortened. Reader glossaries explain terms appearing in each
+  chapter; all four exam-filtered abbreviation audit passes now have no
+  unresolved acronym candidates.
+
+`tools/citation_reviews.py` and `citation_review_batches.py` contain **243
+manually reviewed residual chapter/section matches**. Automatic thresholds
+remain unchanged. `review_queue.py` prints remaining ambiguous questions,
+including shared data and full essay requirements. Further review is active.
+
+`python3 tools/rebuild.py --extract` now runs the full chain, including original
+PDF copies, content, chapter/section retrieval, figure recovery, exams, revision,
+assembly, structural audit, seven source-regression tests and the UI suite.
+The latest complete run passed **7 Python and 22 jsdom tests**, preserving
+60 papers, all 3,360 questions, all revision sources, 15 reference appendices,
+seven source figure pages, and 352 question flags. Later edits require a fresh
+run; do not substitute these counts for semantic/manual verification.
+
+Retried all five missing older diets on both current/legacy ICAN paths and
+Wayback. Live paths still serve 591-byte HTML; PDF-filtered CDX queries return
+no PDF captures. Four snapshot fetches were rate-limited; the successful
+September 2017 snapshot is also the redirect HTML. Exact results are retained
+in website/data/source-availability.json. No nonexistent paper was invented.
+
+---
+
+## 2026-11-11 — completion audit finished; release prepared
+
+Phases 4 and 5 are complete for the agreed 15-diet corpus. This entry
+supersedes intermediate counts above. Skills remains on hold.
+
+### Complete question and reading inventory
+
+- 60 papers, 1,800 MCQ, 1,200 short answers and 360 essays: all 3,360 retained.
+- Every question has a valid chapter link, section link and exact original
+  PDF-page link. All four subject review queues are empty.
+- 1,386 individually reviewed citation overrides; original confidence gates
+  unchanged. Semantic review also corrected confident but wrong matches,
+  including Management plant/office layout, Taxation partnership/board topics,
+  and Cost Accounting special-order/work-study topics.
+- Multi-part essay review adds 171 secondary passage links. These also feed
+  reverse chapter references, chapter practice and revision metadata, so a
+  mixed-topic essay appears where each requirement is taught.
+- All 15 original PDFs are copied with SHA-256 verification. All 15 tax-rate
+  appendices are separate, preserved in reading and timed practice. Seven
+  figure pages recover source layouts that plain-text extraction cannot show.
+- Small numeric workings, March 2019 Ghanaian currency glyphs and unusual
+  examiner-report headings were repaired against source evidence. Printed
+  irregular numbering/options, bonus and dual-answer keys remain visible.
+
+### Answer, law and content review
+
+384 question-level flags now explain changed law/standards and source defects.
+Seven reviewed MCQ corrections and seven reviewed short-answer corrections
+are explicit additions; original keys/answers are retained. The final MCQ
+correction is March 2026 TAX Q6: Supervisor for Finance, corroborated by
+NTAA s93 and September 2024 TAX Q6, rather than the printed experienced-person
+option. Other reviewed changes cover cost drivers/pools, cleaning/rates
+allocation, environmental management, conflicts of interest, audit programmes,
+relevant cost, LIFO, capacity variance, favourable volume variance, process
+layout and sole proprietorship. Ambiguous/defective questions keep explanatory
+flags rather than invented certainty.
+
+Primary-law notes use the corrected NASS gazettes for the Nigeria Tax Act,
+Nigeria Tax Administration Act, Nigeria Revenue Service and Joint Revenue
+Board Acts. Saved PDF hashes are checked by the audit. Reviewed areas include
+small-business limits, VAT rates/distribution/input credits and zero-rating,
+personal reliefs, old commencement/cessation/allowance rules, pensions,
+early-payment bonuses and historic appeals. Auditing notes address NIIRA
+2025's repeal of the Insurance Act 2003 and the IAASB quality-management
+transition. NAICOM's official NIIRA PDF was verified on the web; direct local
+download returned 403, recorded honestly rather than asserting a saved copy.
+
+Labelled supplements explain actual tested gaps in the authored chapters;
+source text remains intact. The Tax transition guide links primary law,
+compares a historical and current personal-tax calculation, and filters all
+flagged Tax questions with exact links. All four exam-filtered abbreviation
+audits have zero unresolved candidates. The ABC glossary distinguishes
+activity-based costing from A/B/C inventory classification. Literal-answer
+matching remains a candidate generator: retained semantic links and review
+limits are recorded in website/data/answer-audit-review.json. These checks do
+not assert that every historic computation has been independently recomputed
+or that each legal question has a bespoke legal opinion.
+
+### Interface and verification
+
+The completed UI has the new study desk, subject finder, reading resumes,
+responsive contents, progress tiles, accessible search, paper/year filters,
+exact-question routes, themes and related reading links. Fixed mobile
+callout overflow and source-question landing after fonts load. Timed mode
+hides corrections/model answers, preserves written work, provides the
+original tables, finishes expired attempts and resets the clock/written
+answers for a fresh attempt.
+
+Fresh `python3 tools/rebuild.py --extract` passes the entire source-to-site
+chain, structural integrity audit, 7 Python source tests and 29 jsdom UI tests.
+38 real Chrome checks pass across five viewport widths; additional real
+Chrome checks pass for guide filters, exact question landing, multi-topic
+reading links, mobile layout and timed tables. Final source-page/citation
+coverage is 100% for all subjects; no audit threshold was weakened.
+
+Retried the five older diets: both ICAN path variants return 591-byte HTML;
+all five PDF-filtered Wayback CDX results are empty. Four snapshot requests
+were rate-limited; the successful snapshot is HTML too. Evidence is retained
+in website/data/source-availability.json and ../DOWNLOADS_LOG.md. This is an
+external source gap, not omitted downloaded material.
+
+### Release preparation
+
+`website/tools/package_site.py` prepares the dependency-free runtime in
+`dist/` and writes release inventory/file hashes. The original working Git
+tree is preserved; Sites source synchronization uses an isolated clean
+snapshot, excluding caches, development dependencies, bytecode and Finder
+metadata. Project identity is persisted in .openai/hosting.json. Publication
+status and the exact deployed version are recorded in RELEASE.md after the
+native deployment result.
+
+### Private publication verified — 2026-11-11
+
+All six plan phases are now complete for the available agreed corpus. Sites
+returned `succeeded` for deployment `appgdep_6af48065b12c8191ac96e50085eaf593`
+at 14:49:36 UTC. Live URL: https://atswa-iii-great-lock-in-20261111.glovedanchor1.chatgpt.site
+
+Saved version: `appgprj_6af47f23e6c08191b14889461a8a874d~appgver_91030373e6488191ae289c2edb986d6d`.
+Pushed source commit: `5855f13989962da62e14c9821a47d6f1452fd832`.
+The isolated source snapshot and matching deployment archive are retained
+under ../.sites/. Original working Git changes were not staged or reset.
+RELEASE.md and .openai/release.json retain the exact verified publication
+record. No deployment-status poll was needed after the terminal success.
+
+### User correction — local development and manual Vercel deployment
+
+The user explicitly rejected the Sites publication. They want the completed
+site on localhost and to deploy through Vercel themselves. The automatic
+publication was an assistant mistake; the previous release narrative does
+not authorize any future publishing.
+
+Confirmed the existing server at http://localhost:4000/ serves website/ and
+that the home, chapter data, exams, revision and Tax guide exactly match the
+current files. All work remains local. README, PLAN, RELEASE and HANDOVER
+now record the user's manual-deployment preference. Sites identity/release
+records were archived under website/.cache/unrequested-sites-publication/
+outside the active configuration. The extra copy remains private; no removal
+was performed. No further publication or source synchronization is authorized
+without a new explicit user request.
