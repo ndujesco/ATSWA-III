@@ -145,4 +145,4 @@ The optional dist/ contains just runtime files. Do not deploy on the user's
 behalf. See ../RELEASE.md for the local build record and this preference.
 
 See `../PROGRESS.md` for the dated work log and `../../HANDOVER.md` for the
-current checkpoint. Skills remains a separate project on hold.
+current checkpoint. Skills is a separate project, now resumed locally; see ../../HANDOVER.md.

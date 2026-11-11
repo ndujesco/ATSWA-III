@@ -35,7 +35,8 @@ requested release workflow.**
 Local site: http://localhost:4000/ — serves website/ directly.
 The user's full completion request covers source preservation, all past
 questions, exact reading links, current-law notes, revision, UI and release.
-Skills remains on hold and does not gate ATSWA III.
+Skills was resumed on 2026-11-11 and remains a separate local project; it
+does not gate the completed ATSWA III work.
 
 The verified site contains **62 chapters** (CA 15, AUD 12, TAX 25, MAN 10),
 **60 papers from 15 diets**, **1,800 MCQ + 1,200 SAQ + 360 essays**. Every one
