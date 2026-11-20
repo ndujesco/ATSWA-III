@@ -14,103 +14,90 @@ CH = {
    'Explain what a tax practitioner should do when there is a conflict of interest',
  ],
  'secs': [
-  {'n': '3.1', 't': 'The five fundamental principles of ethics (IESBA)', 'b': [
-    {'h4': '3.1.1  Integrity (IESBA §111)'},
-    {'def': {'t': 'Integrity', 'd': 'requires an accountant to be straightforward and honest '
-                  'in all professional and business relationships — implying fair dealing and '
-                  'truthfulness.'}},
-    {'key': 'A professional accountant must **never knowingly** be associated with reports, '
-            'returns, communications or other information that: (a) contains a materially '
-            'false or misleading statement; (b) contains recklessly provided statements/'
-            'information; or (c) omits or obscures required information where doing so would '
-            'mislead.'},
-    {'note': 'Providing a **modified** report on such information does not itself breach the '
-             'integrity principle. If an accountant later becomes aware of having been '
-             'associated with such information, they must take steps to become '
-             '**disassociated** from it.'},
-
-    {'h4': '3.1.2  Objectivity (IESBA §112)'},
-    {'def': {'t': 'Objectivity', 'd': 'requires an accountant not to compromise professional or '
-                  'business judgment because of bias, conflict of interest, or the undue '
-                  'influence of others.'}},
-    {'p': 'An accountant must not undertake a professional activity if a circumstance or '
-          'relationship **unduly influences** their professional judgment regarding that '
-          'activity.'},
-
-    {'h4': '3.1.3  Professional competence and due care (IESBA §113)'},
-    {'p': 'Requires an accountant to: (a) attain and maintain professional knowledge/skill at '
-          'the level needed for a client/employer to receive competent service, based on '
-          'current technical/professional standards and relevant legislation; and (b) act '
-          '**diligently** and in accordance with applicable technical/professional standards.'},
-    {'key': 'Serving clients competently requires **sound judgment** in applying professional '
-            'knowledge/skill. Maintaining competence requires continuing awareness/'
-            'understanding of technical, professional and business developments — **continuing '
-            'professional development** is what enables this. **Diligence** encompasses acting '
-            'per an assignment\'s requirements, carefully, thoroughly and on a timely basis.'},
-    {'p': 'In complying with this principle, an accountant must take reasonable steps to '
-          'ensure those working under their authority have **appropriate training and '
-          'supervision** — and, where appropriate, make clients/employers/other users aware of '
-          'the **limitations** inherent in the services/activities provided.'},
-
-    {'h4': '3.1.4  Confidentiality (IESBA §114)'},
-    {'def': {'t': 'Confidentiality', 'd': 'requires an accountant to respect the '
-                  'confidentiality of information acquired through professional and business '
-                  'relationships.'}},
-    {'p': 'An accountant shall:'},
-    {'ol': [
-      'be alert to the possibility of inadvertent disclosure — including in a social '
-      'environment, and particularly to a close business associate or immediate/close family '
-      'member;',
-      'maintain confidentiality of information within the firm/employing organisation;',
-      'maintain confidentiality of information disclosed by a prospective client/employer;',
-      'not disclose confidential information outside the firm/employer without proper, '
-      'specific authority, unless there is a legal or professional duty/right to disclose;',
-      'not use confidential information for personal advantage, or a third party\'s advantage;',
-      'not use or disclose confidential information **after the relationship has ended**; and',
-      'take reasonable steps to ensure personnel under their control, and any advisers '
-      'consulted, respect the confidentiality duty.',
-    ]},
-    {'key': 'Confidentiality serves the **public interest** — it facilitates the free flow of '
-            'information from a client/employer to the accountant, in the knowledge it will not '
-            'be passed to a third party.'},
-    {'p': 'Circumstances where disclosure is, or might be, required/appropriate:'},
-    {'table': {'align': 'll', 'head': ['Category', 'Examples'], 'rows': [
-      ['**Required by law**', 'Producing documents or evidence in legal proceedings; '
-       'disclosing infringements of the law that come to light to appropriate public '
-       'authorities.'],
-      ['**Permitted by law and authorised**', 'By the client or employing organisation.'],
-      ['**Professional duty/right (where not prohibited by law)**', 'To comply with a '
-       'professional body\'s quality review; to respond to an inquiry/investigation by a '
-       'professional/regulatory body; to protect the accountant\'s own professional interests '
-       'in legal proceedings; or to comply with technical/professional/ethics standards.'],
-    ]}},
-    {'p': 'Factors to weigh before disclosing: whether any party\'s interests (including third '
-          'parties\') could be harmed if the client/employer consents to disclosure; whether '
-          'all relevant information is known and substantiated (unsubstantiated facts, '
-          'incomplete information, unsubstantiated conclusions all matter here); the proposed '
-          'type of communication and its addressee; and whether the addressees are genuinely '
-          'appropriate recipients.'},
-    {'warn': 'Confidentiality obligations **continue even after** the accountant-client/'
-             'employer relationship ends. When changing employment or gaining a new client, an '
-             'accountant may use **prior experience**, but must **never** use or disclose '
-             'confidential information acquired from a prior professional/business '
-             'relationship.'},
-
-    {'h4': '3.1.5  Professional behaviour (IESBA §115)'},
-    {'p': 'Requires an accountant to comply with relevant laws/regulations, and avoid any '
-          'conduct they know (or should know) might **discredit the profession**. An '
-          'accountant must never knowingly engage in a business, occupation or activity that '
-          'impairs (or might impair) the profession\'s integrity, objectivity or good '
-          'reputation, incompatibly with the fundamental principles.'},
-    {'key': '"Conduct that might discredit the profession" is conduct a **reasonable and '
-            'informed third party** would likely conclude adversely affects the profession\'s '
-            'good reputation.'},
-    {'p': 'In marketing/promotional activities, an accountant must not bring the profession '
-          'into disrepute — must be honest and truthful, and must not make: exaggerated claims '
-          'about services/qualifications/experience; or disparaging references/unsubstantiated '
-          'comparisons about others\' work. If in doubt about a form of advertising/marketing, '
-          'the accountant is encouraged to consult the relevant professional body.'},
-  ]},
+  {'n': '3.1', 't': 'The five fundamental principles of ethics (IESBA)', 'b': [{'h4': '3.1.1  Integrity (IESBA §111)'},
+ {'def': {'t': 'Integrity',
+          'd': 'requires an accountant to be straightforward and honest in all professional and business '
+               'relationships — implying fair dealing and truthfulness.'}},
+ {'key': [{'p': 'A professional accountant must **never knowingly** be associated with reports, returns, '
+                'communications or other information that:'},
+          {'ul': ['(a) contains a materially false or misleading statement',
+                  '(b) contains recklessly provided statements/information',
+                  'or (c) omits or obscures required information where doing so would mislead.']}]},
+ {'note': 'Providing a **modified** report on such information does not itself breach the integrity '
+          'principle. If an accountant later becomes aware of having been associated with such information, '
+          'they must take steps to become **disassociated** from it.'},
+ {'h4': '3.1.2  Objectivity (IESBA §112)'},
+ {'def': {'t': 'Objectivity',
+          'd': 'requires an accountant not to compromise professional or business judgment because of bias, '
+               'conflict of interest, or the undue influence of others.'}},
+ {'p': 'An accountant must not undertake a professional activity if a circumstance or relationship **unduly '
+       'influences** their professional judgment regarding that activity.'},
+ {'h4': '3.1.3  Professional competence and due care (IESBA §113)'},
+ {'p': 'Requires an accountant to: (a) attain and maintain professional knowledge/skill at the level needed '
+       'for a client/employer to receive competent service, based on current technical/professional '
+       'standards and relevant legislation; and (b) act **diligently** and in accordance with applicable '
+       'technical/professional standards.'},
+ {'key': 'Serving clients competently requires **sound judgment** in applying professional knowledge/skill. '
+         'Maintaining competence requires continuing awareness/understanding of technical, professional and '
+         'business developments — **continuing professional development** is what enables this. '
+         "**Diligence** encompasses acting per an assignment's requirements, carefully, thoroughly and on a "
+         'timely basis.'},
+ {'p': 'In complying with this principle, an accountant must take reasonable steps to ensure those working '
+       'under their authority have **appropriate training and supervision** — and, where appropriate, make '
+       'clients/employers/other users aware of the **limitations** inherent in the services/activities '
+       'provided.'},
+ {'h4': '3.1.4  Confidentiality (IESBA §114)'},
+ {'def': {'t': 'Confidentiality',
+          'd': 'requires an accountant to respect the confidentiality of information acquired through '
+               'professional and business relationships.'}},
+ {'p': 'An accountant shall:'},
+ {'ol': ['be alert to the possibility of inadvertent disclosure — including in a social environment, and '
+         'particularly to a close business associate or immediate/close family member;',
+         'maintain confidentiality of information within the firm/employing organisation;',
+         'maintain confidentiality of information disclosed by a prospective client/employer;',
+         'not disclose confidential information outside the firm/employer without proper, specific '
+         'authority, unless there is a legal or professional duty/right to disclose;',
+         "not use confidential information for personal advantage, or a third party's advantage;",
+         'not use or disclose confidential information **after the relationship has ended**; and',
+         'take reasonable steps to ensure personnel under their control, and any advisers consulted, respect '
+         'the confidentiality duty.']},
+ {'key': 'Confidentiality serves the **public interest** — it facilitates the free flow of information from '
+         'a client/employer to the accountant, in the knowledge it will not be passed to a third party.'},
+ {'p': 'Circumstances where disclosure is, or might be, required/appropriate:'},
+ {'table': {'align': 'll',
+            'head': ['Category', 'Examples'],
+            'rows': [['**Required by law**',
+                      'Producing documents or evidence in legal proceedings; disclosing infringements of the '
+                      'law that come to light to appropriate public authorities.'],
+                     ['**Permitted by law and authorised**', 'By the client or employing organisation.'],
+                     ['**Professional duty/right (where not prohibited by law)**',
+                      "To comply with a professional body's quality review; to respond to an "
+                      "inquiry/investigation by a professional/regulatory body; to protect the accountant's "
+                      'own professional interests in legal proceedings; or to comply with '
+                      'technical/professional/ethics standards.']]}},
+ {'p': 'Factors to weigh before disclosing:'},
+ {'ul': ["whether any party's interests (including third parties') could be harmed if the client/employer "
+         'consents to disclosure',
+         'whether all relevant information is known and substantiated (unsubstantiated facts, incomplete '
+         'information, unsubstantiated conclusions all matter here)',
+         'the proposed type of communication and its addressee',
+         'and whether the addressees are genuinely appropriate recipients.']},
+ {'warn': 'Confidentiality obligations **continue even after** the accountant-client/employer relationship '
+          'ends. When changing employment or gaining a new client, an accountant may use **prior '
+          'experience**, but must **never** use or disclose confidential information acquired from a prior '
+          'professional/business relationship.'},
+ {'h4': '3.1.5  Professional behaviour (IESBA §115)'},
+ {'p': 'Requires an accountant to comply with relevant laws/regulations, and avoid any conduct they know (or '
+       'should know) might **discredit the profession**. An accountant must never knowingly engage in a '
+       "business, occupation or activity that impairs (or might impair) the profession's integrity, "
+       'objectivity or good reputation, incompatibly with the fundamental principles.'},
+ {'key': '"Conduct that might discredit the profession" is conduct a **reasonable and informed third party** '
+         "would likely conclude adversely affects the profession's good reputation."},
+ {'p': 'In marketing/promotional activities, an accountant must not bring the profession into disrepute — '
+       'must be honest and truthful, and must not make: exaggerated claims about '
+       'services/qualifications/experience; or disparaging references/unsubstantiated comparisons about '
+       "others' work. If in doubt about a form of advertising/marketing, the accountant is encouraged to "
+       'consult the relevant professional body.'}]},
 
   {'n': '3.2', 't': 'Conditions when information on taxpayers may be disclosed', 'b': [
     {'key': 'Confidentiality continues even after a tax practitioner\'s engagement with a '

@@ -31,7 +31,7 @@ SUBJECTS = {'ca': ('CA', 15), 'aud': ('AUD', 12), 'tax': ('TAX', 25), 'man': ('M
 # Businesses; Federal Development Levy; Chargeable Gains; Application of IT in Taxation.
 
 BLOCKS = {'p', 'h3', 'h4', 'ul', 'ol', 'steps', 'tex', 'def', 'note', 'key',
-          'warn', 'pre', 'table', 'eg', 'tacc', 'stmt', 'fbox'}
+          'warn', 'pre', 'table', 'eg', 'tacc', 'stmt', 'fbox', 'figure'}
 
 
 def load(path, name):
@@ -57,6 +57,23 @@ def check_blocks(blocks, where, errs):
         if 'eg' in b:
             check_blocks(b['eg'].get('q', []), f'{where}[{i}].eg.q', errs)
             check_blocks(b['eg'].get('a', []), f'{where}[{i}].eg.a', errs)
+
+
+def source_anchors(ch):
+    """Give printed reference headings anchors distinct from legacy section IDs."""
+    used = set()
+    for sec in ch.get('secs', []):
+        for block in sec.get('b', []):
+            if not isinstance(block, dict):
+                continue
+            heading = block.get('h3') or block.get('h4') or ''
+            match = re.match(r'^§?([A-Z]|\d+)(\.\d+)+(?=\s|$)', heading)
+            if not match:
+                continue
+            anchor = 'sec-book-' + match[0].lstrip('§').replace('.', '-')
+            if anchor not in used:
+                block.setdefault('id', anchor)
+                used.add(anchor)
 
 
 def check_tex(obj, where, errs):
@@ -91,6 +108,7 @@ def build(code):
     for f in sorted(d.glob('ch*.py')):
         mod = load(f, f'{code}_{f.stem}')
         ch = mod.CH
+        source_anchors(ch)
         ch['abbreviations'] = chapter_terms(ch)
         for sec in ch.get('secs', []):
             check_blocks(sec.get('b', []), f'{code} ch{ch["n"]} sec {sec.get("n")}', errs)

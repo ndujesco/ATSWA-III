@@ -16,43 +16,44 @@ CH = {
    'guidelines that future taxes are expected to align with',
  ],
  'secs': [
-  {'n': '1.2', 't': 'Introduction', 'b': [
-    {'def': {'t': 'Tax', 'd': 'a compulsory levy or financial charge imposed on a taxpayer, or '
-                  'upon their property, by the government to provide security, social '
-                  'amenities and other amenities for the well-being of society.'}},
-    {'key': 'The main purpose of taxation is to raise funds to defray expenses incurred for '
-            'the **common interest** of the country, **without reference to any special '
-            'benefit** conferred on the individual taxpayer. The Nigerian Government, like '
-            'others worldwide, has legislative power to impose any form of tax, at whatever '
-            'rate it deems appropriate — notably, no Nigerian tax law actually attempts to '
-            'define the word "tax" itself.'},
-    {'p': 'Several external definitions fill this gap:'},
-    {'table': {'align': 'll', 'head': ['Source', 'Definition'], 'rows': [
-      ['Oxford Advanced Learner\'s Dictionary', '"Money that has to be paid to the government '
-       'so that it can pay for public services."'],
-      ['Black\'s Law Dictionary', '"Monetary charge imposed by the Government on persons, '
-       'entities or property, levied to yield public revenue."'],
-      ['Thomas Cooley', '"Enforced proportional contributions from persons and property, '
-       'levied by the State, by virtue of its sovereignty, for the support of government and '
-       'for all public needs."'],
-      ['*Mathew v Chikory Marketing Board of Victoria Australia* (Latham C.J.)', '"A compulsory '
-       'exaction of money by a public authority for public purposes."'],
-      ['*United States v Butler* (Justice Roberts)', '"A tax…signifies an exaction for the '
-       'support of the government."'],
-    ]}},
-    {'key': 'Distilling these, tax has **three basic features**: a compulsory levy; imposed by '
-            'government or a local authority; for a public purpose or to encourage social '
-            'justice. Tax is **not** a voluntary payment, but a compulsory pecuniary burden '
-            'placed on taxpayers for the good of society — and although it is discriminatory '
-            'in the sense that it is assessed on persons/property based on profit, income or '
-            'gain, the benefit conferred on citizens is given **without reference** to any '
-            'individual taxpayer\'s own contribution.'},
-    {'p': 'In conclusion: tax is a levy imposed on all residents, and non-residents doing '
-          'business, within a tax jurisdiction — a civic and patriotic responsibility that also '
-          'funds socio-economic and infrastructural amenities and enhances industrial '
-          'efficiency. **Taxation** is the process of levying and collecting tax from '
-          'taxpayers.'},
-  ]},
+  {'n': '1.2', 't': 'Introduction', 'b': [{'def': {'t': 'Tax',
+          'd': 'a compulsory levy or financial charge imposed on a taxpayer, or upon their property, by the '
+               'government to provide security, social amenities and other amenities for the well-being of '
+               'society.'}},
+ {'key': 'The main purpose of taxation is to raise funds to defray expenses incurred for the **common '
+         'interest** of the country, **without reference to any special benefit** conferred on the '
+         'individual taxpayer. The Nigerian Government, like others worldwide, has legislative power to '
+         'impose any form of tax, at whatever rate it deems appropriate — notably, no Nigerian tax law '
+         'actually attempts to define the word "tax" itself.'},
+ {'p': 'Several external definitions fill this gap:'},
+ {'table': {'align': 'll',
+            'head': ['Source', 'Definition'],
+            'rows': [["Oxford Advanced Learner's Dictionary",
+                      '"Money that has to be paid to the government so that it can pay for public '
+                      'services."'],
+                     ["Black's Law Dictionary",
+                      '"Monetary charge imposed by the Government on persons, entities or property, levied '
+                      'to yield public revenue."'],
+                     ['Thomas Cooley',
+                      '"Enforced proportional contributions from persons and property, levied by the State, '
+                      'by virtue of its sovereignty, for the support of government and for all public '
+                      'needs."'],
+                     ['*Mathew v Chikory Marketing Board of Victoria Australia* (Latham C.J.)',
+                      '"A compulsory exaction of money by a public authority for public purposes."'],
+                     ['*United States v Butler* (Justice Roberts)',
+                      '"A tax…signifies an exaction for the support of the government."']]}},
+ {'key': [{'p': 'Distilling these, tax has **three basic features**:'},
+          {'ul': ['a compulsory levy',
+                  'imposed by government or a local authority',
+                  'for a public purpose or to encourage social justice. Tax is **not** a voluntary payment, '
+                  'but a compulsory pecuniary burden placed on taxpayers for the good of society — and '
+                  'although it is discriminatory in the sense that it is assessed on persons/property based '
+                  'on profit, income or gain, the benefit conferred on citizens is given **without '
+                  "reference** to any individual taxpayer's own contribution."]}]},
+ {'p': 'In conclusion: tax is a levy imposed on all residents, and non-residents doing business, within a '
+       'tax jurisdiction — a civic and patriotic responsibility that also funds socio-economic and '
+       'infrastructural amenities and enhances industrial efficiency. **Taxation** is the process of levying '
+       'and collecting tax from taxpayers.'}]},
 
   {'n': '1.3', 't': 'Essentials of a good tax system', 'b': [
     {'key': 'A good tax system should create jobs, and a tax rise should help arrest wasteful '
@@ -209,30 +210,31 @@ CH = {
     ]}},
   ]},
 
-  {'n': '1.8', 't': 'Sources of Nigerian tax laws', 'b': [
-    {'key': 'Nigeria\'s tax system is administered through **statutes rather than common law**.'},
-    {'table': {'align': 'll', 'head': ['Source', 'Detail'], 'rows': [
-      ['**Customary laws**', 'Native laws/customs governing taxation within an ethnic group — '
-       'including Islamic law (applicable mainly in Northern Nigeria). Examples: **isakole** '
-       '(payable in Yorubaland to titular heads/obas on farmland produce); **osusu-nkwu** '
-       '(Eastern Nigeria); and **zakkat** (payable by Muslims on wealth held a full year, per '
-       'Islamic law).'],
-      ['**Statute laws**', 'Acts of the National/State assemblies, local government bye-laws, '
-       'or decrees/edicts under military government — conferring taxing power on the relevant '
-       'authorities. Examples: NTA 2025 and NTAA 2025.'],
-      ['**Case laws**', 'Judicial precedents (*stare decisis*) — judgments of the High Courts, '
-       'Appeal Courts and Supreme Court on tax law principles bind lower courts. Since '
-       'Nigerian tax law originated from English tax law, English common law principles also '
-       'form a source — confirmed in ***Aderawos Timbers Trading Co. Ltd v Federal Board of '
-       'Inland Revenue Service*** (1966), which held that English court decisions may be '
-       'invoked to interpret Nigerian tax statutes using similar/substantially the same '
-       'expressions as English statutes.'],
-    ]}},
-    {'p': 'Other sources: circulars issued by, and practices of, the Inland Revenue; opinions '
-          'of tax experts/authors, insofar as courts take judicial notice of them; budgets and '
-          'pronouncements of relevant ministries; and the Constitution of the Federal Republic '
-          'of Nigeria.'},
-  ]},
+  {'n': '1.8', 't': 'Sources of Nigerian tax laws', 'b': [{'key': "Nigeria's tax system is administered through **statutes rather than common law**."},
+ {'table': {'align': 'll',
+            'head': ['Source', 'Detail'],
+            'rows': [['**Customary laws**',
+                      'Native laws/customs governing taxation within an ethnic group — including Islamic law '
+                      '(applicable mainly in Northern Nigeria). Examples: **isakole** (payable in Yorubaland '
+                      'to titular heads/obas on farmland produce); **osusu-nkwu** (Eastern Nigeria); and '
+                      '**zakkat** (payable by Muslims on wealth held a full year, per Islamic law).'],
+                     ['**Statute laws**',
+                      'Acts of the National/State assemblies, local government bye-laws, or decrees/edicts '
+                      'under military government — conferring taxing power on the relevant authorities. '
+                      'Examples: NTA 2025 and NTAA 2025.'],
+                     ['**Case laws**',
+                      'Judicial precedents (*stare decisis*) — judgments of the High Courts, Appeal Courts '
+                      'and Supreme Court on tax law principles bind lower courts. Since Nigerian tax law '
+                      'originated from English tax law, English common law principles also form a source — '
+                      'confirmed in ***Aderawos Timbers Trading Co. Ltd v Federal Board of Inland Revenue '
+                      'Service*** (1966), which held that English court decisions may be invoked to '
+                      'interpret Nigerian tax statutes using similar/substantially the same expressions as '
+                      'English statutes.']]}},
+ {'p': 'Other sources:'},
+ {'ul': ['circulars issued by, and practices of, the Inland Revenue',
+         'opinions of tax experts/authors, insofar as courts take judicial notice of them',
+         'budgets and pronouncements of relevant ministries',
+         'and the Constitution of the Federal Republic of Nigeria.']}]},
 
   {'n': '1.9', 't': 'Differentiating taxes and levies', 'b': [
     {'p': 'Nightingale (1997) defined tax as "a compulsory contribution imposed by government; '
@@ -301,276 +303,275 @@ CH = {
                   'National Assembly is the body responsible for making laws.'}},
   ]},
 
-  {'n': '1.10.2', 't': 'Tax avoidance and tax evasion', 'b': [
-    {'def': {'t': 'Tax avoidance', 'd': 'a situation where the taxpayer arranges their '
-                  'financial affairs to pay the least possible tax — e.g. avoiding VAT by not '
-                  'buying goods/services on which it is levied. Beyond simply boycotting, '
-                  'avoidance schemes are carried out after critically reviewing the tax laws, '
-                  'implementing devices to exploit loopholes.'}},
-    {'key': 'Tax avoidance is, to a **large extent, legal**, once done within limits the tax '
-            'laws permit. As Lord President Clyde stated in ***Ayrshire Pullman Motor Services '
-            'and David M. Ritchie v C.I.R.***: "No man in this country is under the smallest '
-            'obligation, moral or otherwise, so to arrange his legal relations…as to enable the '
-            'Inland Revenue to put the largest possible shovel into his stores…and the taxpayer '
-            'is in like manner entitled to be astute to prevent…the depletion of his means by '
-            'the Revenue." Belgore C.J. added, in ***Federal Board of Inland Revenue v American '
-            'International Insurance Company (Nig.) Plc***: "Tax is an obligation, not a duty. '
-            'One is not a bad citizen if one can organize his business or trade in a legal '
-            'manner to minimize his tax liability."'},
-    {'warn': 'When avoidance schemes are stretched to the limit — transactions existing in '
-             'mere form, lacking substance, entered into purely for avoidance with no genuine '
-             'commercial effect — the Revenue Service will step in to **disallow** such '
-             'transactions. Where loopholes are exploited (but no law contravened), avoidance '
-             'remains legal; the Revenue\'s typical response is **specific anti-avoidance '
-             'legislation** to block particular loopholes — since the legislature cannot '
-             'foresee every scheme, **general anti-avoidance legislation** is also '
-             'considered.'},
-    {'def': {'t': 'Tax evasion', 'd': 'a contravention of tax laws whereby a taxable person '
-                  'neglects to pay tax due, or reduces liability through fraudulent/untrue '
-                  'claims on tax forms/returns — minimising tax through illegal means, '
-                  'involving outright fraud and deceit (e.g. deliberately omitting an income '
-                  'source, or understating income).'}},
-    {'p': 'In Nigeria, large-scale evasion mainly occurs through failure to render tax returns. '
-          'Evasion methods include: understating income; overstating expenditure; making false '
-          'claims for allowances/reliefs; and omitting chargeable income from returns.'},
-    {'table': {'align': 'll', 'head': ['Tax avoidance', 'Tax evasion'], 'rows': [
-      ['Legal.', 'Illegal.'],
-      ['Achieved by exploiting loopholes in tax laws.', 'Achieved through deliberate fraud and '
-       'deceit.'],
-      ['Results in paying the minimum tax possible without breaking the law.', 'Results in not '
-       'paying correct tax, or minimising tax by breaking tax laws.'],
-      ['Supported by the courts in decided cases.', 'No support by the courts.'],
-      ['No criminal liability.', 'Evader could be charged for criminal offences, with fines, '
-       'penalties and, at times, imprisonment.'],
-      ['When stretched to the extreme, the scheme could be disregarded.', 'At any level, the '
-       'Revenue Service will frown at evasion.'],
-      ['No Revenue Service investigation — prior years\' assessments are not reopened.',
-       'Revenue Service investigation is instituted — prior assessments may be reopened '
-       'beyond the six-year statute of limitation, subject to court approval.'],
-    ]}},
-  ]},
+  {'n': '1.10.2', 't': 'Tax avoidance and tax evasion', 'b': [{'def': {'t': 'Tax avoidance',
+          'd': 'a situation where the taxpayer arranges their financial affairs to pay the least possible '
+               'tax — e.g. avoiding VAT by not buying goods/services on which it is levied. Beyond simply '
+               'boycotting, avoidance schemes are carried out after critically reviewing the tax laws, '
+               'implementing devices to exploit loopholes.'}},
+ {'key': 'Tax avoidance is, to a **large extent, legal**, once done within limits the tax laws permit. As '
+         'Lord President Clyde stated in ***Ayrshire Pullman Motor Services and David M. Ritchie v '
+         'C.I.R.***: "No man in this country is under the smallest obligation, moral or otherwise, so to '
+         'arrange his legal relations…as to enable the Inland Revenue to put the largest possible shovel '
+         'into his stores…and the taxpayer is in like manner entitled to be astute to prevent…the depletion '
+         'of his means by the Revenue." Belgore C.J. added, in ***Federal Board of Inland Revenue v American '
+         'International Insurance Company (Nig.) Plc***: "Tax is an obligation, not a duty. One is not a bad '
+         'citizen if one can organize his business or trade in a legal manner to minimize his tax '
+         'liability."'},
+ {'warn': 'When avoidance schemes are stretched to the limit — transactions existing in mere form, lacking '
+          'substance, entered into purely for avoidance with no genuine commercial effect — the Revenue '
+          'Service will step in to **disallow** such transactions. Where loopholes are exploited (but no law '
+          "contravened), avoidance remains legal; the Revenue's typical response is **specific "
+          'anti-avoidance legislation** to block particular loopholes — since the legislature cannot foresee '
+          'every scheme, **general anti-avoidance legislation** is also considered.'},
+ {'def': {'t': 'Tax evasion',
+          'd': 'a contravention of tax laws whereby a taxable person neglects to pay tax due, or reduces '
+               'liability through fraudulent/untrue claims on tax forms/returns — minimising tax through '
+               'illegal means, involving outright fraud and deceit (e.g. deliberately omitting an income '
+               'source, or understating income).'}},
+ {'p': 'In Nigeria, large-scale evasion mainly occurs through failure to render tax returns. Evasion methods '
+       'include:'},
+ {'ul': ['understating income',
+         'overstating expenditure',
+         'making false claims for allowances/reliefs',
+         'and omitting chargeable income from returns.']},
+ {'table': {'align': 'll',
+            'head': ['Tax avoidance', 'Tax evasion'],
+            'rows': [['Legal.', 'Illegal.'],
+                     ['Achieved by exploiting loopholes in tax laws.',
+                      'Achieved through deliberate fraud and deceit.'],
+                     ['Results in paying the minimum tax possible without breaking the law.',
+                      'Results in not paying correct tax, or minimising tax by breaking tax laws.'],
+                     ['Supported by the courts in decided cases.', 'No support by the courts.'],
+                     ['No criminal liability.',
+                      'Evader could be charged for criminal offences, with fines, penalties and, at times, '
+                      'imprisonment.'],
+                     ['When stretched to the extreme, the scheme could be disregarded.',
+                      'At any level, the Revenue Service will frown at evasion.'],
+                     ["No Revenue Service investigation — prior years' assessments are not reopened.",
+                      'Revenue Service investigation is instituted — prior assessments may be reopened '
+                      'beyond the six-year statute of limitation, subject to court approval.']]}}]},
 
-  {'n': '1.11', 't': 'Multiple taxes', 'b': [
-    {'note': 'A numbering defect in the study text, flagged rather than silently '
-             'corrected: within this section the book prints its sub-sections as 1.11.1, '
-             '1.11.2, 1.11.3, then **1.10.4**, then 1.11.5, then **1.10.6** and '
-             '**1.10.7** — three of the seven carry the previous section\'s number. They '
-             'are numbered 1.11.4, 1.11.6 and 1.11.7 here, which is plainly what was '
-             'meant, since §1.10 is Basic concepts in taxation and has only two '
-             'sub-sections of its own.'},
-    {'h4': '1.11.1  Nature of multiple taxes'},
-    {'def': {'t': 'Multiple taxes', 'd': 'a tax regime where various, similar types of taxes '
-                  'are imposed on taxpayers by different tiers of government — e.g. the '
-                  'Federal Government\'s VAT on consumption alongside Lagos State\'s own sales '
-                  'tax on the same principle.'}},
-    {'h4': '1.11.2  Types of multiple taxes'},
-    {'key': 'Local governments are **particularly guilty** of this problem — pursuing tax/levy '
-            'collection so recklessly it became a national problem attracting Federal '
-            'attention. Some local governments have been recorded with **over 100** taxes/'
-            'levies. Examples: entertainment tax, road tax, street-closure permits, refuse '
-            'collection tax, market taxes/levies, loading/offloading levies.'},
-    {'h4': '1.11.3  Causes of multiple taxation in Nigeria'},
-    {'p': 'Causes of multiple taxation: lack of funding (states/local governments levying '
-          'taxes without checking for overlap with federal/local levies); states deliberately '
-          'denying local governments their due revenue, driving desperate local revenue-'
-          'seeking; lack of tax education/awareness; all tiers under-funding their departments/'
-          'agencies, prompting illegal levies; multiplicity of revenue agencies; overlapping '
-          'taxing rights (Constitution vs. the Taxes and Levies (Approved List for Collection) '
-          'Act Cap. T2 LFN 2004); and manual/unorthodox tax administration.'},
-    {'h4': '1.11.4  Collection of multiple taxes'},
-    {'warn': 'Collection methods include **mounting roadblocks** — collection agents force '
-             'motorists to stop with spikes, demand evidence of payment, and impound tyres/'
-             'jacks or rough-handle non-payers, seriously affecting inter-city commerce — and '
-             'the **use of revenue agents/consultants** (external tax consultants under state '
-             'Accelerated Revenue Generation Programmes, ARGP; local governments collecting via '
-             'the Joint Revenue Association, JORA), historically enforced with law enforcement '
-             'agents coercing companies, or harassing road users (especially branded vehicles).'},
-    {'h4': '1.11.5  Federal Government\'s solution to the problem of multiplicity of '
-      'taxes'},
-    {'p': 'The **Federal Government\'s solution** centres on the model Tax Harmonisation Law '
-          'developed by the Presidential Fiscal Policy and Tax Reforms Committee (with the '
-          'Joint Revenue Board), for adoption by States and Local Governments. Note the Taxes '
-          'and Levies (Approved List for Collection) Act Cap. T2 LFN 2004 remains '
-          'un-repealed/un-amended by ss.195-196 NTA 2025.'},
-    {'p': 'Once the States Harmonised Taxes and Levies (Approved List for Collection) Bill 2025 '
-          'is passed, collectible taxes/levies will be:'},
-    {'table': {'align': 'll', 'head': ['Tier', 'Taxes/levies collectible'], 'rows': [
-      ['**States**', 'Income tax; stamp duties; property tax; road tax; haulage levy; '
-       'economic development levy.'],
-      ['**Local governments**', 'A harmonised levy (shops, slaughter slab fees, motor parks, '
-       'domestic animal fees, bicycles, trucks, canoes, wheelbarrows/carts); liquor licences; '
-       'TV/radio fees and other local levies; user charges (marriage/birth/death registration, '
-       'street naming, signage/mobile advertisements, sewage/refuse disposal, burial ground '
-       'permits, religious-place establishment fees, wharf landing charges); and daily '
-       'ticketing (all market levies, including transporters\' tickets).'],
-    ]}},
+  {'n': '1.11', 't': 'Multiple taxes', 'b': [{'note': 'A numbering defect in the study text, flagged rather than silently corrected: within this section '
+          'the book prints its sub-sections as 1.11.1, 1.11.2, 1.11.3, then **1.10.4**, then 1.11.5, then '
+          "**1.10.6** and **1.10.7** — three of the seven carry the previous section's number. They are "
+          'numbered 1.11.4, 1.11.6 and 1.11.7 here, which is plainly what was meant, since §1.10 is Basic '
+          'concepts in taxation and has only two sub-sections of its own.'},
+ {'h4': '1.11.1  Nature of multiple taxes'},
+ {'def': {'t': 'Multiple taxes',
+          'd': 'a tax regime where various, similar types of taxes are imposed on taxpayers by different '
+               "tiers of government — e.g. the Federal Government's VAT on consumption alongside Lagos "
+               "State's own sales tax on the same principle."}},
+ {'h4': '1.11.2  Types of multiple taxes'},
+ {'key': 'Local governments are **particularly guilty** of this problem — pursuing tax/levy collection so '
+         'recklessly it became a national problem attracting Federal attention. Some local governments have '
+         'been recorded with **over 100** taxes/levies. Examples: entertainment tax, road tax, '
+         'street-closure permits, refuse collection tax, market taxes/levies, loading/offloading levies.'},
+ {'h4': '1.11.3  Causes of multiple taxation in Nigeria'},
+ {'p': 'Causes of multiple taxation:'},
+ {'ul': ['lack of funding (states/local governments levying taxes without checking for overlap with '
+         'federal/local levies)',
+         'states deliberately denying local governments their due revenue, driving desperate local '
+         'revenue-seeking',
+         'lack of tax education/awareness',
+         'all tiers under-funding their departments/agencies, prompting illegal levies',
+         'multiplicity of revenue agencies',
+         'overlapping taxing rights (Constitution vs. the Taxes and Levies (Approved List for Collection) '
+         'Act Cap. T2 LFN 2004)',
+         'and manual/unorthodox tax administration.']},
+ {'h4': '1.11.4  Collection of multiple taxes'},
+ {'warn': 'Collection methods include **mounting roadblocks** — collection agents force motorists to stop '
+          'with spikes, demand evidence of payment, and impound tyres/jacks or rough-handle non-payers, '
+          'seriously affecting inter-city commerce — and the **use of revenue agents/consultants** (external '
+          'tax consultants under state Accelerated Revenue Generation Programmes, ARGP; local governments '
+          'collecting via the Joint Revenue Association, JORA), historically enforced with law enforcement '
+          'agents coercing companies, or harassing road users (especially branded vehicles).'},
+ {'h4': "1.11.5  Federal Government's solution to the problem of multiplicity of taxes"},
+ {'p': "The **Federal Government's solution** centres on the model Tax Harmonisation Law developed by the "
+       'Presidential Fiscal Policy and Tax Reforms Committee (with the Joint Revenue Board), for adoption by '
+       'States and Local Governments. Note the Taxes and Levies (Approved List for Collection) Act Cap. T2 '
+       'LFN 2004 remains un-repealed/un-amended by ss.195-196 NTA 2025.'},
+ {'p': 'Once the States Harmonised Taxes and Levies (Approved List for Collection) Bill 2025 is passed, '
+       'collectible taxes/levies will be:'},
+ {'table': {'align': 'll',
+            'head': ['Tier', 'Taxes/levies collectible'],
+            'rows': [['**States**',
+                      'Income tax; stamp duties; property tax; road tax; haulage levy; economic development '
+                      'levy.'],
+                     ['**Local governments**',
+                      'A harmonised levy (shops, slaughter slab fees, motor parks, domestic animal fees, '
+                      'bicycles, trucks, canoes, wheelbarrows/carts); liquor licences; TV/radio fees and '
+                      'other local levies; user charges (marriage/birth/death registration, street naming, '
+                      'signage/mobile advertisements, sewage/refuse disposal, burial ground permits, '
+                      'religious-place establishment fees, wharf landing charges); and daily ticketing (all '
+                      "market levies, including transporters' tickets)."]]}},
+ {'h4': '1.11.6  The 1999 Constitution and multiplicity of taxes'},
+ {'p': 'The 1999 Constitution (Part II, paragraphs 7-10) seeks to eliminate multiple taxation: the National '
+       'Assembly may allow a state government to collect capital gains/income/profit tax or stamp duties on '
+       'its behalf, but must ensure such tax is **not levied on the same person by more than one State**; '
+       'similarly, a House of Assembly may allow a local government council to collect tax/fee/rate, '
+       'ensuring it is **not levied on the same person, for the same liability, by more than one local '
+       'government council**.'},
+ {'h4': '1.11.7  Other possible solutions to multiplicity of taxes in Nigeria'},
+ {'p': 'Other possible solutions:'},
+ {'ul': ['reviewing and harmonising existing taxes',
+         'reviewing the Constitution to address overlapping taxing rights',
+         'abolishing unorthodox collection methods and implementing technology',
+         'and limiting the number of revenue agencies.']}]},
 
-    {'h4': '1.11.6  The 1999 Constitution and multiplicity of taxes'},
-    {'p': 'The 1999 Constitution (Part II, paragraphs 7-10) seeks to eliminate multiple '
-          'taxation: the National Assembly may allow a state government to collect capital '
-          'gains/income/profit tax or stamp duties on its behalf, but must ensure such tax is '
-          '**not levied on the same person by more than one State**; similarly, a House of '
-          'Assembly may allow a local government council to collect tax/fee/rate, ensuring it '
-          'is **not levied on the same person, for the same liability, by more than one local '
-          'government council**.'},
-    {'h4': '1.11.7  Other possible solutions to multiplicity of taxes in Nigeria'},
-    {'p': 'Other possible solutions: reviewing and harmonising existing taxes; reviewing the '
-          'Constitution to address overlapping taxing rights; abolishing unorthodox collection '
-          'methods and implementing technology; and limiting the number of revenue agencies.'},
-  ]},
+  {'n': '1.12', 't': 'Tax amnesty: VAIDS and VOARS', 'b': [{'h4': '1.12.1  Tax amnesty, including the Voluntary Assets and Income Declaration Scheme (VAIDS)'},
+ {'key': 'Approved by the Federal Government in **2017**, VAIDS gave tax defaulters an opportunity to defray '
+         'unsettled tax liabilities — requiring voluntary disclosure of previously undisclosed assets/income '
+         'for the preceding **6 years of assessment**, within a **9-month window from 1 July 2017**. The '
+         'scheme, due to expire 31 March 2018, was extended by 3 months and eventually closed **30 June '
+         '2018**.'},
+ {'p': 'Objective: give taxpayers a time-limited opportunity to regularise their tax status and pay taxes '
+       'due, in exchange for forgiveness of overdue interest/penalties and assurance against criminal '
+       'prosecution or investigation.'},
+ {'p': 'Eligibility covered anyone in default, including those who:'},
+ {'ul': ['earned income/owned assets but had not registered',
+         'had additional disclosures or amendments to make, or were registered but not filing',
+         'were not fully declaring taxable income/assets',
+         'were underpaying/under-remitting',
+         'were under audit/investigation',
+         'or were in a tax dispute they were prepared to settle out of court.']},
+ {'p': 'A valid declaration required:'},
+ {'ul': ['voluntary disclosure',
+         'full, frank, complete and verifiable disclosure',
+         'use of the prescribed VAIDS forms/manner',
+         'and tax assessment by the relevant tax authority.']},
+ {'p': 'Benefits for compliant taxpayers:'},
+ {'ul': ['immunity from prosecution and from tax audit',
+         'waiver of interest and penalties',
+         'and the option to spread outstanding liabilities over up to **3 years**. (This did **not** '
+         'invalidate any court order/judgment already obtained where interest/penalty had already accrued.) '
+         'Reliefs applied to all taxes administered by the Federal Inland Revenue Service and relevant State '
+         'authorities.']},
+ {'warn': [{'p': 'Failure to comply meant liability for:'},
+           {'ul': ['the full principal sum',
+                   'all interest and penalties',
+                   'prosecution under extant laws',
+                   'withdrawal of any relief granted',
+                   'a comprehensive tax audit',
+                   'and any sum already paid counted as part-payment of further outstanding tax on '
+                   'undisclosed information.']}]},
+ {'p': 'All information provided was treated with **utmost confidentiality**; any official breaching this '
+       'without authorisation was liable to prosecution. The executive order took effect **1 July 2017**.'},
+ {'h4': '1.12.2  Tax amnesty on offshore assets and incomes: Voluntary Offshore Assets Regularisation Scheme '
+        '(VOARS)'},
+ {'key': 'Introduced via Presidential Executive Order 008 on **8 October 2018**, VOARS incentivised '
+         'taxpayers who defaulted on foreign assets/foreign-sourced income tax for the preceding **30 years '
+         'of assessment** to voluntarily regularise.'},
+ {'p': 'Benefits:'},
+ {'ul': ['a **one-time levy of 35%** on all offshore assets, in lieu of outstanding taxes',
+         'permanent waiver of criminal prosecution for related offences',
+         'immunity from audit on the regularised assets',
+         'waiver of interest/penalties',
+         'an offshore assets regularisation compliance certificate',
+         'and freedom to use/invest the regularised assets anywhere.']},
+ {'p': 'The VOARS Order mandated the Attorney-General/Minister of Justice to set up the VOARS facility in '
+       '**Switzerland**, accessed via a **2% facility access fee** plus necessary disclosures.'},
+ {'warn': [{'p': 'Failure to comply meant liability for:'},
+           {'ul': ['the tax due',
+                   'interest',
+                   'investigation charges',
+                   'and enforcement procedures on the offshore assets. The scheme ran for **12 months from 8 '
+                   'October 2018**.']}]}]},
 
-  {'n': '1.12', 't': 'Tax amnesty: VAIDS and VOARS', 'b': [
-    {'h4': '1.12.1  Tax amnesty, including the Voluntary Assets and Income Declaration Scheme (VAIDS)'},
-    {'key': 'Approved by the Federal Government in **2017**, VAIDS gave tax defaulters an '
-            'opportunity to defray unsettled tax liabilities — requiring voluntary disclosure '
-            'of previously undisclosed assets/income for the preceding **6 years of '
-            'assessment**, within a **9-month window from 1 July 2017**. The scheme, due to '
-            'expire 31 March 2018, was extended by 3 months and eventually closed **30 June '
-            '2018**.'},
-    {'p': 'Objective: give taxpayers a time-limited opportunity to regularise their tax status '
-          'and pay taxes due, in exchange for forgiveness of overdue interest/penalties and '
-          'assurance against criminal prosecution or investigation.'},
-    {'p': 'Eligibility covered anyone in default, including those who: earned income/owned '
-          'assets but had not registered; had additional disclosures or amendments to make, or '
-          'were registered but not filing; were not fully declaring taxable income/assets; '
-          'were underpaying/under-remitting; were under audit/investigation; or were in a tax '
-          'dispute they were prepared to settle out of court.'},
-    {'p': 'A valid declaration required: voluntary disclosure; full, frank, complete and '
-          'verifiable disclosure; use of the prescribed VAIDS forms/manner; and tax assessment '
-          'by the relevant tax authority.'},
-    {'p': 'Benefits for compliant taxpayers: immunity from prosecution and from tax audit; '
-          'waiver of interest and penalties; and the option to spread outstanding liabilities '
-          'over up to **3 years**. (This did **not** invalidate any court order/judgment '
-          'already obtained where interest/penalty had already accrued.) Reliefs applied to all '
-          'taxes administered by the Federal Inland Revenue Service and relevant State '
-          'authorities.'},
-    {'warn': 'Failure to comply meant liability for: the full principal sum; all interest and '
-             'penalties; prosecution under extant laws; withdrawal of any relief granted; a '
-             'comprehensive tax audit; and any sum already paid counted as part-payment of '
-             'further outstanding tax on undisclosed information.'},
-    {'p': 'All information provided was treated with **utmost confidentiality**; any official '
-          'breaching this without authorisation was liable to prosecution. The executive order '
-          'took effect **1 July 2017**.'},
-
-    {'h4': '1.12.2  Tax amnesty on offshore assets and incomes: Voluntary Offshore Assets Regularisation Scheme (VOARS)'},
-    {'key': 'Introduced via Presidential Executive Order 008 on **8 October 2018**, VOARS '
-            'incentivised taxpayers who defaulted on foreign assets/foreign-sourced income tax '
-            'for the preceding **30 years of assessment** to voluntarily regularise.'},
-    {'p': 'Benefits: a **one-time levy of 35%** on all offshore assets, in lieu of outstanding '
-          'taxes; permanent waiver of criminal prosecution for related offences; immunity from '
-          'audit on the regularised assets; waiver of interest/penalties; an offshore assets '
-          'regularisation compliance certificate; and freedom to use/invest the regularised '
-          'assets anywhere.'},
-    {'p': 'The VOARS Order mandated the Attorney-General/Minister of Justice to set up the '
-          'VOARS facility in **Switzerland**, accessed via a **2% facility access fee** plus '
-          'necessary disclosures.'},
-    {'warn': 'Failure to comply meant liability for: the tax due; interest; investigation '
-             'charges; and enforcement procedures on the offshore assets. The scheme ran for '
-             '**12 months from 8 October 2018**.'},
-  ]},
-
-  {'n': '1.13', 't': 'National Tax Policy, 2017 (NTP)', 'b': [
-    {'key': 'The NTP provides the fundamental guidelines for the Nigerian tax system\'s orderly '
-            'development. Objectives: guide the operation/review of the tax system; provide a '
-            'basis for future tax legislation/administration; serve as a reference point for '
-            'stakeholders; provide an accountability benchmark; and clarify stakeholder roles/'
-            'responsibilities.'},
-
-    {'h4': 'Guiding principles of the Nigerian tax system'},
-    {'ol': [
-      '**Equity and fairness** — fair, equitable, devoid of discrimination; taxpayers pay '
-      'according to ability;',
-      '**Simplicity, certainty and clarity** — laws and processes simple, clear, easy to '
-      'understand;',
-      '**Convenience** — timing/manner of obligations account for taxpayer convenience;',
-      '**Low compliance cost** — kept to the barest minimum;',
-      '**Low cost of administration** — efficient, cost-effective, per international best '
-      'practice;',
-      '**Flexibility** — dynamic, without retarding economic activity; and',
-      '**Sustainability** — promoting sustainable revenue/growth, synergised with other '
-      'economic policy.',
-    ]},
-
-    {'h4': 'Taxation as a tool for economic management and development'},
-    {'p': 'Goals the tax system should support: **wealth creation and employment** (promoting '
-          'employment/export/local production; non-retroactive laws; equal investment '
-          'opportunity for local/foreign business; long-term, tenured investment focus; broad, '
-          'sector-based, transparent, monitored incentives; annually reported/quantified '
-          'revenue forgone; no promotion of monopoly); **diversification** (attracting '
-          'investment across sectors, boosting the revenue base); **focus on indirect '
-          'taxation** (easier to collect/administer, harder to evade); **convergence of tax '
-          'rates** (progressive rates gradually converging PIT\'s top marginal rate, CGT and '
-          'CIT, reducing avoidance opportunity); **special arrangements/incentives** (sector-'
-          'based, not entity-specific, not arbitrarily terminated, transparently granted/'
-          'renewed); **creating a competitive edge** (few, broad-based, simplified taxes; '
-          'avoiding multiple taxation via inter-governmental collaboration); and '
-          '**international/regional treaties** (an expanding treaty network preventing double '
-          'taxation without enabling non-taxation, regularly reviewed, benefiting Nigeria long '
-          'term).'},
-    {'note': 'Taxation is a key national development tool — wealth creation via meaningful '
-             'employment lets citizens both meet their needs and contribute taxes, making them '
-             'stakeholders directly contributing to national development, sustaining a growth-'
-             'and-development cycle as those currently outside the tax net eventually earn '
-             'taxable income.'},
-
-    {'h4': 'Responsibilities of stakeholders'},
-    {'p': 'Federal and state Ministries of Finance hold primary responsibility for tax policy '
-          'matters. Key stakeholder categories:'},
-    {'table': {'align': 'll', 'head': ['Stakeholder', 'Responsibilities'], 'rows': [
-      ['**Government**', 'Implement/regularly review tax policies and laws; provide quarterly '
-       'revenue information; ensure adequate funding and administrative/operational autonomy '
-       'of tax authorities; and ensure a 3-6 month transition period before implementing a new '
-       'tax.'],
-      ['**The taxpayer**', 'The most critical stakeholder — considers tax responsibility a '
-       'civic obligation. Entitled to: relevant information for discharging obligations; '
-       'prompt, courteous, professional assistance; the right to object to decisions/'
-       'assessments and receive timely response; fair, impartial appeal; and self-'
-       'representation or representation by an accredited agent (if for financial reward).'],
-      ['**Revenue agencies**', 'Treat the taxpayer as a customer; ensure efficient '
-       'implementation of policies/laws/treaties; facilitate inter-agency cooperation/'
-       'information exchange; undertake timely audits/investigations; undertake taxpayer '
-       'education; and establish a robust process to prevent/detect/punish corrupt officials.'],
-      ['**Professional bodies, practitioners, consultants, agents**', 'Act per professional '
-       'codes of conduct/ethics; never aid/abet evasion or corrupt practices; and actively '
-       'promote effective compliance.'],
-      ['**Media and advocacy groups**', 'Promote tax education/awareness; protect/advance '
-       'taxpayer rights; advance accountability/transparency in tax revenue use; ensure '
-       'accurate, balanced reporting; and ensure political aspirants clearly articulate their '
-       'tax agenda.'],
-    ]}},
-
-    {'h4': 'Administration mandates across the three tiers'},
-    {'p': 'Registration: all taxable persons registered with a nationwide Taxpayer '
-          'Identification (Tax ID), leveraging CBN/BVN, NIMC, NCC, CAC, FRSC and NIS databases, '
-          'harmonising currently uncoordinated registration. Compliance: self-assessment kept '
-          'simple; tax amnesty frameworks to expand the net; taxpayer-service focus; constant '
-          'education; periodic performance measurement/reporting; and recognition of compliant '
-          'taxpayers. Efficiency: modern payment/collection technology; automated, globally-'
-          'benchmarked record keeping; efficient inter-agency/international information '
-          'exchange; enforcement of civil/criminal sanctions; adequate authority funding '
-          '(including refund funding); convenient, cost-effective payment processes (improving '
-          'the global ease-of-paying-taxes ranking); and reasonable revenue autonomy for tax '
-          'authorities. Technology: deployment across all administration aspects, database '
-          'integrity, and secure intelligence-gathering. Dispute resolution: amicable means '
-          '(including arbitration) exhausted before resorting to judicial determination.'},
-
-    {'h4': 'Implementation measures'},
-    {'p': 'The Federal Ministry of Finance leads implementation, seeking cooperation from: the '
-          '**President and Governors** (consistent budget-speech fiscal policy statements; one '
-          'revenue agency per government tier; sponsoring a tax court bill); the '
-          '**Legislature** (establishing dedicated taxation committees; a Joint Revenue Board '
-          'establishment Act with a broader mandate; reviewing/reducing the small-business tax '
-          'rate to encourage MSME compliance); the **Ministry of Finance** itself (setting tax '
-          'reform in motion; establishing a tax policy implementation committee; automating '
-          'MDA collection/remittance; timely executive tax bills; a tax simplification office; '
-          'a dedicated tax policy website; periodic NEC reporting; a top-50 global ease-of-'
-          'paying-taxes target; and a minimum VAT registration threshold to protect micro-'
-          'businesses); **MDAs** (periodic implementation reports to the Ministry of Finance); '
-          '**tax authorities** (a uniform national tax day via the Joint Tax Board; taxation '
-          'taught at all education levels; amnesty/whistleblowing frameworks; prompt response '
-          'to the changing business environment); and **INEC** (mandating political parties to '
-          'publicise their tax agenda before/during campaigns).'},
-  ]},
+  {'n': '1.13', 't': 'National Tax Policy, 2017 (NTP)', 'b': [{'h4': '1.13.1  Objectives of the NTP'},
+ {'key': [{'p': "The NTP provides the fundamental guidelines for the Nigerian tax system's orderly "
+                'development. Objectives:'},
+          {'ul': ['guide the operation/review of the tax system',
+                  'provide a basis for future tax legislation/administration',
+                  'serve as a reference point for stakeholders',
+                  'provide an accountability benchmark',
+                  'and clarify stakeholder roles/responsibilities.']}]},
+ {'h4': '1.13.2  Policies guidelines as they relate to:'},
+ {'h4': 'Guiding principles of the Nigerian tax system'},
+ {'ol': ['**Equity and fairness** — fair, equitable, devoid of discrimination; taxpayers pay according to '
+         'ability;',
+         '**Simplicity, certainty and clarity** — laws and processes simple, clear, easy to understand;',
+         '**Convenience** — timing/manner of obligations account for taxpayer convenience;',
+         '**Low compliance cost** — kept to the barest minimum;',
+         '**Low cost of administration** — efficient, cost-effective, per international best practice;',
+         '**Flexibility** — dynamic, without retarding economic activity; and',
+         '**Sustainability** — promoting sustainable revenue/growth, synergised with other economic '
+         'policy.']},
+ {'h4': 'Taxation as a tool for economic management and development'},
+ {'p': 'Goals the tax system should support:'},
+ {'ul': ['**wealth creation and employment** (promoting employment/export/local production; non-retroactive '
+         'laws; equal investment opportunity for local/foreign business; long-term, tenured investment '
+         'focus; broad, sector-based, transparent, monitored incentives; annually reported/quantified '
+         'revenue forgone; no promotion of monopoly)',
+         '**diversification** (attracting investment across sectors, boosting the revenue base)',
+         '**focus on indirect taxation** (easier to collect/administer, harder to evade)',
+         "**convergence of tax rates** (progressive rates gradually converging PIT's top marginal rate, CGT "
+         'and CIT, reducing avoidance opportunity)',
+         '**special arrangements/incentives** (sector-based, not entity-specific, not arbitrarily '
+         'terminated, transparently granted/renewed)',
+         '**creating a competitive edge** (few, broad-based, simplified taxes; avoiding multiple taxation '
+         'via inter-governmental collaboration)',
+         'and **international/regional treaties** (an expanding treaty network preventing double taxation '
+         'without enabling non-taxation, regularly reviewed, benefiting Nigeria long term).']},
+ {'note': 'Taxation is a key national development tool — wealth creation via meaningful employment lets '
+          'citizens both meet their needs and contribute taxes, making them stakeholders directly '
+          'contributing to national development, sustaining a growth-and-development cycle as those '
+          'currently outside the tax net eventually earn taxable income.'},
+ {'h4': 'Responsibilities of stakeholders'},
+ {'p': 'Federal and state Ministries of Finance hold primary responsibility for tax policy matters. Key '
+       'stakeholder categories:'},
+ {'table': {'align': 'll',
+            'head': ['Stakeholder', 'Responsibilities'],
+            'rows': [['**Government**',
+                      'Implement/regularly review tax policies and laws; provide quarterly revenue '
+                      'information; ensure adequate funding and administrative/operational autonomy of tax '
+                      'authorities; and ensure a 3-6 month transition period before implementing a new tax.'],
+                     ['**The taxpayer**',
+                      'The most critical stakeholder — considers tax responsibility a civic obligation. '
+                      'Entitled to: relevant information for discharging obligations; prompt, courteous, '
+                      'professional assistance; the right to object to decisions/assessments and receive '
+                      'timely response; fair, impartial appeal; and self-representation or representation by '
+                      'an accredited agent (if for financial reward).'],
+                     ['**Revenue agencies**',
+                      'Treat the taxpayer as a customer; ensure efficient implementation of '
+                      'policies/laws/treaties; facilitate inter-agency cooperation/information exchange; '
+                      'undertake timely audits/investigations; undertake taxpayer education; and establish a '
+                      'robust process to prevent/detect/punish corrupt officials.'],
+                     ['**Professional bodies, practitioners, consultants, agents**',
+                      'Act per professional codes of conduct/ethics; never aid/abet evasion or corrupt '
+                      'practices; and actively promote effective compliance.'],
+                     ['**Media and advocacy groups**',
+                      'Promote tax education/awareness; protect/advance taxpayer rights; advance '
+                      'accountability/transparency in tax revenue use; ensure accurate, balanced reporting; '
+                      'and ensure political aspirants clearly articulate their tax agenda.']]}},
+ {'h4': 'Administration mandates across the three tiers'},
+ {'p': 'Registration: all taxable persons registered with a nationwide Taxpayer Identification (Tax ID), '
+       'leveraging CBN/BVN, NIMC, NCC, CAC, FRSC and NIS databases, harmonising currently uncoordinated '
+       'registration. Compliance: self-assessment kept simple; tax amnesty frameworks to expand the net; '
+       'taxpayer-service focus; constant education; periodic performance measurement/reporting; and '
+       'recognition of compliant taxpayers. Efficiency: modern payment/collection technology; automated, '
+       'globally-benchmarked record keeping; efficient inter-agency/international information exchange; '
+       'enforcement of civil/criminal sanctions; adequate authority funding (including refund funding); '
+       'convenient, cost-effective payment processes (improving the global ease-of-paying-taxes ranking); '
+       'and reasonable revenue autonomy for tax authorities. Technology: deployment across all '
+       'administration aspects, database integrity, and secure intelligence-gathering. Dispute resolution: '
+       'amicable means (including arbitration) exhausted before resorting to judicial determination.'},
+ {'h4': 'Implementation measures'},
+ {'p': 'The Federal Ministry of Finance leads implementation, seeking cooperation from:'},
+ {'ul': ['the **President and Governors** (consistent budget-speech fiscal policy statements; one revenue '
+         'agency per government tier; sponsoring a tax court bill)',
+         'the **Legislature** (establishing dedicated taxation committees; a Joint Revenue Board '
+         'establishment Act with a broader mandate; reviewing/reducing the small-business tax rate to '
+         'encourage MSME compliance)',
+         'the **Ministry of Finance** itself (setting tax reform in motion; establishing a tax policy '
+         'implementation committee; automating MDA collection/remittance; timely executive tax bills; a tax '
+         'simplification office; a dedicated tax policy website; periodic NEC reporting; a top-50 global '
+         'ease-of-paying-taxes target; and a minimum VAT registration threshold to protect micro-businesses)',
+         '**MDAs** (periodic implementation reports to the Ministry of Finance)',
+         '**tax authorities** (a uniform national tax day via the Joint Tax Board; taxation taught at all '
+         'education levels; amnesty/whistleblowing frameworks; prompt response to the changing business '
+         'environment)',
+         'and **INEC** (mandating political parties to publicise their tax agenda before/during '
+         'campaigns).']}]},
 
   {'n': '1.14', 't': 'Chapter summary', 'b': [
     {'p': 'This chapter defined and explained the nature and objectives of taxation, and dealt '
@@ -582,228 +583,213 @@ CH = {
           'system.'},
   ]},
 
-  {'n': '1.15', 't': 'Worked examples — study text questions and suggested solutions', 'b': [
-    {'p': 'Every chapter of the Taxation study text closes with a **Worked examples** section — '
-          'its own questions at *x*.1 and its own suggested solutions at *x*.2. Chapter 1\'s set '
-          'is reproduced in full below, with the book\'s solutions and additional explanation.'},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 1',
-      't': 'The three aspects of the tax system in Nigeria', 'open': True,
-      'q': [{'p': 'Explain briefly the **THREE** aspects of the tax system in Nigeria.'}],
-      'a': [
-      {'p': 'The Nigerian tax system has three aspects — **tax policy, tax laws and tax '
-            'administration** — and they must work together: a sound policy expressed in bad law '
-            'or administered badly will not deliver its objectives.'},
-      {'h4': '(a)  Tax policy'},
-      {'p': 'Tax policy is the **general statement of intention which guides the actions of all '
-            'parties** towards the realisation of tax objectives. In Nigeria a **low tax regime** '
-            'has been introduced, aimed at reducing the individual tax burden and thereby '
-            'encouraging savings and investment. There is also the introduction of the '
-            '**self-assessment scheme**, to encourage taxpayers\' participation in the assessment '
-            'process. The policy supports the movement from the traditional **coercive** method '
-            'of taxation to **voluntary compliance**.'},
-      {'h4': '(b)  Tax laws'},
-      {'p': 'Tax laws include the following notable tax legislation in Nigeria:'},
-      {'ol': [
-        '**Nigeria Tax Act, 2025**;',
-        '**Nigeria Tax Administration Act, 2025**;',
-        '**Petroleum Industry Act, 2021** (as amended);',
-        '**Nigeria Revenue Service (Establishment) Act, 2025**; and',
-        '**Joint Revenue Board of Nigeria (Establishment) Act, 2025**.',
-      ]},
-      {'p': 'The **Constitution vests the legislation of income tax** — whether personal or '
-            'corporate — in the Federal Government, in order to promote uniformity. The three '
-            'tiers of government nevertheless **share the administration** of the various taxes. '
-            'Tax laws are reviewed periodically in line with changes in social, political and '
-            'economic conditions. The power to impose tax is within the **exclusive legislative '
-            'authority** of the Federal Government, and various machineries are set up to ensure '
-            'strict compliance; non-compliance attracts penalties and fines.'},
-      {'h4': '(c)  Tax administration'},
-      {'p': 'Tax administration involves the **practical interpretation and application of the '
-            'tax laws**. The authorities charged with administering tax in Nigeria are the '
-            'Federal, State and Local governments, and their tax authorities derive their '
-            'formation from:'},
-      {'ol': [
-        'the **Nigeria Revenue Service (NRS)** — section 3(1) of the NTA;',
-        'the **State Internal Revenue Service (SIRS)** — section 87(1) of the NTAA; and',
-        'the **Local Government Revenue Committee** — section 93(1) of the NTAA.',
-      ]},
-      {'key': 'A useful way to hold the three together: **policy decides what the country wants '
-              'tax to achieve; law gives that intention legal force; administration makes it '
-              'happen in practice.** Most practical difficulties in Nigerian taxation arise not '
-              'from the policy or the law but from the third — which is why the 2025 reform '
-              'legislation is so heavily concerned with administration.'}]}},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 2',
-      't': 'Seven sources of Nigerian tax laws and practices', 'open': True,
-      'q': [{'p': 'List any **SEVEN** sources of Nigerian tax laws and practices.'}],
-      'a': [
-      {'ol': [
-        '**Practices of the Revenue Department** — the settled administrative practice of the '
-        'tax authorities.',
-        '**The Constitution of the Federal Republic of Nigeria** — which allocates taxing powers '
-        'between the tiers of government.',
-        '**Departmental and official circulars** issued by the revenue authorities.',
-        '**Opinions of income tax experts and authors**, in so far as the courts take judicial '
-        'notice of them.',
-        '**Accepted recommendations of commissions of inquiry.**',
-        '**Court judgments** which decide income tax cases and establish income tax principles. '
-        'These are binding and must be followed in similar cases until overruled.',
-        '**The various income tax laws** — the State and Federal laws, including Federal '
-        'Government Acts and State Government laws.',
-      ]},
-      {'note': 'Note the hierarchy implied by the list. The **Constitution** is supreme; '
-               '**statute** comes next; **case law** interprets the statute and binds until '
-               'overruled; **circulars and departmental practice** bind the Revenue but not the '
-               'courts; and the **opinions of authors** carry weight only so far as a court '
-               'chooses to rely on them. When two sources conflict, that order decides.'}]}},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 3', 't': 'Five principles of taxation',
-      'open': True,
-      'q': [{'p': 'Identify and explain any **FIVE** principles of taxation.'}],
-      'a': [
-      {'p': 'The principles of an **ideal tax system** include the following.'},
-      {'h4': '(a)  Simple, certain and convenient'},
-      {'p': 'The tax should be relatively **simple** for payers to understand their liability, '
-            'and it should be administered in such a way that they are aware of the amount they '
-            'should pay and the due date of payment. The method of payment should not be '
-            '**inconvenient**.'},
-      {'h4': '(b)  Flexible'},
-      {'p': 'The structure and rates of tax should be capable of being **altered without too '
-            'much difficulty**, to cope with changes in circumstances — particularly if the '
-            'system of taxation is to be used as a means of regulating the economy, which is one '
-            'of the stated aims of taxation.'},
-      {'h4': '(c)  Neutral'},
-      {'p': 'A tax is **neutral** if it does not distort economic choices. Taxes should not be '
-            'made to impinge adversely on economic activity.'},
-      {'h4': '(d)  Administratively efficient'},
-      {'p': 'The **cost of administering the tax should not be too high in proportion to the '
-            'revenue raised**. Efficiency includes not only the costs incurred by the revenue '
-            'authority in collecting the tax but also the compliance costs borne by the '
-            'taxpayer.'},
-      {'h4': '(e)  Equitable (fair)'},
-      {'p': 'Taxes must not only **be** fair, they must also be **seen** to be fair. Two types '
-            'of equity are to be considered:'},
-      {'ol': [
-        '**Horizontal equity** — this requires that people in **similar** situations are '
-        'treated in a **similar** way; and',
-        '**Vertical equity** — this requires that people in **unequal** situations are treated '
-        'with the necessary degree of **inequality**. This would require the rich to pay more '
-        'than the poor, which advocates a **progressive** system of taxation.',
-      ]},
-      {'key': 'The five are not always compatible, and recognising the tensions is what '
-              'distinguishes a good answer. A **progressive** rate structure serves vertical '
-              'equity but complicates the system and may blunt incentives, offending simplicity '
-              'and neutrality. A **flat** tax is simple and neutral but weak on vertical equity. '
-              'A tax that is highly **flexible** is by that fact less **certain**. Designing a '
-              'tax system is largely the business of choosing which of these principles to '
-              'sacrifice, and by how much.'}]}},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 4',
-      't': 'Purposes of taxation other than raising revenue', 'open': True,
-      'q': [{'p': 'Taxation is often used for purposes other than the raising of revenue. '
-                  'Enumerate some of these other purposes.'}],
-      'a': [
-      {'p': 'Apart from raising revenue, the other core objectives of a modern tax system '
-            'include:'},
-      {'ol': [
-        '**Redistribution of income and wealth.** The tax system is a means of ensuring the '
-        'redistribution of income and wealth, in order to **reduce poverty and promote social '
-        'welfare**.',
-        '**Economic regulation.** The tax system is a means of promoting economic welfare and '
-        'creating a **sound infrastructure for businesses** — stimulating or restraining '
-        'particular sectors, attracting investment, and managing demand.',
-        '**Harmonisation / social function.** Taxation can be used to redress the **rural-urban '
-        'population drift**, to curb **environmental pollution**, and to provide for the free '
-        'movement of goods and services, capital and people within a geographical area — for '
-        'example, **ECOWAS**.',
-      ]},
-      {'note': 'The mnemonic often used for these is the "**four R**s": **Revenue**, '
-               '**Redistribution**, **Repricing** (taxing things society wants less of — '
-               'tobacco, pollution, fossil fuels; see Chapter 11 on the Surcharge on Fossil Fuel '
-               'Products) and **Representation** (the historical link between paying tax and '
-               'holding government accountable).'}]}},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 5',
-      't': 'Merits and demerits of direct and indirect taxes', 'open': True,
-      'q': [{'p': 'Explain the merits and demerits of direct and indirect taxes.'}],
-      'a': [
-      {'h4': 'Direct taxes'},
-      {'table': {'align': 'll', 'head': ['Merits of direct taxes', 'Demerits of direct taxes'],
-        'rows': [
-        ['It has a **lower cost of collection**.', 'It may **discourage hard work**, because '
-         'additional income attracts additional tax.'],
-        ['It is **more equitable**, as the taxpayer with the higher income bears the greater '
-         'burden.', 'It can give room for **tax evasion**, especially if the tax rates are '
-         'high.'],
-        ['It is **easier to ascertain tax incidence** — the person who pays is the person who '
-         'bears it.', 'It may cause **social unrest**, especially if rates are very high, since '
-         'the taxpayers bear the whole burden visibly.'],
-      ]}},
-      {'h4': 'Indirect taxes'},
-      {'table': {'align': 'll', 'head': ['Merits of indirect taxes',
-        'Demerits of indirect taxes'], 'rows': [
-        ['It is a **good source of revenue** to government.', 'The **cost of collection may be '
-         'higher**.'],
-        ['It can be **adjusted easily**.', 'Where there is **collusion between tax officials and '
-         'taxpayers** to evade tax, there could be loss of revenue.'],
-        ['It is a veritable fiscal tool to **check the pattern of consumption of undesirable '
-         'goods**.', 'It may **discourage investment in local industries**, especially in the '
-         'case of high export duties or excise duties.'],
-        ['It can be used to **protect infant industries**.', ''],
-        ['It is **more difficult to evade**, since it is collected at the point of transaction.',
-         ''],
-      ]}},
-      {'key': 'The defining difference is **incidence**. With a **direct** tax the person '
-              'assessed is the person who bears the burden, and it cannot be passed on — which '
-              'is why it can be made progressive and equitable, and why it is politically '
-              'visible and resented. With an **indirect** tax the person who pays it over to the '
-              'Revenue (the trader) is not the person who ultimately bears it (the consumer) — '
-              'which is why it is hard to evade and easy to collect, but also why it tends to be '
-              '**regressive**, falling more heavily on the poor as a share of income.'}]}},
-
-    {'eg': {'tag': 'Study text — 1.15.1, Question 6',
-      't': 'Responsibilities of the key stakeholders under NTP 2017', 'open': True,
-      'q': [{'p': 'The responsibilities of the following key stakeholders are clearly identified '
-                  'in **NTP 2017**. **Required:** explain the responsibilities of (a) the '
-                  'government; (b) the taxpayers; (c) the revenue agencies.'}],
-      'a': [
-      {'h4': '(a)  The government'},
-      {'ol': [
-        '**Implement and regularly review** tax policies and laws;',
-        '**Provide information on all revenue collected** on a quarterly basis;',
-        'Ensure **adequate funding, and administrative and operational autonomy**, of tax '
-        'authorities; and',
-        'Ensure a reasonable **transition period of between three and six months** before the '
-        'implementation of a new tax.',
-      ]},
-      {'h4': '(b)  The taxpayer'},
-      {'p': 'The taxpayer is expected to, and is entitled to:'},
-      {'ol': [
-        '**Provide relevant information** for the discharge of tax obligations;',
-        '**Receive prompt, courteous and professional assistance** in dealing with tax '
-        'authorities;',
-        '**Raise objections** to decisions and assessments, and receive a response within a '
-        'reasonable time;',
-        'A **fair and impartial appeal**; and',
-        '**Self-representation, or representation by any agent of choice** — provided that an '
-        'agent acting for financial reward is an accredited tax practitioner.',
-      ]},
-      {'h4': '(c)  Revenue agencies'},
-      {'ol': [
-        '**Treat the taxpayer as a customer**;',
-        'Ensure **efficient implementation** of tax policies, laws and international treaties;',
-        '**Facilitate inter-agency co-operation** and exchange of information;',
-        'Undertake **timely audits and investigations**;',
-        'Undertake **tax awareness and taxpayer education**; and',
-        'Establish a **robust process to prevent, detect and punish corrupt tax officials**.',
-      ]},
-      {'note': 'Notice that the taxpayer\'s list is a mixture of **obligations** (provide '
-               'information) and **rights** (prompt assistance, objection, fair appeal, '
-               'representation). That is deliberate: NTP 2017 frames the relationship as '
-               'reciprocal, which is the policy foundation of the shift from coercion to '
-               '**voluntary compliance** described in Question 1.'}]}},
-  ]},
+  {'n': '1.15', 't': 'Worked examples — study text questions and suggested solutions', 'b': [{'p': 'Every chapter of the Taxation study text closes with a **Worked examples** section — its own '
+       "questions at *x*.1 and its own suggested solutions at *x*.2. Chapter 1's set is reproduced in full "
+       "below, with the book's solutions and additional explanation. The source labels the questions 1.15.1 "
+       'and the suggested solutions 1.15.2; each question below is paired with its corresponding suggested '
+       'solution.'},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 1',
+         't': 'The three aspects of the tax system in Nigeria',
+         'open': True,
+         'q': [{'p': 'Explain briefly the **THREE** aspects of the tax system in Nigeria.'}],
+         'a': [{'p': 'The Nigerian tax system has three aspects — **tax policy, tax laws and tax '
+                     'administration** — and they must work together: a sound policy expressed in bad law or '
+                     'administered badly will not deliver its objectives.'},
+               {'h4': '(a)  Tax policy'},
+               {'p': 'Tax policy is the **general statement of intention which guides the actions of all '
+                     'parties** towards the realisation of tax objectives. In Nigeria a **low tax regime** '
+                     'has been introduced, aimed at reducing the individual tax burden and thereby '
+                     'encouraging savings and investment. There is also the introduction of the '
+                     "**self-assessment scheme**, to encourage taxpayers' participation in the assessment "
+                     'process. The policy supports the movement from the traditional **coercive** method of '
+                     'taxation to **voluntary compliance**.'},
+               {'h4': '(b)  Tax laws'},
+               {'p': 'Tax laws include the following notable tax legislation in Nigeria:'},
+               {'ol': ['**Nigeria Tax Act, 2025**;',
+                       '**Nigeria Tax Administration Act, 2025**;',
+                       '**Petroleum Industry Act, 2021** (as amended);',
+                       '**Nigeria Revenue Service (Establishment) Act, 2025**; and',
+                       '**Joint Revenue Board of Nigeria (Establishment) Act, 2025**.']},
+               {'p': 'The **Constitution vests the legislation of income tax** — whether personal or '
+                     'corporate — in the Federal Government, in order to promote uniformity. The three tiers '
+                     'of government nevertheless **share the administration** of the various taxes. Tax laws '
+                     'are reviewed periodically in line with changes in social, political and economic '
+                     'conditions. The power to impose tax is within the **exclusive legislative authority** '
+                     'of the Federal Government, and various machineries are set up to ensure strict '
+                     'compliance; non-compliance attracts penalties and fines.'},
+               {'h4': '(c)  Tax administration'},
+               {'p': 'Tax administration involves the **practical interpretation and application of the tax '
+                     'laws**. The authorities charged with administering tax in Nigeria are the Federal, '
+                     'State and Local governments, and their tax authorities derive their formation from:'},
+               {'ol': ['the **Nigeria Revenue Service (NRS)** — section 3(1) of the NTA;',
+                       'the **State Internal Revenue Service (SIRS)** — section 87(1) of the NTAA; and',
+                       'the **Local Government Revenue Committee** — section 93(1) of the NTAA.']},
+               {'key': [{'p': 'A useful way to hold the three together:'},
+                        {'ul': ['**policy decides what the country wants tax to achieve',
+                                'law gives that intention legal force',
+                                'administration makes it happen in practice.** Most practical difficulties '
+                                'in Nigerian taxation arise not from the policy or the law but from the '
+                                'third — which is why the 2025 reform legislation is so heavily concerned '
+                                'with administration.']}]}]}},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 2',
+         't': 'Seven sources of Nigerian tax laws and practices',
+         'open': True,
+         'q': [{'p': 'List any **SEVEN** sources of Nigerian tax laws and practices.'}],
+         'a': [{'ol': ['**Practices of the Revenue Department** — the settled administrative practice of the '
+                       'tax authorities.',
+                       '**The Constitution of the Federal Republic of Nigeria** — which allocates taxing '
+                       'powers between the tiers of government.',
+                       '**Departmental and official circulars** issued by the revenue authorities.',
+                       '**Opinions of income tax experts and authors**, in so far as the courts take '
+                       'judicial notice of them.',
+                       '**Accepted recommendations of commissions of inquiry.**',
+                       '**Court judgments** which decide income tax cases and establish income tax '
+                       'principles. These are binding and must be followed in similar cases until overruled.',
+                       '**The various income tax laws** — the State and Federal laws, including Federal '
+                       'Government Acts and State Government laws.']},
+               {'note': 'Note the hierarchy implied by the list. The **Constitution** is supreme; '
+                        '**statute** comes next; **case law** interprets the statute and binds until '
+                        'overruled; **circulars and departmental practice** bind the Revenue but not the '
+                        'courts; and the **opinions of authors** carry weight only so far as a court chooses '
+                        'to rely on them. When two sources conflict, that order decides.'}]}},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 3',
+         't': 'Five principles of taxation',
+         'open': True,
+         'q': [{'p': 'Identify and explain any **FIVE** principles of taxation.'}],
+         'a': [{'p': 'The principles of an **ideal tax system** include the following.'},
+               {'h4': '(a)  Simple, certain and convenient'},
+               {'p': 'The tax should be relatively **simple** for payers to understand their liability, and '
+                     'it should be administered in such a way that they are aware of the amount they should '
+                     'pay and the due date of payment. The method of payment should not be '
+                     '**inconvenient**.'},
+               {'h4': '(b)  Flexible'},
+               {'p': 'The structure and rates of tax should be capable of being **altered without too much '
+                     'difficulty**, to cope with changes in circumstances — particularly if the system of '
+                     'taxation is to be used as a means of regulating the economy, which is one of the '
+                     'stated aims of taxation.'},
+               {'h4': '(c)  Neutral'},
+               {'p': 'A tax is **neutral** if it does not distort economic choices. Taxes should not be made '
+                     'to impinge adversely on economic activity.'},
+               {'h4': '(d)  Administratively efficient'},
+               {'p': 'The **cost of administering the tax should not be too high in proportion to the '
+                     'revenue raised**. Efficiency includes not only the costs incurred by the revenue '
+                     'authority in collecting the tax but also the compliance costs borne by the taxpayer.'},
+               {'h4': '(e)  Equitable (fair)'},
+               {'p': 'Taxes must not only **be** fair, they must also be **seen** to be fair. Two types of '
+                     'equity are to be considered:'},
+               {'ol': ['**Horizontal equity** — this requires that people in **similar** situations are '
+                       'treated in a **similar** way; and',
+                       '**Vertical equity** — this requires that people in **unequal** situations are '
+                       'treated with the necessary degree of **inequality**. This would require the rich to '
+                       'pay more than the poor, which advocates a **progressive** system of taxation.']},
+               {'key': 'The five are not always compatible, and recognising the tensions is what '
+                       'distinguishes a good answer. A **progressive** rate structure serves vertical equity '
+                       'but complicates the system and may blunt incentives, offending simplicity and '
+                       'neutrality. A **flat** tax is simple and neutral but weak on vertical equity. A tax '
+                       'that is highly **flexible** is by that fact less **certain**. Designing a tax system '
+                       'is largely the business of choosing which of these principles to sacrifice, and by '
+                       'how much.'}]}},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 4',
+         't': 'Purposes of taxation other than raising revenue',
+         'open': True,
+         'q': [{'p': 'Taxation is often used for purposes other than the raising of revenue. Enumerate some '
+                     'of these other purposes.'}],
+         'a': [{'p': 'Apart from raising revenue, the other core objectives of a modern tax system include:'},
+               {'ol': ['**Redistribution of income and wealth.** The tax system is a means of ensuring the '
+                       'redistribution of income and wealth, in order to **reduce poverty and promote social '
+                       'welfare**.',
+                       '**Economic regulation.** The tax system is a means of promoting economic welfare and '
+                       'creating a **sound infrastructure for businesses** — stimulating or restraining '
+                       'particular sectors, attracting investment, and managing demand.',
+                       '**Harmonisation / social function.** Taxation can be used to redress the '
+                       '**rural-urban population drift**, to curb **environmental pollution**, and to '
+                       'provide for the free movement of goods and services, capital and people within a '
+                       'geographical area — for example, **ECOWAS**.']},
+               {'note': 'The mnemonic often used for these is the "**four R**s": **Revenue**, '
+                        '**Redistribution**, **Repricing** (taxing things society wants less of — tobacco, '
+                        'pollution, fossil fuels; see Chapter 11 on the Surcharge on Fossil Fuel Products) '
+                        'and **Representation** (the historical link between paying tax and holding '
+                        'government accountable).'}]}},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 5',
+         't': 'Merits and demerits of direct and indirect taxes',
+         'open': True,
+         'q': [{'p': 'Explain the merits and demerits of direct and indirect taxes.'}],
+         'a': [{'h4': 'Direct taxes'},
+               {'table': {'align': 'll',
+                          'head': ['Merits of direct taxes', 'Demerits of direct taxes'],
+                          'rows': [['It has a **lower cost of collection**.',
+                                    'It may **discourage hard work**, because additional income attracts '
+                                    'additional tax.'],
+                                   ['It is **more equitable**, as the taxpayer with the higher income bears '
+                                    'the greater burden.',
+                                    'It can give room for **tax evasion**, especially if the tax rates are '
+                                    'high.'],
+                                   ['It is **easier to ascertain tax incidence** — the person who pays is '
+                                    'the person who bears it.',
+                                    'It may cause **social unrest**, especially if rates are very high, '
+                                    'since the taxpayers bear the whole burden visibly.']]}},
+               {'h4': 'Indirect taxes'},
+               {'table': {'align': 'll',
+                          'head': ['Merits of indirect taxes', 'Demerits of indirect taxes'],
+                          'rows': [['It is a **good source of revenue** to government.',
+                                    'The **cost of collection may be higher**.'],
+                                   ['It can be **adjusted easily**.',
+                                    'Where there is **collusion between tax officials and taxpayers** to '
+                                    'evade tax, there could be loss of revenue.'],
+                                   ['It is a veritable fiscal tool to **check the pattern of consumption of '
+                                    'undesirable goods**.',
+                                    'It may **discourage investment in local industries**, especially in the '
+                                    'case of high export duties or excise duties.'],
+                                   ['It can be used to **protect infant industries**.', ''],
+                                   ['It is **more difficult to evade**, since it is collected at the point '
+                                    'of transaction.',
+                                    '']]}},
+               {'key': 'The defining difference is **incidence**. With a **direct** tax the person assessed '
+                       'is the person who bears the burden, and it cannot be passed on — which is why it can '
+                       'be made progressive and equitable, and why it is politically visible and resented. '
+                       'With an **indirect** tax the person who pays it over to the Revenue (the trader) is '
+                       'not the person who ultimately bears it (the consumer) — which is why it is hard to '
+                       'evade and easy to collect, but also why it tends to be **regressive**, falling more '
+                       'heavily on the poor as a share of income.'}]}},
+ {'eg': {'tag': 'Study text — 1.15.1, Question 6',
+         't': 'Responsibilities of the key stakeholders under NTP 2017',
+         'open': True,
+         'q': [{'p': 'The responsibilities of the following key stakeholders are clearly identified in **NTP '
+                     '2017**. **Required:'},
+               {'ul': ['** explain the responsibilities of (a) the government',
+                       '(b) the taxpayers',
+                       '(c) the revenue agencies.']}],
+         'a': [{'h4': '(a)  The government'},
+               {'ol': ['**Implement and regularly review** tax policies and laws;',
+                       '**Provide information on all revenue collected** on a quarterly basis;',
+                       'Ensure **adequate funding, and administrative and operational autonomy**, of tax '
+                       'authorities; and',
+                       'Ensure a reasonable **transition period of between three and six months** before the '
+                       'implementation of a new tax.']},
+               {'h4': '(b)  The taxpayer'},
+               {'p': 'The taxpayer is expected to, and is entitled to:'},
+               {'ol': ['**Provide relevant information** for the discharge of tax obligations;',
+                       '**Receive prompt, courteous and professional assistance** in dealing with tax '
+                       'authorities;',
+                       '**Raise objections** to decisions and assessments, and receive a response within a '
+                       'reasonable time;',
+                       'A **fair and impartial appeal**; and',
+                       '**Self-representation, or representation by any agent of choice** — provided that an '
+                       'agent acting for financial reward is an accredited tax practitioner.']},
+               {'h4': '(c)  Revenue agencies'},
+               {'ol': ['**Treat the taxpayer as a customer**;',
+                       'Ensure **efficient implementation** of tax policies, laws and international '
+                       'treaties;',
+                       '**Facilitate inter-agency co-operation** and exchange of information;',
+                       'Undertake **timely audits and investigations**;',
+                       'Undertake **tax awareness and taxpayer education**; and',
+                       'Establish a **robust process to prevent, detect and punish corrupt tax '
+                       'officials**.']},
+               {'note': "Notice that the taxpayer's list is a mixture of **obligations** (provide "
+                        'information) and **rights** (prompt assistance, objection, fair appeal, '
+                        'representation). That is deliberate: NTP 2017 frames the relationship as '
+                        'reciprocal, which is the policy foundation of the shift from coercion to '
+                        '**voluntary compliance** described in Question 1.'}]}}]},
 
  ],
  'formulas': [],

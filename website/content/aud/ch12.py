@@ -225,77 +225,89 @@ CH = {
             'results in turn.'},
   ]},
 
-  {'n': '12.12', 't': 'Other assurance engagements', 'b': [
-    {'h4': 'Forensic audit'},
-    {'p': 'Current practice, and the growing number of court cases involving professional '
-          'accountants, means accountants carrying out audit engagements may need to give '
-          'evidence in court — requiring skills in reviewing/investigating matters and '
-          'presenting evidence, and presenting financial information to substantiate a court '
-          'position.'},
-    {'def': {'t': 'Forensic audit', 'd': 'the process of auditing and presenting reports in a '
-                  'manner admissible as evidence in court — requiring investigative skill and '
-                  'appropriate grounding in law and evidence presentation, integrating auditing '
-                  'and investigative skills to uncover fraud, embezzlement or other financial '
-                  'misconduct. Key objectives: detecting/preventing fraud, gathering evidence '
-                  'for court use, and assisting in resolving financial disputes.'}},
-    {'p': 'Forensic engagements typically include: investigating financial fraud/'
-          'misrepresentation; valuing businesses/assets in disputes; assessing economic '
-          'damages; analysing bankruptcy/insolvency cases; and examining money laundering '
-          'activities.'},
-    {'key': 'A forensic auditor must: be **independent and objective**; collect/preserve '
-            'evidence in a **legally acceptable** manner; maintain confidentiality; prepare '
-            'detailed reports able to **withstand legal scrutiny**; and provide **expert '
-            'witness testimony** if required.'},
-    {'p': 'The forensic audit process, in five steps:'},
-    {'table': {'align': 'll', 'head': ['Step', 'What it involves'], 'rows': [
-      ['**1. Planning and preparation**', 'Understand the client\'s needs and the nature of the '
-       'suspected issue; define objectives, scope and methodology.'],
-      ['**2. Evidence collection**', 'Obtain relevant documents (accounting records, emails, '
-       'contracts); use interviews, surveillance and other investigative techniques.'],
-      ['**3. Data analysis**', 'Analyse financial data for irregularities/fraud patterns; use '
-       'forensic technology tools for data mining and reconstruction.'],
-      ['**4. Reporting**', 'Document findings clearly and factually; prepare reports suitable '
-       'for court submission.'],
-      ['**5. Court proceedings**', 'Present findings as an expert witness; respond to cross-'
-       'examination and scrutiny.'],
-    ]}},
-    {'p': 'Forensic audit techniques: **data mining** (systematic analysis of large datasets '
-          'for anomalies); **Benford\'s Law analysis** (detecting irregularities in numerical '
-          'data); **link analysis** (mapping relationships between entities involved in '
-          'fraud); and **forensic technology** (software tools for evidence gathering/'
-          'analysis).'},
-    {'key': 'Evidence qualifying for forensic audit must be **properly documented and '
-            'safeguarded** against tampering or loss.'},
-    {'p': 'Forensic audit reports must: be comprehensive, accurate and unbiased; include scope, '
-          'methodology, findings and conclusions; and be clear and understandable to '
-          'non-accountants. To qualify for presentation in legal proceedings, forensic '
-          'auditors must: adhere to applicable laws/regulations; follow professional codes of '
-          'ethics; maintain objectivity and independence; and protect the confidentiality of '
-          'sensitive information.'},
-    {'p': 'Challenges in forensic audit: limited access to necessary information; the '
-          'complexity of financial transactions; the evolving nature of fraud techniques; and '
-          'maintaining neutrality under pressure.'},
-    {'note': 'Forensic audit plays a crucial role in maintaining financial-system integrity '
-             'and assisting legal proceedings — a forensic auditor\'s expertise bridges auditing '
-             'principles and legal requirements, ensuring transparency, accountability and '
-             'justice.'},
-
-    {'h4': 'Due diligence'},
-    {'p': 'Investors acquire and dispose of investments from time to time, based on assessing '
-          'recent, up-to-date information on the target entity\'s state of affairs — done by '
-          'assigning other auditors to review the target\'s accounting and management '
-          'structure.'},
-    {'def': {'t': 'Due diligence', 'd': 'the review and evaluation of a target entity that '
-                  'enables an investor to decide on a proposed investment.'}},
-    {'p': 'Objectives of due diligence: determine the entity\'s strengths/weaknesses; ascertain '
-          'its economic worth; evaluate the financial injection needed to achieve the planned '
-          'investment\'s objective; and ascertain the investment\'s worthwhileness.'},
-    {'p': 'The due diligence procedure: review the enterprise\'s financial statements; prepare '
-          'and compare its ratios against industry and other standards; make adjustments to '
-          'the financial statements; review management projections and expectations; make '
-          'cash flow projections; project the business over a period; and advise on the '
-          'investment\'s viability.'},
-  ]},
+  {'n': '12.12', 't': 'Other assurance engagements', 'b': [{'h4': 'Forensic audit'},
+ {'p': 'Current practice, and the growing number of court cases involving professional accountants, means '
+       'accountants carrying out audit engagements may need to give evidence in court — requiring skills in '
+       'reviewing/investigating matters and presenting evidence, and presenting financial information to '
+       'substantiate a court position.'},
+ {'def': {'t': 'Forensic audit',
+          'd': 'the process of auditing and presenting reports in a manner admissible as evidence in court — '
+               'requiring investigative skill and appropriate grounding in law and evidence presentation, '
+               'integrating auditing and investigative skills to uncover fraud, embezzlement or other '
+               'financial misconduct. Key objectives: detecting/preventing fraud, gathering evidence for '
+               'court use, and assisting in resolving financial disputes.'}},
+ {'p': 'Forensic engagements typically include:'},
+ {'ul': ['investigating financial fraud/misrepresentation',
+         'valuing businesses/assets in disputes',
+         'assessing economic damages',
+         'analysing bankruptcy/insolvency cases',
+         'and examining money laundering activities.']},
+ {'key': [{'p': 'A forensic auditor must:'},
+          {'ul': ['be **independent and objective**',
+                  'collect/preserve evidence in a **legally acceptable** manner',
+                  'maintain confidentiality',
+                  'prepare detailed reports able to **withstand legal scrutiny**',
+                  'and provide **expert witness testimony** if required.']}]},
+ {'p': 'The forensic audit process, in five steps:'},
+ {'table': {'align': 'll',
+            'head': ['Step', 'What it involves'],
+            'rows': [['**1. Planning and preparation**',
+                      "Understand the client's needs and the nature of the suspected issue; define "
+                      'objectives, scope and methodology.'],
+                     ['**2. Evidence collection**',
+                      'Obtain relevant documents (accounting records, emails, contracts); use interviews, '
+                      'surveillance and other investigative techniques.'],
+                     ['**3. Data analysis**',
+                      'Analyse financial data for irregularities/fraud patterns; use forensic technology '
+                      'tools for data mining and reconstruction.'],
+                     ['**4. Reporting**',
+                      'Document findings clearly and factually; prepare reports suitable for court '
+                      'submission.'],
+                     ['**5. Court proceedings**',
+                      'Present findings as an expert witness; respond to cross-examination and scrutiny.']]}},
+ {'p': 'Forensic audit techniques:'},
+ {'ul': ['**data mining** (systematic analysis of large datasets for anomalies)',
+         "**Benford's Law analysis** (detecting irregularities in numerical data)",
+         '**link analysis** (mapping relationships between entities involved in fraud)',
+         'and **forensic technology** (software tools for evidence gathering/analysis).']},
+ {'key': 'Evidence qualifying for forensic audit must be **properly documented and safeguarded** against '
+         'tampering or loss.'},
+ {'p': 'Forensic audit reports must:'},
+ {'ul': ['be comprehensive, accurate and unbiased',
+         'include scope, methodology, findings and conclusions',
+         'and be clear and understandable to non-accountants. To qualify for presentation in legal '
+         'proceedings, forensic auditors must: adhere to applicable laws/regulations',
+         'follow professional codes of ethics',
+         'maintain objectivity and independence',
+         'and protect the confidentiality of sensitive information.']},
+ {'p': 'Challenges in forensic audit:'},
+ {'ul': ['limited access to necessary information',
+         'the complexity of financial transactions',
+         'the evolving nature of fraud techniques',
+         'and maintaining neutrality under pressure.']},
+ {'note': 'Forensic audit plays a crucial role in maintaining financial-system integrity and assisting legal '
+          "proceedings — a forensic auditor's expertise bridges auditing principles and legal requirements, "
+          'ensuring transparency, accountability and justice.'},
+ {'h4': 'Due diligence'},
+ {'p': 'Investors acquire and dispose of investments from time to time, based on assessing recent, '
+       "up-to-date information on the target entity's state of affairs — done by assigning other auditors to "
+       "review the target's accounting and management structure."},
+ {'def': {'t': 'Due diligence',
+          'd': 'the review and evaluation of a target entity that enables an investor to decide on a '
+               'proposed investment.'}},
+ {'p': 'Objectives of due diligence:'},
+ {'ul': ["determine the entity's strengths/weaknesses",
+         'ascertain its economic worth',
+         "evaluate the financial injection needed to achieve the planned investment's objective",
+         "and ascertain the investment's worthwhileness."]},
+ {'p': 'The due diligence procedure:'},
+ {'ul': ["review the enterprise's financial statements",
+         'prepare and compare its ratios against industry and other standards',
+         'make adjustments to the financial statements',
+         'review management projections and expectations',
+         'make cash flow projections',
+         'project the business over a period',
+         "and advise on the investment's viability."]}]},
 
   {'n': '12.13', 't': 'Chapter summary', 'b': [
     {'ol': [

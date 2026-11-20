@@ -50,7 +50,7 @@ var R = (function () {
 
   B.p  = function (b) { return '<p>' + inl(b.p) + '</p>'; };
   B.h3 = function (b) { return '<h3' + (b.id ? ' id="' + esc(b.id) + '"' : '') + '>' + inl(b.h3) + '</h3>'; };
-  B.h4 = function (b) { return '<h4>' + inl(b.h4) + '</h4>'; };
+  B.h4 = function (b) { return '<h4' + (b.id ? ' id="' + esc(b.id) + '"' : '') + '>' + inl(b.h4) + '</h4>'; };
   B.ul = function (b) {
     return '<ul>' + b.ul.map(function (x) { return '<li>' + inl(x) + '</li>'; }).join('') + '</ul>';
   };
@@ -78,6 +78,13 @@ var R = (function () {
   B.key  = function (b) { return callout('key',  b.lbl || 'Key idea', b.key); };
   B.warn = function (b) { return callout('warn', b.lbl || 'Careful', b.warn); };
   B.pre  = function (b) { return '<div class="pre">' + esc(b.pre) + '</div>'; };
+  B.figure = function (b) {
+    var f = b.figure;
+    return '<figure class="study-figure"><a href="' + esc(f.src) + '" target="_blank" rel="noopener" ' +
+      'aria-label="' + esc('Open original page: ' + f.alt) + '"><img src="' + esc(f.src) +
+      '" alt="' + esc(f.alt) + '" loading="lazy" width="1190" height="1684"></a>' +
+      '<figcaption>' + inl(f.cap) + '</figcaption></figure>';
+  };
 
   B.table = function (b) {
     var t = b.table, al = (t.align || '').split('');

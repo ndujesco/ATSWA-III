@@ -6,6 +6,8 @@
     "saq": 1200,
     "secb": 360
   },
+  "studyFigurePages": 37,
+  "studyFigureAndTableCaptions": 42,
   "citations": {
     "AUD": {
       "all": 840,
@@ -29,13 +31,13 @@
     }
   },
   "additionalReadingLinks": 171,
-  "flags": 384,
+  "flags": 386,
   "revisionSourceQuestions": 3360,
   "sourceFigures": 7,
   "originalPdfs": 15,
   "questionsWithSourcePage": 3360,
   "referenceTables": 15,
-  "manualCitationReviews": 1386,
+  "manualCitationReviews": 1434,
   "reviewedKeyCorrections": 7,
   "reviewedShortAnswerCorrections": 7
 }

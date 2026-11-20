@@ -26,40 +26,24 @@ CH = {
                     {
                                  'n': '7.2',
                                  't': 'Nature, objectives, and administration of VAT',
-                                 'b': [
-                                                          {
-                                                                                'h4': '7.2.1  The nature of VAT',
-                                                                              },
-                                                          {
-                                                                                'p': 'VAT achieved global acceptance in the early twenty-first century, '
-                                                                                     'largely for its ease of administration and high collection yield.',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Value Added Tax (VAT)',
-                                                                                                                      'd': 'a consumption tax — a multi-stage levy collected at every '
-                                                                                                                           'stage of the production and sale of goods and the '
-                                                                                                                           'rendition of services.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': '7.2.2  Objectives of VAT',
-                                                                              },
-                                                          {
-                                                                                'p': 'Objectives of VAT: increase government revenue; make the tax '
-                                                                                     'system more transparent; avoid a cascading effect; reduce tax '
-                                                                                     'evasion; increase exports; simplify the tax collection procedure; '
-                                                                                     'and check income tax evasion by concealment of actual income.',
-                                                                              },
-                                                          {
-                                                                                'h4': '7.2.3  Administration of VAT — section 3 of NTAA',
-                                                                              },
-                                                          {
-                                                                                'key': 'Administration (s.3 NTAA): the **Nigeria Revenue Service (NRS)** '
-                                                                                       'is empowered to administer VAT — the NRS is the central body '
-                                                                                       'responsible for administering all federal taxes, VAT included.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.2.1  The nature of VAT'},
+ {'p': 'VAT achieved global acceptance in the early twenty-first century, largely for its ease of '
+       'administration and high collection yield.'},
+ {'def': {'t': 'Value Added Tax (VAT)',
+          'd': 'a consumption tax — a multi-stage levy collected at every stage of the production and sale '
+               'of goods and the rendition of services.'}},
+ {'h4': '7.2.2  Objectives of VAT'},
+ {'p': 'Objectives of VAT:'},
+ {'ul': ['increase government revenue',
+         'make the tax system more transparent',
+         'avoid a cascading effect',
+         'reduce tax evasion',
+         'increase exports',
+         'simplify the tax collection procedure',
+         'and check income tax evasion by concealment of actual income.']},
+ {'h4': '7.2.3  Administration of VAT — section 3 of NTAA'},
+ {'key': 'Administration (s.3 NTAA): the **Nigeria Revenue Service (NRS)** is empowered to administer VAT — '
+         'the NRS is the central body responsible for administering all federal taxes, VAT included.'}],
                                },
                     {
                                  'n': '7.3',
@@ -211,27 +195,20 @@ CH = {
                     {
                                  'n': '7.8',
                                  't': 'VAT invoice — section 152 of NTA',
-                                 'b': [
-                                                          {
-                                                                                'p': 'A taxpayer making a taxable supply must maintain sequential '
-                                                                                     'invoice numbering and furnish the purchaser with a VAT invoice '
-                                                                                     'showing: the supplier\'s Tax ID; the supplier\'s name/address and '
-                                                                                     'sequential invoice number; the supplier\'s incorporation/business '
-                                                                                     'registration number, as applicable; the date of supply; the '
-                                                                                     'purchaser\'s/client\'s name; the gross transaction amount; and the '
-                                                                                     'VAT charged and rate.',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'A VAT invoice must be issued on supply, whether or not payment '
-                                                                                                                    'is made at that time;',
-                                                                                                                    'it must be issued by the taxable person making the supply, or a '
-                                                                                                                    'person appointed by the Service; and',
-                                                                                                                    'the Service may direct a taxpayer to adopt electronic '
-                                                                                                                    'invoicing, giving **at least 30 days\'** notice.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'A taxpayer making a taxable supply must maintain sequential invoice numbering and furnish the '
+       'purchaser with a VAT invoice showing:'},
+ {'ul': ["the supplier's Tax ID",
+         "the supplier's name/address and sequential invoice number",
+         "the supplier's incorporation/business registration number, as applicable",
+         'the date of supply',
+         "the purchaser's/client's name",
+         'the gross transaction amount',
+         'and the VAT charged and rate.']},
+ {'ol': ['A VAT invoice must be issued on supply, whether or not payment is made at that time;',
+         'it must be issued by the taxable person making the supply, or a person appointed by the Service; '
+         'and',
+         "the Service may direct a taxpayer to adopt electronic invoicing, giving **at least 30 days'** "
+         'notice.']}],
                                },
                     {
                                  'n': '7.9',
@@ -598,267 +575,103 @@ CH = {
                     {
                                  'n': '7.22',
                                  't': 'Time of supply — section 146 of NTA',
-                                 'b': [
-                                                          {
-                                                                                'p': 'A taxable supply occurs at the **earliest** of: an invoice/receipt '
-                                                                                     'being issued; the goods being delivered/made available for use; or '
-                                                                                     'payment being due/received — whichever occurs first.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Where the supplier and recipient are **connected persons** and no '
-                                                                                     'invoice is issued, supply is deemed to occur: at removal (goods to '
-                                                                                     'be removed); when goods not to be removed are made available; on '
-                                                                                     'commencement of a service; or when an incorporeal becomes '
-                                                                                     'available for use.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Special timing rules apply to periodic/instalment arrangements: '
-                                                                                     'rental or periodic-payment agreements are deemed successively '
-                                                                                     'supplied, each instalment occurring when payment is due or '
-                                                                                     'received (whichever is earlier); progressive/periodic supplies '
-                                                                                     '(including '
-                                                                                     'construction/assembly/manufacturing/alteration/improvement/repair '
-                                                                                     'paid in instalments) are similarly deemed successive, occurring at '
-                                                                                     'the earliest of payment due, payment received, or invoice '
-                                                                                     'issuance; and an instalment-credit-agreement supply is deemed to '
-                                                                                     'occur at delivery or at receipt of any payment, whichever occurs '
-                                                                                     'first.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'A taxable supply occurs at the **earliest** of:'},
+ {'ul': ['an invoice/receipt being issued',
+         'the goods being delivered/made available for use',
+         'or payment being due/received — whichever occurs first.']},
+ {'p': 'Where the supplier and recipient are **connected persons** and no invoice is issued, supply is '
+       'deemed to occur:'},
+ {'ul': ['at removal (goods to be removed)',
+         'when goods not to be removed are made available',
+         'on commencement of a service',
+         'or when an incorporeal becomes available for use.']},
+ {'p': 'Special timing rules apply to periodic/instalment arrangements:'},
+ {'ul': ['rental or periodic-payment agreements are deemed successively supplied, each instalment occurring '
+         'when payment is due or received (whichever is earlier)',
+         'progressive/periodic supplies (including '
+         'construction/assembly/manufacturing/alteration/improvement/repair paid in instalments) are '
+         'similarly deemed successive, occurring at the earliest of payment due, payment received, or '
+         'invoice issuance',
+         'and an instalment-credit-agreement supply is deemed to occur at delivery or at receipt of any '
+         'payment, whichever occurs first.']}],
                                },
                     {
                                  'n': '7.23',
                                  't': 'Taxable supply of non-residents / VAT reverse charge — section 150 of NTA',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'VAT reverse charge',
-                                                                                                                      'd': 'a mechanism where the **recipient** of a supply — not the '
-                                                                                                                           'supplier — accounts for VAT; the seller does not charge '
-                                                                                                                           'VAT on the invoice. It applies to non-resident suppliers '
-                                                                                                                           'unregistered for Nigerian VAT, and where local vendors '
-                                                                                                                           'fail to charge VAT. The recipient must self-assess the '
-                                                                                                                           'VAT payable and remit it to the NRS.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Benefits',
-                                                                                                                                                                             'Challenges',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Simplifies VAT compliance for non-resident '
-                                                                                                                                                                                                                          'suppliers.',
-                                                                                                                                                                                                                          'Complex to implement and administer.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Reduces the administrative burden on '
-                                                                                                                                                                                                                          'non-resident suppliers.',
-                                                                                                                                                                                                                          'Places a significant compliance burden on '
-                                                                                                                                                                                                                          'recipients.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Ensures VAT revenue is collected on '
-                                                                                                                                                                                                                          'non-resident-supplier transactions.',
-                                                                                                                                                                                                                          'Can lead to errors in VAT accounting and '
-                                                                                                                                                                                                                          'remittance.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'VAT reverse charge',
+          'd': 'a mechanism where the **recipient** of a supply — not the supplier — accounts for VAT; the '
+               'seller does not charge VAT on the invoice. It applies to non-resident suppliers unregistered '
+               'for Nigerian VAT, and where local vendors fail to charge VAT. The recipient must self-assess '
+               'the VAT payable and remit it to the NRS.'}},
+ {'h4': '7.23.1  Benefits'},
+ {'ul': ['Simplifies VAT compliance for non-resident suppliers.',
+         'Reduces the administrative burden on non-resident suppliers.',
+         'Ensures VAT revenue is collected on non-resident-supplier transactions.']},
+ {'h4': '7.23.2  Challenges'},
+ {'ul': ['Complex to implement and administer.',
+         'Places a significant compliance burden on recipients.',
+         'Can lead to errors in VAT accounting and remittance.']}],
                                },
                     {
                                  'n': '7.24',
                                  't': 'Computation of VAT liability, including the treatment of opening and '
                                       'closing inventories',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Effective 1 February 2020, VAT liability is computed by first '
-                                                                                     'applying the 7.5% rate to **total sales net of allowable sales '
-                                                                                     'adjustments** (VAT output — see VAT Form 002), then applying 7.5% '
-                                                                                     'to **purchases net of allowable purchases adjustments** (VAT '
-                                                                                     'input). VAT liability for the period is Output VAT less Input VAT.',
-                                                                              },
-                                                          {
-                                                                                'p': 'This liability may be further adjusted for: VAT reverse charges '
-                                                                                     'already deducted by third parties (oil and gas companies, '
-                                                                                     'government MDAs, etc.) in the same period; and any VAT credit '
-                                                                                     '(excess input over output) carried from a previous period. The net '
-                                                                                     'result may be a VAT credit or a VAT payable.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Where the computation involves **inventories**, the input VAT '
-                                                                                       'must be further adjusted: period purchases are first increased '
-                                                                                       'by the cost of **opening** inventory, then reduced by the cost '
-                                                                                       'of **closing** inventory — the net figure is adjusted as above, '
-                                                                                       'then input VAT is computed by applying the 7.5% rate. '
-                                                                                       'Inventories are measured at the **lower of cost and net '
-                                                                                       'realisable value** (IAS 2) — cost comprises all costs of '
-                                                                                       'purchase, conversion, and other costs of bringing inventory to '
-                                                                                       'its present location/condition.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Illustration 7.1 — VAT remittable (ABC Nigeria Limited)',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'ABC Nigeria Limited, incorporated years ago and '
-                                                                                                                                                                                                          'importing/selling chemical products, had these '
-                                                                                                                                                                                                          'February 2026 transactions (all goods received '
-                                                                                                                                                                                                          'and sold during the month):',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Item',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Total value of taxable supplies '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(incl. exempt/zero-rated '
-                                                                                                                                                                                                                                                                                                                                                                                                  'supplies and VAT)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '18,600,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Value of exempt/zero-rated '
-                                                                                                                                                                                                                                                                                                                                                                                                  'supplies included above',
-                                                                                                                                                                                                                                                                                                                                                                                                  '4,800,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT on domestic '
-                                                                                                                                                                                                                                                                                                                                                                                                  'supplies/purchases with '
-                                                                                                                                                                                                                                                                                                                                                                                                  'invoicing requirements met',
-                                                                                                                                                                                                                                                                                                                                                                                                  '110,300',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT on import',
-                                                                                                                                                                                                                                                                                                                                                                                                  '285,600',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT on purchases not wholly '
-                                                                                                                                                                                                                                                                                                                                                                                                  'used in making vatable supplies',
-                                                                                                                                                                                                                                                                                                                                                                                                  '62,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT paid on equipment',
-                                                                                                                                                                                                                                                                                                                                                                                                  '97,500',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT paid on professional fees',
-                                                                                                                                                                                                                                                                                                                                                                                                  '48,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Bank charges (VAT inclusive)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '93,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Required:** Compute the VAT remittable to the '
-                                                                                                                                                                                                          'tax authority in March 2026.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Solution — VAT remittable to NRS, '
-                                                                                                                                                                                                                                                                                                                                    'March 2026',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Value of taxable supplies, '
-                                                                                                                                                                                                                                                                                                                                                                                                  'incl. exempt/zero-rated '
-                                                                                                                                                                                                                                                                                                                                                                                                  'supplies and VAT',
-                                                                                                                                                                                                                                                                                                                                                                                                  '18,600,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Less: value of '
-                                                                                                                                                                                                                                                                                                                                                                                                  'exempt/zero-rated supplies '
-                                                                                                                                                                                                                                                                                                                                                                                                  'included above',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(4,800,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Total supplies subject to '
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**13,800,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT received on supplies '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(7.5/107.5 × N13,800,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '962,791',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT on domestic '
-                                                                                                                                                                                                                                                                                                                                                                                                  'supplies/purchases (invoicing '
-                                                                                                                                                                                                                                                                                                                                                                                                  'requirements met)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '110,300',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT on import',
-                                                                                                                                                                                                                                                                                                                                                                                                  '285,600',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Subtotal',
-                                                                                                                                                                                                                                                                                                                                                                                                  '395,900',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Less: VAT on purchases not '
-                                                                                                                                                                                                                                                                                                                                                                                                  'wholly used in vatable supplies',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(62,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Subtotal',
-                                                                                                                                                                                                                                                                                                                                                                                                  '333,900',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT paid on equipment',
-                                                                                                                                                                                                                                                                                                                                                                                                  '97,500',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT paid on professional fees',
-                                                                                                                                                                                                                                                                                                                                                                                                  '48,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT included in bank charges '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(7.5/107.5 × N93,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6,488',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Total deductible input VAT**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**(485,888)**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**VAT remittable**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**476,903**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Tutorial notes: (i) deductible input VAT is '
-                                                                                                                                                                                                             'limited to VAT paid on goods '
-                                                                                                                                                                                                             'purchased/imported directly for resale, or '
-                                                                                                                                                                                                             'forming inventory used for direct production '
-                                                                                                                                                                                                             'of taxed output; (ii) VAT paid on overhead, '
-                                                                                                                                                                                                             'service and general administration is allowed '
-                                                                                                                                                                                                             'as input VAT only if directly attributable to '
-                                                                                                                                                                                                             'taxable supplies; (iii) the same applies to '
-                                                                                                                                                                                                             'VAT paid on capital items.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Effective 1 February 2020, VAT liability is computed by first applying the 7.5% rate to **total '
+       'sales net of allowable sales adjustments** (VAT output — see VAT Form 002), then applying 7.5% to '
+       '**purchases net of allowable purchases adjustments** (VAT input). VAT liability for the period is '
+       'Output VAT less Input VAT.'},
+ {'p': 'This liability may be further adjusted for: VAT reverse charges already deducted by third parties '
+       '(oil and gas companies, government MDAs, etc.) in the same period; and any VAT credit (excess input '
+       'over output) carried from a previous period. The net result may be a VAT credit or a VAT payable.'},
+ {'key': 'Where the computation involves **inventories**, the input VAT must be further adjusted: period '
+         'purchases are first increased by the cost of **opening** inventory, then reduced by the cost of '
+         '**closing** inventory — the net figure is adjusted as above, then input VAT is computed by '
+         'applying the 7.5% rate. Inventories are measured at the **lower of cost and net realisable value** '
+         '(IAS 2) — cost comprises all costs of purchase, conversion, and other costs of bringing inventory '
+         'to its present location/condition.'},
+ {'eg': {'t': 'Illustration 7.1 — VAT remittable (ABC Nigeria Limited)',
+         'q': [{'p': 'ABC Nigeria Limited, incorporated years ago and importing/selling chemical products, '
+                     'had these February 2026 transactions (all goods received and sold during the month):'},
+               {'table': {'align': 'lr',
+                          'head': ['Item', 'N'],
+                          'rows': [['Total value of taxable supplies (incl. exempt/zero-rated supplies and '
+                                    'VAT)',
+                                    '18,600,000'],
+                                   ['Value of exempt/zero-rated supplies included above', '4,800,000'],
+                                   ['VAT on domestic supplies/purchases with invoicing requirements met',
+                                    '110,300'],
+                                   ['VAT on import', '285,600'],
+                                   ['VAT on purchases not wholly used in making vatable supplies', '62,000'],
+                                   ['VAT paid on equipment', '97,500'],
+                                   ['VAT paid on professional fees', '48,000'],
+                                   ['Bank charges (VAT inclusive)', '93,000']]}},
+               {'p': '**Required:** Compute the VAT remittable to the tax authority in March 2026.'}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['Solution — VAT remittable to NRS, March 2026', 'N'],
+                          'rows': [['Value of taxable supplies, incl. exempt/zero-rated supplies and VAT',
+                                    '18,600,000'],
+                                   ['Less: value of exempt/zero-rated supplies included above',
+                                    '(4,800,000)'],
+                                   ['**Total supplies subject to VAT**', '**13,800,000**'],
+                                   ['VAT received on supplies (7.5/107.5 × N13,800,000)', '962,791'],
+                                   ['VAT on domestic supplies/purchases (invoicing requirements met)',
+                                    '110,300'],
+                                   ['VAT on import', '285,600'],
+                                   ['Subtotal', '395,900'],
+                                   ['Less: VAT on purchases not wholly used in vatable supplies', '(62,000)'],
+                                   ['Subtotal', '333,900'],
+                                   ['VAT paid on equipment', '97,500'],
+                                   ['VAT paid on professional fees', '48,000'],
+                                   ['VAT included in bank charges (7.5/107.5 × N93,000)', '6,488'],
+                                   ['**Total deductible input VAT**', '**(485,888)**'],
+                                   ['**VAT remittable**', '**476,903**']]}},
+               {'note': [{'p': 'Tutorial notes:'},
+                         {'ul': ['(i) deductible input VAT is limited to VAT paid on goods '
+                                 'purchased/imported directly for resale, or forming inventory used for '
+                                 'direct production of taxed output',
+                                 '(ii) VAT paid on overhead, service and general administration is allowed '
+                                 'as input VAT only if directly attributable to taxable supplies',
+                                 '(iii) the same applies to VAT paid on capital items.']}]}]}}],
                                },
                     {
                                  'n': '7.25',
@@ -954,34 +767,22 @@ CH = {
                     {
                                  'n': '7.28',
                                  't': 'VAT exempt items and zero-rated items — input VAT treatment compared',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Supply category',
-                                                                                                                                                                             'Input VAT treatment',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Exempt supplies**',
-                                                                                                                                                                                                                          'Not subject to VAT — the input VAT incurred on '
-                                                                                                                                                                                                                          'them is **not recoverable** and is instead '
-                                                                                                                                                                                                                          'treated as a **cost**.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Zero-rated supplies**',
-                                                                                                                                                                                                                          'Subject to VAT, but at 0% — the input VAT '
-                                                                                                                                                                                                                          'incurred **is recoverable** even though the '
-                                                                                                                                                                                                                          'output VAT is nil (e.g. a company exporting '
-                                                                                                                                                                                                                          'zero-rated goods can recover the input VAT it '
-                                                                                                                                                                                                                          'incurred). Treated as a recoverable input tax '
-                                                                                                                                                                                                                          'credit.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.28.1  VAT exempt items'},
+ {'table': {'align': 'll',
+            'head': ['Supply category', 'Input VAT treatment'],
+            'rows': [['**Exempt supplies**',
+                      'Not subject to VAT — the input VAT incurred on them is **not recoverable** and is '
+                      'instead treated as a **cost**.']]}},
+ {'h4': '7.28.2  Zero-rated items'},
+ {'table': {'align': 'll',
+            'head': ['Supply category', 'Input VAT treatment'],
+            'rows': [['**Zero-rated supplies**',
+                      'Subject to VAT, but at 0% — the input VAT incurred **is recoverable** even though the '
+                      'output VAT is nil (e.g. a company exporting zero-rated goods can recover the input '
+                      'VAT it incurred). Treated as a recoverable input tax credit.']]}},
+ {'warn': 'Source-number clarification: PDF page 174 / printed page 173 prints this main section as “7..28” '
+          'with a doubled dot. Its readable section number here is 7.28; the source subheadings remain '
+          '7.28.1 and 7.28.2.'}],
                                },
                     {
                                  'n': '7.29',
@@ -1055,149 +856,60 @@ CH = {
                                  'n': '7.30',
                                  't': 'Vatable services rendered by financial institutions and their VAT exempt '
                                       'income',
-                                 'b': [
-                                                          {
-                                                                                'h4': '7.30.1  Introduction',
-                                                                              },
-                                                          {
-                                                                                'p': 'Services rendered by **microfinance banks, people\'s banks and '
-                                                                                     'mortgage institutions** are specifically VAT-exempt — services by '
-                                                                                     'other financial institutions are liable to VAT.',
-                                                                              },
-                                                          {
-                                                                                'h4': '7.30.2  Definition of financial institutions',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Financial institution',
-                                                                                                                      'd': 'any bank, individual, body, association or group of '
-                                                                                                                           'persons (corporate or unincorporated), licensed under '
-                                                                                                                           'BOFIA or a related Act, carrying on the business of a '
-                                                                                                                           'discount house, finance company, money brokerage, or '
-                                                                                                                           'whose principal objects include factoring, project '
-                                                                                                                           'financing, equipment leasing, debt administration, fund '
-                                                                                                                           'management, private ledger services, investment '
-                                                                                                                           'management, local purchases/order/export finance, '
-                                                                                                                           'project/financial consultancy, pension fund management, '
-                                                                                                                           'and such other business as the CBN, NDIC, PenCom or other '
-                                                                                                                           'regulator may designate.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': '7.30.3 – 7.30.5  Services liable to VAT, vatable services, and '
-                                                                                      'non-vatable income of financial institutions',
-                                                                              },
-                                                          {
-                                                                                'p': 'Commissions, fees or other charges for services financial '
-                                                                                     'institutions render to customers are liable to VAT — but '
-                                                                                     '**loans/advances and interest charged on them are not**, while '
-                                                                                     'additional services like documentation/perfection of loan or '
-                                                                                     'overdraft agreements **are** vatable. For insurance intermediaries '
-                                                                                     '(brokers, agents, loss adjusters, surveyors), fees/commissions for '
-                                                                                     'services rendered are liable to VAT, but **premium received on '
-                                                                                     'policies is not**.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Vatable charges',
-                                                                                                                                                                             'Non-vatable income',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Commissions on forex trading/remittance',
-                                                                                                                                                                                                                          'Interest on loans and advances (including '
-                                                                                                                                                                                                                          'overdrafts)',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Commissions on sale of bank drafts/certified '
-                                                                                                                                                                                                                          'cheques',
-                                                                                                                                                                                                                          'Interest on savings accounts',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Commissions to '
-                                                                                                                                                                                                                          'brokers/reinsurers/underwriters/insurance agents',
-                                                                                                                                                                                                                          'Interest on bank deposits',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Commission on asset trading',
-                                                                                                                                                                                                                          'Interest on interbank placements',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Account maintenance/ledger fees',
-                                                                                                                                                                                                                          'Premium on insurance policies',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Legal and other fees on lease arrangements',
-                                                                                                                                                                                                                          'Dividends',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advisory fees (M&A, financial strategy '
-                                                                                                                                                                                                                          'counselling)',
-                                                                                                                                                                                                                          'Profit/gain on disposal of securities',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on public/private issues',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Debt conversion fees',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees earned on fund management',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on letters of credit / documentary '
-                                                                                                                                                                                                                          'collection (import/export finance)',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on stock-brokerage and trust services',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on electronic banking, POS and ATM charges',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on electronic bill payments',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fees on mobile money transactions and similar',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '7.30.6  Registration for VAT and rendition of returns',
-                                                                              },
-                                                          {
-                                                                                'p': 'Financial institutions must register for VAT and obtain a Tax ID, '
-                                                                                     'remitting VAT **within 21 days** of the month following the '
-                                                                                     'transaction month. VAT paid on capital items, overheads, services '
-                                                                                     'and general administration is allowable as input VAT provided it '
-                                                                                     'directly relates to VAT-liable supplies; input VAT on goods '
-                                                                                     'supplied to customers is allowed against the output tax on the '
-                                                                                     'same goods.',
-                                                                              },
-                                                          {
-                                                                                'h4': '7.30.7 – 7.30.8  Treatment of input tax, and the duty to account '
-                                                                                      'for VAT',
-                                                                              },
-                                                          {
-                                                                                'note': 'Duty to account: ordinarily the service provider charges/remits '
-                                                                                        'VAT — but where an agent/broker acts as intermediary, the '
-                                                                                        '**agent/broker** bears that duty; if the agent/broker fails to '
-                                                                                        'charge VAT, or cannot (being an individual or below the VAT '
-                                                                                        'threshold), the financial institution must **self-account and '
-                                                                                        'remit**.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.30.1  Introduction'},
+ {'p': "Services rendered by **microfinance banks, people's banks and mortgage institutions** are "
+       'specifically VAT-exempt — services by other financial institutions are liable to VAT.'},
+ {'h4': '7.30.2  Definition of financial institutions'},
+ {'def': {'t': 'Financial institution',
+          'd': 'any bank, individual, body, association or group of persons (corporate or unincorporated), '
+               'licensed under BOFIA or a related Act, carrying on the business of a discount house, finance '
+               'company, money brokerage, or whose principal objects include factoring, project financing, '
+               'equipment leasing, debt administration, fund management, private ledger services, investment '
+               'management, local purchases/order/export finance, project/financial consultancy, pension '
+               'fund management, and such other business as the CBN, NDIC, PenCom or other regulator may '
+               'designate.'}},
+ {'h4': '7.30.3  Services rendered by financial institutions that are liable to VAT'},
+ {'p': 'Commissions, fees or other charges for services financial institutions render to customers are '
+       'liable to VAT — but **loans/advances and interest charged on them are not**, while additional '
+       'services like documentation/perfection of loan or overdraft agreements **are** vatable. For '
+       'insurance intermediaries (brokers, agents, loss adjusters, surveyors), fees/commissions for services '
+       'rendered are liable to VAT, but **premium received on policies is not**.'},
+ {'h4': '7.30.4  Services rendered by financial institutions that are vatable'},
+ {'ul': ['Commissions on forex trading/remittance',
+         'Commissions on sale of bank drafts/certified cheques',
+         'Commissions to brokers/reinsurers/underwriters/insurance agents',
+         'Commission on asset trading',
+         'Account maintenance/ledger fees',
+         'Legal and other fees on lease arrangements',
+         'Advisory fees (M&A, financial strategy counselling)',
+         'Fees on public/private issues',
+         'Debt conversion fees',
+         'Fees earned on fund management',
+         'Fees on letters of credit / documentary collection (import/export finance)',
+         'Fees on stock-brokerage and trust services',
+         'Fees on electronic banking, POS and ATM charges',
+         'Fees on electronic bill payments',
+         'Fees on mobile money transactions and similar']},
+ {'h4': '7.30.5  non-vatable income of financial institutions'},
+ {'ul': ['Interest on loans and advances (including overdrafts)',
+         'Interest on savings accounts',
+         'Interest on bank deposits',
+         'Interest on interbank placements',
+         'Premium on insurance policies',
+         'Dividends',
+         'Profit/gain on disposal of securities']},
+ {'h4': '7.30.6  Registration for VAT and rendition of returns'},
+ {'p': 'Financial institutions must register for VAT and obtain a Tax ID, remitting VAT **within 21 days** '
+       'of the month following the transaction month.'},
+ {'h4': '7.30.7  Treatment of input tax'},
+ {'p': 'VAT paid on capital items, overheads, services and general administration is allowable as input VAT '
+       'provided it directly relates to VAT-liable supplies; input VAT on goods supplied to customers is '
+       'allowed against the output tax on the same goods.'},
+ {'h4': '7.30.8  Duty to account for VAT'},
+ {'note': 'Duty to account: ordinarily the service provider charges/remits VAT — but where an agent/broker '
+          'acts as intermediary, the **agent/broker** bears that duty; if the agent/broker fails to charge '
+          'VAT, or cannot (being an individual or below the VAT threshold), the financial institution must '
+          '**self-account and remit**.'}],
                                },
                     {
                                  'n': '7.31',
@@ -1290,83 +1002,51 @@ CH = {
                     {
                                  'n': '7.34',
                                  't': 'Types of VAT',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'llll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Variant',
-                                                                                                                                                                             'Basis',
-                                                                                                                                                                             'Merits',
-                                                                                                                                                                             'Demerits',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Gross product type**',
-                                                                                                                                                                                                                          'The gross value of goods/services produced or '
-                                                                                                                                                                                                                          'sold, with **no deduction** of input VAT; a '
-                                                                                                                                                                                                                          'single rate applies to the gross value.',
-                                                                                                                                                                                                                          'Simplifies VAT administration (no input-VAT '
-                                                                                                                                                                                                                          'tracking); lowers compliance costs; incentivises '
-                                                                                                                                                                                                                          'production/sales.',
-                                                                                                                                                                                                                          'Double taxation (no input deduction); '
-                                                                                                                                                                                                                          'inequitable burden on high-volume '
-                                                                                                                                                                                                                          'producers/sellers; difficult to implement in '
-                                                                                                                                                                                                                          'complex tax systems. **Used in**: Brazil, '
-                                                                                                                                                                                                                          'Argentina.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Income type**',
-                                                                                                                                                                                                                          'The income/profits earned by businesses (not '
-                                                                                                                                                                                                                          'sales value); a single rate applies to '
-                                                                                                                                                                                                                          'income/profits, after deducting certain expenses '
-                                                                                                                                                                                                                          '(input VAT, wages, raw materials).',
-                                                                                                                                                                                                                          'Reduces the burden on low-margin businesses; '
-                                                                                                                                                                                                                          'encourages investment; simplifies administration '
-                                                                                                                                                                                                                          '(report income/profits only).',
-                                                                                                                                                                                                                          'Complex to implement; hard to define '
-                                                                                                                                                                                                                          '"income/profits" for VAT purposes; high evasion '
-                                                                                                                                                                                                                          'risk via underreporting. **Used in**: no country '
-                                                                                                                                                                                                                          'currently.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Consumption type**',
-                                                                                                                                                                                                                          'The value of goods/services consumed by '
-                                                                                                                                                                                                                          'households/businesses; a single rate applies, '
-                                                                                                                                                                                                                          'with input VAT fully deductible against output '
-                                                                                                                                                                                                                          'VAT.',
-                                                                                                                                                                                                                          'Neutral taxation (levied on consumption, not '
-                                                                                                                                                                                                                          'production); encourages economic growth; '
-                                                                                                                                                                                                                          'simplifies administration (report output VAT, '
-                                                                                                                                                                                                                          'claim input VAT).',
-                                                                                                                                                                                                                          'Hard to ascertain value consumed for '
-                                                                                                                                                                                                                          'exempt/zero-rated supplies; high evasion risk '
-                                                                                                                                                                                                                          '(underreporting output/overclaiming input); '
-                                                                                                                                                                                                                          'cross-border complexity. **Used in**: Canada, '
-                                                                                                                                                                                                                          'Australia, Nigeria.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.34.1  Gross product type variant of VAT'},
+ {'table': {'align': 'llll',
+            'head': ['Variant', 'Basis', 'Merits', 'Demerits'],
+            'rows': [['**Gross product type**',
+                      'The gross value of goods/services produced or sold, with **no deduction** of input '
+                      'VAT; a single rate applies to the gross value.',
+                      'Simplifies VAT administration (no input-VAT tracking); lowers compliance costs; '
+                      'incentivises production/sales.',
+                      'Double taxation (no input deduction); inequitable burden on high-volume '
+                      'producers/sellers; difficult to implement in complex tax systems. **Used in**: '
+                      'Brazil, Argentina.']]}},
+ {'h4': '7.34.2  Income type variant of VAT'},
+ {'table': {'align': 'llll',
+            'head': ['Variant', 'Basis', 'Merits', 'Demerits'],
+            'rows': [['**Income type**',
+                      'The income/profits earned by businesses (not sales value); a single rate applies to '
+                      'income/profits, after deducting certain expenses (input VAT, wages, raw materials).',
+                      'Reduces the burden on low-margin businesses; encourages investment; simplifies '
+                      'administration (report income/profits only).',
+                      'Complex to implement; hard to define "income/profits" for VAT purposes; high evasion '
+                      'risk via underreporting. **Used in**: no country currently.']]}},
+ {'h4': '7.34.3  The consumption type variant of VAT'},
+ {'table': {'align': 'llll',
+            'head': ['Variant', 'Basis', 'Merits', 'Demerits'],
+            'rows': [['**Consumption type**',
+                      'The value of goods/services consumed by households/businesses; a single rate applies, '
+                      'with input VAT fully deductible against output VAT.',
+                      'Neutral taxation (levied on consumption, not production); encourages economic growth; '
+                      'simplifies administration (report output VAT, claim input VAT).',
+                      'Hard to ascertain value consumed for exempt/zero-rated supplies; high evasion risk '
+                      '(underreporting output/overclaiming input); cross-border complexity. **Used in**: '
+                      'Canada, Australia, Nigeria.']]}}],
                                },
                     {
                                  'n': '7.35',
                                  't': 'VAT enforcement and practice',
-                                 'b': [
-                                                          {
-                                                                                'h4': '7.35.1 – 7.35.2  VAT visits and VAT drives',
-                                                                              },
-                                                          {
-                                                                                'p': 'VAT inspectors from the local VAT office visit vatable persons\' '
-                                                                                     'premises to: ensure compliance with VAT law; ensure amounts '
-                                                                                     'deducted as VAT are promptly accounted for; examine '
-                                                                                     'transaction-record-keeping and suggest improvements; and educate '
-                                                                                     'VAT agents on new developments. **VAT drives** — periodic '
-                                                                                     'exercises at the instance of zonal coordinators — stimulate '
-                                                                                     'collection of VAT proceeds from defaulters.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.35.1  VAT visits'},
+ {'p': "VAT inspectors from the local VAT office visit vatable persons' premises to:"},
+ {'ul': ['ensure compliance with VAT law',
+         'ensure amounts deducted as VAT are promptly accounted for',
+         'examine transaction-record-keeping and suggest improvements',
+         'and educate VAT agents on new developments.']},
+ {'h4': '7.35.2  VAT drive'},
+ {'p': '**VAT drives** — periodic exercises at the instance of zonal coordinators — stimulate collection of '
+       'VAT proceeds from defaulters.'}],
                                },
                     {
                                  'n': '7.36',
@@ -1382,85 +1062,40 @@ CH = {
                     {
                                  'n': '7.37',
                                  't': 'Merits and demerits of VAT',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Merits',
-                                                                                                                                                                             'Demerits',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Reliable source of government revenue.',
-                                                                                                                                                                                                                          'High administrative cost for government.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Eliminates the narrow scope and cascading effect '
-                                                                                                                                                                                                                          'of the repealed sales tax.',
-                                                                                                                                                                                                                          'High record-keeping cost for companies/agents.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'A consumption tax, hence easy to collect.',
-                                                                                                                                                                                                                          'Injustice in distribution of VAT proceeds.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Fair — consumers pay in line with their own '
-                                                                                                                                                                                                                          'consumption.',
-                                                                                                                                                                                                                          'Corruption among tax officials can render VAT '
-                                                                                                                                                                                                                          'ineffective.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'A fiscal-policy tool — items can be exempted, '
-                                                                                                                                                                                                                          'and rates varied, for specific economic '
-                                                                                                                                                                                                                          'objectives.',
-                                                                                                                                                                                                                          'Inadequate information can undermine '
-                                                                                                                                                                                                                          'administration.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.37.1  Merits'},
+ {'ul': ['Reliable source of government revenue.',
+         'Eliminates the narrow scope and cascading effect of the repealed sales tax.',
+         'A consumption tax, hence easy to collect.',
+         'Fair — consumers pay in line with their own consumption.',
+         'A fiscal-policy tool — items can be exempted, and rates varied, for specific economic '
+         'objectives.']},
+ {'h4': '7.37.2  Demerits'},
+ {'ul': ['High administrative cost for government.',
+         'High record-keeping cost for companies/agents.',
+         'Injustice in distribution of VAT proceeds.',
+         'Corruption among tax officials can render VAT ineffective.',
+         'Inadequate information can undermine administration.']}],
                                },
                     {
                                  'n': '7.38',
                                  't': 'Offences and penalties',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Offence',
-                                                                                                                                                                             'First month',
-                                                                                                                                                                             'Each subsequent month',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Failure to register for VAT** (s.100 NTAA)',
-                                                                                                                                                                                                                          'N50,000',
-                                                                                                                                                                                                                          'N25,000',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Awarding a contract to an unregistered '
-                                                                                                                                                                                                                          'person** (s.100 NTAA)',
-                                                                                                                                                                                                                          'N5,000,000 (flat)',
-                                                                                                                                                                                                                          '—',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Failure to file (or knowingly filing '
-                                                                                                                                                                                                                          'incomplete/inaccurate) VAT returns** (s.101 NTAA)',
-                                                                                                                                                                                                                          'N100,000',
-                                                                                                                                                                                                                          'N50,000',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'Other general tax offences and penalties (bribery, false '
-                                                                                        'declarations, obstruction, counterfeiting, etc.) apply equally '
-                                                                                        'to VAT — see Chapter 4.10.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '7.38.1  Failure to register for VAT - section 100 of NTAA'},
+ {'table': {'align': 'lll',
+            'head': ['Offence', 'First month', 'Each subsequent month'],
+            'rows': [['**Failure to register for VAT** (s.100 NTAA)', 'N50,000', 'N25,000'],
+                     ['**Awarding a contract to an unregistered person** (s.100 NTAA)',
+                      'N5,000,000 (flat)',
+                      '—']]}},
+ {'h4': '7.38.2  Failure to file VAT returns - section 101 of NTAA'},
+ {'table': {'align': 'lll',
+            'head': ['Offence', 'First month', 'Each subsequent month'],
+            'rows': [['**Failure to file (or knowingly filing incomplete/inaccurate) VAT returns** (s.101 '
+                      'NTAA)',
+                      'N100,000',
+                      'N50,000']]}},
+ {'h4': '7.38.3  Other general offences and penalties relating to tax'},
+ {'note': 'Other general tax offences and penalties (bribery, false declarations, obstruction, '
+          'counterfeiting, etc.) apply equally to VAT — see Chapter 4.10.'}],
                                },
                     {
                                  'n': '7.39',

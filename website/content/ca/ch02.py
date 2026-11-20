@@ -367,32 +367,28 @@ CH = {
   ]},
 
   {'n': '2.1.3', 't': 'Problems associated with the conventional classification of cost '
-                      'according to behaviour', 'b': [
-    {'ol': [
-      'assuming **cost linearity** for variable cost per unit is not always practical — a '
-      'variable cost may just as well be curvilinear (non-linear) as linear;',
-      'a cost\'s behaviour should be established by **analysing that specific cost**, not by an '
-      'overall simplistic assumption;',
-      'fixed cost can itself change as activity levels change, and some costs (e.g. '
-      'depreciation) could be classified as fixed *or* variable depending on the organisation.',
-    ]},
-    {'key': 'Because fixed cost is not really a single homogeneous thing, it is better to '
-            'sub-divide it into four categories: **time-related** fixed cost (rent, rates — '
-            'changes with the passage of time, not activity); **volume-related** fixed cost '
-            '(behaves like a step cost, e.g. the cost of a plant); **policy-related (programmed)** '
-            'fixed cost (advertising, R&D — set by management decision, not by volume); and '
-            '**joint** fixed cost.'},
-    {'p': 'Some cost items genuinely mix fixed and variable elements, and must be separated using '
-          'either **statistical methods** or **non-statistical methods (judgement)**. Cost '
-          'patterns are not always regular either — a variable cost might be linear only between '
-          '90%–115% of normal activity, and curvilinear beyond that; different variable costs '
-          'also react to *different* activity measures (direct wages may vary with the number of '
-          'direct workers engaged, distribution costs with the number of deliveries made) — the '
-          'simplistic assumption that every variable cost varies with the *same* activity measure '
-          'is misleading. In short: the conventional fixed/variable split, defined by one factor '
-          '(production volume), is at best a crude approximation of reality.'},
-
-  ]},
+                      'according to behaviour', 'b': [{'ol': ['assuming **cost linearity** for variable cost per unit is not always practical — a variable cost '
+         'may just as well be curvilinear (non-linear) as linear;',
+         "a cost's behaviour should be established by **analysing that specific cost**, not by an overall "
+         'simplistic assumption;',
+         'fixed cost can itself change as activity levels change, and some costs (e.g. depreciation) could '
+         'be classified as fixed *or* variable depending on the organisation.']},
+ {'key': [{'p': 'Because fixed cost is not really a single homogeneous thing, it is better to sub-divide it '
+                'into four categories:'},
+          {'ul': ['**time-related** fixed cost (rent, rates — changes with the passage of time, not '
+                  'activity)',
+                  '**volume-related** fixed cost (behaves like a step cost, e.g. the cost of a plant)',
+                  '**policy-related (programmed)** fixed cost (advertising, R&D — set by management '
+                  'decision, not by volume)',
+                  'and **joint** fixed cost.']}]},
+ {'p': 'Some cost items genuinely mix fixed and variable elements, and must be separated using either '
+       '**statistical methods** or **non-statistical methods (judgement)**. Cost patterns are not always '
+       'regular either — a variable cost might be linear only between 90%–115% of normal activity, and '
+       'curvilinear beyond that; different variable costs also react to *different* activity measures '
+       '(direct wages may vary with the number of direct workers engaged, distribution costs with the number '
+       'of deliveries made) — the simplistic assumption that every variable cost varies with the *same* '
+       'activity measure is misleading. In short: the conventional fixed/variable split, defined by one '
+       'factor (production volume), is at best a crude approximation of reality.'}]},
 
   {'n': '2.1.4', 't': 'Typical cost patterns', 'b': [
     {'p': 'Six cost-behaviour shapes turn up repeatedly, each with its own graph and its own cost '
@@ -482,7 +478,7 @@ CH = {
           'cost items, for simplicity.'},
     {'def': {'t': 'Code', 'd': 'a brief, accurate reference designed to assist the classification '
                   'of items, by facilitating entry, collation and analysis.'}},
-    {'h4': 'Characteristics of a well-designed coding system'},
+    {'h4': '§2.3.2 Characteristics of a well-designed coding system'},
     {'ul': [
       'simple for the organisation to operate;',
       'flexible in nature;',
@@ -490,7 +486,7 @@ CH = {
       'a **fixed coding length** for every item, e.g. a 6-digit code such as 000000;',
       'concise in nature.',
     ]},
-    {'h4': 'Methods of codification'},
+    {'h4': '§2.3.3 Methods of codification'},
     {'table': {'align': 'll', 'head': ['Method', 'How it works'], 'rows': [
       ['**Mnemonic method**', 'Applies memorable symbols to classified items, e.g. `FAU` for '
        'Factory Unit, `ADM` for Administration, `DMA` for Direct Material, `DLA` for Direct '
@@ -522,19 +518,17 @@ CH = {
              'material cost, labour cost and overhead, using the same three methods.'},
   ]},
 
-  {'n': '2.4', 't': 'Chapter summary', 'b': [
-    {'p': 'Chapter 2 has been discussed in three parts. Part 1 focused on the **classification '
-          'of cost**; part 2 explained **cost segregation**; and part 3 dealt with **cost '
-          'codification**.'},
-    {'p': 'In conclusion, this chapter has given a firm foundation of the various concepts and '
-          'principles in cost accounting, to aid the comprehension of the chapters ahead.'},
-    {'key': 'If you remember only three things from this chapter: (1) the **same naira** of '
-            'expenditure is classified several different ways at once, and which classification '
-            'matters depends on the question being asked; (2) **fixed and variable are only true '
-            'within a relevant range** — the conventional split is a crude approximation; and '
-            '(3) a mixed cost can be **segregated** into $a + bx$ by the high-low method, and '
-            'the resulting function then **estimates** future cost.'},
-  ]},
+  {'n': '2.4', 't': 'Chapter summary', 'b': [{'p': 'Chapter 2 has been discussed in three parts. Part 1 focused on the **classification of cost**; part '
+       '2 explained **cost segregation**; and part 3 dealt with **cost codification**.'},
+ {'p': 'In conclusion, this chapter has given a firm foundation of the various concepts and principles in '
+       'cost accounting, to aid the comprehension of the chapters ahead.'},
+ {'key': [{'p': 'If you remember only three things from this chapter:'},
+          {'ul': ['(1) the **same naira** of expenditure is classified several different ways at once, and '
+                  'which classification matters depends on the question being asked',
+                  '(2) **fixed and variable are only true within a relevant range** — the conventional split '
+                  'is a crude approximation',
+                  'and (3) a mixed cost can be **segregated** into $a + bx$ by the high-low method, and the '
+                  'resulting function then **estimates** future cost.']}]}]},
 
   {'n': '2.5', 't': 'Worksheet summary — definitions and structure', 'b': [
     {'p': 'Everything in this chapter, compressed for a last read-through.'},
@@ -628,483 +622,472 @@ CH = {
       ]}},
   ]},
 
-  {'n': '2.7', 't': 'Study text examination-type questions, worked', 'b': [
-    {'p': 'The study text closes the chapter with eleven examination-type questions. All are '
-          'reproduced below with full answers. Note that **questions 6 and 7 are identical** in '
-          'the book — the same question is printed twice, once unattributed and once credited to '
-          'CACA Level I Costing, June 1989 — so they are answered once here.'},
-
-    {'eg': {'tag': 'Exam type — Q1 (16 marks)',
-      't': 'Six principal items of information obtainable from a costing system',
-      'q': [{'p': 'You have been appointed to the newly created position of Cost Accountant in a '
-                  'small manufacturing company. Having installed a costing system successfully, '
-                  'the Managing Director would like a detailed explanation of the kind of '
-                  'information the newly installed system would provide. Write a report to the '
-                  'Managing Director setting out **six** principal items of information '
-                  'obtainable from a costing system.'}],
-      'a': [
-      {'p': '**REPORT**  —  To: The Managing Director.  From: The Cost Accountant.  '
-            'Subject: Information obtainable from the newly installed costing system.'},
-      {'p': 'The following six classes of information are produced by the system and are '
-            'available to management on a routine basis.'},
-      {'ol': [
-        '**Statements of material, direct labour and machine utilisation**, showing both trends '
-        'and values — so that the use of each major resource can be monitored period by period.',
-        '**The cost of products and services**, broken down into material cost, labour cost and '
-        'other expenses, and shown in comparison with estimates — the basis for pricing and for '
-        'checking whether estimates are reliable.',
-        '**Cost control statements for each section and department**, showing actual results '
-        'compared with budget, so that responsibility for any overspend can be located.',
-        '**Periodic inventory valuation reports** — the value of raw materials, work-in-progress '
-        'and finished goods held, needed both for control and for the financial accounts.',
-        '**Scrap and rectification cost reports**, quantifying what defective work is costing '
-        'the company and where it arises.',
-        '**Budgets for planning and control purposes**, including cash budgets for monitoring '
-        'liquidity.',
-      ]},
-      {'note': 'This is Chapter 1 §1.3.4 reproduced as a report. In the exam, the marks for a '
-               '"write a report" question are split between **content** (the six items) and '
-               '**form** — use a proper report heading (to, from, subject, date), number the '
-               'points, and close with a short recommendation or offer to discuss.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q2 (8 marks)',
-      't': 'Problems inherent in installing a costing system',
-      'q': [{'p': '"Installation of a costing system is a major move in a business." Discuss the '
-                  'inherent problems associated with installing a costing system.'}],
-      'a': [
-      {'p': 'Installing a costing system is a substantial undertaking requiring detailed '
-            'discussion with management and staff and careful analysis of procedures and '
-            'records. The problems that arise are of two kinds.'},
-      {'h4': 'General factors that shape the problem'},
-      {'ol': [
-        '**Size of the organisation** — a system adequate for a small workshop collapses under '
-        'the transaction volume of a large factory, and one designed for a large factory is '
-        'uneconomic for a small one.',
-        '**Type of product or service** — a jobbing manufacturer, a continuous-process plant and '
-        'a service provider each need a fundamentally different costing method.',
-        '**The production process** and **the methods of manufacture** — these determine whether '
-        'costs can be collected by job, by batch, by process or by operation.',
-        '**Availability of staff** — a system no one is competent to operate will not work, '
-        'however well designed.',
-      ]},
-      {'h4': 'Specific problems met in practice'},
-      {'ol': [
-        '**Definition of responsibility** — deciding who is accountable for which costs, which '
-        'often exposes gaps and overlaps in the existing management structure.',
-        '**Definition or designation of cost centres** — drawing the boundaries so that costs '
-        'can be meaningfully accumulated and controlled.',
-        '**Compilation of a comprehensive cost system** covering every element without leaving '
-        'costs uncollected.',
-        '**Labour hours worked** — obtaining accurate, timely time records from the shop floor.',
-        '**Machine utilisation time** — measuring running and idle time reliably.',
-        '**Scrap treatment** and **rectification cost** — deciding how defective output and the '
-        'cost of putting it right are to be recorded and charged.',
-        '**The difficulty of accurate classification of cost** — in particular the direct/'
-        'indirect and fixed/variable boundaries, which are rarely as clean in practice as in a '
-        'textbook.',
-      ]},
-      {'key': 'Underlying all of these is a **human** problem the examiner rewards you for '
-              'naming: a costing system makes performance visible, so staff may resist it, '
-              'suspect it, or supply poor data to it. That is why §1.2.9 puts "co-operation and '
-              'co-ordination among all staff members" first among the conditions for success, '
-              'and why §1.2.10 ends with training and "implement the system with full '
-              'publicity".'}]}},
-
-    {'eg': {'tag': 'Exam type — Q3 (10 marks)',
-      't': 'Problems from introducing a system of cost control',
-      'q': [{'p': 'Outline the possible problems which may be encountered as a result of the '
-                  'introduction of a system of cost control into an organisation.'}],
-      'a': [
-      {'ol': [
-        '**Staff resistance and low morale** — cost control makes individual and departmental '
-        'performance visible, and employees may perceive it as surveillance or as a prelude to '
-        'redundancies.',
-        '**Poor-quality source data** — the system depends on shop-floor returns (time sheets, '
-        'material requisitions, scrap notes). Where staff complete these carelessly or '
-        'defensively, every subsequent analysis is unreliable.',
-        '**Cost of the system itself** — additional staff, forms, software and management time. '
-        'If the information generated does not outweigh the cost of generating it, the system '
-        'fails its own cost-benefit test (§1.2.12).',
-        '**Complexity** — a system too complex for the managers who must operate it will not be '
-        'used, or will be used wrongly.',
-        '**Dysfunctional behaviour** — managers judged on a single cost measure may cut costs in '
-        'ways that damage the business (deferring maintenance, buying cheaper and worse '
-        'material, suppressing scrap reports).',
-        '**Disputes over controllability** — managers held responsible for costs they cannot '
-        'influence (apportioned head-office overhead, for instance) will reject the reports '
-        'altogether; see §2.1.1f.',
-        '**Delay** — reports produced too late to act on lose their relevance entirely '
-        '(§1.2.12).',
-        '**Difficulty in setting realistic standards and budgets** against which actual '
-        'performance is compared — standards that are too tight demotivate, and standards that '
-        'are too loose conceal inefficiency.',
-      ]}]}},
-
-    {'eg': {'tag': 'Exam type — Q4 (8 marks)',
-      't': 'Differences between financial and cost accounting',
-      'q': [{'p': 'Enumerate the differences, if any, between financial and cost accounting.'}],
-      'a': [
-      {'table': {'align': 'lll',
-        'head': ['Factor', 'Cost accounting', 'Financial accounting'], 'rows': [
-        ['**Nature of costs / revenue**', 'Predetermined estimates, standards and budgets',
-         'Historical and past costs / revenue'],
-        ['**Users of information**', 'Management of the business enterprise',
-         'Management as well as external stakeholders — shareholders, creditors, debtors, tax '
-         'authorities, investors'],
-        ['**Objectives**', 'Provide information to aid planning, decision making and control',
-         'Satisfy the stewardship function of management, i.e. account for the use of resources '
-         'entrusted to management'],
-        ['**Conformity to concepts and standards**', 'No need to comply with standards and '
-         'concepts', 'Absolute need to comply meticulously with accounting concepts and '
-         'standards'],
-        ['**Scope and form of presentation**', 'Determined by management on the basis of '
-         'relevance and cost-benefit considerations',
-         'Determined by concepts, standards and legal provisions'],
-        ['**Precision of information**', 'Approximations are permitted, due to uncertainties in '
-         'making estimates, but must be sufficiently precise and accurate',
-         'Information must be more precise; there is usually an audit by independent external '
-         'auditors to confirm its reliability'],
-      ]}},
-      {'p': 'Two further differences worth adding for the extra marks:'},
-      {'ul': [
-        '**Frequency** — cost accounting reports as often as management needs them (daily, '
-        'weekly, monthly); financial accounting reports at fixed statutory intervals, normally '
-        'annually.',
-        '**Level of detail** — cost accounting reports by job, product, process and cost centre; '
-        'financial accounting reports on the entity as a whole.',
-      ]}]}},
-
-    {'eg': {'tag': 'Exam type — Q5 (10 marks)',
-      't': 'Report: why the cost accounting staff should be retained',
-      'q': [{'p': 'The Managing Director of a manufacturing concern once said: "Since the main '
-                  'object of our firm is to know the annual profit, there is no need retaining '
-                  'the cost accounting staff; let us pay them off and retain only the financial '
-                  'accounting staff in order to reduce the administrative costs." **Required:** '
-                  'Write a report to the Managing Director to convince him of the need to retain '
-                  'the cost accounting staff.'}],
-      'a': [
-      {'p': '**REPORT**  —  To: The Managing Director.  From: The Cost Accountant.  '
-            'Subject: The case for retaining the cost accounting function.'},
-      {'h4': '1.  The premise of the proposal is too narrow'},
-      {'p': 'Knowing the annual profit tells us *that* we made money; it does not tell us *how*, '
-            '*where*, or *whether we could have made more*. The annual profit figure is the '
-            '**result** of decisions that cost accounting exists to inform in the first place.'},
-      {'h4': '2.  Financial accounting alone cannot fill the gap'},
-      {'p': 'Financial accounting suffers five well-recognised weaknesses:'},
-      {'ol': [
-        'it gives **no information about individual jobs, products or processes**, so we could '
-        'not tell a profitable product line from a loss-making one;',
-        'it is **historical** — information is not available until the accounting period ends, '
-        'by which time any damage is months old;',
-        'it does **not classify costs** into direct and indirect, controllable and '
-        'non-controllable, normal and abnormal, or variable and fixed — the very classifications '
-        'every operating decision needs;',
-        'it keeps **no detailed records of inventory movement**, which inhibits efficient '
-        'inventory control; and',
-        'it generally involves **no budget plan**, so there is nothing to compare actual '
-        'performance against.',
-      ]},
-      {'h4': '3.  What we would lose'},
-      {'ol': [
-        '**Pricing** would become guesswork, since we would not know the cost of a unit.',
-        '**Planning** would lose its basis — no budgets, no capital-expenditure evaluation, no '
-        'cash-flow projection.',
-        '**Control** would disappear — no variance reports, so overspends would surface only in '
-        'next year\'s accounts.',
-        '**Decision making** — make-or-buy, accept-or-reject a special order, continue or '
-        'discontinue a product line — would have no cost basis.',
-        '**Inventory control and scrap control** would weaken, with direct cash consequences.',
-      ]},
-      {'h4': '4.  The saving is illusory'},
-      {'p': 'The administrative saving from paying off the cost accounting staff is a known, '
-            'one-off, modest figure. The cost of mispricing a single major contract, of carrying '
-            'excessive inventory for a year, or of continuing a loss-making product line '
-            'unnoticed, is unknown and open-ended — and we would, by construction, have no means '
-            'of detecting any of them.'},
-      {'h4': '5.  Recommendation'},
-      {'p': 'Retain the cost accounting function. If the objective is to reduce administrative '
-            'cost, I would instead recommend reviewing the costing system for simplification, '
-            'and considering an **integrated** accounting system (Chapter 6), which keeps one '
-            'set of records instead of two and so removes duplicated effort without losing any '
-            'management information.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q6 and Q7 (11 marks) — CACA Level I Costing, June 1989',
-      't': 'Three methods of cost classification and the usefulness of each',
-      'q': [{'p': 'Describe **three** different methods of cost classification and explain the '
-                  'usefulness of each method.'},
-            {'note': 'The study text prints this question twice, as Q6 and Q7 — identical '
-                     'wording, with only Q7 carrying the CACA attribution. It is answered once '
-                     'here.'}],
-      'a': [
-      {'h4': 'Method 1 — classification by **element** (material, labour, expenses)'},
-      {'p': '**What it is:** every cost is assigned to one of the three basic inputs — material, '
-            'labour, or expenses (everything else).'},
-      {'p': '**Usefulness:** it is the basis of the cost card and therefore of all product '
-            'costing; it allows each input to be controlled by the manager responsible for it '
-            '(the storekeeper for materials, the personnel function for labour); and it makes '
-            'inter-period and inter-firm comparison possible, since the same three headings '
-            'apply to any manufacturer.'},
-      {'h4': 'Method 2 — classification by **nature** (direct and indirect)'},
-      {'p': '**What it is:** costs that can be identified with and charged to a cost unit '
-            'without apportionment are **direct**; those that must be apportioned to cost '
-            'centres and absorbed into cost units are **indirect** (overhead).'},
-      {'p': '**Usefulness:** it determines how each cost reaches the product — allocation versus '
-            'apportionment and absorption; it gives the two key subtotals, **prime cost** and '
-            '**overhead**; and it is the foundation of absorption costing and of the whole of '
-            'Chapter 5.'},
-      {'h4': 'Method 3 — classification by **behaviour** (fixed, variable, semi-variable, '
-             'stepped)'},
-      {'p': '**What it is:** costs are grouped by how they respond to a change in the level of '
-            'activity.'},
-      {'p': '**Usefulness:** it is indispensable for **planning and decision making** — '
-            'budgeting at different activity levels (flexible budgets), cost-volume-profit and '
-            'break-even analysis (Chapter 11), marginal costing, and any short-run decision such '
-            'as accepting a special order, because only the variable element changes.'},
-      {'note': 'Three other classifications would earn equal credit if described as fully: by '
-               '**function** (production / selling / distribution / administration / R&D — '
-               'useful for departmental responsibility and for separating product cost from '
-               'period cost); as **product or period** cost (useful for inventory valuation and '
-               'profit measurement); and as **relevant or irrelevant** (useful for decision '
-               'making, since only future costs that change with the decision matter).'}]}},
-
-    {'eg': {'tag': 'Exam type — Q8 (17 marks) — CACA Level I Costing, June 1987',
-      't': 'Period, product, variable and opportunity costs, with two examples of each',
-      'q': [{'p': 'The following are some of the cost classifications used in any costing '
-                  'system: (i) Period costs; (ii) Product costs; (iii) Variable costs; '
-                  '(iv) Opportunity costs. **Required:** Citing two examples in each case, '
-                  'explain each of these classified costs.'}],
-      'a': [
-      {'table': {'align': 'lll', 'head': ['Classification', 'Explanation', 'Two examples'],
-        'rows': [
-        ['**(i) Period costs**', 'Costs incurred and charged against the profit of a period, '
-         'and **not** included in the cost used for inventory valuation. They are usually '
-         'non-manufacturing costs, and are charged in full to the profit and loss account of the '
-         'period in which they are incurred, whether or not any output was sold.',
-         '1. Selling and distribution overheads (e.g. advertising).  2. Administrative overheads '
-         '(e.g. the managing director\'s salary).'],
-        ['**(ii) Product costs**', 'Costs identified with goods produced or purchased for '
-         'resale — also called production or manufacturing costs. They are the costs used for '
-         'the valuation of inventory and work-in-progress, and are charged against profit only '
-         'when the goods are sold.',
-         '1. The cost of raw materials.  2. Production wages. *(Production overheads such as '
-         'factory rent and plant depreciation are also product costs.)*'],
-        ['**(iii) Variable costs**', 'Costs which vary in direct proportion with changes in the '
-         'level of activity — if activity doubles, total variable cost doubles, while variable '
-         'cost **per unit** stays constant.',
-         '1. Direct material cost.  2. Royalties payable per unit produced. *(Direct wages paid '
-         'on a piecework basis are a third.)*'],
-        ['**(iv) Opportunity costs**', 'The value of the benefit forgone or sacrificed in '
-         'favour of an alternative course of action. It is not an outlay recorded in the books — '
-         'it is a benefit given up — but it is a **relevant** cost for decision making.',
-         '1. The rent forgone by using an owned building for production rather than letting it. '
-         '2. The contribution lost on normal production displaced in order to fulfil a special '
-         'order.'],
-      ]}},
-      {'key': 'Note the trap built into (i) and (ii): period and product costs are **not** the '
-              'same split as fixed and variable. Factory rent is a *fixed* cost but a *product* '
-              'cost (it is absorbed into inventory under absorption costing); a sales commission '
-              'is a *variable* cost but a *period* cost. The product/period split asks "does '
-              'this cost attach to the goods?"; the fixed/variable split asks "does this cost '
-              'change with volume?" They are independent questions.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q9 (22 marks) — ICSA Management Accounting, December 1984',
-      't': 'Cost may be classified in a variety of ways according to their nature and the '
-           'information needs of management',
-      'q': [{'p': '"Cost may be classified in a variety of ways according to their nature and '
-                  'the information needs of management." With relevant illustrative examples, '
-                  'provide a detailed explanation of the above statement.'}],
-      'a': [
-      {'p': 'The statement makes two linked points: that a single cost can be classified in '
-            'several different ways at the same time, and that **which classification is used '
-            'depends on what management needs to know.** Each classification below is matched '
-            'with the management question it answers.'},
-      {'table': {'align': 'lll',
-        'head': ['Classification', 'The management question it answers', 'Illustration'],
-        'rows': [
-        ['**By element** — material, labour, expenses', 'What kind of resource is being '
-         'consumed, and who should control it?',
-         'A furniture maker separates timber (material) from carpenters\' wages (labour) from '
-         'the rent of the workshop (expense).'],
-        ['**By nature** — direct and indirect', 'How does this cost reach the product — directly, '
-         'or through apportionment and absorption?',
-         'The timber in a chair is a direct material; the glue and the supervisor\'s salary are '
-         'indirect, and must be absorbed into the chair through an overhead rate.'],
-        ['**By function** — production, selling, distribution, administration, R&D',
-         'Which department incurred it, and is it a product cost or a period cost?',
-         'Factory power is a production overhead and goes into inventory value; the sales '
-         'director\'s car is a selling overhead and does not.'],
-        ['**By behaviour** — fixed, variable, semi-variable, stepped',
-         'What will happen to this cost if volume changes?',
-         'If output rises 20%, timber cost rises 20% but factory rent does not move at all — '
-         'until a second workshop is needed, when it steps up.'],
-        ['**As product or period cost**', 'Does this cost sit in closing inventory, or is it '
-         'written off this period?',
-         'Unsold chairs carry their material, labour and production overhead into next year; the '
-         'advertising that failed to sell them does not.'],
-        ['**As controllable or uncontrollable**', 'Whom can I hold responsible for this '
-         'overspend?', 'The foreman controls material usage and overtime; he does not control '
-         'the factory rent apportioned to his department, so his report should separate the '
-         'two.'],
-        ['**As relevant or irrelevant**', 'Does this cost matter to the decision I am about to '
-         'take?', 'In deciding whether to replace a machine, its written-down value is a **sunk** '
-         'cost and irrelevant; the disposal proceeds and the running costs of the new machine '
-         'are relevant.'],
-        ['**As normal or abnormal**', 'Is this loss an expected part of the process, or a '
-         'failure to be investigated?', 'A 2% evaporation loss in a chemical process is normal '
-         'and absorbed into the cost of good output; a spillage of a whole batch is abnormal and '
-         'written off separately.'],
-      ]}},
-      {'p': 'In conclusion, no one classification is "correct". Classification is a tool: the '
-            'cost accountant selects the grouping that answers the question in front of '
-            'management, and the same expenditure will appear in several groupings at once.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q10',
-      't': 'Making good the deficiencies of a cost system that lacks cost control',
-      'q': [{'p': 'An existing cost system lacks the essential aspects of cost control. List the '
-                  'main matters to be introduced to make good the system\'s deficiencies.'}],
-      'a': [
-      {'ol': [
-        '**A budgetary control system** — budgets prepared for each responsibility centre, '
-        'against which actual results are compared period by period.',
-        '**Standard costs** for material, labour and overhead per unit, with **variance '
-        'analysis** to isolate the cause of each difference between standard and actual '
-        '(Chapter 13).',
-        '**Clearly designated cost centres**, each with a named manager accountable for its '
-        'results.',
-        '**Separation of controllable from uncontrollable costs** in every report, so that a '
-        'manager is measured only on what they can influence.',
-        '**A proper system of stores and inventory control** — bin cards, stores ledger, '
-        'reorder levels, and periodic or continuous stocktaking (Chapter 3).',
-        '**Adequate payroll and time-recording procedures** — clock cards, job cards, idle-time '
-        'analysis (Chapter 4).',
-        '**A sound basis for collecting and absorbing overhead**, with under/over absorption '
-        'identified and reported (Chapter 5).',
-        '**Scrap, waste and rectification reporting**, so defective work is quantified rather '
-        'than buried in the material cost.',
-        '**Standardised pre-printed forms** for material receipts and issues, labour attendance '
-        'and hours worked, and wage calculations, to improve the quality of source data.',
-        '**Prompt, regular reporting** to the right person — a report that is late, or addressed '
-        'to someone who cannot act on it, provides no control at all.',
-        '**A feedback mechanism** built into the system, so that variances lead to investigation '
-        'and corrective action rather than merely being recorded.',
-      ]}]}},
-
-    {'eg': {'tag': 'Exam type — Q11', 't': 'HIMCO — segregating and estimating a semi-variable '
-                                           'power cost',
-      'q': [
-      {'p': 'Company HIMCO produces different products through automation. The company incurs a '
-            'large amount of overheads in the factory on power alone, which is **semi-variable** '
-            'in nature. The details of power costs for the six months ending September 2024 are '
-            'as provided below.'},
-      {'stmt': {'t': 'HIMCO — power costs, April to September 2024', 'rows': [
-        ['Month (2024)', 'Machine hours', 'Power cost (N)', '@hd'],
-        ['April', 50000, 400000],
-        ['May', 60000, 460000],
-        ['June', 40000, 340000],
-        ['July', 45000, 370000],
-        ['August', 70000, 520000],
-        ['September', 75000, 550000],
-      ]}},
-      {'p': '**Required:**'},
-      {'ol': [
-        '**(a)(i)** Differentiate between fixed cost and variable cost. '
-        '**(ii)** Summarise the meaning of semi-variable cost.',
-        '**(b)** Segregate the semi-variable costs into total fixed costs and unit variable '
-        'costs.',
-        '**(c)** Estimate the power cost for October if the firm plans to use 88 machine hours.',
-      ]},
-      {'warn': 'The six-month table is printed in the study text as a **scanned image**, not as '
-               'text, so it is missing from any text-based copy of the book — it is reproduced '
-               'above exactly as it appears on the page. Note also that part (c) asks for '
-               '"88 machine hours" while every figure in the table is in tens of thousands of '
-               'hours; the intended figure is almost certainly **88,000 machine hours**. Both '
-               'readings are answered below.',
-       'lbl': 'Source note'}],
-      'a': [
-      {'h4': '(a)(i)  Fixed cost versus variable cost'},
-      {'table': {'align': 'lll', 'head': ['', 'Fixed cost', 'Variable cost'], 'rows': [
-        ['**Definition**', 'A cost that does **not** vary with changes in the level of activity',
-         'A cost that varies in **direct proportion** with changes in the level of activity'],
-        ['**In total**', 'Constant as activity changes', 'Rises and falls with activity'],
-        ['**Per unit**', 'Falls as activity rises (the same amount spread over more units)',
-         'Constant per unit at every activity level'],
-        ['**What it changes with**', 'The passage of **time** — hence "period cost"',
-         'The level of **activity** or output'],
-        ['**Examples**', 'Rent and rates; the managing director\'s salary; time-based '
-         'depreciation', 'Raw materials; direct wages on piecework; royalties per unit'],
-        ['**Cost function**', '$y = a$', '$y = bx$'],
-      ]}},
-      {'note': 'The sentence that earns the mark is the **per-unit reversal**: a fixed cost is '
-               'fixed in total but variable per unit, and a variable cost is variable in total '
-               'but fixed per unit. Candidates who state only the "in total" half rarely get '
-               'full credit. And remember both statements hold only within the **relevant '
-               'range** (§2.1.5).'},
-      {'h4': '(a)(ii)  Semi-variable cost'},
-      {'p': 'A **semi-variable** (semi-fixed, or mixed) cost is one that contains **both a fixed '
-            'element and a variable element**. Part of the cost is incurred regardless of '
-            'activity, and the rest varies with activity. Its cost function is:'},
-      {'tex': 'y = a + bx'},
-      {'p': 'where $a$ is the fixed element, $b$ the variable cost per unit of activity and $x$ '
-            'the activity level. Power is the classic example: there is a standing charge and a '
-            'minimum load whether or not the machines run, plus a usage charge that rises with '
-            'machine hours. Electricity, telephone charges, computer bureau costs and piecework '
-            'wage schemes with a guaranteed minimum payment all behave this way.'},
-      {'h4': '(b)  Segregating the cost — the high-low method'},
-      {'p': '**Step 1 — identify the highest and lowest activity levels.** Choose on machine '
-            'hours, not on cost:'},
-      {'stmt': {'t': 'Step 1 — the two observations', 'rows': [
-        ['', 'Machine hours', 'Power cost (N)', '@hd'],
-        ['Highest activity — September', 75000, 550000],
-        ['Lowest activity — June', 40000, 340000],
-        ['**Difference**', 35000, 210000, '@tt'],
-      ]}},
-      {'p': '**Step 2 — the whole of the cost difference must be variable**, because the fixed '
-            'element is the same N$a$ in both months and therefore cancels out in the '
-            'subtraction. So:'},
-      {'tex': 'b = \\frac{550{,}000 - 340{,}000}{75{,}000 - 40{,}000} '
-              '= \\frac{210{,}000}{35{,}000} = N6 \\text{ per machine hour}'},
-      {'p': '**Step 3 — substitute $b$ back to find the fixed element.** Using the high point:'},
-      {'tex': 'a = 550{,}000 - (6 \\times 75{,}000) = 550{,}000 - 450{,}000 = N100{,}000'},
-      {'p': 'Checking with the low point, which must give the same answer:'},
-      {'tex': 'a = 340{,}000 - (6 \\times 40{,}000) = 340{,}000 - 240{,}000 = N100{,}000 '
-              '\\;\\checkmark'},
-      {'stmt': {'t': 'Answer to (b)', 'rows': [
-        ['**Total fixed cost per month**', '', 100000, '@b'],
-        ['**Variable cost per machine hour**', '', 6, '@b'],
-        ['**Cost function**', '', 'y = 100,000 + 6x', '@b'],
-      ]}},
-      {'h4': 'Verifying the function against every month'},
-      {'p': 'The high-low method uses only two of the six observations, so it is always worth '
-            'testing the resulting function on the four it ignored:'},
-      {'stmt': {'t': 'Predicted versus actual power cost', 'rows': [
-        ['Month', 'Hours (x)', '100,000 + 6x', 'Actual (N)', '@hd'],
-        ['April', 50000, 400000, 400000],
-        ['May', 60000, 460000, 460000],
-        ['June *(low point)*', 40000, 340000, 340000],
-        ['July', 45000, 370000, 370000],
-        ['August', 70000, 520000, 520000],
-        ['September *(high point)*', 75000, 550000, 550000],
-      ]}},
-      {'key': 'Every one of the six months is predicted **exactly**. That tells you the data in '
-              'this question were constructed to lie perfectly on a straight line, so high-low '
-              'and least-squares regression would give identical answers. With real data they '
-              'would not, and the four ignored months would show small residuals — which is '
-              'precisely the weakness of the high-low method, and worth a sentence if the '
-              'question asks you to comment on your result.'},
-      {'h4': '(c)  Estimating October\'s power cost'},
-      {'p': 'Taking the intended reading of **88,000 machine hours**:'},
-      {'tex': 'y = 100{,}000 + (6 \\times 88{,}000) = 100{,}000 + 528{,}000 = N628{,}000'},
-      {'p': 'Taking the question\'s words literally, at **88 machine hours**:'},
-      {'tex': 'y = 100{,}000 + (6 \\times 88) = 100{,}000 + 528 = N100{,}528'},
-      {'warn': 'Quote the figure the question\'s own data support — **N628,000** — and add one '
-               'line stating your assumption that "88 machine hours" means 88,000, consistent '
-               'with the table. An examiner marking a mis-typed question gives credit for a '
-               'stated assumption and a correct method. Note also that 88,000 hours is '
-               '**outside** the 40,000–75,000 range of the observed data, so the estimate '
-               'assumes the linear relationship continues to hold beyond the relevant range — '
-               'another sentence worth writing.',
-       'lbl': 'How to present this in the exam'}]}},
-  ]},
+  {'n': '2.7', 't': 'Study text examination-type questions, worked', 'b': [{'p': 'The study text closes the chapter with eleven examination-type questions. All are reproduced below '
+       'with full answers. Note that **questions 6 and 7 are identical** in the book — the same question is '
+       'printed twice, once unattributed and once credited to CACA Level I Costing, June 1989 — so they are '
+       'answered once here.'},
+ {'eg': {'tag': 'Exam type — Q1 (16 marks)',
+         't': 'Six principal items of information obtainable from a costing system',
+         'q': [{'p': 'You have been appointed to the newly created position of Cost Accountant in a small '
+                     'manufacturing company. Having installed a costing system successfully, the Managing '
+                     'Director would like a detailed explanation of the kind of information the newly '
+                     'installed system would provide. Write a report to the Managing Director setting out '
+                     '**six** principal items of information obtainable from a costing system.'}],
+         'a': [{'p': '**REPORT**  —  To: The Managing Director.  From: The Cost Accountant.  Subject: '
+                     'Information obtainable from the newly installed costing system.'},
+               {'p': 'The following six classes of information are produced by the system and are available '
+                     'to management on a routine basis.'},
+               {'ol': ['**Statements of material, direct labour and machine utilisation**, showing both '
+                       'trends and values — so that the use of each major resource can be monitored period '
+                       'by period.',
+                       '**The cost of products and services**, broken down into material cost, labour cost '
+                       'and other expenses, and shown in comparison with estimates — the basis for pricing '
+                       'and for checking whether estimates are reliable.',
+                       '**Cost control statements for each section and department**, showing actual results '
+                       'compared with budget, so that responsibility for any overspend can be located.',
+                       '**Periodic inventory valuation reports** — the value of raw materials, '
+                       'work-in-progress and finished goods held, needed both for control and for the '
+                       'financial accounts.',
+                       '**Scrap and rectification cost reports**, quantifying what defective work is costing '
+                       'the company and where it arises.',
+                       '**Budgets for planning and control purposes**, including cash budgets for monitoring '
+                       'liquidity.']},
+               {'note': 'This is Chapter 1 §1.3.4 reproduced as a report. In the exam, the marks for a '
+                        '"write a report" question are split between **content** (the six items) and '
+                        '**form** — use a proper report heading (to, from, subject, date), number the '
+                        'points, and close with a short recommendation or offer to discuss.'}]}},
+ {'eg': {'tag': 'Exam type — Q2 (8 marks)',
+         't': 'Problems inherent in installing a costing system',
+         'q': [{'p': '"Installation of a costing system is a major move in a business." Discuss the inherent '
+                     'problems associated with installing a costing system.'}],
+         'a': [{'p': 'Installing a costing system is a substantial undertaking requiring detailed discussion '
+                     'with management and staff and careful analysis of procedures and records. The problems '
+                     'that arise are of two kinds.'},
+               {'h4': 'General factors that shape the problem'},
+               {'ol': ['**Size of the organisation** — a system adequate for a small workshop collapses '
+                       'under the transaction volume of a large factory, and one designed for a large '
+                       'factory is uneconomic for a small one.',
+                       '**Type of product or service** — a jobbing manufacturer, a continuous-process plant '
+                       'and a service provider each need a fundamentally different costing method.',
+                       '**The production process** and **the methods of manufacture** — these determine '
+                       'whether costs can be collected by job, by batch, by process or by operation.',
+                       '**Availability of staff** — a system no one is competent to operate will not work, '
+                       'however well designed.']},
+               {'h4': 'Specific problems met in practice'},
+               {'ol': ['**Definition of responsibility** — deciding who is accountable for which costs, '
+                       'which often exposes gaps and overlaps in the existing management structure.',
+                       '**Definition or designation of cost centres** — drawing the boundaries so that costs '
+                       'can be meaningfully accumulated and controlled.',
+                       '**Compilation of a comprehensive cost system** covering every element without '
+                       'leaving costs uncollected.',
+                       '**Labour hours worked** — obtaining accurate, timely time records from the shop '
+                       'floor.',
+                       '**Machine utilisation time** — measuring running and idle time reliably.',
+                       '**Scrap treatment** and **rectification cost** — deciding how defective output and '
+                       'the cost of putting it right are to be recorded and charged.',
+                       '**The difficulty of accurate classification of cost** — in particular the '
+                       'direct/indirect and fixed/variable boundaries, which are rarely as clean in practice '
+                       'as in a textbook.']},
+               {'key': 'Underlying all of these is a **human** problem the examiner rewards you for naming: '
+                       'a costing system makes performance visible, so staff may resist it, suspect it, or '
+                       'supply poor data to it. That is why §1.2.9 puts "co-operation and co-ordination '
+                       'among all staff members" first among the conditions for success, and why §1.2.10 '
+                       'ends with training and "implement the system with full publicity".'}]}},
+ {'eg': {'tag': 'Exam type — Q3 (10 marks)',
+         't': 'Problems from introducing a system of cost control',
+         'q': [{'p': 'Outline the possible problems which may be encountered as a result of the introduction '
+                     'of a system of cost control into an organisation.'}],
+         'a': [{'ol': ['**Staff resistance and low morale** — cost control makes individual and departmental '
+                       'performance visible, and employees may perceive it as surveillance or as a prelude '
+                       'to redundancies.',
+                       '**Poor-quality source data** — the system depends on shop-floor returns (time '
+                       'sheets, material requisitions, scrap notes). Where staff complete these carelessly '
+                       'or defensively, every subsequent analysis is unreliable.',
+                       '**Cost of the system itself** — additional staff, forms, software and management '
+                       'time. If the information generated does not outweigh the cost of generating it, the '
+                       'system fails its own cost-benefit test (§1.2.12).',
+                       '**Complexity** — a system too complex for the managers who must operate it will not '
+                       'be used, or will be used wrongly.',
+                       '**Dysfunctional behaviour** — managers judged on a single cost measure may cut costs '
+                       'in ways that damage the business (deferring maintenance, buying cheaper and worse '
+                       'material, suppressing scrap reports).',
+                       '**Disputes over controllability** — managers held responsible for costs they cannot '
+                       'influence (apportioned head-office overhead, for instance) will reject the reports '
+                       'altogether; see §2.1.1f.',
+                       '**Delay** — reports produced too late to act on lose their relevance entirely '
+                       '(§1.2.12).',
+                       '**Difficulty in setting realistic standards and budgets** against which actual '
+                       'performance is compared — standards that are too tight demotivate, and standards '
+                       'that are too loose conceal inefficiency.']}]}},
+ {'eg': {'tag': 'Exam type — Q4 (8 marks)',
+         't': 'Differences between financial and cost accounting',
+         'q': [{'p': 'Enumerate the differences, if any, between financial and cost accounting.'}],
+         'a': [{'table': {'align': 'lll',
+                          'head': ['Factor', 'Cost accounting', 'Financial accounting'],
+                          'rows': [['**Nature of costs / revenue**',
+                                    'Predetermined estimates, standards and budgets',
+                                    'Historical and past costs / revenue'],
+                                   ['**Users of information**',
+                                    'Management of the business enterprise',
+                                    'Management as well as external stakeholders — shareholders, creditors, '
+                                    'debtors, tax authorities, investors'],
+                                   ['**Objectives**',
+                                    'Provide information to aid planning, decision making and control',
+                                    'Satisfy the stewardship function of management, i.e. account for the '
+                                    'use of resources entrusted to management'],
+                                   ['**Conformity to concepts and standards**',
+                                    'No need to comply with standards and concepts',
+                                    'Absolute need to comply meticulously with accounting concepts and '
+                                    'standards'],
+                                   ['**Scope and form of presentation**',
+                                    'Determined by management on the basis of relevance and cost-benefit '
+                                    'considerations',
+                                    'Determined by concepts, standards and legal provisions'],
+                                   ['**Precision of information**',
+                                    'Approximations are permitted, due to uncertainties in making estimates, '
+                                    'but must be sufficiently precise and accurate',
+                                    'Information must be more precise; there is usually an audit by '
+                                    'independent external auditors to confirm its reliability']]}},
+               {'p': 'Two further differences worth adding for the extra marks:'},
+               {'ul': ['**Frequency** — cost accounting reports as often as management needs them (daily, '
+                       'weekly, monthly); financial accounting reports at fixed statutory intervals, '
+                       'normally annually.',
+                       '**Level of detail** — cost accounting reports by job, product, process and cost '
+                       'centre; financial accounting reports on the entity as a whole.']}]}},
+ {'eg': {'tag': 'Exam type — Q5 (10 marks)',
+         't': 'Report: why the cost accounting staff should be retained',
+         'q': [{'p': 'The Managing Director of a manufacturing concern once said: "Since the main object of '
+                     'our firm is to know the annual profit, there is no need retaining the cost accounting '
+                     'staff; let us pay them off and retain only the financial accounting staff in order to '
+                     'reduce the administrative costs." **Required:** Write a report to the Managing '
+                     'Director to convince him of the need to retain the cost accounting staff.'}],
+         'a': [{'p': '**REPORT**  —  To: The Managing Director.  From: The Cost Accountant.  Subject: The '
+                     'case for retaining the cost accounting function.'},
+               {'h4': '1.  The premise of the proposal is too narrow'},
+               {'p': 'Knowing the annual profit tells us *that* we made money; it does not tell us *how*, '
+                     '*where*, or *whether we could have made more*. The annual profit figure is the '
+                     '**result** of decisions that cost accounting exists to inform in the first place.'},
+               {'h4': '2.  Financial accounting alone cannot fill the gap'},
+               {'p': 'Financial accounting suffers five well-recognised weaknesses:'},
+               {'ol': ['it gives **no information about individual jobs, products or processes**, so we '
+                       'could not tell a profitable product line from a loss-making one;',
+                       'it is **historical** — information is not available until the accounting period '
+                       'ends, by which time any damage is months old;',
+                       'it does **not classify costs** into direct and indirect, controllable and '
+                       'non-controllable, normal and abnormal, or variable and fixed — the very '
+                       'classifications every operating decision needs;',
+                       'it keeps **no detailed records of inventory movement**, which inhibits efficient '
+                       'inventory control; and',
+                       'it generally involves **no budget plan**, so there is nothing to compare actual '
+                       'performance against.']},
+               {'h4': '3.  What we would lose'},
+               {'ol': ['**Pricing** would become guesswork, since we would not know the cost of a unit.',
+                       '**Planning** would lose its basis — no budgets, no capital-expenditure evaluation, '
+                       'no cash-flow projection.',
+                       '**Control** would disappear — no variance reports, so overspends would surface only '
+                       "in next year's accounts.",
+                       '**Decision making** — make-or-buy, accept-or-reject a special order, continue or '
+                       'discontinue a product line — would have no cost basis.',
+                       '**Inventory control and scrap control** would weaken, with direct cash '
+                       'consequences.']},
+               {'h4': '4.  The saving is illusory'},
+               {'p': 'The administrative saving from paying off the cost accounting staff is a known, '
+                     'one-off, modest figure. The cost of mispricing a single major contract, of carrying '
+                     'excessive inventory for a year, or of continuing a loss-making product line unnoticed, '
+                     'is unknown and open-ended — and we would, by construction, have no means of detecting '
+                     'any of them.'},
+               {'h4': '5.  Recommendation'},
+               {'p': 'Retain the cost accounting function. If the objective is to reduce administrative '
+                     'cost, I would instead recommend reviewing the costing system for simplification, and '
+                     'considering an **integrated** accounting system (Chapter 6), which keeps one set of '
+                     'records instead of two and so removes duplicated effort without losing any management '
+                     'information.'}]}},
+ {'eg': {'tag': 'Exam type — Q6 and Q7 (11 marks) — CACA Level I Costing, June 1989',
+         't': 'Three methods of cost classification and the usefulness of each',
+         'q': [{'p': 'Describe **three** different methods of cost classification and explain the usefulness '
+                     'of each method.'},
+               {'note': 'The study text prints this question twice, as Q6 and Q7 — identical wording, with '
+                        'only Q7 carrying the CACA attribution. It is answered once here.'}],
+         'a': [{'h4': 'Method 1 — classification by **element** (material, labour, expenses)'},
+               {'p': '**What it is:** every cost is assigned to one of the three basic inputs — material, '
+                     'labour, or expenses (everything else).'},
+               {'p': '**Usefulness:'},
+               {'ul': ['** it is the basis of the cost card and therefore of all product costing',
+                       'it allows each input to be controlled by the manager responsible for it (the '
+                       'storekeeper for materials, the personnel function for labour)',
+                       'and it makes inter-period and inter-firm comparison possible, since the same three '
+                       'headings apply to any manufacturer.']},
+               {'h4': 'Method 2 — classification by **nature** (direct and indirect)'},
+               {'p': '**What it is:** costs that can be identified with and charged to a cost unit without '
+                     'apportionment are **direct**; those that must be apportioned to cost centres and '
+                     'absorbed into cost units are **indirect** (overhead).'},
+               {'p': '**Usefulness:'},
+               {'ul': ['** it determines how each cost reaches the product — allocation versus apportionment '
+                       'and absorption',
+                       'it gives the two key subtotals, **prime cost** and **overhead**',
+                       'and it is the foundation of absorption costing and of the whole of Chapter 5.']},
+               {'h4': 'Method 3 — classification by **behaviour** (fixed, variable, semi-variable, stepped)'},
+               {'p': '**What it is:** costs are grouped by how they respond to a change in the level of '
+                     'activity.'},
+               {'p': '**Usefulness:** it is indispensable for **planning and decision making** — budgeting '
+                     'at different activity levels (flexible budgets), cost-volume-profit and break-even '
+                     'analysis (Chapter 11), marginal costing, and any short-run decision such as accepting '
+                     'a special order, because only the variable element changes.'},
+               {'note': [{'p': 'Three other classifications would earn equal credit if described as fully:'},
+                         {'ul': ['by **function** (production / selling / distribution / administration / '
+                                 'R&D — useful for departmental responsibility and for separating product '
+                                 'cost from period cost)',
+                                 'as **product or period** cost (useful for inventory valuation and profit '
+                                 'measurement)',
+                                 'and as **relevant or irrelevant** (useful for decision making, since only '
+                                 'future costs that change with the decision matter).']}]}]}},
+ {'eg': {'tag': 'Exam type — Q8 (17 marks) — CACA Level I Costing, June 1987',
+         't': 'Period, product, variable and opportunity costs, with two examples of each',
+         'q': [{'p': 'The following are some of the cost classifications used in any costing system:'},
+               {'ul': ['(i) Period costs',
+                       '(ii) Product costs',
+                       '(iii) Variable costs',
+                       '(iv) Opportunity costs. **Required:** Citing two examples in each case, explain each '
+                       'of these classified costs.']}],
+         'a': [{'table': {'align': 'lll',
+                          'head': ['Classification', 'Explanation', 'Two examples'],
+                          'rows': [['**(i) Period costs**',
+                                    'Costs incurred and charged against the profit of a period, and **not** '
+                                    'included in the cost used for inventory valuation. They are usually '
+                                    'non-manufacturing costs, and are charged in full to the profit and loss '
+                                    'account of the period in which they are incurred, whether or not any '
+                                    'output was sold.',
+                                    '1. Selling and distribution overheads (e.g. advertising).  2. '
+                                    "Administrative overheads (e.g. the managing director's salary)."],
+                                   ['**(ii) Product costs**',
+                                    'Costs identified with goods produced or purchased for resale — also '
+                                    'called production or manufacturing costs. They are the costs used for '
+                                    'the valuation of inventory and work-in-progress, and are charged '
+                                    'against profit only when the goods are sold.',
+                                    '1. The cost of raw materials.  2. Production wages. *(Production '
+                                    'overheads such as factory rent and plant depreciation are also product '
+                                    'costs.)*'],
+                                   ['**(iii) Variable costs**',
+                                    'Costs which vary in direct proportion with changes in the level of '
+                                    'activity — if activity doubles, total variable cost doubles, while '
+                                    'variable cost **per unit** stays constant.',
+                                    '1. Direct material cost.  2. Royalties payable per unit produced. '
+                                    '*(Direct wages paid on a piecework basis are a third.)*'],
+                                   ['**(iv) Opportunity costs**',
+                                    'The value of the benefit forgone or sacrificed in favour of an '
+                                    'alternative course of action. It is not an outlay recorded in the books '
+                                    '— it is a benefit given up — but it is a **relevant** cost for decision '
+                                    'making.',
+                                    '1. The rent forgone by using an owned building for production rather '
+                                    'than letting it. 2. The contribution lost on normal production '
+                                    'displaced in order to fulfil a special order.']]}},
+               {'key': [{'p': 'Note the trap built into (i) and (ii):'},
+                        {'ul': ['period and product costs are **not** the same split as fixed and variable. '
+                                'Factory rent is a *fixed* cost but a *product* cost (it is absorbed into '
+                                'inventory under absorption costing)',
+                                'a sales commission is a *variable* cost but a *period* cost. The '
+                                'product/period split asks "does this cost attach to the goods?"',
+                                'the fixed/variable split asks "does this cost change with volume?" They are '
+                                'independent questions.']}]}]}},
+ {'eg': {'tag': 'Exam type — Q9 (22 marks) — ICSA Management Accounting, December 1984',
+         't': 'Cost may be classified in a variety of ways according to their nature and the information '
+              'needs of management',
+         'q': [{'p': '"Cost may be classified in a variety of ways according to their nature and the '
+                     'information needs of management." With relevant illustrative examples, provide a '
+                     'detailed explanation of the above statement.'}],
+         'a': [{'p': 'The statement makes two linked points: that a single cost can be classified in several '
+                     'different ways at the same time, and that **which classification is used depends on '
+                     'what management needs to know.** Each classification below is matched with the '
+                     'management question it answers.'},
+               {'table': {'align': 'lll',
+                          'head': ['Classification', 'The management question it answers', 'Illustration'],
+                          'rows': [['**By element** — material, labour, expenses',
+                                    'What kind of resource is being consumed, and who should control it?',
+                                    "A furniture maker separates timber (material) from carpenters' wages "
+                                    '(labour) from the rent of the workshop (expense).'],
+                                   ['**By nature** — direct and indirect',
+                                    'How does this cost reach the product — directly, or through '
+                                    'apportionment and absorption?',
+                                    'The timber in a chair is a direct material; the glue and the '
+                                    "supervisor's salary are indirect, and must be absorbed into the chair "
+                                    'through an overhead rate.'],
+                                   ['**By function** — production, selling, distribution, administration, '
+                                    'R&D',
+                                    'Which department incurred it, and is it a product cost or a period '
+                                    'cost?',
+                                    'Factory power is a production overhead and goes into inventory value; '
+                                    "the sales director's car is a selling overhead and does not."],
+                                   ['**By behaviour** — fixed, variable, semi-variable, stepped',
+                                    'What will happen to this cost if volume changes?',
+                                    'If output rises 20%, timber cost rises 20% but factory rent does not '
+                                    'move at all — until a second workshop is needed, when it steps up.'],
+                                   ['**As product or period cost**',
+                                    'Does this cost sit in closing inventory, or is it written off this '
+                                    'period?',
+                                    'Unsold chairs carry their material, labour and production overhead into '
+                                    'next year; the advertising that failed to sell them does not.'],
+                                   ['**As controllable or uncontrollable**',
+                                    'Whom can I hold responsible for this overspend?',
+                                    'The foreman controls material usage and overtime; he does not control '
+                                    'the factory rent apportioned to his department, so his report should '
+                                    'separate the two.'],
+                                   ['**As relevant or irrelevant**',
+                                    'Does this cost matter to the decision I am about to take?',
+                                    'In deciding whether to replace a machine, its written-down value is a '
+                                    '**sunk** cost and irrelevant; the disposal proceeds and the running '
+                                    'costs of the new machine are relevant.'],
+                                   ['**As normal or abnormal**',
+                                    'Is this loss an expected part of the process, or a failure to be '
+                                    'investigated?',
+                                    'A 2% evaporation loss in a chemical process is normal and absorbed into '
+                                    'the cost of good output; a spillage of a whole batch is abnormal and '
+                                    'written off separately.']]}},
+               {'p': 'In conclusion, no one classification is "correct". Classification is a tool: the cost '
+                     'accountant selects the grouping that answers the question in front of management, and '
+                     'the same expenditure will appear in several groupings at once.'}]}},
+ {'eg': {'tag': 'Exam type — Q10',
+         't': 'Making good the deficiencies of a cost system that lacks cost control',
+         'q': [{'p': 'An existing cost system lacks the essential aspects of cost control. List the main '
+                     "matters to be introduced to make good the system's deficiencies."}],
+         'a': [{'ol': ['**A budgetary control system** — budgets prepared for each responsibility centre, '
+                       'against which actual results are compared period by period.',
+                       '**Standard costs** for material, labour and overhead per unit, with **variance '
+                       'analysis** to isolate the cause of each difference between standard and actual '
+                       '(Chapter 13).',
+                       '**Clearly designated cost centres**, each with a named manager accountable for its '
+                       'results.',
+                       '**Separation of controllable from uncontrollable costs** in every report, so that a '
+                       'manager is measured only on what they can influence.',
+                       '**A proper system of stores and inventory control** — bin cards, stores ledger, '
+                       'reorder levels, and periodic or continuous stocktaking (Chapter 3).',
+                       '**Adequate payroll and time-recording procedures** — clock cards, job cards, '
+                       'idle-time analysis (Chapter 4).',
+                       '**A sound basis for collecting and absorbing overhead**, with under/over absorption '
+                       'identified and reported (Chapter 5).',
+                       '**Scrap, waste and rectification reporting**, so defective work is quantified rather '
+                       'than buried in the material cost.',
+                       '**Standardised pre-printed forms** for material receipts and issues, labour '
+                       'attendance and hours worked, and wage calculations, to improve the quality of source '
+                       'data.',
+                       '**Prompt, regular reporting** to the right person — a report that is late, or '
+                       'addressed to someone who cannot act on it, provides no control at all.',
+                       '**A feedback mechanism** built into the system, so that variances lead to '
+                       'investigation and corrective action rather than merely being recorded.']}]}},
+ {'eg': {'tag': 'Exam type — Q11',
+         't': 'HIMCO — segregating and estimating a semi-variable power cost',
+         'q': [{'p': 'Company HIMCO produces different products through automation. The company incurs a '
+                     'large amount of overheads in the factory on power alone, which is **semi-variable** in '
+                     'nature. The details of power costs for the six months ending September 2024 are as '
+                     'provided below.'},
+               {'stmt': {'t': 'HIMCO — power costs, April to September 2024',
+                         'rows': [['Month (2024)', 'Machine hours', 'Power cost (N)', '@hd'],
+                                  ['April', 50000, 400000],
+                                  ['May', 60000, 460000],
+                                  ['June', 40000, 340000],
+                                  ['July', 45000, 370000],
+                                  ['August', 70000, 520000],
+                                  ['September', 75000, 550000]]}},
+               {'p': '**Required:**'},
+               {'ol': ['**(a)(i)** Differentiate between fixed cost and variable cost. **(ii)** Summarise '
+                       'the meaning of semi-variable cost.',
+                       '**(b)** Segregate the semi-variable costs into total fixed costs and unit variable '
+                       'costs.',
+                       '**(c)** Estimate the power cost for October if the firm plans to use 88 machine '
+                       'hours.']},
+               {'warn': 'The six-month table is printed in the study text as a **scanned image**, not as '
+                        'text, so it is missing from any text-based copy of the book — it is reproduced '
+                        'above exactly as it appears on the page. Note also that part (c) asks for "88 '
+                        'machine hours" while every figure in the table is in tens of thousands of hours; '
+                        'the intended figure is almost certainly **88,000 machine hours**. Both readings are '
+                        'answered below.',
+                'lbl': 'Source note'}],
+         'a': [{'h4': '(a)(i)  Fixed cost versus variable cost'},
+               {'table': {'align': 'lll',
+                          'head': ['', 'Fixed cost', 'Variable cost'],
+                          'rows': [['**Definition**',
+                                    'A cost that does **not** vary with changes in the level of activity',
+                                    'A cost that varies in **direct proportion** with changes in the level '
+                                    'of activity'],
+                                   ['**In total**',
+                                    'Constant as activity changes',
+                                    'Rises and falls with activity'],
+                                   ['**Per unit**',
+                                    'Falls as activity rises (the same amount spread over more units)',
+                                    'Constant per unit at every activity level'],
+                                   ['**What it changes with**',
+                                    'The passage of **time** — hence "period cost"',
+                                    'The level of **activity** or output'],
+                                   ['**Examples**',
+                                    "Rent and rates; the managing director's salary; time-based depreciation",
+                                    'Raw materials; direct wages on piecework; royalties per unit'],
+                                   ['**Cost function**', '$y = a$', '$y = bx$']]}},
+               {'note': 'The sentence that earns the mark is the **per-unit reversal**: a fixed cost is '
+                        'fixed in total but variable per unit, and a variable cost is variable in total but '
+                        'fixed per unit. Candidates who state only the "in total" half rarely get full '
+                        'credit. And remember both statements hold only within the **relevant range** '
+                        '(§2.1.5).'},
+               {'h4': '(a)(ii)  Semi-variable cost'},
+               {'p': 'A **semi-variable** (semi-fixed, or mixed) cost is one that contains **both a fixed '
+                     'element and a variable element**. Part of the cost is incurred regardless of activity, '
+                     'and the rest varies with activity. Its cost function is:'},
+               {'tex': 'y = a + bx'},
+               {'p': 'where $a$ is the fixed element, $b$ the variable cost per unit of activity and $x$ the '
+                     'activity level. Power is the classic example: there is a standing charge and a minimum '
+                     'load whether or not the machines run, plus a usage charge that rises with machine '
+                     'hours. Electricity, telephone charges, computer bureau costs and piecework wage '
+                     'schemes with a guaranteed minimum payment all behave this way.'},
+               {'h4': '(b)  Segregating the cost — the high-low method'},
+               {'p': '**Step 1 — identify the highest and lowest activity levels.** Choose on machine hours, '
+                     'not on cost:'},
+               {'stmt': {'t': 'Step 1 — the two observations',
+                         'rows': [['', 'Machine hours', 'Power cost (N)', '@hd'],
+                                  ['Highest activity — September', 75000, 550000],
+                                  ['Lowest activity — June', 40000, 340000],
+                                  ['**Difference**', 35000, 210000, '@tt']]}},
+               {'p': '**Step 2 — the whole of the cost difference must be variable**, because the fixed '
+                     'element is the same N$a$ in both months and therefore cancels out in the subtraction. '
+                     'So:'},
+               {'tex': 'b = \\frac{550{,}000 - 340{,}000}{75{,}000 - 40{,}000} = \\frac{210{,}000}{35{,}000} '
+                       '= N6 \\text{ per machine hour}'},
+               {'p': '**Step 3 — substitute $b$ back to find the fixed element.** Using the high point:'},
+               {'tex': 'a = 550{,}000 - (6 \\times 75{,}000) = 550{,}000 - 450{,}000 = N100{,}000'},
+               {'p': 'Checking with the low point, which must give the same answer:'},
+               {'tex': 'a = 340{,}000 - (6 \\times 40{,}000) = 340{,}000 - 240{,}000 = N100{,}000 '
+                       '\\;\\checkmark'},
+               {'stmt': {'t': 'Answer to (b)',
+                         'rows': [['**Total fixed cost per month**', '', 100000, '@b'],
+                                  ['**Variable cost per machine hour**', '', 6, '@b'],
+                                  ['**Cost function**', '', 'y = 100,000 + 6x', '@b']]}},
+               {'h4': 'Verifying the function against every month'},
+               {'p': 'The high-low method uses only two of the six observations, so it is always worth '
+                     'testing the resulting function on the four it ignored:'},
+               {'stmt': {'t': 'Predicted versus actual power cost',
+                         'rows': [['Month', 'Hours (x)', '100,000 + 6x', 'Actual (N)', '@hd'],
+                                  ['April', 50000, 400000, 400000],
+                                  ['May', 60000, 460000, 460000],
+                                  ['June *(low point)*', 40000, 340000, 340000],
+                                  ['July', 45000, 370000, 370000],
+                                  ['August', 70000, 520000, 520000],
+                                  ['September *(high point)*', 75000, 550000, 550000]]}},
+               {'key': 'Every one of the six months is predicted **exactly**. That tells you the data in '
+                       'this question were constructed to lie perfectly on a straight line, so high-low and '
+                       'least-squares regression would give identical answers. With real data they would '
+                       'not, and the four ignored months would show small residuals — which is precisely the '
+                       'weakness of the high-low method, and worth a sentence if the question asks you to '
+                       'comment on your result.'},
+               {'h4': "(c)  Estimating October's power cost"},
+               {'p': 'Taking the intended reading of **88,000 machine hours**:'},
+               {'tex': 'y = 100{,}000 + (6 \\times 88{,}000) = 100{,}000 + 528{,}000 = N628{,}000'},
+               {'p': "Taking the question's words literally, at **88 machine hours**:"},
+               {'tex': 'y = 100{,}000 + (6 \\times 88) = 100{,}000 + 528 = N100{,}528'},
+               {'warn': "Quote the figure the question's own data support — **N628,000** — and add one line "
+                        'stating your assumption that "88 machine hours" means 88,000, consistent with the '
+                        'table. An examiner marking a mis-typed question gives credit for a stated '
+                        'assumption and a correct method. Note also that 88,000 hours is **outside** the '
+                        '40,000–75,000 range of the observed data, so the estimate assumes the linear '
+                        'relationship continues to hold beyond the relevant range — another sentence worth '
+                        'writing.',
+                'lbl': 'How to present this in the exam'}]}}]},
 
  ],
  'formulas': [

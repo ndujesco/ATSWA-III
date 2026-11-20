@@ -24,27 +24,17 @@ CH = {
                     {
                                  'n': 'A.1',
                                  't': 'Definition of motivation',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Motivation',
-                                                                                                                      'd': 'a general term representing an employee\'s desire and '
-                                                                                                                           'commitment, manifested in effort dispensed — "a '
-                                                                                                                           'predisposition to act in a specific goal-directed way" '
-                                                                                                                           '(Zedeck & Blood, 1974); "an inner state that energises, '
-                                                                                                                           'activates, moves and channels behaviour towards goals" '
-                                                                                                                           '(Lawal, 1993); or simply "the force which energises '
-                                                                                                                           'behaviour" (Enikanselu & Awe, 2005).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'key': 'Per Maier (1973) and Lawler (1973): Performance = f(Ability × '
-                                                                                       'Motivation); Ability = f(Aptitude × Training × Resources); '
-                                                                                       'Motivation = f(Desire × Commitment). Being MULTIPLICATIVE '
-                                                                                       'functions, every element is essential — a zero in any one factor '
-                                                                                       'collapses the whole product.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Motivation',
+          'd': "a general term representing an employee's desire and commitment, manifested in effort "
+               'dispensed — "a predisposition to act in a specific goal-directed way" (Zedeck & Blood, '
+               '1974); "an inner state that energises, activates, moves and channels behaviour towards '
+               'goals" (Lawal, 1993); or simply "the force which energises behaviour" (Enikanselu & Awe, '
+               '2005).'}},
+ {'key': [{'p': 'Per Maier (1973) and Lawler (1973):'},
+          {'ul': ['Performance = f(Ability × Motivation)',
+                  'Ability = f(Aptitude × Training × Resources)',
+                  'Motivation = f(Desire × Commitment). Being MULTIPLICATIVE functions, every element is '
+                  'essential — a zero in any one factor collapses the whole product.']}]}],
                                },
                     {
                                  'n': 'A.2',
@@ -66,281 +56,164 @@ CH = {
                     {
                                  'n': 'A.3',
                                  't': 'Factors affecting motivation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Factors affecting motivation: satisfaction through achievement; '
-                                                                                     'growth/advancement; job security; interpersonal relations; company '
-                                                                                     'policies; working conditions; status; and salary/fringe benefits.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Factors affecting motivation:'},
+ {'ul': ['satisfaction through achievement',
+         'growth/advancement',
+         'job security',
+         'interpersonal relations',
+         'company policies',
+         'working conditions',
+         'status',
+         'and salary/fringe benefits.']}],
                                },
                     {
                                  'n': 'A.4',
                                  't': 'Motivation theories',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Content (need) theories deal with factors WITHIN individuals that '
-                                                                                     'start/energise/direct/maintain/stop behaviour — what needs do '
-                                                                                     'people try to satisfy, what impels them to action. 4 content '
-                                                                                     'theories are examined: Maslow, Alderfer (ERG), McGregor (Theory '
-                                                                                     'X/Y), and Herzberg (Two-Factor).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.4.1  Content theories',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Maslow\'s Hierarchy of Needs (1943)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Based on 2 assumptions: different needs are active at different '
-                                                                                     'times, and only UNSATISFIED needs influence behaviour; and needs '
-                                                                                     'are arranged in a specified hierarchy of importance. 5 need '
-                                                                                     'levels, lowest to highest:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Level',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Physiological**',
-                                                                                                                                                                                                                          'Survival needs — food, shelter, water, clothing, '
-                                                                                                                                                                                                                          'sex, sleep. Until satisfied to a life-sustaining '
-                                                                                                                                                                                                                          'degree, no other need motivates.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Safety**',
-                                                                                                                                                                                                                          'Feeling safe, free from fear of '
-                                                                                                                                                                                                                          'job/property/food/shelter loss and physical harm '
-                                                                                                                                                                                                                          '— met via fringe benefits, appointment '
-                                                                                                                                                                                                                          'confirmation, insurance, safe working '
-                                                                                                                                                                                                                          'conditions, retirement/pension schemes.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Social**',
-                                                                                                                                                                                                                          'Need to affiliate with, and be accepted by, '
-                                                                                                                                                                                                                          'others — belongingness, affection, friendship, '
-                                                                                                                                                                                                                          'interaction, acceptance.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Esteem**',
-                                                                                                                                                                                                                          'A positive self-image and valued/appreciated '
-                                                                                                                                                                                                                          'contributions — self-confidence, achievement, '
-                                                                                                                                                                                                                          'competence, knowledge, status, recognition, '
-                                                                                                                                                                                                                          'respect.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Self-actualisation**',
-                                                                                                                                                                                                                          'The highest level — self-fulfilment, becoming '
-                                                                                                                                                                                                                          'what one is capable of becoming, maximising '
-                                                                                                                                                                                                                          'one\'s potential, abilities, skills, knowledge.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'People must satisfy LOWER needs before higher ones become '
-                                                                                        'motivating — hence the hungry/homeless are not much concerned '
-                                                                                        'with colleague respect (Gatewood et al., 1995). For managers: '
-                                                                                        'an already-satisfied need is NOT a motivator — only unmet needs '
-                                                                                        'motivate; managers must diagnose subordinates\' needs and design '
-                                                                                        'matching strategies; and a need need not be fully satisfied '
-                                                                                        'before attention shifts to the next level up (Bartol & Martin, '
-                                                                                        '1994).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Criticisms**: research (Wahba & Bridwell 1986; Lawler & Suttle '
-                                                                                     '1972; Hall & Nougaim 1968) found no empirical support, rejecting '
-                                                                                     'the strict hierarchical framing; the exact ordering may not apply '
-                                                                                     'to everyone — reversals occur (e.g. self-esteem prioritised over '
-                                                                                     'love; creative people pursuing self-actualisation despite unmet '
-                                                                                     'basic needs; chronic-unemployment sufferers permanently settling '
-                                                                                     'for lower levels only; people deprived of early-childhood love '
-                                                                                     'permanently losing that need; a long-satisfied need becoming '
-                                                                                     'undervalued; martyrs sacrificing everything for their ideals); '
-                                                                                     'several needs may be simultaneously strong rather than distinctly '
-                                                                                     'categorised (Wahba & Bridwell, 1976); needs are dynamic, not '
-                                                                                     'static — one can descend the hierarchy as fast as ascend it, and '
-                                                                                     'more than one level can be active at once (Yalokwu, 2004); some '
-                                                                                     'outcomes (e.g. good pay) can satisfy MULTIPLE need levels '
-                                                                                     'simultaneously (physiological, safety AND esteem — Porter & '
-                                                                                     'Lawler, 1968).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Alderfer\'s ERG Theory (1972)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Condenses Maslow\'s 5 levels into 3: **Existence** (physiological + '
-                                                                                     'safety — material/physiological desires, pay, fringe benefits, '
-                                                                                     'physical conditions); **Relatedness** (love/belonging + '
-                                                                                     'esteem-of-a-safety-nature — relationships with family, friends, '
-                                                                                     'work groups, professional groups); **Growth** (self-esteem + '
-                                                                                     'self-actualisation — creativity, innovation, productive impact).',
-                                                                              },
-                                                          {
-                                                                                'key': 'Unlike Maslow, Alderfer frames these as a CONTINUUM, not strict '
-                                                                                       'hierarchical levels — more than one need may be active/satisfied '
-                                                                                       'simultaneously. 2 hypotheses: **satisfaction-progression** '
-                                                                                       '(satisfying one level encourages concern with the next) and '
-                                                                                       '**frustration-regression** (continued frustration at a higher '
-                                                                                       'level causes regression to concern for a lower, '
-                                                                                       'already-satisfied one — a mechanism Maslow\'s theory lacks). '
-                                                                                       'Limited ERG research has generally been supportive (Steers & '
-                                                                                       'Porter, 1996), though both theories are hard to test empirically '
-                                                                                       'given the difficulty of measuring changing individual needs over '
-                                                                                       'time.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'McGregor\'s Theory X and Theory Y',
-                                                                              },
-                                                          {
-                                                                                'p': 'McGregor grouped physiological/safety as "lower-order" needs and '
-                                                                                     'social/esteem/self-actualisation as "upper-order" needs, proposing '
-                                                                                     '2 alternate assumption sets about workers based on which need set '
-                                                                                     'motivates them.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Theory',
-                                                                                                                                                                             'Assumptions',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Theory X** (lower-order-need workers)',
-                                                                                                                                                                                                                          'Inherent dislike of work, avoided if possible; '
-                                                                                                                                                                                                                          'lack ambition, dislike responsibility; must be '
-                                                                                                                                                                                                                          'coerced/controlled/directed/threatened to expend '
-                                                                                                                                                                                                                          'adequate effort; prefer direction, avoid '
-                                                                                                                                                                                                                          'responsibility, want security above all.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Theory Y** (upper-order-need workers)',
-                                                                                                                                                                                                                          'Work effort is as natural as play/rest; work can '
-                                                                                                                                                                                                                          'be a satisfaction source, not inherently '
-                                                                                                                                                                                                                          'disliked; self-direction (not just external '
-                                                                                                                                                                                                                          'control/threat) drives committed effort; '
-                                                                                                                                                                                                                          'commitment stems from achievement rewards, '
-                                                                                                                                                                                                                          'especially self-actualisation; under proper '
-                                                                                                                                                                                                                          'conditions, people learn to SEEK (not just '
-                                                                                                                                                                                                                          'accept) responsibility — avoidance is a product '
-                                                                                                                                                                                                                          'of experience, not inherent nature; '
-                                                                                                                                                                                                                          'imagination/ingenuity/creativity capacity is '
-                                                                                                                                                                                                                          'widely (not narrowly) distributed.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'Implications: modern industrial life only partially utilises '
-                                                                                        'the average person\'s intellectual potential; many people arrive '
-                                                                                        'highly motivated to contribute; an oppressive/poorly-organised '
-                                                                                        'management environment stifles enthusiasm, turning potentially '
-                                                                                        'productive workers into "clock watchers"; McGregor found it far '
-                                                                                        'more common that management CRUSHES enthusiasm than that '
-                                                                                        'employees genuinely fail to meet management\'s challenges.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Herzberg\'s Two-Factor (Motivation–Hygiene) Theory',
-                                                                              },
-                                                          {
-                                                                                'p': 'From research on 200 Pittsburgh accountants/engineers, asked to '
-                                                                                     'recall exceptionally good and bad job feelings and their causes — '
-                                                                                     'Herzberg found 2 SEPARATE, INDEPENDENT factor sets affecting work '
-                                                                                     'motivation.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Factor set',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Hygiene (maintenance/dissatisfier) factors**',
-                                                                                                                                                                                                                          '10 factors related to job CONTEXT (extrinsic to '
-                                                                                                                                                                                                                          'the job itself): salary, company '
-                                                                                                                                                                                                                          'policy/administration, supervision, '
-                                                                                                                                                                                                                          'interpersonal relations with '
-                                                                                                                                                                                                                          'subordinates/peers/supervisors, job security, '
-                                                                                                                                                                                                                          'personal life, status. Their ABSENCE causes '
-                                                                                                                                                                                                                          'dissatisfaction, but their presence brings '
-                                                                                                                                                                                                                          'motivation only to ZERO — they do not by '
-                                                                                                                                                                                                                          'themselves create positive motivation, only '
-                                                                                                                                                                                                                          'prevent unpleasantness/unfair treatment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Motivator (satisfier) factors**',
-                                                                                                                                                                                                                          '6 factors related to job CONTENT (intrinsic to '
-                                                                                                                                                                                                                          'the work itself): achievement, recognition, '
-                                                                                                                                                                                                                          'responsibility, the work itself, personal '
-                                                                                                                                                                                                                          'growth, advancement. These genuinely drive '
-                                                                                                                                                                                                                          'positive motivation and encourage '
-                                                                                                                                                                                                                          'growth/development needs.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.4.2  Process theories',
-                                                                              },
-                                                          {
-                                                                                'p': 'Process theories focus on the GOALS/PROCESSES by which employees '
-                                                                                     'are motivated — the 2 major ones are Vroom\'s Expectancy Theory and '
-                                                                                     'Equity Theory.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Vroom\'s Expectancy Theory (1964)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Motivation is a function of an individual\'s preference for an '
-                                                                                     'outcome (**valence**) and their perception that the desired '
-                                                                                     'outcome will actually result from specific behaviour '
-                                                                                     '(**expectancy**) — both scaled from -1 to +1.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Motivation = Valence × Expectancy. Worked illustration: Kofi '
-                                                                                       'strongly wants company sponsorship for a course (valence = +1), '
-                                                                                       'with 0.9 expectancy it will happen → Motivation = 1 × 0.9 = '
-                                                                                       '**0.9**. His colleague Ernest is completely indifferent (valence '
-                                                                                       '= 0), same 0.9 expectancy → Motivation = 0 × 0.9 = **0**. This '
-                                                                                       'shows motivational forces differ genuinely between individuals — '
-                                                                                       'even identical expectancy produces zero motivation where valence '
-                                                                                       'is absent.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Equity Theory (Adams, 1957)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Motivation depends on one\'s evaluation of reward FAIRNESS — the '
-                                                                                     'RATIO of one\'s inputs (effort/skill) to rewards '
-                                                                                     '(salary/promotion/incentives), compared to the same ratio for '
-                                                                                     'others doing similar work. Employees compare their '
-                                                                                     'reward-for-effort against peers doing similar jobs — '
-                                                                                     'motivation/performance/satisfaction IMPROVE when comparison is '
-                                                                                     'favourable; perceived UNDER-payment breeds inequity feelings and '
-                                                                                     'may prompt working less hard, while perceived OVER-payment '
-                                                                                     '(relative to peers) tends to drive harder work.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.4.3  Reinforcement Theory (Skinner, 1984)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Behaviour with POSITIVE consequences tends to be repeated; '
-                                                                                     'behaviour with NEGATIVE consequences tends not to be. Key '
-                                                                                     'features: employees are motivated by proper work-environment '
-                                                                                     'design and praise for good performance; employees should NOT be '
-                                                                                     'punished for poor performance (leads to negative results); '
-                                                                                     'managers should regularly remove factors impeding effective '
-                                                                                     'performance; and regular feedback/reward for good performance '
-                                                                                     'should be provided.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Content (need) theories deal with factors WITHIN individuals that '
+       'start/energise/direct/maintain/stop behaviour — what needs do people try to satisfy, what impels '
+       'them to action. 4 content theories are examined: Maslow, Alderfer (ERG), McGregor (Theory X/Y), and '
+       'Herzberg (Two-Factor).'},
+ {'h4': 'A.4.1  Content theories'},
+ {'h4': "Maslow's Hierarchy of Needs (1943)"},
+ {'p': 'Based on 2 assumptions: different needs are active at different times, and only UNSATISFIED needs '
+       'influence behaviour; and needs are arranged in a specified hierarchy of importance. 5 need levels, '
+       'lowest to highest:'},
+ {'table': {'align': 'll',
+            'head': ['Level', 'Description'],
+            'rows': [['**Physiological**',
+                      'Survival needs — food, shelter, water, clothing, sex, sleep. Until satisfied to a '
+                      'life-sustaining degree, no other need motivates.'],
+                     ['**Safety**',
+                      'Feeling safe, free from fear of job/property/food/shelter loss and physical harm — '
+                      'met via fringe benefits, appointment confirmation, insurance, safe working '
+                      'conditions, retirement/pension schemes.'],
+                     ['**Social**',
+                      'Need to affiliate with, and be accepted by, others — belongingness, affection, '
+                      'friendship, interaction, acceptance.'],
+                     ['**Esteem**',
+                      'A positive self-image and valued/appreciated contributions — self-confidence, '
+                      'achievement, competence, knowledge, status, recognition, respect.'],
+                     ['**Self-actualisation**',
+                      'The highest level — self-fulfilment, becoming what one is capable of becoming, '
+                      "maximising one's potential, abilities, skills, knowledge."]]}},
+ {'note': [{'p': 'People must satisfy LOWER needs before higher ones become motivating — hence the '
+                 'hungry/homeless are not much concerned with colleague respect (Gatewood et al., 1995). For '
+                 'managers:'},
+           {'ul': ['an already-satisfied need is NOT a motivator — only unmet needs motivate',
+                   "managers must diagnose subordinates' needs and design matching strategies",
+                   'and a need need not be fully satisfied before attention shifts to the next level up '
+                   '(Bartol & Martin, 1994).']}]},
+ {'p': '**Criticisms**:'},
+ {'ul': ['research (Wahba & Bridwell 1986; Lawler & Suttle 1972; Hall & Nougaim 1968) found no empirical '
+         'support, rejecting the strict hierarchical framing',
+         'the exact ordering may not apply to everyone — reversals occur (e.g. self-esteem prioritised over '
+         'love; creative people pursuing self-actualisation despite unmet basic needs; chronic-unemployment '
+         'sufferers permanently settling for lower levels only; people deprived of early-childhood love '
+         'permanently losing that need; a long-satisfied need becoming undervalued; martyrs sacrificing '
+         'everything for their ideals)',
+         'several needs may be simultaneously strong rather than distinctly categorised (Wahba & Bridwell, '
+         '1976)',
+         'needs are dynamic, not static — one can descend the hierarchy as fast as ascend it, and more than '
+         'one level can be active at once (Yalokwu, 2004)',
+         'some outcomes (e.g. good pay) can satisfy MULTIPLE need levels simultaneously (physiological, '
+         'safety AND esteem — Porter & Lawler, 1968).']},
+ {'h4': "Alderfer's ERG Theory (1972)"},
+ {'p': "Condenses Maslow's 5 levels into 3:"},
+ {'ul': ['**Existence** (physiological + safety — material/physiological desires, pay, fringe benefits, '
+         'physical conditions)',
+         '**Relatedness** (love/belonging + esteem-of-a-safety-nature — relationships with family, friends, '
+         'work groups, professional groups)',
+         '**Growth** (self-esteem + self-actualisation — creativity, innovation, productive impact).']},
+ {'key': 'Unlike Maslow, Alderfer frames these as a CONTINUUM, not strict hierarchical levels — more than '
+         'one need may be active/satisfied simultaneously. 2 hypotheses: **satisfaction-progression** '
+         '(satisfying one level encourages concern with the next) and **frustration-regression** (continued '
+         'frustration at a higher level causes regression to concern for a lower, already-satisfied one — a '
+         "mechanism Maslow's theory lacks). Limited ERG research has generally been supportive (Steers & "
+         'Porter, 1996), though both theories are hard to test empirically given the difficulty of measuring '
+         'changing individual needs over time.'},
+ {'h4': "McGregor's Theory X and Theory Y"},
+ {'p': 'McGregor grouped physiological/safety as "lower-order" needs and social/esteem/self-actualisation as '
+       '"upper-order" needs, proposing 2 alternate assumption sets about workers based on which need set '
+       'motivates them.'},
+ {'table': {'align': 'll',
+            'head': ['Theory', 'Assumptions'],
+            'rows': [['**Theory X** (lower-order-need workers)',
+                      'Inherent dislike of work, avoided if possible; lack ambition, dislike responsibility; '
+                      'must be coerced/controlled/directed/threatened to expend adequate effort; prefer '
+                      'direction, avoid responsibility, want security above all.'],
+                     ['**Theory Y** (upper-order-need workers)',
+                      'Work effort is as natural as play/rest; work can be a satisfaction source, not '
+                      'inherently disliked; self-direction (not just external control/threat) drives '
+                      'committed effort; commitment stems from achievement rewards, especially '
+                      'self-actualisation; under proper conditions, people learn to SEEK (not just accept) '
+                      'responsibility — avoidance is a product of experience, not inherent nature; '
+                      'imagination/ingenuity/creativity capacity is widely (not narrowly) distributed.']]}},
+ {'note': [{'p': 'Implications:'},
+           {'ul': ["modern industrial life only partially utilises the average person's intellectual "
+                   'potential',
+                   'many people arrive highly motivated to contribute',
+                   'an oppressive/poorly-organised management environment stifles enthusiasm, turning '
+                   'potentially productive workers into "clock watchers"',
+                   'McGregor found it far more common that management CRUSHES enthusiasm than that employees '
+                   "genuinely fail to meet management's challenges."]}]},
+ {'h4': "Herzberg's Two-Factor (Motivation–Hygiene) Theory"},
+ {'p': 'From research on 200 Pittsburgh accountants/engineers, asked to recall exceptionally good and bad '
+       'job feelings and their causes — Herzberg found 2 SEPARATE, INDEPENDENT factor sets affecting work '
+       'motivation.'},
+ {'table': {'align': 'll',
+            'head': ['Factor set', 'Description'],
+            'rows': [['**Hygiene (maintenance/dissatisfier) factors**',
+                      '10 factors related to job CONTEXT (extrinsic to the job itself): salary, company '
+                      'policy/administration, supervision, interpersonal relations with '
+                      'subordinates/peers/supervisors, job security, personal life, status. Their ABSENCE '
+                      'causes dissatisfaction, but their presence brings motivation only to ZERO — they do '
+                      'not by themselves create positive motivation, only prevent unpleasantness/unfair '
+                      'treatment.'],
+                     ['**Motivator (satisfier) factors**',
+                      '6 factors related to job CONTENT (intrinsic to the work itself): achievement, '
+                      'recognition, responsibility, the work itself, personal growth, advancement. These '
+                      'genuinely drive positive motivation and encourage growth/development needs.']]}},
+ {'h4': 'A.4.2  Process theories'},
+ {'p': 'Process theories focus on the GOALS/PROCESSES by which employees are motivated — the 2 major ones '
+       "are Vroom's Expectancy Theory and Equity Theory."},
+ {'h4': "Vroom's Expectancy Theory (1964)"},
+ {'p': "Motivation is a function of an individual's preference for an outcome (**valence**) and their "
+       'perception that the desired outcome will actually result from specific behaviour (**expectancy**) — '
+       'both scaled from -1 to +1.'},
+ {'key': 'Motivation = Valence × Expectancy. Worked illustration: Kofi strongly wants company sponsorship '
+         'for a course (valence = +1), with 0.9 expectancy it will happen → Motivation = 1 × 0.9 = **0.9**. '
+         'His colleague Ernest is completely indifferent (valence = 0), same 0.9 expectancy → Motivation = 0 '
+         '× 0.9 = **0**. This shows motivational forces differ genuinely between individuals — even '
+         'identical expectancy produces zero motivation where valence is absent.'},
+ {'h4': 'Equity Theory (Adams, 1957)'},
+ {'p': "Motivation depends on one's evaluation of reward FAIRNESS — the RATIO of one's inputs (effort/skill) "
+       'to rewards (salary/promotion/incentives), compared to the same ratio for others doing similar work. '
+       'Employees compare their reward-for-effort against peers doing similar jobs — '
+       'motivation/performance/satisfaction IMPROVE when comparison is favourable; perceived UNDER-payment '
+       'breeds inequity feelings and may prompt working less hard, while perceived OVER-payment (relative to '
+       'peers) tends to drive harder work.'},
+ {'h4': 'A.4.3  Reinforcement Theory (Skinner, 1984)'},
+ {'p': 'Behaviour with POSITIVE consequences tends to be repeated; behaviour with NEGATIVE consequences '
+       'tends not to be. Key features: employees are motivated by proper work-environment design and praise '
+       'for good performance; employees should NOT be punished for poor performance (leads to negative '
+       'results); managers should regularly remove factors impeding effective performance; and regular '
+       'feedback/reward for good performance should be provided.'},
+ {'figure': {'src': 'assets/study-figures/man-p313.png',
+             'alt': 'Figure 5.1: Abraham Maslow’s hierarchy of needs model',
+             'cap': 'Figure 5.1: Abraham Maslow’s hierarchy of needs model — original Management study-text '
+                    'page 286 (PDF 313). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p315.png',
+             'alt': 'Table 5.1: Relationship between Maslow’s and Alderfer’s theories of motivation',
+             'cap': 'Table 5.1: Relationship between Maslow’s and Alderfer’s theories of motivation — '
+                    'original Management study-text page 288 (PDF 315). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p319.png',
+             'alt': 'Figure 5.2: Vroom’s Expectancy model',
+             'cap': 'Figure 5.2: Vroom’s Expectancy model — original Management study-text page 292 (PDF '
+                    '319). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p320.png',
+             'alt': 'Table 5.2: comparing the various theories and indicates their use in management.',
+             'cap': 'Table 5.2: comparing the various theories and indicates their use in management. — '
+                    'original Management study-text page 293 (PDF 320). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.5',
@@ -471,125 +344,78 @@ CH = {
                     {
                                  'n': 'B.1',
                                  't': 'Definition of leadership',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Leadership',
-                                                                                                                      'd': 'the art/process of influencing people so they strive '
-                                                                                                                           'willingly and enthusiastically toward group goals (Koontz '
-                                                                                                                           '& Weihrich, 1990) — a dynamic process whereby, over time '
-                                                                                                                           'and within a particular organisational context, one '
-                                                                                                                           'individual influences other group members to freely '
-                                                                                                                           'commit to group tasks/goals.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': '4 key features: it is a DYNAMIC process (shifting with the '
-                                                                                     'task/group/members); it is NOT necessarily confined to one person '
-                                                                                     '(may be shared); its principal role is influencing the group '
-                                                                                     'toward group goals; and it is exercised within, and influenced by, '
-                                                                                     'the particular organisational context.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Leadership is a function of the leader\'s character, the '
-                                                                                       'followers, and the situation: L = f(l, f, s).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Leadership',
+          'd': 'the art/process of influencing people so they strive willingly and enthusiastically toward '
+               'group goals (Koontz & Weihrich, 1990) — a dynamic process whereby, over time and within a '
+               'particular organisational context, one individual influences other group members to freely '
+               'commit to group tasks/goals.'}},
+ {'p': '4 key features:'},
+ {'ul': ['it is a DYNAMIC process (shifting with the task/group/members)',
+         'it is NOT necessarily confined to one person (may be shared)',
+         'its principal role is influencing the group toward group goals',
+         'and it is exercised within, and influenced by, the particular organisational context.']},
+ {'key': "Leadership is a function of the leader's character, the followers, and the situation: L = f(l, f, "
+         's).'}],
                                },
                     {
                                  'n': 'B.2',
                                  't': 'Functions of a leader',
-                                 'b': [
-                                                          {
-                                                                                'p': '6 straightforward leader functions: developing teamwork; '
-                                                                                     'representing subordinates; counselling appropriately; using power '
-                                                                                     'properly; managing time well; and striving for effectiveness. '
-                                                                                     'Krech et al. (1962) add 14 further roles: executive (top '
-                                                                                     'coordinator/overseer); planner (deciding means to group ends); '
-                                                                                     'policy-maker (establishing goals/policies); expert (an '
-                                                                                     'information/skill source); external group representative '
-                                                                                     '(spokesperson, communication channel); controller of internal '
-                                                                                     'relations (determines group-structure aspects); purveyor of '
-                                                                                     'rewards/punishment; arbitrator/mediator (controls interpersonal '
-                                                                                     'conflict); exemplar (a behaviour model); symbol of the group '
-                                                                                     '(enhances unity/distinct identity); substitute for individual '
-                                                                                     'responsibility (relieves members of personal decision necessity); '
-                                                                                     'ideologist (source of beliefs/values/standards); father figure '
-                                                                                     '(focus of positive emotional identification); and scapegoat '
-                                                                                     '(target for group aggression/hostility, accepting failure blame).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '6 straightforward leader functions:'},
+ {'ul': ['developing teamwork',
+         'representing subordinates',
+         'counselling appropriately',
+         'using power properly',
+         'managing time well',
+         'and striving for effectiveness. Krech et al. (1962) add 14 further roles: executive (top '
+         'coordinator/overseer)',
+         'planner (deciding means to group ends)',
+         'policy-maker (establishing goals/policies)',
+         'expert (an information/skill source)',
+         'external group representative (spokesperson, communication channel)',
+         'controller of internal relations (determines group-structure aspects)',
+         'purveyor of rewards/punishment',
+         'arbitrator/mediator (controls interpersonal conflict)',
+         'exemplar (a behaviour model)',
+         'symbol of the group (enhances unity/distinct identity)',
+         'substitute for individual responsibility (relieves members of personal decision necessity)',
+         'ideologist (source of beliefs/values/standards)',
+         'father figure (focus of positive emotional identification)',
+         'and scapegoat (target for group aggression/hostility, accepting failure blame).']}],
                                },
                     {
                                  'n': 'B.3',
                                  't': 'Leadership styles',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Leadership style',
-                                                                                                                      'd': 'the attitude/behaviour a leader exhibits supervising '
-                                                                                                                           'subordinates — how leadership functions are carried out, '
-                                                                                                                           'how the manager typically behaves toward group members '
-                                                                                                                           '(Mullins, 1996).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Attention to leadership style stems from: increasing '
-                                                                                     'competitiveness/efficient-HR-use recognition; social-value-system '
-                                                                                     'change; broader education/training standards; scientific/technical '
-                                                                                     'knowledge advances; trade union influence; pressure for greater '
-                                                                                     'employee social responsibility; and government legislation. '
-                                                                                     'Leadership can be broadly classified into 3 focus-of-power styles:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Style',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Autocratic (authoritarian)**',
-                                                                                                                                                                                                                          'Power centred on the manager; complete control '
-                                                                                                                                                                                                                          'over subordinates; threat of '
-                                                                                                                                                                                                                          'penalties/punishment; sets goals and structures '
-                                                                                                                                                                                                                          'work unilaterally, giving unquestioned orders — '
-                                                                                                                                                                                                                          '"like a Theory X leader."',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Democratic/participative**',
-                                                                                                                                                                                                                          'Power centred more with the group; leadership by '
-                                                                                                                                                                                                                          'consultation — "like a Theory Y leader"; '
-                                                                                                                                                                                                                          'authority decentralised, decisions made after '
-                                                                                                                                                                                                                          'consultation/participation; subordinates '
-                                                                                                                                                                                                                          'encouraged to exploit potential and assume '
-                                                                                                                                                                                                                          'challenging responsibility; improves job '
-                                                                                                                                                                                                                          'satisfaction/morale — "no manager can perform '
-                                                                                                                                                                                                                          'effectively long-term without SOME degree of '
-                                                                                                                                                                                                                          'employee participation" (William, 1978).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Laissez-faire**',
-                                                                                                                                                                                                                          'Sets no group goals; allows total freedom; does '
-                                                                                                                                                                                                                          'not communicate with the group; leaves goal '
-                                                                                                                                                                                                                          'achievement to chance; "leads through '
-                                                                                                                                                                                                                          'non-leadership" — abdicates '
-                                                                                                                                                                                                                          'authority/responsibility, offering '
-                                                                                                                                                                                                                          'materials/assistance only on request.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'There is no evidence participation suits everybody — where '
-                                                                                        'subordinates prefer minimal leader interaction, a participative '
-                                                                                        'style may not help; over time, groups can develop a frustrating '
-                                                                                        'expectation of being consulted on EVERY issue (even those they '
-                                                                                        'cannot meaningfully contribute to), and feel '
-                                                                                        'slighted/resentful/uncooperative when not consulted.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Leadership style',
+          'd': 'the attitude/behaviour a leader exhibits supervising subordinates — how leadership functions '
+               'are carried out, how the manager typically behaves toward group members (Mullins, 1996).'}},
+ {'p': 'Attention to leadership style stems from:'},
+ {'ul': ['increasing competitiveness/efficient-HR-use recognition',
+         'social-value-system change',
+         'broader education/training standards',
+         'scientific/technical knowledge advances',
+         'trade union influence',
+         'pressure for greater employee social responsibility',
+         'and government legislation. Leadership can be broadly classified into 3 focus-of-power styles:']},
+ {'table': {'align': 'll',
+            'head': ['Style', 'Description'],
+            'rows': [['**Autocratic (authoritarian)**',
+                      'Power centred on the manager; complete control over subordinates; threat of '
+                      'penalties/punishment; sets goals and structures work unilaterally, giving '
+                      'unquestioned orders — "like a Theory X leader."'],
+                     ['**Democratic/participative**',
+                      'Power centred more with the group; leadership by consultation — "like a Theory Y '
+                      'leader"; authority decentralised, decisions made after consultation/participation; '
+                      'subordinates encouraged to exploit potential and assume challenging responsibility; '
+                      'improves job satisfaction/morale — "no manager can perform effectively long-term '
+                      'without SOME degree of employee participation" (William, 1978).'],
+                     ['**Laissez-faire**',
+                      'Sets no group goals; allows total freedom; does not communicate with the group; '
+                      'leaves goal achievement to chance; "leads through non-leadership" — abdicates '
+                      'authority/responsibility, offering materials/assistance only on request.']]}},
+ {'note': 'There is no evidence participation suits everybody — where subordinates prefer minimal leader '
+          'interaction, a participative style may not help; over time, groups can develop a frustrating '
+          'expectation of being consulted on EVERY issue (even those they cannot meaningfully contribute '
+          'to), and feel slighted/resentful/uncooperative when not consulted.'}],
                                },
                     {
                                  'n': 'B.4',
@@ -649,124 +475,67 @@ CH = {
                     {
                                  'n': 'C.2',
                                  't': 'Types of groups',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.2.1 – C.2.2  Formal and informal groups',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Formal groups**',
-                                                                                                                                                                                                                          'Deliberately set up by management to carry out '
-                                                                                                                                                                                                                          'specific tasks directly tied to organisational '
-                                                                                                                                                                                                                          'goals — e.g. task forces/project teams, '
-                                                                                                                                                                                                                          'sections/departments, committees. 2 sub-types: '
-                                                                                                                                                                                                                          '**permanent formal groups** (recurrent tasks, '
-                                                                                                                                                                                                                          'e.g. audit committees) and **temporary formal '
-                                                                                                                                                                                                                          'groups** (ad-hoc, existing until the mission is '
-                                                                                                                                                                                                                          'fulfilled or the time schedule elapses). '
-                                                                                                                                                                                                                          'Functions: handling complex/interdependent tasks '
-                                                                                                                                                                                                                          'too difficult for one individual; generating new '
-                                                                                                                                                                                                                          'ideas/creative solutions from dispersed '
-                                                                                                                                                                                                                          'information; coordinating interdependent '
-                                                                                                                                                                                                                          'departmental work; facilitating complex-decision '
-                                                                                                                                                                                                                          'implementation; providing a '
-                                                                                                                                                                                                                          'socialisation/training vehicle.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Informal groups**',
-                                                                                                                                                                                                                          'Arise from workplace interaction, meeting '
-                                                                                                                                                                                                                          'members\' psychological needs — **horizontal '
-                                                                                                                                                                                                                          'clique** (same educational '
-                                                                                                                                                                                                                          'background/status/age/ethnicity/religion); '
-                                                                                                                                                                                                                          '**vertical clique** (different '
-                                                                                                                                                                                                                          'status/background); **random clique** (a mix). '
-                                                                                                                                                                                                                          'Functions: satisfying affiliation needs '
-                                                                                                                                                                                                                          '(friendship/support/love); providing a sense of '
-                                                                                                                                                                                                                          'identity; maintaining self-esteem; and reducing '
-                                                                                                                                                                                                                          'social-environment uncertainty via shared '
-                                                                                                                                                                                                                          'perspective/consensus.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'C.2.1  Formal Group'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Formal groups**',
+                      'Deliberately set up by management to carry out specific tasks directly tied to '
+                      'organisational goals — e.g. task forces/project teams, sections/departments, '
+                      'committees. 2 sub-types: **permanent formal groups** (recurrent tasks, e.g. audit '
+                      'committees) and **temporary formal groups** (ad-hoc, existing until the mission is '
+                      'fulfilled or the time schedule elapses). Functions: handling complex/interdependent '
+                      'tasks too difficult for one individual; generating new ideas/creative solutions from '
+                      'dispersed information; coordinating interdependent departmental work; facilitating '
+                      'complex-decision implementation; providing a socialisation/training vehicle.']]}},
+ {'h4': 'C.2.2  Informal Groups'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Informal groups**',
+                      "Arise from workplace interaction, meeting members' psychological needs — **horizontal "
+                      'clique** (same educational background/status/age/ethnicity/religion); **vertical '
+                      'clique** (different status/background); **random clique** (a mix). Functions: '
+                      'satisfying affiliation needs (friendship/support/love); providing a sense of '
+                      'identity; maintaining self-esteem; and reducing social-environment uncertainty via '
+                      'shared perspective/consensus.']]}}],
                                },
                     {
                                  'n': 'C.3',
                                  't': 'Definition of team',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Team (work team)',
-                                                                                                                      'd': 'a small number of people with complementary skills, '
-                                                                                                                           'committed to a common purpose/performance goals/approach, '
-                                                                                                                           'for which they hold themselves MUTUALLY accountable. All '
-                                                                                                                           'work teams are groups, but not all groups are work teams.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': '3 team types: **self-managed work teams** (perform interdependent '
-                                                                                     'jobs PLUS supervisory work — planning, scheduling, task '
-                                                                                     'assignment, collective work-pace control, supplier/customer '
-                                                                                     'liaison); **cross-functional teams** (same hierarchical level, '
-                                                                                     'different work areas, brought together for a task); and **virtual '
-                                                                                     'teams** (tied together via ICT — internet, intranet, video '
-                                                                                     'conferencing — no physical interaction).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.1  Types of teams',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Work group',
-                                                                                                                                                                             'Team',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Strong, clearly-focused leader.',
-                                                                                                                                                                                                                          'Shared leadership roles.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Individual accountability.',
-                                                                                                                                                                                                                          'Individual AND group accountability.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Same purpose as the broader organisational '
-                                                                                                                                                                                                                          'mission.',
-                                                                                                                                                                                                                          'A specific purpose the team itself delivers.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Creates individual work products.',
-                                                                                                                                                                                                                          'Creates collective work products.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Runs efficient meetings.',
-                                                                                                                                                                                                                          'Encourages open-ended discussion/active '
-                                                                                                                                                                                                                          'problem-solving meetings.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Measures effectiveness INDIRECTLY (e.g. business '
-                                                                                                                                                                                                                          'financial performance).',
-                                                                                                                                                                                                                          'Measures performance DIRECTLY by assessing '
-                                                                                                                                                                                                                          'collective work products.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Discusses, decides, and delegates.',
-                                                                                                                                                                                                                          'Discusses, decides, and DOES real work together.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Team (work team)',
+          'd': 'a small number of people with complementary skills, committed to a common '
+               'purpose/performance goals/approach, for which they hold themselves MUTUALLY accountable. All '
+               'work teams are groups, but not all groups are work teams.'}},
+ {'p': '3 team types:'},
+ {'ul': ['**self-managed work teams** (perform interdependent jobs PLUS supervisory work — planning, '
+         'scheduling, task assignment, collective work-pace control, supplier/customer liaison)',
+         '**cross-functional teams** (same hierarchical level, different work areas, brought together for a '
+         'task)',
+         'and **virtual teams** (tied together via ICT — internet, intranet, video conferencing — no '
+         'physical interaction).']},
+ {'h4': 'C.3.1  Types of teams'},
+ {'table': {'align': 'll',
+            'head': ['Work group', 'Team'],
+            'rows': [['Strong, clearly-focused leader.', 'Shared leadership roles.'],
+                     ['Individual accountability.', 'Individual AND group accountability.'],
+                     ['Same purpose as the broader organisational mission.',
+                      'A specific purpose the team itself delivers.'],
+                     ['Creates individual work products.', 'Creates collective work products.'],
+                     ['Runs efficient meetings.',
+                      'Encourages open-ended discussion/active problem-solving meetings.'],
+                     ['Measures effectiveness INDIRECTLY (e.g. business financial performance).',
+                      'Measures performance DIRECTLY by assessing collective work products.'],
+                     ['Discusses, decides, and delegates.',
+                      'Discusses, decides, and DOES real work together.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p330.png',
+             'alt': 'Table 5.3: Differences between Groups and Teams',
+             'cap': 'Table 5.3: Differences between Groups and Teams — original Management study-text page '
+                    '303 (PDF 330). Open the page to enlarge.'}},
+ {'h4': 'Past-paper supplement — team based pay'},
+ {'p': '[March 2021, MCQ 27](#/exams/2021-03/MAN?q=mcq-27) defines a method of rewarding teams or employees '
+       'doing similar work where the reward is connected with overall team performance. The printed key is '
+       '**E — “Team based pay.”** In plain language, the reward depends on the group’s combined result, '
+       'rather than only one individual’s output. This reward method is distinct from the team **types** '
+       'above and the manager, peer, objective or self-evaluation methods used to assess team performance.'}],
                                },
                     {
                                  'n': 'C.5',
@@ -968,58 +737,43 @@ CH = {
                     {
                                  'n': 'D.4',
                                  't': 'Sources of conflicts in an organisation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Gray and Stark (1984) identify 6 sources of conflict: limited '
-                                                                                     'resources; interdependent work activities; differentiation of '
-                                                                                     'activities; communication problems; differences in perceptions; '
-                                                                                     'and the organisation\'s environment. Further sources: individual '
-                                                                                     'differences (some enjoy conflict, others don\'t); unclear authority '
-                                                                                     'structures; differing attitudes; task/power asymmetries; and '
-                                                                                     'differing time horizons (long-run vs. short-run departmental '
-                                                                                     'views). Also commonly cited: competition for group resources; '
-                                                                                     'status differences; poor information flow; individual/departmental '
-                                                                                     'goal differences; poor leadership style; and value/perception '
-                                                                                     'differences.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Conflict outcome',
-                                                                                                                                                                             'Effects',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Constructive conflict**',
-                                                                                                                                                                                                                          'Stimulates creativity/new ideas; brings latent '
-                                                                                                                                                                                                                          'problems to the fore, releasing bottled-up '
-                                                                                                                                                                                                                          'tension; may improve decision-making quality.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Destructive conflict**',
-                                                                                                                                                                                                                          'Discontent among members; poor information flow; '
-                                                                                                                                                                                                                          'weakened group cohesion; difficulty achieving '
-                                                                                                                                                                                                                          'group goals; general mistrust; and group '
-                                                                                                                                                                                                                          'dissolution.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Gray and Stark (1984) identify 6 sources of conflict:'},
+ {'ul': ['limited resources',
+         'interdependent work activities',
+         'differentiation of activities',
+         'communication problems',
+         'differences in perceptions',
+         "and the organisation's environment. Further sources: individual differences (some enjoy conflict, "
+         "others don't)",
+         'unclear authority structures',
+         'differing attitudes',
+         'task/power asymmetries',
+         'and differing time horizons (long-run vs. short-run departmental views). Also commonly cited: '
+         'competition for group resources',
+         'status differences',
+         'poor information flow',
+         'individual/departmental goal differences',
+         'poor leadership style',
+         'and value/perception differences.']},
+ {'table': {'align': 'll',
+            'head': ['Conflict outcome', 'Effects'],
+            'rows': [['**Constructive conflict**',
+                      'Stimulates creativity/new ideas; brings latent problems to the fore, releasing '
+                      'bottled-up tension; may improve decision-making quality.'],
+                     ['**Destructive conflict**',
+                      'Discontent among members; poor information flow; weakened group cohesion; difficulty '
+                      'achieving group goals; general mistrust; and group dissolution.']]}}],
                                },
                     {
                                  'n': 'D.5',
                                  't': 'Outcomes of conflicts',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Managing organisational conflict: clearly define governing '
-                                                                                     'rules/regulations; ensure free group information flow; define each '
-                                                                                     'member\'s role; encourage member participation in decision-making; '
-                                                                                     'encourage frequent member interaction; and (where necessary) bring '
-                                                                                     'in an outsider to help resolve it.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Managing organisational conflict:'},
+ {'ul': ['clearly define governing rules/regulations',
+         'ensure free group information flow',
+         "define each member's role",
+         'encourage member participation in decision-making',
+         'encourage frequent member interaction',
+         'and (where necessary) bring in an outsider to help resolve it.']}],
                                },
                     {
                                  'n': 'D.6',
@@ -1049,115 +803,69 @@ CH = {
                     {
                                  'n': 'E.1',
                                  't': 'Workplace attitude',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Attitude',
-                                                                                                                      'd': 'our opinions, beliefs and feelings about aspects of our '
-                                                                                                                           'environment — a mental state developed through '
-                                                                                                                           'experience, always ready to actively influence one\'s '
-                                                                                                                           'response to conditions/circumstances (Allport, 1935); a '
-                                                                                                                           'predisposition to feel/think/act toward an '
-                                                                                                                           'object/person/event more or less favourably (Richardson, '
-                                                                                                                           '1977).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'E.1.1 – E.1.3  Nature and components of attitudes, and the '
-                                                                                      'factors that influence them',
-                                                                              },
-                                                          {
-                                                                                'p': '6 features of attitudes: they differ in valence '
-                                                                                     '(positive/negative) and strength; can concern anything '
-                                                                                     'liked/disliked; thought and feeling about the same thing may '
-                                                                                     'differ; they represent our "truth" about a situation/object; '
-                                                                                     'assessing them is common/important at work; and, unlike '
-                                                                                     'personality (stable across situations), attitudes are LESS stable '
-                                                                                     'and more specific (to a person/object/concept).',
-                                                                              },
-                                                          {
-                                                                                'key': 'The ABC of attitude components: **Affective** (how we feel about '
-                                                                                       'things), **Behavioural** (how we\'re predisposed to behave), and '
-                                                                                       '**Cognitive** (what we believe to be true).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Attitude',
+          'd': 'our opinions, beliefs and feelings about aspects of our environment — a mental state '
+               "developed through experience, always ready to actively influence one's response to "
+               'conditions/circumstances (Allport, 1935); a predisposition to feel/think/act toward an '
+               'object/person/event more or less favourably (Richardson, 1977).'}},
+ {'h4': 'E.1.1  Nature of Attitudes'},
+ {'p': '6 features of attitudes:'},
+ {'ul': ['they differ in valence (positive/negative) and strength',
+         'can concern anything liked/disliked',
+         'thought and feeling about the same thing may differ',
+         'they represent our "truth" about a situation/object',
+         'assessing them is common/important at work',
+         'and, unlike personality (stable across situations), attitudes are LESS stable and more specific '
+         '(to a person/object/concept).']},
+ {'h4': 'E.1.2  Components of Attitude'},
+ {'key': 'The ABC of attitude components: **Affective** (how we feel about things), **Behavioural** (how '
+         "we're predisposed to behave), and **Cognitive** (what we believe to be true)."},
+ {'h4': 'E.1.3  Factors that influence on our attitudes'},
+ {'p': '4 factors influencing attitudes:'},
+ {'ol': ['personality',
+         'the work environment/situation',
+         'our values (intrinsic/extrinsic work values)',
+         'and social influences (co-workers, groups, culture)']}],
                                },
                     {
                                  'n': 'E.2',
                                  't': 'Work-related attitudes',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'E.2.1 – E.2.2  Job satisfaction and organisational commitment',
-                                                                              },
-                                                          {
-                                                                                'p': '4 factors influencing attitudes: personality; the work '
-                                                                                     'environment/situation; our values (intrinsic/extrinsic work '
-                                                                                     'values); and social influences (co-workers, groups, culture). '
-                                                                                     'Attitudes affect whether someone leaves a job, how cooperative '
-                                                                                     'they are, whether they project a positive work image, their change '
-                                                                                     'response, motivation, and psychological/physical health.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Work attitude',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Job satisfaction**',
-                                                                                                                                                                                                                          'Positive feelings toward one\'s job — a positive '
-                                                                                                                                                                                                                          'state from appraising the job/job experience, '
-                                                                                                                                                                                                                          'influenced by pay, benefits, co-workers, the '
-                                                                                                                                                                                                                          'work itself, distributive justice, '
-                                                                                                                                                                                                                          'personality/disposition and job characteristics. '
-                                                                                                                                                                                                                          'Possibly THE most important job attitude. Its '
-                                                                                                                                                                                                                          'relationship to performance may run: '
-                                                                                                                                                                                                                          'satisfaction→performance; '
-                                                                                                                                                                                                                          'performance→satisfaction; mutual causation; a '
-                                                                                                                                                                                                                          'third linking variable affecting both; or a '
-                                                                                                                                                                                                                          'moderating relationship (e.g. a pay rise raising '
-                                                                                                                                                                                                                          'both satisfaction and, via that, performance).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Organisational commitment**',
-                                                                                                                                                                                                                          'The relative strength of an employee\'s '
-                                                                                                                                                                                                                          'identification with/involvement in the '
-                                                                                                                                                                                                                          'organisation (Mowday, 1979) — the emotional '
-                                                                                                                                                                                                                          'attachment to one\'s employer. A highly-committed '
-                                                                                                                                                                                                                          'employee accepts/believes in company values, '
-                                                                                                                                                                                                                          'puts in effort toward company goals, and '
-                                                                                                                                                                                                                          'strongly wants to remain. 3 features: desire to '
-                                                                                                                                                                                                                          'stay; belief/acceptance of organisational goals; '
-                                                                                                                                                                                                                          'and willingness to exert effort on the '
-                                                                                                                                                                                                                          'organisation\'s behalf. 3 forms (Allen & Meyer, '
-                                                                                                                                                                                                                          '1990): **affective commitment** (personal '
-                                                                                                                                                                                                                          'attachment); **continuance commitment** (the '
-                                                                                                                                                                                                                          'cost/risk of leaving — one\'s investment in the '
-                                                                                                                                                                                                                          'organisation); and **normative commitment** (the '
-                                                                                                                                                                                                                          'moral dimension — loyalty to the employer).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Attitudes affect whether someone leaves a job, how cooperative they are, whether they project a '
+       'positive work image, their change response, motivation, and psychological/physical health.'},
+ {'h4': 'E.2.1  Job satisfaction'},
+ {'table': {'align': 'll',
+            'head': ['Work attitude', 'Description'],
+            'rows': [['**Job satisfaction**',
+                      "Positive feelings toward one's job — a positive state from appraising the job/job "
+                      'experience, influenced by pay, benefits, co-workers, the work itself, distributive '
+                      'justice, personality/disposition and job characteristics. Possibly THE most important '
+                      'job attitude. Its relationship to performance may run: satisfaction→performance; '
+                      'performance→satisfaction; mutual causation; a third linking variable affecting both; '
+                      'or a moderating relationship (e.g. a pay rise raising both satisfaction and, via '
+                      'that, performance).']]}},
+ {'h4': 'E.2.2  Organisational commitment'},
+ {'table': {'align': 'll',
+            'head': ['Work attitude', 'Description'],
+            'rows': [['**Organisational commitment**',
+                      "The relative strength of an employee's identification with/involvement in the "
+                      "organisation (Mowday, 1979) — the emotional attachment to one's employer. A "
+                      'highly-committed employee accepts/believes in company values, puts in effort toward '
+                      'company goals, and strongly wants to remain. 3 features: desire to stay; '
+                      'belief/acceptance of organisational goals; and willingness to exert effort on the '
+                      "organisation's behalf. 3 forms (Allen & Meyer, 1990): **affective commitment** "
+                      "(personal attachment); **continuance commitment** (the cost/risk of leaving — one's "
+                      'investment in the organisation); and **normative commitment** (the moral dimension — '
+                      'loyalty to the employer).']]}}],
                                },
                     {
                                  'n': 'E.3',
                                  't': 'Attitudes that are important in workplaces',
-                                 'b': [
-                                                          {
-                                                                                'p': '5 workplace attitudes that leverage professional skill/experience: '
-                                                                                     'respect for others (polite, professional interaction even amid '
-                                                                                     'disagreement); infectious enthusiasm about life (positive energy '
-                                                                                     'that spreads, a "glass half full" outlook); commitment to the job '
-                                                                                     '(willingness to do whatever it takes, plus new-idea development); '
-                                                                                     'innovative ideas/finding new ways (not shying from new methods); '
-                                                                                     'and helpfulness with others (assisting '
-                                                                                     'clients/customers/co-workers).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '5 workplace attitudes that leverage professional skill/experience:'},
+ {'ul': ['respect for others (polite, professional interaction even amid disagreement)',
+         'infectious enthusiasm about life (positive energy that spreads, a "glass half full" outlook)',
+         'commitment to the job (willingness to do whatever it takes, plus new-idea development)',
+         'innovative ideas/finding new ways (not shying from new methods)',
+         'and helpfulness with others (assisting clients/customers/co-workers).']}],
                                },
                     {
                                  'n': 'F.1',
@@ -1181,30 +889,26 @@ CH = {
                     {
                                  'n': 'F.2',
                                  't': 'The communication process in an organisation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The communication process model: a SENDER has a thought, ENCODES '
-                                                                                     'it into a message (verbal or non-verbal — body language, written, '
-                                                                                     'electronic, picture), transmits it via a CHANNEL (company '
-                                                                                     'publications, suggestion boxes, internet, meetings, committees, '
-                                                                                     'notice boards, public reports, letters, body language), to a '
-                                                                                     'RECEIVER who DECODES it — a FEEDBACK response may follow. Anything '
-                                                                                     'interfering with/distorting the transmission (physical or '
-                                                                                     'psychological) is NOISE. Communication becomes effective when the '
-                                                                                     'sender encodes in a form the receiver understands, using the right '
-                                                                                     'channel.',
-                                                                              },
-                                                          {
-                                                                                'p': '6 types of communication: oral/verbal (face-to-face, group '
-                                                                                     'discussion, meeting, conference, telephone, radio, intercom); '
-                                                                                     'written (letter, report, memo, note, email, books); electronic '
-                                                                                     '(email, webcam, fax, YouTube, social media, website); audio-visual '
-                                                                                     '(television, radio, PA, walkie-talkie); traditional (writing on '
-                                                                                     'cloth/trees/stones, signs/symbols, town criers); and active '
-                                                                                     'listening (making sense of what is heard — attention, '
-                                                                                     'interpretation, memory).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The communication process model: a SENDER has a thought, ENCODES it into a message (verbal or '
+       'non-verbal — body language, written, electronic, picture), transmits it via a CHANNEL (company '
+       'publications, suggestion boxes, internet, meetings, committees, notice boards, public reports, '
+       'letters, body language), to a RECEIVER who DECODES it — a FEEDBACK response may follow. Anything '
+       'interfering with/distorting the transmission (physical or psychological) is NOISE. Communication '
+       'becomes effective when the sender encodes in a form the receiver understands, using the right '
+       'channel.'},
+ {'p': '6 types of communication:'},
+ {'ul': ['oral/verbal (face-to-face, group discussion, meeting, conference, telephone, radio, intercom)',
+         'written (letter, report, memo, note, email, books)',
+         'electronic (email, webcam, fax, YouTube, social media, website)',
+         'audio-visual (television, radio, PA, walkie-talkie)',
+         'traditional (writing on cloth/trees/stones, signs/symbols, town criers)',
+         'and active listening (making sense of what is heard — attention, interpretation, memory).']},
+ {'figure': {'src': 'assets/study-figures/man-p343.png',
+             'alt': 'Figure 5.3: The Communication Process Model; Table 5.4: The communication Process Model '
+                    'Explanation of Terms',
+             'cap': 'Figure 5.3: The Communication Process Model; Table 5.4: The communication Process Model '
+                    'Explanation of Terms — original Management study-text page 316 (PDF 343). Open the page '
+                    'to enlarge.'}}],
                                },
                     {
                                  'n': 'F.3',
@@ -1222,97 +926,67 @@ CH = {
                     {
                                  'n': 'F.4',
                                  't': 'Forms of communication in an organisation',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Communication flow',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Upward**',
-                                                                                                                                                                                                                          'Bottom-to-top transmission — suggestion boxes, '
-                                                                                                                                                                                                                          'internet, fax, telephones, meetings, letters, '
-                                                                                                                                                                                                                          'face-to-face, memoranda, grievance procedure, '
-                                                                                                                                                                                                                          'the grapevine.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Downward**',
-                                                                                                                                                                                                                          'Top-to-bottom transmission — the grapevine, '
-                                                                                                                                                                                                                          'face-to-face contact, circulars, notices, '
-                                                                                                                                                                                                                          'telephone, committees, employee handbooks, '
-                                                                                                                                                                                                                          'organisation manuals, house magazines, internet.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Horizontal**',
-                                                                                                                                                                                                                          'Same-level transmission — committee meetings, '
-                                                                                                                                                                                                                          'telephone, face-to-face, circulars, memoranda, '
-                                                                                                                                                                                                                          'fax, internet, closed-circuit TV.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Crosswise**',
-                                                                                                                                                                                                                          'Diagonal flow among different levels/departments '
-                                                                                                                                                                                                                          'with NO direct relationship — does not follow '
-                                                                                                                                                                                                                          'the chain of command.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'table': {'align': 'll',
+            'head': ['Communication flow', 'Description'],
+            'rows': [['**Upward**',
+                      'Bottom-to-top transmission — suggestion boxes, internet, fax, telephones, meetings, '
+                      'letters, face-to-face, memoranda, grievance procedure, the grapevine.'],
+                     ['**Downward**',
+                      'Top-to-bottom transmission — the grapevine, face-to-face contact, circulars, notices, '
+                      'telephone, committees, employee handbooks, organisation manuals, house magazines, '
+                      'internet.'],
+                     ['**Horizontal**',
+                      'Same-level transmission — committee meetings, telephone, face-to-face, circulars, '
+                      'memoranda, fax, internet, closed-circuit TV.'],
+                     ['**Crosswise**',
+                      'Diagonal flow among different levels/departments with NO direct relationship — does '
+                      'not follow the chain of command.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p345.png',
+             'alt': 'Figure 5.4: Flow of Communication in an organisation',
+             'cap': 'Figure 5.4: Flow of Communication in an organisation — original Management study-text '
+                    'page 318 (PDF 345). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'F.5',
                                  't': 'Functions of communication',
-                                 'b': [
-                                                          {
-                                                                                'p': '6 functions of communication: giving management data to draw '
-                                                                                     'up/implement policies (drawn from customers, suppliers, employees, '
-                                                                                     'shareholders, competitors, the public); a means to explain '
-                                                                                     'policies to stakeholders; creating job interest/motivation/morale; '
-                                                                                     'monitoring human/material resource performance; helping '
-                                                                                     'departments/employees coordinate activities; and channelling '
-                                                                                     'employee grievances/feelings/ideas/suggestions to resolve conflict '
-                                                                                     'and create a peaceful atmosphere.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '6 functions of communication:'},
+ {'ul': ['giving management data to draw up/implement policies (drawn from customers, suppliers, employees, '
+         'shareholders, competitors, the public)',
+         'a means to explain policies to stakeholders',
+         'creating job interest/motivation/morale',
+         'monitoring human/material resource performance',
+         'helping departments/employees coordinate activities',
+         'and channelling employee grievances/feelings/ideas/suggestions to resolve conflict and create a '
+         'peaceful atmosphere.']}],
                                },
                     {
                                  'n': 'F.6',
                                  't': 'Principles of communication',
-                                 'b': [
-                                                          {
-                                                                                'key': 'The **7 Cs of communication**: Concreteness (words/examples '
-                                                                                       'truly felt/understood, matching real experience); Correctness '
-                                                                                       '(the right time/atmosphere for the message); Conciseness (brief, '
-                                                                                       'precise, logical); Clarity (non-ambiguous, avoiding '
-                                                                                       'jargon/complex expressions); Courtesy (polite, no hurtful words '
-                                                                                       '— stay silent if angry); Completeness (complete in form and '
-                                                                                       'content, no unanswered questions left dangling); and '
-                                                                                       'Consideration (sensitive to listeners\' education, sex, age, '
-                                                                                       'interests).',
-                                                                              },
-                                                        ],
+                                 'b': [{'key': [{'p': 'The **7 Cs of communication**:'},
+          {'ul': ['Concreteness (words/examples truly felt/understood, matching real experience)',
+                  'Correctness (the right time/atmosphere for the message)',
+                  'Conciseness (brief, precise, logical)',
+                  'Clarity (non-ambiguous, avoiding jargon/complex expressions)',
+                  'Courtesy (polite, no hurtful words — stay silent if angry)',
+                  'Completeness (complete in form and content, no unanswered questions left dangling)',
+                  "and Consideration (sensitive to listeners' education, sex, age, interests)."]}]}],
                                },
                     {
                                  'n': 'F.7',
                                  't': 'Barriers to effective communication',
-                                 'b': [
-                                                          {
-                                                                                'p': '10 barriers to effective communication: **semantics** (jargon, '
-                                                                                     'unfamiliar/high-sounding words, poor sentence structure — words '
-                                                                                     'carrying different meanings to different people); poor listening '
-                                                                                     'skills; differences in background (age, social status); conflicts '
-                                                                                     '(impeding flow between individuals/groups); emotional problems '
-                                                                                     '(frustration, poor perception, hostility, anger, fear, mistrust); '
-                                                                                     'communication overload; poor organisational structure (long chains '
-                                                                                     'of command, centralised authority, unsuitable span of control); '
-                                                                                     'physical layout (isolating employees); lack of planning before '
-                                                                                     'communicating; and inappropriate (or absent) communication '
-                                                                                     'channels.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '10 barriers to effective communication:'},
+ {'ul': ['**semantics** (jargon, unfamiliar/high-sounding words, poor sentence structure — words carrying '
+         'different meanings to different people)',
+         'poor listening skills',
+         'differences in background (age, social status)',
+         'conflicts (impeding flow between individuals/groups)',
+         'emotional problems (frustration, poor perception, hostility, anger, fear, mistrust)',
+         'communication overload',
+         'poor organisational structure (long chains of command, centralised authority, unsuitable span of '
+         'control)',
+         'physical layout (isolating employees)',
+         'lack of planning before communicating',
+         'and inappropriate (or absent) communication channels.']}],
                                },
                     {
                                  'n': 'F.8',
@@ -1354,24 +1028,18 @@ CH = {
                     {
                                  'n': 'G.2',
                                  't': 'Features/elements of emotional intelligence',
-                                 'b': [
-                                                          {
-                                                                                'p': '5 elements: self-awareness; self-regulation; motivation; empathy; '
-                                                                                     'and social skills.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '5 elements:'},
+ {'ul': ['self-awareness', 'self-regulation', 'motivation', 'empathy', 'and social skills.']}],
                                },
                     {
                                  'n': 'G.3',
                                  't': 'Importance of emotional intelligence at the workplace',
-                                 'b': [
-                                                          {
-                                                                                'p': '5 reasons emotional intelligence matters at work: it enables '
-                                                                                     'better teamwork; helps deal with change; helps handle tough '
-                                                                                     'conversations; is an essential people skill; and is a key feature '
-                                                                                     'of a strong leader.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '5 reasons emotional intelligence matters at work:'},
+ {'ul': ['it enables better teamwork',
+         'helps deal with change',
+         'helps handle tough conversations',
+         'is an essential people skill',
+         'and is a key feature of a strong leader.']}],
                                },
                     {
                                  'n': 'H.1',
@@ -1391,34 +1059,29 @@ CH = {
                     {
                                  'n': 'H.2',
                                  't': 'Forces of organisational change',
-                                 'b': [
-                                                          {
-                                                                                'p': '7 forces driving organisational change: new technology/ways of '
-                                                                                     'doing things (forcing HR/marketing/production strategy '
-                                                                                     'reappraisal); new management policies/roles/structure; social '
-                                                                                     'trend/value/attitude changes; competitor marketing activity '
-                                                                                     '(forcing product/pricing/promotion/distribution response); '
-                                                                                     'mergers; new work methods/procedures; and a new chief '
-                                                                                     'executive/management change.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '7 forces driving organisational change:'},
+ {'ol': ['new technology/ways of doing things (forcing HR/marketing/production strategy reappraisal)',
+         'new management policies/roles/structure',
+         'social trend/value/attitude changes',
+         'competitor marketing activity (forcing product/pricing/promotion/distribution response)',
+         'mergers',
+         'new work methods/procedures',
+         'and a new chief executive/management change.']}],
                                },
                     {
                                  'n': 'H.3',
                                  't': 'Reasons for resistance to change',
-                                 'b': [
-                                                          {
-                                                                                'p': '10 reasons employees resist change: fear of the unknown '
-                                                                                     '(apprehension over unclear future changes); lack of information '
-                                                                                     '(not properly briefed on implications); fear of unemployment '
-                                                                                     '(job-security threat, income loss, skill obsolescence); lack of '
-                                                                                     'participation (change imposed without employee input); threat to '
-                                                                                     'social/interpersonal relationships; inability/reluctance to change '
-                                                                                     'established habits; threat of new-demand challenges; negative '
-                                                                                     'past-change experience; threat to expertise; and threat to '
-                                                                                     'established resource allocation/power relationships.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '10 reasons employees resist change:'},
+ {'ol': ['fear of the unknown (apprehension over unclear future changes)',
+         'lack of information (not properly briefed on implications)',
+         'fear of unemployment (job-security threat, income loss, skill obsolescence)',
+         'lack of participation (change imposed without employee input)',
+         'threat to social/interpersonal relationships',
+         'inability/reluctance to change established habits',
+         'threat of new-demand challenges',
+         'negative past-change experience',
+         'threat to expertise',
+         'and threat to established resource allocation/power relationships.']}],
                                },
                     {
                                  'n': 'H.4',

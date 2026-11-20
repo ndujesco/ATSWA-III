@@ -26,235 +26,128 @@ CH = {
                     {
                                  'n': '10.2',
                                  't': 'Nature, objectives and administration of customs and excise duties',
-                                 'b': [
-                                                          {
-                                                                                'h4': '10.2.1  Nature',
-                                                                              },
-                                                          {
-                                                                                'key': 'The **Nigeria Customs Service (NCS)** is one of the Federal '
-                                                                                       'Government\'s major revenue-generating agencies. The **Nigeria '
-                                                                                       'Customs Service Act 2023** repealed the Customs and Excise '
-                                                                                       'Management Act, Cap. C45 LFN 2004, and other customs/excise '
-                                                                                       'legislation.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.2.2  Nigeria Customs Service (NCS)',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Service ("the Service") is a body corporate with perpetual '
-                                                                                     'succession and a common seal; may sue/be sued in its corporate '
-                                                                                     'name; may acquire, hold and dispose of movable/immovable property; '
-                                                                                     'and directs, manages and enforces the Act and the listed '
-                                                                                     'customs/excise laws.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Functions of the Service',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'administer, direct, manage and enforce the Act and '
-                                                                                                                    'customs/excise laws;',
-                                                                                                                    'collect and account for revenue from customs duties, excise '
-                                                                                                                    'duties, charges, fees and government-assigned special '
-                                                                                                                    'assignments;',
-                                                                                                                    'administer government trade and fiscal policy as it relates to '
-                                                                                                                    'the Act;',
-                                                                                                                    'promote trade facilitation in line with international '
-                                                                                                                    'conventions/agreements;',
-                                                                                                                    'prevent smuggling, customs fraud and other violations under the '
-                                                                                                                    'Act;',
-                                                                                                                    'carry out border enforcement/regulatory activities in '
-                                                                                                                    'collaboration with relevant agencies;',
-                                                                                                                    'collate and publish accurate trade statistics and other '
-                                                                                                                    'relevant data;',
-                                                                                                                    'consult regularly with traders, trade associations and '
-                                                                                                                    'stakeholders to promote industrial harmony;',
-                                                                                                                    'approve and licence customs agents, who must be Nigerian '
-                                                                                                                    'citizens; and',
-                                                                                                                    'do such other things as are necessary/incidental to its '
-                                                                                                                    'functions and duties.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'Powers of the Service',
-                                                                              },
-                                                          {
-                                                                                'p': 'Subject to Board approval, the Service may: '
-                                                                                     'acquire/hold/purchase/mortgage/deal with property '
-                                                                                     '(movable/immovable, real/personal); enter into '
-                                                                                     'contracts/obligations; advise/develop regulations on customs and '
-                                                                                     'excise management; and issue operational guidelines for efficient '
-                                                                                     'administration of the Act.',
-                                                                              },
-                                                          {
-                                                                                'note': 'All Service officers have the **same powers, authorities and '
-                                                                                        'privileges** the law gives to police officers.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.2.3  Establishment of the Nigeria Customs Service Board — '
-                                                                                      'membership, functions and powers',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Board membership',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'a Chairman — the Minister of Finance;',
-                                                                                                                    'the Comptroller-General — Deputy Chairman;',
-                                                                                                                    'all Deputy Comptrollers-General of the Service;',
-                                                                                                                    'the Legal Adviser to the Service (head of Legal Department, '
-                                                                                                                    'appointed from the Attorney-General\'s office);',
-                                                                                                                    'a director-level representative from each of: Industry; Trade '
-                                                                                                                    'and Investment; Transport; Aviation; and Foreign Affairs;',
-                                                                                                                    'the Executive Chairman of the Federal Inland Revenue Service; '
-                                                                                                                    'and',
-                                                                                                                    'two organised-private-sector representatives, for a **4-year '
-                                                                                                                    'term, renewable once**.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'Functions and powers of the Board',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Board formulates general policy/regulations and '
-                                                                                     'reviews/approves strategic plans; handles recruitment, promotion '
-                                                                                     'and discipline of officers; and determines '
-                                                                                     'remuneration/allowances/pension/other benefits. It fosters synergy '
-                                                                                     'with government MDAs and liaises with law enforcement, and may '
-                                                                                     'delegate its powers to the Service, any officer, or a committee it '
-                                                                                     'constitutes.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Management Committee (s.14(5); composition under s.6)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Composition: the Comptroller-General; all Deputy '
-                                                                                     'Comptrollers-General; the Legal Adviser; all Assistant '
-                                                                                     'Comptrollers-General; and the Secretary of the Board.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Functions (s.14(7)): consider technical/professional customs '
-                                                                                     'matters and recommend to the Board; coordinate supervision of the '
-                                                                                     'Service\'s operations; ensure Act compliance through operational '
-                                                                                     'supervision; collaborate with agencies/ministries to promote '
-                                                                                     'revenue generation and trade facilitation; collaborate with law '
-                                                                                     'enforcement on compliance; adopt '
-                                                                                     'compliance/regulatory/investigative/control measures against '
-                                                                                     'non-compliance; continually review government customs/excise '
-                                                                                     'policy and implement it progressively; enforce disciplinary '
-                                                                                     'regulations for officer misconduct; and carry out other '
-                                                                                     'Board-assigned activities.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Funding of Customs Service operations (s.18)',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Service maintains approved bank accounts, funded by:',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'not less than **4%** of the free-on-board value of imports, per '
-                                                                                                                    'international best practice;',
-                                                                                                                    'revenue from cost-based user-fee assessment/collection;',
-                                                                                                                    'annual/supplementary government budgetary provisions; and',
-                                                                                                                    'grants/aids/donations from local or international development '
-                                                                                                                    'partners.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'The President may propose an increase to the 4% figure to the '
-                                                                                        'National Assembly, on cogent and verifiable factors from the '
-                                                                                        'Service.',
-                                                                              },
-                                                          {
-                                                                                'note': 'The funding provision immediately above (**section 18**) is not '
-                                                                                        'given a section number of its own in the study text\'s contents '
-                                                                                        'list, but the chapter discusses it as part of the '
-                                                                                        'administration of the Service. It is kept here, under the '
-                                                                                        'book\'s §10.2.3, rather than being dropped — the **4% of the '
-                                                                                        'free-on-board value of imports** is a figure the exam has asked '
-                                                                                        'for.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '10.2.1  Nature'},
+ {'key': "The **Nigeria Customs Service (NCS)** is one of the Federal Government's major revenue-generating "
+         'agencies. The **Nigeria Customs Service Act 2023** repealed the Customs and Excise Management Act, '
+         'Cap. C45 LFN 2004, and other customs/excise legislation.'},
+ {'h4': '10.2.2  Nigeria Customs Service (NCS)'},
+ {'p': 'The Service ("the Service") is a body corporate with perpetual succession and a common seal; may '
+       'sue/be sued in its corporate name; may acquire, hold and dispose of movable/immovable property; and '
+       'directs, manages and enforces the Act and the listed customs/excise laws.'},
+ {'h4': 'Functions of the Service'},
+ {'ol': ['administer, direct, manage and enforce the Act and customs/excise laws;',
+         'collect and account for revenue from customs duties, excise duties, charges, fees and '
+         'government-assigned special assignments;',
+         'administer government trade and fiscal policy as it relates to the Act;',
+         'promote trade facilitation in line with international conventions/agreements;',
+         'prevent smuggling, customs fraud and other violations under the Act;',
+         'carry out border enforcement/regulatory activities in collaboration with relevant agencies;',
+         'collate and publish accurate trade statistics and other relevant data;',
+         'consult regularly with traders, trade associations and stakeholders to promote industrial harmony;',
+         'approve and licence customs agents, who must be Nigerian citizens; and',
+         'do such other things as are necessary/incidental to its functions and duties.']},
+ {'h4': 'Powers of the Service'},
+ {'p': 'Subject to Board approval, the Service may:'},
+ {'ul': ['acquire/hold/purchase/mortgage/deal with property (movable/immovable, real/personal)',
+         'enter into contracts/obligations',
+         'advise/develop regulations on customs and excise management',
+         'and issue operational guidelines for efficient administration of the Act.']},
+ {'note': 'All Service officers have the **same powers, authorities and privileges** the law gives to police '
+          'officers.'},
+ {'h4': '10.2.3  Establishment of the Nigeria Customs Service Board — membership, functions and powers'},
+ {'h4': 'Board membership'},
+ {'ol': ['a Chairman — the Minister of Finance;',
+         'the Comptroller-General — Deputy Chairman;',
+         'all Deputy Comptrollers-General of the Service;',
+         "the Legal Adviser to the Service (head of Legal Department, appointed from the Attorney-General's "
+         'office);',
+         'a director-level representative from each of: Industry; Trade and Investment; Transport; Aviation; '
+         'and Foreign Affairs;',
+         'the Executive Chairman of the Federal Inland Revenue Service; and',
+         'two organised-private-sector representatives, for a **4-year term, renewable once**.']},
+ {'h4': 'Functions and powers of the Board'},
+ {'p': 'The Board formulates general policy/regulations and reviews/approves strategic plans; handles '
+       'recruitment, promotion and discipline of officers; and determines '
+       'remuneration/allowances/pension/other benefits. It fosters synergy with government MDAs and liaises '
+       'with law enforcement, and may delegate its powers to the Service, any officer, or a committee it '
+       'constitutes.'},
+ {'h4': 'Management Committee (s.14(5); composition under s.6)'},
+ {'p': 'Composition:'},
+ {'ul': ['the Comptroller-General',
+         'all Deputy Comptrollers-General',
+         'the Legal Adviser',
+         'all Assistant Comptrollers-General',
+         'and the Secretary of the Board.']},
+ {'p': 'Functions (s.14(7)):'},
+ {'ul': ['consider technical/professional customs matters and recommend to the Board',
+         "coordinate supervision of the Service's operations",
+         'ensure Act compliance through operational supervision',
+         'collaborate with agencies/ministries to promote revenue generation and trade facilitation',
+         'collaborate with law enforcement on compliance',
+         'adopt compliance/regulatory/investigative/control measures against non-compliance',
+         'continually review government customs/excise policy and implement it progressively',
+         'enforce disciplinary regulations for officer misconduct',
+         'and carry out other Board-assigned activities.']},
+ {'h4': 'Funding of Customs Service operations (s.18)'},
+ {'p': 'The Service maintains approved bank accounts, funded by:'},
+ {'ol': ['not less than **4%** of the free-on-board value of imports, per international best practice;',
+         'revenue from cost-based user-fee assessment/collection;',
+         'annual/supplementary government budgetary provisions; and',
+         'grants/aids/donations from local or international development partners.']},
+ {'note': 'The President may propose an increase to the 4% figure to the National Assembly, on cogent and '
+          'verifiable factors from the Service.'},
+ {'note': 'The funding provision immediately above (**section 18**) is not given a section number of its own '
+          "in the study text's contents list, but the chapter discusses it as part of the administration of "
+          "the Service. It is kept here, under the book's §10.2.3, rather than being dropped — the **4% of "
+          'the free-on-board value of imports** is a figure the exam has asked for.'}],
                                },
                     {
                                  'n': '10.3',
                                  't': 'Post clearance audit — section 36',
-                                 'b': [
-                                                          {
-                                                                                'h4': '10.3.1  Powers of the Service',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Service may conduct a post-clearance audit after goods '
-                                                                                     'clearance — at its sole discretion, held at Service offices, the '
-                                                                                     'consignee\'s premises, or the premises of other persons involved in '
-                                                                                     'the transaction. It involves inspection of relevant '
-                                                                                     'documentation/records, or electronic-system data on the '
-                                                                                     'goods/transaction.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Persons subject to post-clearance audit: importers and exporters; '
-                                                                                     'customs agents; warehouse operators; zone operators; '
-                                                                                     'banks/financial institutions; transport firms; freight forwarders; '
-                                                                                     'express couriers; excise traders; and other persons in '
-                                                                                     'international trade.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.3.2  Procedure for conducting post clearance audit — section 37',
-                                                                              },
-                                                          {
-                                                                                'p': 'The audited entity receives written notice (date/time) and a '
-                                                                                     'questionnaire, and must produce all relevant paper/electronic '
-                                                                                     'documents/records (accounting data, physical inventory/records, '
-                                                                                     'sales/transaction records, recording books, account records, bank '
-                                                                                     'transfers) and import/export-related magnetic/data-processing '
-                                                                                     'files. The Service may examine the goods and mode of transport.',
-                                                                              },
-                                                          {
-                                                                                'warn': 'Where the audited person fails to cooperate, the auditor must: '
-                                                                                        'stop the audit; retain documents/data already procured; and '
-                                                                                        'report the refusal to the Comptroller-General. Refusal to '
-                                                                                        'cooperate attracts a fine of **N1,500,000 per day** — beyond '
-                                                                                        '**7 days**, the person may be **suspended from all customs '
-                                                                                        'transactions**.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Where the audit discloses an attempt to evade duties/fees or '
-                                                                                     'criminal activity, the audit may be suspended and the matter '
-                                                                                     'reported to the Comptroller-General. The audited person may, '
-                                                                                     'within **7 working days** of the audit\'s conclusion, submit a '
-                                                                                     'written explanation on any raised issue.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.3.3  Audit disclosure of attempted evasion of duties — section '
-                                                                                      '38',
-                                                                              },
-                                                          {
-                                                                                'p': 'A person undergoing audit must: assist the auditors as required; '
-                                                                                     'allow access to facilities, goods, books, documents, electronic '
-                                                                                     'records and transport means; present required documents/records '
-                                                                                     'within a reasonable time; and may be represented by a person of '
-                                                                                     'their choice able to supply the required information.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.3.4  Payment of additional duties and customs duties on '
-                                                                                      'completion of audit — section 39',
-                                                                              },
-                                                          {
-                                                                                'p': 'Where audited additional duties are owed, the Service gives a '
-                                                                                     'notice of underpayment and requests payment (plus '
-                                                                                     'interest/penalties, interest based on the CBN monetary policy '
-                                                                                     'rate). Excess payments discovered are **refunded**.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.3.5  Trader’s system audit — section 40',
-                                                                              },
-                                                          {
-                                                                                'p': 'Where a trader\'s system audit shows the system is reliable, '
-                                                                                     'records are generally in order, and no infractions occurred, the '
-                                                                                     'trader may qualify for **Special Simplified Customs Procedures**.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '10.3.1  Powers of the Service'},
+ {'p': 'The Service may conduct a post-clearance audit after goods clearance — at its sole discretion, held '
+       "at Service offices, the consignee's premises, or the premises of other persons involved in the "
+       'transaction. It involves inspection of relevant documentation/records, or electronic-system data on '
+       'the goods/transaction.'},
+ {'p': 'Persons subject to post-clearance audit:'},
+ {'ul': ['importers and exporters',
+         'customs agents',
+         'warehouse operators',
+         'zone operators',
+         'banks/financial institutions',
+         'transport firms',
+         'freight forwarders',
+         'express couriers',
+         'excise traders',
+         'and other persons in international trade.']},
+ {'h4': '10.3.2  Procedure for conducting post clearance audit — section 37'},
+ {'p': 'The audited entity receives written notice (date/time) and a questionnaire, and must produce all '
+       'relevant paper/electronic documents/records (accounting data, physical inventory/records, '
+       'sales/transaction records, recording books, account records, bank transfers) and '
+       'import/export-related magnetic/data-processing files. The Service may examine the goods and mode of '
+       'transport.'},
+ {'warn': [{'p': 'Where the audited person fails to cooperate, the auditor must:'},
+           {'ul': ['stop the audit',
+                   'retain documents/data already procured',
+                   'and report the refusal to the Comptroller-General. Refusal to cooperate attracts a fine '
+                   'of **N1,500,000 per day** — beyond **7 days**, the person may be **suspended from all '
+                   'customs transactions**.']}]},
+ {'p': 'Where the audit discloses an attempt to evade duties/fees or criminal activity, the audit may be '
+       'suspended and the matter reported to the Comptroller-General. The audited person may, within **7 '
+       "working days** of the audit's conclusion, submit a written explanation on any raised issue."},
+ {'h4': '10.3.3  Audit disclosure of attempted evasion of duties — section 38'},
+ {'p': 'A person undergoing audit must:'},
+ {'ul': ['assist the auditors as required',
+         'allow access to facilities, goods, books, documents, electronic records and transport means',
+         'present required documents/records within a reasonable time',
+         'and may be represented by a person of their choice able to supply the required information.']},
+ {'h4': '10.3.4  Payment of additional duties and customs duties on completion of audit — section 39'},
+ {'p': 'Where audited additional duties are owed, the Service gives a notice of underpayment and requests '
+       'payment (plus interest/penalties, interest based on the CBN monetary policy rate). Excess payments '
+       'discovered are **refunded**.'},
+ {'h4': '10.3.5  Trader’s system audit — section 40'},
+ {'p': "Where a trader's system audit shows the system is reliable, records are generally in order, and no "
+       'infractions occurred, the trader may qualify for **Special Simplified Customs Procedures**.'}],
                                },
                     {
                                  'n': '10.4',
@@ -271,194 +164,87 @@ CH = {
                     {
                                  'n': '10.5',
                                  't': 'Determination of duties and customs duties on imported and exported goods',
-                                 'b': [
-                                                          {
-                                                                                'h4': '10.5.1 – 10.5.2  Rates and basis of computation',
-                                                                              },
-                                                          {
-                                                                                'p': 'Customs duties are levied on imports at rates from **5% to 35%** '
-                                                                                     'of import value, at each port of entry (airport/land border/sea '
-                                                                                     'port/inland waterway), assessed by reference to the Harmonised '
-                                                                                     'Commodity and Coding System (HS code).',
-                                                                              },
-                                                          {
-                                                                                'note': 'Nigerian-registered airlines providing commercial air transport '
-                                                                                        'are entitled to **duty-free** importation of '
-                                                                                        'aircraft/engines/spare parts/components, whether purchased or '
-                                                                                        'leased.',
-                                                                              },
-                                                          {
-                                                                                'p': 'The primary basis for customs value is the **transaction value** — '
-                                                                                     'the price actually paid/payable for goods sold for export to '
-                                                                                     'Nigeria, adjusted as needed. The rate the Tariff Technical '
-                                                                                     'Committee determines (and the President approves) is applied to '
-                                                                                     'the import/export quantity to derive the duty payable, using the '
-                                                                                     'Act\'s classification/valuation/origin standards.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.5.3  Computation of the customs value of imported goods — '
-                                                                                      'sections 69 to 74',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Method (in order of application)',
-                                                                                                                                                                             'Basis',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(a) Transaction value** (s.69)',
-                                                                                                                                                                                                                          'The price actually paid/payable for goods sold '
-                                                                                                                                                                                                                          'for export to Nigeria, adjusted per Article 8 of '
-                                                                                                                                                                                                                          'the Agreement on Customs Valuation. Applies only '
-                                                                                                                                                                                                                          'if: no disposition/use restrictions beyond '
-                                                                                                                                                                                                                          'law-required, geographic-resale, or '
-                                                                                                                                                                                                                          'value-immaterial ones; the sale/price is not '
-                                                                                                                                                                                                                          'subject to an undeterminable-value condition; no '
-                                                                                                                                                                                                                          'resale proceeds accrue to the seller (absent '
-                                                                                                                                                                                                                          'adjustment); and the buyer/seller are unrelated '
-                                                                                                                                                                                                                          '— OR, if related, the price is proven unaffected '
-                                                                                                                                                                                                                          'by the relationship (related parties: '
-                                                                                                                                                                                                                          'officers/directors of each other; '
-                                                                                                                                                                                                                          'employer/employee; ≥5% direct/indirect '
-                                                                                                                                                                                                                          'voting-stock ownership/control; direct/indirect '
-                                                                                                                                                                                                                          'control of one by the other or both by a third '
-                                                                                                                                                                                                                          'party; or family members).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(b) Transaction value of identical goods** '
-                                                                                                                                                                                                                          '(s.70)',
-                                                                                                                                                                                                                          'Used if (a) fails — the transaction value of '
-                                                                                                                                                                                                                          'identical goods exported to Nigeria at/about the '
-                                                                                                                                                                                                                          'same time, at the same commercial level/quantity '
-                                                                                                                                                                                                                          '(adjusted if needed, with demonstrated '
-                                                                                                                                                                                                                          'evidence); the **lowest** value is used if more '
-                                                                                                                                                                                                                          'than one is found.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(c) Transaction value of similar goods** (s.71)',
-                                                                                                                                                                                                                          'Used if (a)-(b) fail — the same approach as (b) '
-                                                                                                                                                                                                                          'but for **similar** (not identical) goods; again '
-                                                                                                                                                                                                                          'the lowest value if multiple values are found.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(d) Deductive value** (s.72)',
-                                                                                                                                                                                                                          'Used if (a)-(c) fail and the imported (or '
-                                                                                                                                                                                                                          'identical/similar) goods are sold in Nigeria as '
-                                                                                                                                                                                                                          'imported — the greatest-aggregate-quantity unit '
-                                                                                                                                                                                                                          'price to unrelated persons, LESS usual '
-                                                                                                                                                                                                                          'commissions/profit-and-expense additions, usual '
-                                                                                                                                                                                                                          'transport/insurance/associated costs in Nigeria, '
-                                                                                                                                                                                                                          'and Nigerian customs duties/charges. If no sale '
-                                                                                                                                                                                                                          'occurs at/about import time, the earliest sale '
-                                                                                                                                                                                                                          'within **90 days** after importation is used; if '
-                                                                                                                                                                                                                          'the goods are only sold after further '
-                                                                                                                                                                                                                          'processing, the declarant may request a value '
-                                                                                                                                                                                                                          'based on that sale, less the value added by '
-                                                                                                                                                                                                                          'processing.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(e) Computed value** (s.73)',
-                                                                                                                                                                                                                          'The most difficult method, rarely used — the sum '
-                                                                                                                                                                                                                          'of: materials/fabrication/processing cost; a '
-                                                                                                                                                                                                                          'usual profit-and-general-expense margin for '
-                                                                                                                                                                                                                          'goods of the same class/kind exported to '
-                                                                                                                                                                                                                          'Nigeria; and '
-                                                                                                                                                                                                                          'transport/loading/unloading/handling/insurance '
-                                                                                                                                                                                                                          'costs to the port of importation. A non-resident '
-                                                                                                                                                                                                                          'producer may be required to produce records; '
-                                                                                                                                                                                                                          'information may be verified in Nigeria with the '
-                                                                                                                                                                                                                          'producer\'s and their government\'s agreement.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**(f) Residual value** (s.74)',
-                                                                                                                                                                                                                          'Used only if all prior methods fail — reasonable '
-                                                                                                                                                                                                                          'means consistent with the WTO Agreement on '
-                                                                                                                                                                                                                          'Implementation of Article VII of GATT 1994, '
-                                                                                                                                                                                                                          'using Nigerian data. May **NOT** be based on: '
-                                                                                                                                                                                                                          'the Nigerian selling price of Nigerian-produced '
-                                                                                                                                                                                                                          'goods; a higher-of-two-alternative-values '
-                                                                                                                                                                                                                          'system; the domestic price in the exporting '
-                                                                                                                                                                                                                          'country; production cost other than computed '
-                                                                                                                                                                                                                          'value already used for identical/similar goods; '
-                                                                                                                                                                                                                          'the export price to a country other than '
-                                                                                                                                                                                                                          'Nigeria; minimum customs values; or '
-                                                                                                                                                                                                                          'arbitrary/fictitious values.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'The same valuation methodology (s.76) also applies to '
-                                                                                        'determining the value of goods for **export**, and for '
-                                                                                        'assessing all duties/fees on imports, exports and statistics '
-                                                                                        'collection.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Computation of total duty payable',
-                                                                              },
-                                                          {
-                                                                                'key': 'Import duty (ID): **ID = HS% × CIF**, where HS% is the '
-                                                                                       'harmonised-code tariff percentage, and CIF = Cost (commercial '
-                                                                                       'invoice) + Insurance (marine insurance) + Freight.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Other levies and taxes',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Levy',
-                                                                                                                                                                             'Rate and basis',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**ECOWAS Trade Liberalisation Scheme (ETLS) '
-                                                                                                                                                                                                                          'levy**',
-                                                                                                                                                                                                                          '0.5% of CIF value, on all goods imported from '
-                                                                                                                                                                                                                          'outside Africa (effective 1 January 2023).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Comprehensive Import Supervision Scheme (CISS) '
-                                                                                                                                                                                                                          'levy**',
-                                                                                                                                                                                                                          '1% administrative charge on FOB value of all '
-                                                                                                                                                                                                                          'imports, at the approved e-Form "M" exchange '
-                                                                                                                                                                                                                          'rate.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Surcharge**',
-                                                                                                                                                                                                                          '7% of import (surface) duty.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**VAT**',
-                                                                                                                                                                                                                          '7.5% of CIF plus all charges — i.e. 7.5% of (CIF '
-                                                                                                                                                                                                                          '+ ID + ETLS + CISS + Surcharge).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**AU/Multilateral levy**',
-                                                                                                                                                                                                                          '0.5% of CIF, on eligible goods imported from '
-                                                                                                                                                                                                                          'outside Africa — funds Nigeria\'s capital '
-                                                                                                                                                                                                                          'contributions/subscriptions to the African '
-                                                                                                                                                                                                                          'Union, AfDB, Afreximbank, EBID, Islamic '
-                                                                                                                                                                                                                          'Development Bank, UN and other designated '
-                                                                                                                                                                                                                          'multilateral institutions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'The study text works two numerical examples on this material, '
-                                                                                        'but prints them not here — where the rates and bases are '
-                                                                                        'explained — but as **questions 2 and 3 of the chapter\'s worked '
-                                                                                        'examples at §10.14**. They are therefore set out in full at '
-                                                                                        '§10.14 rather than duplicated here. Work them alongside this '
-                                                                                        'section: question 2 applies the **specific** (per-centilitre) '
-                                                                                        'duty and question 3 applies the **ad valorem** CIF-based duties '
-                                                                                        'and levies through to VAT.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '10.5.1  Rates'},
+ {'p': 'Customs duties are levied on imports at rates from **5% to 35%** of import value, at each port of '
+       'entry (airport/land border/sea port/inland waterway), assessed by reference to the Harmonised '
+       'Commodity and Coding System (HS code).'},
+ {'note': 'Nigerian-registered airlines providing commercial air transport are entitled to **duty-free** '
+          'importation of aircraft/engines/spare parts/components, whether purchased or leased.'},
+ {'h4': '10.5.2  Basis of computation'},
+ {'p': 'The primary basis for customs value is the **transaction value** — the price actually paid/payable '
+       'for goods sold for export to Nigeria, adjusted as needed. The rate the Tariff Technical Committee '
+       'determines (and the President approves) is applied to the import/export quantity to derive the duty '
+       "payable, using the Act's classification/valuation/origin standards."},
+ {'h4': '10.5.3  Computation of the customs value of imported goods — sections 69 to 74'},
+ {'table': {'align': 'll',
+            'head': ['Method (in order of application)', 'Basis'],
+            'rows': [['**(a) Transaction value** (s.69)',
+                      'The price actually paid/payable for goods sold for export to Nigeria, adjusted per '
+                      'Article 8 of the Agreement on Customs Valuation. Applies only if: no disposition/use '
+                      'restrictions beyond law-required, geographic-resale, or value-immaterial ones; the '
+                      'sale/price is not subject to an undeterminable-value condition; no resale proceeds '
+                      'accrue to the seller (absent adjustment); and the buyer/seller are unrelated — OR, if '
+                      'related, the price is proven unaffected by the relationship (related parties: '
+                      'officers/directors of each other; employer/employee; ≥5% direct/indirect voting-stock '
+                      'ownership/control; direct/indirect control of one by the other or both by a third '
+                      'party; or family members).'],
+                     ['**(b) Transaction value of identical goods** (s.70)',
+                      'Used if (a) fails — the transaction value of identical goods exported to Nigeria '
+                      'at/about the same time, at the same commercial level/quantity (adjusted if needed, '
+                      'with demonstrated evidence); the **lowest** value is used if more than one is found.'],
+                     ['**(c) Transaction value of similar goods** (s.71)',
+                      'Used if (a)-(b) fail — the same approach as (b) but for **similar** (not identical) '
+                      'goods; again the lowest value if multiple values are found.'],
+                     ['**(d) Deductive value** (s.72)',
+                      'Used if (a)-(c) fail and the imported (or identical/similar) goods are sold in '
+                      'Nigeria as imported — the greatest-aggregate-quantity unit price to unrelated '
+                      'persons, LESS usual commissions/profit-and-expense additions, usual '
+                      'transport/insurance/associated costs in Nigeria, and Nigerian customs duties/charges. '
+                      'If no sale occurs at/about import time, the earliest sale within **90 days** after '
+                      'importation is used; if the goods are only sold after further processing, the '
+                      'declarant may request a value based on that sale, less the value added by '
+                      'processing.'],
+                     ['**(e) Computed value** (s.73)',
+                      'The most difficult method, rarely used — the sum of: materials/fabrication/processing '
+                      'cost; a usual profit-and-general-expense margin for goods of the same class/kind '
+                      'exported to Nigeria; and transport/loading/unloading/handling/insurance costs to the '
+                      'port of importation. A non-resident producer may be required to produce records; '
+                      "information may be verified in Nigeria with the producer's and their government's "
+                      'agreement.'],
+                     ['**(f) Residual value** (s.74)',
+                      'Used only if all prior methods fail — reasonable means consistent with the WTO '
+                      'Agreement on Implementation of Article VII of GATT 1994, using Nigerian data. May '
+                      '**NOT** be based on: the Nigerian selling price of Nigerian-produced goods; a '
+                      'higher-of-two-alternative-values system; the domestic price in the exporting country; '
+                      'production cost other than computed value already used for identical/similar goods; '
+                      'the export price to a country other than Nigeria; minimum customs values; or '
+                      'arbitrary/fictitious values.']]}},
+ {'note': 'The same valuation methodology (s.76) also applies to determining the value of goods for '
+          '**export**, and for assessing all duties/fees on imports, exports and statistics collection.'},
+ {'h4': 'Computation of total duty payable'},
+ {'key': 'Import duty (ID): **ID = HS% × CIF**, where HS% is the harmonised-code tariff percentage, and CIF '
+         '= Cost (commercial invoice) + Insurance (marine insurance) + Freight.'},
+ {'h4': 'Other levies and taxes'},
+ {'table': {'align': 'll',
+            'head': ['Levy', 'Rate and basis'],
+            'rows': [['**ECOWAS Trade Liberalisation Scheme (ETLS) levy**',
+                      '0.5% of CIF value, on all goods imported from outside Africa (effective 1 January '
+                      '2023).'],
+                     ['**Comprehensive Import Supervision Scheme (CISS) levy**',
+                      '1% administrative charge on FOB value of all imports, at the approved e-Form "M" '
+                      'exchange rate.'],
+                     ['**Surcharge**', '7% of import (surface) duty.'],
+                     ['**VAT**',
+                      '7.5% of CIF plus all charges — i.e. 7.5% of (CIF + ID + ETLS + CISS + Surcharge).'],
+                     ['**AU/Multilateral levy**',
+                      "0.5% of CIF, on eligible goods imported from outside Africa — funds Nigeria's capital "
+                      'contributions/subscriptions to the African Union, AfDB, Afreximbank, EBID, Islamic '
+                      'Development Bank, UN and other designated multilateral institutions.']]}},
+ {'note': 'The study text works two numerical examples on this material, but prints them not here — where '
+          "the rates and bases are explained — but as **questions 2 and 3 of the chapter's worked examples "
+          'at §10.14**. They are therefore set out in full at §10.14 rather than duplicated here. Work them '
+          'alongside this section: question 2 applies the **specific** (per-centilitre) duty and question 3 '
+          'applies the **ad valorem** CIF-based duties and levies through to VAT.'}],
                                },
                     {
                                  'n': '10.6',
@@ -490,45 +276,25 @@ CH = {
                     {
                                  'n': '10.7',
                                  't': 'Excisable goods and their valuations',
-                                 'b': [
-                                                          {
-                                                                                'h4': '10.7.1  Excisable goods',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Excise duty',
-                                                                                                                      'd': 'a tax levied on the production, sale or consumption of '
-                                                                                                                           'certain goods.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Excisable goods in Nigeria include: alcoholic beverages (beer, '
-                                                                                     'wine, spirits, etc.); tobacco products (cigarettes, cigars, snuff, '
-                                                                                     'etc.); soft drinks (carbonated drinks, fruit juices, etc.); '
-                                                                                     'cosmetics (perfumes, toiletries, etc.); plastic/rubber products '
-                                                                                     '(plastic bags, tyres, etc.); and telecommunication services.',
-                                                                              },
-                                                          {
-                                                                                'h4': '10.7.2  Valuation of excisable goods',
-                                                                              },
-                                                          {
-                                                                                'p': 'Valuation is based on: manufacturers\' price (sold to '
-                                                                                     'distributor/retailer); ex-factory price (factory-gate price, '
-                                                                                     'excluding transport); or retail price (sold to final consumer).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Valuation methods',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**transaction value method** — determined by the actual selling '
-                                                                                                                    'price;',
-                                                                                                                    '**comparable uncontrolled price method** — comparing prices of '
-                                                                                                                    'similar goods sold in the same market; and',
-                                                                                                                    '**cost-plus method** — a markup added to the cost of production.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '10.7.1  Excisable goods'},
+ {'def': {'t': 'Excise duty', 'd': 'a tax levied on the production, sale or consumption of certain goods.'}},
+ {'p': 'Excisable goods in Nigeria include:'},
+ {'ul': ['alcoholic beverages (beer, wine, spirits, etc.)',
+         'tobacco products (cigarettes, cigars, snuff, etc.)',
+         'soft drinks (carbonated drinks, fruit juices, etc.)',
+         'cosmetics (perfumes, toiletries, etc.)',
+         'plastic/rubber products (plastic bags, tyres, etc.)',
+         'and telecommunication services.']},
+ {'h4': '10.7.2  Valuation of excisable goods'},
+ {'p': 'Valuation is based on:'},
+ {'ul': ["manufacturers' price (sold to distributor/retailer)",
+         'ex-factory price (factory-gate price, excluding transport)',
+         'or retail price (sold to final consumer).']},
+ {'h4': 'Valuation methods'},
+ {'ol': ['**transaction value method** — determined by the actual selling price;',
+         '**comparable uncontrolled price method** — comparing prices of similar goods sold in the same '
+         'market; and',
+         '**cost-plus method** — a markup added to the cost of production.']}],
                                },
                     {
                                  'n': '10.8',
@@ -634,80 +400,49 @@ CH = {
                     {
                                  'n': '10.10',
                                  't': 'Provision of information for customs formalities and controls — section 22',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'By persons, to the Service',
-                                                                              },
-                                                          {
-                                                                                'p': 'Anyone directly/indirectly involved in customs '
-                                                                                     'formalities/controls must, on request and within any specified '
-                                                                                     'time limit, provide required documents/information (prescribed '
-                                                                                     'form) and necessary assistance. Lodging a declaration/notification '
-                                                                                     'makes the person responsible for: accuracy/completeness of the '
-                                                                                     'information; authenticity of documents; and compliance with '
-                                                                                     'obligations under the customs procedure/authorised operation — the '
-                                                                                     'same responsibility extends to a customs representative acting for '
-                                                                                     'that person.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'By the Service, to the public (s.22(2))',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Service must make relevant customs information of general '
-                                                                                     'application readily available (website and other designated '
-                                                                                     'forms/places) — without disclosing private/confidential '
-                                                                                     'information unless legally required; any charge for information '
-                                                                                     '(where not free) is limited to the actual cost of the service.',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Service must promptly publish: importation/exportation/transit '
-                                                                                     'procedures and required forms; applied duty/charge rates; '
-                                                                                     'classification/valuation/origin rules; import/export/transit '
-                                                                                     'restrictions/prohibitions; all Service and other-agency '
-                                                                                     'fees/charges; penalty provisions for breaches; appeal procedures; '
-                                                                                     'applicable international agreements; allowances and duty-free '
-                                                                                     'concessions; clearing agent/broker notices; and the current law '
-                                                                                     'establishing the Service.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'By persons, to the Service'},
+ {'p': 'Anyone directly/indirectly involved in customs formalities/controls must, on request and within any '
+       'specified time limit, provide required documents/information (prescribed form) and necessary '
+       'assistance. Lodging a declaration/notification makes the person responsible for: '
+       'accuracy/completeness of the information; authenticity of documents; and compliance with obligations '
+       'under the customs procedure/authorised operation — the same responsibility extends to a customs '
+       'representative acting for that person.'},
+ {'h4': 'By the Service, to the public (s.22(2))'},
+ {'p': 'The Service must make relevant customs information of general application readily available (website '
+       'and other designated forms/places) — without disclosing private/confidential information unless '
+       'legally required; any charge for information (where not free) is limited to the actual cost of the '
+       'service.'},
+ {'p': 'The Service must promptly publish:'},
+ {'ul': ['importation/exportation/transit procedures and required forms',
+         'applied duty/charge rates',
+         'classification/valuation/origin rules',
+         'import/export/transit restrictions/prohibitions',
+         'all Service and other-agency fees/charges',
+         'penalty provisions for breaches',
+         'appeal procedures',
+         'applicable international agreements',
+         'allowances and duty-free concessions',
+         'clearing agent/broker notices',
+         'and the current law establishing the Service.']}],
                                },
                     {
                                  'n': '10.11',
                                  't': 'Provisions relating to the furnishing of information by manufacturers and '
                                       'keeping of goods',
-                                 'b': [
-                                                          {
-                                                                                'h4': '10.11.1  Provisions relating to the furnishing of information by '
-                                                                                      'manufacturers',
-                                                                              },
-                                                          {
-                                                                                'p': 'Manufacturers of excisable goods must furnish: production data '
-                                                                                     '(quantity/value produced); inventory data (quantity/value in '
-                                                                                     'stock); sales data (quantity/value sold); pricing-policy '
-                                                                                     'information; and other relevant data (raw materials, labour costs, '
-                                                                                     'overheads) as required.',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**monthly** returns to the Comptroller-General on '
-                                                                                                                    'production/inventory/sales activity; and',
-                                                                                                                    '**annual** returns to the Comptroller-General, covering the '
-                                                                                                                    'preceding year\'s production/inventory/sales.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '10.11.2  Keeping of records by manufacturers of excisable goods',
-                                                                              },
-                                                          {
-                                                                                'p': 'Production records; inventory-level records; sales records; '
-                                                                                     'purchase records (raw materials/other inputs); and records of '
-                                                                                     'financial transactions (receipts, payments, etc.).',
-                                                                              },
-                                                          {
-                                                                                'key': 'Records must be kept for **at least 6 years** from the date of '
-                                                                                       'the transaction/activity.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '10.11.1  Provisions relating to the furnishing of information by manufacturers'},
+ {'p': 'Manufacturers of excisable goods must furnish:'},
+ {'ul': ['production data (quantity/value produced)',
+         'inventory data (quantity/value in stock)',
+         'sales data (quantity/value sold)',
+         'pricing-policy information',
+         'and other relevant data (raw materials, labour costs, overheads) as required.']},
+ {'ol': ['**monthly** returns to the Comptroller-General on production/inventory/sales activity; and',
+         "**annual** returns to the Comptroller-General, covering the preceding year's "
+         'production/inventory/sales.']},
+ {'h4': '10.11.2  Keeping of records by manufacturers of excisable goods'},
+ {'p': 'Production records; inventory-level records; sales records; purchase records (raw materials/other '
+       'inputs); and records of financial transactions (receipts, payments, etc.).'},
+ {'key': 'Records must be kept for **at least 6 years** from the date of the transaction/activity.'}],
                                },
                     {
                                  'n': '10.12',
@@ -913,393 +648,148 @@ CH = {
                     {
                                  'n': '10.14',
                                  't': 'Worked examples — study text questions and suggested solutions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The study text sets **three questions** at §10.14.1 — one theory '
-                                                                                     'question and two computations — with its own suggested solutions '
-                                                                                     'at §10.14.2. All three are reproduced here in full, with the '
-                                                                                     'book\'s answers, the arithmetic shown step by step, and added '
-                                                                                     'explanation.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 10.14.1, Question 1',
-                                                                                                                    't': 'Functions of the Nigeria Customs Service',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The **Nigeria Customs Service Act, 2023** was '
-                                                                                                                                                                                                          'enacted to repeal the Customs and Excise '
-                                                                                                                                                                                                          'Management Act, Cap. C45, Laws of the Federation '
-                                                                                                                                                                                                          'of Nigeria, 2004 (as amended) and other customs '
-                                                                                                                                                                                                          'and excise legislation. **Required:** Explain the '
-                                                                                                                                                                                                          'functions of the Nigeria Customs Service.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The functions of the Nigeria Customs Service are '
-                                                                                                                                                                                                          'to:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'administer, direct, manage and enforce the '
-                                                                                                                                                                                                                                                          'provisions of this Act and the customs and '
-                                                                                                                                                                                                                                                          'excise laws;',
-                                                                                                                                                                                                                                                          'collect and account for revenue from customs '
-                                                                                                                                                                                                                                                          'duties, excise duties, charges, fees and '
-                                                                                                                                                                                                                                                          'special assignments as may be assigned to it '
-                                                                                                                                                                                                                                                          'by the governments;',
-                                                                                                                                                                                                                                                          'administer trade and fiscal policies of the '
-                                                                                                                                                                                                                                                          'government as it relates to the Act;',
-                                                                                                                                                                                                                                                          'promote trade facilitation in line with '
-                                                                                                                                                                                                                                                          'international conventions and agreements as it '
-                                                                                                                                                                                                                                                          'relates to customs administration;',
-                                                                                                                                                                                                                                                          'prevent smuggling, customs fraud and all other '
-                                                                                                                                                                                                                                                          'violations under this Act;',
-                                                                                                                                                                                                                                                          'carry out all border enforcement and '
-                                                                                                                                                                                                                                                          'regulatory activities required by law, in '
-                                                                                                                                                                                                                                                          'collaboration with relevant agencies;',
-                                                                                                                                                                                                                                                          'collate and publish accurate trade statistics '
-                                                                                                                                                                                                                                                          'and other relevant data as they relate to '
-                                                                                                                                                                                                                                                          'customs and excise;',
-                                                                                                                                                                                                                                                          'engage in regular consultations with '
-                                                                                                                                                                                                                                                          'individual traders, trade associations and '
-                                                                                                                                                                                                                                                          'other relevant stakeholders to promote '
-                                                                                                                                                                                                                                                          'industrial harmony;',
-                                                                                                                                                                                                                                                          'approve and licence customs agents, who shall '
-                                                                                                                                                                                                                                                          'be **citizens of Nigeria**; and',
-                                                                                                                                                                                                                                                          'do such other things as are necessary for, or '
-                                                                                                                                                                                                                                                          'incidental to, the performance of its '
-                                                                                                                                                                                                                                                          'functions and the discharge of its duties '
-                                                                                                                                                                                                                                                          'under this Act and the laws of Nigeria.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The ten functions fall into **four groups**, '
-                                                                                                                                                                                                            'and organising an answer this way reads far '
-                                                                                                                                                                                                            'better than a flat list: **revenue** (collect '
-                                                                                                                                                                                                            'and account for duties, charges and fees); '
-                                                                                                                                                                                                            '**enforcement** (prevent smuggling and customs '
-                                                                                                                                                                                                            'fraud, carry out border enforcement); **trade '
-                                                                                                                                                                                                            'facilitation** (administer trade and fiscal '
-                                                                                                                                                                                                            'policy, facilitate trade under international '
-                                                                                                                                                                                                            'conventions, licence customs agents, consult '
-                                                                                                                                                                                                            'with traders); and **information** (collate and '
-                                                                                                                                                                                                            'publish trade statistics). The Service is '
-                                                                                                                                                                                                            'therefore not only a tax collector — the '
-                                                                                                                                                                                                            'facilitation and statistics functions are what '
-                                                                                                                                                                                                            'distinguish the 2023 Act from the repealed '
-                                                                                                                                                                                                            'CEMA. *(Source: §10.2.2.)*',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Function (i) carries a nationality requirement '
-                                                                                                                                                                                                             'that is easy to miss and easy to examine: '
-                                                                                                                                                                                                             'customs agents approved and licensed by the '
-                                                                                                                                                                                                             'Service **shall be citizens of Nigeria**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 10.14.1, Question 2',
-                                                                                                                    't': 'Mr Larry Obinna — import duty on alcoholic drinks charged '
-                                                                                                                         'per centilitre',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Mr Larry Obinna, a licensed importer/exporter of '
-                                                                                                                                                                                                          'alcoholic drinks, imported these items from the '
-                                                                                                                                                                                                          'UK on 13 October 2025:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lrrr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Item',
-                                                                                                                                                                                                                                                                                                                                    'Qty (bottles)',
-                                                                                                                                                                                                                                                                                                                                    'Price/bottle (£)',
-                                                                                                                                                                                                                                                                                                                                    'Value (£)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'ABC super wine',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,700',
-                                                                                                                                                                                                                                                                                                                                                                                                  '12.00',
-                                                                                                                                                                                                                                                                                                                                                                                                  '32,400',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'XYZ standard spirit',
-                                                                                                                                                                                                                                                                                                                                                                                                  '3,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '14.50',
-                                                                                                                                                                                                                                                                                                                                                                                                  '43,500',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'PQR action stout',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '5.00',
-                                                                                                                                                                                                                                                                                                                                                                                                  '30,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Each bottle contains 25 centilitres. Duty payable '
-                                                                                                                                                                                                          'per centilitre: ABC super wine N1.25; XYZ '
-                                                                                                                                                                                                          'standard spirit N1.50; PQR action stout N0.30. '
-                                                                                                                                                                                                          '(Exchange rate: N2,100/£1.) **Required**: '
-                                                                                                                                                                                                          'determine the import duties payable to the NCS.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lrrr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Item',
-                                                                                                                                                                                                                                                                                                                                    'Centilitres',
-                                                                                                                                                                                                                                                                                                                                    'Rate/cl (N)',
-                                                                                                                                                                                                                                                                                                                                    'Duty (N)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'ABC super wine (2,700 × 25cl)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '67,500',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1.25',
-                                                                                                                                                                                                                                                                                                                                                                                                  '84,375',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'XYZ standard spirit (3,000 × '
-                                                                                                                                                                                                                                                                                                                                                                                                  '25cl)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '75,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1.50',
-                                                                                                                                                                                                                                                                                                                                                                                                  '112,500',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'PQR action stout (6,000 × 25cl)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '150,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '0.30',
-                                                                                                                                                                                                                                                                                                                                                                                                  '45,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Total import duty payable**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**241,875**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'The price per bottle (and the exchange rate) '
-                                                                                                                                                                                                             'is ignored in this computation, since these '
-                                                                                                                                                                                                             'specific duties are charged **per '
-                                                                                                                                                                                                             'centilitre**, not ad valorem — and the '
-                                                                                                                                                                                                             'question does not ask for VAT.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'The book\'s own workings, item by item',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**ABC super wine** — units imported 2,700 '
-                                                                                                                                                                                                          'bottles; conversion to centilitres 2,700 × 25 = '
-                                                                                                                                                                                                          '**67,500 cl**; duty payable per centilitre N1.25; '
-                                                                                                                                                                                                          'amount of import duty payable = 67,500 × N1.25 = '
-                                                                                                                                                                                                          '**N84,375**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**XYZ standard spirit** — units imported 3,000 '
-                                                                                                                                                                                                          'bottles; conversion to centilitres 3,000 × 25 = '
-                                                                                                                                                                                                          '**75,000 cl**; duty payable per centilitre N1.50; '
-                                                                                                                                                                                                          'amount of import duty payable = 75,000 × N1.50 = '
-                                                                                                                                                                                                          '**N112,500**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**PQR action stout** — units imported 6,000 '
-                                                                                                                                                                                                          'bottles; conversion to centilitres 6,000 × 25 = '
-                                                                                                                                                                                                          '**150,000 cl**; duty payable per centilitre '
-                                                                                                                                                                                                          'N0.30; amount of import duty payable = 150,000 × '
-                                                                                                                                                                                                          'N0.30 = **N45,000**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The total import duties payable by Mr Larry '
-                                                                                                                                                                                                          'Obinna = N84,375 + N112,500 + N45,000 = '
-                                                                                                                                                                                                          '**N241,875**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'This is a **specific** duty, not an ad valorem '
-                                                                                                                                                                                                            'one — it is charged by **physical quantity** '
-                                                                                                                                                                                                            '(per centilitre of liquid), so the value of the '
-                                                                                                                                                                                                            'goods is irrelevant. That is why the price per '
-                                                                                                                                                                                                            'bottle and the N2,100/£1 exchange rate are '
-                                                                                                                                                                                                            '**both redundant data**, deliberately planted. '
-                                                                                                                                                                                                            'The book says so itself: *"Price per bottle '
-                                                                                                                                                                                                            'should be ignored in the computation as the '
-                                                                                                                                                                                                            'requirement of the question does not include '
-                                                                                                                                                                                                            'computation of VAT payable."* Contrast question '
-                                                                                                                                                                                                            '3, where every duty is a percentage of value '
-                                                                                                                                                                                                            'and the price is the whole basis.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'The one computational trap is the unit '
-                                                                                                                                                                                                             'conversion. Duty is quoted **per centilitre** '
-                                                                                                                                                                                                             'but quantity is given **in bottles**, so each '
-                                                                                                                                                                                                             'line must be converted first (bottles × 25 cl) '
-                                                                                                                                                                                                             'before the rate is applied. Applying the rate '
-                                                                                                                                                                                                             'to bottles would understate the duty by a '
-                                                                                                                                                                                                             'factor of 25 — N9,675 instead of N241,875.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 10.14.1, Question 3',
-                                                                                                                    't': 'XYZ Limited — total duty payable including all levies and '
-                                                                                                                         'VAT',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'XYZ Limited imported goods from London in August '
-                                                                                                                                                                                                          '2025: Free on board N2,500,000; Insurance '
-                                                                                                                                                                                                          'N40,000; Freight N500,000. Rates: import duty 5% '
-                                                                                                                                                                                                          'of CIF; surcharge 7% of the surface duty; ETLS '
-                                                                                                                                                                                                          'levy 0.5% of CIF; CISS levy 1% of FOB; '
-                                                                                                                                                                                                          'AU/multilateral levy 0.5% of CIF; VAT 7.5% of '
-                                                                                                                                                                                                          'total value. **Required**: compute the total duty '
-                                                                                                                                                                                                          'payable to the NCS.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Item',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Free on board',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Insurance',
-                                                                                                                                                                                                                                                                                                                                                                                                  '40,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Freight',
-                                                                                                                                                                                                                                                                                                                                                                                                  '500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Cost, insurance and freight '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(CIF)**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**3,040,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Surface duty / import duty (5% '
-                                                                                                                                                                                                                                                                                                                                                                                                  'of CIF)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '152,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Surcharge (7% of surface duty)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '10,640',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'CISS levy (1% of FOB)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '25,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'ETLS levy (0.5% of CIF)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '15,200',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'AU/Multilateral levy (0.5% of '
-                                                                                                                                                                                                                                                                                                                                                                                                  'CIF)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '15,200',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Subtotal — duties/levies**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**218,040**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'VAT (7.5% of [CIF + '
-                                                                                                                                                                                                                                                                                                                                                                                                  'duties/levies] = 7.5% × '
-                                                                                                                                                                                                                                                                                                                                                                                                  'N3,258,040)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '244,353',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Total duty payable to Nigeria '
-                                                                                                                                                                                                                                                                                                                                                                                                  'Customs Service**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**462,393**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'How the figures follow',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'tex': '\\text{CIF} = N2{,}500{,}000 + N40{,}000 + '
-                                                                                                                                                                                                            'N500{,}000 = N3{,}040{,}000',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**Surface duty (import duty)** = 5% × '
-                                                                                                                                                                                                                                                          'N3,040,000 = **N152,000**;',
-                                                                                                                                                                                                                                                          '**Surcharge** = 7% × **the surface duty**, not '
-                                                                                                                                                                                                                                                          'of CIF = 7% × N152,000 = **N10,640**;',
-                                                                                                                                                                                                                                                          '**CISS levy** = 1% × **free on board**, not of '
-                                                                                                                                                                                                                                                          'CIF = 1% × N2,500,000 = **N25,000**;',
-                                                                                                                                                                                                                                                          '**ETLS levy** = 0.5% × N3,040,000 = '
-                                                                                                                                                                                                                                                          '**N15,200**;',
-                                                                                                                                                                                                                                                          '**AU/multilateral levy** = 0.5% × N3,040,000 = '
-                                                                                                                                                                                                                                                          '**N15,200**;',
-                                                                                                                                                                                                                                                          'duties and levies together = N152,000 + '
-                                                                                                                                                                                                                                                          'N10,640 + N25,000 + N15,200 + N15,200 = '
-                                                                                                                                                                                                                                                          '**N218,040**;',
-                                                                                                                                                                                                                                                          '**VAT** = 7.5% × (CIF + duties and levies) = '
-                                                                                                                                                                                                                                                          '7.5% × (N3,040,000 + N218,040) = 7.5% × '
-                                                                                                                                                                                                                                                          'N3,258,040 = **N244,353**; and',
-                                                                                                                                                                                                                                                          '**total payable** = N218,040 + N244,353 = '
-                                                                                                                                                                                                                                                          '**N462,393**.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'Three different bases appear in one question, '
-                                                                                                                                                                                                            'and mixing them up is where the marks go. The '
-                                                                                                                                                                                                            'import duty, ETLS levy and AU levy are '
-                                                                                                                                                                                                            'percentages of **CIF**. The surcharge is a '
-                                                                                                                                                                                                            'percentage of **the import duty itself** — a '
-                                                                                                                                                                                                            'tax on a tax. The CISS levy is a percentage of '
-                                                                                                                                                                                                            '**FOB**, so insurance and freight are excluded '
-                                                                                                                                                                                                            'from it. Read each rate\'s stated base rather '
-                                                                                                                                                                                                            'than assuming CIF throughout: using CIF for the '
-                                                                                                                                                                                                            'CISS levy would give N30,400 instead of N25,000.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Note what VAT is charged on: **CIF plus all '
-                                                                                                                                                                                                             'the duties and levies**, not CIF alone. Import '
-                                                                                                                                                                                                             'duties form part of the value of the imported '
-                                                                                                                                                                                                             'supply under section 149 of the NTA (see '
-                                                                                                                                                                                                             '§7.9.1), so they enter the VAT base — which is '
-                                                                                                                                                                                                             'why the VAT here is computed on N3,258,040 and '
-                                                                                                                                                                                                             'not on N3,040,000, a difference of N16,353.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'warn': 'A numbering defect in the book\'s question, '
-                                                                                                                                                                                                             'flagged rather than silently corrected: in the '
-                                                                                                                                                                                                             'list of assumed rates, **two items are both '
-                                                                                                                                                                                                             'labelled "(v)"** — the AU/multilateral levy '
-                                                                                                                                                                                                             'and value added tax. There are six rates in '
-                                                                                                                                                                                                             'all, so the last should be (vi). The data is '
-                                                                                                                                                                                                             'unaffected.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The study text sets **three questions** at §10.14.1 — one theory question and two computations — '
+       "with its own suggested solutions at §10.14.2. All three are reproduced here in full, with the book's "
+       'answers, the arithmetic shown step by step, and added explanation.'},
+ {'eg': {'tag': 'Study text — 10.14.1, Question 1',
+         't': 'Functions of the Nigeria Customs Service',
+         'open': True,
+         'q': [{'p': 'The **Nigeria Customs Service Act, 2023** was enacted to repeal the Customs and Excise '
+                     'Management Act, Cap. C45, Laws of the Federation of Nigeria, 2004 (as amended) and '
+                     'other customs and excise legislation. **Required:** Explain the functions of the '
+                     'Nigeria Customs Service.'}],
+         'a': [{'p': 'The functions of the Nigeria Customs Service are to:'},
+               {'ol': ['administer, direct, manage and enforce the provisions of this Act and the customs '
+                       'and excise laws;',
+                       'collect and account for revenue from customs duties, excise duties, charges, fees '
+                       'and special assignments as may be assigned to it by the governments;',
+                       'administer trade and fiscal policies of the government as it relates to the Act;',
+                       'promote trade facilitation in line with international conventions and agreements as '
+                       'it relates to customs administration;',
+                       'prevent smuggling, customs fraud and all other violations under this Act;',
+                       'carry out all border enforcement and regulatory activities required by law, in '
+                       'collaboration with relevant agencies;',
+                       'collate and publish accurate trade statistics and other relevant data as they relate '
+                       'to customs and excise;',
+                       'engage in regular consultations with individual traders, trade associations and '
+                       'other relevant stakeholders to promote industrial harmony;',
+                       'approve and licence customs agents, who shall be **citizens of Nigeria**; and',
+                       'do such other things as are necessary for, or incidental to, the performance of its '
+                       'functions and the discharge of its duties under this Act and the laws of Nigeria.']},
+               {'key': [{'p': 'The ten functions fall into **four groups**, and organising an answer this '
+                              'way reads far better than a flat list:'},
+                        {'ul': ['**revenue** (collect and account for duties, charges and fees)',
+                                '**enforcement** (prevent smuggling and customs fraud, carry out border '
+                                'enforcement)',
+                                '**trade facilitation** (administer trade and fiscal policy, facilitate '
+                                'trade under international conventions, licence customs agents, consult with '
+                                'traders)',
+                                'and **information** (collate and publish trade statistics). The Service is '
+                                'therefore not only a tax collector — the facilitation and statistics '
+                                'functions are what distinguish the 2023 Act from the repealed CEMA. '
+                                '*(Source: §10.2.2.)*']}]},
+               {'note': 'Function (i) carries a nationality requirement that is easy to miss and easy to '
+                        'examine: customs agents approved and licensed by the Service **shall be citizens of '
+                        'Nigeria**.'}]}},
+ {'eg': {'tag': 'Study text — 10.14.1, Question 2',
+         't': 'Mr Larry Obinna — import duty on alcoholic drinks charged per centilitre',
+         'open': True,
+         'q': [{'p': 'Mr Larry Obinna, a licensed importer/exporter of alcoholic drinks, imported these '
+                     'items from the UK on 13 October 2025:'},
+               {'table': {'align': 'lrrr',
+                          'head': ['Item', 'Qty (bottles)', 'Price/bottle (£)', 'Value (£)'],
+                          'rows': [['ABC super wine', '2,700', '12.00', '32,400'],
+                                   ['XYZ standard spirit', '3,000', '14.50', '43,500'],
+                                   ['PQR action stout', '6,000', '5.00', '30,000']]}},
+               {'p': 'Each bottle contains 25 centilitres. Duty payable per centilitre:'},
+               {'ul': ['ABC super wine N1.25',
+                       'XYZ standard spirit N1.50',
+                       'PQR action stout N0.30. (Exchange rate: N2,100/£1.) **Required**: determine the '
+                       'import duties payable to the NCS.']}],
+         'a': [{'table': {'align': 'lrrr',
+                          'head': ['Item', 'Centilitres', 'Rate/cl (N)', 'Duty (N)'],
+                          'rows': [['ABC super wine (2,700 × 25cl)', '67,500', '1.25', '84,375'],
+                                   ['XYZ standard spirit (3,000 × 25cl)', '75,000', '1.50', '112,500'],
+                                   ['PQR action stout (6,000 × 25cl)', '150,000', '0.30', '45,000'],
+                                   ['**Total import duty payable**', '', '', '**241,875**']]}},
+               {'note': 'The price per bottle (and the exchange rate) is ignored in this computation, since '
+                        'these specific duties are charged **per centilitre**, not ad valorem — and the '
+                        'question does not ask for VAT.'},
+               {'h4': "The book's own workings, item by item"},
+               {'p': '**ABC super wine** — units imported 2,700 bottles; conversion to centilitres 2,700 × '
+                     '25 = **67,500 cl**; duty payable per centilitre N1.25; amount of import duty payable = '
+                     '67,500 × N1.25 = **N84,375**.'},
+               {'p': '**XYZ standard spirit** — units imported 3,000 bottles; conversion to centilitres '
+                     '3,000 × 25 = **75,000 cl**; duty payable per centilitre N1.50; amount of import duty '
+                     'payable = 75,000 × N1.50 = **N112,500**.'},
+               {'p': '**PQR action stout** — units imported 6,000 bottles; conversion to centilitres 6,000 × '
+                     '25 = **150,000 cl**; duty payable per centilitre N0.30; amount of import duty payable '
+                     '= 150,000 × N0.30 = **N45,000**.'},
+               {'p': 'The total import duties payable by Mr Larry Obinna = N84,375 + N112,500 + N45,000 = '
+                     '**N241,875**.'},
+               {'key': 'This is a **specific** duty, not an ad valorem one — it is charged by **physical '
+                       'quantity** (per centilitre of liquid), so the value of the goods is irrelevant. That '
+                       'is why the price per bottle and the N2,100/£1 exchange rate are **both redundant '
+                       'data**, deliberately planted. The book says so itself: *"Price per bottle should be '
+                       'ignored in the computation as the requirement of the question does not include '
+                       'computation of VAT payable."* Contrast question 3, where every duty is a percentage '
+                       'of value and the price is the whole basis.'},
+               {'note': 'The one computational trap is the unit conversion. Duty is quoted **per '
+                        'centilitre** but quantity is given **in bottles**, so each line must be converted '
+                        'first (bottles × 25 cl) before the rate is applied. Applying the rate to bottles '
+                        'would understate the duty by a factor of 25 — N9,675 instead of N241,875.'}]}},
+ {'eg': {'tag': 'Study text — 10.14.1, Question 3',
+         't': 'XYZ Limited — total duty payable including all levies and VAT',
+         'open': True,
+         'q': [{'p': 'XYZ Limited imported goods from London in August 2025:'},
+               {'ul': ['Free on board N2,500,000',
+                       'Insurance N40,000',
+                       'Freight N500,000. Rates: import duty 5% of CIF',
+                       'surcharge 7% of the surface duty',
+                       'ETLS levy 0.5% of CIF',
+                       'CISS levy 1% of FOB',
+                       'AU/multilateral levy 0.5% of CIF',
+                       'VAT 7.5% of total value. **Required**: compute the total duty payable to the NCS.']}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['Item', 'N'],
+                          'rows': [['Free on board', '2,500,000'],
+                                   ['Insurance', '40,000'],
+                                   ['Freight', '500,000'],
+                                   ['**Cost, insurance and freight (CIF)**', '**3,040,000**'],
+                                   ['Surface duty / import duty (5% of CIF)', '152,000'],
+                                   ['Surcharge (7% of surface duty)', '10,640'],
+                                   ['CISS levy (1% of FOB)', '25,000'],
+                                   ['ETLS levy (0.5% of CIF)', '15,200'],
+                                   ['AU/Multilateral levy (0.5% of CIF)', '15,200'],
+                                   ['**Subtotal — duties/levies**', '**218,040**'],
+                                   ['VAT (7.5% of [CIF + duties/levies] = 7.5% × N3,258,040)', '244,353'],
+                                   ['**Total duty payable to Nigeria Customs Service**', '**462,393**']]}},
+               {'h4': 'How the figures follow'},
+               {'tex': '\\text{CIF} = N2{,}500{,}000 + N40{,}000 + N500{,}000 = N3{,}040{,}000'},
+               {'ol': ['**Surface duty (import duty)** = 5% × N3,040,000 = **N152,000**;',
+                       '**Surcharge** = 7% × **the surface duty**, not of CIF = 7% × N152,000 = **N10,640**;',
+                       '**CISS levy** = 1% × **free on board**, not of CIF = 1% × N2,500,000 = **N25,000**;',
+                       '**ETLS levy** = 0.5% × N3,040,000 = **N15,200**;',
+                       '**AU/multilateral levy** = 0.5% × N3,040,000 = **N15,200**;',
+                       'duties and levies together = N152,000 + N10,640 + N25,000 + N15,200 + N15,200 = '
+                       '**N218,040**;',
+                       '**VAT** = 7.5% × (CIF + duties and levies) = 7.5% × (N3,040,000 + N218,040) = 7.5% × '
+                       'N3,258,040 = **N244,353**; and',
+                       '**total payable** = N218,040 + N244,353 = **N462,393**.']},
+               {'key': 'Three different bases appear in one question, and mixing them up is where the marks '
+                       'go. The import duty, ETLS levy and AU levy are percentages of **CIF**. The surcharge '
+                       'is a percentage of **the import duty itself** — a tax on a tax. The CISS levy is a '
+                       'percentage of **FOB**, so insurance and freight are excluded from it. Read each '
+                       "rate's stated base rather than assuming CIF throughout: using CIF for the CISS levy "
+                       'would give N30,400 instead of N25,000.'},
+               {'note': 'Note what VAT is charged on: **CIF plus all the duties and levies**, not CIF alone. '
+                        'Import duties form part of the value of the imported supply under section 149 of '
+                        'the NTA (see §7.9.1), so they enter the VAT base — which is why the VAT here is '
+                        'computed on N3,258,040 and not on N3,040,000, a difference of N16,353.'},
+               {'warn': "A numbering defect in the book's question, flagged rather than silently corrected: "
+                        'in the list of assumed rates, **two items are both labelled "(v)"** — the '
+                        'AU/multilateral levy and value added tax. There are six rates in all, so the last '
+                        'should be (vi). The data is unaffected.'}]}}],
                                },
                   ],
  'formulas': [

@@ -261,269 +261,113 @@ CH = {
                     {
                                  'n': '23.10',
                                  't': 'Worked examples — study text questions and suggested solutions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The study text sets **three questions** at §23.10.1, with its own '
-                                                                                     'suggested solutions at §23.10.2. All three are reproduced here in '
-                                                                                     'full, with the book\'s answers, every figure independently '
-                                                                                     'recomputed, and added explanation. The book prints them as '
-                                                                                     'questions, not illustrations — there are no illustrations in this '
-                                                                                     'chapter.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Rota Limited — computing the levy from total profit',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Rota Limited has been in business for 4 years. '
-                                                                                                                                                                                                          'Extract from its financial records for the year '
-                                                                                                                                                                                                          'ended 31 December 2026: capital allowances for '
-                                                                                                                                                                                                          'the year N2,400,000; total profit N800,000; '
-                                                                                                                                                                                                          'depreciation N960,000; revenue N110,000,000. '
-                                                                                                                                                                                                          '**Required**: compute the federal development '
-                                                                                                                                                                                                          'levy for the relevant assessment year.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Rota Limited — FDL computation, '
-                                                                                                                                                                                                                                                                                                                                    '2027 assessment year',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Total profit',
-                                                                                                                                                                                                                                                                                                                                                                                                  '800,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Add: capital allowances',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,400,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Assessable profit**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**3,200,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Federal development levy = 4% × N3,200,000 = '
-                                                                                                                                                                                                          '**N128,000**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Depreciation and revenue are given but '
-                                                                                                                                                                                                             'genuinely unused here — depreciation plays no '
-                                                                                                                                                                                                             'role since the starting point is already TOTAL '
-                                                                                                                                                                                                             'profit (a tax-adjusted figure), not accounting '
-                                                                                                                                                                                                             'net profit; revenue is irrelevant to the '
-                                                                                                                                                                                                             'computation itself (though at N110m it would, '
-                                                                                                                                                                                                             'in any case, rule out the small-company '
-                                                                                                                                                                                                             'exemption on its own).',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 23.10.1, Question 1',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Harpic Limited — computing the levy from accounting net '
-                                                                                                                         'profit',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Harpic Limited commenced business in 2009. '
-                                                                                                                                                                                                          'Projected financial information for the year '
-                                                                                                                                                                                                          'ended 31 December 2026: net profit per accounts '
-                                                                                                                                                                                                          'N1,407,600; depreciation N100,200; allowance for '
-                                                                                                                                                                                                          'doubtful debts N250,000; donations to ABC '
-                                                                                                                                                                                                          'political party N420,000. **Required**: compute '
-                                                                                                                                                                                                          'the federal development levy for the relevant '
-                                                                                                                                                                                                          'assessment year.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Harpic Limited — FDL computation, '
-                                                                                                                                                                                                                                                                                                                                    '2027 assessment year',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Net profit per accounts',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1,407,600',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Add: depreciation',
-                                                                                                                                                                                                                                                                                                                                                                                                  '100,200',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Allowance for doubtful debts '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(general provision, disallowed)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '250,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Donations to ABC political '
-                                                                                                                                                                                                                                                                                                                                                                                                  'party (disallowed)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '420,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Assessable profit**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**2,177,800**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Federal development levy = 4% × N2,177,800 = '
-                                                                                                                                                                                                          '**N87,112**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Both add-backs follow rules already '
-                                                                                                                                                                                                             'established earlier in the subject: a GENERAL '
-                                                                                                                                                                                                             '(not specific) allowance for doubtful debts is '
-                                                                                                                                                                                                             'disallowed, and donations to a political party '
-                                                                                                                                                                                                             'are never a deductible business expense.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 23.10.1, Question 2',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'JAPA Industries Plc — assessable profit, the levy, '
-                                                                                                                         'exemption and policy',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'JAPA Industries Plc operates several '
-                                                                                                                                                                                                          'manufacturing businesses in Nigeria. Projected '
-                                                                                                                                                                                                          'results for the year ended 31 December 2026: '
-                                                                                                                                                                                                          'turnover N5,800,000,000; profit before tax '
-                                                                                                                                                                                                          'N1,650,000,000; capital allowances N450,000,000; '
-                                                                                                                                                                                                          'disallowed expenses N150,000,000. The company\'s '
-                                                                                                                                                                                                          'property, plant and equipment is valued at N1.8 '
-                                                                                                                                                                                                          'billion; it is Nigerian-resident and fully '
-                                                                                                                                                                                                          'taxable; it does not engage in hydrocarbon '
-                                                                                                                                                                                                          'operations; and it has already paid companies '
-                                                                                                                                                                                                          'income tax but not yet computed the federal '
-                                                                                                                                                                                                          'development levy. **Required**: (a) determine the '
-                                                                                                                                                                                                          'assessable profit; (b) compute the FDL payable; '
-                                                                                                                                                                                                          '(c) explain whether the company qualifies for '
-                                                                                                                                                                                                          'exemption; (d) explain the policy objective '
-                                                                                                                                                                                                          'behind the levy.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    '(a)/(b) JAPA Industries Plc — FDL '
-                                                                                                                                                                                                                                                                                                                                    'computation, 2027 assessment year',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Profit before tax',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1,650,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Add: disallowed expenses',
-                                                                                                                                                                                                                                                                                                                                                                                                  '150,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Assessable profit**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**1,800,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Less: capital allowances',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(450,000,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Total profit',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1,350,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Federal development levy = 4% × N1,800,000,000 '
-                                                                                                                                                                                                          '= N72,000,000.**',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'warn': 'The source\'s own printed solution instead '
-                                                                                                                                                                                                             'computes FDL as 4% × N1,350,000,000 = '
-                                                                                                                                                                                                             'N54,000,000 — mislabelling the '
-                                                                                                                                                                                                             'POST-capital-allowance figure (N1,350,000,000, '
-                                                                                                                                                                                                             'which is properly "total profit" under this '
-                                                                                                                                                                                                             'subject\'s own established terminology from '
-                                                                                                                                                                                                             'Chapters 20/21) as "assessable profit," and '
-                                                                                                                                                                                                             'deducting capital allowances **before** '
-                                                                                                                                                                                                             'applying the levy. This directly contradicts '
-                                                                                                                                                                                                             'both s.59(1)\'s own text (FDL is charged on '
-                                                                                                                                                                                                             '"assessable profits," the '
-                                                                                                                                                                                                             'pre-capital-allowance base) and this very '
-                                                                                                                                                                                                             'chapter\'s own Illustrations 23.1 and 23.2, '
-                                                                                                                                                                                                             'which correctly compute assessable profit by '
-                                                                                                                                                                                                             'ADDING capital allowances back to (not '
-                                                                                                                                                                                                             'deducting them from) profit. The N72,000,000 '
-                                                                                                                                                                                                             'figure above follows the statute\'s own '
-                                                                                                                                                                                                             'definition and this chapter\'s own consistent '
-                                                                                                                                                                                                             'practice elsewhere; the source\'s printed '
-                                                                                                                                                                                                             'N54,000,000 answer is reproduced here for '
-                                                                                                                                                                                                             'completeness but should not be treated as the '
-                                                                                                                                                                                                             'more reliable figure.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**(c) Exemption test**: JAPA does **not** qualify '
-                                                                                                                                                                                                          'for exemption — turnover (N5.8bn) exceeds N100 '
-                                                                                                                                                                                                          'million, fixed assets (N1.8bn) exceed N250 '
-                                                                                                                                                                                                          'million, and it is not a small company. FDL is '
-                                                                                                                                                                                                          'payable.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**(d) Policy objectives**: the FDL was introduced '
-                                                                                                                                                                                                          'to (i) consolidate multiple statutory levies into '
-                                                                                                                                                                                                          'a single levy; (ii) reduce tax multiplicity in '
-                                                                                                                                                                                                          'Nigeria; (iii) improve tax administration '
-                                                                                                                                                                                                          'efficiency; and (iv) provide funding for '
-                                                                                                                                                                                                          'education, technology, security infrastructure, '
-                                                                                                                                                                                                          'and scientific development.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 23.10.1, Question 3',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'key': 'Read the three together and the one rule that matters is clear: '
-                                                                                       'the federal development levy is **4% of assessable profit** — '
-                                                                                       'the figure struck **before** capital allowances. Question 1 '
-                                                                                       'starts from **total profit** (already after capital allowances) '
-                                                                                       'and so must **add them back**. Question 2 starts from '
-                                                                                       '**accounting net profit** and so must add back the disallowable '
-                                                                                       'items to reach the same base. Question 3 starts from **profit '
-                                                                                       'before tax** and needs only the disallowed expenses added — the '
-                                                                                       'capital allowances are a distraction, which is exactly where the '
-                                                                                       'book\'s own solution goes wrong.',
-                                                                              },
-                                                          {
-                                                                                'note': 'Note how the exemption works, since every question supplies '
-                                                                                        'turnover and some supply fixed assets. A **small company** — '
-                                                                                        'turnover of **N100 million or less** and fixed assets **not '
-                                                                                        'exceeding N250 million** — is exempt from companies income tax '
-                                                                                        'under section 56, and because the levy is charged on assessable '
-                                                                                        'profit brought into charge, such a company pays **no levy '
-                                                                                        'either** (§21.7.3). Rota\'s N110 million turnover and JAPA\'s '
-                                                                                        'N5.8 billion both put them outside the exemption.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The study text sets **three questions** at §23.10.1, with its own suggested solutions at §23.10.2. '
+       "All three are reproduced here in full, with the book's answers, every figure independently "
+       'recomputed, and added explanation. The book prints them as questions, not illustrations — there are '
+       'no illustrations in this chapter.'},
+ {'eg': {'t': 'Rota Limited — computing the levy from total profit',
+         'q': [{'p': 'Rota Limited has been in business for 4 years. Extract from its financial records for '
+                     'the year ended 31 December 2026:'},
+               {'ul': ['capital allowances for the year N2,400,000',
+                       'total profit N800,000',
+                       'depreciation N960,000',
+                       'revenue N110,000,000. **Required**: compute the federal development levy for the '
+                       'relevant assessment year.']}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['Rota Limited — FDL computation, 2027 assessment year', 'N'],
+                          'rows': [['Total profit', '800,000'],
+                                   ['Add: capital allowances', '2,400,000'],
+                                   ['**Assessable profit**', '**3,200,000**']]}},
+               {'p': 'Federal development levy = 4% × N3,200,000 = **N128,000**.'},
+               {'note': 'Depreciation and revenue are given but genuinely unused here — depreciation plays '
+                        'no role since the starting point is already TOTAL profit (a tax-adjusted figure), '
+                        'not accounting net profit; revenue is irrelevant to the computation itself (though '
+                        'at N110m it would, in any case, rule out the small-company exemption on its own).'}],
+         'tag': 'Study text — 23.10.1, Question 1',
+         'open': True}},
+ {'eg': {'t': 'Harpic Limited — computing the levy from accounting net profit',
+         'q': [{'p': 'Harpic Limited commenced business in 2009. Projected financial information for the '
+                     'year ended 31 December 2026:'},
+               {'ul': ['net profit per accounts N1,407,600',
+                       'depreciation N100,200',
+                       'allowance for doubtful debts N250,000',
+                       'donations to ABC political party N420,000. **Required**: compute the federal '
+                       'development levy for the relevant assessment year.']}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['Harpic Limited — FDL computation, 2027 assessment year', 'N'],
+                          'rows': [['Net profit per accounts', '1,407,600'],
+                                   ['Add: depreciation', '100,200'],
+                                   ['Allowance for doubtful debts (general provision, disallowed)',
+                                    '250,000'],
+                                   ['Donations to ABC political party (disallowed)', '420,000'],
+                                   ['**Assessable profit**', '**2,177,800**']]}},
+               {'p': 'Federal development levy = 4% × N2,177,800 = **N87,112**.'},
+               {'note': 'Both add-backs follow rules already established earlier in the subject: a GENERAL '
+                        '(not specific) allowance for doubtful debts is disallowed, and donations to a '
+                        'political party are never a deductible business expense.'}],
+         'tag': 'Study text — 23.10.1, Question 2',
+         'open': True}},
+ {'eg': {'t': 'JAPA Industries Plc — assessable profit, the levy, exemption and policy',
+         'q': [{'p': 'JAPA Industries Plc operates several manufacturing businesses in Nigeria. Projected '
+                     'results for the year ended 31 December 2026:'},
+               {'ul': ['turnover N5,800,000,000',
+                       'profit before tax N1,650,000,000',
+                       'capital allowances N450,000,000',
+                       "disallowed expenses N150,000,000. The company's property, plant and equipment is "
+                       'valued at N1.8 billion',
+                       'it is Nigerian-resident and fully taxable',
+                       'it does not engage in hydrocarbon operations',
+                       'and it has already paid companies income tax but not yet computed the federal '
+                       'development levy. **Required**: (a) determine the assessable profit',
+                       '(b) compute the FDL payable',
+                       '(c) explain whether the company qualifies for exemption',
+                       '(d) explain the policy objective behind the levy.']}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['(a)/(b) JAPA Industries Plc — FDL computation, 2027 assessment year',
+                                   'N'],
+                          'rows': [['Profit before tax', '1,650,000,000'],
+                                   ['Add: disallowed expenses', '150,000,000'],
+                                   ['**Assessable profit**', '**1,800,000,000**'],
+                                   ['Less: capital allowances', '(450,000,000)'],
+                                   ['Total profit', '1,350,000,000']]}},
+               {'p': '**Federal development levy = 4% × N1,800,000,000 = N72,000,000.**'},
+               {'warn': "The source's own printed solution instead computes FDL as 4% × N1,350,000,000 = "
+                        'N54,000,000 — mislabelling the POST-capital-allowance figure (N1,350,000,000, which '
+                        'is properly "total profit" under this subject\'s own established terminology from '
+                        'Chapters 20/21) as "assessable profit," and deducting capital allowances **before** '
+                        "applying the levy. This directly contradicts both s.59(1)'s own text (FDL is "
+                        'charged on "assessable profits," the pre-capital-allowance base) and this very '
+                        "chapter's own Illustrations 23.1 and 23.2, which correctly compute assessable "
+                        'profit by ADDING capital allowances back to (not deducting them from) profit. The '
+                        "N72,000,000 figure above follows the statute's own definition and this chapter's "
+                        "own consistent practice elsewhere; the source's printed N54,000,000 answer is "
+                        'reproduced here for completeness but should not be treated as the more reliable '
+                        'figure.'},
+               {'p': '**(c) Exemption test**: JAPA does **not** qualify for exemption — turnover (N5.8bn) '
+                     'exceeds N100 million, fixed assets (N1.8bn) exceed N250 million, and it is not a small '
+                     'company. FDL is payable.'},
+               {'p': '**(d) Policy objectives**:'},
+               {'ul': ['the FDL was introduced to (i) consolidate multiple statutory levies into a single '
+                       'levy',
+                       '(ii) reduce tax multiplicity in Nigeria',
+                       '(iii) improve tax administration efficiency',
+                       'and (iv) provide funding for education, technology, security infrastructure, and '
+                       'scientific development.']}],
+         'tag': 'Study text — 23.10.1, Question 3',
+         'open': True}},
+ {'key': 'Read the three together and the one rule that matters is clear: the federal development levy is '
+         '**4% of assessable profit** — the figure struck **before** capital allowances. Question 1 starts '
+         'from **total profit** (already after capital allowances) and so must **add them back**. Question 2 '
+         'starts from **accounting net profit** and so must add back the disallowable items to reach the '
+         'same base. Question 3 starts from **profit before tax** and needs only the disallowed expenses '
+         "added — the capital allowances are a distraction, which is exactly where the book's own solution "
+         'goes wrong.'},
+ {'note': 'Note how the exemption works, since every question supplies turnover and some supply fixed '
+          'assets. A **small company** — turnover of **N100 million or less** and fixed assets **not '
+          'exceeding N250 million** — is exempt from companies income tax under section 56, and because the '
+          'levy is charged on assessable profit brought into charge, such a company pays **no levy either** '
+          "(§21.7.3). Rota's N110 million turnover and JAPA's N5.8 billion both put them outside the "
+          'exemption.'}],
                                },
                   ],
  'formulas': [

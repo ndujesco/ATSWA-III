@@ -223,156 +223,156 @@ CH = {
     ]},
   ]},
 
-  {'n': '9.4', 't': 'Internal audit in the public sector', 'b': [
-    {'def': {'t': 'Internal auditing (Institute of Internal Auditors)', 'd': 'the independent '
-                  'appraisal activity within an organization for the review of accounting, '
-                  'financial and other operations, as a basis for protective and constructive '
-                  'service to management.'}},
+  {'n': '9.4', 't': 'Internal audit in the public sector', 'b': [{'def': {'t': 'Internal auditing (Institute of Internal Auditors)',
+          'd': 'the independent appraisal activity within an organization for the review of accounting, '
+               'financial and other operations, as a basis for protective and constructive service to '
+               'management.'}},
+ {'h4': '§9.4.1 Objectives and scope'},
+ {'p': 'Internal audit assists management in effectively discharging its responsibilities, furnishing '
+       'analysis, appraisals, recommendations and comments on the activities reviewed — potentially going '
+       'beyond accounting/financial records to fully understand the operation under review. Internal audit '
+       'exists in every Ministry/Department/Agency to carry out **pre-audit**.'},
+ {'def': {'t': 'Pre-audit',
+          'd': 'audit performed with the main objective of checking transactions before payment takes place, '
+               'to ensure compliance with the rules governing each transaction.'}},
+ {'p': 'To attain its overall objective, internal audit activities should include:'},
+ {'ol': ['reviewing/appraising the soundness, adequacy and application of accounting, financial and other '
+         'administrative controls, and promoting effective controls at reasonable cost;',
+         'ascertaining the extent of compliance with established policies, plans and procedures;',
+         'ascertaining the extent to which department/ministry/agency assets are accounted for and '
+         'safeguarded against losses of all kinds;',
+         'ascertaining the reliability of data developed/produced;',
+         'preserving the integrity of files storing transactions and related data; and',
+         'appraising the quality of performance in carrying out assigned responsibilities.']},
+ {'h4': '§9.4.2 Operation of internal audit'},
+ {'key': 'Internal audit derives its powers from powers **delegated by the Auditor-General** — with full '
+         'access to all relevant department/ministry/agency records, properties and personnel. Internal '
+         'auditors carry out five types of audit:'},
+ {'table': {'align': 'll',
+            'head': ['Audit type', 'Focus'],
+            'rows': [['**Operational Audit**',
+                      'A particular activity within the establishment (e.g. an audit of Agricultural and '
+                      'Rural Development in a local government).'],
+                     ['**Functional Audit**', 'A particular function (e.g. audit of salary preparation).'],
+                     ['**Organizational Audit**',
+                      'All activities within an establishment — including both operational and functional '
+                      'audit.'],
+                     ['**Investigation**', 'Ad-hoc assignments.'],
+                     ['**Management Audit**',
+                      'Advising on policies introduced from time to time by the establishment.']]}},
+ {'h4': '§9.4.3 Responsibilities of internal audit'},
+ {'p': 'Internal audit is responsible for:'},
+ {'ul': ['reviewing, evaluating and reporting on the adequacy (or otherwise) of installed/operated controls, '
+         'and the extent to which they assure propriety, security, completeness and accuracy of the '
+         "establishment's operations",
+         'performing the responsibility imposed by Civil Service Reforms — carrying out complete, continuous '
+         'audit of accounts/records of revenue, expenditure and plant stores, and acting as inventory '
+         'verifier where none exists',
+         'and confirming the reliability/accuracy of extracted financial information to management.']},
+ {'p': 'Matters influencing setting up an internal audit unit:'},
+ {'ul': ['whether it is genuinely necessary given the circumstances of government (and Civil Service Reform '
+         'guidelines/relevant laws)',
+         "determining the unit's size/structure",
+         'preparing an audit manual',
+         'recruiting appropriate staff',
+         'and training/inducting staff.']},
+ {'key': 'These same procedures apply equally to the other tiers of government — the state and local '
+         'government levels.'}]},
 
-    {'h4': '§9.4.1 Objectives and scope'},
-    {'p': 'Internal audit assists management in effectively discharging its responsibilities, '
-          'furnishing analysis, appraisals, recommendations and comments on the activities '
-          'reviewed — potentially going beyond accounting/financial records to fully understand '
-          'the operation under review. Internal audit exists in every Ministry/Department/'
-          'Agency to carry out **pre-audit**.'},
-    {'def': {'t': 'Pre-audit', 'd': 'audit performed with the main objective of checking '
-                  'transactions before payment takes place, to ensure compliance with the '
-                  'rules governing each transaction.'}},
-    {'p': 'To attain its overall objective, internal audit activities should include:'},
-    {'ol': [
-      'reviewing/appraising the soundness, adequacy and application of accounting, financial '
-      'and other administrative controls, and promoting effective controls at reasonable '
-      'cost;',
-      'ascertaining the extent of compliance with established policies, plans and procedures;',
-      'ascertaining the extent to which department/ministry/agency assets are accounted for '
-      'and safeguarded against losses of all kinds;',
-      'ascertaining the reliability of data developed/produced;',
-      'preserving the integrity of files storing transactions and related data; and',
-      'appraising the quality of performance in carrying out assigned responsibilities.',
-    ]},
+  {'n': '9.5', 't': 'Due process and public procurement', 'b': [{'h4': '§9.5.1 Due process'},
+ {'p': 'The Federal Government set up the **Budget Monitoring and Price Intelligence Unit (BMPIU)**, '
+       'otherwise called the "Due Process" office — run as an operationally independent body under the '
+       'Senior Special Assistant to the President on the Unit, staffed by project '
+       'management/construction/procurement experts. It functions as the clearinghouse for all government '
+       'contracts and procurement, operating under three strategies: goals, objectives and implementation — '
+       'the goal being full compliance with laid-down guidelines/procedures for procuring capital/minor '
+       'capital projects and associated goods/services.'},
+ {'def': {'t': 'Due process',
+          'd': "the application of bureaucratic rules and regulations to managing a nation's economic "
+               'resources — allowing approved official protocols to govern the spending of government '
+               'funds/resources and the handling of government business.'}},
+ {'p': 'Due process can also be defined as:'},
+ {'ul': ['a mechanism attesting that only projects passing proper implementation-packaging tests, and '
+         'strictly adhering to the international competitive bid approach, receive public funding',
+         'firm adherence to laid-down rules/regulations in conducting national business, aiming for probity, '
+         'accountability, transparency, effectiveness and efficiency',
+         'and the means by which ethical constraints are placed on administrative '
+         'procedures/decision-making, preventing abuse of power and assuring financiers that budgeted/spent '
+         'money is well-utilised and judiciously managed.']},
+ {'p': 'Objectives of due process:'},
+ {'ul': ['harmonise/update public procurement policy and practice',
+         'ensure project conceptualisation, packaging and execution align with approved-budget targets',
+         'strictly enforce transparency, competition, efficiency and value for money in procuring public '
+         'goods/works/services',
+         'ensure contract execution is monitored',
+         'and prevent extra-budgetary spending and contract-price inflation.']},
+ {'p': 'Scope and coverage:'},
+ {'ul': ['entities at **all levels** of government, including enterprises owned/influenced by government',
+         '**all** goods and services, and any combination',
+         'coverage not limited to contracts above a threshold (though provisions may be more flexible for '
+         'smaller contracts)',
+         'and acquisition of any contracted item, including leases and rentals.']},
+ {'key': [{'p': 'Documents of importance to the auditor, needed to ascertain due process adherence:'},
+          {'ul': ['substantial/appropriate evidence of advertisement',
+                  'the tender evaluation report',
+                  'the contract award letter and agreement',
+                  'and tender returns.']}]},
+ {'h4': '§9.5.2 The Public Procurement Act'},
+ {'p': 'The Public Procurement Act (Act No. 14 of 2007) established the **National Council on Public '
+       'Procurement** ("the Council"), consisting of:'},
+ {'ul': ['the Minister of Finance (Chairman)',
+         'the Attorney-General and Minister of Justice of the Federation',
+         'the Secretary to the Government of the Federation',
+         'the Head of Service of the Federation',
+         'the Economic Adviser to the President',
+         'six part-time members representing the Nigerian Institute of Purchasing and Supply Management, the '
+         'Nigerian Bar Association, the Nigerian Association of Chambers of Commerce, Industry, Mines and '
+         'Agriculture, the Nigerian Society of Engineers, civil society, and the media',
+         "and the Director-General of the Bureau, who serves as the Council's Secretary. Any co-opted person "
+         'attending Council meetings has no casting vote and does not count toward quorum.']},
+ {'p': 'Functions of the National Council on Procurement:'},
+ {'ul': ['consider, approve and amend the monetary/prior-review thresholds for applying the Act',
+         'consider and approve public procurement policies',
+         "approve appointment of the Bureau's Directors",
+         "receive and approve the Bureau's audited accounts",
+         'approve procurement-process changes adapting to modern technology',
+         'and give such orders/directives, and perform such other functions, as necessary to achieve the '
+         "Act's objectives."]}]},
 
-    {'h4': '§9.4.2 Operation of internal audit'},
-    {'key': 'Internal audit derives its powers from powers **delegated by the Auditor-'
-            'General** — with full access to all relevant department/ministry/agency records, '
-            'properties and personnel. Internal auditors carry out five types of audit:'},
-    {'table': {'align': 'll', 'head': ['Audit type', 'Focus'], 'rows': [
-      ['**Operational Audit**', 'A particular activity within the establishment (e.g. an audit '
-       'of Agricultural and Rural Development in a local government).'],
-      ['**Functional Audit**', 'A particular function (e.g. audit of salary preparation).'],
-      ['**Organizational Audit**', 'All activities within an establishment — including both '
-       'operational and functional audit.'],
-      ['**Investigation**', 'Ad-hoc assignments.'],
-      ['**Management Audit**', 'Advising on policies introduced from time to time by the '
-       'establishment.'],
-    ]}},
-
-    {'h4': '§9.4.3 Responsibilities of internal audit'},
-    {'p': 'Internal audit is responsible for: reviewing, evaluating and reporting on the '
-          'adequacy (or otherwise) of installed/operated controls, and the extent to which '
-          'they assure propriety, security, completeness and accuracy of the establishment\'s '
-          'operations; performing the responsibility imposed by Civil Service Reforms — '
-          'carrying out complete, continuous audit of accounts/records of revenue, expenditure '
-          'and plant stores, and acting as inventory verifier where none exists; and '
-          'confirming the reliability/accuracy of extracted financial information to '
-          'management.'},
-    {'p': 'Matters influencing setting up an internal audit unit: whether it is genuinely '
-          'necessary given the circumstances of government (and Civil Service Reform '
-          'guidelines/relevant laws); determining the unit\'s size/structure; preparing an '
-          'audit manual; recruiting appropriate staff; and training/inducting staff.'},
-    {'key': 'These same procedures apply equally to the other tiers of government — the state '
-            'and local government levels.'},
-  ]},
-
-  {'n': '9.5', 't': 'Due process and public procurement', 'b': [
-    {'h4': '§9.5.1 Due process'},
-    {'p': 'The Federal Government set up the **Budget Monitoring and Price Intelligence Unit '
-          '(BMPIU)**, otherwise called the "Due Process" office — run as an operationally '
-          'independent body under the Senior Special Assistant to the President on the Unit, '
-          'staffed by project management/construction/procurement experts. It functions as the '
-          'clearinghouse for all government contracts and procurement, operating under three '
-          'strategies: goals, objectives and implementation — the goal being full compliance '
-          'with laid-down guidelines/procedures for procuring capital/minor capital projects '
-          'and associated goods/services.'},
-    {'def': {'t': 'Due process', 'd': 'the application of bureaucratic rules and regulations to '
-                  'managing a nation\'s economic resources — allowing approved official '
-                  'protocols to govern the spending of government funds/resources and the '
-                  'handling of government business.'}},
-    {'p': 'Due process can also be defined as: a mechanism attesting that only projects passing '
-          'proper implementation-packaging tests, and strictly adhering to the international '
-          'competitive bid approach, receive public funding; firm adherence to laid-down rules/'
-          'regulations in conducting national business, aiming for probity, accountability, '
-          'transparency, effectiveness and efficiency; and the means by which ethical '
-          'constraints are placed on administrative procedures/decision-making, preventing '
-          'abuse of power and assuring financiers that budgeted/spent money is well-utilised '
-          'and judiciously managed.'},
-    {'p': 'Objectives of due process: harmonise/update public procurement policy and practice; '
-          'ensure project conceptualisation, packaging and execution align with approved-'
-          'budget targets; strictly enforce transparency, competition, efficiency and value '
-          'for money in procuring public goods/works/services; ensure contract execution is '
-          'monitored; and prevent extra-budgetary spending and contract-price inflation.'},
-    {'p': 'Scope and coverage: entities at **all levels** of government, including enterprises '
-          'owned/influenced by government; **all** goods and services, and any combination; '
-          'coverage not limited to contracts above a threshold (though provisions may be more '
-          'flexible for smaller contracts); and acquisition of any contracted item, including '
-          'leases and rentals.'},
-    {'key': 'Documents of importance to the auditor, needed to ascertain due process adherence: '
-            'substantial/appropriate evidence of advertisement; the tender evaluation report; '
-            'the contract award letter and agreement; and tender returns.'},
-
-    {'h4': '§9.5.2 The Public Procurement Act'},
-    {'p': 'The Public Procurement Act (Act No. 14 of 2007) established the **National Council '
-          'on Public Procurement** ("the Council"), consisting of: the Minister of Finance '
-          '(Chairman); the Attorney-General and Minister of Justice of the Federation; the '
-          'Secretary to the Government of the Federation; the Head of Service of the '
-          'Federation; the Economic Adviser to the President; six part-time members '
-          'representing the Nigerian Institute of Purchasing and Supply Management, the '
-          'Nigerian Bar Association, the Nigerian Association of Chambers of Commerce, '
-          'Industry, Mines and Agriculture, the Nigerian Society of Engineers, civil society, '
-          'and the media; and the Director-General of the Bureau, who serves as the Council\'s '
-          'Secretary. Any co-opted person attending Council meetings has no casting vote and '
-          'does not count toward quorum.'},
-    {'p': 'Functions of the National Council on Procurement: consider, approve and amend the '
-          'monetary/prior-review thresholds for applying the Act; consider and approve public '
-          'procurement policies; approve appointment of the Bureau\'s Directors; receive and '
-          'approve the Bureau\'s audited accounts; approve procurement-process changes adapting '
-          'to modern technology; and give such orders/directives, and perform such other '
-          'functions, as necessary to achieve the Act\'s objectives.'},
-  ]},
-
-  {'n': '9.6', 't': 'Establishment of the Bureau of Public Procurement (BPP)', 'b': [
-    {'p': 'The Bureau of Public Procurement ("the Bureau") is established as an agency that: '
-          'is a **body corporate** with perpetual succession and a common seal; may sue and be '
-          'sued in its corporate name; and may acquire, hold or dispose of movable/immovable '
-          'property to carry out its functions under the Act.'},
-    {'h4': '§9.6.1 Objectives of the Bureau'},
-    {'ol': [
-      'harmonising existing government policies/practices on public procurement, ensuring '
-      'probity, accountability and transparency in the process;',
-      'establishing pricing standards and benchmarks;',
-      'ensuring fair, competitive, transparent, value-for-money standards/practices for '
-      'procuring and disposing of public assets/services; and',
-      'attaining transparency, competitiveness and professionalism in the public procurement '
-      'system.',
-    ]},
-    {'h4': '§9.6.2 Functions of the Bureau'},
-    {'p': 'The Bureau: formulates general procurement policies/guidelines for Council approval; '
-          'publicises and explains the Act\'s provisions; certifies Federal Procurement prior to '
-          'contract award (subject to Council thresholds); supervises implementation of '
-          'procurement policies; monitors tendered-item prices and maintains a national '
-          'standard-prices database; publishes major contract details in the procurement '
-          'journal (print and electronic, with an archival system); maintains a national '
-          'database of federal contractors/service providers; collates and archives federal '
-          'procurement plans/information; undertakes procurement research/surveys; organises '
-          'training/development for procurement professionals; periodically reviews the socio-'
-          'economic effect of procurement policies, advising the Council; prepares/updates '
-          'standard bidding/contract documents; prevents fraudulent/unfair procurement, '
-          'applying administrative sanctions where necessary; reviews procurement/contract-'
-          'award procedures of every entity the Act applies to; performs procurement audits, '
-          'submitting reports to the National Assembly **bi-annually**; introduces/develops/'
-          'maintains related database/technology; establishes a single internet portal as the '
-          'primary source of public-sector procurement information; and co-ordinates training '
-          'programmes to build institutional capacity.'},
-  ]},
+  {'n': '9.6', 't': 'Establishment of the Bureau of Public Procurement (BPP)', 'b': [{'p': 'The Bureau of Public Procurement ("the Bureau") is established as an agency that:'},
+ {'ul': ['is a **body corporate** with perpetual succession and a common seal',
+         'may sue and be sued in its corporate name',
+         'and may acquire, hold or dispose of movable/immovable property to carry out its functions under '
+         'the Act.']},
+ {'h4': '§9.6.1 Objectives of the Bureau'},
+ {'ol': ['harmonising existing government policies/practices on public procurement, ensuring probity, '
+         'accountability and transparency in the process;',
+         'establishing pricing standards and benchmarks;',
+         'ensuring fair, competitive, transparent, value-for-money standards/practices for procuring and '
+         'disposing of public assets/services; and',
+         'attaining transparency, competitiveness and professionalism in the public procurement system.']},
+ {'h4': '§9.6.2 Functions of the Bureau'},
+ {'p': 'The Bureau:'},
+ {'ul': ['formulates general procurement policies/guidelines for Council approval',
+         "publicises and explains the Act's provisions",
+         'certifies Federal Procurement prior to contract award (subject to Council thresholds)',
+         'supervises implementation of procurement policies',
+         'monitors tendered-item prices and maintains a national standard-prices database',
+         'publishes major contract details in the procurement journal (print and electronic, with an '
+         'archival system)',
+         'maintains a national database of federal contractors/service providers',
+         'collates and archives federal procurement plans/information',
+         'undertakes procurement research/surveys',
+         'organises training/development for procurement professionals',
+         'periodically reviews the socio-economic effect of procurement policies, advising the Council',
+         'prepares/updates standard bidding/contract documents',
+         'prevents fraudulent/unfair procurement, applying administrative sanctions where necessary',
+         'reviews procurement/contract-award procedures of every entity the Act applies to',
+         'performs procurement audits, submitting reports to the National Assembly **bi-annually**',
+         'introduces/develops/maintains related database/technology',
+         'establishes a single internet portal as the primary source of public-sector procurement '
+         'information',
+         'and co-ordinates training programmes to build institutional capacity.']}]},
 
   {'n': '9.7', 't': 'Chapter summary', 'b': [
     {'ol': [

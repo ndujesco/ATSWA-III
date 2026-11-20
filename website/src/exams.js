@@ -366,9 +366,9 @@
                          (c.outcomes || []).join(' ')).toLowerCase() });
           (c.secs || []).forEach(function (sec) {
             index.push({ t: sec.t, c: R.text(sec.b).slice(0, 220),
-                       w: s.code + ' ' + sec.n,
+                       w: s.code + ' ' + (sec.sourceN === undefined ? sec.n : sec.sourceN),
                        u: '#/s/' + s.code + '/' + c.n + '?sec=' + String(sec.n).replace(/\./g, '-'),
-                       x: (sec.t + ' ' + R.text(sec.b)).toLowerCase() });
+                       x: ((sec.sourceN === undefined ? sec.n : sec.sourceN) + ' ' + sec.t + ' ' + R.text(sec.b)).toLowerCase() });
           });
         });
         if (++got === SUBJECTS.length) {

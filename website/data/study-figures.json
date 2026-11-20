@@ -1,0 +1,576 @@
+{
+  "source": "materials/study-texts/2025_MAN.pdf",
+  "sourceSha256": "97489fa0bc3170db65d1e0ab1afe3ce3f9953a588491e3212da5ca9d21389579",
+  "captions": [
+    {
+      "chapter_file": "content/man/ch02.py",
+      "caption": "Figure 2.1",
+      "title": "Relationship between levels of management and functions of management.",
+      "pdf_page": 91,
+      "printed_page": "64",
+      "source_preceding_heading": "2.5",
+      "suggested_section": "2.5",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch02.py",
+      "caption": "Figure 2.2",
+      "title": "Relationship between levels of management and managerial skills",
+      "pdf_page": 93,
+      "printed_page": "66",
+      "source_preceding_heading": "2.6",
+      "suggested_section": "2.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.1",
+      "title": "Time spent on planning at each level of management",
+      "pdf_page": 143,
+      "printed_page": "116",
+      "source_preceding_heading": "A.8",
+      "suggested_section": "A.8",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.2",
+      "title": "Decision Tree without probabilities as adapted from Weihrich & Koontz,",
+      "pdf_page": 160,
+      "printed_page": "133",
+      "source_preceding_heading": "B.8",
+      "suggested_section": "B.8",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.3",
+      "title": "Functional structure",
+      "pdf_page": 172,
+      "printed_page": "145",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.4",
+      "title": "Product divisional structure",
+      "pdf_page": 174,
+      "printed_page": "147",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.5",
+      "title": "Geographic divisional structure",
+      "pdf_page": 175,
+      "printed_page": "148",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 7.4",
+      "title": "",
+      "pdf_page": 176,
+      "printed_page": "149",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.6",
+      "title": "Customer divisional structure",
+      "pdf_page": 176,
+      "printed_page": "149",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.7",
+      "title": "Process structure (Example of a typical Dry Cleaning Firm)",
+      "pdf_page": 176,
+      "printed_page": "149",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.8",
+      "title": "A Hybrid of matrix Structure",
+      "pdf_page": 177,
+      "printed_page": "150",
+      "source_preceding_heading": "C.9",
+      "suggested_section": "C.9",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.9",
+      "title": "Line structure",
+      "pdf_page": 179,
+      "printed_page": "152",
+      "source_preceding_heading": "C.10.1",
+      "suggested_section": "C.10",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.10",
+      "title": "Staff structure",
+      "pdf_page": 181,
+      "printed_page": "154",
+      "source_preceding_heading": "C.10.3",
+      "suggested_section": "C.10",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Figure 3.11",
+      "title": "Basic Steps in the Control Process",
+      "pdf_page": 197,
+      "printed_page": "170",
+      "source_preceding_heading": "E.6",
+      "suggested_section": "E.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "caption": "Table 3.1",
+      "title": "Differences between corporate strategy and business strategy",
+      "pdf_page": 211,
+      "printed_page": "184",
+      "source_preceding_heading": "F.6.5",
+      "suggested_section": "F.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.1",
+      "title": "Steps in the Human Resource planning process",
+      "pdf_page": 220,
+      "printed_page": "193",
+      "source_preceding_heading": "A.5.1",
+      "suggested_section": "A.5",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.1",
+      "title": "Advantages and disadvantages of internal and external sources of recruitment",
+      "pdf_page": 223,
+      "printed_page": "196",
+      "source_preceding_heading": "A.6.3",
+      "suggested_section": "A.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.2",
+      "title": "Methods of Job Analysis",
+      "pdf_page": 227,
+      "printed_page": "200",
+      "source_preceding_heading": "A.10.2",
+      "suggested_section": "A.10",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.3",
+      "title": "Uses of Job Analysis",
+      "pdf_page": 227,
+      "printed_page": "200",
+      "source_preceding_heading": "A.10.3",
+      "suggested_section": "A.10",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.2",
+      "title": "A Sample of a job description",
+      "pdf_page": 228,
+      "printed_page": "201",
+      "source_preceding_heading": "A.11",
+      "suggested_section": "A.11",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.3",
+      "title": "The production process",
+      "pdf_page": 247,
+      "printed_page": "220",
+      "source_preceding_heading": "B.1",
+      "suggested_section": "B.1",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.4",
+      "title": "Comparing production and operations management",
+      "pdf_page": 248,
+      "printed_page": "221",
+      "source_preceding_heading": "B.2",
+      "suggested_section": "B.2",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.4",
+      "title": "Product or line layout",
+      "pdf_page": 253,
+      "printed_page": "226",
+      "source_preceding_heading": "B.6.4",
+      "suggested_section": "B.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.5",
+      "title": "Process Layout",
+      "pdf_page": 253,
+      "printed_page": "226",
+      "source_preceding_heading": "B.6.4",
+      "suggested_section": "B.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.6",
+      "title": "Fixed position layout",
+      "pdf_page": 254,
+      "printed_page": "227",
+      "source_preceding_heading": "B.6.4",
+      "suggested_section": "B.6",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.5",
+      "title": "Comparison of Various Types of Production Systems",
+      "pdf_page": 255,
+      "printed_page": "228",
+      "source_preceding_heading": "B.7.2",
+      "suggested_section": "B.7",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.6",
+      "title": "Comparison of Segmentation methods",
+      "pdf_page": 266,
+      "printed_page": "239",
+      "source_preceding_heading": "C.4.1",
+      "suggested_section": "C.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.7",
+      "title": "The Marketing Mix",
+      "pdf_page": 268,
+      "printed_page": "241",
+      "source_preceding_heading": "C.5",
+      "suggested_section": "C.5",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Table 4.7",
+      "title": "Comparison of different types of Consumer Products",
+      "pdf_page": 269,
+      "printed_page": "242",
+      "source_preceding_heading": "C.6.1",
+      "suggested_section": "C.6",
+      "caption_missing": false
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "caption": "Figure 4.8",
+      "title": "The Accounting Department Organogram",
+      "pdf_page": 294,
+      "printed_page": "267",
+      "source_preceding_heading": "D.8",
+      "suggested_section": "D.8",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Figure 5.1",
+      "title": "Abraham Maslow’s hierarchy of needs model",
+      "pdf_page": 313,
+      "printed_page": "286",
+      "source_preceding_heading": "A.4.1",
+      "suggested_section": "A.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Table 5.1",
+      "title": "Relationship between Maslow’s and Alderfer’s theories of motivation",
+      "pdf_page": 315,
+      "printed_page": "288",
+      "source_preceding_heading": "A.4.1",
+      "suggested_section": "A.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Figure 5.2",
+      "title": "Vroom’s Expectancy model",
+      "pdf_page": 319,
+      "printed_page": "292",
+      "source_preceding_heading": "A.4.2",
+      "suggested_section": "A.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Table 5.2",
+      "title": "comparing the various theories and indicates their use in management.",
+      "pdf_page": 320,
+      "printed_page": "293",
+      "source_preceding_heading": "A.4.3",
+      "suggested_section": "A.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Table 5.3",
+      "title": "Differences between Groups and Teams",
+      "pdf_page": 330,
+      "printed_page": "303",
+      "source_preceding_heading": "C.3.1",
+      "suggested_section": "C.3",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Figure 5.3",
+      "title": "The Communication Process Model",
+      "pdf_page": 343,
+      "printed_page": "316",
+      "source_preceding_heading": "F.2",
+      "suggested_section": "F.2",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Table 5.4",
+      "title": "The communication Process Model Explanation of Terms",
+      "pdf_page": 343,
+      "printed_page": "316",
+      "source_preceding_heading": "F.2",
+      "suggested_section": "F.2",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "caption": "Figure 5.4",
+      "title": "Flow of Communication in an organisation",
+      "pdf_page": 345,
+      "printed_page": "318",
+      "source_preceding_heading": "F.4",
+      "suggested_section": "F.4",
+      "caption_missing": true
+    },
+    {
+      "chapter_file": "content/man/ch08.py",
+      "caption": "Table 8.1",
+      "title": "Comparison of Closed and Open Office Layout",
+      "pdf_page": 365,
+      "printed_page": "338",
+      "source_preceding_heading": "8.3",
+      "suggested_section": "8.3",
+      "caption_missing": false
+    },
+    {
+      "chapter_file": "content/man/ch08.py",
+      "caption": "Table 8.2",
+      "title": "Summary of office landscaping",
+      "pdf_page": 366,
+      "printed_page": "339",
+      "source_preceding_heading": "8.4",
+      "suggested_section": "8.4",
+      "caption_missing": false
+    },
+    {
+      "chapter_file": "content/man/ch08.py",
+      "caption": "Table 8.3",
+      "title": "Managerial Role of ICT",
+      "pdf_page": 371,
+      "printed_page": "344",
+      "source_preceding_heading": "8.9",
+      "suggested_section": "8.9",
+      "caption_missing": false
+    },
+    {
+      "chapter_file": "content/man/ch08.py",
+      "caption": "Table 8.4",
+      "title": "Summary of the main Regulation under the Factories Act",
+      "pdf_page": 374,
+      "printed_page": "347",
+      "source_preceding_heading": "8.10.2",
+      "suggested_section": "8.10",
+      "caption_missing": false
+    }
+  ],
+  "pages": [
+    {
+      "pdfPage": 91,
+      "src": "assets/study-figures/man-p91.png"
+    },
+    {
+      "pdfPage": 93,
+      "src": "assets/study-figures/man-p93.png"
+    },
+    {
+      "pdfPage": 143,
+      "src": "assets/study-figures/man-p143.png"
+    },
+    {
+      "pdfPage": 160,
+      "src": "assets/study-figures/man-p160.png"
+    },
+    {
+      "pdfPage": 172,
+      "src": "assets/study-figures/man-p172.png"
+    },
+    {
+      "pdfPage": 174,
+      "src": "assets/study-figures/man-p174.png"
+    },
+    {
+      "pdfPage": 175,
+      "src": "assets/study-figures/man-p175.png"
+    },
+    {
+      "pdfPage": 176,
+      "src": "assets/study-figures/man-p176.png"
+    },
+    {
+      "pdfPage": 177,
+      "src": "assets/study-figures/man-p177.png"
+    },
+    {
+      "pdfPage": 179,
+      "src": "assets/study-figures/man-p179.png"
+    },
+    {
+      "pdfPage": 181,
+      "src": "assets/study-figures/man-p181.png"
+    },
+    {
+      "pdfPage": 197,
+      "src": "assets/study-figures/man-p197.png"
+    },
+    {
+      "pdfPage": 211,
+      "src": "assets/study-figures/man-p211.png"
+    },
+    {
+      "pdfPage": 220,
+      "src": "assets/study-figures/man-p220.png"
+    },
+    {
+      "pdfPage": 223,
+      "src": "assets/study-figures/man-p223.png"
+    },
+    {
+      "pdfPage": 227,
+      "src": "assets/study-figures/man-p227.png"
+    },
+    {
+      "pdfPage": 228,
+      "src": "assets/study-figures/man-p228.png"
+    },
+    {
+      "pdfPage": 247,
+      "src": "assets/study-figures/man-p247.png"
+    },
+    {
+      "pdfPage": 248,
+      "src": "assets/study-figures/man-p248.png"
+    },
+    {
+      "pdfPage": 253,
+      "src": "assets/study-figures/man-p253.png"
+    },
+    {
+      "pdfPage": 254,
+      "src": "assets/study-figures/man-p254.png"
+    },
+    {
+      "pdfPage": 255,
+      "src": "assets/study-figures/man-p255.png"
+    },
+    {
+      "pdfPage": 266,
+      "src": "assets/study-figures/man-p266.png"
+    },
+    {
+      "pdfPage": 268,
+      "src": "assets/study-figures/man-p268.png"
+    },
+    {
+      "pdfPage": 269,
+      "src": "assets/study-figures/man-p269.png"
+    },
+    {
+      "pdfPage": 294,
+      "src": "assets/study-figures/man-p294.png"
+    },
+    {
+      "pdfPage": 313,
+      "src": "assets/study-figures/man-p313.png"
+    },
+    {
+      "pdfPage": 315,
+      "src": "assets/study-figures/man-p315.png"
+    },
+    {
+      "pdfPage": 319,
+      "src": "assets/study-figures/man-p319.png"
+    },
+    {
+      "pdfPage": 320,
+      "src": "assets/study-figures/man-p320.png"
+    },
+    {
+      "pdfPage": 330,
+      "src": "assets/study-figures/man-p330.png"
+    },
+    {
+      "pdfPage": 343,
+      "src": "assets/study-figures/man-p343.png"
+    },
+    {
+      "pdfPage": 345,
+      "src": "assets/study-figures/man-p345.png"
+    },
+    {
+      "pdfPage": 365,
+      "src": "assets/study-figures/man-p365.png"
+    },
+    {
+      "pdfPage": 366,
+      "src": "assets/study-figures/man-p366.png"
+    },
+    {
+      "pdfPage": 371,
+      "src": "assets/study-figures/man-p371.png"
+    },
+    {
+      "pdfPage": 374,
+      "src": "assets/study-figures/man-p374.png"
+    }
+  ]
+}

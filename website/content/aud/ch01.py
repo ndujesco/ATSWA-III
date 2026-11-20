@@ -144,133 +144,112 @@ CH = {
   ]},
 
   {'n': '1.6', 't': 'Objective and general principles governing an audit of financial '
-    'statements', 'b': [
-    {'h4': '§1.6.1 Objective of an audit'},
-    {'p': 'The primary objective of an audit of financial statements is to enable the auditor to '
-          'express an opinion on whether the financial statements are prepared, in all material '
-          'respects, in accordance with an identified financial reporting framework, and give '
-          '"a true and fair view" (or "present fairly, in all material respects") the financial '
-          'results and state of affairs of the client entity.'},
-    {'warn': 'The auditor\'s opinion enhances the credibility of the financial statements — but '
-             'the user **cannot** assume the opinion is an assurance as to the entity\'s future '
-             'viability, nor of the efficiency or effectiveness of management\'s conduct. This is '
-             'one of the audit expectation gap\'s most common misconceptions (§1.10), so the '
-             'study text states it explicitly here.'},
-    {'p': 'The subsidiary objectives of an audit are to:'},
-    {'ul': [
-      'detect errors and fraud;',
-      'prevent errors and fraud; and',
-      'help the client improve their accounting and internal control systems.',
-    ]},
-    {'key': 'A subtle but important distinction: audit is **not designed** to identify errors, '
-            'detect fraud and discover significant weaknesses — but audit work should be carried '
-            'out in such a manner as to be **able to** unearth them if they exist. Design intent '
-            'and incidental capability are different things.'},
-
-    {'h4': '§1.6.2 General principles of an audit'},
-    {'p': 'The auditor should comply with the Code of Ethics for Members issued by the '
-          'International Federation of Accountants. The ethical principles governing the '
-          'auditor\'s professional responsibilities are:'},
-    {'ol': [
-      'Independence;',
-      'Integrity;',
-      'Objectivity;',
-      'Professional competence and due care;',
-      'Confidentiality;',
-      'Professional behaviour/conduct; and',
-      'Technical standards.',
-    ]},
-    {'p': 'The auditor should conduct an audit in accordance with **International Standards on '
-          'Auditing (ISAs)**, which contain basic principles and essential procedures together '
-          'with related explanatory guidance.'},
-    {'def': {'t': 'Professional scepticism', 'd': 'an attitude that includes a questioning mind, '
-                  'being alert to conditions that may indicate possible misstatement due to error '
-                  'or fraud, and a critical assessment of audit evidence — recognising that '
-                  'circumstances may exist that cause the financial statements to be materially '
-                  'misstated.'}},
-    {'note': 'Professional scepticism matters throughout the audit process because it reduces '
-             'the risk of: overlooking suspicious circumstances; over-generalising when drawing '
-             'conclusions from audit observations; and using faulty assumptions when determining '
-             'the nature, timing and extent of audit procedures and evaluating their results.'},
-    {'key': 'In planning and performing an audit, the auditor neither assumes management is '
-            'dishonest, nor assumes unquestioned honesty — a deliberately neutral starting point. '
-            'Accordingly, management\'s representations are **never** a substitute for obtaining '
-            'sufficient appropriate audit evidence to draw reasonable conclusions.'},
-
-    {'h4': '§1.6.3 Scope of an audit'},
-    {'def': {'t': 'Scope of an audit', 'd': 'the audit procedures deemed necessary in the '
-                  'circumstances to achieve the audit\'s objective — determined by the auditor '
-                  'having regard to the requirements of ISAs, relevant professional bodies, '
-                  'legislation, regulations, and, where appropriate, the terms of the audit '
-                  'engagement and reporting requirements.'}},
-
-    {'h4': '§1.6.4 Reasonable assurance'},
-    {'def': {'t': 'Reasonable assurance', 'd': 'a concept relating to the accumulation of audit '
-                  'evidence necessary for the auditor to conclude there are no material '
-                  'misstatements in the financial statements taken as a whole. It relates to the '
-                  '**whole** audit process, and is not the same as absolute assurance.'}},
-    {'p': 'An auditor cannot obtain **absolute** assurance, because of unavoidable inherent '
-          'limitations:'},
-    {'ol': [
-      '**The use of testing** — the auditor takes samples for testing, rather than working on '
-      'the whole dataset or total financial records;',
-      '**Inherent limitations of internal control** — e.g. the possibility of management '
-      'override or collusion; and',
-      '**The persuasive, not conclusive, nature of most audit evidence.**',
-    ]},
-    {'p': 'The auditor\'s work is further permeated by **judgment**, regarding: the gathering of '
-          'audit evidence (e.g. deciding the nature, timing and extent of audit procedures); the '
-          'drawing of conclusions from the evidence gathered; and assessing the reasonableness of '
-          'management\'s estimates in preparing the financial statements. Other limitations '
-          '(e.g. related-party transactions) may also affect the persuasiveness of available '
-          'audit evidence.'},
-    {'warn': 'Because of all the factors above, **an audit is not a guarantee** that the '
-             'financial statements are free of material misstatement — this is a deliberate '
-             'conclusion the study text draws explicitly, tying §1.6.4 directly back to §1.9\'s '
-             'limitations of an audit.'},
-
-    {'h4': '§1.6.5 Audit risk and materiality'},
-    {'p': 'Entities face a variety of business risks depending on the nature of their '
-          'operations, industry, regulatory environment, size and complexity. Management is '
-          'responsible for identifying and responding to such risks, but not all risks relate to '
-          'the preparation of the financial statements — the auditor is ultimately concerned only '
-          'with risks that may affect the financial statements.'},
-    {'def': {'t': 'Audit risk', 'd': 'the risk that the auditor expresses an inappropriate audit '
-                  'opinion when the financial statements are materially misstated.'}},
-    {'key': 'The auditor **reduces** audit risk (rather than eliminating it) by designing and '
-            'performing audit procedures to obtain sufficient appropriate audit evidence for '
-            'drawing reasonable conclusions. Reasonable assurance is obtained precisely when '
-            'audit risk has been reduced to an acceptably low level — the two concepts (§1.6.4 '
-            'and §1.6.5) are two sides of the same coin.'},
-    {'p': 'The auditor is concerned with **material** misstatements and is not responsible for '
-          'detecting misstatements immaterial to the financial statements as a whole. The '
-          'auditor considers whether identified uncorrected misstatements — individually and in '
-          'aggregate — are material to the financial statements taken as a whole.'},
-
-    {'h4': '§1.6.6 Responsibility for the financial statements'},
-    {'key': 'While the auditor is responsible for **forming and expressing an opinion** on the '
-            'financial statements, responsibility for **preparing and fairly presenting** them, '
-            'in accordance with the applicable financial reporting framework, rests with '
-            '**management**, with oversight from those charged with governance (the directors). '
-            'The audit does **not** relieve management or those charged with governance of this '
-            'responsibility.'},
-    {'p': 'Directors should keep the financial statements and accounting records at the '
-          'company\'s registered office, or any other place in the relevant country the directors '
-          'deem fit.'},
-
-    {'h4': '§1.6.7 Public sector perspective'},
-    {'p': 'Whether an audit is conducted in the private or public sector, the **basic principles '
-          'of auditing remain the same**. What may differ is the audit objective and scope, often '
-          'attributable to differences in the audit mandate, legal requirements, or the form of '
-          'reporting (public sector entities may need additional financial reports). Public '
-          'sector auditors must also consider specific requirements of any relevant regulations, '
-          'ordinances or ministerial directives, including national security issues. Public '
-          'sector audit mandates may be more specific and encompass a wider range of objectives '
-          'and broader scope than private sector audits, potentially affecting the auditor\'s '
-          'discretion in establishing materiality, reporting fraud and error, and the form of '
-          'the auditor\'s report — but these differences never amount to a difference in the '
-          '**basic principles and essential procedures** themselves.'},
-  ]},
+    'statements', 'b': [{'h4': '§1.6.1 Objective of an audit'},
+ {'p': 'The primary objective of an audit of financial statements is to enable the auditor to express an '
+       'opinion on whether the financial statements are prepared, in all material respects, in accordance '
+       'with an identified financial reporting framework, and give "a true and fair view" (or "present '
+       'fairly, in all material respects") the financial results and state of affairs of the client entity.'},
+ {'warn': "The auditor's opinion enhances the credibility of the financial statements — but the user "
+          "**cannot** assume the opinion is an assurance as to the entity's future viability, nor of the "
+          "efficiency or effectiveness of management's conduct. This is one of the audit expectation gap's "
+          'most common misconceptions (§1.10), so the study text states it explicitly here.'},
+ {'p': 'The subsidiary objectives of an audit are to:'},
+ {'ul': ['detect errors and fraud;',
+         'prevent errors and fraud; and',
+         'help the client improve their accounting and internal control systems.']},
+ {'key': 'A subtle but important distinction: audit is **not designed** to identify errors, detect fraud and '
+         'discover significant weaknesses — but audit work should be carried out in such a manner as to be '
+         '**able to** unearth them if they exist. Design intent and incidental capability are different '
+         'things.'},
+ {'h4': '§1.6.2 General principles of an audit'},
+ {'p': 'The auditor should comply with the Code of Ethics for Members issued by the International Federation '
+       "of Accountants. The ethical principles governing the auditor's professional responsibilities are:"},
+ {'ol': ['Independence;',
+         'Integrity;',
+         'Objectivity;',
+         'Professional competence and due care;',
+         'Confidentiality;',
+         'Professional behaviour/conduct; and',
+         'Technical standards.']},
+ {'p': 'The auditor should conduct an audit in accordance with **International Standards on Auditing '
+       '(ISAs)**, which contain basic principles and essential procedures together with related explanatory '
+       'guidance.'},
+ {'def': {'t': 'Professional scepticism',
+          'd': 'an attitude that includes a questioning mind, being alert to conditions that may indicate '
+               'possible misstatement due to error or fraud, and a critical assessment of audit evidence — '
+               'recognising that circumstances may exist that cause the financial statements to be '
+               'materially misstated.'}},
+ {'note': [{'p': 'Professional scepticism matters throughout the audit process because it reduces the risk '
+                 'of:'},
+           {'ul': ['overlooking suspicious circumstances',
+                   'over-generalising when drawing conclusions from audit observations',
+                   'and using faulty assumptions when determining the nature, timing and extent of audit '
+                   'procedures and evaluating their results.']}]},
+ {'key': 'In planning and performing an audit, the auditor neither assumes management is dishonest, nor '
+         "assumes unquestioned honesty — a deliberately neutral starting point. Accordingly, management's "
+         'representations are **never** a substitute for obtaining sufficient appropriate audit evidence to '
+         'draw reasonable conclusions.'},
+ {'h4': '§1.6.3 Scope of an audit'},
+ {'def': {'t': 'Scope of an audit',
+          'd': "the audit procedures deemed necessary in the circumstances to achieve the audit's objective "
+               '— determined by the auditor having regard to the requirements of ISAs, relevant professional '
+               'bodies, legislation, regulations, and, where appropriate, the terms of the audit engagement '
+               'and reporting requirements.'}},
+ {'h4': '§1.6.4 Reasonable assurance'},
+ {'def': {'t': 'Reasonable assurance',
+          'd': 'a concept relating to the accumulation of audit evidence necessary for the auditor to '
+               'conclude there are no material misstatements in the financial statements taken as a whole. '
+               'It relates to the **whole** audit process, and is not the same as absolute assurance.'}},
+ {'p': 'An auditor cannot obtain **absolute** assurance, because of unavoidable inherent limitations:'},
+ {'ol': ['**The use of testing** — the auditor takes samples for testing, rather than working on the whole '
+         'dataset or total financial records;',
+         '**Inherent limitations of internal control** — e.g. the possibility of management override or '
+         'collusion; and',
+         '**The persuasive, not conclusive, nature of most audit evidence.**']},
+ {'p': "The auditor's work is further permeated by **judgment**, regarding:"},
+ {'ul': ['the gathering of audit evidence (e.g. deciding the nature, timing and extent of audit procedures)',
+         'the drawing of conclusions from the evidence gathered',
+         "and assessing the reasonableness of management's estimates in preparing the financial statements. "
+         'Other limitations (e.g. related-party transactions) may also affect the persuasiveness of '
+         'available audit evidence.']},
+ {'warn': 'Because of all the factors above, **an audit is not a guarantee** that the financial statements '
+          'are free of material misstatement — this is a deliberate conclusion the study text draws '
+          "explicitly, tying §1.6.4 directly back to §1.9's limitations of an audit."},
+ {'h4': '§1.6.5 Audit risk and materiality'},
+ {'p': 'Entities face a variety of business risks depending on the nature of their operations, industry, '
+       'regulatory environment, size and complexity. Management is responsible for identifying and '
+       'responding to such risks, but not all risks relate to the preparation of the financial statements — '
+       'the auditor is ultimately concerned only with risks that may affect the financial statements.'},
+ {'def': {'t': 'Audit risk',
+          'd': 'the risk that the auditor expresses an inappropriate audit opinion when the financial '
+               'statements are materially misstated.'}},
+ {'key': 'The auditor **reduces** audit risk (rather than eliminating it) by designing and performing audit '
+         'procedures to obtain sufficient appropriate audit evidence for drawing reasonable conclusions. '
+         'Reasonable assurance is obtained precisely when audit risk has been reduced to an acceptably low '
+         'level — the two concepts (§1.6.4 and §1.6.5) are two sides of the same coin.'},
+ {'p': 'The auditor is concerned with **material** misstatements and is not responsible for detecting '
+       'misstatements immaterial to the financial statements as a whole. The auditor considers whether '
+       'identified uncorrected misstatements — individually and in aggregate — are material to the financial '
+       'statements taken as a whole.'},
+ {'h4': '§1.6.6 Responsibility for the financial statements'},
+ {'key': 'While the auditor is responsible for **forming and expressing an opinion** on the financial '
+         'statements, responsibility for **preparing and fairly presenting** them, in accordance with the '
+         'applicable financial reporting framework, rests with **management**, with oversight from those '
+         'charged with governance (the directors). The audit does **not** relieve management or those '
+         'charged with governance of this responsibility.'},
+ {'p': "Directors should keep the financial statements and accounting records at the company's registered "
+       'office, or any other place in the relevant country the directors deem fit.'},
+ {'h4': '§1.6.7 Public sector perspective'},
+ {'p': 'Whether an audit is conducted in the private or public sector, the **basic principles of auditing '
+       'remain the same**. What may differ is the audit objective and scope, often attributable to '
+       'differences in the audit mandate, legal requirements, or the form of reporting (public sector '
+       'entities may need additional financial reports). Public sector auditors must also consider specific '
+       'requirements of any relevant regulations, ordinances or ministerial directives, including national '
+       'security issues. Public sector audit mandates may be more specific and encompass a wider range of '
+       "objectives and broader scope than private sector audits, potentially affecting the auditor's "
+       "discretion in establishing materiality, reporting fraud and error, and the form of the auditor's "
+       'report — but these differences never amount to a difference in the **basic principles and essential '
+       'procedures** themselves.'}]},
 
   {'n': '1.7', 't': 'Advantages of an audit', 'b': [
     {'p': 'Audit is carried out to lend credibility to the financial statements concerned and to '
@@ -563,50 +542,43 @@ CH = {
     ]}},
   ]},
 
-  {'n': '1.16', 't': 'The agency theory and auditing', 'b': [
-    {'h4': 'Agents and principals'},
-    {'def': {'t': 'Agency relationship', 'd': 'occurs when one party, the **principal**, employs '
-                  'another party, the **agent**, to perform a service on the principal\'s '
-                  'behalf.'}},
-    {'p': 'Modern organisational theory views an organisation as comprising various interest '
-          'groups, whose relationships are often described in terms of agency theory. For '
-          'example: directors are agents of shareholders; employees are agents of directors; and '
-          'auditors are agents of shareholders.'},
-    {'key': 'Each principal must recognise that, although employing the agent, the agent has '
-            'interests of their own to protect — and may therefore not fully carry out the '
-            'principal\'s requirements. This is the seed of every conflict discussed in the rest '
-            'of this section.'},
-
-    {'h4': 'Agency relationship conflict'},
-    {'p': 'Directors have a duty of stewardship over the company\'s assets, but are also '
-          'interested in their own remuneration — and if remuneration increases, the company\'s '
-          'assets decrease. Since the decision to approve directors\' pay effectively lies in the '
-          'directors\' own hands, a conflict of interest arises.'},
-    {'p': 'Auditors submit their report to shareholders, yet know that the decision to reappoint '
-          'them effectively lies with the directors — creating a potential conflict between '
-          'carrying out their function properly and remaining on good terms with the directors. '
-          'Recognising these agency relationships allows a principal to take steps ensuring an '
-          'agent works closer to the principal\'s interests.'},
-
-    {'h4': 'The application of agency theory to auditing'},
-    {'p': 'Despite the conflicts of interest, agency theory predicts that, by behaving '
-          'rationally, an agent would not act against the principal\'s interest — because '
-          'shareholders will only buy shares if safeguards are in place to protect their '
-          'interests. The legal requirement for audited accounts is one such necessary '
-          'precondition; management, recognising the desirability of an audit, will arrange a '
-          'proper one since it is in their own interest to reassure suspicious shareholders.'},
-    {'warn': 'If this reasoning holds, the practical conclusion of agency theory in auditing is '
-             'that **statutory regulation is unnecessary**: large companies would voluntarily pay '
-             'high fees for extensive, sophisticated audits (having the greatest need to convince '
-             'shareholders of management\'s honesty), while a small company where management and '
-             'shareholders are virtually the same group would not pay for a high-quality audit — '
-             'arguably a reasonable result, since such shareholders have little need for one. But '
-             'this conclusion does **not** necessarily satisfy other users of accounting '
-             'information, such as lenders (who lend based on the accounts) and tax authorities '
-             '(who assess tax liability based on reported profit) — which is exactly why '
-             'statutory audit requirements persist in practice, despite the theory\'s own '
-             'internal logic pointing the other way.'},
-  ]},
+  {'n': '1.16', 't': 'The agency theory and auditing', 'b': [{'h4': 'Agents and principals'},
+ {'def': {'t': 'Agency relationship',
+          'd': 'occurs when one party, the **principal**, employs another party, the **agent**, to perform a '
+               "service on the principal's behalf."}},
+ {'p': 'Modern organisational theory views an organisation as comprising various interest groups, whose '
+       'relationships are often described in terms of agency theory. For example:'},
+ {'ul': ['directors are agents of shareholders',
+         'employees are agents of directors',
+         'and auditors are agents of shareholders.']},
+ {'key': 'Each principal must recognise that, although employing the agent, the agent has interests of their '
+         "own to protect — and may therefore not fully carry out the principal's requirements. This is the "
+         'seed of every conflict discussed in the rest of this section.'},
+ {'h4': 'Agency relationship conflict'},
+ {'p': "Directors have a duty of stewardship over the company's assets, but are also interested in their own "
+       "remuneration — and if remuneration increases, the company's assets decrease. Since the decision to "
+       "approve directors' pay effectively lies in the directors' own hands, a conflict of interest arises."},
+ {'p': 'Auditors submit their report to shareholders, yet know that the decision to reappoint them '
+       'effectively lies with the directors — creating a potential conflict between carrying out their '
+       'function properly and remaining on good terms with the directors. Recognising these agency '
+       "relationships allows a principal to take steps ensuring an agent works closer to the principal's "
+       'interests.'},
+ {'h4': 'The application of agency theory to auditing'},
+ {'p': 'Despite the conflicts of interest, agency theory predicts that, by behaving rationally, an agent '
+       "would not act against the principal's interest — because shareholders will only buy shares if "
+       'safeguards are in place to protect their interests. The legal requirement for audited accounts is '
+       'one such necessary precondition; management, recognising the desirability of an audit, will arrange '
+       'a proper one since it is in their own interest to reassure suspicious shareholders.'},
+ {'warn': 'If this reasoning holds, the practical conclusion of agency theory in auditing is that '
+          '**statutory regulation is unnecessary**: large companies would voluntarily pay high fees for '
+          'extensive, sophisticated audits (having the greatest need to convince shareholders of '
+          "management's honesty), while a small company where management and shareholders are virtually the "
+          'same group would not pay for a high-quality audit — arguably a reasonable result, since such '
+          'shareholders have little need for one. But this conclusion does **not** necessarily satisfy other '
+          'users of accounting information, such as lenders (who lend based on the accounts) and tax '
+          'authorities (who assess tax liability based on reported profit) — which is exactly why statutory '
+          "audit requirements persist in practice, despite the theory's own internal logic pointing the "
+          'other way.'}]},
 
   {'n': '1.17', 't': 'Audit committee', 'b': [
     {'p': 'Section 404(2) of CAMA 2020 states that Public Limited Companies (Plc) shall have '

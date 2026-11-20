@@ -70,100 +70,97 @@ CH = {
             'visitors are received, and somewhere logistics are arranged.'},
   ]},
 
-  {'n': '8.3', 't': 'Types of office', 'b': [
-    {'p': 'There are two types of office; these are **(a)** the closed office and **(b)** the '
-          'open plan office.'},
-    {'def': {'t': 'Closed office', 'd': 'an office where individuals, units or departments are '
-                  'allocated separate office rooms.'}},
-    {'def': {'t': 'Open plan office', 'd': 'an office in which more than one person, unit or '
-                  'department share the same large office space. In this case there may be '
-                  'temporary partitions to create cubicles.'}},
-    {'table': {'align': 'lll', 'head': ['Type of office', 'Advantages', 'Disadvantages'],
-      'rows': [
-      ['**Closed**',
-       '(i) There is **privacy** for confidential discussions. (ii) The occupant can '
-       '**concentrate**, because there is very little disturbance from other employees. '
-       '(iii) There is **reduction of noise**.',
-       '(i) It is **not economical** — large space may be occupied by one individual. '
-       '(ii) **Separate facilities** (computers, telephones, etc.) may have to be provided for '
-       'each office. (iii) It may be **difficult to supervise** staff, because they are in '
-       'different offices. (iv) It might **slow down the flow** of some activities which '
-       'require constant interaction among employees.'],
-      ['**Open plan**',
-       '(i) It is **easy to supervise**, since everybody is in view. (ii) It **economises '
-       'space**. (iii) **Exchange of information** among staff is easy, and this facilitates '
-       'the flow of work. (iv) Certain **facilities may easily be shared**, e.g. printers. '
-       '(v) **Lower energy costs**. (vi) **Few communication barriers**. (vii) Could easily be '
-       '**rearranged**.',
-       '(i) Some **senior staff dislike** the idea of being "dumped" in the same room with '
-       'their subordinates. (ii) There is **no privacy** for people who wish to discuss '
-       'confidential matters. (iii) **Noise** from movements in and out of the office, and from '
-       'office machines, might disturb some staff.'],
-    ]}},
-    {'note': 'Table 8.1 in the study text. Read down the two columns and the trade-off is '
-             'exactly symmetrical: every advantage of one is a disadvantage of the other. The '
-             'closed office buys **privacy, concentration and quiet** at the cost of **space, '
-             'duplicated facilities, supervision and workflow**; the open plan buys all four '
-             'back and loses the first three. There is no "better" layout — the answer depends '
-             'on the **business needs** factor at §8.4.'},
-  ]},
+  {'n': '8.3', 't': 'Types of office', 'b': [{'p': 'There are two types of office; these are **(a)** the closed office and **(b)** the open plan '
+       'office.'},
+ {'def': {'t': 'Closed office',
+          'd': 'an office where individuals, units or departments are allocated separate office rooms.'}},
+ {'def': {'t': 'Open plan office',
+          'd': 'an office in which more than one person, unit or department share the same large office '
+               'space. In this case there may be temporary partitions to create cubicles.'}},
+ {'table': {'align': 'lll',
+            'head': ['Type of office', 'Advantages', 'Disadvantages'],
+            'rows': [['**Closed**',
+                      '(i) There is **privacy** for confidential discussions. (ii) The occupant can '
+                      '**concentrate**, because there is very little disturbance from other employees. (iii) '
+                      'There is **reduction of noise**.',
+                      '(i) It is **not economical** — large space may be occupied by one individual. (ii) '
+                      '**Separate facilities** (computers, telephones, etc.) may have to be provided for '
+                      'each office. (iii) It may be **difficult to supervise** staff, because they are in '
+                      'different offices. (iv) It might **slow down the flow** of some activities which '
+                      'require constant interaction among employees.'],
+                     ['**Open plan**',
+                      '(i) It is **easy to supervise**, since everybody is in view. (ii) It **economises '
+                      'space**. (iii) **Exchange of information** among staff is easy, and this facilitates '
+                      'the flow of work. (iv) Certain **facilities may easily be shared**, e.g. printers. '
+                      '(v) **Lower energy costs**. (vi) **Few communication barriers**. (vii) Could easily '
+                      'be **rearranged**.',
+                      '(i) Some **senior staff dislike** the idea of being "dumped" in the same room with '
+                      'their subordinates. (ii) There is **no privacy** for people who wish to discuss '
+                      'confidential matters. (iii) **Noise** from movements in and out of the office, and '
+                      'from office machines, might disturb some staff.']]}},
+ {'note': 'Table 8.1 in the study text. Read down the two columns and the trade-off is exactly symmetrical: '
+          'every advantage of one is a disadvantage of the other. The closed office buys **privacy, '
+          'concentration and quiet** at the cost of **space, duplicated facilities, supervision and '
+          'workflow**; the open plan buys all four back and loses the first three. There is no "better" '
+          'layout — the answer depends on the **business needs** factor at §8.4.'},
+ {'figure': {'src': 'assets/study-figures/man-p365.png',
+             'alt': 'Table 8.1: Comparison of Closed and Open Office Layout',
+             'cap': 'Table 8.1: Comparison of Closed and Open Office Layout — original Management study-text '
+                    'page 338 (PDF 365). Open the page to enlarge.'}}]},
 
-  {'n': '8.4', 't': 'Planning an office layout', 'b': [
-    {'def': {'t': 'Office layout', 'd': 'the way the office is arranged to facilitate the flow '
-                  'of work. Office layout deals with the design and décor of an office, taking '
-                  'into account all equipment, supplies, accessories, and designing an '
-                  'arrangement needed for the proper functioning of the office.'}},
-    {'p': 'The following factors are taken into consideration in planning the layout of an '
-          'office:'},
-    {'ol': [
-      '**Churn rate** — for many organisations, office layouts are subject to frequent changes. '
-      'The process of change in office layout is known as the **churn rate**, which is '
-      'expressed as the **percentage of staff moved during the year**.',
-      '**Statutory requirement** — legal requirements contained in relevant legislation also '
-      'affect the planning of office layout. The **Factories Act of Nigeria** and the '
-      '**Factories, Offices and Shops Act of Ghana** explicitly specify fire prevention '
-      'arrangements, lighting levels, ventilation, temperature control, etc.',
-      '**Business needs** — office layout should provide an environment suitable for the '
-      'business of the organisation. For example, the layout of a bank will be different from '
-      'that of an accounting firm.',
-      '**Accommodation standards** — organisations often have a policy on the minimum standard '
-      'of accommodation for each staff grade. Administration staff may work in open plan '
-      'offices, whereas managers may have individual offices, sized on a seniority basis.',
-      '**Space availability** — planning an office layout will also depend on the quality and '
-      'the types of office space available for use.',
-    ]},
-    {'h4': 'Office landscaping'},
-    {'def': {'t': 'Office landscaping', 'd': 'the provision of a beautified office environment '
-                  'that creates a pleasant ambience or scenery in an office, which facilitates '
-                  'work, attracts customers and motivates workers.'}},
-    {'p': 'Office landscaping can be divided into **(i) ambience**, **(ii) space and '
-          'functions** and **(iii) signs and symbols**. The following table summarises the '
-          'considerations and provisions in an office that make it comfortable for workers:'},
-    {'table': {'align': 'lll', 'head': ['Ambience', 'Space and functions', 'Signs and symbols'],
-      'rows': [
-      ['Temperature', 'Office layout', 'Signage for direction'],
-      ['Air quality', 'Equipment', 'Artifacts'],
-      ['Noise level', 'Furniture', 'Awards plaques'],
-      ['Music', 'Parking space', 'Uniforms'],
-      ['Lighting', 'Convenience (toilet facilities)', ''],
-      ['Ventilation', 'Emergency', ''],
-      ['Neatness and cleanliness', 'Health and safety', ''],
-      ['Decorations', '', ''],
-      ['Paintings', '', ''],
-    ]}},
-    {'note': 'Table 8.2 in the study text. Note the three-way split, which is what an answer '
-             'should reproduce: **ambience** is what the office *feels* like (temperature, air, '
-             'noise, light, cleanliness); **space and functions** is what it *contains and '
-             'allows* (layout, equipment, furniture, parking, conveniences, emergency '
-             'provision, health and safety); and **signs and symbols** is what it '
-             '*communicates* (signage, artifacts, award plaques, uniforms). The third group is '
-             'the one candidates forget, and it is the one that does the work of projecting '
-             'identity to visitors.'},
-    {'key': '**Churn rate** is the term most likely to be asked for by name: it is the '
-            '**percentage of staff moved during the year**, and a high churn rate argues for a '
-            'flexible open plan arrangement that "could easily be rearranged" (§8.3) rather '
-            'than fixed closed offices.'},
-  ]},
+  {'n': '8.4', 't': 'Planning an office layout', 'b': [{'def': {'t': 'Office layout',
+          'd': 'the way the office is arranged to facilitate the flow of work. Office layout deals with the '
+               'design and décor of an office, taking into account all equipment, supplies, accessories, and '
+               'designing an arrangement needed for the proper functioning of the office.'}},
+ {'p': 'The following factors are taken into consideration in planning the layout of an office:'},
+ {'ol': ['**Churn rate** — for many organisations, office layouts are subject to frequent changes. The '
+         'process of change in office layout is known as the **churn rate**, which is expressed as the '
+         '**percentage of staff moved during the year**.',
+         '**Statutory requirement** — legal requirements contained in relevant legislation also affect the '
+         'planning of office layout. The **Factories Act of Nigeria** and the **Factories, Offices and Shops '
+         'Act of Ghana** explicitly specify fire prevention arrangements, lighting levels, ventilation, '
+         'temperature control, etc.',
+         '**Business needs** — office layout should provide an environment suitable for the business of the '
+         'organisation. For example, the layout of a bank will be different from that of an accounting firm.',
+         '**Accommodation standards** — organisations often have a policy on the minimum standard of '
+         'accommodation for each staff grade. Administration staff may work in open plan offices, whereas '
+         'managers may have individual offices, sized on a seniority basis.',
+         '**Space availability** — planning an office layout will also depend on the quality and the types '
+         'of office space available for use.']},
+ {'h4': 'Office landscaping'},
+ {'def': {'t': 'Office landscaping',
+          'd': 'the provision of a beautified office environment that creates a pleasant ambience or scenery '
+               'in an office, which facilitates work, attracts customers and motivates workers.'}},
+ {'p': 'Office landscaping can be divided into **(i) ambience**, **(ii) space and functions** and **(iii) '
+       'signs and symbols**. The following table summarises the considerations and provisions in an office '
+       'that make it comfortable for workers:'},
+ {'table': {'align': 'lll',
+            'head': ['Ambience', 'Space and functions', 'Signs and symbols'],
+            'rows': [['Temperature', 'Office layout', 'Signage for direction'],
+                     ['Air quality', 'Equipment', 'Artifacts'],
+                     ['Noise level', 'Furniture', 'Awards plaques'],
+                     ['Music', 'Parking space', 'Uniforms'],
+                     ['Lighting', 'Convenience (toilet facilities)', ''],
+                     ['Ventilation', 'Emergency', ''],
+                     ['Neatness and cleanliness', 'Health and safety', ''],
+                     ['Decorations', '', ''],
+                     ['Paintings', '', '']]}},
+ {'note': [{'p': 'Table 8.2 in the study text. Note the three-way split, which is what an answer should '
+                 'reproduce:'},
+           {'ul': ['**ambience** is what the office *feels* like (temperature, air, noise, light, '
+                   'cleanliness)',
+                   '**space and functions** is what it *contains and allows* (layout, equipment, furniture, '
+                   'parking, conveniences, emergency provision, health and safety)',
+                   'and **signs and symbols** is what it *communicates* (signage, artifacts, award plaques, '
+                   'uniforms). The third group is the one candidates forget, and it is the one that does the '
+                   'work of projecting identity to visitors.']}]},
+ {'key': '**Churn rate** is the term most likely to be asked for by name: it is the **percentage of staff '
+         'moved during the year**, and a high churn rate argues for a flexible open plan arrangement that '
+         '"could easily be rearranged" (§8.3) rather than fixed closed offices.'},
+ {'figure': {'src': 'assets/study-figures/man-p366.png',
+             'alt': 'Table 8.2: Summary of office landscaping',
+             'cap': 'Table 8.2: Summary of office landscaping — original Management study-text page 339 (PDF '
+                    '366). Open the page to enlarge.'}}]},
 
   {'n': '8.5', 't': 'Office machines and furniture', 'b': [
     {'def': {'t': 'Office machines', 'd': 'pieces of equipment that are used in an office to '
@@ -299,363 +296,323 @@ CH = {
              'they are numbered 8.7, 8.7.1 and 8.7.2 here.'},
   ]},
 
-  {'n': '8.8', 't': 'Forms', 'b': [
-    {'def': {'t': 'Form', 'd': 'a document with spaces (fields) in which to write or select, '
-                  'for a series of documents with similar contents. A form in a computer allows '
-                  'for conveniently typing in the variable parts (data input). When completed, '
-                  'forms may be a statement, a request, an order, etc.'}},
-    {'p': 'Examples of forms include ledgers, cheques, tax forms and appraisal forms. Forms may '
-          'be filled in duplicate, triplicate or more, where the information gathered on them '
-          'needs to be distributed to several departments within the organisation. This can be '
-          'done using carbon paper.'},
-    {'p': 'Generally, forms designed for information gathering are **free from copyright**. '
-          'Examples of such forms include account books, bank cheques, scorecards, address '
-          'books, report forms, order forms, diaries, time cards and graph paper. Otherwise, '
-          'for protection of intellectual property, some specially designed forms could be '
-          '**subject to copyright** — for example, some forms used for selection tests.'},
-    {'h4': '8.8.1  Advantages of forms'},
-    {'ol': [
-      '**reduces the need for writing** (while the printing is done in some automatic way);',
-      'generally **contains guidelines on how it should be filled**, thus minimising errors;',
-      '**uniformity**, for convenience in processing;',
-      'simpler tasks such as collecting or distributing data **can be separated in the '
-      'workflow** from more complex processes; and',
-      'information collected on the form **can be analysed later**.',
-    ]},
-    {'h4': '8.8.2  Design of forms'},
-    {'p': 'In the design of forms, the following factors must be considered:'},
-    {'ol': [
-      '**Content** — the form must request all relevant information. As much as possible, all '
-      'irrelevant questions should be avoided.',
-      '**Language** — questions contained in the form must be as short as possible and easily '
-      'understood by those filling them. For example, the way questions are designed in forms '
-      'for manual labourers should reflect their level of education.',
-      '**Purpose** — the purpose of the form will determine its design.',
-      '**Ease of processing** — where processing of information is to be done via computers, '
-      'the design will be such as to make this possible and easy. In some cases, specially '
-      'designed forms that may require shading with pencils are used.',
-    ]},
-    {'h4': '8.8.3  Control of forms'},
-    {'p': 'Controls exist only for forms that are classified as **security documents**.'},
-    {'def': {'t': 'Security documents', 'd': 'documents whose contents are restricted to only '
-                  'authorised personnel, due to the nature of the information contained in them '
-                  'or the possibility of their being used to perpetrate fraud or theft. '
-                  'Examples are cheques, receipts and some types of voucher.'}},
-    {'p': 'Generally, the following control measures are used in handling forms classified as '
-          'security documents:'},
-    {'ol': [
-      '**Storage** — these forms are usually stored in **security safes**. It is advised that '
-      'such safes are made of cast iron or concrete and placed in a secured office. Such '
-      'storage facility should be **fire and water resistant**. The keys to such a safe should '
-      'be kept by the **officer in charge** (cash officer, cashier, etc.) **and** somebody of '
-      '**sufficient seniority** in the organisation (e.g. the Head of Finance and Accounts).',
-      '**Tracking** — in some organisations, **release registers** are used to track the '
-      'release of receipt booklets and cheque books, for accountability purposes.',
-      '**Production** — production of forms like receipts should be **restricted to '
-      'organisations with sufficient integrity**. Also, some **security features** should be '
-      'present on such forms, to prevent counterfeiting.',
-    ]},
-    {'key': 'The storage rule is a **dual control**: the keys are held by the officer in charge '
-            '**and** by a sufficiently senior second person, so that no single individual can '
-            'reach the security documents alone. That is the same segregation-of-duties '
-            'principle that runs through internal control generally, applied to blank cheques '
-            'and receipt books.'},
-    {'note': 'Note the limiting words at the start of §8.8.3: controls exist **only** for forms '
-             'classified as security documents. Ordinary information-gathering forms — order '
-             'forms, appraisal forms, time cards — need good **design** (§8.8.2) but not '
-             'safe-custody **control**. The test for a security document is whether its contents '
-             'are restricted, or whether it could be used to perpetrate fraud or theft.'},
-  ]},
+  {'n': '8.8', 't': 'Forms', 'b': [{'def': {'t': 'Form',
+          'd': 'a document with spaces (fields) in which to write or select, for a series of documents with '
+               'similar contents. A form in a computer allows for conveniently typing in the variable parts '
+               '(data input). When completed, forms may be a statement, a request, an order, etc.'}},
+ {'p': 'Examples of forms include ledgers, cheques, tax forms and appraisal forms. Forms may be filled in '
+       'duplicate, triplicate or more, where the information gathered on them needs to be distributed to '
+       'several departments within the organisation. This can be done using carbon paper.'},
+ {'p': 'Generally, forms designed for information gathering are **free from copyright**. Examples of such '
+       'forms include account books, bank cheques, scorecards, address books, report forms, order forms, '
+       'diaries, time cards and graph paper. Otherwise, for protection of intellectual property, some '
+       'specially designed forms could be **subject to copyright** — for example, some forms used for '
+       'selection tests.'},
+ {'h4': '8.8.1  Advantages of forms'},
+ {'ol': ['**reduces the need for writing** (while the printing is done in some automatic way);',
+         'generally **contains guidelines on how it should be filled**, thus minimising errors;',
+         '**uniformity**, for convenience in processing;',
+         'simpler tasks such as collecting or distributing data **can be separated in the workflow** from '
+         'more complex processes; and',
+         'information collected on the form **can be analysed later**.']},
+ {'h4': '8.8.2  Design of forms'},
+ {'p': 'In the design of forms, the following factors must be considered:'},
+ {'ol': ['**Content** — the form must request all relevant information. As much as possible, all irrelevant '
+         'questions should be avoided.',
+         '**Language** — questions contained in the form must be as short as possible and easily understood '
+         'by those filling them. For example, the way questions are designed in forms for manual labourers '
+         'should reflect their level of education.',
+         '**Purpose** — the purpose of the form will determine its design.',
+         '**Ease of processing** — where processing of information is to be done via computers, the design '
+         'will be such as to make this possible and easy. In some cases, specially designed forms that may '
+         'require shading with pencils are used.']},
+ {'h4': '8.8.3  Control of forms'},
+ {'p': 'Controls exist only for forms that are classified as **security documents**.'},
+ {'def': {'t': 'Security documents',
+          'd': 'documents whose contents are restricted to only authorised personnel, due to the nature of '
+               'the information contained in them or the possibility of their being used to perpetrate fraud '
+               'or theft. Examples are cheques, receipts and some types of voucher.'}},
+ {'p': 'Generally, the following control measures are used in handling forms classified as security '
+       'documents:'},
+ {'ol': ['**Storage** — these forms are usually stored in **security safes**. It is advised that such safes '
+         'are made of cast iron or concrete and placed in a secured office. Such storage facility should be '
+         '**fire and water resistant**. The keys to such a safe should be kept by the **officer in charge** '
+         '(cash officer, cashier, etc.) **and** somebody of **sufficient seniority** in the organisation '
+         '(e.g. the Head of Finance and Accounts).',
+         '**Tracking** — in some organisations, **release registers** are used to track the release of '
+         'receipt booklets and cheque books, for accountability purposes.',
+         '**Production** — production of forms like receipts should be **restricted to organisations with '
+         'sufficient integrity**. Also, some **security features** should be present on such forms, to '
+         'prevent counterfeiting.']},
+ {'key': 'The storage rule is a **dual control**: the keys are held by the officer in charge **and** by a '
+         'sufficiently senior second person, so that no single individual can reach the security documents '
+         'alone. That is the same segregation-of-duties principle that runs through internal control '
+         'generally, applied to blank cheques and receipt books.'},
+ {'note': 'Note the limiting words at the start of §8.8.3: controls exist **only** for forms classified as '
+          'security documents. Ordinary information-gathering forms — order forms, appraisal forms, time '
+          'cards — need good **design** (§8.8.2) but not safe-custody **control**. The test for a security '
+          'document is whether its contents are restricted, or whether it could be used to perpetrate fraud '
+          'or theft.'},
+ {'warn': 'Source-number clarification: the Forms heading on PDF page 369 / printed page 342 is printed '
+          '“3.8” inside Chapter 8. The readable heading here uses 8.8, matching its following 8.8.1–8.8.3 '
+          'subsections.'}]},
 
-  {'n': '8.9', 't': 'Information technology application in management', 'b': [
-    {'def': {'t': 'Information technology', 'd': 'concerned with the use of computer and '
-                  'communication-based technologies to solve a variety of human, organisational, '
-                  'country-wide or global problems. It is technology-based systems that enhance '
-                  'efficiency and effectiveness in the generation and use of information in a '
-                  'variety of strategic, tactical and operational situations.'}},
-    {'p': 'Information technology has become a veritable tool to achieve efficiency and '
-          'effectiveness in **all areas of management**.'},
-    {'table': {'align': 'll', 'head': ['Managerial function', 'Role of IT'], 'rows': [
-      ['**Planning**',
-       'It aids **scenario planning**; a wealth of information helps **decision making**; '
-       '**consumer access** to product and service information allows comparisons, with '
-       'implications for marketing; strategies thus **focus on consumer needs** and the service '
-       'required.'],
-      ['**Organising**',
-       'Organisations become **change agents**; **new organisational forms** emerge (e.g. '
-       'outsourcing, online operations); knowledge of work promotes **non-hierarchical '
-       'structures**.'],
-      ['**Staffing**',
-       '**Specialised technical knowledge** is needed; **greater mobility** of workers in '
-       'changing jobs; information enhances workers\' **upward mobility**; specialised '
-       'knowledge workers function as **consultants or contractors** in temporary or part-time '
-       'employment; **outsourcing of human resources management** to specialised firms at home '
-       'and abroad; use of **older, semi-retired professionals** as consultants; **continued '
-       'training and retraining** to keep abreast of new technologies; development of **new '
-       'measurements** for evaluating and rewarding workers.'],
-      ['**Leading**',
-       'Information availability **gives power to knowledge workers and consumers**; knowledge '
-       'workers demand **higher-order needs satisfaction** (recognition, self-actualisation, '
-       'responsibility, participation, etc.); **electronic communication technology** aids the '
-       'framework; **lower communication cost**.'],
-      ['**Controlling**',
-       '**Ease of control**; **detection of deviation from plan**; facilitates **productivity '
-       'measurement at low cost**; the internet enables **worldwide selling**, and **scanning '
-       'of the external environment** is made easier and faster.'],
-    ]}},
-    {'note': 'Table 8.3 in the study text, sourced to **Weihrich, Cannice and Koontz, '
-             '*Management*, 12th edition, McGraw-Hill, pp. 483–485**. The table is organised by '
-             'the **five management functions** of §2.4 — planning, organising, staffing, '
-             'leading and controlling — so a question on "the impact of IT on management" is '
-             'best answered function by function in that order rather than as a general list of '
-             'benefits.'},
-    {'key': 'The deepest change in the table is in **leading**: information availability '
-            '**shifts power** to knowledge workers and consumers, and knowledge workers then '
-            'demand higher-order need satisfaction — recognition, self-actualisation, '
-            'responsibility, participation. That is a direct link to the motivation theory of '
-            'Chapter 5: IT does not merely make the manager\'s existing job easier, it changes '
-            'what employees want from the job and therefore what leadership has to supply.'},
-  ]},
+  {'n': '8.9', 't': 'Information technology application in management', 'b': [{'def': {'t': 'Information technology',
+          'd': 'concerned with the use of computer and communication-based technologies to solve a variety '
+               'of human, organisational, country-wide or global problems. It is technology-based systems '
+               'that enhance efficiency and effectiveness in the generation and use of information in a '
+               'variety of strategic, tactical and operational situations.'}},
+ {'p': 'Information technology has become a veritable tool to achieve efficiency and effectiveness in **all '
+       'areas of management**.'},
+ {'table': {'align': 'll',
+            'head': ['Managerial function', 'Role of IT'],
+            'rows': [['**Planning**',
+                      'It aids **scenario planning**; a wealth of information helps **decision making**; '
+                      '**consumer access** to product and service information allows comparisons, with '
+                      'implications for marketing; strategies thus **focus on consumer needs** and the '
+                      'service required.'],
+                     ['**Organising**',
+                      'Organisations become **change agents**; **new organisational forms** emerge (e.g. '
+                      'outsourcing, online operations); knowledge of work promotes **non-hierarchical '
+                      'structures**.'],
+                     ['**Staffing**',
+                      '**Specialised technical knowledge** is needed; **greater mobility** of workers in '
+                      "changing jobs; information enhances workers' **upward mobility**; specialised "
+                      'knowledge workers function as **consultants or contractors** in temporary or '
+                      'part-time employment; **outsourcing of human resources management** to specialised '
+                      'firms at home and abroad; use of **older, semi-retired professionals** as '
+                      'consultants; **continued training and retraining** to keep abreast of new '
+                      'technologies; development of **new measurements** for evaluating and rewarding '
+                      'workers.'],
+                     ['**Leading**',
+                      'Information availability **gives power to knowledge workers and consumers**; '
+                      'knowledge workers demand **higher-order needs satisfaction** (recognition, '
+                      'self-actualisation, responsibility, participation, etc.); **electronic communication '
+                      'technology** aids the framework; **lower communication cost**.'],
+                     ['**Controlling**',
+                      '**Ease of control**; **detection of deviation from plan**; facilitates **productivity '
+                      'measurement at low cost**; the internet enables **worldwide selling**, and **scanning '
+                      'of the external environment** is made easier and faster.']]}},
+ {'note': 'Table 8.3 in the study text, sourced to **Weihrich, Cannice and Koontz, *Management*, 12th '
+          'edition, McGraw-Hill, pp. 483–485**. The table is organised by the **five management functions** '
+          'of §2.4 — planning, organising, staffing, leading and controlling — so a question on "the impact '
+          'of IT on management" is best answered function by function in that order rather than as a general '
+          'list of benefits.'},
+ {'key': 'The deepest change in the table is in **leading**: information availability **shifts power** to '
+         'knowledge workers and consumers, and knowledge workers then demand higher-order need satisfaction '
+         '— recognition, self-actualisation, responsibility, participation. That is a direct link to the '
+         "motivation theory of Chapter 5: IT does not merely make the manager's existing job easier, it "
+         'changes what employees want from the job and therefore what leadership has to supply.'},
+ {'figure': {'src': 'assets/study-figures/man-p371.png',
+             'alt': 'Table 8.3: Managerial Role of ICT',
+             'cap': 'Table 8.3: Managerial Role of ICT — original Management study-text page 344 (PDF 371). '
+                    'Open the page to enlarge.'}}]},
 
-  {'n': '8.10', 't': 'Health and safety at work', 'b': [
-    {'p': 'Despite the level of development in a country like the United Kingdom, it was '
-          'estimated that over **500 people are killed at work every year** and several hundred '
-          'thousand more are injured or suffer ill health (Armstrong, 2006). The equivalent '
-          'figures for West African countries will be much higher. This underscores the '
-          'importance of effectively managing health and safety at work.'},
-    {'h4': 'What is safety and health?'},
-    {'p': 'Webster defines:'},
-    {'ol': [
-      '**Safety** — freedom from danger, injury or damage; security.',
-      '**Health** — physical and mental well-being; freedom from disease, pain or defect; '
-      'normality of physical and mental functions; soundness.',
-    ]},
-    {'p': 'The **Occupational Safety and Health Act (OSHA)** states its purpose as: *"To assure '
-          'as far as possible every working man and woman in the nation safe and healthful '
-          'working conditions, and to preserve our human resources."*'},
-    {'warn': 'A numbering defect in the study text, flagged rather than silently corrected: this '
-             'section and its first sub-section are printed in the body as **"3.10"** and '
-             '**"3.10.1"**, again carrying chapter 3\'s number. The remaining sub-sections '
-             '(8.10.2, 8.10.3, 8.10.4) are numbered correctly, and the chapter contents list '
-             'places all of them in chapter 8.'},
-
-    {'h4': '8.10.1  Importance of health and safety at work'},
-    {'ol': [
-      'it is important to achieve the **highest standard of health and safety** at the '
-      'workplace, because ill-health and injuries result in **loss and damage for the '
-      'organisation**. Losses could arise from legal fees, fires, compensatory damages, lost '
-      'production, and lost goodwill from workers, customers and the wider community;',
-      'health and safety at the workplace is also important because it **safeguards the health '
-      'and safety of workers**. Morally, no worker should be made to work where his or her '
-      'welfare is at risk; and',
-      'in most countries there are **statutes on health and safety** issues with which '
-      'organisations must comply. Failure to do this might attract **government sanctions**.',
-    ]},
-    {'key': 'The three reasons are **economic, moral and legal**, in that order — and an answer '
-            'that names all three headings scores better than one that lists consequences '
-            'without classifying them. The economic case (losses from legal fees, fires, '
-            'compensation, lost production and lost goodwill) is the one a board responds to; '
-            'the moral case stands independently of cost; and the legal case makes compliance '
-            'non-optional.'},
-
-    {'h4': '8.10.2  Health and safety regulations and legislation'},
-    {'h4': 'National Policy on Occupational Safety and Health (2006)'},
-    {'p': 'The National Policy on Occupational Safety and Health, a guide to occupational '
-          'safety and health in Nigeria, is the government\'s approach for achieving a national '
-          'development philosophy of building a **united, self-reliant and egalitarian '
-          'economy**, through minimising so far as is reasonably practicable the causes and '
-          'effects of hazards inherent in the working environment — in response to Nigeria\'s '
-          'ratification of **Convention 155 on Occupational Safety, Health and Working '
-          'Environment**. The Policy came into force in **November 2006**.'},
-    {'p': 'The **goals** of the Policy are to:'},
-    {'ol': [
-      '**facilitate improvement of occupational safety and health performance**, by providing '
-      'the framework for participative occupational safety and health protection of workers — '
-      'including the most vulnerable groups — in all sectors of economic activity; and',
-      '**ensure harmonisation of workers\' rights protection with regional and international '
-      'standards** in a private sector-led economy, thus focusing the role of the competent '
-      'authority on facilitating an enabling environment and regulating various provisions for '
-      'securing the safety, health and welfare of workers in Nigerian workplaces.',
-    ]},
-    {'p': 'The **objectives** are:'},
-    {'ol': [
-      'to create a **general framework for the improvement of working conditions** and the '
-      'working environment;',
-      'to **prevent accidents and departures from health** arising out of, or in the course of, '
-      'work; and',
-      'to ensure the **provision of occupational safety and health services** to workers in all '
-      'sectors of economic activity.',
-    ]},
-    {'p': 'The **scope** of the Policy covers both the **formal and informal sectors** of the '
-          'economy; protection of all categories of workers from undue persecution; effective '
-          'communication and cooperation amongst all stakeholders; prevention and control of '
-          'hazards from all forms of occupational exposure; provision of health surveillance '
-          'and emergency medical services; training in the area of occupational health and '
-          'safety; and the gathering and storage of information pertaining to occupational '
-          'safety and health, amongst other areas of focus.'},
-    {'h4': 'The statutory framework in Nigeria and Ghana'},
-    {'p': 'In **Nigeria**, health and safety legislation is found in the **common law**, the '
-          '**Factories Act Cap 26, Laws of the Federation of Nigeria 1990** and the '
-          '**Workmen\'s Compensation Act Cap 470, Laws of the Federation of Nigeria 1990**. '
-          'Nigeria is also a member of the **International Labour Organisation (ILO)** and a '
-          'signatory to **ILO Convention No. 155**, titled the Occupational Safety and Health '
-          'Convention, 1981.'},
-    {'p': 'In **Ghana**, apart from the common law, health and safety issues are dealt with in '
-          'the **Factories, Offices and Shops Act 1970**, the **Labour Act of 2003** and the '
-          '**Workman Compensation Act**. Like Nigeria, Ghana is also a signatory to **ILO '
-          'Convention 155 of 1981** on health and safety at work.'},
-    {'p': 'The **Nigerian Factories Act 1990**, just like the **Factories, Offices and Shops '
-          'Act 1990 of Ghana**, is primarily designed to **govern, order and regulate '
-          'industrial activities** generally. Their main objective is to **prevent occupational '
-          'hazards and diseases** in workplaces. These laws make it **obligatory for employers '
-          'of labour to take various precautions** to protect their workers, dealing with '
-          'issues such as cleanliness, ventilation, lighting, sanitation, conveniences and fire '
-          'prevention. The laws also prescribe how machinery and equipment that could cause '
-          'injury at work should be handled — by fencing, wearing of helmets, etc. — and '
-          'prescribe **various penalties for contravention**.'},
-    {'h4': 'The Factories Act, CAP F1, Laws of the Federation of Nigeria 2004'},
-    {'table': {'align': 'll', 'head': ['Subsidiary legislation (regulations)',
-      'What the regulations provide for'], 'rows': [
-      ['**Factories (Wood Working Machinery) Regulations, LN 189 of 1958**',
-       'Provides guidance for the conduct of any factory or parts thereof, and any place to '
-       'which section 46 of the Act applies, in which wood work occurs. It speaks to the '
-       'provision of equipment and machinery fencing and guards in such establishments.'],
-      ['**Factories (Notification of Dangerous Occurrences) Regulations, LN 105 of 1961**',
-       'Provides guidance for the notification of accidents and dangerous occurrences in '
-       'accordance with sections 51–52 of the Act, whether or not death or disablement '
-       'occurs.'],
-      ['**Docks (Safety of Labour) Regulations, LN 42 of 1958**',
-       'Provides guidance for the process of loading, unloading or bunkering any vessel in any '
-       'dock in a port, and for all machinery or plant used in those processes.'],
-      ['**Factories (Registration, Fees etc.) Regulations 2007**',
-       'Provides for fees payable for the certification and appointment of "approved persons" '
-       'for the purposes of lifting equipment inspection and certification, and for the '
-       'registration and renewal of the Certificate of Registration of Factory Premises.'],
-      ['**Docks (Sanitary Accommodation) Regulations, 1958**',
-       'Provides for the provision of sanitary conveniences to all docks under the jurisdiction '
-       'of the Docks (Safety of Labour) Regulations.'],
-      ['**Declaration of Industrial Diseases Notice, LN 114 of 1956**',
-       'Provides for the identification of diseases or illnesses that might be contracted by an '
-       'employed person by reason of the nature of his employment.'],
-      ['**First Aid Boxes (Prescribed Standards) Order, LN 188 of 1958**',
-       'Gives specifications for the provision of first aid boxes to be provided at factories, '
-       'in line with the number of employees present.'],
-    ]}},
-    {'note': 'Table 8.4 in the study text.'},
-    {'h4': 'The Workmen\'s Compensation Act, and the Employees\' Compensation Act 2010'},
-    {'p': 'The **Workmen\'s Compensation Act** — like the **Workman Compensation Act 1923 of '
-          'Ghana** and the Ghana Labour Act — prescribes various compensation for workers in '
-          'the event of **injury or death by accident arising out of, or in the course of, the '
-          'employment** of the workman.'},
-    {'p': 'The **Employees\' Compensation Act, 2010** repeals the Workmen\'s Compensation Act, '
-          'Cap. W6, Laws of the Federation of Nigeria 2004, and makes comprehensive provision '
-          'for payment of compensation to employees who **suffer from occupational diseases or '
-          'sustain injuries arising from accident at the workplace or in the course of '
-          'employment**.'},
-    {'p': 'The **objectives** of the Act are to:'},
-    {'ol': [
-      'provide for an **open and fair system of guaranteed and adequate compensation** for all '
-      'employees or their dependants, for any death, injury, disease or disability arising out '
-      'of or in the course of employment;',
-      'provide **rehabilitation** to employees with work-related disabilities as provided in '
-      'the Act;',
-      'establish and maintain a **solvent compensation fund**, managed in the interest of '
-      'employees and employers;',
-      'provide for **fair and adequate assessments for employers**;',
-      'provide an **appeal procedure** that is simple, fair and accessible, with minimal '
-      'delays; and',
-      '**combine efforts and resources of relevant stakeholders for the prevention of workplace '
-      'disabilities**, including the enforcement of occupational safety and health standards.',
-    ]},
-    {'key': 'Keep the two strands of the legislation apart, because an answer that merges them '
-            'misses half the marks. The **Factories Act** (and Ghana\'s Factories, Offices and '
-            'Shops Act) is **preventive** — it regulates how workplaces must be run so that '
-            'injury does not occur, and penalises contravention. The **Employees\' Compensation '
-            'Act 2010** (replacing the Workmen\'s Compensation Act) is **compensatory** — it '
-            'provides what happens after injury, disease or death. Note that objective (f) of '
-            'the 2010 Act reaches back across the divide into prevention.'},
-    {'note': 'Both Nigeria and Ghana are signatories to **ILO Convention 155 (1981)** on '
-             'occupational safety and health, and Nigeria\'s **National Policy on Occupational '
-             'Safety and Health (November 2006)** was adopted in response to ratifying it. That '
-             'international obligation is the thread that explains why the two countries\' '
-             'frameworks resemble each other.'},
-
-    {'h4': '8.10.3  Sources of danger to health and safety at the workplace'},
-    {'p': 'Common sources of safety hazard at the workplace are:'},
-    {'ol': [
-      '**slippery floors**;', '**open cabinets**;', '**frayed carpets**;',
-      '**poorly lit stairways or offices**;', '**unsafe work processes**;',
-      '**poor ventilation**;',
-      '**careless storage of hazardous items**, such as sharp objects and dangerous chemicals;',
-      '**dangerous fumes**;',
-      '**wrong use or handling of equipment/machinery** at the workplace;',
-      '**manufacturing equipment malfunctioning**, which may be compounded by inadequate '
-      'maintenance;',
-      '**poor factory layout**;', '**horseplay** at the workplace;',
-      '**inadequate or absence of sewage facility**;', '**dirty environment**;',
-      '**inadequate safety equipment/gadgets**; and',
-      '**failure to use safety equipment, or refusal to adhere to safety procedures** during '
-      'work.',
-    ]},
-    {'key': 'The sixteen sources fall into three groups, and classifying them makes a far '
-            'better answer than reciting the list: **the physical environment** (slippery '
-            'floors, open cabinets, frayed carpets, poor lighting, poor ventilation, dirty '
-            'environment, inadequate sewage, poor factory layout); **equipment and process** '
-            '(unsafe work processes, careless storage of hazardous items, dangerous fumes, '
-            'malfunctioning equipment, inadequate safety gadgets); and **human behaviour** '
-            '(wrong use of equipment, horseplay, and failure or refusal to use safety equipment '
-            'and follow procedures). The last group is the one no amount of capital expenditure '
-            'can fix — which is why item (i) of §8.10.4 makes worker commitment a measure in '
-            'its own right.'},
-
-    {'h4': '8.10.4  Prevention and protective measures for safety in an office'},
-    {'ol': [
-      '**Safety policy** — the first step towards prevention of injury or death at the '
-      'workplace is to put in place a safety policy. In some developed countries this is '
-      'required by law. The safety policy is a **statement of commitment of management** to '
-      'safety and health at work.',
-      '**Periodic risk assessment** — the process of **identifying hazards and the risks '
-      'attached to them**. It is a proactive strategy aimed at tackling every health and safety '
-      'risk at the workplace, and information obtained from this exercise will help in taking '
-      'preventive measures.',
-      '**Hazard elimination** — this may require the **use of alternatives, design improvement '
-      'or change of process**.',
-      '**Substitution** — for example, replacement of hazardous equipment with a less dangerous '
-      'one.',
-      '**Use of barriers** — removal of dangerous equipment from workers, or of workers from '
-      'dangerous equipment.',
-      '**Use of procedure** — putting in place a step-by-step procedure for carrying out an '
-      'operation.',
-      '**Use of a warning system** — such as instructions, signs and labels. However, these '
-      'depend on **human response**.',
-      '**Use of protective equipment** — such as clothing and gloves.',
-      '**Commitment of workers** to adherence to safety procedures and use of safety equipment '
-      '— no matter how safety-conscious an organisation is, if workers refuse to comply with '
-      'safety rules, injury or death at the workplace may occur.',
-      'hazards can be prevented by **designing and installing safety equipment and protective '
-      'devices**;',
-      '**periodic inspections and checks** to eliminate risks;',
-      '**investigating accidents** as they occur, and taking corrective actions;',
-      'a **continuous programme of education and training** on safe work habits and methods of '
-      'preventing accidents; and',
-      '**designation of a Safety and Health Officer** — this officer shall be the health and '
-      'safety champion in the organisation.',
-    ]},
-    {'key': 'Measures (c) to (h) form a deliberate **hierarchy of control**, strongest first, '
-            'and saying so turns a list into an argument: **eliminate** the hazard; if you '
-            'cannot, **substitute** something less dangerous; if you cannot, put a **barrier** '
-            'between worker and hazard; if you cannot, impose a **procedure**; if you cannot, '
-            '**warn**; and only as the last resort rely on **personal protective equipment**. '
-            'The order matters because each step down depends more heavily on human behaviour — '
-            'the book makes the point explicitly of warning systems, which "depend on human '
-            'response".'},
-    {'note': 'Two measures bracket the whole list and are the ones to name first in an answer. '
-             'The **safety policy** is "the first step" — a written statement of management '
-             'commitment, without which nothing else has authority. And the **designation of a '
-             'Safety and Health Officer** gives the policy an owner. Between them sit '
-             'assessment, the control hierarchy, inspection, accident investigation and '
-             'training.'},
-  ]},
+  {'n': '8.10', 't': 'Health and safety at work', 'b': [{'p': 'Despite the level of development in a country like the United Kingdom, it was estimated that over '
+       '**500 people are killed at work every year** and several hundred thousand more are injured or suffer '
+       'ill health (Armstrong, 2006). The equivalent figures for West African countries will be much higher. '
+       'This underscores the importance of effectively managing health and safety at work.'},
+ {'h4': 'What is safety and health?'},
+ {'p': 'Webster defines:'},
+ {'ol': ['**Safety** — freedom from danger, injury or damage; security.',
+         '**Health** — physical and mental well-being; freedom from disease, pain or defect; normality of '
+         'physical and mental functions; soundness.']},
+ {'p': 'The **Occupational Safety and Health Act (OSHA)** states its purpose as: *"To assure as far as '
+       'possible every working man and woman in the nation safe and healthful working conditions, and to '
+       'preserve our human resources."*'},
+ {'warn': 'A numbering defect in the study text, flagged rather than silently corrected: this section and '
+          'its first sub-section are printed in the body as **"3.10"** and **"3.10.1"**, again carrying '
+          "chapter 3's number. The remaining sub-sections (8.10.2, 8.10.3, 8.10.4) are numbered correctly, "
+          'and the chapter contents list places all of them in chapter 8.'},
+ {'h4': '8.10.1  Importance of health and safety at work'},
+ {'ol': ['it is important to achieve the **highest standard of health and safety** at the workplace, because '
+         'ill-health and injuries result in **loss and damage for the organisation**. Losses could arise '
+         'from legal fees, fires, compensatory damages, lost production, and lost goodwill from workers, '
+         'customers and the wider community;',
+         'health and safety at the workplace is also important because it **safeguards the health and safety '
+         'of workers**. Morally, no worker should be made to work where his or her welfare is at risk; and',
+         'in most countries there are **statutes on health and safety** issues with which organisations must '
+         'comply. Failure to do this might attract **government sanctions**.']},
+ {'key': 'The three reasons are **economic, moral and legal**, in that order — and an answer that names all '
+         'three headings scores better than one that lists consequences without classifying them. The '
+         'economic case (losses from legal fees, fires, compensation, lost production and lost goodwill) is '
+         'the one a board responds to; the moral case stands independently of cost; and the legal case makes '
+         'compliance non-optional.'},
+ {'h4': '8.10.2  Health and safety regulations and legislation'},
+ {'h4': 'National Policy on Occupational Safety and Health (2006)'},
+ {'p': 'The National Policy on Occupational Safety and Health, a guide to occupational safety and health in '
+       "Nigeria, is the government's approach for achieving a national development philosophy of building a "
+       '**united, self-reliant and egalitarian economy**, through minimising so far as is reasonably '
+       'practicable the causes and effects of hazards inherent in the working environment — in response to '
+       "Nigeria's ratification of **Convention 155 on Occupational Safety, Health and Working Environment**. "
+       'The Policy came into force in **November 2006**.'},
+ {'p': 'The **goals** of the Policy are to:'},
+ {'ol': ['**facilitate improvement of occupational safety and health performance**, by providing the '
+         'framework for participative occupational safety and health protection of workers — including the '
+         'most vulnerable groups — in all sectors of economic activity; and',
+         "**ensure harmonisation of workers' rights protection with regional and international standards** "
+         'in a private sector-led economy, thus focusing the role of the competent authority on facilitating '
+         'an enabling environment and regulating various provisions for securing the safety, health and '
+         'welfare of workers in Nigerian workplaces.']},
+ {'p': 'The **objectives** are:'},
+ {'ol': ['to create a **general framework for the improvement of working conditions** and the working '
+         'environment;',
+         'to **prevent accidents and departures from health** arising out of, or in the course of, work; and',
+         'to ensure the **provision of occupational safety and health services** to workers in all sectors '
+         'of economic activity.']},
+ {'p': 'The **scope** of the Policy covers both the **formal and informal sectors** of the economy; '
+       'protection of all categories of workers from undue persecution; effective communication and '
+       'cooperation amongst all stakeholders; prevention and control of hazards from all forms of '
+       'occupational exposure; provision of health surveillance and emergency medical services; training in '
+       'the area of occupational health and safety; and the gathering and storage of information pertaining '
+       'to occupational safety and health, amongst other areas of focus.'},
+ {'h4': 'The statutory framework in Nigeria and Ghana'},
+ {'p': 'In **Nigeria**, health and safety legislation is found in the **common law**, the **Factories Act '
+       "Cap 26, Laws of the Federation of Nigeria 1990** and the **Workmen's Compensation Act Cap 470, Laws "
+       'of the Federation of Nigeria 1990**. Nigeria is also a member of the **International Labour '
+       'Organisation (ILO)** and a signatory to **ILO Convention No. 155**, titled the Occupational Safety '
+       'and Health Convention, 1981.'},
+ {'p': 'In **Ghana**, apart from the common law, health and safety issues are dealt with in the **Factories, '
+       'Offices and Shops Act 1970**, the **Labour Act of 2003** and the **Workman Compensation Act**. Like '
+       'Nigeria, Ghana is also a signatory to **ILO Convention 155 of 1981** on health and safety at work.'},
+ {'p': 'The **Nigerian Factories Act 1990**, just like the **Factories, Offices and Shops Act 1990 of '
+       'Ghana**, is primarily designed to **govern, order and regulate industrial activities** generally. '
+       'Their main objective is to **prevent occupational hazards and diseases** in workplaces. These laws '
+       'make it **obligatory for employers of labour to take various precautions** to protect their workers, '
+       'dealing with issues such as cleanliness, ventilation, lighting, sanitation, conveniences and fire '
+       'prevention. The laws also prescribe how machinery and equipment that could cause injury at work '
+       'should be handled — by fencing, wearing of helmets, etc. — and prescribe **various penalties for '
+       'contravention**.'},
+ {'h4': 'The Factories Act, CAP F1, Laws of the Federation of Nigeria 2004'},
+ {'table': {'align': 'll',
+            'head': ['Subsidiary legislation (regulations)', 'What the regulations provide for'],
+            'rows': [['**Factories (Wood Working Machinery) Regulations, LN 189 of 1958**',
+                      'Provides guidance for the conduct of any factory or parts thereof, and any place to '
+                      'which section 46 of the Act applies, in which wood work occurs. It speaks to the '
+                      'provision of equipment and machinery fencing and guards in such establishments.'],
+                     ['**Factories (Notification of Dangerous Occurrences) Regulations, LN 105 of 1961**',
+                      'Provides guidance for the notification of accidents and dangerous occurrences in '
+                      'accordance with sections 51–52 of the Act, whether or not death or disablement '
+                      'occurs.'],
+                     ['**Docks (Safety of Labour) Regulations, LN 42 of 1958**',
+                      'Provides guidance for the process of loading, unloading or bunkering any vessel in '
+                      'any dock in a port, and for all machinery or plant used in those processes.'],
+                     ['**Factories (Registration, Fees etc.) Regulations 2007**',
+                      'Provides for fees payable for the certification and appointment of "approved persons" '
+                      'for the purposes of lifting equipment inspection and certification, and for the '
+                      'registration and renewal of the Certificate of Registration of Factory Premises.'],
+                     ['**Docks (Sanitary Accommodation) Regulations, 1958**',
+                      'Provides for the provision of sanitary conveniences to all docks under the '
+                      'jurisdiction of the Docks (Safety of Labour) Regulations.'],
+                     ['**Declaration of Industrial Diseases Notice, LN 114 of 1956**',
+                      'Provides for the identification of diseases or illnesses that might be contracted by '
+                      'an employed person by reason of the nature of his employment.'],
+                     ['**First Aid Boxes (Prescribed Standards) Order, LN 188 of 1958**',
+                      'Gives specifications for the provision of first aid boxes to be provided at '
+                      'factories, in line with the number of employees present.']]}},
+ {'note': 'Table 8.4 in the study text.'},
+ {'h4': "The Workmen's Compensation Act, and the Employees' Compensation Act 2010"},
+ {'p': "The **Workmen's Compensation Act** — like the **Workman Compensation Act 1923 of Ghana** and the "
+       'Ghana Labour Act — prescribes various compensation for workers in the event of **injury or death by '
+       'accident arising out of, or in the course of, the employment** of the workman.'},
+ {'p': "The **Employees' Compensation Act, 2010** repeals the Workmen's Compensation Act, Cap. W6, Laws of "
+       'the Federation of Nigeria 2004, and makes comprehensive provision for payment of compensation to '
+       'employees who **suffer from occupational diseases or sustain injuries arising from accident at the '
+       'workplace or in the course of employment**.'},
+ {'p': 'The **objectives** of the Act are to:'},
+ {'ol': ['provide for an **open and fair system of guaranteed and adequate compensation** for all employees '
+         'or their dependants, for any death, injury, disease or disability arising out of or in the course '
+         'of employment;',
+         'provide **rehabilitation** to employees with work-related disabilities as provided in the Act;',
+         'establish and maintain a **solvent compensation fund**, managed in the interest of employees and '
+         'employers;',
+         'provide for **fair and adequate assessments for employers**;',
+         'provide an **appeal procedure** that is simple, fair and accessible, with minimal delays; and',
+         '**combine efforts and resources of relevant stakeholders for the prevention of workplace '
+         'disabilities**, including the enforcement of occupational safety and health standards.']},
+ {'key': 'Keep the two strands of the legislation apart, because an answer that merges them misses half the '
+         "marks. The **Factories Act** (and Ghana's Factories, Offices and Shops Act) is **preventive** — it "
+         'regulates how workplaces must be run so that injury does not occur, and penalises contravention. '
+         "The **Employees' Compensation Act 2010** (replacing the Workmen's Compensation Act) is "
+         '**compensatory** — it provides what happens after injury, disease or death. Note that objective '
+         '(f) of the 2010 Act reaches back across the divide into prevention.'},
+ {'note': 'Both Nigeria and Ghana are signatories to **ILO Convention 155 (1981)** on occupational safety '
+          "and health, and Nigeria's **National Policy on Occupational Safety and Health (November 2006)** "
+          'was adopted in response to ratifying it. That international obligation is the thread that '
+          "explains why the two countries' frameworks resemble each other."},
+ {'h4': '8.10.3  Sources of danger to health and safety at the workplace'},
+ {'p': 'Common sources of safety hazard at the workplace are:'},
+ {'ol': ['**slippery floors**;',
+         '**open cabinets**;',
+         '**frayed carpets**;',
+         '**poorly lit stairways or offices**;',
+         '**unsafe work processes**;',
+         '**poor ventilation**;',
+         '**careless storage of hazardous items**, such as sharp objects and dangerous chemicals;',
+         '**dangerous fumes**;',
+         '**wrong use or handling of equipment/machinery** at the workplace;',
+         '**manufacturing equipment malfunctioning**, which may be compounded by inadequate maintenance;',
+         '**poor factory layout**;',
+         '**horseplay** at the workplace;',
+         '**inadequate or absence of sewage facility**;',
+         '**dirty environment**;',
+         '**inadequate safety equipment/gadgets**; and',
+         '**failure to use safety equipment, or refusal to adhere to safety procedures** during work.']},
+ {'key': [{'p': 'The sixteen sources fall into three groups, and classifying them makes a far better answer '
+                'than reciting the list:'},
+          {'ul': ['**the physical environment** (slippery floors, open cabinets, frayed carpets, poor '
+                  'lighting, poor ventilation, dirty environment, inadequate sewage, poor factory layout)',
+                  '**equipment and process** (unsafe work processes, careless storage of hazardous items, '
+                  'dangerous fumes, malfunctioning equipment, inadequate safety gadgets)',
+                  'and **human behaviour** (wrong use of equipment, horseplay, and failure or refusal to use '
+                  'safety equipment and follow procedures). The last group is the one no amount of capital '
+                  'expenditure can fix — which is why item (i) of §8.10.4 makes worker commitment a measure '
+                  'in its own right.']}]},
+ {'h4': '8.10.4  Prevention and protective measures for safety in an office'},
+ {'ol': ['**Safety policy** — the first step towards prevention of injury or death at the workplace is to '
+         'put in place a safety policy. In some developed countries this is required by law. The safety '
+         'policy is a **statement of commitment of management** to safety and health at work.',
+         '**Periodic risk assessment** — the process of **identifying hazards and the risks attached to '
+         'them**. It is a proactive strategy aimed at tackling every health and safety risk at the '
+         'workplace, and information obtained from this exercise will help in taking preventive measures.',
+         '**Hazard elimination** — this may require the **use of alternatives, design improvement or change '
+         'of process**.',
+         '**Substitution** — for example, replacement of hazardous equipment with a less dangerous one.',
+         '**Use of barriers** — removal of dangerous equipment from workers, or of workers from dangerous '
+         'equipment.',
+         '**Use of procedure** — putting in place a step-by-step procedure for carrying out an operation.',
+         '**Use of a warning system** — such as instructions, signs and labels. However, these depend on '
+         '**human response**.',
+         '**Use of protective equipment** — such as clothing and gloves.',
+         '**Commitment of workers** to adherence to safety procedures and use of safety equipment — no '
+         'matter how safety-conscious an organisation is, if workers refuse to comply with safety rules, '
+         'injury or death at the workplace may occur.',
+         'hazards can be prevented by **designing and installing safety equipment and protective devices**;',
+         '**periodic inspections and checks** to eliminate risks;',
+         '**investigating accidents** as they occur, and taking corrective actions;',
+         'a **continuous programme of education and training** on safe work habits and methods of preventing '
+         'accidents; and',
+         '**designation of a Safety and Health Officer** — this officer shall be the health and safety '
+         'champion in the organisation.']},
+ {'key': [{'p': 'Measures (c) to (h) form a deliberate **hierarchy of control**, strongest first, and saying '
+                'so turns a list into an argument:'},
+          {'ul': ['**eliminate** the hazard',
+                  'if you cannot, **substitute** something less dangerous',
+                  'if you cannot, put a **barrier** between worker and hazard',
+                  'if you cannot, impose a **procedure**',
+                  'if you cannot, **warn**',
+                  'and only as the last resort rely on **personal protective equipment**. The order matters '
+                  'because each step down depends more heavily on human behaviour — the book makes the point '
+                  'explicitly of warning systems, which "depend on human response".']}]},
+ {'note': 'Two measures bracket the whole list and are the ones to name first in an answer. The **safety '
+          'policy** is "the first step" — a written statement of management commitment, without which '
+          'nothing else has authority. And the **designation of a Safety and Health Officer** gives the '
+          'policy an owner. Between them sit assessment, the control hierarchy, inspection, accident '
+          'investigation and training.'},
+ {'figure': {'src': 'assets/study-figures/man-p374.png',
+             'alt': 'Table 8.4: Summary of the main Regulation under the Factories Act',
+             'cap': 'Table 8.4: Summary of the main Regulation under the Factories Act — original Management '
+                    'study-text page 347 (PDF 374). Open the page to enlarge.'}}]},
 
   {'n': '8.11', 't': 'Summary', 'b': [
     {'p': 'In this chapter, two major concepts were discussed, namely **(i)** office practice '

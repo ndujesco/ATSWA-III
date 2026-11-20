@@ -41,60 +41,31 @@ CH = {
                     {
                                  'n': '2.1',
                                  't': 'Definitions of management',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Management',
-                                                                                                                      'd': 'the process of planning, organising, directing and '
-                                                                                                                           'controlling the resources of an organisation to achieve '
-                                                                                                                           'its goals efficiently.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Author',
-                                                                                                                                                                             'Definition',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Miner (1978)',
-                                                                                                                                                                                                                          'The process of planning, organising, actuating '
-                                                                                                                                                                                                                          'and controlling an organisation\'s operations to '
-                                                                                                                                                                                                                          'achieve a coordination of human and material '
-                                                                                                                                                                                                                          'resources essential to the effective, efficient '
-                                                                                                                                                                                                                          'attainment of objectives.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Stoner (1978)',
-                                                                                                                                                                                                                          'The process of planning, organising, leading and '
-                                                                                                                                                                                                                          'controlling the work of members of an '
-                                                                                                                                                                                                                          'organisation, using all available organisational '
-                                                                                                                                                                                                                          'resources to reach stated organisational goals.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Griffin (1999)',
-                                                                                                                                                                                                                          'A set of activities (planning and decision '
-                                                                                                                                                                                                                          'making, organising, leading, controlling) '
-                                                                                                                                                                                                                          'directed at an organisation\'s resources (human, '
-                                                                                                                                                                                                                          'financial, information) to achieve '
-                                                                                                                                                                                                                          'organisational goals efficiently and effectively.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'key': 'These definitions highlight 6 shared concepts: **a process** (4 '
-                                                                                       'interrelated activities — planning, organising, directing, '
-                                                                                       'controlling); **resources** (human, financial, physical, '
-                                                                                       'information); **efficiency** (cost-effective resource use); '
-                                                                                       '**effectiveness** (making and implementing the right decisions); '
-                                                                                       '**the manager** (the person carrying out the management '
-                                                                                       'process); and the maxim that **the efficient manager does things '
-                                                                                       'right, and the effective manager does the right things.**',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Management',
+          'd': 'the process of planning, organising, directing and controlling the resources of an '
+               'organisation to achieve its goals efficiently.'}},
+ {'table': {'align': 'll',
+            'head': ['Author', 'Definition'],
+            'rows': [['Miner (1978)',
+                      "The process of planning, organising, actuating and controlling an organisation's "
+                      'operations to achieve a coordination of human and material resources essential to the '
+                      'effective, efficient attainment of objectives.'],
+                     ['Stoner (1978)',
+                      'The process of planning, organising, leading and controlling the work of members of '
+                      'an organisation, using all available organisational resources to reach stated '
+                      'organisational goals.'],
+                     ['Griffin (1999)',
+                      'A set of activities (planning and decision making, organising, leading, controlling) '
+                      "directed at an organisation's resources (human, financial, information) to achieve "
+                      'organisational goals efficiently and effectively.']]}},
+ {'key': [{'p': 'These definitions highlight 6 shared concepts:'},
+          {'ul': ['**a process** (4 interrelated activities — planning, organising, directing, controlling)',
+                  '**resources** (human, financial, physical, information)',
+                  '**efficiency** (cost-effective resource use)',
+                  '**effectiveness** (making and implementing the right decisions)',
+                  '**the manager** (the person carrying out the management process)',
+                  'and the maxim that **the efficient manager does things right, and the effective manager '
+                  'does the right things.**']}]}],
                                },
                     {
                                  'n': '2.2',
@@ -176,69 +147,39 @@ CH = {
                     {
                                  'n': '2.3',
                                  't': 'Management as a technique, process, discipline and profession',
-                                 'b': [
-                                                          {
-                                                                                'h4': '2.3.1 – 2.3.3  Management as a technique, as a process, and as a '
-                                                                                      'discipline and profession',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Perspective',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**As a technique**',
-                                                                                                                                                                                                                          'Connotes materials, methods and knowledge '
-                                                                                                                                                                                                                          '(technical know-how) — a unique, effective way '
-                                                                                                                                                                                                                          'of doing/getting things done, with a proper mix '
-                                                                                                                                                                                                                          'of labour skill/materials/machine '
-                                                                                                                                                                                                                          'hours/financial input transferable to similar '
-                                                                                                                                                                                                                          'tasks.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**As a process**',
-                                                                                                                                                                                                                          'Certain functions/work activities managers must '
-                                                                                                                                                                                                                          'perform to achieve enterprise goals — the 5 '
-                                                                                                                                                                                                                          'fundamental functions (planning, organising, '
-                                                                                                                                                                                                                          'staffing, leading, controlling) ARE the process, '
-                                                                                                                                                                                                                          'the means by which a manager manages.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**As a discipline/profession**',
-                                                                                                                                                                                                                          'Management is studied as a specialised career '
-                                                                                                                                                                                                                          '(Business Administration, Business Management, '
-                                                                                                                                                                                                                          'Management Technology, etc.) through '
-                                                                                                                                                                                                                          'undergraduate and postgraduate study.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'Characteristics of a profession',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    '**Systematic body of knowledge** — expert knowledge in a '
-                                                                                                                    'particular discipline;',
-                                                                                                                    '**Formal education** — from a recognised institution;',
-                                                                                                                    '**Social responsibility** — not purely profit-focused, follows '
-                                                                                                                    'rules for social responsibility;',
-                                                                                                                    '**Independent office** — practised from an independent office;',
-                                                                                                                    '**Specialisation** — in a particular field; and',
-                                                                                                                    '**Fees/licensing** — requires a licence/permission to practice.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'Management has developed as a modern profession because: it is '
-                                                                                        'a systematic body of knowledge; there are formal institutional '
-                                                                                        'methods to acquire its knowledge/skill; professional management '
-                                                                                        'consultancy is on the rise; and there is a growing need for '
-                                                                                        'honesty in its practice.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '2.3.1  Management as a technique'},
+ {'table': {'align': 'll',
+            'head': ['Perspective', 'Description'],
+            'rows': [['**As a technique**',
+                      'Connotes materials, methods and knowledge (technical know-how) — a unique, effective '
+                      'way of doing/getting things done, with a proper mix of labour skill/materials/machine '
+                      'hours/financial input transferable to similar tasks.']]}},
+ {'h4': '2.3.2  Management as a process'},
+ {'table': {'align': 'll',
+            'head': ['Perspective', 'Description'],
+            'rows': [['**As a process**',
+                      'Certain functions/work activities managers must perform to achieve enterprise goals — '
+                      'the 5 fundamental functions (planning, organising, staffing, leading, controlling) '
+                      'ARE the process, the means by which a manager manages.']]}},
+ {'h4': '2.3.3  Management as a discipline and profession'},
+ {'table': {'align': 'll',
+            'head': ['Perspective', 'Description'],
+            'rows': [['**As a discipline/profession**',
+                      'Management is studied as a specialised career (Business Administration, Business '
+                      'Management, Management Technology, etc.) through undergraduate and postgraduate '
+                      'study.']]}},
+ {'h4': 'Characteristics of a profession'},
+ {'ul': ['**Systematic body of knowledge** — expert knowledge in a particular discipline;',
+         '**Formal education** — from a recognised institution;',
+         '**Social responsibility** — not purely profit-focused, follows rules for social responsibility;',
+         '**Independent office** — practised from an independent office;',
+         '**Specialisation** — in a particular field; and',
+         '**Fees/licensing** — requires a licence/permission to practice.']},
+ {'note': [{'p': 'Management has developed as a modern profession because:'},
+           {'ul': ['it is a systematic body of knowledge',
+                   'there are formal institutional methods to acquire its knowledge/skill',
+                   'professional management consultancy is on the rise',
+                   'and there is a growing need for honesty in its practice.']}]}],
                                },
                     {
                                  'n': '2.4',
@@ -335,129 +276,71 @@ CH = {
                     {
                                  'n': '2.5',
                                  't': 'Levels of management',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Management levels vary by organisation size, nature, complexity, '
-                                                                                     'technology, employee count and management attitude — but most '
-                                                                                     'enterprises have 3 distinct, overlapping levels: top, middle and '
-                                                                                     'lower/first-line, with authority decreasing (and manager numbers '
-                                                                                     'increasing) at each lower level.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Level',
-                                                                                                                                                                             'Who/what, and functions',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Top-level management**',
-                                                                                                                                                                                                                          'Corporate officers elected by the board — '
-                                                                                                                                                                                                                          'chairman, president, executive VP, general '
-                                                                                                                                                                                                                          'managers/deputies. Chief policy-making officers, '
-                                                                                                                                                                                                                          'concerned with the organisation as a whole and '
-                                                                                                                                                                                                                          'its environment interaction. Functions: '
-                                                                                                                                                                                                                          'determining company objectives; long-range '
-                                                                                                                                                                                                                          'planning; establishing board policies; '
-                                                                                                                                                                                                                          'coordinating enterprise activities; adapting '
-                                                                                                                                                                                                                          'control methods; authorising new facilities/R&D '
-                                                                                                                                                                                                                          'projects; appointing top officers.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Middle-level management**',
-                                                                                                                                                                                                                          'Above supervisors, below top managers, reporting '
-                                                                                                                                                                                                                          'directly to top level — departmental heads '
-                                                                                                                                                                                                                          '(finance, production, marketing, personnel, '
-                                                                                                                                                                                                                          'purchasing managers, chief engineer, plant '
-                                                                                                                                                                                                                          'manager). Acts as a buffer between top managers '
-                                                                                                                                                                                                                          'and supervisors; spends most time analysing '
-                                                                                                                                                                                                                          'data, preparing decision-making information, '
-                                                                                                                                                                                                                          'translating top-level policy into operational '
-                                                                                                                                                                                                                          'procedures. Functions: integrating different '
-                                                                                                                                                                                                                          'work-group activities; preparing departmental '
-                                                                                                                                                                                                                          'plans/programmes; executing plans; assisting top '
-                                                                                                                                                                                                                          'managers; communicating policy; transferring '
-                                                                                                                                                                                                                          'information/materials between work groups; '
-                                                                                                                                                                                                                          'managing/controlling lower-level managers; '
-                                                                                                                                                                                                                          'coordinating; and feeding decision-relevant '
-                                                                                                                                                                                                                          'information upward.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**First-line/lower-level management**',
-                                                                                                                                                                                                                          'Supervisors, foremen, chief clerks — coordinate '
-                                                                                                                                                                                                                          'subordinates\' work, need technical skill to '
-                                                                                                                                                                                                                          'guide them. Handle day-to-day operational '
-                                                                                                                                                                                                                          'planning, job assignment, activity oversight, '
-                                                                                                                                                                                                                          'performance evaluation, and act as the '
-                                                                                                                                                                                                                          'employee-to-middle-management link. Functions: '
-                                                                                                                                                                                                                          'planning section work; directing rank-and-file '
-                                                                                                                                                                                                                          'workers toward departmental goals; ensuring '
-                                                                                                                                                                                                                          'productivity; maintaining discipline/order.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'The book\'s sub-sections are **§2.5.1 Top level management, '
-                                                                                        '§2.5.2 Middle level management and §2.5.3 First-line or lower '
-                                                                                        'level management** — the three levels in the table above.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Management levels vary by organisation size, nature, complexity, technology, employee count and '
+       'management attitude — but most enterprises have 3 distinct, overlapping levels: top, middle and '
+       'lower/first-line, with authority decreasing (and manager numbers increasing) at each lower level.'},
+ {'table': {'align': 'll',
+            'head': ['Level', 'Who/what, and functions'],
+            'rows': [['**Top-level management**',
+                      'Corporate officers elected by the board — chairman, president, executive VP, general '
+                      'managers/deputies. Chief policy-making officers, concerned with the organisation as a '
+                      'whole and its environment interaction. Functions: determining company objectives; '
+                      'long-range planning; establishing board policies; coordinating enterprise activities; '
+                      'adapting control methods; authorising new facilities/R&D projects; appointing top '
+                      'officers.'],
+                     ['**Middle-level management**',
+                      'Above supervisors, below top managers, reporting directly to top level — departmental '
+                      'heads (finance, production, marketing, personnel, purchasing managers, chief '
+                      'engineer, plant manager). Acts as a buffer between top managers and supervisors; '
+                      'spends most time analysing data, preparing decision-making information, translating '
+                      'top-level policy into operational procedures. Functions: integrating different '
+                      'work-group activities; preparing departmental plans/programmes; executing plans; '
+                      'assisting top managers; communicating policy; transferring information/materials '
+                      'between work groups; managing/controlling lower-level managers; coordinating; and '
+                      'feeding decision-relevant information upward.'],
+                     ['**First-line/lower-level management**',
+                      "Supervisors, foremen, chief clerks — coordinate subordinates' work, need technical "
+                      'skill to guide them. Handle day-to-day operational planning, job assignment, activity '
+                      'oversight, performance evaluation, and act as the employee-to-middle-management link. '
+                      'Functions: planning section work; directing rank-and-file workers toward departmental '
+                      'goals; ensuring productivity; maintaining discipline/order.']]}},
+ {'note': "The book's sub-sections are **§2.5.1 Top level management, §2.5.2 Middle level management and "
+          '§2.5.3 First-line or lower level management** — the three levels in the table above.'},
+ {'figure': {'src': 'assets/study-figures/man-p91.png',
+             'alt': 'Figure 2.1: Relationship between levels of management and functions of management.',
+             'cap': 'Figure 2.1: Relationship between levels of management and functions of management. — '
+                    'original Management study-text page 64 (PDF 91). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': '2.6',
                                  't': 'Management skills',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'The 4 management skills',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Skill',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Technical**',
-                                                                                                                                                                                                                          'Knowledge/proficiency in methods, processes, '
-                                                                                                                                                                                                                          'procedures — working with tools and specific '
-                                                                                                                                                                                                                          'techniques (e.g. mechanics, accountants).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Human/interpersonal**',
-                                                                                                                                                                                                                          'The ability to work with people — communicate, '
-                                                                                                                                                                                                                          'motivate, influence, and create an environment '
-                                                                                                                                                                                                                          'where people feel secure/free to express '
-                                                                                                                                                                                                                          'themselves and realise their potential.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Conceptual**',
-                                                                                                                                                                                                                          'The ability to see the "big picture," recognise '
-                                                                                                                                                                                                                          'significant elements in a situation, and '
-                                                                                                                                                                                                                          'understand relationships among them.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Diagnostic and analytical**',
-                                                                                                                                                                                                                          'The ability to distinguish cause from effect and '
-                                                                                                                                                                                                                          'solve problems beneficially — not just seeing a '
-                                                                                                                                                                                                                          'problem, but working out a practical solution.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'key': 'Skill importance shifts by level: **first-line** managers need '
-                                                                                       'technical skills most (human skills help too; '
-                                                                                       'conceptual/diagnostic skills less critical); **middle** managers '
-                                                                                       'need less technical skill, essential human skills, and growing '
-                                                                                       'conceptual skill; **top** managers need strong '
-                                                                                       'conceptual/analytical AND human skills, with relatively little '
-                                                                                       'need for technical ability (subordinates supply that).',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'The 4 management skills'},
+ {'table': {'align': 'll',
+            'head': ['Skill', 'Description'],
+            'rows': [['**Technical**',
+                      'Knowledge/proficiency in methods, processes, procedures — working with tools and '
+                      'specific techniques (e.g. mechanics, accountants).'],
+                     ['**Human/interpersonal**',
+                      'The ability to work with people — communicate, motivate, influence, and create an '
+                      'environment where people feel secure/free to express themselves and realise their '
+                      'potential.'],
+                     ['**Conceptual**',
+                      'The ability to see the "big picture," recognise significant elements in a situation, '
+                      'and understand relationships among them.'],
+                     ['**Diagnostic and analytical**',
+                      'The ability to distinguish cause from effect and solve problems beneficially — not '
+                      'just seeing a problem, but working out a practical solution.']]}},
+ {'key': [{'p': 'Skill importance shifts by level:'},
+          {'ul': ['**first-line** managers need technical skills most (human skills help too; '
+                  'conceptual/diagnostic skills less critical)',
+                  '**middle** managers need less technical skill, essential human skills, and growing '
+                  'conceptual skill',
+                  '**top** managers need strong conceptual/analytical AND human skills, with relatively '
+                  'little need for technical ability (subordinates supply that).']}]},
+ {'figure': {'src': 'assets/study-figures/man-p93.png',
+             'alt': 'Figure 2.2: Relationship between levels of management and managerial skills',
+             'cap': 'Figure 2.2: Relationship between levels of management and managerial skills — original '
+                    'Management study-text page 66 (PDF 93). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': '2.7',
@@ -555,47 +438,30 @@ CH = {
                     {
                                  'n': '2.8',
                                  't': 'Management as an art or a science',
-                                 'b': [
-                                                          {
-                                                                                'h4': '2.8.1 – 2.8.2  Management as a science, and management as an art',
-                                                                              },
-                                                          {
-                                                                                'p': '**As a science**: science is an organised, systematic body of '
-                                                                                     'knowledge acquired through observation/experimentation, based on '
-                                                                                     'universal principles. Management qualifies as a science '
-                                                                                     '(systematised knowledge, observation, testing, experiment) but is '
-                                                                                     'not EXACT like physics/chemistry/biology. Science has 3 key '
-                                                                                     'characteristics: it is a systematised body of knowledge using '
-                                                                                     'scientific observation methods; its principles evolve from '
-                                                                                     'continued observation/experiment; and its principles are exact '
-                                                                                     'with universal applicability, without limitation.',
-                                                                              },
-                                                          {
-                                                                                'p': 'The scientific-theory process: (a) formulating a problem from '
-                                                                                     'observation; (b) constructing a theory from inductive observation; '
-                                                                                     '(c) deducing specific hypotheses from the theory; (d) recasting '
-                                                                                     'the hypothesis into testable measures/operations; (e) devising the '
-                                                                                     'actual test situation; (f) actual testing, which does or does not '
-                                                                                     'confirm the theory.',
-                                                                              },
-                                                          {
-                                                                                'p': '**As an art**: art is personal skill — bringing about desired '
-                                                                                     'results through skill application (George R. Terry). Management is '
-                                                                                     'one of the most creative arts, requiring extensive knowledge. It '
-                                                                                     'is an art because: it is creative; it involves skill use; it '
-                                                                                     'involves technical know-how; it is results-directed; and it is '
-                                                                                     'personalised. A manager\'s creativity/productivity can be magnified '
-                                                                                     'using correct scientific methods — success depends on how '
-                                                                                     'effectively scientific aid enhances artistic skill.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Art has 5 essential features: **practical knowledge**, '
-                                                                                       '**personal skill**, **concrete result**, **constructive skill**, '
-                                                                                       'and **improvement through practice**. Management is thus '
-                                                                                       'correctly understood as BOTH an art and a science, not '
-                                                                                       'exclusively one or the other.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '2.8.1  Management as a Science'},
+ {'p': '**As a science**: science is an organised, systematic body of knowledge acquired through '
+       'observation/experimentation, based on universal principles. Management qualifies as a science '
+       '(systematised knowledge, observation, testing, experiment) but is not EXACT like '
+       'physics/chemistry/biology. Science has 3 key characteristics: it is a systematised body of knowledge '
+       'using scientific observation methods; its principles evolve from continued observation/experiment; '
+       'and its principles are exact with universal applicability, without limitation.'},
+ {'p': 'The scientific-theory process:'},
+ {'ul': ['(a) formulating a problem from observation',
+         '(b) constructing a theory from inductive observation',
+         '(c) deducing specific hypotheses from the theory',
+         '(d) recasting the hypothesis into testable measures/operations',
+         '(e) devising the actual test situation',
+         '(f) actual testing, which does or does not confirm the theory.']},
+ {'h4': '2.8.2  Management as an art'},
+ {'p': '**As an art**: art is personal skill — bringing about desired results through skill application '
+       '(George R. Terry). Management is one of the most creative arts, requiring extensive knowledge. It is '
+       'an art because: it is creative; it involves skill use; it involves technical know-how; it is '
+       "results-directed; and it is personalised. A manager's creativity/productivity can be magnified using "
+       'correct scientific methods — success depends on how effectively scientific aid enhances artistic '
+       'skill.'},
+ {'key': 'Art has 5 essential features: **practical knowledge**, **personal skill**, **concrete result**, '
+         '**constructive skill**, and **improvement through practice**. Management is thus correctly '
+         'understood as BOTH an art and a science, not exclusively one or the other.'}],
                                },
                     {
                                  'n': '2.9',
@@ -644,284 +510,137 @@ CH = {
                                  'n': '2.10',
                                  't': 'Measures of managerial performance: productivity, effectiveness and '
                                       'efficiency',
-                                 'b': [
-                                                          {
-                                                                                'p': '**Productivity** matters at the national level too — high '
-                                                                                     'productivity increases business profits, expands the tax base, and '
-                                                                                     'expands employment avenues.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.10.1  Productivity',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Productivity',
-                                                                                                                      'd': 'the relationship between units produced and the quantity '
-                                                                                                                           'of (human/material) inputs used to produce them — output '
-                                                                                                                           'per unit of investment.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Productivity type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Labour productivity**',
-                                                                                                                                                                                                                          'Total net output achieved per worker — high when '
-                                                                                                                                                                                                                          'the output/labour-input ratio is high (efficient '
-                                                                                                                                                                                                                          'labour utilisation) and low when the ratio is '
-                                                                                                                                                                                                                          'low (inefficient utilisation).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Capital productivity**',
-                                                                                                                                                                                                                          'How well physical capital is used in providing '
-                                                                                                                                                                                                                          'goods/services — output relative to capital '
-                                                                                                                                                                                                                          'input.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Material productivity**',
-                                                                                                                                                                                                                          'Output (net sales) divided by material input — '
-                                                                                                                                                                                                                          'the output received, in constant prices, per '
-                                                                                                                                                                                                                          'unit of material input.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '2.10.2  Effectiveness',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Effectiveness',
-                                                                                                                      'd': 'the ability to choose appropriate objectives, or the '
-                                                                                                                           'appropriate MEANS for achieving a given objective — '
-                                                                                                                           'selecting the right things to do, or the right method. '
-                                                                                                                           'Drucker (1970): "effectiveness rather than efficiency is '
-                                                                                                                           'essential to business — the question is not how to do '
-                                                                                                                           'things right, but how to find the right things to do." '
-                                                                                                                           'Agbonifoh (2005): "an organisation can be effective only '
-                                                                                                                           'if it is doing those things that are relevant and crucial '
-                                                                                                                           'to its purposes."',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': '2.10.3  Efficiency',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Efficiency',
-                                                                                                                      'd': 'the ability to get things done correctly — an '
-                                                                                                                           'input-output concept. An efficient manager achieves '
-                                                                                                                           'outputs/results that measure up to the inputs (labour, '
-                                                                                                                           'material, time) used. Griffin (1990): being efficient '
-                                                                                                                           'means using resources wisely and cost-effectively.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Per Agbonifoh (2005), great efficiency arises via: achieving MORE '
-                                                                                     'results with the same input levels; achieving the SAME results '
-                                                                                     'with LESS input; increasing results with a LESS-than-proportionate '
-                                                                                     'input increase; or decreasing results with a '
-                                                                                     'MORE-than-proportionate input decrease.',
-                                                                              },
-                                                          {
-                                                                                'key': 'A manager\'s responsibilities require BOTH efficiency and '
-                                                                                       'effectiveness — but **effectiveness is critical**: a company '
-                                                                                       'doing the RIGHT (effective) things is better off, however '
-                                                                                       'inefficiently, than one efficiently producing the WRONG '
-                                                                                       'products. Customer satisfaction is the crucial reason management '
-                                                                                       'must ensure its organisation satisfies customers and other '
-                                                                                       'stakeholders.',
-                                                                              },
-                                                          {
-                                                                                'warn': 'A numbering defect in the study text, flagged rather than '
-                                                                                        'silently corrected: this section is printed as **"2.9 Measures '
-                                                                                        'of Managerial Performance"**, duplicating the number of §2.9 '
-                                                                                        '(Universality and transferability) immediately before it — and '
-                                                                                        'its first sub-section is printed as **"2.9.1 Productivity"** '
-                                                                                        'while the next two are correctly numbered **2.10.2 '
-                                                                                        'Effectiveness** and **2.10.3 Efficiency**. The section is '
-                                                                                        '§2.10, as those two sub-sections and the chapter contents list '
-                                                                                        'confirm.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '**Productivity** matters at the national level too — high productivity increases business profits, '
+       'expands the tax base, and expands employment avenues.'},
+ {'h4': '2.10.1  Productivity'},
+ {'def': {'t': 'Productivity',
+          'd': 'the relationship between units produced and the quantity of (human/material) inputs used to '
+               'produce them — output per unit of investment.'}},
+ {'table': {'align': 'll',
+            'head': ['Productivity type', 'Description'],
+            'rows': [['**Labour productivity**',
+                      'Total net output achieved per worker — high when the output/labour-input ratio is '
+                      'high (efficient labour utilisation) and low when the ratio is low (inefficient '
+                      'utilisation).'],
+                     ['**Capital productivity**',
+                      'How well physical capital is used in providing goods/services — output relative to '
+                      'capital input.'],
+                     ['**Material productivity**',
+                      'Output (net sales) divided by material input — the output received, in constant '
+                      'prices, per unit of material input.']]}},
+ {'h4': '2.10.2  Effectiveness'},
+ {'def': {'t': 'Effectiveness',
+          'd': 'the ability to choose appropriate objectives, or the appropriate MEANS for achieving a given '
+               'objective — selecting the right things to do, or the right method. Drucker (1970): '
+               '"effectiveness rather than efficiency is essential to business — the question is not how to '
+               'do things right, but how to find the right things to do." Agbonifoh (2005): "an organisation '
+               'can be effective only if it is doing those things that are relevant and crucial to its '
+               'purposes."'}},
+ {'h4': '2.10.3  Efficiency'},
+ {'def': {'t': 'Efficiency',
+          'd': 'the ability to get things done correctly — an input-output concept. An efficient manager '
+               'achieves outputs/results that measure up to the inputs (labour, material, time) used. '
+               'Griffin (1990): being efficient means using resources wisely and cost-effectively.'}},
+ {'p': 'Per Agbonifoh (2005), great efficiency arises via:'},
+ {'ul': ['achieving MORE results with the same input levels',
+         'achieving the SAME results with LESS input',
+         'increasing results with a LESS-than-proportionate input increase',
+         'or decreasing results with a MORE-than-proportionate input decrease.']},
+ {'key': "A manager's responsibilities require BOTH efficiency and effectiveness — but **effectiveness is "
+         'critical**: a company doing the RIGHT (effective) things is better off, however inefficiently, '
+         'than one efficiently producing the WRONG products. Customer satisfaction is the crucial reason '
+         'management must ensure its organisation satisfies customers and other stakeholders.'},
+ {'warn': 'A numbering defect in the study text, flagged rather than silently corrected: this section is '
+          'printed as **"2.9 Measures of Managerial Performance"**, duplicating the number of §2.9 '
+          '(Universality and transferability) immediately before it — and its first sub-section is printed '
+          'as **"2.9.1 Productivity"** while the next two are correctly numbered **2.10.2 Effectiveness** '
+          'and **2.10.3 Efficiency**. The section is §2.10, as those two sub-sections and the chapter '
+          'contents list confirm.'}],
                                },
                     {
                                  'n': '2.11',
                                  't': 'Current managerial trends',
-                                 'b': [
-                                                          {
-                                                                                'h4': '2.11.1  Globalisation',
-                                                                              },
-                                                          {
-                                                                                'p': 'Integrating a country\'s economy with the world economy — worldwide '
-                                                                                     'economic integration and growing interdependence via the flow of '
-                                                                                     'goods, services, capital, people and information. Key drivers: ICT '
-                                                                                     'innovation, e-commerce/online payment advancement, '
-                                                                                     'smartphones/devices, transport technology improvements, '
-                                                                                     'international job mobility, new immigration laws, and '
-                                                                                     'workplace/inter-cultural diversity/integration. Globalisation has '
-                                                                                     'been broadly beneficial (jobs, poverty reduction, improved living '
-                                                                                     'standards) but has real costs, especially debated recently in '
-                                                                                     'ADVANCED (not just developing) economies over lost '
-                                                                                     'production/markets to developing nations.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.11.2  Quality',
-                                                                              },
-                                                          {
-                                                                                'p': 'Quality directly affects product/service performance and is '
-                                                                                     'closely linked to customer value/satisfaction — narrowly "freedom '
-                                                                                     'from defects," but customer-centred firms define it in terms of '
-                                                                                     'customer satisfaction instead. Product-quality dimensions: '
-                                                                                     'performance, features, portability, durability, serviceability, '
-                                                                                     'conformance, aesthetics. Service-quality dimensions: tangibility, '
-                                                                                     'reliability, empathy, assurance, response.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Total Quality Management (TQM)**: a commitment to improve '
-                                                                                     'quality across every operational aspect — applying quantitative '
-                                                                                     'methods and human resources to improve all processes and exceed '
-                                                                                     'current/future customer needs. Key planning notes: higher market '
-                                                                                     'share + better quality earns much higher returns than competitors; '
-                                                                                     'quality and market share each independently relate to '
-                                                                                     'profitability; product-quality planning must meet customer needs, '
-                                                                                     'not just specifications; and for some products plan for '
-                                                                                     'perfection, for others plan for value.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Customer satisfaction** compares perceived product/service '
-                                                                                     'performance against customer expectations: performance below '
-                                                                                     'expectations → dissatisfaction; matching expectations → '
-                                                                                     'satisfaction; exceeding expectations → delight.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.11.3  Environmentalism',
-                                                                              },
-                                                          {
-                                                                                'p': 'A movement to improve/protect the natural environment via changes '
-                                                                                     'to environmentally-harmful human activity, adopting more '
-                                                                                     'environmentally-benign forms of political/economic/social '
-                                                                                     'organisation, and reassessing humanity\'s relationship with nature. '
-                                                                                     'Split into **anthropocentric** ("human-centred" — focuses on '
-                                                                                     'environmental degradation\'s effects on human '
-                                                                                     'health/recreation/quality of life, treating human obligations to '
-                                                                                     'nature as derived indirectly from human-to-human obligations) and '
-                                                                                     '**biocentric** ("life-centred") camps — also called "shallow" vs. '
-                                                                                     '"deep" ecology, or "technocentrism" vs. "ecocentrism."',
-                                                                              },
-                                                          {
-                                                                                'p': '**Environmental management**: a corporate strategy that '
-                                                                                     'monitors/develops/implements an organisation\'s environmental '
-                                                                                     'policies (summarising, monitoring, reporting) — gaining prominence '
-                                                                                     'as consumers seek eco-friendly/eco-aware products. Concerned with '
-                                                                                     'marine/land/atmospheric conditions, deforestation, global warming, '
-                                                                                     'and carbon footprint reduction. Objectives: identify/solve '
-                                                                                     'environmental issues; establish limits against overuse; '
-                                                                                     'renew/minimise natural-resource use; regenerate degraded '
-                                                                                     'environments; review organisational environmental goals; set '
-                                                                                     'environmental-impact-minimisation targets; ensure '
-                                                                                     'organisation-wide environmental awareness; make existing '
-                                                                                     'technology eco-friendly; encourage resource-conservation '
-                                                                                     'programmes; develop quality-of-life improvement strategies; '
-                                                                                     'implement environmental-protection measures; and develop '
-                                                                                     'sustainable-development policy.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.11.4  Growing diversity of the workplace',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Diversity',
-                                                                                                                      'd': 'the human characteristics that make people different — '
-                                                                                                                           'recognising individual/group differences (visible and '
-                                                                                                                           'non-visible) and creating a culture/practices that '
-                                                                                                                           'recognise, respect and value difference. Spans race, '
-                                                                                                                           'ethnicity, gender, socio-economic status, physical '
-                                                                                                                           'features, religious beliefs, marriage systems and '
-                                                                                                                           'political ideologies.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': '**Diversity management**: the ongoing process of incorporating '
-                                                                                     'workforce/customer-difference recognition into all core business '
-                                                                                     'functions, communications, processes and services, to build a '
-                                                                                     'fair, harmonious, inclusive, creative, effective organisation. '
-                                                                                     'Diversity management: encourages full staff '
-                                                                                     'inclusion/participation; actively capitalises on a diverse '
-                                                                                     'workforce\'s benefits; and ensures compliance with legal '
-                                                                                     'obligations (safety, equal employment opportunity).',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.11.5  Ethical reawakening',
-                                                                              },
-                                                          {
-                                                                                'p': 'Ethics concerns right/wrong human conduct given specific '
-                                                                                     'circumstances; business ethics addresses this within '
-                                                                                     'commerce/organisational conduct. Management concerns how decisions '
-                                                                                     'affect the company; ethics concerns how decisions affect '
-                                                                                     'everything — management therefore operates as PART of ethics, in '
-                                                                                     'the firm\'s specialised context, while ethics operates in the '
-                                                                                     'world\'s general context.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Basic motives for crossing the ethical line: fear of losing one\'s '
-                                                                                     'job, time/superior pressure to produce results, career ambition, '
-                                                                                     'revenge for a perceived wrong, and a tendency to ignore action '
-                                                                                     'consequences.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Factors affecting ethical behaviour',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Factor',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Stage of moral development (Kohlberg)**',
-                                                                                                                                                                                                                          'Stage 1 pre-conventional (rule-following); Stage '
-                                                                                                                                                                                                                          '2 conventional (living up to others\' '
-                                                                                                                                                                                                                          'expectations); Stage 3 principled (following a '
-                                                                                                                                                                                                                          'self-chosen path, respecting others).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Individual characteristics**',
-                                                                                                                                                                                                                          'Values (knowing right from wrong); ego strength '
-                                                                                                                                                                                                                          '(power of one\'s convictions); locus of control '
-                                                                                                                                                                                                                          '(internal — you control your own destiny; '
-                                                                                                                                                                                                                          'external — you believe you have no control).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Structural factors**',
-                                                                                                                                                                                                                          'An organisation\'s structure (clear ethical '
-                                                                                                                                                                                                                          'statements, policies, regulations) affects '
-                                                                                                                                                                                                                          'people\'s ethical behaviour.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Organisational culture**',
-                                                                                                                                                                                                                          'Shared values/norms among an organisation\'s '
-                                                                                                                                                                                                                          'people — a strong culture exerts more influence '
-                                                                                                                                                                                                                          'than a weak one.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Issue intensity**',
-                                                                                                                                                                                                                          'How important an issue is — the same act (theft) '
-                                                                                                                                                                                                                          'carries different ethical weight depending on '
-                                                                                                                                                                                                                          'scale (a private local call vs. embezzling US$1 '
-                                                                                                                                                                                                                          'million).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '2.11.1  Globalisation'},
+ {'p': "Integrating a country's economy with the world economy — worldwide economic integration and growing "
+       'interdependence via the flow of goods, services, capital, people and information. Key drivers: ICT '
+       'innovation, e-commerce/online payment advancement, smartphones/devices, transport technology '
+       'improvements, international job mobility, new immigration laws, and workplace/inter-cultural '
+       'diversity/integration. Globalisation has been broadly beneficial (jobs, poverty reduction, improved '
+       'living standards) but has real costs, especially debated recently in ADVANCED (not just developing) '
+       'economies over lost production/markets to developing nations.'},
+ {'h4': '2.11.2  Quality'},
+ {'p': 'Quality directly affects product/service performance and is closely linked to customer '
+       'value/satisfaction — narrowly "freedom from defects," but customer-centred firms define it in terms '
+       'of customer satisfaction instead. Product-quality dimensions: performance, features, portability, '
+       'durability, serviceability, conformance, aesthetics. Service-quality dimensions: tangibility, '
+       'reliability, empathy, assurance, response.'},
+ {'p': '**Total Quality Management (TQM)**: a commitment to improve quality across every operational aspect '
+       '— applying quantitative methods and human resources to improve all processes and exceed '
+       'current/future customer needs. Key planning notes: higher market share + better quality earns much '
+       'higher returns than competitors; quality and market share each independently relate to '
+       'profitability; product-quality planning must meet customer needs, not just specifications; and for '
+       'some products plan for perfection, for others plan for value.'},
+ {'p': '**Customer satisfaction** compares perceived product/service performance against customer '
+       'expectations:'},
+ {'ul': ['performance below expectations → dissatisfaction',
+         'matching expectations → satisfaction',
+         'exceeding expectations → delight.']},
+ {'h4': '2.11.3  Environmentalism'},
+ {'p': 'A movement to improve/protect the natural environment via changes to environmentally-harmful human '
+       'activity, adopting more environmentally-benign forms of political/economic/social organisation, and '
+       'reassessing humanity\'s relationship with nature. Split into **anthropocentric** ("human-centred" — '
+       "focuses on environmental degradation's effects on human health/recreation/quality of life, treating "
+       'human obligations to nature as derived indirectly from human-to-human obligations) and '
+       '**biocentric** ("life-centred") camps — also called "shallow" vs. "deep" ecology, or '
+       '"technocentrism" vs. "ecocentrism."'},
+ {'p': '**Environmental management**: a corporate strategy that monitors/develops/implements an '
+       "organisation's environmental policies (summarising, monitoring, reporting) — gaining prominence as "
+       'consumers seek eco-friendly/eco-aware products. Concerned with marine/land/atmospheric conditions, '
+       'deforestation, global warming, and carbon footprint reduction. Objectives: identify/solve '
+       'environmental issues; establish limits against overuse; renew/minimise natural-resource use; '
+       'regenerate degraded environments; review organisational environmental goals; set '
+       'environmental-impact-minimisation targets; ensure organisation-wide environmental awareness; make '
+       'existing technology eco-friendly; encourage resource-conservation programmes; develop '
+       'quality-of-life improvement strategies; implement environmental-protection measures; and develop '
+       'sustainable-development policy.'},
+ {'h4': '2.11.4  Growing diversity of the workplace'},
+ {'def': {'t': 'Diversity',
+          'd': 'the human characteristics that make people different — recognising individual/group '
+               'differences (visible and non-visible) and creating a culture/practices that recognise, '
+               'respect and value difference. Spans race, ethnicity, gender, socio-economic status, physical '
+               'features, religious beliefs, marriage systems and political ideologies.'}},
+ {'p': '**Diversity management**: the ongoing process of incorporating workforce/customer-difference '
+       'recognition into all core business functions, communications, processes and services, to build a '
+       'fair, harmonious, inclusive, creative, effective organisation. Diversity management: encourages full '
+       "staff inclusion/participation; actively capitalises on a diverse workforce's benefits; and ensures "
+       'compliance with legal obligations (safety, equal employment opportunity).'},
+ {'h4': '2.11.5  Ethical reawakening'},
+ {'p': 'Ethics concerns right/wrong human conduct given specific circumstances; business ethics addresses '
+       'this within commerce/organisational conduct. Management concerns how decisions affect the company; '
+       'ethics concerns how decisions affect everything — management therefore operates as PART of ethics, '
+       "in the firm's specialised context, while ethics operates in the world's general context."},
+ {'p': "Basic motives for crossing the ethical line: fear of losing one's job, time/superior pressure to "
+       'produce results, career ambition, revenge for a perceived wrong, and a tendency to ignore action '
+       'consequences.'},
+ {'h4': 'Factors affecting ethical behaviour'},
+ {'table': {'align': 'll',
+            'head': ['Factor', 'Detail'],
+            'rows': [['**Stage of moral development (Kohlberg)**',
+                      "Stage 1 pre-conventional (rule-following); Stage 2 conventional (living up to others' "
+                      'expectations); Stage 3 principled (following a self-chosen path, respecting others).'],
+                     ['**Individual characteristics**',
+                      "Values (knowing right from wrong); ego strength (power of one's convictions); locus "
+                      'of control (internal — you control your own destiny; external — you believe you have '
+                      'no control).'],
+                     ['**Structural factors**',
+                      "An organisation's structure (clear ethical statements, policies, regulations) affects "
+                      "people's ethical behaviour."],
+                     ['**Organisational culture**',
+                      "Shared values/norms among an organisation's people — a strong culture exerts more "
+                      'influence than a weak one.'],
+                     ['**Issue intensity**',
+                      'How important an issue is — the same act (theft) carries different ethical weight '
+                      'depending on scale (a private local call vs. embezzling US$1 million).']]}}],
                                },
                     {
                                  'n': '2.12',
@@ -1032,317 +751,177 @@ CH = {
                     {
                                  'n': '2.14',
                                  't': 'Scientific management',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Concerned with improving productivity by improving individual '
-                                                                                     'workers\' performance standards, established through systematic '
-                                                                                     'observation/experiment/reasoning. Key advocates: Taylor, the '
-                                                                                     'Gilbreths, Gantt, and Emerson — Taylor played the dominant role.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.14.1  Frederick Winslow Taylor (1856–1915)',
-                                                                              },
-                                                          {
-                                                                                'p': 'As a Midvale Steel Company foreman, Taylor observed employees '
-                                                                                     'deliberately working below capability. He studied/timed each '
-                                                                                     'element of steelworkers\' jobs, determined optimal output per '
-                                                                                     'worker, designed the most efficient method for each work '
-                                                                                     'component, and implemented a piece-work wage system linking '
-                                                                                     'earnings to production.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Taylor\'s principles: (a) replace rules of thumb with scientific '
-                                                                                       'principles to determine the best method for each task, and '
-                                                                                       'scientifically select each worker for the task they suit best; '
-                                                                                       '(b) divide responsibility for managing vs. working, and devise '
-                                                                                       'scientific education/training programmes; (c) ensure '
-                                                                                       'worker-manager cooperation, reinforcing optimal results '
-                                                                                       'scientifically; (d) provide incentives via the piece-rate system.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.14.2 – 2.14.4  Frank and Lillian Gilbreth, Henry L. Gantt, and '
-                                                                                      'Harrington Emerson',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Other scientific-management pioneer',
-                                                                                                                                                                             'Contribution',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Frank and Lillian Gilbreth**',
-                                                                                                                                                                                                                          'Time-and-motion study pioneers — developed '
-                                                                                                                                                                                                                          'job-motion classifications called "Therbligs" '
-                                                                                                                                                                                                                          '(Gilbreth spelt backwards); filmed workers, '
-                                                                                                                                                                                                                          'breaking tasks frame-by-frame into component '
-                                                                                                                                                                                                                          'movements to find better ways to perform each '
-                                                                                                                                                                                                                          'and reorganise them for maximum efficiency. '
-                                                                                                                                                                                                                          'Following Frank\'s 1924 death, Lillian continued '
-                                                                                                                                                                                                                          'for ~50 years, emphasising worker concern and '
-                                                                                                                                                                                                                          'contributing to fatigue/boredom/morale research '
-                                                                                                                                                                                                                          '— becoming known as the "First Lady of '
-                                                                                                                                                                                                                          'Management."',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Henry L. Gantt (1861-1919)**',
-                                                                                                                                                                                                                          'Worked with Taylor at Midvale/Bethlehem Steel; '
-                                                                                                                                                                                                                          'invented the **Gantt chart** (a graphic '
-                                                                                                                                                                                                                          'work-flow representation for '
-                                                                                                                                                                                                                          'scheduling/controlling work, still used today, '
-                                                                                                                                                                                                                          'showing scheduled vs. actual times); devised an '
-                                                                                                                                                                                                                          'incentive bonus system for completing jobs '
-                                                                                                                                                                                                                          'faster than allowed — similar to modern '
-                                                                                                                                                                                                                          'gain-sharing.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Harrington Emerson (1853-1931)**',
-                                                                                                                                                                                                                          'A pioneer of industrial engineering; published '
-                                                                                                                                                                                                                          '*The Twelve Principles of Efficiency* (1912), '
-                                                                                                                                                                                                                          'covering clearly-defined ideals, common sense, '
-                                                                                                                                                                                                                          'competent counsel, discipline, the fair deal, '
-                                                                                                                                                                                                                          'reliable/immediate/adequate records, '
-                                                                                                                                                                                                                          'despatching, standards and schedules, '
-                                                                                                                                                                                                                          'standardised conditions, standardised '
-                                                                                                                                                                                                                          'operations, written standard-practice '
-                                                                                                                                                                                                                          'instructions, and efficiency-reward. Nearly 200 '
-                                                                                                                                                                                                                          'companies adopted features of his Efficiency '
-                                                                                                                                                                                                                          'system.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '2.14.5  Contributions of scientific management theory',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'inspired the modern assembly line;',
-                                                                                                                    'its efficiency techniques spread to non-industrial contexts '
-                                                                                                                    '(fast-food to surgeon training);',
-                                                                                                                    'drove specialisation and departmental division of labour as '
-                                                                                                                    'industry grew;',
-                                                                                                                    'formulated work standards;',
-                                                                                                                    'developed wage incentives to motivate employees; and',
-                                                                                                                    'linked economic rewards to individual performance.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '2.14.6  Limitations of scientific management',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'applicable mainly to predictable/stable environments, limited '
-                                                                                                                    'in complex/unpredictable ones;',
-                                                                                                                    'over-emphasised man\'s economic/rational nature, overstating the '
-                                                                                                                    'desire for money;',
-                                                                                                                    'overlooked human behaviour, job satisfaction and workers\' '
-                                                                                                                    'social needs as a group;',
-                                                                                                                    'over-emphasis on productivity/profitability led some managers '
-                                                                                                                    'to exploit workers/customers;',
-                                                                                                                    'assumed manager-worker interests were automatically '
-                                                                                                                    'complementary, which was unrealistic;',
-                                                                                                                    'made wage bargaining difficult — workers simply accepted what '
-                                                                                                                    'management deemed fair;',
-                                                                                                                    'excluded employees from management participation, keeping '
-                                                                                                                    'planning/control solely with management; and',
-                                                                                                                    'overlooked the positive role of trade unions/informal groups, '
-                                                                                                                    'insisting on individual-basis dealings with workers.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'p': "Concerned with improving productivity by improving individual workers' performance standards, "
+       'established through systematic observation/experiment/reasoning. Key advocates: Taylor, the '
+       'Gilbreths, Gantt, and Emerson — Taylor played the dominant role.'},
+ {'h4': '2.14.1  Frederick Winslow Taylor (1856–1915)'},
+ {'p': 'As a Midvale Steel Company foreman, Taylor observed employees deliberately working below capability. '
+       "He studied/timed each element of steelworkers' jobs, determined optimal output per worker, designed "
+       'the most efficient method for each work component, and implemented a piece-work wage system linking '
+       'earnings to production.'},
+ {'key': [{'p': "Taylor's principles:"},
+          {'ul': ['(a) replace rules of thumb with scientific principles to determine the best method for '
+                  'each task, and scientifically select each worker for the task they suit best',
+                  '(b) divide responsibility for managing vs. working, and devise scientific '
+                  'education/training programmes',
+                  '(c) ensure worker-manager cooperation, reinforcing optimal results scientifically',
+                  '(d) provide incentives via the piece-rate system.']}]},
+ {'h4': '2.14.2  Frank Gilbreth and Lillian Gilbreth:'},
+ {'table': {'align': 'll',
+            'head': ['Other scientific-management pioneer', 'Contribution'],
+            'rows': [['**Frank and Lillian Gilbreth**',
+                      'Time-and-motion study pioneers — developed job-motion classifications called '
+                      '"Therbligs" (Gilbreth spelt backwards); filmed workers, breaking tasks frame-by-frame '
+                      'into component movements to find better ways to perform each and reorganise them for '
+                      "maximum efficiency. Following Frank's 1924 death, Lillian continued for ~50 years, "
+                      'emphasising worker concern and contributing to fatigue/boredom/morale research — '
+                      'becoming known as the "First Lady of Management."']]}},
+ {'h4': '2.14.3  Henry L. Gantt (1861-1919)'},
+ {'table': {'align': 'll',
+            'head': ['Other scientific-management pioneer', 'Contribution'],
+            'rows': [['**Henry L. Gantt (1861-1919)**',
+                      'Worked with Taylor at Midvale/Bethlehem Steel; invented the **Gantt chart** (a '
+                      'graphic work-flow representation for scheduling/controlling work, still used today, '
+                      'showing scheduled vs. actual times); devised an incentive bonus system for completing '
+                      'jobs faster than allowed — similar to modern gain-sharing.']]}},
+ {'h4': '2.14.4  Harrington Emerson (1853-1931): Principles of Efficiency'},
+ {'table': {'align': 'll',
+            'head': ['Other scientific-management pioneer', 'Contribution'],
+            'rows': [['**Harrington Emerson (1853-1931)**',
+                      'A pioneer of industrial engineering; published *The Twelve Principles of Efficiency* '
+                      '(1912), covering clearly-defined ideals, common sense, competent counsel, discipline, '
+                      'the fair deal, reliable/immediate/adequate records, despatching, standards and '
+                      'schedules, standardised conditions, standardised operations, written '
+                      'standard-practice instructions, and efficiency-reward. Nearly 200 companies adopted '
+                      'features of his Efficiency system.']]}},
+ {'h4': '2.14.5  Contributions of scientific management theory'},
+ {'ul': ['inspired the modern assembly line;',
+         'its efficiency techniques spread to non-industrial contexts (fast-food to surgeon training);',
+         'drove specialisation and departmental division of labour as industry grew;',
+         'formulated work standards;',
+         'developed wage incentives to motivate employees; and',
+         'linked economic rewards to individual performance.']},
+ {'h4': '2.14.6  Limitations of scientific management'},
+ {'ul': ['applicable mainly to predictable/stable environments, limited in complex/unpredictable ones;',
+         "over-emphasised man's economic/rational nature, overstating the desire for money;",
+         "overlooked human behaviour, job satisfaction and workers' social needs as a group;",
+         'over-emphasis on productivity/profitability led some managers to exploit workers/customers;',
+         'assumed manager-worker interests were automatically complementary, which was unrealistic;',
+         'made wage bargaining difficult — workers simply accepted what management deemed fair;',
+         'excluded employees from management participation, keeping planning/control solely with management; '
+         'and',
+         'overlooked the positive role of trade unions/informal groups, insisting on individual-basis '
+         'dealings with workers.']}],
                                },
                     {
                                  'n': '2.15',
                                  't': 'Administrative management theory',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Developed alongside scientific management, this theory "emphasises '
-                                                                                     'management functions and attempts to generate broad administrative '
-                                                                                     'principles as guidelines for rationalising activities." Principal '
-                                                                                     'contributors: Henri Fayol (1949), Mooney and Reiley (1939), Gulick '
-                                                                                     'and Urwick (1937). Administrative theorists viewed productivity '
-                                                                                     'improvement "top down" (vs. Taylor\'s "bottom up" scientific '
-                                                                                     'approach), laying emphasis on the JOB over the worker, and on the '
-                                                                                     'manager and management functions.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.15.1  Henri Fayol (1841–1920)',
-                                                                              },
-                                                          {
-                                                                                'p': 'Fayol believed effective management techniques could be defined '
-                                                                                     'and taught, building a formal organisational structure '
-                                                                                     'administered rationally, and was a staunch advocate of '
-                                                                                     'management\'s universality. He divided industrial-undertaking '
-                                                                                     'activities into: technical (production); commercial (buying, '
-                                                                                     'selling, exchange); financial (optimum capital use); security '
-                                                                                     '(protecting property/persons); accounting (recording/stocktaking '
-                                                                                     'costs, profits, liabilities, balance sheets, statistics); and '
-                                                                                     'managerial (planning, organising, commanding, coordinating, '
-                                                                                     'controlling).',
-                                                                              },
-                                                          {
-                                                                                'key': 'Fayol\'s 5 fundamental managerial functions: **Planning** '
-                                                                                       '(examining the future, developing an action plan); '
-                                                                                       '**Organising** (creating a people/materials structure to achieve '
-                                                                                       'plans); **Commanding** (maintaining appropriate staff activity, '
-                                                                                       'setting a good example); **Coordinating** (unifying/harmonising '
-                                                                                       'organisational varieties); **Controlling** (ensuring required '
-                                                                                       'activities align with established plans).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Fayol\'s 14 principles of management',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Division of labour** — greater specialisation yields greater '
-                                                                                                                    'efficiency;',
-                                                                                                                    '**Authority and responsibility** — formal authority gives the '
-                                                                                                                    'right to command, but personal authority (e.g. intelligence) is '
-                                                                                                                    'also needed for real obedience;',
-                                                                                                                    '**Discipline** — respect for rules/agreements, arising from '
-                                                                                                                    'good leadership, fair agreements, and judiciously-enforced '
-                                                                                                                    'penalties;',
-                                                                                                                    '**Unity of command** — each employee receives instructions on a '
-                                                                                                                    'given operation from ONLY one superior, else conflict/confusion '
-                                                                                                                    'results;',
-                                                                                                                    '**Subordination of individual interest to the common good** — '
-                                                                                                                    'organisational interest should not be subordinated to '
-                                                                                                                    'individual employee interest;',
-                                                                                                                    '**Remuneration** — fair compensation for both employees and '
-                                                                                                                    'employers;',
-                                                                                                                    '**Centralisation** — the balance between decreasing '
-                                                                                                                    '(centralising) or increasing (decentralising) subordinates\' '
-                                                                                                                    'decision-making role; managers retain final responsibility but '
-                                                                                                                    'must grant subordinates enough authority to do their jobs;',
-                                                                                                                    '**The hierarchy** — the line of authority, running '
-                                                                                                                    'top-to-bottom, often shown as an organisation chart;',
-                                                                                                                    '**Order** — materials and people in the right place at the '
-                                                                                                                    'right time, people in positions suited to them;',
-                                                                                                                    '**Equity** — managers should be both friendly and fair to '
-                                                                                                                    'subordinates;',
-                                                                                                                    '**Stability of staff (tenure)** — high employee turnover harms '
-                                                                                                                    'efficient functioning;',
-                                                                                                                    '**Initiative** — subordinates should have freedom to '
-                                                                                                                    'conceive/carry out plans, even risking some mistakes;',
-                                                                                                                    '**Esprit de corps** — promoting team spirit for organisational '
-                                                                                                                    'unity — Fayol favoured verbal over formal written communication '
-                                                                                                                    'to achieve this.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'Some of these principles were likely practised by astute '
-                                                                                        'managers before Fayol, but he was the first to codify them, '
-                                                                                        'enabling all managers to learn them and helping lay the '
-                                                                                        'foundation for management as a profession.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.15.2 – 2.15.5  Chester Barnard, Lyndall Urwick, Luther Gulick, '
-                                                                                      'and Mooney and Reilly',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Other administrative-theory contributor',
-                                                                                                                                                                             'Contribution',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Chester Barnard (1886-1961)**',
-                                                                                                                                                                                                                          'Bell Telephone Company president; saw '
-                                                                                                                                                                                                                          'organisations as social systems requiring human '
-                                                                                                                                                                                                                          'cooperation (*The Function of the Executive*), '
-                                                                                                                                                                                                                          'bridging classical and human-resource '
-                                                                                                                                                                                                                          'viewpoints. Held that the manager\'s major '
-                                                                                                                                                                                                                          'functions were communicating and stimulating '
-                                                                                                                                                                                                                          'subordinates\' effort, and that success depended '
-                                                                                                                                                                                                                          'on maintaining good relations with external '
-                                                                                                                                                                                                                          'stakeholders (investors, suppliers, customers) — '
-                                                                                                                                                                                                                          'introducing the idea that managers must examine '
-                                                                                                                                                                                                                          'the external environment and adjust the '
-                                                                                                                                                                                                                          'organisation to maintain equilibrium. His 6 '
-                                                                                                                                                                                                                          'communication principles: channels should be '
-                                                                                                                                                                                                                          'definitely known; formal channels must reach '
-                                                                                                                                                                                                                          'every member; lines should be as direct/short as '
-                                                                                                                                                                                                                          'possible; the complete line should usually be '
-                                                                                                                                                                                                                          'used; competence of those at communication '
-                                                                                                                                                                                                                          'centres must be adequate; and the line should '
-                                                                                                                                                                                                                          'not be interrupted while the organisation '
-                                                                                                                                                                                                                          'functions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Colonel Lyndall Urwick**',
-                                                                                                                                                                                                                          'A British army officer turned management '
-                                                                                                                                                                                                                          'consultant; authored *The Elements of '
-                                                                                                                                                                                                                          'Administration*, assembling the '
-                                                                                                                                                                                                                          'concepts/principles of Taylor, Fayol, Mooney, '
-                                                                                                                                                                                                                          'Reiley and other early theorists.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Luther Gulick**',
-                                                                                                                                                                                                                          'Isolated the chief executive\'s responsibilities '
-                                                                                                                                                                                                                          'via the acronym **POSDCORB**: Planning, '
-                                                                                                                                                                                                                          'Organising, Staffing, Directing, Coordinating, '
-                                                                                                                                                                                                                          'Reporting, Budgeting.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**James D. Mooney and Alan C. Reilly**',
-                                                                                                                                                                                                                          'Mooney (a General Motors executive) and '
-                                                                                                                                                                                                                          'historian Reilly co-wrote *Onward Industry* '
-                                                                                                                                                                                                                          '(1931), revised as *Principles of Organization* '
-                                                                                                                                                                                                                          '— greatly influencing US management '
-                                                                                                                                                                                                                          'theory/practice, arguing organisations should be '
-                                                                                                                                                                                                                          'studied from 2 viewpoints: the employees who '
-                                                                                                                                                                                                                          'create/utilise the organisational process, and '
-                                                                                                                                                                                                                          'the process\'s objective.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '2.15.6  Implications of the administrative school for modern '
-                                                                                      'management',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'Fayol\'s principles remain a clear, appropriate guideline set '
-                                                                                                                    'for efficient/effective resource use;',
-                                                                                                                    'they remain the bedrock of modern management theory — e.g. '
-                                                                                                                    'equity and the performance-reward link are central to modern '
-                                                                                                                    'motivation/leadership theory;',
-                                                                                                                    'departmentalisation by organisational function is an '
-                                                                                                                    'administrative-thought offshoot; and',
-                                                                                                                    'Barnard\'s cooperative-management theory grounds modern '
-                                                                                                                    'group/team work.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '2.15.7  Limitations of administrative management',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'many principles (including Fayol\'s) are internally '
-                                                                                                                    'contradictory — e.g. unity of command contradicts '
-                                                                                                                    'specialisation/division of labour, and limited span of control '
-                                                                                                                    'contradicts minimising organisational levels;',
-                                                                                                                    'the specialisation principle is internally inconsistent — '
-                                                                                                                    'purpose, process and place are competing modes, and pursuing '
-                                                                                                                    'one sacrifices the others;',
-                                                                                                                    'the principles rest on limited case studies, not empirical '
-                                                                                                                    'testing;',
-                                                                                                                    'they are stated as unconditional, universally-valid statements, '
-                                                                                                                    'which is impractical — more CONDITIONAL principles are needed;',
-                                                                                                                    'they produce mechanistic structures insensitive to employees\' '
-                                                                                                                    'social/psychological needs, inhibiting self-actualisation and '
-                                                                                                                    'increasing superior-dependence; and',
-                                                                                                                    'they assume organisations are CLOSED systems, encouraging '
-                                                                                                                    'departmental rather than whole-organisation orientation among '
-                                                                                                                    'employees.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Developed alongside scientific management, this theory "emphasises management functions and attempts '
+       'to generate broad administrative principles as guidelines for rationalising activities." Principal '
+       'contributors: Henri Fayol (1949), Mooney and Reiley (1939), Gulick and Urwick (1937). Administrative '
+       'theorists viewed productivity improvement "top down" (vs. Taylor\'s "bottom up" scientific '
+       'approach), laying emphasis on the JOB over the worker, and on the manager and management functions.'},
+ {'h4': '2.15.1  Henri Fayol (1841–1920)'},
+ {'p': 'Fayol believed effective management techniques could be defined and taught, building a formal '
+       "organisational structure administered rationally, and was a staunch advocate of management's "
+       'universality. He divided industrial-undertaking activities into: technical (production); commercial '
+       '(buying, selling, exchange); financial (optimum capital use); security (protecting '
+       'property/persons); accounting (recording/stocktaking costs, profits, liabilities, balance sheets, '
+       'statistics); and managerial (planning, organising, commanding, coordinating, controlling).'},
+ {'key': [{'p': "Fayol's 5 fundamental managerial functions:"},
+          {'ul': ['**Planning** (examining the future, developing an action plan)',
+                  '**Organising** (creating a people/materials structure to achieve plans)',
+                  '**Commanding** (maintaining appropriate staff activity, setting a good example)',
+                  '**Coordinating** (unifying/harmonising organisational varieties)',
+                  '**Controlling** (ensuring required activities align with established plans).']}]},
+ {'h4': "Fayol's 14 principles of management"},
+ {'ol': ['**Division of labour** — greater specialisation yields greater efficiency;',
+         '**Authority and responsibility** — formal authority gives the right to command, but personal '
+         'authority (e.g. intelligence) is also needed for real obedience;',
+         '**Discipline** — respect for rules/agreements, arising from good leadership, fair agreements, and '
+         'judiciously-enforced penalties;',
+         '**Unity of command** — each employee receives instructions on a given operation from ONLY one '
+         'superior, else conflict/confusion results;',
+         '**Subordination of individual interest to the common good** — organisational interest should not '
+         'be subordinated to individual employee interest;',
+         '**Remuneration** — fair compensation for both employees and employers;',
+         '**Centralisation** — the balance between decreasing (centralising) or increasing (decentralising) '
+         "subordinates' decision-making role; managers retain final responsibility but must grant "
+         'subordinates enough authority to do their jobs;',
+         '**The hierarchy** — the line of authority, running top-to-bottom, often shown as an organisation '
+         'chart;',
+         '**Order** — materials and people in the right place at the right time, people in positions suited '
+         'to them;',
+         '**Equity** — managers should be both friendly and fair to subordinates;',
+         '**Stability of staff (tenure)** — high employee turnover harms efficient functioning;',
+         '**Initiative** — subordinates should have freedom to conceive/carry out plans, even risking some '
+         'mistakes;',
+         '**Esprit de corps** — promoting team spirit for organisational unity — Fayol favoured verbal over '
+         'formal written communication to achieve this.']},
+ {'note': 'Some of these principles were likely practised by astute managers before Fayol, but he was the '
+          'first to codify them, enabling all managers to learn them and helping lay the foundation for '
+          'management as a profession.'},
+ {'warn': 'Source-label clarification (2025 Management, PDF pages 109–110 / printed 82–83): the activities '
+          'list prints ‘Accounting (protection of property and person)’ and then Accounting again; the '
+          'protection function is security, as clarified above. The principles list itself contains 13 '
+          'printed entries, skipping label (d), although the conventional count and this chapter heading say '
+          '14. No extra principle has been silently inserted into the source list.'},
+ {'h4': '2.15.2  Chester Barnard (1886-1961)'},
+ {'table': {'align': 'll',
+            'head': ['Other administrative-theory contributor', 'Contribution'],
+            'rows': [['**Chester Barnard (1886-1961)**',
+                      'Bell Telephone Company president; saw organisations as social systems requiring human '
+                      'cooperation (*The Function of the Executive*), bridging classical and human-resource '
+                      "viewpoints. Held that the manager's major functions were communicating and "
+                      "stimulating subordinates' effort, and that success depended on maintaining good "
+                      'relations with external stakeholders (investors, suppliers, customers) — introducing '
+                      'the idea that managers must examine the external environment and adjust the '
+                      'organisation to maintain equilibrium. His 6 communication principles: channels should '
+                      'be definitely known; formal channels must reach every member; lines should be as '
+                      'direct/short as possible; the complete line should usually be used; competence of '
+                      'those at communication centres must be adequate; and the line should not be '
+                      'interrupted while the organisation functions.']]}},
+ {'h4': '2.15.3  Colonel Lyndall Urwick, a British army officer turned distinguished executive and'},
+ {'table': {'align': 'll',
+            'head': ['Other administrative-theory contributor', 'Contribution'],
+            'rows': [['**Colonel Lyndall Urwick**',
+                      'A British army officer turned management consultant; authored *The Elements of '
+                      'Administration*, assembling the concepts/principles of Taylor, Fayol, Mooney, Reiley '
+                      'and other early theorists.']]}},
+ {'h4': '2.15.4  Luther Gulick isolated the responsibilities of the chief executive and enumerated them'},
+ {'table': {'align': 'll',
+            'head': ['Other administrative-theory contributor', 'Contribution'],
+            'rows': [['**Luther Gulick**',
+                      "Isolated the chief executive's responsibilities via the acronym **POSDCORB**: "
+                      'Planning, Organising, Staffing, Directing, Coordinating, Reporting, Budgeting.']]}},
+ {'h4': '2.15.5  James D. Mooney and Alan C. Reilly'},
+ {'table': {'align': 'll',
+            'head': ['Other administrative-theory contributor', 'Contribution'],
+            'rows': [['**James D. Mooney and Alan C. Reilly**',
+                      'Mooney (a General Motors executive) and historian Reilly co-wrote *Onward Industry* '
+                      '(1931), revised as *Principles of Organization* — greatly influencing US management '
+                      'theory/practice, arguing organisations should be studied from 2 viewpoints: the '
+                      "employees who create/utilise the organisational process, and the process's "
+                      'objective.']]}},
+ {'h4': '2.15.6  Implications of the administrative school for modern management'},
+ {'ul': ["Fayol's principles remain a clear, appropriate guideline set for efficient/effective resource use;",
+         'they remain the bedrock of modern management theory — e.g. equity and the performance-reward link '
+         'are central to modern motivation/leadership theory;',
+         'departmentalisation by organisational function is an administrative-thought offshoot; and',
+         "Barnard's cooperative-management theory grounds modern group/team work."]},
+ {'h4': '2.15.7  Limitations of administrative management'},
+ {'ul': ["many principles (including Fayol's) are internally contradictory — e.g. unity of command "
+         'contradicts specialisation/division of labour, and limited span of control contradicts minimising '
+         'organisational levels;',
+         'the specialisation principle is internally inconsistent — purpose, process and place are competing '
+         'modes, and pursuing one sacrifices the others;',
+         'the principles rest on limited case studies, not empirical testing;',
+         'they are stated as unconditional, universally-valid statements, which is impractical — more '
+         'CONDITIONAL principles are needed;',
+         "they produce mechanistic structures insensitive to employees' social/psychological needs, "
+         'inhibiting self-actualisation and increasing superior-dependence; and',
+         'they assume organisations are CLOSED systems, encouraging departmental rather than '
+         'whole-organisation orientation among employees.']}],
                                },
                     {
                                  'n': '2.16',
@@ -1645,223 +1224,110 @@ CH = {
                     {
                                  'n': '2.19',
                                  't': 'Contemporary approaches to management thoughts',
-                                 'b': [
-                                                          {
-                                                                                'h4': '2.19.1  Decision theory approach to management',
-                                                                              },
-                                                          {
-                                                                                'p': 'A product of the management-science era, emphasising rational '
-                                                                                     'selection among possible alternatives — a course of action or '
-                                                                                     'idea. Major contributor: Simon (others: March, Cyert, Forrester). '
-                                                                                     'Decision-making is the job of EVERY manager; the organisation is a '
-                                                                                     'decision-making unit. Features: management is essentially '
-                                                                                     'decision-making, with members as decision-makers/problem-solvers; '
-                                                                                     'the organisation is a combination of decision centres; members\' '
-                                                                                     'level/importance is determined by the importance of decisions they '
-                                                                                     'make; and everything affecting decision-making (the entire range '
-                                                                                     'of human organisational activity, plus macro conditions) is within '
-                                                                                     'management\'s subject matter.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.19.2  Systems theory',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'System',
-                                                                                                                      'd': 'a set of interrelated, interdependent parts arranged to '
-                                                                                                                           'produce a unified whole — a concept taken from the '
-                                                                                                                           'physical sciences and applied to organisations. '
-                                                                                                                           'Originally conceptualised by biologist Ludwig von '
-                                                                                                                           'Bertalanffy (1950); Daniel Katz and Robert Kahn (1966) '
-                                                                                                                           'first applied systems concepts fully to organisations.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Organisations are viewed as **systems of interrelated '
-                                                                                     'parts/subsystems** operating as a whole toward common goals. '
-                                                                                     '**Closed systems** are not influenced by, and do not interact '
-                                                                                     'with, their environment; **open systems** dynamically interact '
-                                                                                     'with their environment — modern organisations are understood as '
-                                                                                     'open systems.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.19.3  Components of a system',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Component',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Inputs**',
-                                                                                                                                                                                                                          'Resources/raw materials imported from the '
-                                                                                                                                                                                                                          'environment (human, material, financial, '
-                                                                                                                                                                                                                          'equipment, informational).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Transformation processes**',
-                                                                                                                                                                                                                          'An open system\'s managerial/technological '
-                                                                                                                                                                                                                          'abilities applied to convert inputs into outputs.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Outputs**',
-                                                                                                                                                                                                                          'The products, services and other outcomes '
-                                                                                                                                                                                                                          'exported into the environment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Feedback**',
-                                                                                                                                                                                                                          'Information about results/organisational status '
-                                                                                                                                                                                                                          'relative to the environment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Sub-systems**',
-                                                                                                                                                                                                                          'The parts making up a system\'s whole — each '
-                                                                                                                                                                                                                          'system may itself be a sub-system of a '
-                                                                                                                                                                                                                          'still-larger whole (department → plant → company '
-                                                                                                                                                                                                                          '→ industry → economy → world system).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Synergy**',
-                                                                                                                                                                                                                          'The whole is greater than the sum of its parts — '
-                                                                                                                                                                                                                          'cooperating/interacting departments become more '
-                                                                                                                                                                                                                          'productive than if acting in isolation.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**System boundary**',
-                                                                                                                                                                                                                          'Separates a system from its environment — rigid '
-                                                                                                                                                                                                                          'in a closed system, more flexible in an open '
-                                                                                                                                                                                                                          'system (increasingly flexible in recent years '
-                                                                                                                                                                                                                          'for many organisations).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Flow**',
-                                                                                                                                                                                                                          'Information, material and energy (including '
-                                                                                                                                                                                                                          'human) entering as inputs and exiting as outputs.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '2.19.4  Systems as cycles of events',
-                                                                              },
-                                                          {
-                                                                                'p': '**Systems as cycles of events**: the input-throughput-output '
-                                                                                     'pattern is cyclic — successful cycle completion provides '
-                                                                                     'energy/resources for repeating the cycle (e.g. products sold, '
-                                                                                     'profits regenerating the cycle).',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.19.5  Contributions of the systems theory to management',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'organisations operating as open systems must think broadly to '
-                                                                                                                    'avoid narrow issue assessment;',
-                                                                                                                    'a systems perspective eases coordination between sub-unit and '
-                                                                                                                    'whole-organisation objectives;',
-                                                                                                                    'helps managers envision organisational boundaries '
-                                                                                                                    '(internal/external environments);',
-                                                                                                                    'gives better understanding of how sub-systems interact;',
-                                                                                                                    'feedback helps detect **entropy** and counter it with '
-                                                                                                                    '**negative entropy** (acquiring new environmental inputs to '
-                                                                                                                    'prevent system deterioration);',
-                                                                                                                    '**synergy** (the whole exceeding the sum of parts) helps '
-                                                                                                                    'organisations accomplish goals, echoing Fayol\'s esprit de '
-                                                                                                                    'corps; and',
-                                                                                                                    'the open-systems approach accommodates multi-dimensional '
-                                                                                                                    'problem-solving.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '2.19.6  Limitations of the systems theory',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'considered abstract/impractical — managers don\'t naturally '
-                                                                                                                    'discuss problems in terms of inputs/transactions/outputs;',
-                                                                                                                    'heavily managerial in conception, under-emphasising workplace '
-                                                                                                                    'social conflict (trade unionism, labour-management relations);',
-                                                                                                                    'somewhat tautological — the concept of "function" lacks '
-                                                                                                                    'substantive content; and',
-                                                                                                                    'organisational systems are run BY people, so interpersonal '
-                                                                                                                    'relations may matter more than particular input/output '
-                                                                                                                    'structures, which remain subject to human control.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '2.19.1  Decision theory approach to management'},
+ {'p': 'A product of the management-science era, emphasising rational selection among possible alternatives '
+       '— a course of action or idea. Major contributor:'},
+ {'ul': ['Simon (others: March, Cyert, Forrester). Decision-making is the job of EVERY manager',
+         'the organisation is a decision-making unit. Features: management is essentially decision-making, '
+         'with members as decision-makers/problem-solvers',
+         'the organisation is a combination of decision centres',
+         "members' level/importance is determined by the importance of decisions they make",
+         'and everything affecting decision-making (the entire range of human organisational activity, plus '
+         "macro conditions) is within management's subject matter."]},
+ {'h4': '2.19.2  Systems theory'},
+ {'def': {'t': 'System',
+          'd': 'a set of interrelated, interdependent parts arranged to produce a unified whole — a concept '
+               'taken from the physical sciences and applied to organisations. Originally conceptualised by '
+               'biologist Ludwig von Bertalanffy (1950); Daniel Katz and Robert Kahn (1966) first applied '
+               'systems concepts fully to organisations.'}},
+ {'p': 'Organisations are viewed as **systems of interrelated parts/subsystems** operating as a whole toward '
+       'common goals. **Closed systems** are not influenced by, and do not interact with, their environment; '
+       '**open systems** dynamically interact with their environment — modern organisations are understood '
+       'as open systems.'},
+ {'h4': '2.19.3  Components of a system'},
+ {'table': {'align': 'll',
+            'head': ['Component', 'Description'],
+            'rows': [['**Inputs**',
+                      'Resources/raw materials imported from the environment (human, material, financial, '
+                      'equipment, informational).'],
+                     ['**Transformation processes**',
+                      "An open system's managerial/technological abilities applied to convert inputs into "
+                      'outputs.'],
+                     ['**Outputs**',
+                      'The products, services and other outcomes exported into the environment.'],
+                     ['**Feedback**',
+                      'Information about results/organisational status relative to the environment.'],
+                     ['**Sub-systems**',
+                      "The parts making up a system's whole — each system may itself be a sub-system of a "
+                      'still-larger whole (department → plant → company → industry → economy → world '
+                      'system).'],
+                     ['**Synergy**',
+                      'The whole is greater than the sum of its parts — cooperating/interacting departments '
+                      'become more productive than if acting in isolation.'],
+                     ['**System boundary**',
+                      'Separates a system from its environment — rigid in a closed system, more flexible in '
+                      'an open system (increasingly flexible in recent years for many organisations).'],
+                     ['**Flow**',
+                      'Information, material and energy (including human) entering as inputs and exiting as '
+                      'outputs.']]}},
+ {'h4': '2.19.4  Systems as cycles of events'},
+ {'p': '**Systems as cycles of events**: the input-throughput-output pattern is cyclic — successful cycle '
+       'completion provides energy/resources for repeating the cycle (e.g. products sold, profits '
+       'regenerating the cycle).'},
+ {'h4': '2.19.5  Contributions of the systems theory to management'},
+ {'ul': ['organisations operating as open systems must think broadly to avoid narrow issue assessment;',
+         'a systems perspective eases coordination between sub-unit and whole-organisation objectives;',
+         'helps managers envision organisational boundaries (internal/external environments);',
+         'gives better understanding of how sub-systems interact;',
+         'feedback helps detect **entropy** and counter it with **negative entropy** (acquiring new '
+         'environmental inputs to prevent system deterioration);',
+         '**synergy** (the whole exceeding the sum of parts) helps organisations accomplish goals, echoing '
+         "Fayol's esprit de corps; and",
+         'the open-systems approach accommodates multi-dimensional problem-solving.']},
+ {'h4': '2.19.6  Limitations of the systems theory'},
+ {'ul': ["considered abstract/impractical — managers don't naturally discuss problems in terms of "
+         'inputs/transactions/outputs;',
+         'heavily managerial in conception, under-emphasising workplace social conflict (trade unionism, '
+         'labour-management relations);',
+         'somewhat tautological — the concept of "function" lacks substantive content; and',
+         'organisational systems are run BY people, so interpersonal relations may matter more than '
+         'particular input/output structures, which remain subject to human control.']}],
                                },
                     {
                                  'n': '2.20',
                                  't': 'Contingency theory',
-                                 'b': [
-                                                          {
-                                                                                'h4': '2.20.1  Contingency or situational approach to management',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Contingency theory',
-                                                                                                                      'd': 'appropriate managerial action depends on each situation\'s '
-                                                                                                                           'particular parameters — in sharp contrast to the '
-                                                                                                                           'classical school\'s "one universal best decision" view. '
-                                                                                                                           '"It all depends" is contingency theory\'s slogan. Applies '
-                                                                                                                           'especially well to environmental factors, strategy, '
-                                                                                                                           'organisational design, technology and leadership.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Propagated by Pigors and Myers (1950); other contributors: Joan '
-                                                                                     'Woodward, Tom Burns, G.W. Stalker, Paul Lawrence, Jay Lorsch, '
-                                                                                     'James Thompson. They analysed the organisation-environment '
-                                                                                     'relationship, concluding managers must keep the organisation\'s '
-                                                                                     'functioning in harmony with its members\' needs AND external '
-                                                                                     'forces. Per Kast and Rosenzweig: "the contingency view seeks to '
-                                                                                     'understand the interrelationships within and among sub-systems as '
-                                                                                     'well as between the organisation and its environment... ultimately '
-                                                                                     'directed toward suggesting organisational designs and managerial '
-                                                                                     'actions most appropriate for specific situations."',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.20.2  Features of the contingency approach',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'management is entirely situational — technique effectiveness is '
-                                                                                                                    'contingent on the situation;',
-                                                                                                                    'management action is contingent on action outside the relevant '
-                                                                                                                    'system/subsystem;',
-                                                                                                                    'management should match/fit its approach to the particular '
-                                                                                                                    'situation\'s requirements — policies must respond to '
-                                                                                                                    'environmental change;',
-                                                                                                                    'organisational action should be based on behaviour outside the '
-                                                                                                                    'system, integrating the organisation with its environment; and',
-                                                                                                                    'there is no single "hard way" to manage — principles/techniques '
-                                                                                                                    'are not universal.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'key': '4 sequential contingency-model steps: (a) analyse and understand '
-                                                                                       'the situation; (b) examine the applicability/validity of '
-                                                                                       'different principles/techniques to it; (c) match the right '
-                                                                                       'technique to the situation; (d) implement the choice.',
-                                                                              },
-                                                          {
-                                                                                'h4': '2.20.3  Contributions of contingency theory to management',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'cautions against generalising method/strategy/organisational '
-                                                                                                                    'design;',
-                                                                                                                    'there is no single best way to organise/manage — the right '
-                                                                                                                    'structure is whichever lets the organisation optimally deal '
-                                                                                                                    'with its environment; and',
-                                                                                                                    'has LIMITED practical utility, being complex and difficult to '
-                                                                                                                    'fully determine all relevant situational factors.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '2.20.1  Contingency or situational approach to management'},
+ {'def': {'t': 'Contingency theory',
+          'd': "appropriate managerial action depends on each situation's particular parameters — in sharp "
+               'contrast to the classical school\'s "one universal best decision" view. "It all depends" is '
+               "contingency theory's slogan. Applies especially well to environmental factors, strategy, "
+               'organisational design, technology and leadership.'}},
+ {'p': 'Propagated by Pigors and Myers (1950); other contributors: Joan Woodward, Tom Burns, G.W. Stalker, '
+       'Paul Lawrence, Jay Lorsch, James Thompson. They analysed the organisation-environment relationship, '
+       "concluding managers must keep the organisation's functioning in harmony with its members' needs AND "
+       'external forces. Per Kast and Rosenzweig: "the contingency view seeks to understand the '
+       'interrelationships within and among sub-systems as well as between the organisation and its '
+       'environment... ultimately directed toward suggesting organisational designs and managerial actions '
+       'most appropriate for specific situations."'},
+ {'h4': '2.20.2  Features of the contingency approach'},
+ {'ol': ['management is entirely situational — technique effectiveness is contingent on the situation;',
+         'management action is contingent on action outside the relevant system/subsystem;',
+         "management should match/fit its approach to the particular situation's requirements — policies "
+         'must respond to environmental change;',
+         'organisational action should be based on behaviour outside the system, integrating the '
+         'organisation with its environment; and',
+         'there is no single "hard way" to manage — principles/techniques are not universal.']},
+ {'key': [{'p': '4 sequential contingency-model steps:'},
+          {'ul': ['(a) analyse and understand the situation',
+                  '(b) examine the applicability/validity of different principles/techniques to it',
+                  '(c) match the right technique to the situation',
+                  '(d) implement the choice.']}]},
+ {'h4': '2.20.3  Contributions of contingency theory to management'},
+ {'ul': ['cautions against generalising method/strategy/organisational design;',
+         'there is no single best way to organise/manage — the right structure is whichever lets the '
+         'organisation optimally deal with its environment; and',
+         'has LIMITED practical utility, being complex and difficult to fully determine all relevant '
+         'situational factors.']}],
                                },
                     {
                                  'n': '2.21',

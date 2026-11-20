@@ -165,201 +165,90 @@ CH = {
                     {
                                  'n': 'A.6',
                                  't': 'Dimensions/types of plans',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Organisations establish plans along 6 general dimensions: '
-                                                                                     'functions/activities-based; time-frame-based; contingency plans; '
-                                                                                     'single-use plans; standing/repeated-use plans; and kinds of '
-                                                                                     'enterprise plans.',
-                                                                              },
-                                                          {
-                                                                                'h4': '(A) Plans based on functions/activities — the 3-tier planning '
-                                                                                      'hierarchy',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Plan type',
-                                                                                                                                                                             'Who develops it / timeframe',
-                                                                                                                                                                             'Focus',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Strategic plans**',
-                                                                                                                                                                                                                          'Top management (with the board and middle '
-                                                                                                                                                                                                                          'management); comprehensive, long-term, general.',
-                                                                                                                                                                                                                          'Broad, enduring issues for firm '
-                                                                                                                                                                                                                          'effectiveness/survival — how to respond to '
-                                                                                                                                                                                                                          'changing conditions, allocate resources, and '
-                                                                                                                                                                                                                          'create a unified organisation-wide effort. '
-                                                                                                                                                                                                                          'Effectiveness criteria: **proactivity** '
-                                                                                                                                                                                                                          '(long-term view, actively moving the company '
-                                                                                                                                                                                                                          'forward), **congruency** (fit with '
-                                                                                                                                                                                                                          'organisational characteristics/external '
-                                                                                                                                                                                                                          'environment), and **synergy** (integrating '
-                                                                                                                                                                                                                          'sub-unit efforts toward corporate objectives).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tactical plans**',
-                                                                                                                                                                                                                          'Division/department level; typically 1-2 years.',
-                                                                                                                                                                                                                          'Specifies activities/completion timing/resources '
-                                                                                                                                                                                                                          'needed for the division\'s portion of the '
-                                                                                                                                                                                                                          'strategic plan — narrower, more specific than '
-                                                                                                                                                                                                                          'strategic plans, dealing more with efficiency '
-                                                                                                                                                                                                                          'than long-term effectiveness. Key aspects: '
-                                                                                                                                                                                                                          'division of labour and budgeting.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Operational plans**',
-                                                                                                                                                                                                                          'Line managers/employees directly responsible for '
-                                                                                                                                                                                                                          'execution; short-term.',
-                                                                                                                                                                                                                          'Translates the strategic plan\'s broad concepts '
-                                                                                                                                                                                                                          'into clear numbers, specific steps, measurable '
-                                                                                                                                                                                                                          'short-term objectives — narrowly focused on '
-                                                                                                                                                                                                                          'resources, methods, timeliness, quality control.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '(B) Plans based on time frame',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Plan',
-                                                                                                                                                                             'Span',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Long-range plans**',
-                                                                                                                                                                                                                          'Beyond 5 years (varies by organisation).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Intermediate/medium-range plans**',
-                                                                                                                                                                                                                          '1-5 years — important for middle/first-line '
-                                                                                                                                                                                                                          'managers, generally paralleling tactical plans.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Short-range plans**',
-                                                                                                                                                                                                                          '1 year or less — greatly affect day-to-day '
-                                                                                                                                                                                                                          'activity. Two kinds: **action plans** '
-                                                                                                                                                                                                                          '(operationalise another plan) and **reaction '
-                                                                                                                                                                                                                          'plans** (allow reacting to unforeseen '
-                                                                                                                                                                                                                          'circumstances).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '(C) Contingency plans',
-                                                                              },
-                                                          {
-                                                                                'p': 'Determines alternative courses of action if an intended plan is '
-                                                                                     'unexpectedly disrupted or rendered inappropriate — increasingly '
-                                                                                     'important for organisations in complex/dynamic environments, and '
-                                                                                     'should be periodically updated/revised.',
-                                                                              },
-                                                          {
-                                                                                'h4': '(D) Single-use plans — 3 types',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Programme**',
-                                                                                                                                                                                                                          'A comprehensive plan coordinating a complex, '
-                                                                                                                                                                                                                          'non-recurring set of activities (new product '
-                                                                                                                                                                                                                          'line, new facility, mission change) — usually '
-                                                                                                                                                                                                                          'spans several departments/projects and may take '
-                                                                                                                                                                                                                          'over a year. 6 basic steps (Bartol & Martin, '
-                                                                                                                                                                                                                          '1998): divide the work into major '
-                                                                                                                                                                                                                          'parts/projects; determine relationships/sequence '
-                                                                                                                                                                                                                          'among parts; decide who takes responsibility for '
-                                                                                                                                                                                                                          'each part; determine how each part is completed '
-                                                                                                                                                                                                                          'and what resources are needed; estimate '
-                                                                                                                                                                                                                          'completion time for each part; and develop an '
-                                                                                                                                                                                                                          'implementation schedule.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Project**',
-                                                                                                                                                                                                                          'Similar to a programme but smaller '
-                                                                                                                                                                                                                          'scope/complexity — may be part of a broader '
-                                                                                                                                                                                                                          'programme, or self-contained; often has its own '
-                                                                                                                                                                                                                          'budget.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Budget**',
-                                                                                                                                                                                                                          'A statement outlining the financial resources '
-                                                                                                                                                                                                                          'needed for a programme/project — a statement of '
-                                                                                                                                                                                                                          'expected results in numerical (usually monetary) '
-                                                                                                                                                                                                                          'terms.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '(E) Standing/repeated-use plans — 3 types (Wheelon and Hunger, '
-                                                                                      '1995)',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Policy**',
-                                                                                                                                                                                                                          'A general guide specifying broad parameters for '
-                                                                                                                                                                                                                          'organisational action — an '
-                                                                                                                                                                                                                          'administrative-decision standing guide, an '
-                                                                                                                                                                                                                          'organisation\'s viewpoint, an internal '
-                                                                                                                                                                                                                          'administrative law. Leaves room for discretion; '
-                                                                                                                                                                                                                          'a rigid policy becomes a RULE. Translated into '
-                                                                                                                                                                                                                          'rules/plans/procedures at every level (Mullins, '
-                                                                                                                                                                                                                          '1996).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Procedure**',
-                                                                                                                                                                                                                          'A prescribed series of related steps for '
-                                                                                                                                                                                                                          'recurring circumstances (formalised ones are '
-                                                                                                                                                                                                                          '"standard operating procedures," SOPs) — more '
-                                                                                                                                                                                                                          'specific than policy, detailed step-by-step, '
-                                                                                                                                                                                                                          'little flexibility. Advantages: ensures '
-                                                                                                                                                                                                                          'uniformity of action; eases employee appraisal; '
-                                                                                                                                                                                                                          'simplifies decision-making; improves '
-                                                                                                                                                                                                                          'inter-departmental coordination.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Rule**',
-                                                                                                                                                                                                                          'A statement of specific actions to take/not take '
-                                                                                                                                                                                                                          'in a given situation — unlike procedures, does '
-                                                                                                                                                                                                                          'not specify a series of steps; definite and '
-                                                                                                                                                                                                                          'rigid, little discretion; breach usually invites '
-                                                                                                                                                                                                                          'a penalty.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '(F) Kinds of enterprise plans',
-                                                                              },
-                                                          {
-                                                                                'p': '**Divisional plans** (for individual divisions); **functional '
-                                                                                     'plans** (for each functional department); **regional plans** (for '
-                                                                                     'each region/zone); and **corporate plans** (for the enterprise as '
-                                                                                     'a whole).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Organisations establish plans along 6 general dimensions:'},
+ {'ul': ['functions/activities-based',
+         'time-frame-based',
+         'contingency plans',
+         'single-use plans',
+         'standing/repeated-use plans',
+         'and kinds of enterprise plans.']},
+ {'h4': '(A) Plans based on functions/activities — the 3-tier planning hierarchy'},
+ {'table': {'align': 'lll',
+            'head': ['Plan type', 'Who develops it / timeframe', 'Focus'],
+            'rows': [['**Strategic plans**',
+                      'Top management (with the board and middle management); comprehensive, long-term, '
+                      'general.',
+                      'Broad, enduring issues for firm effectiveness/survival — how to respond to changing '
+                      'conditions, allocate resources, and create a unified organisation-wide effort. '
+                      'Effectiveness criteria: **proactivity** (long-term view, actively moving the company '
+                      'forward), **congruency** (fit with organisational characteristics/external '
+                      'environment), and **synergy** (integrating sub-unit efforts toward corporate '
+                      'objectives).'],
+                     ['**Tactical plans**',
+                      'Division/department level; typically 1-2 years.',
+                      "Specifies activities/completion timing/resources needed for the division's portion of "
+                      'the strategic plan — narrower, more specific than strategic plans, dealing more with '
+                      'efficiency than long-term effectiveness. Key aspects: division of labour and '
+                      'budgeting.'],
+                     ['**Operational plans**',
+                      'Line managers/employees directly responsible for execution; short-term.',
+                      "Translates the strategic plan's broad concepts into clear numbers, specific steps, "
+                      'measurable short-term objectives — narrowly focused on resources, methods, '
+                      'timeliness, quality control.']]}},
+ {'h4': '(B) Plans based on time frame'},
+ {'table': {'align': 'll',
+            'head': ['Plan', 'Span'],
+            'rows': [['**Long-range plans**', 'Beyond 5 years (varies by organisation).'],
+                     ['**Intermediate/medium-range plans**',
+                      '1-5 years — important for middle/first-line managers, generally paralleling tactical '
+                      'plans.'],
+                     ['**Short-range plans**',
+                      '1 year or less — greatly affect day-to-day activity. Two kinds: **action plans** '
+                      '(operationalise another plan) and **reaction plans** (allow reacting to unforeseen '
+                      'circumstances).']]}},
+ {'h4': '(C) Contingency plans'},
+ {'p': 'Determines alternative courses of action if an intended plan is unexpectedly disrupted or rendered '
+       'inappropriate — increasingly important for organisations in complex/dynamic environments, and should '
+       'be periodically updated/revised.'},
+ {'h4': '(D) Single-use plans — 3 types'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Programme**',
+                      'A comprehensive plan coordinating a complex, non-recurring set of activities (new '
+                      'product line, new facility, mission change) — usually spans several '
+                      'departments/projects and may take over a year. 6 basic steps (Bartol & Martin, 1998): '
+                      'divide the work into major parts/projects; determine relationships/sequence among '
+                      'parts; decide who takes responsibility for each part; determine how each part is '
+                      'completed and what resources are needed; estimate completion time for each part; and '
+                      'develop an implementation schedule.'],
+                     ['**Project**',
+                      'Similar to a programme but smaller scope/complexity — may be part of a broader '
+                      'programme, or self-contained; often has its own budget.'],
+                     ['**Budget**',
+                      'A statement outlining the financial resources needed for a programme/project — a '
+                      'statement of expected results in numerical (usually monetary) terms.']]}},
+ {'h4': '(E) Standing/repeated-use plans — 3 types (Wheelon and Hunger, 1995)'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Policy**',
+                      'A general guide specifying broad parameters for organisational action — an '
+                      "administrative-decision standing guide, an organisation's viewpoint, an internal "
+                      'administrative law. Leaves room for discretion; a rigid policy becomes a RULE. '
+                      'Translated into rules/plans/procedures at every level (Mullins, 1996).'],
+                     ['**Procedure**',
+                      'A prescribed series of related steps for recurring circumstances (formalised ones are '
+                      '"standard operating procedures," SOPs) — more specific than policy, detailed '
+                      'step-by-step, little flexibility. Advantages: ensures uniformity of action; eases '
+                      'employee appraisal; simplifies decision-making; improves inter-departmental '
+                      'coordination.'],
+                     ['**Rule**',
+                      'A statement of specific actions to take/not take in a given situation — unlike '
+                      'procedures, does not specify a series of steps; definite and rigid, little '
+                      'discretion; breach usually invites a penalty.']]}},
+ {'h4': '(F) Kinds of enterprise plans'},
+ {'p': '**Divisional plans** (for individual divisions); **functional plans** (for each functional '
+       'department); **regional plans** (for each region/zone); and **corporate plans** (for the enterprise '
+       'as a whole).'}],
                                },
                     {
                                  'n': 'A.7',
@@ -406,63 +295,35 @@ CH = {
                     {
                                  'n': 'A.8',
                                  't': 'Levels of planning',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Planning is pervasive at every level, but relative time spent on '
-                                                                                     'it shifts: top management spends the most time planning (though '
-                                                                                     'not exclusively), engaging in STRATEGIC planning; middle '
-                                                                                     'management engages more in TACTICAL planning; first-line '
-                                                                                     'management concentrates mainly on OPERATIONAL planning.',
-                                                                              },
-                                                          {
-                                                                                'note': 'The book divides this section into **§A.8.1 Strategic planning '
-                                                                                        '(top management)**, **§A.8.2 Tactical planning (middle '
-                                                                                        'management)** and **§A.8.3 Operational planning (lower level '
-                                                                                        'management)** — the three rows of the table above.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Level',
-                                                                                                                                                                             'Characteristics',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Strategic planning (top management)**',
-                                                                                                                                                                                                                          'Determining desired objectives/benchmarks and '
-                                                                                                                                                                                                                          'ways to reach them ("what future do we want? '
-                                                                                                                                                                                                                          'what must we do now to ensure it?"). Typically: '
-                                                                                                                                                                                                                          'top management\'s responsibility; states '
-                                                                                                                                                                                                                          'mission/vision; describes '
-                                                                                                                                                                                                                          'goals/policies/structure/funding; concerned with '
-                                                                                                                                                                                                                          'EFFECTIVENESS (doing the right things); provides '
-                                                                                                                                                                                                                          'the basis for tactical/operational planning; '
-                                                                                                                                                                                                                          'takes time to execute; usually a long time frame.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tactical planning (middle management)**',
-                                                                                                                                                                                                                          'Flows from, and must be consistent with, the '
-                                                                                                                                                                                                                          'strategic plan — while strategy is general, '
-                                                                                                                                                                                                                          'tactics specify resources/timeframes in detail. '
-                                                                                                                                                                                                                          'Requires heavy people-interaction '
-                                                                                                                                                                                                                          '(receiving/processing/passing information). Each '
-                                                                                                                                                                                                                          'strategic plan is implemented through SEVERAL '
-                                                                                                                                                                                                                          'tactical plans — strategic planning is critical '
-                                                                                                                                                                                                                          'to success, but tactical planning determines how '
-                                                                                                                                                                                                                          'well strategies actually WORK.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Operational planning (lower-level management)**',
-                                                                                                                                                                                                                          'Focused, short-term, specific — translates the '
-                                                                                                                                                                                                                          'tactical plan\'s broad concepts into clear '
-                                                                                                                                                                                                                          'numbers, specific steps, measurable short-term '
-                                                                                                                                                                                                                          'objectives.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Planning is pervasive at every level, but relative time spent on it shifts:'},
+ {'ul': ['top management spends the most time planning (though not exclusively), engaging in STRATEGIC '
+         'planning',
+         'middle management engages more in TACTICAL planning',
+         'first-line management concentrates mainly on OPERATIONAL planning.']},
+ {'note': 'The book divides this section into **§A.8.1 Strategic planning (top management)**, **§A.8.2 '
+          'Tactical planning (middle management)** and **§A.8.3 Operational planning (lower level '
+          'management)** — the three rows of the table above.'},
+ {'table': {'align': 'll',
+            'head': ['Level', 'Characteristics'],
+            'rows': [['**Strategic planning (top management)**',
+                      'Determining desired objectives/benchmarks and ways to reach them ("what future do we '
+                      'want? what must we do now to ensure it?"). Typically: top management\'s '
+                      'responsibility; states mission/vision; describes goals/policies/structure/funding; '
+                      'concerned with EFFECTIVENESS (doing the right things); provides the basis for '
+                      'tactical/operational planning; takes time to execute; usually a long time frame.'],
+                     ['**Tactical planning (middle management)**',
+                      'Flows from, and must be consistent with, the strategic plan — while strategy is '
+                      'general, tactics specify resources/timeframes in detail. Requires heavy '
+                      'people-interaction (receiving/processing/passing information). Each strategic plan is '
+                      'implemented through SEVERAL tactical plans — strategic planning is critical to '
+                      'success, but tactical planning determines how well strategies actually WORK.'],
+                     ['**Operational planning (lower-level management)**',
+                      "Focused, short-term, specific — translates the tactical plan's broad concepts into "
+                      'clear numbers, specific steps, measurable short-term objectives.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p143.png',
+             'alt': 'Figure 3.1: Time spent on planning at each level of management',
+             'cap': 'Figure 3.1: Time spent on planning at each level of management — original Management '
+                    'study-text page 116 (PDF 143). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.9',
@@ -891,208 +752,104 @@ CH = {
                     {
                                  'n': 'B.6',
                                  't': 'Individual decision-making',
-                                 'b': [
-                                                          {
-                                                                                'p': '**Individual decision-making**: a manager selects a course of '
-                                                                                     'action alone (perhaps after gathering colleague input) — common '
-                                                                                     'for routine/programmed, low-risk decisions (work allocation, '
-                                                                                     'reordering from a known supplier, handling complaints, discount '
-                                                                                     'decisions).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.6.1 – B.6.2  Advantages and disadvantages of individual '
-                                                                                      'decision-making',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Individual decisions',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advantages',
-                                                                                                                                                                                                                          'Fast decision; clear responsibility assignment; '
-                                                                                                                                                                                                                          'fast implementation; high manager job '
-                                                                                                                                                                                                                          'satisfaction; the manager\'s own experience is '
-                                                                                                                                                                                                                          'directly applied.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Disadvantages',
-                                                                                                                                                                                                                          'Outcomes may be skewed by individual '
-                                                                                                                                                                                                                          'perception/values/priorities; relies on limited '
-                                                                                                                                                                                                                          'information; risk of "passing the buck"; often '
-                                                                                                                                                                                                                          'inappropriate for complex/novel/high-uncertainty '
-                                                                                                                                                                                                                          'problems; may lack stakeholder support, reducing '
-                                                                                                                                                                                                                          'success chances; misses institutional knowledge '
-                                                                                                                                                                                                                          'spread across the organisation.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '**Individual decision-making**: a manager selects a course of action alone (perhaps after gathering '
+       'colleague input) — common for routine/programmed, low-risk decisions (work allocation, reordering '
+       'from a known supplier, handling complaints, discount decisions).'},
+ {'h4': 'B.6.1  Advantages of individual decision-making'},
+ {'table': {'align': 'll',
+            'head': ['Individual decisions', 'Detail'],
+            'rows': [['Advantages',
+                      'Fast decision; clear responsibility assignment; fast implementation; high manager job '
+                      "satisfaction; the manager's own experience is directly applied."]]}},
+ {'h4': 'B.6.2  Disadvantages of individual decision-making'},
+ {'table': {'align': 'll',
+            'head': ['Individual decisions', 'Detail'],
+            'rows': [['Disadvantages',
+                      'Outcomes may be skewed by individual perception/values/priorities; relies on limited '
+                      'information; risk of "passing the buck"; often inappropriate for '
+                      'complex/novel/high-uncertainty problems; may lack stakeholder support, reducing '
+                      'success chances; misses institutional knowledge spread across the organisation.']]}}],
                                },
                     {
                                  'n': 'B.7',
                                  't': 'Group decision-making',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Group',
-                                                                                                                      'd': 'two or more freely-interacting individuals sharing a '
-                                                                                                                           'common identity and purpose (Kreitner, 2000) — '
-                                                                                                                           'committees, teams, boards, task forces are common '
-                                                                                                                           'decision-making group forms.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Group decision-making has grown with organisational complexity and '
-                                                                                     'the information volume needed for sound decisions — advocates cite '
-                                                                                     'participative buy-in, member development, and the fact that modern '
-                                                                                     'issues (rapid tech change, government influence, social '
-                                                                                     'responsibility) exceed any single manager\'s expertise. It is '
-                                                                                     'PARTICULARLY appropriate for non-programmed decisions, given their '
-                                                                                     'complexity.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.7.1 – B.7.2  Advantages and disadvantages of group '
-                                                                                      'decision-making',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Group decisions',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advantages',
-                                                                                                                                                                                                                          'More comprehensive information from diverse '
-                                                                                                                                                                                                                          'specialties; generates more alternatives; more '
-                                                                                                                                                                                                                          'effective implementation (implementers were '
-                                                                                                                                                                                                                          'involved, raising commitment); reduces '
-                                                                                                                                                                                                                          'individual bias/unreliability; trains '
-                                                                                                                                                                                                                          'subordinates in '
-                                                                                                                                                                                                                          'objective-setting/evaluation/decision skills; '
-                                                                                                                                                                                                                          'more democratic (vs. individual decisions\' '
-                                                                                                                                                                                                                          'relative autocracy).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Disadvantages',
-                                                                                                                                                                                                                          'Time-consuming (assembling the group, weighing '
-                                                                                                                                                                                                                          'many opinions); social pressure to conform '
-                                                                                                                                                                                                                          '("groupthink"); personality conflicts '
-                                                                                                                                                                                                                          'diminishing process efficiency/decision quality; '
-                                                                                                                                                                                                                          'group goals may conflict with organisational '
-                                                                                                                                                                                                                          'goals; "focus effect" (fixating on a few '
-                                                                                                                                                                                                                          'alternatives, limiting choice); more expensive '
-                                                                                                                                                                                                                          'than individual decision-making.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Group',
+          'd': 'two or more freely-interacting individuals sharing a common identity and purpose (Kreitner, '
+               '2000) — committees, teams, boards, task forces are common decision-making group forms.'}},
+ {'p': 'Group decision-making has grown with organisational complexity and the information volume needed for '
+       'sound decisions — advocates cite participative buy-in, member development, and the fact that modern '
+       "issues (rapid tech change, government influence, social responsibility) exceed any single manager's "
+       'expertise. It is PARTICULARLY appropriate for non-programmed decisions, given their complexity.'},
+ {'h4': 'B.7.1  Advantages of Group Decision-Making'},
+ {'table': {'align': 'll',
+            'head': ['Group decisions', 'Detail'],
+            'rows': [['Advantages',
+                      'More comprehensive information from diverse specialties; generates more alternatives; '
+                      'more effective implementation (implementers were involved, raising commitment); '
+                      'reduces individual bias/unreliability; trains subordinates in '
+                      'objective-setting/evaluation/decision skills; more democratic (vs. individual '
+                      "decisions' relative autocracy)."]]}},
+ {'h4': 'B.7.2  Disadvantages of Group Decision-Making'},
+ {'table': {'align': 'll',
+            'head': ['Group decisions', 'Detail'],
+            'rows': [['Disadvantages',
+                      'Time-consuming (assembling the group, weighing many opinions); social pressure to '
+                      'conform ("groupthink"); personality conflicts diminishing process efficiency/decision '
+                      'quality; group goals may conflict with organisational goals; "focus effect" (fixating '
+                      'on a few alternatives, limiting choice); more expensive than individual '
+                      'decision-making.']]}}],
                                },
                     {
                                  'n': 'B.8',
                                  't': 'Decision-making techniques',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Decision-making techniques are tools enhancing decision '
-                                                                                     'efficiency/effectiveness — an orderly, systematic, objective, '
-                                                                                     'scientific framework for defining/analysing/solving problems, also '
-                                                                                     'serving to justify/evaluate a manager\'s own performance.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Technique',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Brainstorming**',
-                                                                                                                                                                                                                          'A group generates ideas under rules designed to '
-                                                                                                                                                                                                                          'promote new ideas while avoiding face-to-face '
-                                                                                                                                                                                                                          'inhibition: no idea is too ridiculous; every '
-                                                                                                                                                                                                                          'idea belongs to the GROUP, not its stater '
-                                                                                                                                                                                                                          '(encouraging building on others\' ideas); no idea '
-                                                                                                                                                                                                                          'may be criticised during the session (purpose is '
-                                                                                                                                                                                                                          'generation, not evaluation).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**The Delphi technique**',
-                                                                                                                                                                                                                          'A systematic procedure developing expert '
-                                                                                                                                                                                                                          'consensus — experts complete detailed written '
-                                                                                                                                                                                                                          'questionnaires (avoiding direct contact/debate, '
-                                                                                                                                                                                                                          'which risks hasty commitment), then revise their '
-                                                                                                                                                                                                                          'own answers after reading others\' anonymous '
-                                                                                                                                                                                                                          'responses over several "rounds," until opinions '
-                                                                                                                                                                                                                          'converge. The average of stabilised opinions '
-                                                                                                                                                                                                                          'represents the "group" decision (Stoner 1978; '
-                                                                                                                                                                                                                          'Griffin 1999). Research shows little further '
-                                                                                                                                                                                                                          'change typically occurs after the 2nd round.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**The Nominal Group Technique (NGT)**',
-                                                                                                                                                                                                                          'A structured group meeting combining '
-                                                                                                                                                                                                                          'verbal/non-verbal stages: (1) 7-10 people sit '
-                                                                                                                                                                                                                          'together WITHOUT talking, writing ideas '
-                                                                                                                                                                                                                          'privately; (2) after 5 minutes, each shares ONE '
-                                                                                                                                                                                                                          'idea in turn (a recorder lists them on a flip '
-                                                                                                                                                                                                                          'chart) — no discussion yet, continuing until '
-                                                                                                                                                                                                                          'ideas are exhausted (typically 18-25 ideas); (3) '
-                                                                                                                                                                                                                          'structured discussion of each idea; (4) '
-                                                                                                                                                                                                                          'independent private voting/ranking — the group '
-                                                                                                                                                                                                                          'decision is the mathematically-pooled outcome of '
-                                                                                                                                                                                                                          'individual votes.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Marginal analysis**',
-                                                                                                                                                                                                                          'Compares additional revenue vs. additional cost '
-                                                                                                                                                                                                                          'as output increases — useful for profit '
-                                                                                                                                                                                                                          'maximisation or finding a machine\'s best output; '
-                                                                                                                                                                                                                          'profit is maximised where marginal revenue '
-                                                                                                                                                                                                                          'equals marginal cost.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Cost-benefit (cost-effectiveness) analysis**',
-                                                                                                                                                                                                                          'An improvement on marginal analysis — compares '
-                                                                                                                                                                                                                          'the cost-to-benefit RATIO across alternatives, '
-                                                                                                                                                                                                                          'selecting the one with the best ratio '
-                                                                                                                                                                                                                          '(least-costly path to an objective, or '
-                                                                                                                                                                                                                          'highest-value expenditure).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Decision trees**',
-                                                                                                                                                                                                                          'A graphical "tree" display of decision points, '
-                                                                                                                                                                                                                          'chance events and probabilities across possible '
-                                                                                                                                                                                                                          'courses — lets decision-makers consider '
-                                                                                                                                                                                                                          'alternatives, assign financial values, estimate '
-                                                                                                                                                                                                                          'outcome probabilities, compare, and choose the '
-                                                                                                                                                                                                                          'best option. By incorporating event '
-                                                                                                                                                                                                                          'probabilities, managers see the TRUE probability '
-                                                                                                                                                                                                                          'of a decision succeeding — a "best estimate" may '
-                                                                                                                                                                                                                          'prove quite risky. Decision trees replace broad '
-                                                                                                                                                                                                                          'judgment with focus on the important elements, '
-                                                                                                                                                                                                                          'expose hidden premises, and disclose the '
-                                                                                                                                                                                                                          'reasoning behind decisions made under '
-                                                                                                                                                                                                                          'uncertainty.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'Delphi vs. NGT: in Delphi, all communication is via written '
-                                                                                        'questionnaire and participants are physically distant/anonymous '
-                                                                                        'to each other; NGT participants meet face-to-face around a '
-                                                                                        'table. Practical factors (working hours available, cost, '
-                                                                                        'participant proximity) influence which technique is chosen.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Decision-making techniques are tools enhancing decision efficiency/effectiveness — an orderly, '
+       'systematic, objective, scientific framework for defining/analysing/solving problems, also serving to '
+       "justify/evaluate a manager's own performance."},
+ {'table': {'align': 'll',
+            'head': ['Technique', 'Description'],
+            'rows': [['**Brainstorming**',
+                      'A group generates ideas under rules designed to promote new ideas while avoiding '
+                      'face-to-face inhibition: no idea is too ridiculous; every idea belongs to the GROUP, '
+                      "not its stater (encouraging building on others' ideas); no idea may be criticised "
+                      'during the session (purpose is generation, not evaluation).'],
+                     ['**The Delphi technique**',
+                      'A systematic procedure developing expert consensus — experts complete detailed '
+                      'written questionnaires (avoiding direct contact/debate, which risks hasty '
+                      "commitment), then revise their own answers after reading others' anonymous responses "
+                      'over several "rounds," until opinions converge. The average of stabilised opinions '
+                      'represents the "group" decision (Stoner 1978; Griffin 1999). Research shows little '
+                      'further change typically occurs after the 2nd round.'],
+                     ['**The Nominal Group Technique (NGT)**',
+                      'A structured group meeting combining verbal/non-verbal stages: (1) 7-10 people sit '
+                      'together WITHOUT talking, writing ideas privately; (2) after 5 minutes, each shares '
+                      'ONE idea in turn (a recorder lists them on a flip chart) — no discussion yet, '
+                      'continuing until ideas are exhausted (typically 18-25 ideas); (3) structured '
+                      'discussion of each idea; (4) independent private voting/ranking — the group decision '
+                      'is the mathematically-pooled outcome of individual votes.'],
+                     ['**Marginal analysis**',
+                      'Compares additional revenue vs. additional cost as output increases — useful for '
+                      "profit maximisation or finding a machine's best output; profit is maximised where "
+                      'marginal revenue equals marginal cost.'],
+                     ['**Cost-benefit (cost-effectiveness) analysis**',
+                      'An improvement on marginal analysis — compares the cost-to-benefit RATIO across '
+                      'alternatives, selecting the one with the best ratio (least-costly path to an '
+                      'objective, or highest-value expenditure).'],
+                     ['**Decision trees**',
+                      'A graphical "tree" display of decision points, chance events and probabilities across '
+                      'possible courses — lets decision-makers consider alternatives, assign financial '
+                      'values, estimate outcome probabilities, compare, and choose the best option. By '
+                      'incorporating event probabilities, managers see the TRUE probability of a decision '
+                      'succeeding — a "best estimate" may prove quite risky. Decision trees replace broad '
+                      'judgment with focus on the important elements, expose hidden premises, and disclose '
+                      'the reasoning behind decisions made under uncertainty.']]}},
+ {'note': 'Delphi vs. NGT: in Delphi, all communication is via written questionnaire and participants are '
+          'physically distant/anonymous to each other; NGT participants meet face-to-face around a table. '
+          'Practical factors (working hours available, cost, participant proximity) influence which '
+          'technique is chosen.'},
+ {'figure': {'src': 'assets/study-figures/man-p160.png',
+             'alt': 'Figure 3.2: Decision Tree without probabilities as adapted from Weihrich & Koontz,',
+             'cap': 'Figure 3.2: Decision Tree without probabilities as adapted from Weihrich & Koontz, — '
+                    'original Management study-text page 133 (PDF 160). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'B.9',
@@ -1300,28 +1057,20 @@ CH = {
                     {
                                  'n': 'C.2',
                                  't': 'Meaning and nature of organisation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Organising entails: determining tasks needed for objectives; '
-                                                                                     'dividing tasks into jobs; logically grouping total tasks into '
-                                                                                     'activities; arranging task activities efficiently; '
-                                                                                     'assigning/delegating authority; setting up an integration system '
-                                                                                     'for unified operation; and monitoring organisational '
-                                                                                     'effectiveness/efficiency to make adjustments.',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Organisation',
-                                                                                                                      'd': 'a system of consciously coordinated activities/forces of '
-                                                                                                                           'two or more persons (Barnard, 1938) — whenever people '
-                                                                                                                           'formally agree to combine efforts for a common purpose, '
-                                                                                                                           'an organisation forms. A ONE-TIME, temporary effort (two '
-                                                                                                                           'students pushing a broken-down car once) does NOT '
-                                                                                                                           'constitute an organisation; a recurring, purposeful '
-                                                                                                                           'combination of effort (doing this for a living) does.',
-                                                                                                                    },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Organising entails:'},
+ {'ul': ['determining tasks needed for objectives',
+         'dividing tasks into jobs',
+         'logically grouping total tasks into activities',
+         'arranging task activities efficiently',
+         'assigning/delegating authority',
+         'setting up an integration system for unified operation',
+         'and monitoring organisational effectiveness/efficiency to make adjustments.']},
+ {'def': {'t': 'Organisation',
+          'd': 'a system of consciously coordinated activities/forces of two or more persons (Barnard, 1938) '
+               '— whenever people formally agree to combine efforts for a common purpose, an organisation '
+               'forms. A ONE-TIME, temporary effort (two students pushing a broken-down car once) does NOT '
+               'constitute an organisation; a recurring, purposeful combination of effort (doing this for a '
+               'living) does.'}}],
                                },
                     {
                                  'n': 'C.3',
@@ -1396,169 +1145,89 @@ CH = {
                     {
                                  'n': 'C.6',
                                  't': 'Classifications of organisation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Organisations are classified using 4 criteria: structure, '
-                                                                                     'ownership, type of authority, and major purpose.',
-                                                                              },
-                                                          {
-                                                                                'h4': '(A) By structure — formal vs. informal',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Formal organisation**',
-                                                                                                                                                                                                                          'Management-recognised patterns of relationship, '
-                                                                                                                                                                                                                          'communication channels and authority structure — '
-                                                                                                                                                                                                                          'clearly defined '
-                                                                                                                                                                                                                          'roles/jobs/hierarchy/rules/procedures, from '
-                                                                                                                                                                                                                          'conscious management decisions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Informal organisation**',
-                                                                                                                                                                                                                          'Exists within, but is not officially part of, '
-                                                                                                                                                                                                                          'the formal organisation — serving needs '
-                                                                                                                                                                                                                          '(economic/social/psychological/cultural) the '
-                                                                                                                                                                                                                          'formal organisation cannot easily serve (e.g. '
-                                                                                                                                                                                                                          'Esusu groups, prayer fellowships, cooperative '
-                                                                                                                                                                                                                          'societies, ethnic associations, cult groups). '
-                                                                                                                                                                                                                          'Has its OWN objectives, roles, communication '
-                                                                                                                                                                                                                          'patterns, leadership, rules — often written into '
-                                                                                                                                                                                                                          'a members\' constitution.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'A formal organisation: helps achieve objectives; puts resources to '
-                                                                                     'best use; secures specialisation benefits; develops cooperation; '
-                                                                                     'limits executive conflict; prevents work duplication; makes '
-                                                                                     'employee efficiency easily measurable; provides well-defined '
-                                                                                     'authority/responsibility; makes officers accountable; and enables '
-                                                                                     'work standardisation. Drawbacks: change is difficult; rules matter '
-                                                                                     'more than persons; impersonal (no room for human feelings); '
-                                                                                     'recognises only FORMAL communication; risks excessive/undue '
-                                                                                     'authority use; ignores social/other human needs.',
-                                                                              },
-                                                          {
-                                                                                'p': 'An informal organisation: may fill gaps in managers\' abilities; '
-                                                                                     'helps solve members\' work problems; develops behavioural norms '
-                                                                                     'distinguishing legitimate/illegitimate activity; recognises '
-                                                                                     'talented workers as leaders; helps managers build better '
-                                                                                     'subordinate relations; fills communication gaps. Drawbacks: its '
-                                                                                     'leader may become a troublemaker, working against management '
-                                                                                     'policy; tends to resist change (obstructing growth); breeds '
-                                                                                     'dangerous rumours; may create ROLE CONFLICT between formal and '
-                                                                                     'informal expectations; and exerts strong conformity pressure on '
-                                                                                     'members.',
-                                                                              },
-                                                          {
-                                                                                'h4': '(B) By ownership',
-                                                                              },
-                                                          {
-                                                                                'p': '**Private sector organisations** — owned/financed by individuals, '
-                                                                                     'purely commercial (profit, return on capital, market share). '
-                                                                                     '**Public sector organisations** — owned/financed by government '
-                                                                                     '(federal/state/local/agencies), created for essential public '
-                                                                                     'services rather than profit — profits, where earned, are ploughed '
-                                                                                     'back or used to fund further public-benefit organisations.',
-                                                                              },
-                                                          {
-                                                                                'h4': '(C) By type of authority (Weber\'s 3 authority types, applied to '
-                                                                                      'organisations)',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Organisation type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Traditional**',
-                                                                                                                                                                                                                          'Acceptance of authority arises from '
-                                                                                                                                                                                                                          'tradition/custom — e.g. Obas, Emirs, Obis, the '
-                                                                                                                                                                                                                          'Pope, the Queen.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Charismatic**',
-                                                                                                                                                                                                                          'Authority legitimised by confidence in the '
-                                                                                                                                                                                                                          'leader\'s personal qualities — e.g. Obafemi '
-                                                                                                                                                                                                                          'Awolowo, Nnamdi Azikiwe, Kwame Nkrumah, Aminu '
-                                                                                                                                                                                                                          'Kano, Nelson Mandela, Ahmadu Bello. The '
-                                                                                                                                                                                                                          'organisation may collapse on the leader\'s death '
-                                                                                                                                                                                                                          'unless there is a legitimate heir.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Bureaucratic**',
-                                                                                                                                                                                                                          'Acceptance arises from the OFFICE/POSITION, '
-                                                                                                                                                                                                                          'bounded by rules/procedures (Weber\'s '
-                                                                                                                                                                                                                          'rational-legal authority) — the most common '
-                                                                                                                                                                                                                          'structure among private businesses and public '
-                                                                                                                                                                                                                          'organisations.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': '(Cole, 1996, citing Weber, 1949: authority differs from POWER — '
-                                                                                     'power is unilateral, forcing behaviour via strength or reward; '
-                                                                                     'authority requires acceptance by those over whom it is exercised, '
-                                                                                     'so it can only be exercised within limits agreeable to '
-                                                                                     'subordinates.)',
-                                                                              },
-                                                          {
-                                                                                'h4': '(D) By purpose',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Business organisation**',
-                                                                                                                                                                                                                          'Exists to make profit in a socially acceptable '
-                                                                                                                                                                                                                          'manner (e.g. UAC Foods, Nigeria Bottling Company '
-                                                                                                                                                                                                                          'Plc, Seven-Up Bottling Plc) — no business '
-                                                                                                                                                                                                                          'survives or grows without profit, which measures '
-                                                                                                                                                                                                                          'efficient resource allocation.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Non-profit (service) organisation**',
-                                                                                                                                                                                                                          'Benevolent, not financial, goals (e.g. Yaba '
-                                                                                                                                                                                                                          'Psychiatric Hospital, University of Lagos) — '
-                                                                                                                                                                                                                          'success is measured by service quality, not '
-                                                                                                                                                                                                                          'naira; key problems are applicant screening and '
-                                                                                                                                                                                                                          'securing reliable funding (fees, donations, '
-                                                                                                                                                                                                                          'grants).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Mutual benefit organisation**',
-                                                                                                                                                                                                                          'Members bind together to pursue goals difficult '
-                                                                                                                                                                                                                          'individually, mutually benefiting members (e.g. '
-                                                                                                                                                                                                                          'NECA, MAN, professional bodies).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Commonwealth organisation**',
-                                                                                                                                                                                                                          'Offers standardised public services to ALL '
-                                                                                                                                                                                                                          'members of a population (unlike non-profit '
-                                                                                                                                                                                                                          'organisations serving specific segments) — e.g. '
-                                                                                                                                                                                                                          'the Nigeria Police Force, the Nigerian Army.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Organisations are classified using 4 criteria: structure, ownership, type of authority, and major '
+       'purpose.'},
+ {'h4': '(A) By structure — formal vs. informal'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Formal organisation**',
+                      'Management-recognised patterns of relationship, communication channels and authority '
+                      'structure — clearly defined roles/jobs/hierarchy/rules/procedures, from conscious '
+                      'management decisions.'],
+                     ['**Informal organisation**',
+                      'Exists within, but is not officially part of, the formal organisation — serving needs '
+                      '(economic/social/psychological/cultural) the formal organisation cannot easily serve '
+                      '(e.g. Esusu groups, prayer fellowships, cooperative societies, ethnic associations, '
+                      'cult groups). Has its OWN objectives, roles, communication patterns, leadership, '
+                      "rules — often written into a members' constitution."]]}},
+ {'p': 'A formal organisation:'},
+ {'ul': ['helps achieve objectives',
+         'puts resources to best use',
+         'secures specialisation benefits',
+         'develops cooperation',
+         'limits executive conflict',
+         'prevents work duplication',
+         'makes employee efficiency easily measurable',
+         'provides well-defined authority/responsibility',
+         'makes officers accountable',
+         'and enables work standardisation. Drawbacks: change is difficult',
+         'rules matter more than persons',
+         'impersonal (no room for human feelings)',
+         'recognises only FORMAL communication',
+         'risks excessive/undue authority use',
+         'ignores social/other human needs.']},
+ {'p': 'An informal organisation:'},
+ {'ul': ["may fill gaps in managers' abilities",
+         "helps solve members' work problems",
+         'develops behavioural norms distinguishing legitimate/illegitimate activity',
+         'recognises talented workers as leaders',
+         'helps managers build better subordinate relations',
+         'fills communication gaps. Drawbacks: its leader may become a troublemaker, working against '
+         'management policy',
+         'tends to resist change (obstructing growth)',
+         'breeds dangerous rumours',
+         'may create ROLE CONFLICT between formal and informal expectations',
+         'and exerts strong conformity pressure on members.']},
+ {'h4': '(B) By ownership'},
+ {'p': '**Private sector organisations** — owned/financed by individuals, purely commercial (profit, return '
+       'on capital, market share). **Public sector organisations** — owned/financed by government '
+       '(federal/state/local/agencies), created for essential public services rather than profit — profits, '
+       'where earned, are ploughed back or used to fund further public-benefit organisations.'},
+ {'h4': "(C) By type of authority (Weber's 3 authority types, applied to organisations)"},
+ {'table': {'align': 'll',
+            'head': ['Organisation type', 'Description'],
+            'rows': [['**Traditional**',
+                      'Acceptance of authority arises from tradition/custom — e.g. Obas, Emirs, Obis, the '
+                      'Pope, the Queen.'],
+                     ['**Charismatic**',
+                      "Authority legitimised by confidence in the leader's personal qualities — e.g. Obafemi "
+                      'Awolowo, Nnamdi Azikiwe, Kwame Nkrumah, Aminu Kano, Nelson Mandela, Ahmadu Bello. The '
+                      "organisation may collapse on the leader's death unless there is a legitimate heir."],
+                     ['**Bureaucratic**',
+                      "Acceptance arises from the OFFICE/POSITION, bounded by rules/procedures (Weber's "
+                      'rational-legal authority) — the most common structure among private businesses and '
+                      'public organisations.']]}},
+ {'p': '(Cole, 1996, citing Weber, 1949: authority differs from POWER — power is unilateral, forcing '
+       'behaviour via strength or reward; authority requires acceptance by those over whom it is exercised, '
+       'so it can only be exercised within limits agreeable to subordinates.)'},
+ {'h4': '(D) By purpose'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Business organisation**',
+                      'Exists to make profit in a socially acceptable manner (e.g. UAC Foods, Nigeria '
+                      'Bottling Company Plc, Seven-Up Bottling Plc) — no business survives or grows without '
+                      'profit, which measures efficient resource allocation.'],
+                     ['**Non-profit (service) organisation**',
+                      'Benevolent, not financial, goals (e.g. Yaba Psychiatric Hospital, University of '
+                      'Lagos) — success is measured by service quality, not naira; key problems are '
+                      'applicant screening and securing reliable funding (fees, donations, grants).'],
+                     ['**Mutual benefit organisation**',
+                      'Members bind together to pursue goals difficult individually, mutually benefiting '
+                      'members (e.g. NECA, MAN, professional bodies).'],
+                     ['**Commonwealth organisation**',
+                      'Offers standardised public services to ALL members of a population (unlike non-profit '
+                      'organisations serving specific segments) — e.g. the Nigeria Police Force, the '
+                      'Nigerian Army.']]}}],
                                },
                     {
                                  'n': 'C.7',
@@ -1633,334 +1302,206 @@ CH = {
                     {
                                  'n': 'C.9',
                                  't': 'Types or forms of organisational structure',
-                                 'b': [
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Structure',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                             'Advantages / Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Functional structure**',
-                                                                                                                                                                                                                          'Positions grouped by main functional '
-                                                                                                                                                                                                                          'area/expertise/similarity of work (production, '
-                                                                                                                                                                                                                          'marketing, finance, personnel). '
-                                                                                                                                                                                                                          'Efficient/economical, particularly for small '
-                                                                                                                                                                                                                          'single-product firms — creates a clear hierarchy.',
-                                                                                                                                                                                                                          'Adv: promotes skill specialisation/deep '
-                                                                                                                                                                                                                          'expertise; reduces resource-duplication; '
-                                                                                                                                                                                                                          'enhances within-function coordination/career '
-                                                                                                                                                                                                                          'development; logical, easy to adopt; shared '
-                                                                                                                                                                                                                          'expertise between superior/subordinate; '
-                                                                                                                                                                                                                          'centralised decision-making; high-quality '
-                                                                                                                                                                                                                          'technical problem-solving; easier top-management '
-                                                                                                                                                                                                                          'control/training/supervision. Disadv: slow '
-                                                                                                                                                                                                                          'response to multi-functional problems; '
-                                                                                                                                                                                                                          'top-management decision overload; '
-                                                                                                                                                                                                                          'over-emphasises routine tasks; reduces '
-                                                                                                                                                                                                                          'inter-departmental communication; departmental '
-                                                                                                                                                                                                                          '(not organisational) focus; decision '
-                                                                                                                                                                                                                          'delay/coordination problems as the organisation '
-                                                                                                                                                                                                                          'grows.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Divisional structure**',
-                                                                                                                                                                                                                          'Positions grouped by similarity of PRODUCT, '
-                                                                                                                                                                                                                          'LOCATION/geography, or CUSTOMER — adopted as '
-                                                                                                                                                                                                                          'functional structures become cumbersome with '
-                                                                                                                                                                                                                          'growth. 3 common divisional forms: product '
-                                                                                                                                                                                                                          'division (each unit handles a product/related '
-                                                                                                                                                                                                                          'family); place/geographic division (territorial '
-                                                                                                                                                                                                                          'units serving different regions/nations); '
-                                                                                                                                                                                                                          'customer division (units serving distinct '
-                                                                                                                                                                                                                          'customer segments — e.g. '
-                                                                                                                                                                                                                          'institutional/industrial/household products).',
-                                                                                                                                                                                                                          'Product-division adv: greater product '
-                                                                                                                                                                                                                          'visibility, easier growth accommodation, fast '
-                                                                                                                                                                                                                          'product-change adaptability, cross-functional '
-                                                                                                                                                                                                                          'manager development, clear '
-                                                                                                                                                                                                                          'performance-evaluation basis. Disadv: may '
-                                                                                                                                                                                                                          'underuse skills/resources, poor cross-product '
-                                                                                                                                                                                                                          'coordination, restricts problem-solving to one '
-                                                                                                                                                                                                                          'product, limits career mobility outside the '
-                                                                                                                                                                                                                          'product line. Geographic-division adv: '
-                                                                                                                                                                                                                          'location-specific expertise, customer '
-                                                                                                                                                                                                                          'familiarity, national adaptability, lower-level '
-                                                                                                                                                                                                                          'responsibility, valuable manager training. '
-                                                                                                                                                                                                                          'Disadv: duplicated functions per division, '
-                                                                                                                                                                                                                          'harder top-management control, '
-                                                                                                                                                                                                                          'local-vs-corporate goal conflict, extensive '
-                                                                                                                                                                                                                          'coordinating rules needed. Customer-division '
-                                                                                                                                                                                                                          'adv: greater customer focus, clear key-customer '
-                                                                                                                                                                                                                          'identification, improved corporate image. '
-                                                                                                                                                                                                                          'Disadv: poor cross-customer coordination, '
-                                                                                                                                                                                                                          'resource-allocation politics, restricts '
-                                                                                                                                                                                                                          'problem-solving to one customer type.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Process structure**',
-                                                                                                                                                                                                                          'Patterned on the specific production processes '
-                                                                                                                                                                                                                          'performed — e.g. a dry-cleaning firm\'s '
-                                                                                                                                                                                                                          'washing/drying/ironing/packing departments, or a '
-                                                                                                                                                                                                                          'tailoring firm\'s '
-                                                                                                                                                                                                                          'cutting/sewing/finishing/packing departments.',
-                                                                                                                                                                                                                          '—',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Hybrid (mixed) structure**',
-                                                                                                                                                                                                                          'Combines parts of several structures (most large '
-                                                                                                                                                                                                                          'organisations mix functional and divisional '
-                                                                                                                                                                                                                          'departments) — functional departments give '
-                                                                                                                                                                                                                          'resource-utilisation/scale/expertise efficiency; '
-                                                                                                                                                                                                                          'divisional departments give '
-                                                                                                                                                                                                                          'product/service/market focus. Best where an '
-                                                                                                                                                                                                                          'organisation faces environmental uncertainty AND '
-                                                                                                                                                                                                                          'needs functional expertise/efficiency.',
-                                                                                                                                                                                                                          'Adv: specialised expertise plus scale economies '
-                                                                                                                                                                                                                          'in major functions; delegated decision authority '
-                                                                                                                                                                                                                          'relieving top management; '
-                                                                                                                                                                                                                          'adaptability/flexibility via partial '
-                                                                                                                                                                                                                          'divisionalisation; aligns divisional/corporate '
-                                                                                                                                                                                                                          'goals; promotes lower-level loyalty/commitment. '
-                                                                                                                                                                                                                          'Disadv: excessively large corporate-level '
-                                                                                                                                                                                                                          'functional staff; conflict as corporate '
-                                                                                                                                                                                                                          'departments try to control divisions; work '
-                                                                                                                                                                                                                          'duplication undermining scale economies; delayed '
-                                                                                                                                                                                                                          'response to situations needing '
-                                                                                                                                                                                                                          'division-corporate coordination.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Matrix structure**',
-                                                                                                                                                                                                                          'Superimposes a horizontal DIVISIONAL reporting '
-                                                                                                                                                                                                                          'relationship onto a hierarchical FUNCTIONAL '
-                                                                                                                                                                                                                          'structure — used when members of different '
-                                                                                                                                                                                                                          'functional departments work together temporarily '
-                                                                                                                                                                                                                          'on a project. Has TWO chains of command '
-                                                                                                                                                                                                                          '(vertical functional heads, horizontal project '
-                                                                                                                                                                                                                          'managers — both sometimes called "matrix '
-                                                                                                                                                                                                                          'bosses").',
-                                                                                                                                                                                                                          'Adv: avoids divisional-structure function '
-                                                                                                                                                                                                                          'duplication; encourages decentralised '
-                                                                                                                                                                                                                          'decision-making; improved environmental '
-                                                                                                                                                                                                                          'monitoring; fast response to change; maintains '
-                                                                                                                                                                                                                          'professional identification; flexible resource '
-                                                                                                                                                                                                                          'use. Disadv: high administrative cost; VIOLATES '
-                                                                                                                                                                                                                          'unity of command; possible slow response; '
-                                                                                                                                                                                                                          'heightened interpersonal-conflict risk; needs '
-                                                                                                                                                                                                                          'managers with strong human-relations skill; '
-                                                                                                                                                                                                                          'authority confusion.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'Urwick (1947) emphasised technical planning of the organisation '
-                                                                                        '— determining and laying out structure — BEFORE considering '
-                                                                                        'individual members, since an organisation not founded on clear '
-                                                                                        'principles forces managers to "play politics" over promotion '
-                                                                                        'and similar decisions instead.',
-                                                                              },
-                                                        ],
+                                 'b': [{'table': {'align': 'lll',
+            'head': ['Structure', 'Description', 'Advantages / Disadvantages'],
+            'rows': [['**Functional structure**',
+                      'Positions grouped by main functional area/expertise/similarity of work (production, '
+                      'marketing, finance, personnel). Efficient/economical, particularly for small '
+                      'single-product firms — creates a clear hierarchy.',
+                      'Adv: promotes skill specialisation/deep expertise; reduces resource-duplication; '
+                      'enhances within-function coordination/career development; logical, easy to adopt; '
+                      'shared expertise between superior/subordinate; centralised decision-making; '
+                      'high-quality technical problem-solving; easier top-management '
+                      'control/training/supervision. Disadv: slow response to multi-functional problems; '
+                      'top-management decision overload; over-emphasises routine tasks; reduces '
+                      'inter-departmental communication; departmental (not organisational) focus; decision '
+                      'delay/coordination problems as the organisation grows.'],
+                     ['**Divisional structure**',
+                      'Positions grouped by similarity of PRODUCT, LOCATION/geography, or CUSTOMER — adopted '
+                      'as functional structures become cumbersome with growth. 3 common divisional forms: '
+                      'product division (each unit handles a product/related family); place/geographic '
+                      'division (territorial units serving different regions/nations); customer division '
+                      '(units serving distinct customer segments — e.g. institutional/industrial/household '
+                      'products).',
+                      'Product-division adv: greater product visibility, easier growth accommodation, fast '
+                      'product-change adaptability, cross-functional manager development, clear '
+                      'performance-evaluation basis. Disadv: may underuse skills/resources, poor '
+                      'cross-product coordination, restricts problem-solving to one product, limits career '
+                      'mobility outside the product line. Geographic-division adv: location-specific '
+                      'expertise, customer familiarity, national adaptability, lower-level responsibility, '
+                      'valuable manager training. Disadv: duplicated functions per division, harder '
+                      'top-management control, local-vs-corporate goal conflict, extensive coordinating '
+                      'rules needed. Customer-division adv: greater customer focus, clear key-customer '
+                      'identification, improved corporate image. Disadv: poor cross-customer coordination, '
+                      'resource-allocation politics, restricts problem-solving to one customer type.'],
+                     ['**Process structure**',
+                      "Patterned on the specific production processes performed — e.g. a dry-cleaning firm's "
+                      "washing/drying/ironing/packing departments, or a tailoring firm's "
+                      'cutting/sewing/finishing/packing departments.',
+                      '—'],
+                     ['**Hybrid (mixed) structure**',
+                      'Combines parts of several structures (most large organisations mix functional and '
+                      'divisional departments) — functional departments give '
+                      'resource-utilisation/scale/expertise efficiency; divisional departments give '
+                      'product/service/market focus. Best where an organisation faces environmental '
+                      'uncertainty AND needs functional expertise/efficiency.',
+                      'Adv: specialised expertise plus scale economies in major functions; delegated '
+                      'decision authority relieving top management; adaptability/flexibility via partial '
+                      'divisionalisation; aligns divisional/corporate goals; promotes lower-level '
+                      'loyalty/commitment. Disadv: excessively large corporate-level functional staff; '
+                      'conflict as corporate departments try to control divisions; work duplication '
+                      'undermining scale economies; delayed response to situations needing '
+                      'division-corporate coordination.'],
+                     ['**Matrix structure**',
+                      'Superimposes a horizontal DIVISIONAL reporting relationship onto a hierarchical '
+                      'FUNCTIONAL structure — used when members of different functional departments work '
+                      'together temporarily on a project. Has TWO chains of command (vertical functional '
+                      'heads, horizontal project managers — both sometimes called "matrix bosses").',
+                      'Adv: avoids divisional-structure function duplication; encourages decentralised '
+                      'decision-making; improved environmental monitoring; fast response to change; '
+                      'maintains professional identification; flexible resource use. Disadv: high '
+                      'administrative cost; VIOLATES unity of command; possible slow response; heightened '
+                      'interpersonal-conflict risk; needs managers with strong human-relations skill; '
+                      'authority confusion.']]}},
+ {'note': 'Urwick (1947) emphasised technical planning of the organisation — determining and laying out '
+          'structure — BEFORE considering individual members, since an organisation not founded on clear '
+          'principles forces managers to "play politics" over promotion and similar decisions instead.'},
+ {'figure': {'src': 'assets/study-figures/man-p172.png',
+             'alt': 'Figure 3.3: Functional structure',
+             'cap': 'Figure 3.3: Functional structure — original Management study-text page 145 (PDF 172). '
+                    'Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p174.png',
+             'alt': 'Figure 3.4: Product divisional structure',
+             'cap': 'Figure 3.4: Product divisional structure — original Management study-text page 147 (PDF '
+                    '174). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p175.png',
+             'alt': 'Figure 3.5: Geographic divisional structure',
+             'cap': 'Figure 3.5: Geographic divisional structure — original Management study-text page 148 '
+                    '(PDF 175). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p176.png',
+             'alt': 'Figure 7.4; Figure 3.6: Customer divisional structure; Figure 3.7: Process structure '
+                    '(Example of a typical Dry Cleaning Firm)',
+             'cap': 'Figure 7.4; Figure 3.6: Customer divisional structure; Figure 3.7: Process structure '
+                    '(Example of a typical Dry Cleaning Firm) — original Management study-text page 149 (PDF '
+                    '176). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p177.png',
+             'alt': 'Figure 3.8: A Hybrid of matrix Structure',
+             'cap': 'Figure 3.8: A Hybrid of matrix Structure — original Management study-text page 150 (PDF '
+                    '177). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'C.10',
                                  't': 'Line and staff relationship',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.10.1 – C.10.2  Line authority and staff authority',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Authority type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Line authority**',
-                                                                                                                                                                                                                          'The simplest organisation type — people directly '
-                                                                                                                                                                                                                          'responsible for achieving organisational goals, '
-                                                                                                                                                                                                                          'forming a hierarchical structure from top to '
-                                                                                                                                                                                                                          'operative level, with clear unity of command '
-                                                                                                                                                                                                                          '(each person answers only to the one above). '
-                                                                                                                                                                                                                          'Adv: simple to operate; '
-                                                                                                                                                                                                                          'clearly-spelt-out/traceable '
-                                                                                                                                                                                                                          'responsibility-authority-accountability; fast '
-                                                                                                                                                                                                                          'communication/feedback; easy discipline/control '
-                                                                                                                                                                                                                          'given small size; close personnel relationships. '
-                                                                                                                                                                                                                          'Disadv: rigid/inflexible, prone to becoming '
-                                                                                                                                                                                                                          'dictatorial; inadequate once the firm grows and '
-                                                                                                                                                                                                                          'executives become overburdened; little time for '
-                                                                                                                                                                                                                          'strategic planning given day-to-day involvement; '
-                                                                                                                                                                                                                          'departments may favour self-interest over '
-                                                                                                                                                                                                                          'overall organisational welfare; no room for '
-                                                                                                                                                                                                                          'specialists.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Staff authority**',
-                                                                                                                                                                                                                          'Those providing advice/support to line staff — '
-                                                                                                                                                                                                                          'handling details, locating decision-relevant '
-                                                                                                                                                                                                                          'data, offering counsel on specific problems via '
-                                                                                                                                                                                                                          'investigation/research/recording/standardisation. '
-                                                                                                                                                                                                                          '"Staff thinks while the line acts."',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': '**Staff positions** take 2 forms: **personal staff** (serving one '
-                                                                                     'executive — e.g. a managing director\'s secretary) and '
-                                                                                     '**specialised staff** (helping the line via special skills — '
-                                                                                     'audit, R&D, quality control — available to managers at all levels).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Line-and-staff organisation** combines both — staff are experts '
-                                                                                     'with NO line authority, whose functions are largely advisory, '
-                                                                                     'deriving authority from their expertise and line managers\' need to '
-                                                                                     'use it.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.10.3 – C.10.5  Staff organisation structure, and line and staff '
-                                                                                      'organisation',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Line-and-staff org',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advantages',
-                                                                                                                                                                                                                          'Line managers gain specialist advice, improving '
-                                                                                                                                                                                                                          'decision quality; staff services train line '
-                                                                                                                                                                                                                          'managers; speeds line-function operations; '
-                                                                                                                                                                                                                          'preserves line stability/discipline while adding '
-                                                                                                                                                                                                                          'flexibility for new activities; repays its own '
-                                                                                                                                                                                                                          'cost via improved efficiency; enhances '
-                                                                                                                                                                                                                          'line-manager competence.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Disadvantages',
-                                                                                                                                                                                                                          'Line managers may over-rely on staff experts, '
-                                                                                                                                                                                                                          'losing their own judgement/initiative; staff '
-                                                                                                                                                                                                                          'officers can be ineffective, lacking '
-                                                                                                                                                                                                                          'implementation authority; '
-                                                                                                                                                                                                                          'authority/responsibility allocation between line '
-                                                                                                                                                                                                                          'and staff may be unclear.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.10.6  Line and staff conflicts',
-                                                                              },
-                                                          {
-                                                                                'p': 'Line complains that: staff encroach on their authority; staff '
-                                                                                     'advice is often academic/impractical; line is blamed on project '
-                                                                                     'failure but staff gets credit on success; staff doesn\'t know the '
-                                                                                     'whole picture, only its specialised area; staff unnecessarily '
-                                                                                     'inflates line paperwork; and staff sometimes assumes line '
-                                                                                     'authority outright.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Staff complains that: line is generally ignorant, resisting '
-                                                                                     'change/new ideas; line fears exposure of its own inefficiency '
-                                                                                     'through new methods; line distrusts/sabotages staff plans; line '
-                                                                                     'lacks the knowledge to translate advice into action; line gets '
-                                                                                     'preferential treatment on allowances/facilities; and line managers '
-                                                                                     'won\'t share success credit with staff.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'C.10.1  Line Authority'},
+ {'table': {'align': 'll',
+            'head': ['Authority type', 'Description'],
+            'rows': [['**Line authority**',
+                      'The simplest organisation type — people directly responsible for achieving '
+                      'organisational goals, forming a hierarchical structure from top to operative level, '
+                      'with clear unity of command (each person answers only to the one above). Adv: simple '
+                      'to operate; clearly-spelt-out/traceable responsibility-authority-accountability; fast '
+                      'communication/feedback; easy discipline/control given small size; close personnel '
+                      'relationships. Disadv: rigid/inflexible, prone to becoming dictatorial; inadequate '
+                      'once the firm grows and executives become overburdened; little time for strategic '
+                      'planning given day-to-day involvement; departments may favour self-interest over '
+                      'overall organisational welfare; no room for specialists.']]}},
+ {'h4': 'C.10.2  Staff Authority'},
+ {'table': {'align': 'll',
+            'head': ['Authority type', 'Description'],
+            'rows': [['**Staff authority**',
+                      'Those providing advice/support to line staff — handling details, locating '
+                      'decision-relevant data, offering counsel on specific problems via '
+                      'investigation/research/recording/standardisation. "Staff thinks while the line '
+                      'acts."']]}},
+ {'h4': 'C.10.3  Staff Organisation Structure'},
+ {'p': '**Staff positions** take 2 forms: **personal staff** (serving one executive — e.g. a managing '
+       "director's secretary) and **specialised staff** (helping the line via special skills — audit, R&D, "
+       'quality control — available to managers at all levels).'},
+ {'h4': 'C.10.4  Line and Staff Organisation'},
+ {'p': '**Line-and-staff organisation** combines both — staff are experts with NO line authority, whose '
+       "functions are largely advisory, deriving authority from their expertise and line managers' need to "
+       'use it.'},
+ {'h4': 'C.10.5  Line and Staff Organisation Structure'},
+ {'table': {'align': 'll',
+            'head': ['Line-and-staff org', 'Detail'],
+            'rows': [['Advantages',
+                      'Line managers gain specialist advice, improving decision quality; staff services '
+                      'train line managers; speeds line-function operations; preserves line '
+                      'stability/discipline while adding flexibility for new activities; repays its own cost '
+                      'via improved efficiency; enhances line-manager competence.'],
+                     ['Disadvantages',
+                      'Line managers may over-rely on staff experts, losing their own judgement/initiative; '
+                      'staff officers can be ineffective, lacking implementation authority; '
+                      'authority/responsibility allocation between line and staff may be unclear.']]}},
+ {'h4': 'C.10.6  Line and staff conflicts'},
+ {'p': 'Line complains that:'},
+ {'ul': ['staff encroach on their authority',
+         'staff advice is often academic/impractical',
+         'line is blamed on project failure but staff gets credit on success',
+         "staff doesn't know the whole picture, only its specialised area",
+         'staff unnecessarily inflates line paperwork',
+         'and staff sometimes assumes line authority outright.']},
+ {'p': 'Staff complains that:'},
+ {'ul': ['line is generally ignorant, resisting change/new ideas',
+         'line fears exposure of its own inefficiency through new methods',
+         'line distrusts/sabotages staff plans',
+         'line lacks the knowledge to translate advice into action',
+         'line gets preferential treatment on allowances/facilities',
+         "and line managers won't share success credit with staff."]},
+ {'figure': {'src': 'assets/study-figures/man-p179.png',
+             'alt': 'Figure 3.9: Line structure',
+             'cap': 'Figure 3.9: Line structure — original Management study-text page 152 (PDF 179). Open '
+                    'the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p181.png',
+             'alt': 'Figure 3.10: Staff structure',
+             'cap': 'Figure 3.10: Staff structure — original Management study-text page 154 (PDF 181). Open '
+                    'the page to enlarge.'}}],
                                },
                     {
                                  'n': 'C.11',
                                  't': 'Delegation of authority',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Delegation',
-                                                                                                                      'd': 'the assignment of formal authority and responsibility for '
-                                                                                                                           'executing specific activities to a subordinate — '
-                                                                                                                           'necessary because, as an enterprise grows, one person '
-                                                                                                                           'cannot exercise all decision-making authority alone.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'key': 'The delegation process: determine the results expected of a '
-                                                                                       'position; assign tasks to the subordinate; delegate authority to '
-                                                                                       'accomplish them; and hold the person responsible for '
-                                                                                       'accomplishment. Three attributes are prominent: **authority**, '
-                                                                                       '**responsibility** and **accountability**. Crucially: '
-                                                                                       '**responsibility cannot be delegated or transferred** — a '
-                                                                                       'superior can delegate the AUTHORITY to do a job, but retains '
-                                                                                       'ultimate RESPONSIBILITY for it being done; if a subordinate '
-                                                                                       'fails, the superior is held responsible.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.11.1  The process of delegation',
-                                                                              },
-                                                          {
-                                                                                'p': '**Authority and responsibility should always be equal** — '
-                                                                                     'authority gives the power to make/enforce decisions on assigned '
-                                                                                     'duties, and responsibility obliges performing those duties USING '
-                                                                                     'that authority (Terry, 1977). **Accountability** is the obligation '
-                                                                                     'to render an account of fulfilling one\'s responsibilities to '
-                                                                                     'whoever one reports to, created once tasks/authority are assigned.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.11.2  Advantages of delegation',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'relieves managers of routine workload, freeing capacity for '
-                                                                                                                    'higher responsibility;',
-                                                                                                                    'speeds up decision-making;',
-                                                                                                                    'trains subordinates for higher responsibility and raises morale;',
-                                                                                                                    'motivates subordinates to contribute constructively to '
-                                                                                                                    'organisational goals; and',
-                                                                                                                    'creates a sense of belonging in the enterprise.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.11.3 – C.11.4  Barriers to effective delegation, and reasons '
-                                                                                      'for managers\' reluctance to delegate',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'fear the subordinate may perform better and gain notice;',
-                                                                                                                    'egocentrism — the "I can do it better myself" fallacy;',
-                                                                                                                    'not knowing how to properly organise/assign work;',
-                                                                                                                    'poor ability to direct;',
-                                                                                                                    'lack of confidence in subordinates;',
-                                                                                                                    'fear of blame/punishment if a delegated task is poorly handled;',
-                                                                                                                    'fear of losing control/authority; and',
-                                                                                                                    'personal states (depression, anger, frustration, over-anxiety) '
-                                                                                                                    'leaving no clear headspace for delegation.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.11.5  Subordinates\' reluctance to accept delegated authority',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'preferring to avoid responsibility/risk, wanting their manager '
-                                                                                                                    'to decide instead;',
-                                                                                                                    'fear of criticism for mistakes;',
-                                                                                                                    'fear of work overload;',
-                                                                                                                    'lack of self-confidence;',
-                                                                                                                    'no matching additional incentive for additional responsibility; '
-                                                                                                                    'and',
-                                                                                                                    'feeling they lack the relevant information to guide the '
-                                                                                                                    'assignment.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Delegation',
+          'd': 'the assignment of formal authority and responsibility for executing specific activities to a '
+               'subordinate — necessary because, as an enterprise grows, one person cannot exercise all '
+               'decision-making authority alone.'}},
+ {'key': [{'p': 'The delegation process:'},
+          {'ul': ['determine the results expected of a position',
+                  'assign tasks to the subordinate',
+                  'delegate authority to accomplish them',
+                  'and hold the person responsible for accomplishment. Three attributes are prominent: '
+                  '**authority**, **responsibility** and **accountability**. Crucially: **responsibility '
+                  'cannot be delegated or transferred** — a superior can delegate the AUTHORITY to do a job, '
+                  'but retains ultimate RESPONSIBILITY for it being done',
+                  'if a subordinate fails, the superior is held responsible.']}]},
+ {'h4': 'C.11.1  The process of delegation'},
+ {'p': '**Authority and responsibility should always be equal** — authority gives the power to make/enforce '
+       'decisions on assigned duties, and responsibility obliges performing those duties USING that '
+       'authority (Terry, 1977). **Accountability** is the obligation to render an account of fulfilling '
+       "one's responsibilities to whoever one reports to, created once tasks/authority are assigned."},
+ {'h4': 'C.11.2  Advantages of delegation'},
+ {'ul': ['relieves managers of routine workload, freeing capacity for higher responsibility;',
+         'speeds up decision-making;',
+         'trains subordinates for higher responsibility and raises morale;',
+         'motivates subordinates to contribute constructively to organisational goals; and',
+         'creates a sense of belonging in the enterprise.']},
+ {'h4': 'C.11.3  Barriers/Obstacles to Effective Delegation of Authority'},
+ {'h4': 'C.11.4  Reasons for Managers Reluctance to Delegate'},
+ {'ul': ['fear the subordinate may perform better and gain notice;',
+         'egocentrism — the "I can do it better myself" fallacy;',
+         'not knowing how to properly organise/assign work;',
+         'poor ability to direct;',
+         'lack of confidence in subordinates;',
+         'fear of blame/punishment if a delegated task is poorly handled;',
+         'fear of losing control/authority; and',
+         'personal states (depression, anger, frustration, over-anxiety) leaving no clear headspace for '
+         'delegation.']},
+ {'h4': "C.11.5  Subordinates' reluctance to accept delegated authority"},
+ {'ul': ['preferring to avoid responsibility/risk, wanting their manager to decide instead;',
+         'fear of criticism for mistakes;',
+         'fear of work overload;',
+         'lack of self-confidence;',
+         'no matching additional incentive for additional responsibility; and',
+         'feeling they lack the relevant information to guide the assignment.']}],
                                },
                     {
                                  'n': 'C.12',
@@ -2020,84 +1561,43 @@ CH = {
                     {
                                  'n': 'C.13',
                                  't': 'Centralisation of authority',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.13.1 – C.13.2  Advantages and disadvantages of centralisation',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Centralisation',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advantages',
-                                                                                                                                                                                                                          'Power/prestige for top executives; uniformity of '
-                                                                                                                                                                                                                          'policy/practice/decisions; minimised duplication '
-                                                                                                                                                                                                                          'of similar functions; less need for elaborate '
-                                                                                                                                                                                                                          'controlling procedures; a strong, coordinated '
-                                                                                                                                                                                                                          'top-management team.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Disadvantages',
-                                                                                                                                                                                                                          'Inflexibility/decision delay, slowing responses '
-                                                                                                                                                                                                                          'to external change; stifles lower-level '
-                                                                                                                                                                                                                          'creativity/initiative; demotivates lower '
-                                                                                                                                                                                                                          'managers excluded from important decisions; may '
-                                                                                                                                                                                                                          'lower productivity (workers less willing to '
-                                                                                                                                                                                                                          'accept responsibility/enthusiasm); requires '
-                                                                                                                                                                                                                          'close supervision/rigid controls; no room for '
-                                                                                                                                                                                                                          'training subordinates in decision-making.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'C.13.1  Advantages of Centralisation'},
+ {'table': {'align': 'll',
+            'head': ['Centralisation', 'Detail'],
+            'rows': [['Advantages',
+                      'Power/prestige for top executives; uniformity of policy/practice/decisions; minimised '
+                      'duplication of similar functions; less need for elaborate controlling procedures; a '
+                      'strong, coordinated top-management team.']]}},
+ {'h4': 'C.13.2  Disadvantages of Centralisation'},
+ {'table': {'align': 'll',
+            'head': ['Centralisation', 'Detail'],
+            'rows': [['Disadvantages',
+                      'Inflexibility/decision delay, slowing responses to external change; stifles '
+                      'lower-level creativity/initiative; demotivates lower managers excluded from important '
+                      'decisions; may lower productivity (workers less willing to accept '
+                      'responsibility/enthusiasm); requires close supervision/rigid controls; no room for '
+                      'training subordinates in decision-making.']]}}],
                                },
                     {
                                  'n': 'C.14',
                                  't': 'Decentralisation',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.14.1 – C.14.2  Advantages and disadvantages of decentralisation',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Decentralisation',
-                                                                                                                                                                             'Detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Advantages',
-                                                                                                                                                                                                                          'Stresses delegation, lightening top management\'s '
-                                                                                                                                                                                                                          'load; develops generalists (not just '
-                                                                                                                                                                                                                          'specialists), easing succession into '
-                                                                                                                                                                                                                          'general-manager roles; develops managers\' own '
-                                                                                                                                                                                                                          'decision skills, motivating via '
-                                                                                                                                                                                                                          'performance-linked advancement; promotes '
-                                                                                                                                                                                                                          'intimate social ties, boosting '
-                                                                                                                                                                                                                          'enthusiasm/coordination; readily builds '
-                                                                                                                                                                                                                          'familiarity with specialised work; raises '
-                                                                                                                                                                                                                          'efficiency (managers near the activities they\'re '
-                                                                                                                                                                                                                          'responsible for); allows exploiting local '
-                                                                                                                                                                                                                          'conditions in multi-unit enterprises.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Disadvantages',
-                                                                                                                                                                                                                          'May cause diseconomies of scale as each '
-                                                                                                                                                                                                                          'decentralised unit\'s overhead rises; some '
-                                                                                                                                                                                                                          'managers still struggle to decide despite having '
-                                                                                                                                                                                                                          'authority — making accountability measurement '
-                                                                                                                                                                                                                          'time-consuming and inducing fear.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'C.14.1  Advantages of Decentralisation'},
+ {'table': {'align': 'll',
+            'head': ['Decentralisation', 'Detail'],
+            'rows': [['Advantages',
+                      "Stresses delegation, lightening top management's load; develops generalists (not just "
+                      "specialists), easing succession into general-manager roles; develops managers' own "
+                      'decision skills, motivating via performance-linked advancement; promotes intimate '
+                      'social ties, boosting enthusiasm/coordination; readily builds familiarity with '
+                      "specialised work; raises efficiency (managers near the activities they're responsible "
+                      'for); allows exploiting local conditions in multi-unit enterprises.']]}},
+ {'h4': 'C.14.2  Disadvantages of Decentralisation'},
+ {'table': {'align': 'll',
+            'head': ['Decentralisation', 'Detail'],
+            'rows': [['Disadvantages',
+                      "May cause diseconomies of scale as each decentralised unit's overhead rises; some "
+                      'managers still struggle to decide despite having authority — making accountability '
+                      'measurement time-consuming and inducing fear.']]}}],
                                },
                     {
                                  'n': 'C.15',
@@ -2405,39 +1905,31 @@ CH = {
                     {
                                  'n': 'E.3',
                                  't': 'Importance/usefulness of control',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Control is needed to: standardise performance via benchmarks; '
-                                                                                     'increase efficiency by reducing waste; safeguard assets from '
-                                                                                     'theft/waste/misuse; standardise quality to specification; set '
-                                                                                     'limits on delegated authority; measure the effectiveness of '
-                                                                                     'plans/programmes; measure members\' job performance; and adapt '
-                                                                                     'operations to external environmental change.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Control is needed to:'},
+ {'ul': ['standardise performance via benchmarks',
+         'increase efficiency by reducing waste',
+         'safeguard assets from theft/waste/misuse',
+         'standardise quality to specification',
+         'set limits on delegated authority',
+         'measure the effectiveness of plans/programmes',
+         "measure members' job performance",
+         'and adapt operations to external environmental change.']}],
                                },
                     {
                                  'n': 'E.4',
                                  't': 'Link between planning and control',
-                                 'b': [
-                                                          {
-                                                                                'key': 'A common definition: "control is the process through which '
-                                                                                       'managers assure that actual activities conform to planned '
-                                                                                       'activities." Planning and control are CONTINUOUSLY related — '
-                                                                                       'managers make plans, control evaluates their effectiveness; if '
-                                                                                       'control shows things on track, the plan is maintained; if not, '
-                                                                                       'the plan\'s course (or the plan itself) may need revision.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Per Lawal (1993): **distinctions** — planning entails '
-                                                                                     'decision-making, while control is a monitoring process DEPENDENT '
-                                                                                     'on planning\'s existence; planning concerns ends and means, control '
-                                                                                     'focuses on results and feedback. **Similarities** — both '
-                                                                                     'identify/quantify performance standards using similar measures; '
-                                                                                     'both use quantitative techniques (linear programming, statistical '
-                                                                                     'control, network analysis).',
-                                                                              },
-                                                        ],
+                                 'b': [{'key': [{'p': 'A common definition:'},
+          {'ul': ['"control is the process through which managers assure that actual activities conform to '
+                  'planned activities." Planning and control are CONTINUOUSLY related — managers make plans, '
+                  'control evaluates their effectiveness',
+                  'if control shows things on track, the plan is maintained',
+                  "if not, the plan's course (or the plan itself) may need revision."]}]},
+ {'p': 'Per Lawal (1993):'},
+ {'ul': ['**distinctions** — planning entails decision-making, while control is a monitoring process '
+         "DEPENDENT on planning's existence",
+         'planning concerns ends and means, control focuses on results and feedback. **Similarities** — both '
+         'identify/quantify performance standards using similar measures',
+         'both use quantitative techniques (linear programming, statistical control, network analysis).']}],
                                },
                     {
                                  'n': 'E.5',
@@ -2620,294 +2112,160 @@ CH = {
                     {
                                  'n': 'E.6',
                                  't': 'Control process',
-                                 'b': [
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Establish standards and methods for measuring performance — '
-                                                                                                                          'ideally already stated in clear, measurable, '
-                                                                                                                          'deadline-bearing terms from the planning process. Standard '
-                                                                                                                          'types: physical (labour-hours/unit, machine-hours/unit, '
-                                                                                                                          'output/hour), cost (labour cost/unit, material cost/unit), '
-                                                                                                                          'capital (ROI, current ratio, debt ratio), and revenue '
-                                                                                                                          '(revenue per sales clerk, sales per capita/month) standards.',
-                                                                                                                          'Measure performance — an ongoing, repeated process; the '
-                                                                                                                          'measurement METHOD depends on the standard set, and the '
-                                                                                                                          'measurement FREQUENCY depends on the activity type (e.g. '
-                                                                                                                          'continuous air-quality monitoring vs. once-or-twice-yearly '
-                                                                                                                          'review of long-term expansion progress). Good managers avoid '
-                                                                                                                          'long gaps between measurements.',
-                                                                                                                          'Determine whether performance matches standards — the '
-                                                                                                                          'easiest step, comparing measured results against the '
-                                                                                                                          'established targets.',
-                                                                                                                          'Take corrective action — necessary where performance falls '
-                                                                                                                          'short and analysis shows action is needed; this may mean '
-                                                                                                                          'changing an operational activity, OR (where controls reveal '
-                                                                                                                          'the standard itself was inappropriate) changing the standard '
-                                                                                                                          'instead. Managers who don\'t see this step through are merely '
-                                                                                                                          'MONITORING, not exercising real control — the emphasis '
-                                                                                                                          'should be on constructive improvement, not just identifying '
-                                                                                                                          'past failure.',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'steps': ['Establish standards and methods for measuring performance — ideally already stated in clear, '
+            'measurable, deadline-bearing terms from the planning process. Standard types: physical '
+            '(labour-hours/unit, machine-hours/unit, output/hour), cost (labour cost/unit, material '
+            'cost/unit), capital (ROI, current ratio, debt ratio), and revenue (revenue per sales clerk, '
+            'sales per capita/month) standards.',
+            'Measure performance — an ongoing, repeated process; the measurement METHOD depends on the '
+            'standard set, and the measurement FREQUENCY depends on the activity type (e.g. continuous '
+            'air-quality monitoring vs. once-or-twice-yearly review of long-term expansion progress). Good '
+            'managers avoid long gaps between measurements.',
+            'Determine whether performance matches standards — the easiest step, comparing measured results '
+            'against the established targets.',
+            'Take corrective action — necessary where performance falls short and analysis shows action is '
+            'needed; this may mean changing an operational activity, OR (where controls reveal the standard '
+            "itself was inappropriate) changing the standard instead. Managers who don't see this step "
+            'through are merely MONITORING, not exercising real control — the emphasis should be on '
+            'constructive improvement, not just identifying past failure.']},
+ {'figure': {'src': 'assets/study-figures/man-p197.png',
+             'alt': 'Figure 3.11: Basic Steps in the Control Process',
+             'cap': 'Figure 3.11: Basic Steps in the Control Process — original Management study-text page '
+                    '170 (PDF 197). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'E.7',
                                  't': 'Characteristics of effective control systems',
-                                 'b': [
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Accurate** — inaccurate data can cause an organisation to '
-                                                                                                                    'fail to fix a real problem or fix a nonexistent one;',
-                                                                                                                    '**Objective and comprehensible** — understandable, '
-                                                                                                                    'objectively-seen information drives correct, timely corrective '
-                                                                                                                    'action;',
-                                                                                                                    '**Timely** — information must be gathered/routed/evaluated '
-                                                                                                                    'quickly enough for corrective action to still help;',
-                                                                                                                    '**Focused on strategic control points** — areas most prone to '
-                                                                                                                    '(or most harmed by) deviation, and where corrective action '
-                                                                                                                    'applies most effectively;',
-                                                                                                                    '**Economically realistic** — control cost should not exceed '
-                                                                                                                    'control benefit;',
-                                                                                                                    '**Organisationally realistic** — compatible with organisational '
-                                                                                                                    'realities, with a fair balance between required effort and '
-                                                                                                                    'reward;',
-                                                                                                                    '**Coordinated with the organisation\'s work flow** — since each '
-                                                                                                                    'work-process step affects overall success, and information must '
-                                                                                                                    'reach everyone who needs it;',
-                                                                                                                    '**Flexible** — able to react quickly to adverse change or new '
-                                                                                                                    'opportunity;',
-                                                                                                                    '**Operational** — indicates what corrective action is needed '
-                                                                                                                    '(not just facts), delivered in a usable form to whoever must '
-                                                                                                                    'act; and',
-                                                                                                                    '**Acceptable to organisation members** — encouraging '
-                                                                                                                    'autonomy/responsibility/growth, since excessive/rigid controls '
-                                                                                                                    'harm motivation.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'Additional characteristics the source emphasises: **integration '
-                                                                                        'with planning** (the more explicit the link, the more effective '
-                                                                                        'the system); **future-oriented** (regulating future events, not '
-                                                                                        'just fixing blame for past ones); and '
-                                                                                        '**cost-effective/economically realistic**, reiterated as a '
-                                                                                        'standalone point given its importance.',
-                                                                              },
-                                                        ],
+                                 'b': [{'ol': ['**Accurate** — inaccurate data can cause an organisation to fail to fix a real problem or fix a '
+         'nonexistent one;',
+         '**Objective and comprehensible** — understandable, objectively-seen information drives correct, '
+         'timely corrective action;',
+         '**Timely** — information must be gathered/routed/evaluated quickly enough for corrective action to '
+         'still help;',
+         '**Focused on strategic control points** — areas most prone to (or most harmed by) deviation, and '
+         'where corrective action applies most effectively;',
+         '**Economically realistic** — control cost should not exceed control benefit;',
+         '**Organisationally realistic** — compatible with organisational realities, with a fair balance '
+         'between required effort and reward;',
+         "**Coordinated with the organisation's work flow** — since each work-process step affects overall "
+         'success, and information must reach everyone who needs it;',
+         '**Flexible** — able to react quickly to adverse change or new opportunity;',
+         '**Operational** — indicates what corrective action is needed (not just facts), delivered in a '
+         'usable form to whoever must act; and',
+         '**Acceptable to organisation members** — encouraging autonomy/responsibility/growth, since '
+         'excessive/rigid controls harm motivation.']},
+ {'note': [{'p': 'Additional characteristics the source emphasises:'},
+           {'ul': ['**integration with planning** (the more explicit the link, the more effective the '
+                   'system)',
+                   '**future-oriented** (regulating future events, not just fixing blame for past ones)',
+                   'and **cost-effective/economically realistic**, reiterated as a standalone point given '
+                   'its importance.']}]}],
                                },
                     {
                                  'n': 'E.8',
                                  't': 'Summary — Section E',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The managerial function of **controlling is the measurement and '
-                                                                                     'correction of performance**, in order to ensure that enterprise '
-                                                                                     'objectives are accomplished. Wherever it is found and whatever is '
-                                                                                     'being controlled, the basic control process involves these steps: '
-                                                                                     '**(a)** establish standards and methods for measuring performance; '
-                                                                                     '**(b)** measure performance; **(c)** compare performance against '
-                                                                                     'standards; and **(d)** take corrective action and re-evaluate '
-                                                                                     'standards.',
-                                                                              },
-                                                          {
-                                                                                'p': 'To overcome **time lags** in control, it is suggested that '
-                                                                                     'managers utilise a **feed-forward** control approach and not rely '
-                                                                                     'on simple feedback alone. A variety of control tools and '
-                                                                                     'techniques have been used to help a manager effect control. '
-                                                                                     '**ZBB** (zero-based budgeting), which attempts to base resource '
-                                                                                     'allocations on **current rather than historical needs**, was '
-                                                                                     'explained.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Breakeven analysis** is designed to illustrate the relationship '
-                                                                                     'between costs, sales volume and profits. It can be used both as a '
-                                                                                     'decision-making aid and as a control device. **Management '
-                                                                                     'auditing** involves a systematic appraisal of management and '
-                                                                                     'organisational performance in a number of areas of operation. '
-                                                                                     '**PERT and CPM** networks illustrate not only the tasks involved '
-                                                                                     'in a project and the time it will take to complete them, but also '
-                                                                                     'the **interrelationship between those tasks** — in this way the '
-                                                                                     'project can be planned and integrated more effectively, and the '
-                                                                                     'project completion date determined and controlled more easily.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Strategic management** was defined as a process of developing a '
-                                                                                     'game plan by which organisations gain competitive advantage over '
-                                                                                     'rivals, attract and please customers, compete successfully, '
-                                                                                     'conduct operations and achieve other organisational objectives. '
-                                                                                     'The importance of strategic management was discussed, and the '
-                                                                                     'stages of the strategic management process — developing vision, '
-                                                                                     'mission and objectives; SWOT analysis; and the formation, '
-                                                                                     'implementation and evaluation of strategies — were articulated, '
-                                                                                     'with detailed attention to the **types of strategy: corporate, '
-                                                                                     'business, functional and operational**.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Precisely, the stages in **decision making** involve: **(i)** '
-                                                                                     'diagnose and define the problem; **(ii)** establish specific goals '
-                                                                                     'and objectives; **(iii)** generate alternatives; **(iv)** gather '
-                                                                                     'and analyse the facts; **(v)** evaluate alternatives; **(vi)** '
-                                                                                     'select the best alternative; **(vii)** analyse possible '
-                                                                                     'consequences; **(viii)** implement the decision; and **(ix)** '
-                                                                                     'follow up.',
-                                                                              },
-                                                          {
-                                                                                'note': 'This summary ranges beyond Section E — it covers the control '
-                                                                                        'tools (ZBB, breakeven analysis, management auditing, PERT and '
-                                                                                        'CPM), then **strategic management**, which is Section F, and '
-                                                                                        'then restates the **nine-step decision process** of Section B. '
-                                                                                        'It is reproduced in full because several of those control tools '
-                                                                                        'are named **only here** and nowhere in the body of Section E.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The managerial function of **controlling is the measurement and correction of performance**, in '
+       'order to ensure that enterprise objectives are accomplished. Wherever it is found and whatever is '
+       'being controlled, the basic control process involves these steps: **(a)** establish standards and '
+       'methods for measuring performance; **(b)** measure performance; **(c)** compare performance against '
+       'standards; and **(d)** take corrective action and re-evaluate standards.'},
+ {'p': 'To overcome **time lags** in control, it is suggested that managers utilise a **feed-forward** '
+       'control approach and not rely on simple feedback alone. A variety of control tools and techniques '
+       'have been used to help a manager effect control. **ZBB** (zero-based budgeting), which attempts to '
+       'base resource allocations on **current rather than historical needs**, was explained.'},
+ {'p': '**Breakeven analysis** is designed to illustrate the relationship between costs, sales volume and '
+       'profits. It can be used both as a decision-making aid and as a control device. **Management '
+       'auditing** involves a systematic appraisal of management and organisational performance in a number '
+       'of areas of operation. **PERT and CPM** networks illustrate not only the tasks involved in a project '
+       'and the time it will take to complete them, but also the **interrelationship between those tasks** — '
+       'in this way the project can be planned and integrated more effectively, and the project completion '
+       'date determined and controlled more easily.'},
+ {'p': '**Strategic management** was defined as a process of developing a game plan by which organisations '
+       'gain competitive advantage over rivals, attract and please customers, compete successfully, conduct '
+       'operations and achieve other organisational objectives. The importance of strategic management was '
+       'discussed, and the stages of the strategic management process — developing vision, mission and '
+       'objectives; SWOT analysis; and the formation, implementation and evaluation of strategies — were '
+       'articulated, with detailed attention to the **types of strategy: corporate, business, functional and '
+       'operational**.'},
+ {'p': 'Precisely, the stages in **decision making** involve:'},
+ {'ul': ['**(i)** diagnose and define the problem',
+         '**(ii)** establish specific goals and objectives',
+         '**(iii)** generate alternatives',
+         '**(iv)** gather and analyse the facts',
+         '**(v)** evaluate alternatives',
+         '**(vi)** select the best alternative',
+         '**(vii)** analyse possible consequences',
+         '**(viii)** implement the decision',
+         'and **(ix)** follow up.']},
+ {'note': 'This summary ranges beyond Section E — it covers the control tools (ZBB, breakeven analysis, '
+          'management auditing, PERT and CPM), then **strategic management**, which is Section F, and then '
+          'restates the **nine-step decision process** of Section B. It is reproduced in full because '
+          'several of those control tools are named **only here** and nowhere in the body of Section E.'}],
                                },
                     {
                                  'n': 'E.9',
                                  't': 'Review questions — Section E, with the study text\'s solutions',
-                                 'b': [
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — Section E review questions',
-                                                                                                                    't': 'Multiple choice and short answer questions, with the '
-                                                                                                                         'official solutions',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'Correcting deviations from standards is an '
-                                                                                                                                                                                                                                                          'aspect of: **(a)** Planning process; **(b)** '
-                                                                                                                                                                                                                                                          'Control process; **(c)** Actuating process; '
-                                                                                                                                                                                                                                                          '**(d)** Leading process; **(e)** Organising '
-                                                                                                                                                                                                                                                          'process.',
-                                                                                                                                                                                                                                                          'The type of control in which ongoing '
-                                                                                                                                                                                                                                                          'operations are monitored to ensure that '
-                                                                                                                                                                                                                                                          'objectives are pursued is known as: **(a)** '
-                                                                                                                                                                                                                                                          'Concurrent control; **(b)** Feedback control; '
-                                                                                                                                                                                                                                                          '**(c)** Congruent control; **(d)** '
-                                                                                                                                                                                                                                                          'Feed-forward control; **(e)** Process control.',
-                                                                                                                                                                                                                                                          'Which of the following types of strategy is '
-                                                                                                                                                                                                                                                          'crafted by the Chief Executive Officer and top '
-                                                                                                                                                                                                                                                          'management of an organisation? **(a)** '
-                                                                                                                                                                                                                                                          'Operating strategy; **(b)** Divisional '
-                                                                                                                                                                                                                                                          'strategy; **(c)** Functional strategy; **(d)** '
-                                                                                                                                                                                                                                                          'Corporate strategy; **(e)** Business strategy.',
-                                                                                                                                                                                                                                                          'Which of these is **NOT** a control based on '
-                                                                                                                                                                                                                                                          'level in the organisation? **(a)** Corporate '
-                                                                                                                                                                                                                                                          'control; **(b)** Strategic control; **(c)** '
-                                                                                                                                                                                                                                                          'Tactical control; **(d)** Operational control; '
-                                                                                                                                                                                                                                                          '**(e)** Structural control.',
-                                                                                                                                                                                                                                                          'Which of these is a **structural control**? '
-                                                                                                                                                                                                                                                          '**(a)** Feed-forward control; **(b)** '
-                                                                                                                                                                                                                                                          'Concurrent control; **(c)** Feedback control; '
-                                                                                                                                                                                                                                                          '**(d)** Cybernetic control; **(e)** Output '
-                                                                                                                                                                                                                                                          'control.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Short answer questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'A type of control system where action is taken '
-                                                                                                                                                                                                                                                          'only after a significant deviation has '
-                                                                                                                                                                                                                                                          'occurred is known as ………',
-                                                                                                                                                                                                                                                          'The calculation of one or more financial '
-                                                                                                                                                                                                                                                          'ratios to assess some aspect of the '
-                                                                                                                                                                                                                                                          'organisation\'s financial health is referred to '
-                                                                                                                                                                                                                                                          'as ………',
-                                                                                                                                                                                                                                                          'Strategies crafted by the head of marketing of '
-                                                                                                                                                                                                                                                          'an organisation are an example of ……… strategy.',
-                                                                                                                                                                                                                                                          '……… control involves monitoring critical '
-                                                                                                                                                                                                                                                          'environmental factors that could affect the '
-                                                                                                                                                                                                                                                          'viability of strategic plans.',
-                                                                                                                                                                                                                                                          '……… is the determination of the basic '
-                                                                                                                                                                                                                                                          'long-term goals and objectives of an '
-                                                                                                                                                                                                                                                          'enterprise, and the adoption of courses of '
-                                                                                                                                                                                                                                                          'action and the allocation of resources '
-                                                                                                                                                                                                                                                          'necessary to carry out the goals.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Solutions — multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'cl',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Q',
-                                                                                                                                                                                                                                                                                                                                    'Answer',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '1',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**B** — Control process',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Concurrent control',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '3',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**D** — Corporate strategy',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '4',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Corporate control',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '5',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — Output control',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Solutions — short answer questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**Feedback control**',
-                                                                                                                                                                                                                                                          '**Ratio analysis**',
-                                                                                                                                                                                                                                                          '**Functional strategy**',
-                                                                                                                                                                                                                                                          '**Strategic**',
-                                                                                                                                                                                                                                                          '**Strategic management**',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'MCQ 2 and short answer 1 are the **timing** '
-                                                                                                                                                                                                            'classification of control at §E.5(D), and the '
-                                                                                                                                                                                                            'three must be kept apart: **feed-forward** '
-                                                                                                                                                                                                            'control acts **before** the activity '
-                                                                                                                                                                                                            '(anticipating problems); **concurrent** control '
-                                                                                                                                                                                                            'monitors the activity **while it is going on**; '
-                                                                                                                                                                                                            'and **feedback** control acts **after** a '
-                                                                                                                                                                                                            'deviation has occurred. Feed-forward is '
-                                                                                                                                                                                                            'preferable because feedback alone is always too '
-                                                                                                                                                                                                            'late — which is the point the Section E summary '
-                                                                                                                                                                                                            'makes about time lags.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'MCQ 4 and 5 test the two different '
-                                                                                                                                                                                                             'classifications side by side. Control **by '
-                                                                                                                                                                                                             'level** is corporate, strategic, tactical and '
-                                                                                                                                                                                                             'operational — so "structural control" is the '
-                                                                                                                                                                                                             'odd one out in MCQ 4. **Structural** control '
-                                                                                                                                                                                                             'is a separate classification of its own, '
-                                                                                                                                                                                                             'comprising **bureaucratic and clan (or output) '
-                                                                                                                                                                                                             'control** — which is why **output control** is '
-                                                                                                                                                                                                             'the answer to MCQ 5, while feed-forward, '
-                                                                                                                                                                                                             'concurrent and feedback belong to the timing '
-                                                                                                                                                                                                             'classification.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'eg': {'tag': 'Study text — Section E review questions',
+         't': 'Multiple choice and short answer questions, with the official solutions',
+         'open': True,
+         'q': [{'h4': 'Multiple choice questions'},
+               {'ol': ['Correcting deviations from standards is an aspect of: **(a)** Planning process; '
+                       '**(b)** Control process; **(c)** Actuating process; **(d)** Leading process; **(e)** '
+                       'Organising process.',
+                       'The type of control in which ongoing operations are monitored to ensure that '
+                       'objectives are pursued is known as: **(a)** Concurrent control; **(b)** Feedback '
+                       'control; **(c)** Congruent control; **(d)** Feed-forward control; **(e)** Process '
+                       'control.',
+                       'Which of the following types of strategy is crafted by the Chief Executive Officer '
+                       'and top management of an organisation? **(a)** Operating strategy; **(b)** '
+                       'Divisional strategy; **(c)** Functional strategy; **(d)** Corporate strategy; '
+                       '**(e)** Business strategy.',
+                       'Which of these is **NOT** a control based on level in the organisation? **(a)** '
+                       'Corporate control; **(b)** Strategic control; **(c)** Tactical control; **(d)** '
+                       'Operational control; **(e)** Structural control.',
+                       'Which of these is a **structural control**? **(a)** Feed-forward control; **(b)** '
+                       'Concurrent control; **(c)** Feedback control; **(d)** Cybernetic control; **(e)** '
+                       'Output control.']},
+               {'h4': 'Short answer questions'},
+               {'ol': ['A type of control system where action is taken only after a significant deviation '
+                       'has occurred is known as ………',
+                       'The calculation of one or more financial ratios to assess some aspect of the '
+                       "organisation's financial health is referred to as ………",
+                       'Strategies crafted by the head of marketing of an organisation are an example of ……… '
+                       'strategy.',
+                       '……… control involves monitoring critical environmental factors that could affect the '
+                       'viability of strategic plans.',
+                       '……… is the determination of the basic long-term goals and objectives of an '
+                       'enterprise, and the adoption of courses of action and the allocation of resources '
+                       'necessary to carry out the goals.']}],
+         'a': [{'h4': 'Solutions — multiple choice questions'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**B** — Control process'],
+                                   ['2', '**A** — Concurrent control'],
+                                   ['3', '**D** — Corporate strategy'],
+                                   ['4', '**A** — Corporate control'],
+                                   ['5', '**E** — Output control']]}},
+               {'h4': 'Solutions — short answer questions'},
+               {'ol': ['**Feedback control**',
+                       '**Ratio analysis**',
+                       '**Functional strategy**',
+                       '**Strategic**',
+                       '**Strategic management**']},
+               {'key': [{'p': 'MCQ 2 and short answer 1 are the **timing** classification of control at '
+                              '§E.5(D), and the three must be kept apart:'},
+                        {'ul': ['**feed-forward** control acts **before** the activity (anticipating '
+                                'problems)',
+                                '**concurrent** control monitors the activity **while it is going on**',
+                                'and **feedback** control acts **after** a deviation has occurred. '
+                                'Feed-forward is preferable because feedback alone is always too late — '
+                                'which is the point the Section E summary makes about time lags.']}]},
+               {'note': 'MCQ 4 and 5 test the two different classifications side by side. Control **by '
+                        'level** is corporate, strategic, tactical and operational — so "structural control" '
+                        'is the odd one out in MCQ 4. **Structural** control is a separate classification of '
+                        'its own, comprising **bureaucratic and clan (or output) control** — which is why '
+                        '**output control** is the answer to MCQ 5, while feed-forward, concurrent and '
+                        'feedback belong to the timing classification.'}]}}],
                                },
                     {
                                  'n': 'F.1',
@@ -2938,37 +2296,22 @@ CH = {
                     {
                                  'n': 'F.2',
                                  't': 'Meaning of strategy',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Strategy',
-                                                                                                                      'd': 'from the Greek "strategia" (science of guiding/directing '
-                                                                                                                           'military forces, ~400 BC) — a company\'s "game plan," '
-                                                                                                                           'reflecting awareness of how/when/where/against whom/for '
-                                                                                                                           'what purpose it should compete. In business: a '
-                                                                                                                           'comprehensive plan for accomplishing goals — how the '
-                                                                                                                           'organisation will operate, compete successfully, and '
-                                                                                                                           'attract/satisfy customers (Robbins and Coulter, 2009). It '
-                                                                                                                           'involves deploying resources to attain objectives, and is '
-                                                                                                                           'the pattern of significant decisions fulfilling the '
-                                                                                                                           'organisation\'s purpose over the long range.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Strategy answers: what goods should we produce? which market '
-                                                                                     'segment should we serve? how do we deal with competition? what are '
-                                                                                     'we out to achieve?',
-                                                                              },
-                                                          {
-                                                                                'key': 'Mintzberg\'s (1994) **5 Ps of strategy**: as a **plan** (a means '
-                                                                                       'of deciding and implementing decisions); as a **ploy** (a '
-                                                                                       'specific manoeuvre to outwit a competitor); as a **pattern** '
-                                                                                       '(consistency in behaviour, intended or not); as a **position** '
-                                                                                       '(locating the organisation within its environment); and as a '
-                                                                                       '**perspective** (looking inside the organisation — strategy is '
-                                                                                       'to an organisation what personality is to an individual).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Strategy',
+          'd': 'from the Greek "strategia" (science of guiding/directing military forces, ~400 BC) — a '
+               'company\'s "game plan," reflecting awareness of how/when/where/against whom/for what purpose '
+               'it should compete. In business: a comprehensive plan for accomplishing goals — how the '
+               'organisation will operate, compete successfully, and attract/satisfy customers (Robbins and '
+               'Coulter, 2009). It involves deploying resources to attain objectives, and is the pattern of '
+               "significant decisions fulfilling the organisation's purpose over the long range."}},
+ {'p': 'Strategy answers: what goods should we produce? which market segment should we serve? how do we deal '
+       'with competition? what are we out to achieve?'},
+ {'key': [{'p': "Mintzberg's (1994) **5 Ps of strategy**:"},
+          {'ul': ['as a **plan** (a means of deciding and implementing decisions)',
+                  'as a **ploy** (a specific manoeuvre to outwit a competitor)',
+                  'as a **pattern** (consistency in behaviour, intended or not)',
+                  'as a **position** (locating the organisation within its environment)',
+                  'and as a **perspective** (looking inside the organisation — strategy is to an '
+                  'organisation what personality is to an individual).']}]}],
                                },
                     {
                                  'n': 'F.3',
@@ -3028,207 +2371,116 @@ CH = {
                     {
                                  'n': 'F.5',
                                  't': 'SWOT analysis',
-                                 'b': [
-                                                          {
-                                                                                'p': 'SWOT (Strengths, Weaknesses, Opportunities, Threats) matches '
-                                                                                     'internal strengths/weaknesses against external '
-                                                                                     'opportunities/threats to formulate an effective strategy.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'F.5.1 – F.5.4  Strength, weakness, opportunity and threat',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Element',
-                                                                                                                                                                             'Description and examples',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Strength**',
-                                                                                                                                                                                                                          'A positive circumstance favouring success — '
-                                                                                                                                                                                                                          'policy aim: take advantage of it. Examples: good '
-                                                                                                                                                                                                                          'leadership; dedicated/experienced employees; '
-                                                                                                                                                                                                                          'good communication skills; extensive product '
-                                                                                                                                                                                                                          'knowledge/expertise; long-time community '
-                                                                                                                                                                                                                          'presence; networking/community relationships; '
-                                                                                                                                                                                                                          'technology know-how.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Weakness**',
-                                                                                                                                                                                                                          'A negative, unfavourable condition — policy aim: '
-                                                                                                                                                                                                                          'avoid/overcome it. Examples: inconsistent '
-                                                                                                                                                                                                                          'pricing strategy; inconsistent '
-                                                                                                                                                                                                                          'branding/marketing messages; limited/overcrowded '
-                                                                                                                                                                                                                          'workspace; inconsistent stakeholder '
-                                                                                                                                                                                                                          'communication; unwritten administration '
-                                                                                                                                                                                                                          'processes; lack of an organisational chart.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Opportunity**',
-                                                                                                                                                                                                                          'An innovative external event/condition that '
-                                                                                                                                                                                                                          'could make the activity more successful — policy '
-                                                                                                                                                                                                                          'aim: exploit it. NOT to be confused with a '
-                                                                                                                                                                                                                          'strength. Examples: currently limited '
-                                                                                                                                                                                                                          'competition; a skilled workforce amid high local '
-                                                                                                                                                                                                                          'unemployment; low-priced available office space; '
-                                                                                                                                                                                                                          'community growth; growing demand for technology '
-                                                                                                                                                                                                                          'skills/computer networking.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Threat**',
-                                                                                                                                                                                                                          'A potential external event/condition that could '
-                                                                                                                                                                                                                          'harm the activity — policy aim: avoid/overcome '
-                                                                                                                                                                                                                          'it. Examples: increased local '
-                                                                                                                                                                                                                          'competition/national-firm market entry; margin '
-                                                                                                                                                                                                                          'erosion from low-cost competitors; a shrinking '
-                                                                                                                                                                                                                          'pool of qualified hires as unemployment declines.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'SWOT (Strengths, Weaknesses, Opportunities, Threats) matches internal strengths/weaknesses against '
+       'external opportunities/threats to formulate an effective strategy.'},
+ {'h4': 'F.5.1  Strength'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'Description and examples'],
+            'rows': [['**Strength**',
+                      'A positive circumstance favouring success — policy aim: take advantage of it. '
+                      'Examples: good leadership; dedicated/experienced employees; good communication '
+                      'skills; extensive product knowledge/expertise; long-time community presence; '
+                      'networking/community relationships; technology know-how.']]}},
+ {'h4': 'F.5.2  Weakness'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'Description and examples'],
+            'rows': [['**Weakness**',
+                      'A negative, unfavourable condition — policy aim: avoid/overcome it. Examples: '
+                      'inconsistent pricing strategy; inconsistent branding/marketing messages; '
+                      'limited/overcrowded workspace; inconsistent stakeholder communication; unwritten '
+                      'administration processes; lack of an organisational chart.']]}},
+ {'h4': 'F.5.3  Opportunity'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'Description and examples'],
+            'rows': [['**Opportunity**',
+                      'An innovative external event/condition that could make the activity more successful — '
+                      'policy aim: exploit it. NOT to be confused with a strength. Examples: currently '
+                      'limited competition; a skilled workforce amid high local unemployment; low-priced '
+                      'available office space; community growth; growing demand for technology '
+                      'skills/computer networking.']]}},
+ {'h4': 'F.5.4  Threat'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'Description and examples'],
+            'rows': [['**Threat**',
+                      'A potential external event/condition that could harm the activity — policy aim: '
+                      'avoid/overcome it. Examples: increased local competition/national-firm market entry; '
+                      'margin erosion from low-cost competitors; a shrinking pool of qualified hires as '
+                      'unemployment declines.']]}}],
                                },
                     {
                                  'n': 'F.6',
                                  't': 'Levels/types of an organisation\'s strategies',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'F.6.1 – F.6.4  Corporate, business, functional and operating '
-                                                                                      'strategy',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Strategy level',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Corporate strategy**',
-                                                                                                                                                                                                                          'Drafted by Directors/CEOs — spells out the '
-                                                                                                                                                                                                                          'current/future businesses the organisation wants '
-                                                                                                                                                                                                                          'to be in and what it hopes to achieve, based on '
-                                                                                                                                                                                                                          'the organisation\'s vision/mission. A **growth '
-                                                                                                                                                                                                                          'strategy** (a form of corporate strategy) '
-                                                                                                                                                                                                                          'stimulates growth by expanding products/markets '
-                                                                                                                                                                                                                          'served, via current or new businesses (e.g. '
-                                                                                                                                                                                                                          'Nigerian Bottling Company Plc diversifying into '
-                                                                                                                                                                                                                          'packaged fruit juice/table water).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Business strategy**',
-                                                                                                                                                                                                                          'Actions/approaches crafted for successful '
-                                                                                                                                                                                                                          'performance in ONE specific line of business '
-                                                                                                                                                                                                                          '(e.g. a strategy to enhance the market position '
-                                                                                                                                                                                                                          'of soft drinks within a diversified beverage '
-                                                                                                                                                                                                                          'company) — crafted by managers of each business '
-                                                                                                                                                                                                                          'line, with input from functional-area heads.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Functional strategy**',
-                                                                                                                                                                                                                          'Actions/approaches used by functional '
-                                                                                                                                                                                                                          'departments to support the business strategy '
-                                                                                                                                                                                                                          '(e.g. marketing strategy, production strategy) — '
-                                                                                                                                                                                                                          'crafted by respective function heads, with final '
-                                                                                                                                                                                                                          'approval from the business unit\'s General '
-                                                                                                                                                                                                                          'Manager.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Operating strategy**',
-                                                                                                                                                                                                                          'Approaches for managing key operating units '
-                                                                                                                                                                                                                          '(plants, distribution centres, geographic units) '
-                                                                                                                                                                                                                          'and units of strategic significance (advertising '
-                                                                                                                                                                                                                          'campaigns, brand management, online sales) — '
-                                                                                                                                                                                                                          'e.g. a plant manager\'s approach to running a '
-                                                                                                                                                                                                                          'specific plant, aligned with the overall '
-                                                                                                                                                                                                                          'production strategy. Lead responsibility is '
-                                                                                                                                                                                                                          'usually delegated to frontline managers, subject '
-                                                                                                                                                                                                                          'to higher review/approval.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'F.6.5  Distinction between corporate and divisional strategy',
-                                                                              },
-                                                          {
-                                                                                'p': '**Corporate strategy** offers direction for accomplishing '
-                                                                                     'long-term objectives, developed per the organisation\'s '
-                                                                                     'objectives/scope, considering its operating environment/market '
-                                                                                     'position/competition. Examines current market position, weighing '
-                                                                                     'diversification risk/reward against staying focused on a single '
-                                                                                     'market — answering "what businesses/industries should we be in?" '
-                                                                                     'Based on the organisation\'s vision, typically developed by '
-                                                                                     'top-level management (CEO, board, MD).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Divisional/business strategy** exists a step below corporate '
-                                                                                     'strategy, for organisations with multiple business '
-                                                                                     'units/departments spread across different businesses/markets — '
-                                                                                     'determining how a PARTICULAR business unit will accomplish its '
-                                                                                     'goals. Usually executes 3 strategies: **differentiation**, **cost '
-                                                                                     'leadership**, and **focus** — creating a competitive edge, '
-                                                                                     'developed by middle-level management (department/division/line '
-                                                                                     'managers) for shorter-term, routine-issue solutions.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Basis',
-                                                                                                                                                                             'Corporate strategy',
-                                                                                                                                                                             'Divisional/Business strategy',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Meaning',
-                                                                                                                                                                                                                          'Directions for accomplishing long-term '
-                                                                                                                                                                                                                          'objectives.',
-                                                                                                                                                                                                                          'Determines how a unit\'s specific objectives are '
-                                                                                                                                                                                                                          'achieved.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Developed by',
-                                                                                                                                                                                                                          'Top-level management (CEO, Board, MD).',
-                                                                                                                                                                                                                          'Middle-level management '
-                                                                                                                                                                                                                          '(department/division/line managers).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Strategic decisions',
-                                                                                                                                                                                                                          'Analytical, value-oriented — organisational '
-                                                                                                                                                                                                                          'growth/profit maximisation.',
-                                                                                                                                                                                                                          'Activity decisions to stay ahead of market '
-                                                                                                                                                                                                                          'competition.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Formulated at',
-                                                                                                                                                                                                                          'The organisational level.',
-                                                                                                                                                                                                                          'A particular business unit/division.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Time horizon',
-                                                                                                                                                                                                                          'Long-term solutions for the organisation.',
-                                                                                                                                                                                                                          'Relatively short-term solutions for routine '
-                                                                                                                                                                                                                          'issues.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Focus',
-                                                                                                                                                                                                                          'Which business(es) the company should pursue.',
-                                                                                                                                                                                                                          'The business plan for competing successfully in '
-                                                                                                                                                                                                                          'the market.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Examples',
-                                                                                                                                                                                                                          'Expansion, downsizing, stability.',
-                                                                                                                                                                                                                          'Cost leadership, differentiation, focus.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'F.6.1  Corporate Strategy'},
+ {'table': {'align': 'll',
+            'head': ['Strategy level', 'Description'],
+            'rows': [['**Corporate strategy**',
+                      'Drafted by Directors/CEOs — spells out the current/future businesses the organisation '
+                      "wants to be in and what it hopes to achieve, based on the organisation's "
+                      'vision/mission. A **growth strategy** (a form of corporate strategy) stimulates '
+                      'growth by expanding products/markets served, via current or new businesses (e.g. '
+                      'Nigerian Bottling Company Plc diversifying into packaged fruit juice/table '
+                      'water).']]}},
+ {'h4': 'F.6.2  Business Strategy'},
+ {'table': {'align': 'll',
+            'head': ['Strategy level', 'Description'],
+            'rows': [['**Business strategy**',
+                      'Actions/approaches crafted for successful performance in ONE specific line of '
+                      'business (e.g. a strategy to enhance the market position of soft drinks within a '
+                      'diversified beverage company) — crafted by managers of each business line, with input '
+                      'from functional-area heads.']]}},
+ {'h4': 'F.6.3  Functional Strategy'},
+ {'table': {'align': 'll',
+            'head': ['Strategy level', 'Description'],
+            'rows': [['**Functional strategy**',
+                      'Actions/approaches used by functional departments to support the business strategy '
+                      '(e.g. marketing strategy, production strategy) — crafted by respective function '
+                      "heads, with final approval from the business unit's General Manager."]]}},
+ {'h4': 'F.6.4  Operating Strategy'},
+ {'table': {'align': 'll',
+            'head': ['Strategy level', 'Description'],
+            'rows': [['**Operating strategy**',
+                      'Approaches for managing key operating units (plants, distribution centres, geographic '
+                      'units) and units of strategic significance (advertising campaigns, brand management, '
+                      "online sales) — e.g. a plant manager's approach to running a specific plant, aligned "
+                      'with the overall production strategy. Lead responsibility is usually delegated to '
+                      'frontline managers, subject to higher review/approval.']]}},
+ {'h4': 'F.6.5  Distinction between corporate and divisional strategy'},
+ {'p': '**Corporate strategy** offers direction for accomplishing long-term objectives, developed per the '
+       "organisation's objectives/scope, considering its operating environment/market position/competition. "
+       'Examines current market position, weighing diversification risk/reward against staying focused on a '
+       'single market — answering "what businesses/industries should we be in?" Based on the organisation\'s '
+       'vision, typically developed by top-level management (CEO, board, MD).'},
+ {'p': '**Divisional/business strategy** exists a step below corporate strategy, for organisations with '
+       'multiple business units/departments spread across different businesses/markets — determining how a '
+       'PARTICULAR business unit will accomplish its goals. Usually executes 3 strategies: '
+       '**differentiation**, **cost leadership**, and **focus** — creating a competitive edge, developed by '
+       'middle-level management (department/division/line managers) for shorter-term, routine-issue '
+       'solutions.'},
+ {'table': {'align': 'lll',
+            'head': ['Basis', 'Corporate strategy', 'Divisional/Business strategy'],
+            'rows': [['Meaning',
+                      'Directions for accomplishing long-term objectives.',
+                      "Determines how a unit's specific objectives are achieved."],
+                     ['Developed by',
+                      'Top-level management (CEO, Board, MD).',
+                      'Middle-level management (department/division/line managers).'],
+                     ['Strategic decisions',
+                      'Analytical, value-oriented — organisational growth/profit maximisation.',
+                      'Activity decisions to stay ahead of market competition.'],
+                     ['Formulated at', 'The organisational level.', 'A particular business unit/division.'],
+                     ['Time horizon',
+                      'Long-term solutions for the organisation.',
+                      'Relatively short-term solutions for routine issues.'],
+                     ['Focus',
+                      'Which business(es) the company should pursue.',
+                      'The business plan for competing successfully in the market.'],
+                     ['Examples',
+                      'Expansion, downsizing, stability.',
+                      'Cost leadership, differentiation, focus.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p211.png',
+             'alt': 'Table 3.1: Differences between corporate strategy and business strategy',
+             'cap': 'Table 3.1: Differences between corporate strategy and business strategy — original '
+                    'Management study-text page 184 (PDF 211). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'F.7',
@@ -3252,197 +2504,85 @@ CH = {
                     {
                                  'n': 'F.8',
                                  't': 'Review questions — Section F, with the study text\'s solutions',
-                                 'b': [
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — Section F review questions',
-                                                                                                                    't': 'Twelve multiple choice questions, with the official '
-                                                                                                                         'solutions',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'Which is the functional area of strategic '
-                                                                                                                                                                                                                                                          'management? **A.** Production and operation; '
-                                                                                                                                                                                                                                                          '**B.** Finance; **C.** Marketing; **D.** '
-                                                                                                                                                                                                                                                          'Research & Development; **E.** All of the '
-                                                                                                                                                                                                                                                          'above.',
-                                                                                                                                                                                                                                                          'Which of the following is **not** part of the '
-                                                                                                                                                                                                                                                          'task environment? **A.** Technology; **B.** '
-                                                                                                                                                                                                                                                          'Shareholders; **C.** Competitors; **D.** '
-                                                                                                                                                                                                                                                          'Publics; **E.** Creditors.',
-                                                                                                                                                                                                                                                          'The word **tactic** is most likely to be '
-                                                                                                                                                                                                                                                          'associated with: **A.** Business Strategy; '
-                                                                                                                                                                                                                                                          '**B.** Corporate strategy; **C.** Operational '
-                                                                                                                                                                                                                                                          'Strategy; **D.** Divisional strategy; **E.** '
-                                                                                                                                                                                                                                                          'All of the above.',
-                                                                                                                                                                                                                                                          'Which of these seeks to relate the goals of an '
-                                                                                                                                                                                                                                                          'organisation to the means of achieving them? '
-                                                                                                                                                                                                                                                          '**A.** Strategy; **B.** Levels; **C.** '
-                                                                                                                                                                                                                                                          'Monitoring; **D.** Management; **E.** '
-                                                                                                                                                                                                                                                          'Relationship management.',
-                                                                                                                                                                                                                                                          'When market and competitive conditions take an '
-                                                                                                                                                                                                                                                          'unexpected turn, the required strategy is ……… '
-                                                                                                                                                                                                                                                          '**A.** Proactive; **B.** Reactive; **C.** '
-                                                                                                                                                                                                                                                          'Adaptive; **D.** Both; **E.** None.',
-                                                                                                                                                                                                                                                          'At which level do we have top managers? **A.** '
-                                                                                                                                                                                                                                                          'Corporate Level; **B.** Business Level; **C.** '
-                                                                                                                                                                                                                                                          'Functional Level; **D.** None of these; **E.** '
-                                                                                                                                                                                                                                                          'Board level.',
-                                                                                                                                                                                                                                                          'What is required by companies to meet changing '
-                                                                                                                                                                                                                                                          'conditions in their industries? **A.** '
-                                                                                                                                                                                                                                                          'Strategy; **B.** Vision; **C.** Develop long '
-                                                                                                                                                                                                                                                          'term strategies; **D.** Mission; **E.** All of '
-                                                                                                                                                                                                                                                          'the above.',
-                                                                                                                                                                                                                                                          'In large organisations, operational strategies '
-                                                                                                                                                                                                                                                          'are formulated at which level? **A.** '
-                                                                                                                                                                                                                                                          'Corporate level; **B.** Divisional Level; '
-                                                                                                                                                                                                                                                          '**C.** Functional level; **D.** Business '
-                                                                                                                                                                                                                                                          'Level; **E.** All of the above.',
-                                                                                                                                                                                                                                                          'Which is **not** an advantage of strategic '
-                                                                                                                                                                                                                                                          'management? **A.** Helps organisations to be '
-                                                                                                                                                                                                                                                          'proactive; **B.** Control their own destiny in '
-                                                                                                                                                                                                                                                          'a better manner; **C.** Identify available '
-                                                                                                                                                                                                                                                          'opportunity; **D.** Minimise threats in the '
-                                                                                                                                                                                                                                                          'marketplace; **E.** None of the above.',
-                                                                                                                                                                                                                                                          'Which is **not** a limitation of strategic '
-                                                                                                                                                                                                                                                          'management? **A.** Time consuming process; '
-                                                                                                                                                                                                                                                          '**B.** Difficult estimation of competitive '
-                                                                                                                                                                                                                                                          'responses; **C.** Costly process; **D.** '
-                                                                                                                                                                                                                                                          'Understandable complex environment; **E.** All '
-                                                                                                                                                                                                                                                          'of the above.',
-                                                                                                                                                                                                                                                          'Developing a vision and mission, identifying '
-                                                                                                                                                                                                                                                          'an organisation\'s external opportunities and '
-                                                                                                                                                                                                                                                          'threats, and determining internal strengths '
-                                                                                                                                                                                                                                                          'and weaknesses are all ……… activities. **A.** '
-                                                                                                                                                                                                                                                          'strategy-formulation; **B.** '
-                                                                                                                                                                                                                                                          'strategy-implementation; **C.** long-range '
-                                                                                                                                                                                                                                                          'planning; **D.** short-range planning; **E.** '
-                                                                                                                                                                                                                                                          'None of the above.',
-                                                                                                                                                                                                                                                          'The means by which long-term objectives will '
-                                                                                                                                                                                                                                                          'be achieved are **A.** mission statements; '
-                                                                                                                                                                                                                                                          '**B.** strategies; **C.** vision statements; '
-                                                                                                                                                                                                                                                          '**D.** long-term goals; **E.** Goals.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Solutions — multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'cl',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Q',
-                                                                                                                                                                                                                                                                                                                                    'Answer',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '1',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — All of the above',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Technology',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '3',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**C** — Operational Strategy',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '4',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Strategy',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '5',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**B** — Reactive',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '6',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Corporate Level',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '7',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — All of the above',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '8',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**C** — Functional level',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '9',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — None of the above',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '10',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**D** — Understandable complex '
-                                                                                                                                                                                                                                                                                                                                                                                                  'environment',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '11',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — strategy-formulation',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '12',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**B** — strategies',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'Questions 3, 6 and 8 all test the **four levels '
-                                                                                                                                                                                                            'of strategy** at §F.6, and the way to keep them '
-                                                                                                                                                                                                            'straight is by **who crafts them**: '
-                                                                                                                                                                                                            '**corporate** strategy by the CEO and top '
-                                                                                                                                                                                                            'management at corporate level; **business (or '
-                                                                                                                                                                                                            'divisional)** strategy by divisional heads; '
-                                                                                                                                                                                                            '**functional** strategy by the heads of '
-                                                                                                                                                                                                            'functions such as marketing or finance; and '
-                                                                                                                                                                                                            '**operating** strategy at the operating level, '
-                                                                                                                                                                                                            'which is where the word **tactic** belongs.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Question 2\'s answer, **technology**, applies '
-                                                                                                                                                                                                             'Chapter 1\'s classification of the business '
-                                                                                                                                                                                                             'environment: shareholders, competitors, '
-                                                                                                                                                                                                             'publics and creditors are all parties the firm '
-                                                                                                                                                                                                             'deals with — the **task** environment — '
-                                                                                                                                                                                                             'whereas technology is one of the PESITEL '
-                                                                                                                                                                                                             'forces of the **general/mega** environment.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Questions 9 and 10 are the mirror of each '
-                                                                                                                                                                                                             'other and both resolve to the odd option. All '
-                                                                                                                                                                                                             'four substantive options in question 9 **are** '
-                                                                                                                                                                                                             'advantages of strategic management, so the '
-                                                                                                                                                                                                             'answer is "none of the above". In question 10, '
-                                                                                                                                                                                                             'three options are genuine limitations (time, '
-                                                                                                                                                                                                             'cost, difficulty of estimating competitors\' '
-                                                                                                                                                                                                             'responses) but an **"understandable"** '
-                                                                                                                                                                                                             'environment is not a limitation at all — it is '
-                                                                                                                                                                                                             'the *complexity* and unpredictability of the '
-                                                                                                                                                                                                             'environment that limits strategic management.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Question 11 names the first stage of the '
-                                                                                                                                                                                                             'strategic management process — **strategy '
-                                                                                                                                                                                                             'formulation**, which covers vision and '
-                                                                                                                                                                                                             'mission, external opportunities and threats, '
-                                                                                                                                                                                                             'and internal strengths and weaknesses (that '
-                                                                                                                                                                                                             'is, the SWOT analysis of §F.5). Implementation '
-                                                                                                                                                                                                             'and evaluation follow it. Question 12 then '
-                                                                                                                                                                                                             'gives the definition of a strategy: the '
-                                                                                                                                                                                                             '**means by which long-term objectives are '
-                                                                                                                                                                                                             'achieved**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'eg': {'tag': 'Study text — Section F review questions',
+         't': 'Twelve multiple choice questions, with the official solutions',
+         'open': True,
+         'q': [{'h4': 'Multiple choice questions'},
+               {'ol': ['Which is the functional area of strategic management? **A.** Production and '
+                       'operation; **B.** Finance; **C.** Marketing; **D.** Research & Development; **E.** '
+                       'All of the above.',
+                       'Which of the following is **not** part of the task environment? **A.** Technology; '
+                       '**B.** Shareholders; **C.** Competitors; **D.** Publics; **E.** Creditors.',
+                       'The word **tactic** is most likely to be associated with: **A.** Business Strategy; '
+                       '**B.** Corporate strategy; **C.** Operational Strategy; **D.** Divisional strategy; '
+                       '**E.** All of the above.',
+                       'Which of these seeks to relate the goals of an organisation to the means of '
+                       'achieving them? **A.** Strategy; **B.** Levels; **C.** Monitoring; **D.** '
+                       'Management; **E.** Relationship management.',
+                       'When market and competitive conditions take an unexpected turn, the required '
+                       'strategy is ……… **A.** Proactive; **B.** Reactive; **C.** Adaptive; **D.** Both; '
+                       '**E.** None.',
+                       'At which level do we have top managers? **A.** Corporate Level; **B.** Business '
+                       'Level; **C.** Functional Level; **D.** None of these; **E.** Board level.',
+                       'What is required by companies to meet changing conditions in their industries? '
+                       '**A.** Strategy; **B.** Vision; **C.** Develop long term strategies; **D.** Mission; '
+                       '**E.** All of the above.',
+                       'In large organisations, operational strategies are formulated at which level? **A.** '
+                       'Corporate level; **B.** Divisional Level; **C.** Functional level; **D.** Business '
+                       'Level; **E.** All of the above.',
+                       'Which is **not** an advantage of strategic management? **A.** Helps organisations to '
+                       'be proactive; **B.** Control their own destiny in a better manner; **C.** Identify '
+                       'available opportunity; **D.** Minimise threats in the marketplace; **E.** None of '
+                       'the above.',
+                       'Which is **not** a limitation of strategic management? **A.** Time consuming '
+                       'process; **B.** Difficult estimation of competitive responses; **C.** Costly '
+                       'process; **D.** Understandable complex environment; **E.** All of the above.',
+                       "Developing a vision and mission, identifying an organisation's external "
+                       'opportunities and threats, and determining internal strengths and weaknesses are all '
+                       '……… activities. **A.** strategy-formulation; **B.** strategy-implementation; **C.** '
+                       'long-range planning; **D.** short-range planning; **E.** None of the above.',
+                       'The means by which long-term objectives will be achieved are **A.** mission '
+                       'statements; **B.** strategies; **C.** vision statements; **D.** long-term goals; '
+                       '**E.** Goals.']}],
+         'a': [{'h4': 'Solutions — multiple choice questions'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**E** — All of the above'],
+                                   ['2', '**A** — Technology'],
+                                   ['3', '**C** — Operational Strategy'],
+                                   ['4', '**A** — Strategy'],
+                                   ['5', '**B** — Reactive'],
+                                   ['6', '**A** — Corporate Level'],
+                                   ['7', '**E** — All of the above'],
+                                   ['8', '**C** — Functional level'],
+                                   ['9', '**E** — None of the above'],
+                                   ['10', '**D** — Understandable complex environment'],
+                                   ['11', '**A** — strategy-formulation'],
+                                   ['12', '**B** — strategies']]}},
+               {'key': [{'p': 'Questions 3, 6 and 8 all test the **four levels of strategy** at §F.6, and '
+                              'the way to keep them straight is by **who crafts them**:'},
+                        {'ul': ['**corporate** strategy by the CEO and top management at corporate level',
+                                '**business (or divisional)** strategy by divisional heads',
+                                '**functional** strategy by the heads of functions such as marketing or '
+                                'finance',
+                                'and **operating** strategy at the operating level, which is where the word '
+                                '**tactic** belongs.']}]},
+               {'note': "Question 2's answer, **technology**, applies Chapter 1's classification of the "
+                        'business environment: shareholders, competitors, publics and creditors are all '
+                        'parties the firm deals with — the **task** environment — whereas technology is one '
+                        'of the PESITEL forces of the **general/mega** environment.'},
+               {'note': 'Questions 9 and 10 are the mirror of each other and both resolve to the odd option. '
+                        'All four substantive options in question 9 **are** advantages of strategic '
+                        'management, so the answer is "none of the above". In question 10, three options are '
+                        "genuine limitations (time, cost, difficulty of estimating competitors' responses) "
+                        'but an **"understandable"** environment is not a limitation at all — it is the '
+                        '*complexity* and unpredictability of the environment that limits strategic '
+                        'management.'},
+               {'note': 'Question 11 names the first stage of the strategic management process — **strategy '
+                        'formulation**, which covers vision and mission, external opportunities and threats, '
+                        'and internal strengths and weaknesses (that is, the SWOT analysis of §F.5). '
+                        'Implementation and evaluation follow it. Question 12 then gives the definition of a '
+                        'strategy: the **means by which long-term objectives are achieved**.'}]}}],
                                },
                   ],
  'formulas': [

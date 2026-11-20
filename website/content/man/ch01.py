@@ -183,344 +183,151 @@ CH = {
                     {
                                  'n': 'A.6',
                                  't': 'Objectives of business',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Objectives matter because they: indicate the business\'s '
-                                                                                     'purpose/aim (justifying its existence); provide direction for '
-                                                                                     'operations; set standards for control; help coordinate managerial '
-                                                                                     'decisions; and give a benchmark against which performance (unit or '
-                                                                                     'corporate level) is measured.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.6.1  Primary objectives of business',
-                                                                              },
-                                                          {
-                                                                                'key': 'The **primary objective** of business is to make profit — a '
-                                                                                       'reward to owners for risk-taking, and the source of '
-                                                                                       'growth/continued survival.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.6.2  The secondary objectives of a business',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Productivity** — utilising a given resource set to attain the '
-                                                                                                                    'highest/predetermined output value;',
-                                                                                                                    '**Innovation** — satisfying consumer needs better than '
-                                                                                                                    'competitors via new products/production/distribution methods;',
-                                                                                                                    '**Growth** — expanding operations (capital employed, market '
-                                                                                                                    'share, employees), aiming for economies of scale, '
-                                                                                                                    'competitiveness, market share and profitability;',
-                                                                                                                    '**Shareholder satisfaction**;',
-                                                                                                                    '**Employee satisfaction** — enhancing employees\' satisfaction, '
-                                                                                                                    'which boosts their contribution to growth/competitiveness;',
-                                                                                                                    '**Positive public image** — favourable terms, a '
-                                                                                                                    'good-corporate-citizen image, and visible care for '
-                                                                                                                    'employees/community/social responsibility.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Objectives matter because they:'},
+ {'ul': ["indicate the business's purpose/aim (justifying its existence)",
+         'provide direction for operations',
+         'set standards for control',
+         'help coordinate managerial decisions',
+         'and give a benchmark against which performance (unit or corporate level) is measured.']},
+ {'h4': 'A.6.1  Primary objectives of business'},
+ {'key': 'The **primary objective** of business is to make profit — a reward to owners for risk-taking, and '
+         'the source of growth/continued survival.'},
+ {'h4': 'A.6.2  The secondary objectives of a business'},
+ {'ol': ['**Productivity** — utilising a given resource set to attain the highest/predetermined output '
+         'value;',
+         '**Innovation** — satisfying consumer needs better than competitors via new '
+         'products/production/distribution methods;',
+         '**Growth** — expanding operations (capital employed, market share, employees), aiming for '
+         'economies of scale, competitiveness, market share and profitability;',
+         '**Shareholder satisfaction**;',
+         "**Employee satisfaction** — enhancing employees' satisfaction, which boosts their contribution to "
+         'growth/competitiveness;',
+         '**Positive public image** — favourable terms, a good-corporate-citizen image, and visible care for '
+         'employees/community/social responsibility.']}],
                                },
                     {
                                  'n': 'A.7',
                                  't': 'Classification of business',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Business can be grouped by: size of the unit; use of output; input '
-                                                                                     'used; ownership type; and industrial classification.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.1  Size based classification',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Federal Ministry of Industries classifies enterprises by size '
-                                                                                     '(fixed-asset value, excluding land):',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lr',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Category',
-                                                                                                                                                                             'Fixed asset value',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Micro enterprise',
-                                                                                                                                                                                                                          'Not exceeding N400,000',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Small scale enterprise',
-                                                                                                                                                                                                                          'N400,000 – N5 million',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Medium scale enterprise',
-                                                                                                                                                                                                                          'N5 million – N10 million',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Large scale enterprise',
-                                                                                                                                                                                                                          'Exceeding N10 million',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Business may also be classified by number of paid employees:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lr',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Category',
-                                                                                                                                                                             'Employees',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Micro-enterprises',
-                                                                                                                                                                                                                          '1–10',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Small scale enterprises',
-                                                                                                                                                                                                                          '11–100',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Medium scale enterprises',
-                                                                                                                                                                                                                          '101–300',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Large scale enterprises',
-                                                                                                                                                                                                                          '301 and above',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'Size-based classification thresholds shift over time — in the '
-                                                                                        '1970s, a small scale business in Nigeria was one with total '
-                                                                                        'assets (excluding land) not exceeding N150,000 and employment '
-                                                                                        'not exceeding 50.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.2  Use of output based classification',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Industry type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Basic industries**',
-                                                                                                                                                                                                                          'Provide basic inputs/raw materials for other '
-                                                                                                                                                                                                                          'industries — e.g. fertiliser for agriculture; '
-                                                                                                                                                                                                                          'coal, oil and gas.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Capital goods industries**',
-                                                                                                                                                                                                                          'Produce plant, machinery, equipment and tools '
-                                                                                                                                                                                                                          'needed to manufacture other goods/services — '
-                                                                                                                                                                                                                          'require high capital investment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Intermediate goods industries**',
-                                                                                                                                                                                                                          'Produce materials, parts and components used in '
-                                                                                                                                                                                                                          'producing other goods, enhancing value by '
-                                                                                                                                                                                                                          'changing physical form.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Consumer goods industries**',
-                                                                                                                                                                                                                          'Output used by final consumers — split into '
-                                                                                                                                                                                                                          'consumer durables (refrigerators, TVs, bicycles, '
-                                                                                                                                                                                                                          'cars) and consumer non-durables (soap, '
-                                                                                                                                                                                                                          'toothpaste, foodstuff).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.3  Input based classification',
-                                                                              },
-                                                          {
-                                                                                'p': 'By source of major input: **agro-based** (agricultural produce — '
-                                                                                     'cocoa, palm produce, jute, cotton), **forest-based** (forest '
-                                                                                     'produce, e.g. paper), **marine-based**, **metal-based** and '
-                                                                                     '**chemical-based** (e.g. fertiliser and drug producers) industries.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.4  Types of ownership',
-                                                                              },
-                                                          {
-                                                                                'p': '**Manufacturing industries** split into 4 categories:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Analytical industry**',
-                                                                                                                                                                                                                          'Separates a single material input into several '
-                                                                                                                                                                                                                          'elements — e.g. an oil refinery converting crude '
-                                                                                                                                                                                                                          'oil into petrol, diesel, kerosene, lubricating '
-                                                                                                                                                                                                                          'oils.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Synthetic industry**',
-                                                                                                                                                                                                                          'Combines several raw materials, processing them '
-                                                                                                                                                                                                                          'into a single output — e.g. limestone, gypsum, '
-                                                                                                                                                                                                                          'silica, iron oxide blended into cement.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Process industry**',
-                                                                                                                                                                                                                          'Processes materials through different production '
-                                                                                                                                                                                                                          'stages to the final product — e.g. cotton '
-                                                                                                                                                                                                                          'cleaned, ginned, spun, woven, bleached, dyed '
-                                                                                                                                                                                                                          'into cloth.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Assembly line industry**',
-                                                                                                                                                                                                                          'Joins various components/parts into a single '
-                                                                                                                                                                                                                          'product — e.g. a car or television set.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Other ownership-related splits: **profit vs. not-for-profit** '
-                                                                                     '(e.g. Red Cross, NAFDAC are not-for-profit); and **public sector '
-                                                                                     'vs. private sector** (owned by government/agencies, or by private '
-                                                                                     'individuals/firms — the extent of government ownership signals '
-                                                                                     'whether an economy is planned or free-enterprise).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.5  Industrial classification',
-                                                                              },
-                                                          {
-                                                                                'p': 'The **International Standard of Industrial Classification (ISIC)** '
-                                                                                     'classifies establishments into divisions/major groups/sub-groups '
-                                                                                     'via a numbering system:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Number range',
-                                                                                                                                                                             'Industry/division/group',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '01–09',
-                                                                                                                                                                                                                          'Agriculture, Forestry and Fishing',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '10–14',
-                                                                                                                                                                                                                          'Mining',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '15–19',
-                                                                                                                                                                                                                          'Construction',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '20–30',
-                                                                                                                                                                                                                          'Manufacturing',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '40–49',
-                                                                                                                                                                                                                          'Transportation, Communication, Electric, Gas and '
-                                                                                                                                                                                                                          'Sanitary services',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '50–51',
-                                                                                                                                                                                                                          'Wholesale trades',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '52–59',
-                                                                                                                                                                                                                          'Retail trade',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '60–69',
-                                                                                                                                                                                                                          'Finance, Insurance, Real Estate',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '70–89',
-                                                                                                                                                                                                                          'Services',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '90–97',
-                                                                                                                                                                                                                          'Public Administration',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '98–99',
-                                                                                                                                                                                                                          'Non-classifiable establishments',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'warn': 'A numbering defect in the study text, flagged rather than '
-                                                                                        'silently corrected: the fifth sub-section of §A.7 is printed in '
-                                                                                        'the book\'s own contents list as **"4.7.5 Industrial '
-                                                                                        'Classification"** — a chapter-4 number appearing inside chapter '
-                                                                                        '1, section A. It is **A.7.5**, following A.7.1 to A.7.4.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Business can be grouped by:'},
+ {'ul': ['size of the unit',
+         'use of output',
+         'input used',
+         'ownership type',
+         'and industrial classification.']},
+ {'h4': 'A.7.1  Size based classification'},
+ {'p': 'The Federal Ministry of Industries classifies enterprises by size (fixed-asset value, excluding '
+       'land):'},
+ {'table': {'align': 'lr',
+            'head': ['Category', 'Fixed asset value'],
+            'rows': [['Micro enterprise', 'Not exceeding N400,000'],
+                     ['Small scale enterprise', 'N400,000 – N5 million'],
+                     ['Medium scale enterprise', 'N5 million – N10 million'],
+                     ['Large scale enterprise', 'Exceeding N10 million']]}},
+ {'p': 'Business may also be classified by number of paid employees:'},
+ {'table': {'align': 'lr',
+            'head': ['Category', 'Employees'],
+            'rows': [['Micro-enterprises', '1–10'],
+                     ['Small scale enterprises', '11–100'],
+                     ['Medium scale enterprises', '101–300'],
+                     ['Large scale enterprises', '301 and above']]}},
+ {'note': 'Size-based classification thresholds shift over time — in the 1970s, a small scale business in '
+          'Nigeria was one with total assets (excluding land) not exceeding N150,000 and employment not '
+          'exceeding 50.'},
+ {'h4': 'A.7.2  Use of output based classification'},
+ {'table': {'align': 'll',
+            'head': ['Industry type', 'Description'],
+            'rows': [['**Basic industries**',
+                      'Provide basic inputs/raw materials for other industries — e.g. fertiliser for '
+                      'agriculture; coal, oil and gas.'],
+                     ['**Capital goods industries**',
+                      'Produce plant, machinery, equipment and tools needed to manufacture other '
+                      'goods/services — require high capital investment.'],
+                     ['**Intermediate goods industries**',
+                      'Produce materials, parts and components used in producing other goods, enhancing '
+                      'value by changing physical form.'],
+                     ['**Consumer goods industries**',
+                      'Output used by final consumers — split into consumer durables (refrigerators, TVs, '
+                      'bicycles, cars) and consumer non-durables (soap, toothpaste, foodstuff).']]}},
+ {'h4': 'A.7.3  Input based classification'},
+ {'p': 'By source of major input: **agro-based** (agricultural produce — cocoa, palm produce, jute, cotton), '
+       '**forest-based** (forest produce, e.g. paper), **marine-based**, **metal-based** and '
+       '**chemical-based** (e.g. fertiliser and drug producers) industries.'},
+ {'h4': 'A.7.4  Types of ownership'},
+ {'p': '**Manufacturing industries** split into 4 categories:'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**Analytical industry**',
+                      'Separates a single material input into several elements — e.g. an oil refinery '
+                      'converting crude oil into petrol, diesel, kerosene, lubricating oils.'],
+                     ['**Synthetic industry**',
+                      'Combines several raw materials, processing them into a single output — e.g. '
+                      'limestone, gypsum, silica, iron oxide blended into cement.'],
+                     ['**Process industry**',
+                      'Processes materials through different production stages to the final product — e.g. '
+                      'cotton cleaned, ginned, spun, woven, bleached, dyed into cloth.'],
+                     ['**Assembly line industry**',
+                      'Joins various components/parts into a single product — e.g. a car or television '
+                      'set.']]}},
+ {'p': 'Other ownership-related splits: **profit vs. not-for-profit** (e.g. Red Cross, NAFDAC are '
+       'not-for-profit); and **public sector vs. private sector** (owned by government/agencies, or by '
+       'private individuals/firms — the extent of government ownership signals whether an economy is planned '
+       'or free-enterprise).'},
+ {'h4': 'A.7.5  Industrial classification'},
+ {'p': 'The **International Standard of Industrial Classification (ISIC)** classifies establishments into '
+       'divisions/major groups/sub-groups via a numbering system:'},
+ {'table': {'align': 'll',
+            'head': ['Number range', 'Industry/division/group'],
+            'rows': [['01–09', 'Agriculture, Forestry and Fishing'],
+                     ['10–14', 'Mining'],
+                     ['15–19', 'Construction'],
+                     ['20–30', 'Manufacturing'],
+                     ['40–49', 'Transportation, Communication, Electric, Gas and Sanitary services'],
+                     ['50–51', 'Wholesale trades'],
+                     ['52–59', 'Retail trade'],
+                     ['60–69', 'Finance, Insurance, Real Estate'],
+                     ['70–89', 'Services'],
+                     ['90–97', 'Public Administration'],
+                     ['98–99', 'Non-classifiable establishments']]}},
+ {'warn': 'A numbering defect in the study text, flagged rather than silently corrected: the fifth '
+          'sub-section of §A.7 is printed in the book\'s own contents list as **"4.7.5 Industrial '
+          'Classification"** — a chapter-4 number appearing inside chapter 1, section A. It is **A.7.5**, '
+          'following A.7.1 to A.7.4.'}],
                                },
                     {
                                  'n': 'A.8',
                                  't': 'Reasons for business failure',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Drive, ambition and the will to succeed alone rarely guarantee '
-                                                                                     'success in a complex, competitive world — a significant proportion '
-                                                                                     'of new ventures do not survive to their 5th year.',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**A bad idea to begin with** — an apparently "unique" idea may '
-                                                                                                                    'not be unique, or demand may be less than expected;',
-                                                                                                                    '**Poor planning** — failing to stick to the business plan, '
-                                                                                                                    'skimping on research, or ignoring professional advice;',
-                                                                                                                    '**Lack of capital** — under-capitalisation is a common '
-                                                                                                                    'early-years threat; adequate capitalisation must cover both '
-                                                                                                                    'set-up capital and sustainability;',
-                                                                                                                    '**Not knowing the market** — failing to understand what '
-                                                                                                                    'customers actually want (vs. what you believe they want), and '
-                                                                                                                    'failing to keep up with changing needs;',
-                                                                                                                    '**Cash-flow crisis management** — ignoring (wilfully or '
-                                                                                                                    'negligently) that cash outflow exceeds inflow; even profitable '
-                                                                                                                    'companies can sink from poor cash management;',
-                                                                                                                    '**Doing it all** — failing to delegate, leaving no time for the '
-                                                                                                                    'bigger picture;',
-                                                                                                                    '**Inadequate control** — control mechanisms not functioning '
-                                                                                                                    'well or unsuited to the operations;',
-                                                                                                                    '**Inadequate protection** — no insurance against flood, fire, '
-                                                                                                                    'loss of key personnel, theft, etc.;',
-                                                                                                                    '**Failing to change** — not monitoring competitors, technology, '
-                                                                                                                    'government policy, or shifting customer tastes;',
-                                                                                                                    '**Growing too fast** — unchecked expansion risking loss of '
-                                                                                                                    'control and over-stretched resources; and',
-                                                                                                                    '**The illusion of starting out as a big company** — embarking '
-                                                                                                                    'on projects too large to manage effectively.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.8.1  Planning against business failure',
-                                                                              },
-                                                          {
-                                                                                'p': 'There is no magic guarantee of success, but the following help: '
-                                                                                     'developing a business plan; obtaining timely accurate financial '
-                                                                                     'information; profiling the target customer and competitors; '
-                                                                                     'developing a suitable control system; networking with '
-                                                                                     'similar-industry owners/managers; remembering someone will always '
-                                                                                     'undercut your price; building a strong management team '
-                                                                                     '(recruitment/training/reward); recognising that consumer tastes '
-                                                                                     'keep changing; and staying well informed of available resources.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Drive, ambition and the will to succeed alone rarely guarantee success in a complex, competitive '
+       'world — a significant proportion of new ventures do not survive to their 5th year.'},
+ {'ol': ['**A bad idea to begin with** — an apparently "unique" idea may not be unique, or demand may be '
+         'less than expected;',
+         '**Poor planning** — failing to stick to the business plan, skimping on research, or ignoring '
+         'professional advice;',
+         '**Lack of capital** — under-capitalisation is a common early-years threat; adequate capitalisation '
+         'must cover both set-up capital and sustainability;',
+         '**Not knowing the market** — failing to understand what customers actually want (vs. what you '
+         'believe they want), and failing to keep up with changing needs;',
+         '**Cash-flow crisis management** — ignoring (wilfully or negligently) that cash outflow exceeds '
+         'inflow; even profitable companies can sink from poor cash management;',
+         '**Doing it all** — failing to delegate, leaving no time for the bigger picture;',
+         '**Inadequate control** — control mechanisms not functioning well or unsuited to the operations;',
+         '**Inadequate protection** — no insurance against flood, fire, loss of key personnel, theft, etc.;',
+         '**Failing to change** — not monitoring competitors, technology, government policy, or shifting '
+         'customer tastes;',
+         '**Growing too fast** — unchecked expansion risking loss of control and over-stretched resources; '
+         'and',
+         '**The illusion of starting out as a big company** — embarking on projects too large to manage '
+         'effectively.']},
+ {'h4': 'A.8.1  Planning against business failure'},
+ {'p': 'There is no magic guarantee of success, but the following help:'},
+ {'ul': ['developing a business plan',
+         'obtaining timely accurate financial information',
+         'profiling the target customer and competitors',
+         'developing a suitable control system',
+         'networking with similar-industry owners/managers',
+         'remembering someone will always undercut your price',
+         'building a strong management team (recruitment/training/reward)',
+         'recognising that consumer tastes keep changing',
+         'and staying well informed of available resources.']}],
                                },
                     {
                                  'n': 'A.9',
@@ -599,368 +406,165 @@ CH = {
                     {
                                  'n': 'A.12',
                                  't': 'Legal forms of business ownership',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Ownership',
-                                                                                                                      'd': 'the legal relationship between a person and some object — '
-                                                                                                                           'the rights an owner exercises over their possessions, as '
-                                                                                                                           'determined by law. Any form of business ownership spells '
-                                                                                                                           'out the profit-sharing arrangement and responsibility for '
-                                                                                                                           'debts/liabilities.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.12.1  The sole proprietorship',
-                                                                              },
-                                                          {
-                                                                                'p': 'The simplest, most common and oldest form — owned, managed and '
-                                                                                     'controlled by one individual, entitled to all profits and bearing '
-                                                                                     'all losses; raises all capital personally (own resources, friends, '
-                                                                                     'relatives, bank); common in retail/wholesale trading, professional '
-                                                                                     'practice, and construction; can be formed without any written '
-                                                                                     'agreement given the proprietor\'s high independence.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Features',
-                                                                                                                                                                             'Advantages',
-                                                                                                                                                                             'Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Individual initiative dominates; risk borne '
-                                                                                                                                                                                                                          'alone (with all profit); management/control by '
-                                                                                                                                                                                                                          'the proprietor (may engage a manager, but '
-                                                                                                                                                                                                                          'control stays with the owner); UNLIMITED '
-                                                                                                                                                                                                                          'liability (may need to sell personal assets); '
-                                                                                                                                                                                                                          'secrecy; minimum government regulation.',
-                                                                                                                                                                                                                          'Easy formation; benefits of small-scale '
-                                                                                                                                                                                                                          'operations; inexpensive management; better '
-                                                                                                                                                                                                                          'control.',
-                                                                                                                                                                                                                          'Lack of continuity; limitation of size; slow '
-                                                                                                                                                                                                                          'technological progress; limited ability to '
-                                                                                                                                                                                                                          'attract/retain capable employees; limited access '
-                                                                                                                                                                                                                          'to capital; limitation of management skills; '
-                                                                                                                                                                                                                          'unlimited liability.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.12.2  Partnership',
-                                                                              },
-                                                          {
-                                                                                'p': 'Two or more individuals agreeing to organise/operate an enterprise '
-                                                                                     'jointly for profit, contributing capital and jointly offering '
-                                                                                     'services — governed by a contractual legal basis (typically a '
-                                                                                     '**Partnership Deed**) specifying partners\' duties/rights. Common '
-                                                                                     'in law, insurance, finance, accountancy and similar professions.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Features',
-                                                                                                                                                                             'Advantages',
-                                                                                                                                                                             'Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Based on agreement; profit/loss sharing; agency '
-                                                                                                                                                                                                                          'relationship (each partner can bind the firm); '
-                                                                                                                                                                                                                          'UNLIMITED liability (private property can be '
-                                                                                                                                                                                                                          'taken); common management (a non-participating '
-                                                                                                                                                                                                                          'partner\'s consent still needed for strategic '
-                                                                                                                                                                                                                          'decisions); restricted share transferability '
-                                                                                                                                                                                                                          '(needs all partners\' consent).',
-                                                                                                                                                                                                                          'More managerial skills than a sole '
-                                                                                                                                                                                                                          'proprietorship; pooled financial resources; '
-                                                                                                                                                                                                                          'reduced strain on one individual; new partners '
-                                                                                                                                                                                                                          'can be admitted; enhanced ability to '
-                                                                                                                                                                                                                          'attract/retain employees; balanced business '
-                                                                                                                                                                                                                          'decisions; risk sharing.',
-                                                                                                                                                                                                                          'Unlimited liability; limited life; '
-                                                                                                                                                                                                                          'arguments/disagreements among partners; limited '
-                                                                                                                                                                                                                          'access to initial capital vs. companies; '
-                                                                                                                                                                                                                          'difficulty withdrawing from the firm; risks of '
-                                                                                                                                                                                                                          'implied authority.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'Types of partners',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**General partner**',
-                                                                                                                                                                                                                          'Unlimited liability for all business actions; an '
-                                                                                                                                                                                                                          '"active partner" who takes an active management '
-                                                                                                                                                                                                                          'role (may act as managing/executive director or '
-                                                                                                                                                                                                                          'manager).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Limited partner**',
-                                                                                                                                                                                                                          'The "sleeping"/"dormant" partner; contributes '
-                                                                                                                                                                                                                          'part of the capital but does not usually '
-                                                                                                                                                                                                                          'actively manage; shares profit/loss but risks '
-                                                                                                                                                                                                                          'only the capital contributed on failure.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'A written partnership agreement (drawn up by a legal practitioner) '
-                                                                                     'typically covers: description of partners (names, '
-                                                                                     'responsibilities, initial investments, salary, profit-sharing '
-                                                                                     'proportion); description of the business (name, location, type); '
-                                                                                     'description of business practices (fiscal year, accounting system, '
-                                                                                     'permitted withdrawals); provision for changes (duration, renewal, '
-                                                                                     'new-partner admission, treatment on withdrawal/death); and '
-                                                                                     'partners\' signatures.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Dissolution of partnership',
-                                                                              },
-                                                          {
-                                                                                'p': 'A partnership can dissolve via: court order; technical insolvency; '
-                                                                                     'mutual agreement; completion of the task it was established for; '
-                                                                                     'or death of a partner.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.12.3  Corporation or limited liability company',
-                                                                              },
-                                                          {
-                                                                                'p': 'Most large businesses are corporations, given the inherent '
-                                                                                     'disadvantages of sole proprietorship/partnership. A corporation '
-                                                                                     'exists via a legal document (a "Charter"), owned by '
-                                                                                     '**shareholders/stockholders**, who elect a **board of directors** '
-                                                                                     'controlling management; the board appoints the chief executive and '
-                                                                                     'top officials. Once incorporated, the company becomes a legal '
-                                                                                     'entity — an "artificial person in law" expected to live forever.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Advantages',
-                                                                                                                                                                             'Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Limited liability** — a shareholder who paid '
-                                                                                                                                                                                                                          'full par value loses only their investment if '
-                                                                                                                                                                                                                          'the corporation fails.',
-                                                                                                                                                                                                                          '**Government regulation** — activities are '
-                                                                                                                                                                                                                          'regulated as a legal person.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Capital formation** — public confidence '
-                                                                                                                                                                                                                          'enables raising large capital via share sales.',
-                                                                                                                                                                                                                          '**Large initial capital** needed to form.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Perpetual life** — independent of any one '
-                                                                                                                                                                                                                          'owner; a withdrawing/deceased shareholder\'s '
-                                                                                                                                                                                                                          'shares pass on without affecting the business.',
-                                                                                                                                                                                                                          '**Lack of secrecy** — financial transactions '
-                                                                                                                                                                                                                          'cannot be shielded, given the annual-report '
-                                                                                                                                                                                                                          'requirement.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Ease of expansion** — capital raised via share '
-                                                                                                                                                                                                                          'sales through the capital market.',
-                                                                                                                                                                                                                          '**Goal incongruence** — e.g. employees wanting '
-                                                                                                                                                                                                                          'higher salaries vs. the organisation emphasising '
-                                                                                                                                                                                                                          'profit maximisation.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Transferability of ownership** — readily '
-                                                                                                                                                                                                                          'effected by anyone willing to pay the asking '
-                                                                                                                                                                                                                          'price.',
-                                                                                                                                                                                                                          '**Divergence of owner/management interests** — '
-                                                                                                                                                                                                                          'owners want dividends, management may want '
-                                                                                                                                                                                                                          'growth/expansion.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Competent management team** — professional '
-                                                                                                                                                                                                                          'managers can be hired, and replaced by the board '
-                                                                                                                                                                                                                          'if underperforming.',
-                                                                                                                                                                                                                          '**Organisational expenses** — incorporation '
-                                                                                                                                                                                                                          'costs, board allowances, top-management '
-                                                                                                                                                                                                                          'salaries. **Large size** may also reduce '
-                                                                                                                                                                                                                          'efficiency through bureaucracy.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'Formation of a limited liability company',
-                                                                              },
-                                                          {
-                                                                                'p': 'Registration is with the **Corporate Affairs Commission (CAC)**, '
-                                                                                     'requiring the filing of Articles of Association and Memorandum of '
-                                                                                     'Association:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Document',
-                                                                                                                                                                             'Typical contents',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Articles of Association**',
-                                                                                                                                                                                                                          'Rules/regulations of the company — '
-                                                                                                                                                                                                                          'appointment/termination of directors; procedures '
-                                                                                                                                                                                                                          'for issuing/transferring shares; '
-                                                                                                                                                                                                                          'rights/responsibilities of shareholders; '
-                                                                                                                                                                                                                          'procedure for auditing/accounting.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Memorandum of Association**',
-                                                                                                                                                                                                                          'Guidelines for the company and its members, plus '
-                                                                                                                                                                                                                          'parameters concerning the company and the '
-                                                                                                                                                                                                                          'outside public — the company name (with "PLC" if '
-                                                                                                                                                                                                                          'applicable); business address/location; type of '
-                                                                                                                                                                                                                          'business; a statement that members\' liability is '
-                                                                                                                                                                                                                          'limited; and the number of shares the share '
-                                                                                                                                                                                                                          'capital is divided into.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Once required documents are submitted and fees paid, the CAC '
-                                                                                     'issues a **Certificate of Incorporation**, authorising the company '
-                                                                                     'to legitimately commence business.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.12.4  Cooperative',
-                                                                              },
-                                                          {
-                                                                                'p': 'A legal person distinct from its owners, with continuity '
-                                                                                     'irrespective of a member\'s death/withdrawal. Members buy shares '
-                                                                                     '(as in a corporation) but each member has only **one vote**. '
-                                                                                     'Surplus earnings are shared as dividends, hinged on the volume of '
-                                                                                     'a member\'s purchases — the concept aims to make goods/services '
-                                                                                     'cheaper than elsewhere. A manager, appointed by a board of '
-                                                                                     'directors, runs the business.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Characteristics',
-                                                                                                                                                                             'Advantages',
-                                                                                                                                                                             'Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Voluntary association; equal voting rights; '
-                                                                                                                                                                                                                          'separate legal entity; based on members\' service '
-                                                                                                                                                                                                                          'motive; distribution of surplus.',
-                                                                                                                                                                                                                          'Tax advantage; democratic elections (one member, '
-                                                                                                                                                                                                                          'one vote); member training; pooling of resources '
-                                                                                                                                                                                                                          '(plus government support '
-                                                                                                                                                                                                                          'incentives/concessionary loans); limited '
-                                                                                                                                                                                                                          'liability (to capital contributed); economic '
-                                                                                                                                                                                                                          'operations (no middlemen, voluntary member '
-                                                                                                                                                                                                                          'services).',
-                                                                                                                                                                                                                          'Lack of freedom (cannot sell products in any '
-                                                                                                                                                                                                                          'market of choice); reduced finance when members '
-                                                                                                                                                                                                                          'under-contribute; dishonesty (colluding '
-                                                                                                                                                                                                                          'executives/staff); low salaries (attracting '
-                                                                                                                                                                                                                          'poorer-calibre staff); rigid government '
-                                                                                                                                                                                                                          'rules/regulations.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': '**3 major types of cooperatives**: **agricultural marketing '
-                                                                                     'cooperatives** (purchasing — resells seeds/machinery/fertilisers '
-                                                                                     'to members and non-members; or marketing — growers/producers '
-                                                                                     'combine to sell products); **credit and banking cooperatives** '
-                                                                                     '(issue loans to members/the public at affordable rates — e.g. '
-                                                                                     'cooperative banks); and **consumer cooperatives** (a group of '
-                                                                                     'consumers buys at wholesale prices to eliminate middlemen\'s excess '
-                                                                                     'profit, selling more cheaply to members and the public).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Ownership',
+          'd': 'the legal relationship between a person and some object — the rights an owner exercises over '
+               'their possessions, as determined by law. Any form of business ownership spells out the '
+               'profit-sharing arrangement and responsibility for debts/liabilities.'}},
+ {'h4': 'A.12.1  The sole proprietorship'},
+ {'p': 'The simplest, most common and oldest form — owned, managed and controlled by one individual, '
+       'entitled to all profits and bearing all losses; raises all capital personally (own resources, '
+       'friends, relatives, bank); common in retail/wholesale trading, professional practice, and '
+       "construction; can be formed without any written agreement given the proprietor's high independence."},
+ {'table': {'align': 'lll',
+            'head': ['Features', 'Advantages', 'Disadvantages'],
+            'rows': [['Individual initiative dominates; risk borne alone (with all profit); '
+                      'management/control by the proprietor (may engage a manager, but control stays with '
+                      'the owner); UNLIMITED liability (may need to sell personal assets); secrecy; minimum '
+                      'government regulation.',
+                      'Easy formation; benefits of small-scale operations; inexpensive management; better '
+                      'control.',
+                      'Lack of continuity; limitation of size; slow technological progress; limited ability '
+                      'to attract/retain capable employees; limited access to capital; limitation of '
+                      'management skills; unlimited liability.']]}},
+ {'h4': 'A.12.2  Partnership'},
+ {'p': 'Two or more individuals agreeing to organise/operate an enterprise jointly for profit, contributing '
+       'capital and jointly offering services — governed by a contractual legal basis (typically a '
+       "**Partnership Deed**) specifying partners' duties/rights. Common in law, insurance, finance, "
+       'accountancy and similar professions.'},
+ {'table': {'align': 'lll',
+            'head': ['Features', 'Advantages', 'Disadvantages'],
+            'rows': [['Based on agreement; profit/loss sharing; agency relationship (each partner can bind '
+                      'the firm); UNLIMITED liability (private property can be taken); common management (a '
+                      "non-participating partner's consent still needed for strategic decisions); restricted "
+                      "share transferability (needs all partners' consent).",
+                      'More managerial skills than a sole proprietorship; pooled financial resources; '
+                      'reduced strain on one individual; new partners can be admitted; enhanced ability to '
+                      'attract/retain employees; balanced business decisions; risk sharing.',
+                      'Unlimited liability; limited life; arguments/disagreements among partners; limited '
+                      'access to initial capital vs. companies; difficulty withdrawing from the firm; risks '
+                      'of implied authority.']]}},
+ {'h4': 'Types of partners'},
+ {'table': {'align': 'll',
+            'head': ['Type', 'Description'],
+            'rows': [['**General partner**',
+                      'Unlimited liability for all business actions; an "active partner" who takes an active '
+                      'management role (may act as managing/executive director or manager).'],
+                     ['**Limited partner**',
+                      'The "sleeping"/"dormant" partner; contributes part of the capital but does not '
+                      'usually actively manage; shares profit/loss but risks only the capital contributed on '
+                      'failure.']]}},
+ {'p': 'A written partnership agreement (drawn up by a legal practitioner) typically covers:'},
+ {'ul': ['description of partners (names, responsibilities, initial investments, salary, profit-sharing '
+         'proportion)',
+         'description of the business (name, location, type)',
+         'description of business practices (fiscal year, accounting system, permitted withdrawals)',
+         'provision for changes (duration, renewal, new-partner admission, treatment on withdrawal/death)',
+         "and partners' signatures."]},
+ {'h4': 'Dissolution of partnership'},
+ {'p': 'A partnership can dissolve via:'},
+ {'ul': ['court order',
+         'technical insolvency',
+         'mutual agreement',
+         'completion of the task it was established for',
+         'or death of a partner.']},
+ {'h4': 'A.12.3  Corporation or limited liability company'},
+ {'p': 'Most large businesses are corporations, given the inherent disadvantages of sole '
+       'proprietorship/partnership. A corporation exists via a legal document (a "Charter"), owned by '
+       '**shareholders/stockholders**, who elect a **board of directors** controlling management; the board '
+       'appoints the chief executive and top officials. Once incorporated, the company becomes a legal '
+       'entity — an "artificial person in law" expected to live forever.'},
+ {'table': {'align': 'll',
+            'head': ['Advantages', 'Disadvantages'],
+            'rows': [['**Limited liability** — a shareholder who paid full par value loses only their '
+                      'investment if the corporation fails.',
+                      '**Government regulation** — activities are regulated as a legal person.'],
+                     ['**Capital formation** — public confidence enables raising large capital via share '
+                      'sales.',
+                      '**Large initial capital** needed to form.'],
+                     ['**Perpetual life** — independent of any one owner; a withdrawing/deceased '
+                      "shareholder's shares pass on without affecting the business.",
+                      '**Lack of secrecy** — financial transactions cannot be shielded, given the '
+                      'annual-report requirement.'],
+                     ['**Ease of expansion** — capital raised via share sales through the capital market.',
+                      '**Goal incongruence** — e.g. employees wanting higher salaries vs. the organisation '
+                      'emphasising profit maximisation.'],
+                     ['**Transferability of ownership** — readily effected by anyone willing to pay the '
+                      'asking price.',
+                      '**Divergence of owner/management interests** — owners want dividends, management may '
+                      'want growth/expansion.'],
+                     ['**Competent management team** — professional managers can be hired, and replaced by '
+                      'the board if underperforming.',
+                      '**Organisational expenses** — incorporation costs, board allowances, top-management '
+                      'salaries. **Large size** may also reduce efficiency through bureaucracy.']]}},
+ {'h4': 'Formation of a limited liability company'},
+ {'p': 'Registration is with the **Corporate Affairs Commission (CAC)**, requiring the filing of Articles of '
+       'Association and Memorandum of Association:'},
+ {'table': {'align': 'll',
+            'head': ['Document', 'Typical contents'],
+            'rows': [['**Articles of Association**',
+                      'Rules/regulations of the company — appointment/termination of directors; procedures '
+                      'for issuing/transferring shares; rights/responsibilities of shareholders; procedure '
+                      'for auditing/accounting.'],
+                     ['**Memorandum of Association**',
+                      'Guidelines for the company and its members, plus parameters concerning the company '
+                      'and the outside public — the company name (with "PLC" if applicable); business '
+                      "address/location; type of business; a statement that members' liability is limited; "
+                      'and the number of shares the share capital is divided into.']]}},
+ {'p': 'Once required documents are submitted and fees paid, the CAC issues a **Certificate of '
+       'Incorporation**, authorising the company to legitimately commence business.'},
+ {'h4': 'A.12.4  Cooperative'},
+ {'p': "A legal person distinct from its owners, with continuity irrespective of a member's "
+       'death/withdrawal. Members buy shares (as in a corporation) but each member has only **one vote**. '
+       "Surplus earnings are shared as dividends, hinged on the volume of a member's purchases — the concept "
+       'aims to make goods/services cheaper than elsewhere. A manager, appointed by a board of directors, '
+       'runs the business.'},
+ {'table': {'align': 'll',
+            'head': ['Characteristics', 'Advantages', 'Disadvantages'],
+            'rows': [["Voluntary association; equal voting rights; separate legal entity; based on members' "
+                      'service motive; distribution of surplus.',
+                      'Tax advantage; democratic elections (one member, one vote); member training; pooling '
+                      'of resources (plus government support incentives/concessionary loans); limited '
+                      'liability (to capital contributed); economic operations (no middlemen, voluntary '
+                      'member services).',
+                      'Lack of freedom (cannot sell products in any market of choice); reduced finance when '
+                      'members under-contribute; dishonesty (colluding executives/staff); low salaries '
+                      '(attracting poorer-calibre staff); rigid government rules/regulations.']]}},
+ {'p': '**3 major types of cooperatives**:'},
+ {'ul': ['**agricultural marketing cooperatives** (purchasing — resells seeds/machinery/fertilisers to '
+         'members and non-members; or marketing — growers/producers combine to sell products)',
+         '**credit and banking cooperatives** (issue loans to members/the public at affordable rates — e.g. '
+         'cooperative banks)',
+         'and **consumer cooperatives** (a group of consumers buys at wholesale prices to eliminate '
+         "middlemen's excess profit, selling more cheaply to members and the public)."]}],
                                },
                     {
                                  'n': 'A.13',
                                  't': 'Stakeholders in business and their expectations',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'A.13.1  Definition of stakeholders',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Stakeholder',
-                                                                                                                      'd': 'any individual or group with a strong interest ("stake") '
-                                                                                                                           'in the organisation and what it does/is trying to achieve.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.2 – A.13.3  Internal and external stakeholders',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Category',
-                                                                                                                                                                             'Members',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Internal stakeholders**',
-                                                                                                                                                                                                                          'Shareholders; directors and top management; '
-                                                                                                                                                                                                                          'senior management staff; other managers and '
-                                                                                                                                                                                                                          'staff.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**External stakeholders**',
-                                                                                                                                                                                                                          'Lenders; suppliers; regulators; government; '
-                                                                                                                                                                                                                          'general public; special interest groups; company '
-                                                                                                                                                                                                                          'auditors.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.4  Expectations of stakeholders',
-                                                                              },
-                                                          {
-                                                                                'p': 'Each stakeholder group has different expectations — e.g. '
-                                                                                     'shareholders expect share-price growth, stable dividends and good '
-                                                                                     'returns; directors/senior managers may emphasise personal '
-                                                                                     'advancement (remuneration, status, decision-making power).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.5  Effects of stakeholders\' expectations',
-                                                                              },
-                                                          {
-                                                                                'key': 'Differing expectations regularly produce **stakeholder '
-                                                                                       'conflict** — e.g. directors/managers pressing for improved pay, '
-                                                                                       'which shareholders may see as eroding profitability and dividend '
-                                                                                       'pay-out. A company wishing to stay associated with its '
-                                                                                       'stakeholders must innovate to balance and satisfy these '
-                                                                                       'competing expectations.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'A.13.1  Definition of stakeholders'},
+ {'def': {'t': 'Stakeholder',
+          'd': 'any individual or group with a strong interest ("stake") in the organisation and what it '
+               'does/is trying to achieve.'}},
+ {'h4': 'A.13.2  Internal Stakeholders'},
+ {'table': {'align': 'll',
+            'head': ['Category', 'Members'],
+            'rows': [['**Internal stakeholders**',
+                      'Shareholders; directors and top management; senior management staff; other managers '
+                      'and staff.']]}},
+ {'h4': 'A.13.3  External Stakeholders'},
+ {'table': {'align': 'll',
+            'head': ['Category', 'Members'],
+            'rows': [['**External stakeholders**',
+                      'Lenders; suppliers; regulators; government; general public; special interest groups; '
+                      'company auditors.']]}},
+ {'h4': 'A.13.4  Expectations of stakeholders'},
+ {'p': 'Each stakeholder group has different expectations — e.g. shareholders expect share-price growth, '
+       'stable dividends and good returns; directors/senior managers may emphasise personal advancement '
+       '(remuneration, status, decision-making power).'},
+ {'h4': "A.13.5  Effects of stakeholders' expectations"},
+ {'key': 'Differing expectations regularly produce **stakeholder conflict** — e.g. directors/managers '
+         'pressing for improved pay, which shareholders may see as eroding profitability and dividend '
+         'pay-out. A company wishing to stay associated with its stakeholders must innovate to balance and '
+         'satisfy these competing expectations.'}],
                                },
                     {
                                  'n': 'A.14',
@@ -1427,20 +1031,14 @@ CH = {
                     {
                                  'n': 'B.4',
                                  't': 'Environmental analysis',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Environmental analysis involves 2 processes: **environmental '
-                                                                                     'scanning** (monitoring external events to understand the '
-                                                                                     'environment\'s nature and changes) and understanding the '
-                                                                                     'trends/implications of those changes.',
-                                                                              },
-                                                          {
-                                                                                'key': '3-step discipline for managers: (1) be aware of environmental '
-                                                                                       'changes; (2) forecast future-affecting conditions; (3) take '
-                                                                                       'appropriate decisions, based on the forecast, to achieve '
-                                                                                       'efficiency/effectiveness.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Environmental analysis involves 2 processes: **environmental scanning** (monitoring external events '
+       "to understand the environment's nature and changes) and understanding the trends/implications of "
+       'those changes.'},
+ {'key': [{'p': '3-step discipline for managers:'},
+          {'ul': ['(1) be aware of environmental changes',
+                  '(2) forecast future-affecting conditions',
+                  '(3) take appropriate decisions, based on the forecast, to achieve '
+                  'efficiency/effectiveness.']}]}],
                                },
                     {
                                  'n': 'B.5',
@@ -1869,370 +1467,184 @@ CH = {
                     {
                                  'n': 'C.2',
                                  't': 'Business ethics',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Ethics',
-                                                                                                                      'd': 'from the Greek "ethos" (character/conduct/activities '
-                                                                                                                           'based on moral principles) — concerned with right and '
-                                                                                                                           'wrong in human behaviour, against society\'s accepted '
-                                                                                                                           'standards. An individual\'s personal belief about whether '
-                                                                                                                           'a behaviour/action/decision is right or wrong (Griffin, '
-                                                                                                                           '1999).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Sources of individual ethical standards: family (the "first '
-                                                                                     'school"), educational/religious institutions, peer influence, '
-                                                                                     'professional/trade associations, personal experience, and '
-                                                                                     'situational factors.',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Business ethics',
-                                                                                                                      'd': 'ethical standards applicable when people engage in '
-                                                                                                                           'business transactions — concerned with truth and justice, '
-                                                                                                                           'and with what is good/bad, right/wrong in business '
-                                                                                                                           'transactions (Weihrich & Koontz, 2001). Ethics go BEYOND '
-                                                                                                                           'the law — standards of behaviour expected of both '
-                                                                                                                           'individuals and the corporate legal person.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.1  Ethical issues in business',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'bribes;',
-                                                                                                                    'honesty of record keeping;',
-                                                                                                                    'misappropriation of corporate assets;',
-                                                                                                                    'confidentiality of corporate information;',
-                                                                                                                    'political contributions;',
-                                                                                                                    'conflict of interest;',
-                                                                                                                    'customer/supplier relationships.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'Ethical issues by stakeholder group',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Stakeholder',
-                                                                                                                                                                             'Ethical concern',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Employees',
-                                                                                                                                                                                                                          'Fair/just wages, recruitment process, conditions '
-                                                                                                                                                                                                                          'of service, retrenchment, welfare package.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Labour unions',
-                                                                                                                                                                                                                          'Honesty in honouring agreements; good '
-                                                                                                                                                                                                                          'negotiation/industrial-action strategy.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Trade associations',
-                                                                                                                                                                                                                          'Loyalty and faithfulness in honouring agreements.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Dealers',
-                                                                                                                                                                                                                          'Honesty in agreements, engagement/disengagement '
-                                                                                                                                                                                                                          'processes.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Customer',
-                                                                                                                                                                                                                          'Product safety, value proposition, truthful '
-                                                                                                                                                                                                                          'advertising.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Suppliers',
-                                                                                                                                                                                                                          'Honesty in honouring agreements.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Competitors',
-                                                                                                                                                                                                                          'Fair vs. unfair competition.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Shareholders',
-                                                                                                                                                                                                                          'Insider trading, truthful stewardship, conflict '
-                                                                                                                                                                                                                          'of interest.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Creditors',
-                                                                                                                                                                                                                          'Payment for supplies.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Government',
-                                                                                                                                                                                                                          'Tax evasion, economic sabotage, truthful '
-                                                                                                                                                                                                                          'disclosure.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Society at large',
-                                                                                                                                                                                                                          'Environmental concerns.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'The firm itself',
-                                                                                                                                                                                                                          'Confidentiality, loyalty, obedience.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.2  Why some managers behave unethically',
-                                                                              },
-                                                          {
-                                                                                'p': 'Unethical behaviour is behaviour that is not morally honourable, '
-                                                                                     'or is legally prohibited — including corruption, mail/wire fraud, '
-                                                                                     'discrimination/harassment, insider trading, conflicts of interest, '
-                                                                                     'improper use of company assets, bribery/kickbacks, fraud, illegal '
-                                                                                     'donations, patent infringement, product liability (Barrcus & Near, '
-                                                                                     '1991). **Today\'s most common forms**: false communication, '
-                                                                                     'collusion, conflicts of interest, gifts/kickbacks, insider '
-                                                                                     'trading, discrimination/harassment, embezzlement.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Otherwise-honest, dedicated employees behave unethically because '
-                                                                                       'of 4 rationalisations: (a) no one will ever find out; (b) the '
-                                                                                       'behaviour isn\'t really illegal; (c) it\'s in the organisation\'s '
-                                                                                       'best interest; (d) the organisation will protect them.',
-                                                                              },
-                                                          {
-                                                                                'note': 'Unethical behaviour\'s costs are hard to measure but can add '
-                                                                                        'over **20%** to the cost of doing business (research estimate) '
-                                                                                        '— including low wages, unemployment and poverty.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.3  Causes of unethical behaviour (AMA/HRI study of 1,121 '
-                                                                                      'managers and HR experts)',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'pressure to meet unrealistic business '
-                                                                                                                    'objectives/targets/deadlines;',
-                                                                                                                    'desire to further one\'s career;',
-                                                                                                                    'desire to protect one\'s livelihood;',
-                                                                                                                    'job pressure causing corner-cutting on quality control, '
-                                                                                                                    'cover-ups, lying to customers;',
-                                                                                                                    'ignorance that acts are unethical, or of the consequences;',
-                                                                                                                    'competition for scarce resources, power or position;',
-                                                                                                                    'a few bad employees with poor ethical backgrounds; and',
-                                                                                                                    'lack of consistent ethical leadership, exposing employees to '
-                                                                                                                    'unethical opportunities.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '5 further root causes',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Lack of personal ethics** — business ethics is not divorced '
-                                                                                                                    'from personal ethics (from parents, schools, religion, media); '
-                                                                                                                    'a strong personal ethical sense reduces unethical business '
-                                                                                                                    'behaviour;',
-                                                                                                                    '**Decision-making processes** — people sometimes behave '
-                                                                                                                    'unethically without realising it, simply failing to ask "is '
-                                                                                                                    'this ethical?" (Messick and Bazerman, 1996);',
-                                                                                                                    '**Organisational culture** — a climate that de-emphasises '
-                                                                                                                    'ethics, reducing all decisions to the purely economic;',
-                                                                                                                    '**Unrealistic performance expectations** — pressure to meet '
-                                                                                                                    'goals attainable only by cutting corners; and',
-                                                                                                                    '**Bad leadership** — leaders set the example others follow; it '
-                                                                                                                    'is what leaders *do*, not what they say, that matters.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.4  Guidelines for ethical competence',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Be proactive** in managing compliance/ethics — controls, '
-                                                                                                                    'processes, accountability, accessibility;',
-                                                                                                                    '**Adopt and communicate an ethical profile** — a strong, '
-                                                                                                                    'well-communicated code of ethics (policies/procedures);',
-                                                                                                                    '**Train employees** on compliance policies;',
-                                                                                                                    '**Adopt a risk-based approach** — identify, prioritise, manage '
-                                                                                                                    'and monitor high-risk areas; and',
-                                                                                                                    '**Integrate hotlines** with the compliance programme — '
-                                                                                                                    'anonymous reporting of bribery/fraud/ethical violations, '
-                                                                                                                    'tracked from creation to closure.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.5  Ethical practices peculiar to the accounting profession',
-                                                                              },
-                                                          {
-                                                                                'note': 'This 5-principle framework is the same universal '
-                                                                                        'professional-ethics structure examined in the Auditing and '
-                                                                                        'Taxation subjects (IFAC/IESBA-derived) — reproduced here in '
-                                                                                        'full since Management is assessed as an independent paper.',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Integrity** — straightforward and honest in all '
-                                                                                                                    'professional/business relationships;',
-                                                                                                                    '**Objectivity** — no bias, conflict of interest, or undue '
-                                                                                                                    'influence from others;',
-                                                                                                                    '**Professional competence and due care** — a continuing duty to '
-                                                                                                                    'maintain professional knowledge/skill so clients/employers '
-                                                                                                                    'receive competent service based on current '
-                                                                                                                    'practice/legislation/technique developments;',
-                                                                                                                    '**Confidentiality** — respecting confidential information from '
-                                                                                                                    'professional/business relationships, not disclosing it without '
-                                                                                                                    'permission, and not using it for personal advantage; and',
-                                                                                                                    '**Professional behaviour** — complying with relevant '
-                                                                                                                    'laws/regulations and avoiding action that discredits the '
-                                                                                                                    'profession.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.2.6  Possible sanctions for breach of ethical compliance in the '
-                                                                                      'accounting profession',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'additional professional education;',
-                                                                                                                    'reprimand;',
-                                                                                                                    'monetary fine;',
-                                                                                                                    'removal of authority to engage in public practice (or specific '
-                                                                                                                    'work areas);',
-                                                                                                                    'suspension from membership for a specified period;',
-                                                                                                                    'exclusion from membership;',
-                                                                                                                    'refund of fee;',
-                                                                                                                    'work to be completed by another accountant;',
-                                                                                                                    'payment of the cost of the hearing; and',
-                                                                                                                    'sanctions against the member firm.',
-                                                                                                                  ],
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Ethics',
+          'd': 'from the Greek "ethos" (character/conduct/activities based on moral principles) — concerned '
+               "with right and wrong in human behaviour, against society's accepted standards. An "
+               "individual's personal belief about whether a behaviour/action/decision is right or wrong "
+               '(Griffin, 1999).'}},
+ {'p': 'Sources of individual ethical standards: family (the "first school"), educational/religious '
+       'institutions, peer influence, professional/trade associations, personal experience, and situational '
+       'factors.'},
+ {'def': {'t': 'Business ethics',
+          'd': 'ethical standards applicable when people engage in business transactions — concerned with '
+               'truth and justice, and with what is good/bad, right/wrong in business transactions (Weihrich '
+               '& Koontz, 2001). Ethics go BEYOND the law — standards of behaviour expected of both '
+               'individuals and the corporate legal person.'}},
+ {'h4': 'C.2.1  Ethical issues in business'},
+ {'ul': ['bribes;',
+         'honesty of record keeping;',
+         'misappropriation of corporate assets;',
+         'confidentiality of corporate information;',
+         'political contributions;',
+         'conflict of interest;',
+         'customer/supplier relationships.']},
+ {'h4': 'Ethical issues by stakeholder group'},
+ {'table': {'align': 'll',
+            'head': ['Stakeholder', 'Ethical concern'],
+            'rows': [['Employees',
+                      'Fair/just wages, recruitment process, conditions of service, retrenchment, welfare '
+                      'package.'],
+                     ['Labour unions',
+                      'Honesty in honouring agreements; good negotiation/industrial-action strategy.'],
+                     ['Trade associations', 'Loyalty and faithfulness in honouring agreements.'],
+                     ['Dealers', 'Honesty in agreements, engagement/disengagement processes.'],
+                     ['Customer', 'Product safety, value proposition, truthful advertising.'],
+                     ['Suppliers', 'Honesty in honouring agreements.'],
+                     ['Competitors', 'Fair vs. unfair competition.'],
+                     ['Shareholders', 'Insider trading, truthful stewardship, conflict of interest.'],
+                     ['Creditors', 'Payment for supplies.'],
+                     ['Government', 'Tax evasion, economic sabotage, truthful disclosure.'],
+                     ['Society at large', 'Environmental concerns.'],
+                     ['The firm itself', 'Confidentiality, loyalty, obedience.']]}},
+ {'h4': 'C.2.2  Why some managers behave unethically'},
+ {'p': 'Unethical behaviour is behaviour that is not morally honourable, or is legally prohibited — '
+       'including corruption, mail/wire fraud, discrimination/harassment, insider trading, conflicts of '
+       'interest, improper use of company assets, bribery/kickbacks, fraud, illegal donations, patent '
+       "infringement, product liability (Barrcus & Near, 1991). **Today's most common forms**: false "
+       'communication, collusion, conflicts of interest, gifts/kickbacks, insider trading, '
+       'discrimination/harassment, embezzlement.'},
+ {'key': [{'p': 'Otherwise-honest, dedicated employees behave unethically because of 4 rationalisations:'},
+          {'ul': ['(a) no one will ever find out',
+                  "(b) the behaviour isn't really illegal",
+                  "(c) it's in the organisation's best interest",
+                  '(d) the organisation will protect them.']}]},
+ {'note': "Unethical behaviour's costs are hard to measure but can add over **20%** to the cost of doing "
+          'business (research estimate) — including low wages, unemployment and poverty.'},
+ {'h4': 'C.2.3  Causes of unethical behaviour (AMA/HRI study of 1,121 managers and HR experts)'},
+ {'ol': ['pressure to meet unrealistic business objectives/targets/deadlines;',
+         "desire to further one's career;",
+         "desire to protect one's livelihood;",
+         'job pressure causing corner-cutting on quality control, cover-ups, lying to customers;',
+         'ignorance that acts are unethical, or of the consequences;',
+         'competition for scarce resources, power or position;',
+         'a few bad employees with poor ethical backgrounds; and',
+         'lack of consistent ethical leadership, exposing employees to unethical opportunities.']},
+ {'h4': '5 further root causes'},
+ {'ol': ['**Lack of personal ethics** — business ethics is not divorced from personal ethics (from parents, '
+         'schools, religion, media); a strong personal ethical sense reduces unethical business behaviour;',
+         '**Decision-making processes** — people sometimes behave unethically without realising it, simply '
+         'failing to ask "is this ethical?" (Messick and Bazerman, 1996);',
+         '**Organisational culture** — a climate that de-emphasises ethics, reducing all decisions to the '
+         'purely economic;',
+         '**Unrealistic performance expectations** — pressure to meet goals attainable only by cutting '
+         'corners; and',
+         '**Bad leadership** — leaders set the example others follow; it is what leaders *do*, not what they '
+         'say, that matters.']},
+ {'h4': 'C.2.4  Guidelines for ethical competence'},
+ {'ol': ['**Be proactive** in managing compliance/ethics — controls, processes, accountability, '
+         'accessibility;',
+         '**Adopt and communicate an ethical profile** — a strong, well-communicated code of ethics '
+         '(policies/procedures);',
+         '**Train employees** on compliance policies;',
+         '**Adopt a risk-based approach** — identify, prioritise, manage and monitor high-risk areas; and',
+         '**Integrate hotlines** with the compliance programme — anonymous reporting of '
+         'bribery/fraud/ethical violations, tracked from creation to closure.']},
+ {'h4': 'C.2.5  Ethical practices peculiar to the accounting profession'},
+ {'note': 'This 5-principle framework is the same universal professional-ethics structure examined in the '
+          'Auditing and Taxation subjects (IFAC/IESBA-derived) — reproduced here in full since Management is '
+          'assessed as an independent paper.'},
+ {'ol': ['**Integrity** — straightforward and honest in all professional/business relationships;',
+         '**Objectivity** — no bias, conflict of interest, or undue influence from others;',
+         '**Professional competence and due care** — a continuing duty to maintain professional '
+         'knowledge/skill so clients/employers receive competent service based on current '
+         'practice/legislation/technique developments;',
+         '**Confidentiality** — respecting confidential information from professional/business '
+         'relationships, not disclosing it without permission, and not using it for personal advantage; and',
+         '**Professional behaviour** — complying with relevant laws/regulations and avoiding action that '
+         'discredits the profession.']},
+ {'h4': 'C.2.6  Possible sanctions for breach of ethical compliance in the accounting profession'},
+ {'ul': ['additional professional education;',
+         'reprimand;',
+         'monetary fine;',
+         'removal of authority to engage in public practice (or specific work areas);',
+         'suspension from membership for a specified period;',
+         'exclusion from membership;',
+         'refund of fee;',
+         'work to be completed by another accountant;',
+         'payment of the cost of the hearing; and',
+         'sanctions against the member firm.']}],
                                },
                     {
                                  'n': 'C.3',
                                  't': 'Corporate governance',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Corporate governance',
-                                                                                                                      'd': 'the way formally constituted authorities (investors, '
-                                                                                                                           'board of directors) affect an organisation\'s strategic '
-                                                                                                                           'plans/direction through formalised oversight/supervision '
-                                                                                                                           'of executive decisions and actions — "the system by which '
-                                                                                                                           'corporate entities\' affairs are directed and controlled '
-                                                                                                                           'by those charged with the responsibility" (Uzuh, 2006); '
-                                                                                                                           'also "the structures and systems of control by which '
-                                                                                                                           'managers are held accountable to those with a legitimate '
-                                                                                                                           'stake" (Jacoby, 2005).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Also viewed as processes/structures put in place by owners and '
-                                                                                     'regulatory agencies to moderate executives, improving/sustaining '
-                                                                                     'long-term shareholder value through enhanced corporate performance '
-                                                                                     'and accountability — mindful of other stakeholders\' interests too. '
-                                                                                     'It is fundamentally about maximising shareholder value legally, '
-                                                                                     'ethically and sustainably, while ensuring fairness to every '
-                                                                                     'stakeholder — critical to enhancing/retaining investor trust.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Responsive corporate governance requires: '
-                                                                                       'transparency/accountability to stakeholders; compliance with '
-                                                                                       'applicable legal/regulatory requirements; disclosure of all '
-                                                                                       'material information; and firm viability/solvency sustained '
-                                                                                       'through adequate internal control and an appropriate management '
-                                                                                       'framework.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.1  Benefits of corporate governance',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'fairness;',
-                                                                                                                    'openness/transparency;',
-                                                                                                                    'independence;',
-                                                                                                                    'honesty and integrity (probity);',
-                                                                                                                    'responsibility and accountability;',
-                                                                                                                    'reputation; and',
-                                                                                                                    'sound judgment.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.2  Prerequisites of effective corporate governance in Nigeria',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'knowledge;',
-                                                                                                                    'information;',
-                                                                                                                    'a strong management team;',
-                                                                                                                    'power;',
-                                                                                                                    'auditors;',
-                                                                                                                    'motivation;',
-                                                                                                                    'time.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.3  Weaknesses/problems of corporate governance in Nigeria',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'poor integration/development of information technology;',
-                                                                                                                    'lack of auditor independence/transparency;',
-                                                                                                                    'pressure from government;',
-                                                                                                                    'board/management relationship tensions;',
-                                                                                                                    'board/management disagreement giving rise to board squabbles;',
-                                                                                                                    'weak internal controls;',
-                                                                                                                    'passive shareholders;',
-                                                                                                                    'ineffective management information systems;',
-                                                                                                                    'technical incompetence;',
-                                                                                                                    'poor leadership;',
-                                                                                                                    'non-compliance with internal controls/operational procedures; '
-                                                                                                                    'and',
-                                                                                                                    'fraudulent/self-serving practices among board, management and '
-                                                                                                                    'staff.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.4  Codes of best practices on corporate governance in Nigeria',
-                                                                              },
-                                                          {
-                                                                                'p': 'Under the Companies and Allied Matters Act (CAMA) 1990, directors '
-                                                                                     'owe defined duties to their company, including presenting an '
-                                                                                     'annual report/accounts to shareholders (accountability). Where '
-                                                                                     'corporate-governance LAW is weak (e.g. the UK historically), '
-                                                                                     'voluntary codes/guidelines have been issued instead, backed by '
-                                                                                     'major financial institutions, stock exchanges and investment '
-                                                                                     'organisations. Codes typically cover 7 major areas:',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'the role and responsibilities of the board of directors;',
-                                                                                                                    'the composition and balance of the board;',
-                                                                                                                    'financial reporting, narrative reporting and auditing;',
-                                                                                                                    'directors\' remuneration;',
-                                                                                                                    'risk management and internal control;',
-                                                                                                                    'shareholders\' rights; and',
-                                                                                                                    'corporate social responsibility and ethical behaviour (business '
-                                                                                                                    'ethics).',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.3.5  Compliance requirements of corporate governance',
-                                                                              },
-                                                          {
-                                                                                'key': 'The Nigerian Code of Corporate Governance supersedes any prior '
-                                                                                       'codes before **17 October 2016**; is **mandatory** for all '
-                                                                                       'public companies (listed or not), all private companies that are '
-                                                                                       'holding companies/subsidiaries of public companies, and all '
-                                                                                       'private companies with **more than 8 employees** that file '
-                                                                                       'returns to any regulatory authority other than the '
-                                                                                       '(then-)Federal Inland Revenue Service and the Corporate Affairs '
-                                                                                       'Commission; sets the **minimum board size at 8 members** (a '
-                                                                                       'revision from the earlier SEC/banking-sector codes); and applies '
-                                                                                       'to annual reports covering periods beginning on/after 17 October '
-                                                                                       '2016 (earlier voluntary application permitted).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Corporate governance',
+          'd': 'the way formally constituted authorities (investors, board of directors) affect an '
+               "organisation's strategic plans/direction through formalised oversight/supervision of "
+               'executive decisions and actions — "the system by which corporate entities\' affairs are '
+               'directed and controlled by those charged with the responsibility" (Uzuh, 2006); also "the '
+               'structures and systems of control by which managers are held accountable to those with a '
+               'legitimate stake" (Jacoby, 2005).'}},
+ {'p': 'Also viewed as processes/structures put in place by owners and regulatory agencies to moderate '
+       'executives, improving/sustaining long-term shareholder value through enhanced corporate performance '
+       "and accountability — mindful of other stakeholders' interests too. It is fundamentally about "
+       'maximising shareholder value legally, ethically and sustainably, while ensuring fairness to every '
+       'stakeholder — critical to enhancing/retaining investor trust.'},
+ {'key': [{'p': 'Responsive corporate governance requires:'},
+          {'ul': ['transparency/accountability to stakeholders',
+                  'compliance with applicable legal/regulatory requirements',
+                  'disclosure of all material information',
+                  'and firm viability/solvency sustained through adequate internal control and an '
+                  'appropriate management framework.']}]},
+ {'h4': 'C.3.1  Benefits of corporate governance'},
+ {'ul': ['fairness;',
+         'openness/transparency;',
+         'independence;',
+         'honesty and integrity (probity);',
+         'responsibility and accountability;',
+         'reputation; and',
+         'sound judgment.']},
+ {'h4': 'C.3.2  Prerequisites of effective corporate governance in Nigeria'},
+ {'ul': ['knowledge;',
+         'information;',
+         'a strong management team;',
+         'power;',
+         'auditors;',
+         'motivation;',
+         'time.']},
+ {'h4': 'C.3.3  Weaknesses/problems of corporate governance in Nigeria'},
+ {'ul': ['poor integration/development of information technology;',
+         'lack of auditor independence/transparency;',
+         'pressure from government;',
+         'board/management relationship tensions;',
+         'board/management disagreement giving rise to board squabbles;',
+         'weak internal controls;',
+         'passive shareholders;',
+         'ineffective management information systems;',
+         'technical incompetence;',
+         'poor leadership;',
+         'non-compliance with internal controls/operational procedures; and',
+         'fraudulent/self-serving practices among board, management and staff.']},
+ {'h4': 'C.3.4  Codes of best practices on corporate governance in Nigeria'},
+ {'p': 'Under the Companies and Allied Matters Act (CAMA) 1990, directors owe defined duties to their '
+       'company, including presenting an annual report/accounts to shareholders (accountability). Where '
+       'corporate-governance LAW is weak (e.g. the UK historically), voluntary codes/guidelines have been '
+       'issued instead, backed by major financial institutions, stock exchanges and investment '
+       'organisations. Codes typically cover 7 major areas:'},
+ {'ol': ['the role and responsibilities of the board of directors;',
+         'the composition and balance of the board;',
+         'financial reporting, narrative reporting and auditing;',
+         "directors' remuneration;",
+         'risk management and internal control;',
+         "shareholders' rights; and",
+         'corporate social responsibility and ethical behaviour (business ethics).']},
+ {'h4': 'C.3.5  Compliance requirements of corporate governance'},
+ {'key': 'The Nigerian Code of Corporate Governance supersedes any prior codes before **17 October 2016**; '
+         'is **mandatory** for all public companies (listed or not), all private companies that are holding '
+         'companies/subsidiaries of public companies, and all private companies with **more than 8 '
+         'employees** that file returns to any regulatory authority other than the (then-)Federal Inland '
+         'Revenue Service and the Corporate Affairs Commission; sets the **minimum board size at 8 members** '
+         '(a revision from the earlier SEC/banking-sector codes); and applies to annual reports covering '
+         'periods beginning on/after 17 October 2016 (earlier voluntary application permitted).'}],
                                },
                     {
                                  'n': 'C.4',

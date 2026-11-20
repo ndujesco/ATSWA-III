@@ -24,14 +24,17 @@ CH = {
                     {
                                  'n': 'A.1',
                                  't': 'Human resource in organisations',
-                                 'b': [
-                                                          {
-                                                                                'p': 'HRM has 10 components: human resource planning; recruitment; '
-                                                                                     'selection; placement; induction; training and development; '
-                                                                                     'performance appraisal; employee compensation; welfare '
-                                                                                     'services/benefits; and industrial relations.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'HRM has 10 components:'},
+ {'ul': ['human resource planning',
+         'recruitment',
+         'selection',
+         'placement',
+         'induction',
+         'training and development',
+         'performance appraisal',
+         'employee compensation',
+         'welfare services/benefits',
+         'and industrial relations.']}],
                                },
                     {
                                  'n': 'A.2',
@@ -104,233 +107,142 @@ CH = {
                     {
                                  'n': 'A.5',
                                  't': 'Human resource planning',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Human resource planning',
-                                                                                                                      'd': 'the process of forecasting an organisation\'s future HR '
-                                                                                                                           'needs so steps can be taken to meet them (Stone & Meltz, '
-                                                                                                                           '1983) — ensuring the right number/kind of capable people '
-                                                                                                                           'are in the right place at the right time (Robbins & '
-                                                                                                                           'Coulter, 2007).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Involves: detailed workforce analysis; recommending '
-                                                                                     'policies/procedures for effective labour-resource use; forecasting '
-                                                                                     'future needs; matching labour demand/supply; developing strategies '
-                                                                                     'to meet HR needs; and providing conditions for employee '
-                                                                                     'growth/career advancement.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.5.1  Steps in the human resource planning process',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Identify organisational objectives — define objectives and '
-                                                                                                                          'achievement strategies, which may affect organisational '
-                                                                                                                          'structure, marketing strategy, production systems.',
-                                                                                                                          'Estimate human resource needs — forecast the period\'s HR '
-                                                                                                                          'needs in precise terms (skills, quantity, experience, age).',
-                                                                                                                          'Analyse existing human resources — a detailed inventory of '
-                                                                                                                          'the current workforce (number, skills, age, experience, '
-                                                                                                                          'turnover rate).',
-                                                                                                                          'Calculate net human resource needs — estimated needs minus '
-                                                                                                                          'existing workforce.',
-                                                                                                                          'Develop a plan — policies/procedures (recruitment, '
-                                                                                                                          'selection, training, compensation, career plans) to meet the '
-                                                                                                                          'net requirement.',
-                                                                                                                        ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.5.2  Importance of human resource planning',
-                                                                              },
-                                                          {
-                                                                                'p': 'Importance: guides recruitment number/type decisions; helps adapt '
-                                                                                     'to labour-market trends; enables more systematic '
-                                                                                     'training/development planning; mitigates high turnover; enables '
-                                                                                     'labour-cost budgeting; avoids redundancies (right people, right '
-                                                                                     'job, right time); eases benefits/welfare planning; and enables '
-                                                                                     'developing performance benchmarks.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Human resource planning',
+          'd': "the process of forecasting an organisation's future HR needs so steps can be taken to meet "
+               'them (Stone & Meltz, 1983) — ensuring the right number/kind of capable people are in the '
+               'right place at the right time (Robbins & Coulter, 2007).'}},
+ {'p': 'Involves:'},
+ {'ul': ['detailed workforce analysis',
+         'recommending policies/procedures for effective labour-resource use',
+         'forecasting future needs',
+         'matching labour demand/supply',
+         'developing strategies to meet HR needs',
+         'and providing conditions for employee growth/career advancement.']},
+ {'h4': 'A.5.1  Steps in the human resource planning process'},
+ {'steps': ['Identify organisational objectives — define objectives and achievement strategies, which may '
+            'affect organisational structure, marketing strategy, production systems.',
+            "Estimate human resource needs — forecast the period's HR needs in precise terms (skills, "
+            'quantity, experience, age).',
+            'Analyse existing human resources — a detailed inventory of the current workforce (number, '
+            'skills, age, experience, turnover rate).',
+            'Calculate net human resource needs — estimated needs minus existing workforce.',
+            'Develop a plan — policies/procedures (recruitment, selection, training, compensation, career '
+            'plans) to meet the net requirement.']},
+ {'h4': 'A.5.2  Importance of human resource planning'},
+ {'p': 'Importance:'},
+ {'ul': ['guides recruitment number/type decisions',
+         'helps adapt to labour-market trends',
+         'enables more systematic training/development planning',
+         'mitigates high turnover',
+         'enables labour-cost budgeting',
+         'avoids redundancies (right people, right job, right time)',
+         'eases benefits/welfare planning',
+         'and enables developing performance benchmarks.']},
+ {'figure': {'src': 'assets/study-figures/man-p220.png',
+             'alt': 'Figure 4.1: Steps in the Human Resource planning process',
+             'cap': 'Figure 4.1: Steps in the Human Resource planning process — original Management '
+                    'study-text page 193 (PDF 220). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.6',
                                  't': 'Recruitment',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Recruitment',
-                                                                                                                      'd': 'all activities attracting qualified applicants to fill '
-                                                                                                                           'vacancies — analysing job requirements, identifying '
-                                                                                                                           'recruitment sources, advertising vacancies, managing the '
-                                                                                                                           'response.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.6.1 – A.6.3  Sources of recruitment: internal and external',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Internal recruitment source',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Promotion**',
-                                                                                                                                                                                                                          'Existing employees whose '
-                                                                                                                                                                                                                          'qualifications/experience suit a vacant '
-                                                                                                                                                                                                                          '(higher-skill/responsibility) position are '
-                                                                                                                                                                                                                          'promoted.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Transfer**',
-                                                                                                                                                                                                                          'Moving a worker from one unit/department to '
-                                                                                                                                                                                                                          'another to fill a vacancy.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Job posting**',
-                                                                                                                                                                                                                          'Officially advertising the vacancy internally '
-                                                                                                                                                                                                                          '(notice boards, house journal, memos), inviting '
-                                                                                                                                                                                                                          'interested qualified staff to apply.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Job bidding**',
-                                                                                                                                                                                                                          'Employees apply for vacancies they believe they '
-                                                                                                                                                                                                                          'qualify for, after being notified via posting — '
-                                                                                                                                                                                                                          'bidders are considered for appointment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Conversion**',
-                                                                                                                                                                                                                          'A worker in one job cadre is considered for a '
-                                                                                                                                                                                                                          'DIFFERENT cadre if they hold the required '
-                                                                                                                                                                                                                          'qualification (e.g. a janitor converted to '
-                                                                                                                                                                                                                          'clerical officer with additional qualification).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Upgrading**',
-                                                                                                                                                                                                                          'Status changed to a higher level within the SAME '
-                                                                                                                                                                                                                          'job cadre upon acquiring a higher qualification.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': '**External recruitment** has 6 sources: educational institutions '
-                                                                                     '(direct university/polytechnic recruitment); unsolicited '
-                                                                                     'applications; employee referrals; employment agencies (public, '
-                                                                                     'private, or management consultancies); professional organisations '
-                                                                                     '(e.g. ICAN, Chartered Institute of Bankers recommending members); '
-                                                                                     'and advertisement (internet, newspapers, TV, radio).',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Source',
-                                                                                                                                                                             'Advantages / Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Internal**',
-                                                                                                                                                                                                                          'Adv: creates promotion opportunities; reduces '
-                                                                                                                                                                                                                          'recruitment cost; better-known applicants '
-                                                                                                                                                                                                                          'simplify selection; benefits from prior training '
-                                                                                                                                                                                                                          'investment; less selection-mistake risk given '
-                                                                                                                                                                                                                          'appraisable performance history; increases '
-                                                                                                                                                                                                                          'employee commitment. Disadv: qualified people '
-                                                                                                                                                                                                                          'may not exist internally; strict internal policy '
-                                                                                                                                                                                                                          'risks "in-breeding" (perpetuating old ways, '
-                                                                                                                                                                                                                          'stagnation); the organisation may lag behind '
-                                                                                                                                                                                                                          'industry rivals recruiting superior external '
-                                                                                                                                                                                                                          'skills; reduces the talent pool; can breed '
-                                                                                                                                                                                                                          'unhealthy rivalry.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**External**',
-                                                                                                                                                                                                                          'Adv: creates a large pool to recruit the best '
-                                                                                                                                                                                                                          'from; brings in better-qualified people; reduces '
-                                                                                                                                                                                                                          'training costs (already-skilled hires); enhances '
-                                                                                                                                                                                                                          'workplace diversity. Disadv: expensive '
-                                                                                                                                                                                                                          '(advertising, interviews, tests, background '
-                                                                                                                                                                                                                          'checks, medical exams); risk of a wrong hiring '
-                                                                                                                                                                                                                          'choice.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Recruitment',
+          'd': 'all activities attracting qualified applicants to fill vacancies — analysing job '
+               'requirements, identifying recruitment sources, advertising vacancies, managing the '
+               'response.'}},
+ {'h4': 'A.6.1  Sources of Recruitment'},
+ {'h4': 'A.6.2  Internal Recruitment'},
+ {'table': {'align': 'll',
+            'head': ['Internal recruitment source', 'Description'],
+            'rows': [['**Promotion**',
+                      'Existing employees whose qualifications/experience suit a vacant '
+                      '(higher-skill/responsibility) position are promoted.'],
+                     ['**Transfer**',
+                      'Moving a worker from one unit/department to another to fill a vacancy.'],
+                     ['**Job posting**',
+                      'Officially advertising the vacancy internally (notice boards, house journal, memos), '
+                      'inviting interested qualified staff to apply.'],
+                     ['**Job bidding**',
+                      'Employees apply for vacancies they believe they qualify for, after being notified via '
+                      'posting — bidders are considered for appointment.'],
+                     ['**Conversion**',
+                      'A worker in one job cadre is considered for a DIFFERENT cadre if they hold the '
+                      'required qualification (e.g. a janitor converted to clerical officer with additional '
+                      'qualification).'],
+                     ['**Upgrading**',
+                      'Status changed to a higher level within the SAME job cadre upon acquiring a higher '
+                      'qualification.']]}},
+ {'h4': 'A.6.3  External Recruitment'},
+ {'p': '**External recruitment** has 6 sources:'},
+ {'ol': ['educational institutions (direct university/polytechnic recruitment)',
+         'unsolicited applications',
+         'employee referrals',
+         'employment agencies (public, private, or management consultancies)',
+         'professional organisations (e.g. ICAN, Chartered Institute of Bankers recommending members)',
+         'and advertisement (internet, newspapers, TV, radio)']},
+ {'table': {'align': 'll',
+            'head': ['Source', 'Advantages / Disadvantages'],
+            'rows': [['**Internal**',
+                      'Adv: creates promotion opportunities; reduces recruitment cost; better-known '
+                      'applicants simplify selection; benefits from prior training investment; less '
+                      'selection-mistake risk given appraisable performance history; increases employee '
+                      'commitment. Disadv: qualified people may not exist internally; strict internal policy '
+                      'risks "in-breeding" (perpetuating old ways, stagnation); the organisation may lag '
+                      'behind industry rivals recruiting superior external skills; reduces the talent pool; '
+                      'can breed unhealthy rivalry.'],
+                     ['**External**',
+                      'Adv: creates a large pool to recruit the best from; brings in better-qualified '
+                      'people; reduces training costs (already-skilled hires); enhances workplace diversity. '
+                      'Disadv: expensive (advertising, interviews, tests, background checks, medical exams); '
+                      'risk of a wrong hiring choice.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p223.png',
+             'alt': 'Table 4.1: Advantages and disadvantages of internal and external sources of recruitment',
+             'cap': 'Table 4.1: Advantages and disadvantages of internal and external sources of recruitment '
+                    '— original Management study-text page 196 (PDF 223). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.7',
                                  't': 'Selection',
-                                 'b': [
-                                                          {
-                                                                                'p': 'A typical selection process: analysis of application forms; '
-                                                                                     'selection tests; selection interview; background investigations; '
-                                                                                     'medical examinations; offer and placement.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Application forms typically require: name; interests/hobbies; '
-                                                                                     'date/place of birth; nationality/hometown; address/email; phone '
-                                                                                     'number; health status; marital/family status; '
-                                                                                     'education/qualifications/publications; previous '
-                                                                                     'employer(s)/experience/reasons for leaving; position applied for '
-                                                                                     'and reasons; and references.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.7.1 – A.7.3  Analysis of application forms, selection tests and '
-                                                                                      'the selection interview',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Selection test type',
-                                                                                                                                                                             'Purpose',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Aptitude test**',
-                                                                                                                                                                                                                          'Measures latent/potential ability for a job/task '
-                                                                                                                                                                                                                          '— e.g. manual dexterity, numerical/clerical '
-                                                                                                                                                                                                                          'ability.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Intelligence test**',
-                                                                                                                                                                                                                          'Measures logical reasoning, memory, learning '
-                                                                                                                                                                                                                          'ability.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Achievement test**',
-                                                                                                                                                                                                                          'Evaluates proficiency in a specific job, usually '
-                                                                                                                                                                                                                          'for experienced applicants claiming a skill '
-                                                                                                                                                                                                                          '(e.g. a typist tested on typing).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Personality test**',
-                                                                                                                                                                                                                          'Measures social-interaction skills/general '
-                                                                                                                                                                                                                          'behaviour — temperament, introvert/extrovert.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Psychological test**',
-                                                                                                                                                                                                                          'Determines abilities/characteristics to predict '
-                                                                                                                                                                                                                          'job success likelihood.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': '**Selection interview**: a formal employer-applicant conversation '
-                                                                                     'verifying/clarifying application information and probing '
-                                                                                     'suitability further. Problems: interviewer bias/prejudice, hearing '
-                                                                                     'only what they expect to hear; outcomes depend heavily on '
-                                                                                     'interviewer knowledge/communication skill.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'A typical selection process:'},
+ {'ul': ['analysis of application forms',
+         'selection tests',
+         'selection interview',
+         'background investigations',
+         'medical examinations',
+         'offer and placement.']},
+ {'h4': 'A.7.1  Analysis of Application Forms'},
+ {'p': 'Application forms typically require:'},
+ {'ul': ['name',
+         'interests/hobbies',
+         'date/place of birth',
+         'nationality/hometown',
+         'address/email',
+         'phone number',
+         'health status',
+         'marital/family status',
+         'education/qualifications/publications',
+         'previous employer(s)/experience/reasons for leaving',
+         'position applied for and reasons',
+         'and references.']},
+ {'h4': 'A.7.2  Selection Tests'},
+ {'table': {'align': 'll',
+            'head': ['Selection test type', 'Purpose'],
+            'rows': [['**Aptitude test**',
+                      'Measures latent/potential ability for a job/task — e.g. manual dexterity, '
+                      'numerical/clerical ability.'],
+                     ['**Intelligence test**', 'Measures logical reasoning, memory, learning ability.'],
+                     ['**Achievement test**',
+                      'Evaluates proficiency in a specific job, usually for experienced applicants claiming '
+                      'a skill (e.g. a typist tested on typing).'],
+                     ['**Personality test**',
+                      'Measures social-interaction skills/general behaviour — temperament, '
+                      'introvert/extrovert.'],
+                     ['**Psychological test**',
+                      'Determines abilities/characteristics to predict job success likelihood.']]}},
+ {'h4': 'A.7.3  Selection Interview'},
+ {'p': '**Selection interview**: a formal employer-applicant conversation verifying/clarifying application '
+       'information and probing suitability further. Problems: interviewer bias/prejudice, hearing only what '
+       'they expect to hear; outcomes depend heavily on interviewer knowledge/communication skill.'}],
                                },
                     {
                                  'n': 'A.8',
@@ -349,119 +261,79 @@ CH = {
                     {
                                  'n': 'A.9',
                                  't': 'Induction',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Induction',
-                                                                                                                      'd': 'receiving/welcoming new employees and giving basic '
-                                                                                                                           'information to help them settle in quickly, exposing them '
-                                                                                                                           'to the organisation\'s culture.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.9.1 – A.9.3  Objectives, importance and procedures of induction',
-                                                                              },
-                                                          {
-                                                                                'p': 'Objectives: integrate new employees at the strange/unfamiliar '
-                                                                                     'preliminary stage; cultivate a favourable company attitude to '
-                                                                                     'improve retention; optimise new-comer productivity quickly; reduce '
-                                                                                     'likelihood of leaving; and communicate '
-                                                                                     'expectations/responsibilities/vision-alignment/performance '
-                                                                                     'outcomes.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Importance: reduces early exits (saving '
-                                                                                     'replacement/induction/error-correction costs); increases '
-                                                                                     'commitment; maximises new-comer contribution from day one '
-                                                                                     '(accelerating the learning curve); smooths socialisation; helps '
-                                                                                     'settle into a role quicker; establishes good manager-team '
-                                                                                     'communication.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Procedures typically include: reception; documentation; an '
-                                                                                     'employee handbook; initial briefing (HR/department head clarifying '
-                                                                                     'handbook/appointment-letter issues); formal induction courses; and '
-                                                                                     'on-the-job induction training.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Induction',
+          'd': 'receiving/welcoming new employees and giving basic information to help them settle in '
+               "quickly, exposing them to the organisation's culture."}},
+ {'h4': 'A.9.1  Objectives of Induction'},
+ {'p': 'Objectives:'},
+ {'ul': ['integrate new employees at the strange/unfamiliar preliminary stage',
+         'cultivate a favourable company attitude to improve retention',
+         'optimise new-comer productivity quickly',
+         'reduce likelihood of leaving',
+         'and communicate expectations/responsibilities/vision-alignment/performance outcomes.']},
+ {'h4': 'A.9.2  Importance of Induction'},
+ {'p': 'Importance:'},
+ {'ul': ['reduces early exits (saving replacement/induction/error-correction costs)',
+         'increases commitment',
+         'maximises new-comer contribution from day one (accelerating the learning curve)',
+         'smooths socialisation',
+         'helps settle into a role quicker',
+         'establishes good manager-team communication.']},
+ {'h4': 'A.9.3  Induction Procedures'},
+ {'p': 'Procedures typically include:'},
+ {'ul': ['reception',
+         'documentation',
+         'an employee handbook',
+         'initial briefing (HR/department head clarifying handbook/appointment-letter issues)',
+         'formal induction courses',
+         'and on-the-job induction training.']}],
                                },
                     {
                                  'n': 'A.10',
                                  't': 'Job analysis',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Job analysis',
-                                                                                                                      'd': 'examining a job to identify its components/conditions — '
-                                                                                                                           'activities/duties/responsibilities; relative importance; '
-                                                                                                                           'relationship to other jobs; required '
-                                                                                                                           'knowledge/skills/attitudes; and working conditions.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.10.1 – A.10.3  Definition, methods and uses of job analysis',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Method',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Interview**',
-                                                                                                                                                                                                                          'Detailed face-to-face interview of the jobholder.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Questionnaire**',
-                                                                                                                                                                                                                          'The jobholder/supervisor completes a '
-                                                                                                                                                                                                                          'questionnaire on '
-                                                                                                                                                                                                                          'activities/knowledge/skills/abilities/conditions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Observation**',
-                                                                                                                                                                                                                          'The analyst directly observes the jobholder at '
-                                                                                                                                                                                                                          'work (face-to-face, or via film/photographs).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Diaries**',
-                                                                                                                                                                                                                          'The jobholder records task details, later '
-                                                                                                                                                                                                                          'collected for analysis.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Job analysis data feeds: **recruitment** (defining who to '
-                                                                                     'recruit); **selection** (specifying required '
-                                                                                     'knowledge/skills/attitudes); **training/development** (developing '
-                                                                                     'the right programme); **compensation administration** (job '
-                                                                                     'evaluation); **performance appraisal** (providing measurement '
-                                                                                     'criteria); **employee benefits/services** (uncovering job hazards '
-                                                                                     'to mitigate); and **industrial relations** (informing collective '
-                                                                                     'bargaining over pay/conditions).',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'A.10.1  Definition of Job Analysis'},
+ {'def': {'t': 'Job analysis',
+          'd': 'examining a job to identify its components/conditions — activities/duties/responsibilities; '
+               'relative importance; relationship to other jobs; required knowledge/skills/attitudes; and '
+               'working conditions.'}},
+ {'h4': 'A.10.2  Methods of Job Analysis'},
+ {'table': {'align': 'll',
+            'head': ['Method', 'Description'],
+            'rows': [['**Interview**', 'Detailed face-to-face interview of the jobholder.'],
+                     ['**Questionnaire**',
+                      'The jobholder/supervisor completes a questionnaire on '
+                      'activities/knowledge/skills/abilities/conditions.'],
+                     ['**Observation**',
+                      'The analyst directly observes the jobholder at work (face-to-face, or via '
+                      'film/photographs).'],
+                     ['**Diaries**', 'The jobholder records task details, later collected for analysis.']]}},
+ {'h4': 'A.10.3  Uses of Job Analysis'},
+ {'p': 'Job analysis data feeds:'},
+ {'ul': ['**recruitment** (defining who to recruit)',
+         '**selection** (specifying required knowledge/skills/attitudes)',
+         '**training/development** (developing the right programme)',
+         '**compensation administration** (job evaluation)',
+         '**performance appraisal** (providing measurement criteria)',
+         '**employee benefits/services** (uncovering job hazards to mitigate)',
+         'and **industrial relations** (informing collective bargaining over pay/conditions).']},
+ {'figure': {'src': 'assets/study-figures/man-p227.png',
+             'alt': 'Table 4.2: Methods of Job Analysis; Table 4.3: Uses of Job Analysis',
+             'cap': 'Table 4.2: Methods of Job Analysis; Table 4.3: Uses of Job Analysis — original '
+                    'Management study-text page 200 (PDF 227). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.11',
                                  't': 'Job description',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Job description',
-                                                                                                                      'd': 'a detailed statement of a specific job\'s activities, '
-                                                                                                                           'covering: job title; place/location in the organisational '
-                                                                                                                           'hierarchy; objectives/purpose and relationship to overall '
-                                                                                                                           'company objectives; supervisors reported to and '
-                                                                                                                           'subordinates reporting in; duties/responsibilities; and '
-                                                                                                                           'pertinent performance-influencing factors '
-                                                                                                                           '(machines/equipment, working conditions, constraints, '
-                                                                                                                           'hazards).',
-                                                                                                                    },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Job description',
+          'd': "a detailed statement of a specific job's activities, covering: job title; place/location in "
+               'the organisational hierarchy; objectives/purpose and relationship to overall company '
+               'objectives; supervisors reported to and subordinates reporting in; duties/responsibilities; '
+               'and pertinent performance-influencing factors (machines/equipment, working conditions, '
+               'constraints, hazards).'}},
+ {'figure': {'src': 'assets/study-figures/man-p228.png',
+             'alt': 'Figure 4.2: A Sample of a job description',
+             'cap': 'Figure 4.2: A Sample of a job description — original Management study-text page 201 '
+                    '(PDF 228). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'A.12',
@@ -482,89 +354,46 @@ CH = {
                     {
                                  'n': 'A.13',
                                  't': 'Training and development',
-                                 'b': [
-                                                          {
-                                                                                'p': '**Training** (Armstrong, 2009): planned, systematic behaviour '
-                                                                                     'modification through learning events/programmes/instruction, '
-                                                                                     'enabling knowledge/skills/competence for effective current work. '
-                                                                                     '**Development**: the growth/realisation of a person\'s '
-                                                                                     'ability/potential through learning/educational experience. '
-                                                                                     'Training focuses on IMMEDIATE job needs; development focuses on '
-                                                                                     'the FUTURE — career growth and increased responsibility.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.1  The training and development process',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Training needs analysis — identifying the gap between '
-                                                                                                                          'current/potential and expected performance, via 2 components '
-                                                                                                                          '(organisational needs assessment, individual needs '
-                                                                                                                          'identification); stages: data collection, interpretation, '
-                                                                                                                          'recommendation, action plan.',
-                                                                                                                          'Setting the training objectives — specific, measurable, '
-                                                                                                                          'unambiguous, clearly understood by trainer and trainees.',
-                                                                                                                          'Drawing up the training programme — designing '
-                                                                                                                          'curriculum/methods to fill the identified gap.',
-                                                                                                                          'Implementation of the training programme.',
-                                                                                                                          'Evaluation of the training programme — assessing impact on '
-                                                                                                                          'trainees and the organisation.',
-                                                                                                                        ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.2  Training and development methods',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Category',
-                                                                                                                                                                             'Methods',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**On-the-job training**',
-                                                                                                                                                                                                                          'Training incorporated into the employee\'s actual '
-                                                                                                                                                                                                                          'work, under close supervision — '
-                                                                                                                                                                                                                          '**demonstration** (trainer shows the method, '
-                                                                                                                                                                                                                          'trainee repeats it); **understudy** (training to '
-                                                                                                                                                                                                                          'assume a superior\'s duties at a future date); '
-                                                                                                                                                                                                                          '**job rotation/planned experience** (rotating '
-                                                                                                                                                                                                                          'between jobs/departments/branches for '
-                                                                                                                                                                                                                          'diversified exposure); **project/committee '
-                                                                                                                                                                                                                          'assignments** (improving '
-                                                                                                                                                                                                                          'decision-making/resource-organising skill); '
-                                                                                                                                                                                                                          '**temporary promotions** (assigned '
-                                                                                                                                                                                                                          'higher-responsibility tasks to build managerial '
-                                                                                                                                                                                                                          'skill).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Off-the-job training**',
-                                                                                                                                                                                                                          'Trained outside the organisation — sponsorship '
-                                                                                                                                                                                                                          'for short courses; day releases for professional '
-                                                                                                                                                                                                                          'courses; distance learning; approved '
-                                                                                                                                                                                                                          'computer-based learning.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**On-and-off-the-job training**',
-                                                                                                                                                                                                                          'Combines both — trained outside, applies on the '
-                                                                                                                                                                                                                          'job, returns for further training — e.g. '
-                                                                                                                                                                                                                          'internship, study tours, attachments.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.13.3  Benefits of training and development',
-                                                                              },
-                                                          {
-                                                                                'p': 'Benefits: improved present-job performance; improved morale/job '
-                                                                                     'satisfaction; reduced operational problems (accidents, turnover, '
-                                                                                     'poor service, waste, maintenance cost); increased productivity; '
-                                                                                     'fulfils skill needs without external recruitment; reduced '
-                                                                                     'supervision need; and improved customer service.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '**Training** (Armstrong, 2009): planned, systematic behaviour modification through learning '
+       'events/programmes/instruction, enabling knowledge/skills/competence for effective current work. '
+       "**Development**: the growth/realisation of a person's ability/potential through learning/educational "
+       'experience. Training focuses on IMMEDIATE job needs; development focuses on the FUTURE — career '
+       'growth and increased responsibility.'},
+ {'h4': 'A.13.1  The training and development process'},
+ {'steps': ['Training needs analysis — identifying the gap between current/potential and expected '
+            'performance, via 2 components (organisational needs assessment, individual needs '
+            'identification); stages: data collection, interpretation, recommendation, action plan.',
+            'Setting the training objectives — specific, measurable, unambiguous, clearly understood by '
+            'trainer and trainees.',
+            'Drawing up the training programme — designing curriculum/methods to fill the identified gap.',
+            'Implementation of the training programme.',
+            'Evaluation of the training programme — assessing impact on trainees and the organisation.']},
+ {'h4': 'A.13.2  Training and development methods'},
+ {'table': {'align': 'll',
+            'head': ['Category', 'Methods'],
+            'rows': [['**On-the-job training**',
+                      "Training incorporated into the employee's actual work, under close supervision — "
+                      '**demonstration** (trainer shows the method, trainee repeats it); **understudy** '
+                      "(training to assume a superior's duties at a future date); **job rotation/planned "
+                      'experience** (rotating between jobs/departments/branches for diversified exposure); '
+                      '**project/committee assignments** (improving decision-making/resource-organising '
+                      'skill); **temporary promotions** (assigned higher-responsibility tasks to build '
+                      'managerial skill).'],
+                     ['**Off-the-job training**',
+                      'Trained outside the organisation — sponsorship for short courses; day releases for '
+                      'professional courses; distance learning; approved computer-based learning.'],
+                     ['**On-and-off-the-job training**',
+                      'Combines both — trained outside, applies on the job, returns for further training — '
+                      'e.g. internship, study tours, attachments.']]}},
+ {'h4': 'A.13.3  Benefits of training and development'},
+ {'p': 'Benefits:'},
+ {'ul': ['improved present-job performance',
+         'improved morale/job satisfaction',
+         'reduced operational problems (accidents, turnover, poor service, waste, maintenance cost)',
+         'increased productivity',
+         'fulfils skill needs without external recruitment',
+         'reduced supervision need',
+         'and improved customer service.']}],
                                },
                     {
                                  'n': 'A.14',
@@ -648,222 +477,167 @@ CH = {
                     {
                                  'n': 'A.15',
                                  't': 'Wages and salaries administration (employee compensation)',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Wage and salary administration',
-                                                                                                                      'd': 'the practices/procedures for planning/distributing '
-                                                                                                                           'company-wide compensation programmes, usually handled by '
-                                                                                                                           'the accounting department. Compensation directly affects '
-                                                                                                                           'job satisfaction/morale/motivation, and is a common root '
-                                                                                                                           'cause of labour-management conflict.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.15.1 – A.15.4  Objectives and principles of wage and salary '
-                                                                                      'administration, methods of compensating employees, and designing '
-                                                                                      'incentive schemes',
-                                                                              },
-                                                          {
-                                                                                'p': 'Employee compensation = rewards for services offered, with 2 '
-                                                                                     'primary areas: benefits and salary administration.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Objectives**: reward according to effort/merit; attract/retain '
-                                                                                     'desirable employees; improve morale/productivity; keep labour cost '
-                                                                                     'within reasonable limits (protecting '
-                                                                                     'shareholders/competitiveness/profitability); pay per job '
-                                                                                     'importance/difficulty; facilitate payroll '
-                                                                                     'administration/budgeting/control; and explain to employees how/why '
-                                                                                     'they are paid.',
-                                                                              },
-                                                          {
-                                                                                'p': '**7 principles considered when setting wage levels**: ability to '
-                                                                                     'pay (per the organisation\'s financial performance); government '
-                                                                                     'minimum wage legislation; competitor wage rates; terms of '
-                                                                                     'collective agreements; availability of that type of labour '
-                                                                                     '(scarcity raises compensation); qualifications (higher '
-                                                                                     'qualification, better pay); and job evaluation results.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Compensation methods**: **piece rate** (paid in direct '
-                                                                                     'proportion to output — used where output is measurable, '
-                                                                                     'effort-output relationship established, job '
-                                                                                     'standardised/repetitive, work flow regular) and **time rate** '
-                                                                                     '(paid by time spent — used where output/units are hard to measure, '
-                                                                                     'work flow is irregular, or effort-output relationship is hard to '
-                                                                                     'establish).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Incentive schemes**: piece rate (pay = units × standard rate); '
-                                                                                     'stock/share ownership plans (shares allotted, dividends '
-                                                                                     'receivable); commission (rewarded on sales volume — common for '
-                                                                                     'salespeople); bonuses (periodic high-performance rewards, '
-                                                                                     'sometimes across-the-board on good profits); and profit sharing '
-                                                                                     '(employees share the financial gain from increased '
-                                                                                     'productivity/added value).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Wage and salary administration',
+          'd': 'the practices/procedures for planning/distributing company-wide compensation programmes, '
+               'usually handled by the accounting department. Compensation directly affects job '
+               'satisfaction/morale/motivation, and is a common root cause of labour-management conflict.'}},
+ {'p': 'Employee compensation = rewards for services offered, with 2 primary areas: benefits and salary '
+       'administration.'},
+ {'h4': 'A.15.1  Objectives of Wages and Salary Administration'},
+ {'p': '**Objectives**:'},
+ {'ul': ['reward according to effort/merit',
+         'attract/retain desirable employees',
+         'improve morale/productivity',
+         'keep labour cost within reasonable limits (protecting shareholders/competitiveness/profitability)',
+         'pay per job importance/difficulty',
+         'facilitate payroll administration/budgeting/control',
+         'and explain to employees how/why they are paid.']},
+ {'h4': 'A.15.2  Principles of Wages and Salary Administration'},
+ {'p': '**7 principles considered when setting wage levels**:'},
+ {'ul': ["ability to pay (per the organisation's financial performance)",
+         'government minimum wage legislation',
+         'competitor wage rates',
+         'terms of collective agreements',
+         'availability of that type of labour (scarcity raises compensation)',
+         'qualifications (higher qualification, better pay)',
+         'and job evaluation results.']},
+ {'h4': 'A.15.3  Establishment of Methods of Compensating Employees'},
+ {'p': '**Compensation methods**: **piece rate** (paid in direct proportion to output — used where output is '
+       'measurable, effort-output relationship established, job standardised/repetitive, work flow regular) '
+       'and **time rate** (paid by time spent — used where output/units are hard to measure, work flow is '
+       'irregular, or effort-output relationship is hard to establish).'},
+ {'h4': 'A.15.4  Designing and Implementing Incentive Schemes'},
+ {'p': '**Incentive schemes**:'},
+ {'ul': ['piece rate (pay = units × standard rate)',
+         'stock/share ownership plans (shares allotted, dividends receivable)',
+         'commission (rewarded on sales volume — common for salespeople)',
+         'bonuses (periodic high-performance rewards, sometimes across-the-board on good profits)',
+         'and profit sharing (employees share the financial gain from increased productivity/added value).']}],
                                },
                     {
                                  'n': 'A.16',
                                  't': 'Employee discipline',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Discipline',
-                                                                                                                      'd': 'the situation where people obey organisation-established '
-                                                                                                                           'rules/standards of behaviour. Disciplinary procedures are '
-                                                                                                                           'the steps taken before disciplinary action against a '
-                                                                                                                           'rule-infringing employee.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'key': '11 features ensuring procedural fairness in discipline: the '
-                                                                                       'OFFENCE must be communicated with complaint details; TIMELY '
-                                                                                       'action (within a reasonable period, else it may seem condoned); '
-                                                                                       'adequate advance notification of the HEARING date; the right to '
-                                                                                       'a REPRESENTATIVE of choice; the right to DEFEND oneself; the '
-                                                                                       'right to CALL WITNESSES (with cross-examination available); the '
-                                                                                       'right to an INTERPRETER; the right to a FINDING (guilty/not '
-                                                                                       'guilty, with full reasoning); consideration of PREVIOUS SERVICE '
-                                                                                       'RECORD (mitigating circumstances); informing the employee of the '
-                                                                                       'PUNISHMENT; and the right to APPEAL.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.16.1 – A.16.4  Features of effective discipline, objectives of '
-                                                                                      'disciplinary action, causes of indiscipline, and disciplinary '
-                                                                                      'measures',
-                                                                              },
-                                                          {
-                                                                                'p': 'Other features: directed against the BEHAVIOUR, not the person; '
-                                                                                     'preceded by advance warning; consistency (inconsistency lowers '
-                                                                                     'morale and breeds grievances); impartiality; and ordinarily '
-                                                                                     'administered in PRIVATE (public reprimand reserved for gross '
-                                                                                     'insubordination/flagrant violation).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Objectives** (correction, not punishment): gain willing '
-                                                                                     'acceptance of rules/standards/procedures; promote '
-                                                                                     'morale/efficiency; develop cooperation; develop tolerance/respect '
-                                                                                     'for human dignity; and maintain good industrial relations.',
-                                                                              },
-                                                          {
-                                                                                'p': '**4 causes of indiscipline** (Nankervis, Compton & McCarthy, '
-                                                                                     '1998): attendance problems (unexcused absence, chronic '
-                                                                                     'absenteeism, tardiness); dishonesty (fraud, theft, falsifying '
-                                                                                     'applications/records, property damage); work-performance problems '
-                                                                                     '(incomplete assignments, substandard output, missed production '
-                                                                                     'targets); and on-the-job behaviour problems (intoxication, '
-                                                                                     'insubordination, horseplay, unauthorised smoking, fighting, '
-                                                                                     'gambling, safety-device non-use, unreported injury, carelessness, '
-                                                                                     'sleeping on the job, abusive language, narcotics/weapons '
-                                                                                     'possession, sexual harassment).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Disciplinary measures** (escalating): verbal warning; written '
-                                                                                     'warning; reprimand; serious written warning; loss of pay for '
-                                                                                     'non-duty periods; increment withholding/deferment; salary '
-                                                                                     'reduction; interdiction (half salary); demotion; suspension; '
-                                                                                     'transfer; termination of appointment; retirement; dismissal.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Discipline',
+          'd': 'the situation where people obey organisation-established rules/standards of behaviour. '
+               'Disciplinary procedures are the steps taken before disciplinary action against a '
+               'rule-infringing employee.'}},
+ {'h4': 'A.16.1  Features of Effective Discipline'},
+ {'key': [{'p': '11 features ensuring procedural fairness in discipline:'},
+          {'ul': ['the OFFENCE must be communicated with complaint details',
+                  'TIMELY action (within a reasonable period, else it may seem condoned)',
+                  'adequate advance notification of the HEARING date',
+                  'the right to a REPRESENTATIVE of choice',
+                  'the right to DEFEND oneself',
+                  'the right to CALL WITNESSES (with cross-examination available)',
+                  'the right to an INTERPRETER',
+                  'the right to a FINDING (guilty/not guilty, with full reasoning)',
+                  'consideration of PREVIOUS SERVICE RECORD (mitigating circumstances)',
+                  'informing the employee of the PUNISHMENT',
+                  'and the right to APPEAL.']}]},
+ {'p': 'Other features:'},
+ {'ul': ['directed against the BEHAVIOUR, not the person',
+         'preceded by advance warning',
+         'consistency (inconsistency lowers morale and breeds grievances)',
+         'impartiality',
+         'and ordinarily administered in PRIVATE (public reprimand reserved for gross '
+         'insubordination/flagrant violation).']},
+ {'h4': 'A.16.2  Objectives of Employee Disciplinary actions'},
+ {'p': '**Objectives** (correction, not punishment):'},
+ {'ul': ['gain willing acceptance of rules/standards/procedures',
+         'promote morale/efficiency',
+         'develop cooperation',
+         'develop tolerance/respect for human dignity',
+         'and maintain good industrial relations.']},
+ {'h4': 'A.16.3  Causes of Indiscipline in an organisation'},
+ {'p': '**4 causes of indiscipline** (Nankervis, Compton & McCarthy, 1998):'},
+ {'ul': ['attendance problems (unexcused absence, chronic absenteeism, tardiness)',
+         'dishonesty (fraud, theft, falsifying applications/records, property damage)',
+         'work-performance problems (incomplete assignments, substandard output, missed production targets)',
+         'and on-the-job behaviour problems (intoxication, insubordination, horseplay, unauthorised smoking, '
+         'fighting, gambling, safety-device non-use, unreported injury, carelessness, sleeping on the job, '
+         'abusive language, narcotics/weapons possession, sexual harassment).']},
+ {'h4': 'A.16.4  Disciplinary Measures in an organisation'},
+ {'p': '**Disciplinary measures** (escalating):'},
+ {'ul': ['verbal warning',
+         'written warning',
+         'reprimand',
+         'serious written warning',
+         'loss of pay for non-duty periods',
+         'increment withholding/deferment',
+         'salary reduction',
+         'interdiction (half salary)',
+         'demotion',
+         'suspension',
+         'transfer',
+         'termination of appointment',
+         'retirement',
+         'dismissal.']}],
                                },
                     {
                                  'n': 'A.17',
                                  't': 'Industrial and labour relations',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Industrial relations',
-                                                                                                                      'd': '"a system or web of rules regulating employment and the '
-                                                                                                                           'way people behave at work" (Dunlop, 1958). Key parties: '
-                                                                                                                           '**employers** (often organised into Employers '
-                                                                                                                           'Associations); **workers** (organised into trade '
-                                                                                                                           'unions/senior staff associations, collectively "Employees '
-                                                                                                                           'Associations"); and **government** (provides the legal '
-                                                                                                                           'framework and acts as arbiter in dispute resolution).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Major activities: collective bargaining; implementing collective '
-                                                                                     'agreements; designing/implementing grievance and trade-dispute '
-                                                                                     'settlement systems; designing/implementing disciplinary '
-                                                                                     'procedures; enforcing relevant labour-law provisions.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.17.1 – A.17.3  Collective bargaining, the contents of '
-                                                                                      'collective agreements, and the importance of collective bargaining',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Collective bargaining',
-                                                                                                                      'd': 'negotiations about working conditions/terms of employment '
-                                                                                                                           'between employer(s)/employer organisation(s) and workers\' '
-                                                                                                                           'representative organisation(s), aiming to reach a '
-                                                                                                                           '"collective agreement" (employment contract). Main '
-                                                                                                                           'subjects: wages/salaries, terms of employment, conditions '
-                                                                                                                           'of service.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'A typical **collective agreement** covers: sole-representative '
-                                                                                     'union recognition; term definitions; validity period (usually 1-3 '
-                                                                                     'years); renegotiation notice procedure; union-shop recognition and '
-                                                                                     'covered employee categories; union-dues check-off; parties\' '
-                                                                                     'responsibilities/purpose; written engagement-terms disclosure '
-                                                                                     '(grade, salary, appointment date, job title, department, '
-                                                                                     'probation); required employee personal details; rules on '
-                                                                                     'increments/probation/termination/promotion/transfer/overtime/discipl'
-                                                                                     'ine; remuneration/incentives; employee rights/privileges; welfare '
-                                                                                     'facilities (housing, medical, accommodation, recreation, canteen); '
-                                                                                     'injury compensation; exit benefits (resignation, termination, '
-                                                                                     'redundancy, death, retirement); Trade Union activity facilities; '
-                                                                                     'and a grievance procedure.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Importance of collective bargaining — benefits all 3 tripartite '
-                                                                                     'parties: employees gain an influence channel, fair labour prices, '
-                                                                                     'legal recognition of contracts; employers gain conflict-resolution '
-                                                                                     'means, cooperation in implementing objectives; government gains a '
-                                                                                     'regulatory tool protecting economic/social/political rights; it '
-                                                                                     'promotes industrial harmony (avoiding strikes), industrial '
-                                                                                     'democracy, and open communication (allaying employee '
-                                                                                     'resistance/fear).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'A.17.4  Grievance and grievance procedure',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'The employee seeks timely redress from their immediate '
-                                                                                                                          'superior/management representative.',
-                                                                                                                          'If unsatisfied, the matter goes to a union official, who '
-                                                                                                                          'investigates and (if justified under the collective '
-                                                                                                                          'agreement) escalates it to management for timely redress.',
-                                                                                                                          'If still unresolved, the union official refers it to the '
-                                                                                                                          'Branch Secretary, who seeks redress from the relevant '
-                                                                                                                          'departmental head.',
-                                                                                                                          'If unresolved, the matter is reduced to writing and referred '
-                                                                                                                          'to the union\'s Regional Industrial Relations Officer, who '
-                                                                                                                          'meets the departmental head.',
-                                                                                                                          'If still unresolved, the union headquarters Secretariat and '
-                                                                                                                          'the firm\'s Chief Executive attempt resolution before '
-                                                                                                                          'referring it to the standing Joint Negotiating Committee.',
-                                                                                                                          'If still unresolved, voluntary arbitration follows, per the '
-                                                                                                                          'Labour Act.',
-                                                                                                                          'If all internal mechanisms fail, 3 statutory routes apply: '
-                                                                                                                          '**conciliation** (informal discussion facilitated by a '
-                                                                                                                          'third-party Conciliator); **arbitration** (both parties '
-                                                                                                                          'agree in advance to accept a third party\'s decision — in '
-                                                                                                                          'Nigeria, an Industrial Arbitration Panel; the National '
-                                                                                                                          'Industrial Court has exclusive jurisdiction over '
-                                                                                                                          'trade-dispute settlement); and **mediation** (formal, '
-                                                                                                                          'non-binding recommendations submitted for both parties\' '
-                                                                                                                          'consideration).',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Industrial relations',
+          'd': '"a system or web of rules regulating employment and the way people behave at work" (Dunlop, '
+               '1958). Key parties: **employers** (often organised into Employers Associations); **workers** '
+               '(organised into trade unions/senior staff associations, collectively "Employees '
+               'Associations"); and **government** (provides the legal framework and acts as arbiter in '
+               'dispute resolution).'}},
+ {'p': 'Major activities:'},
+ {'ul': ['collective bargaining',
+         'implementing collective agreements',
+         'designing/implementing grievance and trade-dispute settlement systems',
+         'designing/implementing disciplinary procedures',
+         'enforcing relevant labour-law provisions.']},
+ {'h4': 'A.17.1  Collective Bargaining'},
+ {'def': {'t': 'Collective bargaining',
+          'd': 'negotiations about working conditions/terms of employment between employer(s)/employer '
+               'organisation(s) and workers\' representative organisation(s), aiming to reach a "collective '
+               'agreement" (employment contract). Main subjects: wages/salaries, terms of employment, '
+               'conditions of service.'}},
+ {'h4': 'A.17.2  Contents of Collective Agreements'},
+ {'p': 'A typical **collective agreement** covers:'},
+ {'ul': ['sole-representative union recognition',
+         'term definitions',
+         'validity period (usually 1-3 years)',
+         'renegotiation notice procedure',
+         'union-shop recognition and covered employee categories',
+         'union-dues check-off',
+         "parties' responsibilities/purpose",
+         'written engagement-terms disclosure (grade, salary, appointment date, job title, department, '
+         'probation)',
+         'required employee personal details',
+         'rules on increments/probation/termination/promotion/transfer/overtime/discipline',
+         'remuneration/incentives',
+         'employee rights/privileges',
+         'welfare facilities (housing, medical, accommodation, recreation, canteen)',
+         'injury compensation',
+         'exit benefits (resignation, termination, redundancy, death, retirement)',
+         'Trade Union activity facilities',
+         'and a grievance procedure.']},
+ {'h4': 'A.17.3  Importance of Collective Bargaining'},
+ {'p': 'Importance of collective bargaining — benefits all 3 tripartite parties:'},
+ {'ul': ['employees gain an influence channel, fair labour prices, legal recognition of contracts',
+         'employers gain conflict-resolution means, cooperation in implementing objectives',
+         'government gains a regulatory tool protecting economic/social/political rights',
+         'it promotes industrial harmony (avoiding strikes), industrial democracy, and open communication '
+         '(allaying employee resistance/fear).']},
+ {'h4': 'A.17.4  Grievance and grievance procedure'},
+ {'steps': ['The employee seeks timely redress from their immediate superior/management representative.',
+            'If unsatisfied, the matter goes to a union official, who investigates and (if justified under '
+            'the collective agreement) escalates it to management for timely redress.',
+            'If still unresolved, the union official refers it to the Branch Secretary, who seeks redress '
+            'from the relevant departmental head.',
+            "If unresolved, the matter is reduced to writing and referred to the union's Regional Industrial "
+            'Relations Officer, who meets the departmental head.',
+            "If still unresolved, the union headquarters Secretariat and the firm's Chief Executive attempt "
+            'resolution before referring it to the standing Joint Negotiating Committee.',
+            'If still unresolved, voluntary arbitration follows, per the Labour Act.',
+            'If all internal mechanisms fail, 3 statutory routes apply: **conciliation** (informal '
+            'discussion facilitated by a third-party Conciliator); **arbitration** (both parties agree in '
+            "advance to accept a third party's decision — in Nigeria, an Industrial Arbitration Panel; the "
+            'National Industrial Court has exclusive jurisdiction over trade-dispute settlement); and '
+            "**mediation** (formal, non-binding recommendations submitted for both parties' "
+            'consideration).']}],
                                },
                     {
                                  'n': 'A.18',
@@ -1131,59 +905,40 @@ CH = {
                     {
                                  'n': 'B.1',
                                  't': 'Meaning of production',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Production',
-                                                                                                                      'd': 'the step-by-step conversion of one material form into '
-                                                                                                                           'another through chemical/mechanical processes, '
-                                                                                                                           'creating/enhancing product utility to the user — a '
-                                                                                                                           'value-addition process, with value added at each '
-                                                                                                                           'processing stage. Output is either a tangible PRODUCT '
-                                                                                                                           '(food, furniture, books) or an intangible SERVICE '
-                                                                                                                           '(healthcare, entertainment, telephone services).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': '**Process**: the transformation of inputs (raw materials, money, '
-                                                                                     'machines, labour, information) into products/services. A '
-                                                                                     '**production system** is any environment where this transformation '
-                                                                                     'occurs — found in Agriculture, Industry, Commerce and Direct '
-                                                                                     'Services. 4 characteristics: it is an organised activity with an '
-                                                                                     'objective; it transforms inputs into useful outputs; it does not '
-                                                                                     'operate in isolation from other organisational systems; and '
-                                                                                     'feedback about its activities is essential for control/improvement.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Production',
+          'd': 'the step-by-step conversion of one material form into another through chemical/mechanical '
+               'processes, creating/enhancing product utility to the user — a value-addition process, with '
+               'value added at each processing stage. Output is either a tangible PRODUCT (food, furniture, '
+               'books) or an intangible SERVICE (healthcare, entertainment, telephone services).'}},
+ {'p': '**Process**: the transformation of inputs (raw materials, money, machines, labour, information) into '
+       'products/services. A **production system** is any environment where this transformation occurs — '
+       'found in Agriculture, Industry, Commerce and Direct Services. 4 characteristics: it is an organised '
+       'activity with an objective; it transforms inputs into useful outputs; it does not operate in '
+       'isolation from other organisational systems; and feedback about its activities is essential for '
+       'control/improvement.'},
+ {'figure': {'src': 'assets/study-figures/man-p247.png',
+             'alt': 'Figure 4.3: The production process',
+             'cap': 'Figure 4.3: The production process — original Management study-text page 220 (PDF 247). '
+                    'Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'B.2',
                                  't': 'Production management',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Production management',
-                                                                                                                      'd': 'managing the resources an organisation devotes to '
-                                                                                                                           'transforming inputs into goods/services, ensuring the '
-                                                                                                                           'requisite quality level. When the same concept extends to '
-                                                                                                                           'services, it is called OPERATIONS management (concerned '
-                                                                                                                           'with services/intangible '
-                                                                                                                           'output/more-labour-less-equipment/frequent customer '
-                                                                                                                           'participation, vs. production management\'s '
-                                                                                                                           'manufacturing/tangible '
-                                                                                                                           'output/less-labour-more-equipment/no customer '
-                                                                                                                           'participation).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'key': 'Production management\'s objective: producing goods/services of '
-                                                                                       'the **RIGHT quality** (per customer needs, not necessarily '
-                                                                                       '"best" quality), **RIGHT quantity** (avoiding both '
-                                                                                       'excess-inventory capital lock-up and shortage), **RIGHT time** '
-                                                                                       '(timeliness of delivery), and at **RIGHT manufacturing cost** '
-                                                                                       '(minimising variance from the pre-established standard cost).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Production management',
+          'd': 'managing the resources an organisation devotes to transforming inputs into goods/services, '
+               'ensuring the requisite quality level. When the same concept extends to services, it is '
+               'called OPERATIONS management (concerned with services/intangible '
+               'output/more-labour-less-equipment/frequent customer participation, vs. production '
+               "management's manufacturing/tangible output/less-labour-more-equipment/no customer "
+               'participation).'}},
+ {'key': "Production management's objective: producing goods/services of the **RIGHT quality** (per customer "
+         'needs, not necessarily "best" quality), **RIGHT quantity** (avoiding both excess-inventory capital '
+         'lock-up and shortage), **RIGHT time** (timeliness of delivery), and at **RIGHT manufacturing '
+         'cost** (minimising variance from the pre-established standard cost).'},
+ {'figure': {'src': 'assets/study-figures/man-p248.png',
+             'alt': 'Table 4.4: Comparing production and operations management',
+             'cap': 'Table 4.4: Comparing production and operations management — original Management '
+                    'study-text page 221 (PDF 248). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'B.3',
@@ -1239,237 +994,147 @@ CH = {
                     {
                                  'n': 'B.5',
                                  't': 'Plant (facilities) location',
-                                 'b': [
-                                                          {
-                                                                                'key': 'There is no single "best" location — only several GOOD '
-                                                                                       'locations, each with its own strengths/weaknesses, making it a '
-                                                                                       'trade-off decision. The basic objective is minimising cost and '
-                                                                                       'maximising profit; locating near an existing industrial area '
-                                                                                       'often reduces cost since infrastructure (electricity, water, '
-                                                                                       'telephone) may already exist.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.5.1  Factors influencing plant location',
-                                                                              },
-                                                          {
-                                                                                'p': 'Factors influencing location: **availability of raw materials** '
-                                                                                     '(proximity reduces production cost); **government policy** '
-                                                                                     '(designated zones, tax concessions, investment grants, free '
-                                                                                     'trade/export processing zones); **proximity to market** '
-                                                                                     '(especially critical for perishable products/services); '
-                                                                                     '**commercial and social infrastructure** (transport, water, '
-                                                                                     'electricity, telecoms, postal, financial services, markets, '
-                                                                                     'schools); **characteristics of the site**; and **nearness to '
-                                                                                     'market** (customer ease of finding the product). Other factors: '
-                                                                                     'competitor location; site cost (rent/lease/purchase); expansion '
-                                                                                     'possibility; utility services; site convenience/accessibility; '
-                                                                                     'waste-disposal facilities; and traffic density/parking.',
-                                                                              },
-                                                        ],
+                                 'b': [{'key': 'There is no single "best" location — only several GOOD locations, each with its own '
+         'strengths/weaknesses, making it a trade-off decision. The basic objective is minimising cost and '
+         'maximising profit; locating near an existing industrial area often reduces cost since '
+         'infrastructure (electricity, water, telephone) may already exist.'},
+ {'h4': 'B.5.1  Factors influencing plant location'},
+ {'p': 'Factors influencing location:'},
+ {'ul': ['**availability of raw materials** (proximity reduces production cost)',
+         '**government policy** (designated zones, tax concessions, investment grants, free trade/export '
+         'processing zones)',
+         '**proximity to market** (especially critical for perishable products/services)',
+         '**commercial and social infrastructure** (transport, water, electricity, telecoms, postal, '
+         'financial services, markets, schools)',
+         '**characteristics of the site**',
+         'and **nearness to market** (customer ease of finding the product). Other factors: competitor '
+         'location',
+         'site cost (rent/lease/purchase)',
+         'expansion possibility',
+         'utility services',
+         'site convenience/accessibility',
+         'waste-disposal facilities',
+         'and traffic density/parking.']}],
                                },
                     {
                                  'n': 'B.6',
                                  't': 'Plant layout and design',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Objectives of plant layout: better product quality; maximum '
-                                                                                     'floor-area utilisation; reduced internal transport; adequate '
-                                                                                     'lighting/ventilation; minimised scrap/waste; fewer accidents; '
-                                                                                     'minimised production delays; avoiding unnecessary changes; easy '
-                                                                                     'supervision/control; and neatness.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.6.1 – B.6.2  Objectives and principles of plant layout',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    '**Overall integration** — the best layout integrates men, '
-                                                                                                                    'materials and machines optimally;',
-                                                                                                                    '**Minimum movement** — minimises movement of men/materials;',
-                                                                                                                    '**Flow** — provides smooth, uninterrupted flow of men/materials;',
-                                                                                                                    '**Space utilisation** — best use of available cubic space;',
-                                                                                                                    '**Comfort and safety** — safe and comfortable for employees; and',
-                                                                                                                    '**Flexibility** — the best layout provides flexibility.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.6.3  Factors influencing plant layout and design',
-                                                                              },
-                                                          {
-                                                                                'p': 'Factors influencing layout/design: headroom (ceiling-floor '
-                                                                                     'distance, driven by material-handling equipment size); access '
-                                                                                     '(ease of movement); required services (electricity, telephone, '
-                                                                                     'water, computer terminals, fire prevention, warehouses, repair '
-                                                                                     'workshops); waste disposal (compliant with environmental law); '
-                                                                                     'ventilation (especially for heat-generating processes); and '
-                                                                                     'government legislation (waste disposal, factory safety).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.6.4  Types of plant layout',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Layout type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Product/line layout**',
-                                                                                                                                                                                                                          'Equipment arranged per the product\'s operation '
-                                                                                                                                                                                                                          'sequence — one standardised, large-quantity '
-                                                                                                                                                                                                                          'product per operating area; raw material flows '
-                                                                                                                                                                                                                          'rapidly end-to-end with minimal '
-                                                                                                                                                                                                                          'WIP/storage/handling.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Process/functional layout**',
-                                                                                                                                                                                                                          'Machines grouped by TYPE/nature of operation '
-                                                                                                                                                                                                                          '(not sequence) — e.g. all lathes together, all '
-                                                                                                                                                                                                                          'drills together. Suited to low-volume, '
-                                                                                                                                                                                                                          'non-standardised, non-repetitive production, '
-                                                                                                                                                                                                                          'given its greater flexibility.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Fixed position layout**',
-                                                                                                                                                                                                                          'The major component stays fixed (too heavy/big '
-                                                                                                                                                                                                                          'to move) — tools, materials, manpower and '
-                                                                                                                                                                                                                          'equipment are brought TO it. Used for aircraft, '
-                                                                                                                                                                                                                          'hydraulic/steam turbines, ships.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Combination type layout**',
-                                                                                                                                                                                                                          'A compromise blending features of the above — '
-                                                                                                                                                                                                                          'pure single-type layouts are rare in practice; '
-                                                                                                                                                                                                                          'flexibility drives industry-specific modelling '
-                                                                                                                                                                                                                          'of layouts to combine good features economically.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'B.6.1  Objectives of Plant Layout'},
+ {'p': 'Objectives of plant layout:'},
+ {'ul': ['better product quality',
+         'maximum floor-area utilisation',
+         'reduced internal transport',
+         'adequate lighting/ventilation',
+         'minimised scrap/waste',
+         'fewer accidents',
+         'minimised production delays',
+         'avoiding unnecessary changes',
+         'easy supervision/control',
+         'and neatness.']},
+ {'h4': 'B.6.2  Principles of Plant Layout'},
+ {'ol': ['**Overall integration** — the best layout integrates men, materials and machines optimally;',
+         '**Minimum movement** — minimises movement of men/materials;',
+         '**Flow** — provides smooth, uninterrupted flow of men/materials;',
+         '**Space utilisation** — best use of available cubic space;',
+         '**Comfort and safety** — safe and comfortable for employees; and',
+         '**Flexibility** — the best layout provides flexibility.']},
+ {'h4': 'B.6.3  Factors influencing plant layout and design'},
+ {'p': 'Factors influencing layout/design:'},
+ {'ul': ['headroom (ceiling-floor distance, driven by material-handling equipment size)',
+         'access (ease of movement)',
+         'required services (electricity, telephone, water, computer terminals, fire prevention, warehouses, '
+         'repair workshops)',
+         'waste disposal (compliant with environmental law)',
+         'ventilation (especially for heat-generating processes)',
+         'and government legislation (waste disposal, factory safety).']},
+ {'h4': 'B.6.4  Types of plant layout'},
+ {'table': {'align': 'll',
+            'head': ['Layout type', 'Description'],
+            'rows': [['**Product/line layout**',
+                      "Equipment arranged per the product's operation sequence — one standardised, "
+                      'large-quantity product per operating area; raw material flows rapidly end-to-end with '
+                      'minimal WIP/storage/handling.'],
+                     ['**Process/functional layout**',
+                      'Machines grouped by TYPE/nature of operation (not sequence) — e.g. all lathes '
+                      'together, all drills together. Suited to low-volume, non-standardised, non-repetitive '
+                      'production, given its greater flexibility.'],
+                     ['**Fixed position layout**',
+                      'The major component stays fixed (too heavy/big to move) — tools, materials, manpower '
+                      'and equipment are brought TO it. Used for aircraft, hydraulic/steam turbines, ships.'],
+                     ['**Combination type layout**',
+                      'A compromise blending features of the above — pure single-type layouts are rare in '
+                      'practice; flexibility drives industry-specific modelling of layouts to combine good '
+                      'features economically.']]}},
+ {'figure': {'src': 'assets/study-figures/man-p253.png',
+             'alt': 'Figure 4.4: Product or line layout; Figure 4.5: Process Layout',
+             'cap': 'Figure 4.4: Product or line layout; Figure 4.5: Process Layout — original Management '
+                    'study-text page 226 (PDF 253). Open the page to enlarge.'}},
+ {'figure': {'src': 'assets/study-figures/man-p254.png',
+             'alt': 'Figure 4.6: Fixed position layout',
+             'cap': 'Figure 4.6: Fixed position layout — original Management study-text page 227 (PDF 254). '
+                    'Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'B.7',
                                  't': 'Production systems',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Production system',
-                                                                                                                      'd': 'a collection of people, equipment and procedures '
-                                                                                                                           'organised to perform a company\'s manufacturing operations '
-                                                                                                                           '(found everywhere — bakeries, tailoring shops, salons, '
-                                                                                                                           'factories, breweries, restaurants) — all converting '
-                                                                                                                           'inputs (labour, raw materials, information) into '
-                                                                                                                           'goods/services.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Components: **facilities** (the factory/equipment and how it is '
-                                                                                     'organised — plant layout) and **manufacturing support systems** '
-                                                                                     '(procedures managing production, ordering materials, moving work '
-                                                                                     'through the factory, ensuring quality standards).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.7.1 – B.7.2  Components and features of production systems',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                             'Examples',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Job/unique production**',
-                                                                                                                                                                                                                          'Complex, custom-made, "one-off" items — often '
-                                                                                                                                                                                                                          'huge single pieces.',
-                                                                                                                                                                                                                          'Ship building, bridge/dam construction, custom '
-                                                                                                                                                                                                                          'furniture, aircraft manufacturing, construction.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Mass production**',
-                                                                                                                                                                                                                          'Large quantities of standardised products, few '
-                                                                                                                                                                                                                          'varieties, continuous inter-process movement — '
-                                                                                                                                                                                                                          'heavy mechanisation, detailed materials-flow '
-                                                                                                                                                                                                                          'organisation, careful quality control, division '
-                                                                                                                                                                                                                          'of labour.',
-                                                                                                                                                                                                                          'Soap, automobiles, component parts.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Continuous/flow production**',
-                                                                                                                                                                                                                          'Mass production that continues unbroken for '
-                                                                                                                                                                                                                          'weeks/months.',
-                                                                                                                                                                                                                          'Cement, brewing, petroleum refining.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Repetitive/batch production**',
-                                                                                                                                                                                                                          'Products manufactured in small/large batches via '
-                                                                                                                                                                                                                          'a series of operations before assembly.',
-                                                                                                                                                                                                                          'Canned/cartoned packaged foods, footwear, '
-                                                                                                                                                                                                                          'garments, heavy motor vehicles, electronic '
-                                                                                                                                                                                                                          'instruments, internal-combustion engines.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'System',
-                                                                                                                                                                             'Advantages',
-                                                                                                                                                                             'Disadvantages',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Job**',
-                                                                                                                                                                                                                          'Centralised control ensures effective work '
-                                                                                                                                                                                                                          'supervision; reduced manufacturing time when '
-                                                                                                                                                                                                                          'materials/men/machines are assembled at the '
-                                                                                                                                                                                                                          'point of manufacture.',
-                                                                                                                                                                                                                          'Erratic, unpredictable demand for job-production '
-                                                                                                                                                                                                                          'products; idle/under-utilised machines absent '
-                                                                                                                                                                                                                          'orders; large work-in-process requiring storage '
-                                                                                                                                                                                                                          'investment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Batch**',
-                                                                                                                                                                                                                          'General-purpose machines adaptable to different '
-                                                                                                                                                                                                                          'uses; machines are independent of each other.',
-                                                                                                                                                                                                                          'Lack of workload balance across machines (some '
-                                                                                                                                                                                                                          'under-utilised); requires large storage space '
-                                                                                                                                                                                                                          'for the high work-in-progress.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Flow**',
-                                                                                                                                                                                                                          'Relatively faster (conveyors often transfer '
-                                                                                                                                                                                                                          'materials); the supervisor can easily spot '
-                                                                                                                                                                                                                          'trouble spots, since a breakdown affects the '
-                                                                                                                                                                                                                          'whole line.',
-                                                                                                                                                                                                                          'Since machines are interdependent, one breakdown '
-                                                                                                                                                                                                                          'immobilises the WHOLE production line; requires '
-                                                                                                                                                                                                                          'high demand levels to be economical.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'B.7.3  Factors influencing the type of production system used',
-                                                                              },
-                                                          {
-                                                                                'p': 'Factors influencing the choice of production system: type of '
-                                                                                     'goods/services (e.g. tailoring shops use job production, oil '
-                                                                                     'refineries use flow production); organisation size (big '
-                                                                                     'organisations afford advanced mass-production facilities); demand '
-                                                                                     'extent/order frequency; degree of automation/technology; and '
-                                                                                     'degree of customer contact (high contact favours a '
-                                                                                     'service-oriented batch system).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Production system',
+          'd': "a collection of people, equipment and procedures organised to perform a company's "
+               'manufacturing operations (found everywhere — bakeries, tailoring shops, salons, factories, '
+               'breweries, restaurants) — all converting inputs (labour, raw materials, information) into '
+               'goods/services.'}},
+ {'h4': 'B.7.1  Components of a production system'},
+ {'p': 'Components: **facilities** (the factory/equipment and how it is organised — plant layout) and '
+       '**manufacturing support systems** (procedures managing production, ordering materials, moving work '
+       'through the factory, ensuring quality standards).'},
+ {'h4': 'B.7.2  Features of Production systems'},
+ {'table': {'align': 'lll',
+            'head': ['Type', 'Description', 'Examples'],
+            'rows': [['**Job/unique production**',
+                      'Complex, custom-made, "one-off" items — often huge single pieces.',
+                      'Ship building, bridge/dam construction, custom furniture, aircraft manufacturing, '
+                      'construction.'],
+                     ['**Mass production**',
+                      'Large quantities of standardised products, few varieties, continuous inter-process '
+                      'movement — heavy mechanisation, detailed materials-flow organisation, careful quality '
+                      'control, division of labour.',
+                      'Soap, automobiles, component parts.'],
+                     ['**Continuous/flow production**',
+                      'Mass production that continues unbroken for weeks/months.',
+                      'Cement, brewing, petroleum refining.'],
+                     ['**Repetitive/batch production**',
+                      'Products manufactured in small/large batches via a series of operations before '
+                      'assembly.',
+                      'Canned/cartoned packaged foods, footwear, garments, heavy motor vehicles, electronic '
+                      'instruments, internal-combustion engines.']]}},
+ {'table': {'align': 'lll',
+            'head': ['System', 'Advantages', 'Disadvantages'],
+            'rows': [['**Job**',
+                      'Centralised control ensures effective work supervision; reduced manufacturing time '
+                      'when materials/men/machines are assembled at the point of manufacture.',
+                      'Erratic, unpredictable demand for job-production products; idle/under-utilised '
+                      'machines absent orders; large work-in-process requiring storage investment.'],
+                     ['**Batch**',
+                      'General-purpose machines adaptable to different uses; machines are independent of '
+                      'each other.',
+                      'Lack of workload balance across machines (some under-utilised); requires large '
+                      'storage space for the high work-in-progress.'],
+                     ['**Flow**',
+                      'Relatively faster (conveyors often transfer materials); the supervisor can easily '
+                      'spot trouble spots, since a breakdown affects the whole line.',
+                      'Since machines are interdependent, one breakdown immobilises the WHOLE production '
+                      'line; requires high demand levels to be economical.']]}},
+ {'h4': 'B.7.3  Factors influencing the type of production system used'},
+ {'p': 'Factors influencing the choice of production system:'},
+ {'ul': ['type of goods/services (e.g. tailoring shops use job production, oil refineries use flow '
+         'production)',
+         'organisation size (big organisations afford advanced mass-production facilities)',
+         'demand extent/order frequency',
+         'degree of automation/technology',
+         'and degree of customer contact (high contact favours a service-oriented batch system).']},
+ {'figure': {'src': 'assets/study-figures/man-p255.png',
+             'alt': 'Table 4.5: Comparison of Various Types of Production Systems',
+             'cap': 'Table 4.5: Comparison of Various Types of Production Systems — original Management '
+                    'study-text page 228 (PDF 255). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'B.8',
@@ -1515,392 +1180,227 @@ CH = {
                     {
                                  'n': 'B.9',
                                  't': 'Review questions — Section B',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Section B sets **four essay questions**, **twelve multiple choice '
-                                                                                     'questions** and **ten short answer questions**.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — Section B essay questions',
-                                                                                                                    't': 'Four essay questions',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'Define and explain the features of the '
-                                                                                                                                                                                                                                                          'following types of production system: **(i)** '
-                                                                                                                                                                                                                                                          'job production; **(ii)** flow production; '
-                                                                                                                                                                                                                                                          '**(iii)** batch production.',
-                                                                                                                                                                                                                                                          'What factors influence the location of a '
-                                                                                                                                                                                                                                                          'business in Ghana?',
-                                                                                                                                                                                                                                                          'Briefly explain the under-listed facilities '
-                                                                                                                                                                                                                                                          'layouts: **(i)** product layout; **(ii)** '
-                                                                                                                                                                                                                                                          'process layout.',
-                                                                                                                                                                                                                                                          'List and explain the types of maintenance used '
-                                                                                                                                                                                                                                                          'in an organisation.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'll',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Question',
-                                                                                                                                                                                                                                                                                                                                    'Answer at',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '1 — the three production systems',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**§B.5** (production systems), '
-                                                                                                                                                                                                                                                                                                                                                                                                  'which sets out all four kinds — '
-                                                                                                                                                                                                                                                                                                                                                                                                  'job, mass, continuous flow and '
-                                                                                                                                                                                                                                                                                                                                                                                                  'repetitive/batch — with their '
-                                                                                                                                                                                                                                                                                                                                                                                                  'features',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2 — factors influencing location',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**§B.3** — raw materials, '
-                                                                                                                                                                                                                                                                                                                                                                                                  'government policy, market, '
-                                                                                                                                                                                                                                                                                                                                                                                                  'commercial and social '
-                                                                                                                                                                                                                                                                                                                                                                                                  'infrastructure, and '
-                                                                                                                                                                                                                                                                                                                                                                                                  'characteristics of the site',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '3 — product and process layout',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**§B.4** — product/line layout '
-                                                                                                                                                                                                                                                                                                                                                                                                  'arranges equipment in the '
-                                                                                                                                                                                                                                                                                                                                                                                                  'sequence of operations; process '
-                                                                                                                                                                                                                                                                                                                                                                                                  'layout groups similar machines '
-                                                                                                                                                                                                                                                                                                                                                                                                  'together',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '4 — types of maintenance',
-                                                                                                                                                                                                                                                                                                                                                                                                  'Named in the Section B summary '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(§B.6) among the functions of '
-                                                                                                                                                                                                                                                                                                                                                                                                  'production management, but '
-                                                                                                                                                                                                                                                                                                                                                                                                  '**not itemised anywhere in the '
-                                                                                                                                                                                                                                                                                                                                                                                                  'body of the section** — the '
-                                                                                                                                                                                                                                                                                                                                                                                                  'standard classification is '
-                                                                                                                                                                                                                                                                                                                                                                                                  'preventive, corrective '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(breakdown), predictive and '
-                                                                                                                                                                                                                                                                                                                                                                                                  'condition-based maintenance',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'warn': 'Question 4 asks for the **types of '
-                                                                                                                                                                                                             'maintenance**, which this section never lists. '
-                                                                                                                                                                                                             'Maintenance of facilities appears only as one '
-                                                                                                                                                                                                             'of the functions of production management. The '
-                                                                                                                                                                                                             'question reaches beyond its own text.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Question 2 asks specifically about **Ghana**, '
-                                                                                                                                                                                                             'a reminder that this is an ATSWA syllabus '
-                                                                                                                                                                                                             'covering West Africa — the study text treats '
-                                                                                                                                                                                                             'Nigerian and Ghanaian law and practice side by '
-                                                                                                                                                                                                             'side throughout (see Chapter 8 §8.10.2 on the '
-                                                                                                                                                                                                             'two countries\' health and safety statutes).',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — Section B',
-                                                                                                                    't': 'Review questions, with the study text\'s own solutions',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'Conversion of inputs into outputs is known as: '
-                                                                                                                                                                                                                                                          '**A.** Application of technology; **B.** '
-                                                                                                                                                                                                                                                          'Operations management; **C.** Manufacturing '
-                                                                                                                                                                                                                                                          'products; **D.** Product; **E.** Service.',
-                                                                                                                                                                                                                                                          'Production management involves the following '
-                                                                                                                                                                                                                                                          'activities **EXCEPT**: **A.** Planning the '
-                                                                                                                                                                                                                                                          'location of the organisation\'s facilities; '
-                                                                                                                                                                                                                                                          '**B.** Assessing manpower needs of the '
-                                                                                                                                                                                                                                                          'production system; **C.** Maintenance of '
-                                                                                                                                                                                                                                                          'facilities; **D.** Ensuring compliance with '
-                                                                                                                                                                                                                                                          'health and safety procedures, regulations and '
-                                                                                                                                                                                                                                                          'standards; **E.** Deciding on the production '
-                                                                                                                                                                                                                                                          'system to use.',
-                                                                                                                                                                                                                                                          'Which of the following is **NOT** a type of '
-                                                                                                                                                                                                                                                          'production system? **A.** Mass production; '
-                                                                                                                                                                                                                                                          '**B.** Job production; **C.** Flow production; '
-                                                                                                                                                                                                                                                          '**D.** Unique production; **E.** Assembly '
-                                                                                                                                                                                                                                                          'production.',
-                                                                                                                                                                                                                                                          'All of the following decisions fall within the '
-                                                                                                                                                                                                                                                          'scope of operations management **except**: '
-                                                                                                                                                                                                                                                          '**A.** Financial analysis; **B.** Design of '
-                                                                                                                                                                                                                                                          'products and processes; **C.** Location of '
-                                                                                                                                                                                                                                                          'facilities; **D.** Quality management; **E.** '
-                                                                                                                                                                                                                                                          'Service quality.',
-                                                                                                                                                                                                                                                          'The number of product varieties that can be '
-                                                                                                                                                                                                                                                          'manufactured in **mass production** is: **A.** '
-                                                                                                                                                                                                                                                          'One only; **B.** Two only; **C.** Few '
-                                                                                                                                                                                                                                                          'varieties in large volumes; **D.** Large '
-                                                                                                                                                                                                                                                          'varieties in small volumes; **E.** None of the '
-                                                                                                                                                                                                                                                          'above.',
-                                                                                                                                                                                                                                                          'The number of product varieties that can be '
-                                                                                                                                                                                                                                                          'manufactured in **job production** is: **A.** '
-                                                                                                                                                                                                                                                          'Limited to one or two; **B.** Large varieties '
-                                                                                                                                                                                                                                                          'of products; **C.** One only; **D.** A few '
-                                                                                                                                                                                                                                                          'varieties; **E.** None of the above.',
-                                                                                                                                                                                                                                                          'Generally in **continuous production**, '
-                                                                                                                                                                                                                                                          'production is carried out to: **A.** '
-                                                                                                                                                                                                                                                          'Customer\'s order; **B.** Government orders '
-                                                                                                                                                                                                                                                          'only; **C.** Few rich customers; **D.** '
-                                                                                                                                                                                                                                                          'Satisfy public demand; **E.** For stock and '
-                                                                                                                                                                                                                                                          'supply.',
-                                                                                                                                                                                                                                                          'The desired objective of Production and '
-                                                                                                                                                                                                                                                          'Operations Management is: **A.** Optimal '
-                                                                                                                                                                                                                                                          'utilisation of available resources; **B.** Use '
-                                                                                                                                                                                                                                                          'cheap machinery to produce; **C.** To train '
-                                                                                                                                                                                                                                                          'unskilled workers to manufacture goods '
-                                                                                                                                                                                                                                                          'perfectly; **D.** To earn good profits.',
-                                                                                                                                                                                                                                                          'One of these is **NOT** a principle of plant '
-                                                                                                                                                                                                                                                          'layout: **A.** Principle of overall '
-                                                                                                                                                                                                                                                          'integration; **B.** Principle of cost; **C.** '
-                                                                                                                                                                                                                                                          'Principle of minimum distance; **D.** '
-                                                                                                                                                                                                                                                          'Principle of cubic space; **E.** Principle of '
-                                                                                                                                                                                                                                                          'flexibility.',
-                                                                                                                                                                                                                                                          'The most suitable layout for **job '
-                                                                                                                                                                                                                                                          'production** is: **A.** Fixed position layout; '
-                                                                                                                                                                                                                                                          '**B.** Combination layout; **C.** Process '
-                                                                                                                                                                                                                                                          'layout; **D.** Product layout.',
-                                                                                                                                                                                                                                                          'One of the product examples for **line '
-                                                                                                                                                                                                                                                          'layout** is: **A.** Repair workshop; **B.** '
-                                                                                                                                                                                                                                                          'Bridge; **C.** Fabrics; **D.** Cement; **E.** '
-                                                                                                                                                                                                                                                          'Electronic appliances.',
-                                                                                                                                                                                                                                                          'The following type of layout is preferred for '
-                                                                                                                                                                                                                                                          '**low volume production of non-standard '
-                                                                                                                                                                                                                                                          'products**: **A.** Product layout; **B.** '
-                                                                                                                                                                                                                                                          'Process layout; **C.** Fixed position layout; '
-                                                                                                                                                                                                                                                          '**D.** Combination layout; **E.** None of the '
-                                                                                                                                                                                                                                                          'above.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Short answer questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '……… is that part of an organisation which is '
-                                                                                                                                                                                                                                                          'concerned with the transformation of a range '
-                                                                                                                                                                                                                                                          'of inputs into services having the requisite '
-                                                                                                                                                                                                                                                          'level of quality.',
-                                                                                                                                                                                                                                                          'A ……… is something which is offered to '
-                                                                                                                                                                                                                                                          'customers to satisfy their needs or wants.',
-                                                                                                                                                                                                                                                          '……… is a collection of people, equipment and '
-                                                                                                                                                                                                                                                          'procedures organised to perform the '
-                                                                                                                                                                                                                                                          'manufacturing operations of a company.',
-                                                                                                                                                                                                                                                          'The arrangement of machines in sequence is a '
-                                                                                                                                                                                                                                                          'key feature of the ……… production system.',
-                                                                                                                                                                                                                                                          'The type of layout used in the manufacture of '
-                                                                                                                                                                                                                                                          'aeroplanes, hydraulic and steam turbines and '
-                                                                                                                                                                                                                                                          'ships is known as ………',
-                                                                                                                                                                                                                                                          'The production of single articles, or '
-                                                                                                                                                                                                                                                          '"one-off" items, in small or large quantities '
-                                                                                                                                                                                                                                                          'is ……… production.',
-                                                                                                                                                                                                                                                          'Production is the process by which ……… and '
-                                                                                                                                                                                                                                                          'other inputs are converted into products.',
-                                                                                                                                                                                                                                                          '……… is essentially an arrangement to '
-                                                                                                                                                                                                                                                          'facilitate the production process efficiently.',
-                                                                                                                                                                                                                                                          'If all the processing equipment and machines '
-                                                                                                                                                                                                                                                          'are arranged according to the sequence of '
-                                                                                                                                                                                                                                                          'operations of a product, the layout is known '
-                                                                                                                                                                                                                                                          'as ………',
-                                                                                                                                                                                                                                                          'The principle of plant layout which states '
-                                                                                                                                                                                                                                                          'that the best layout is safe and comfortable '
-                                                                                                                                                                                                                                                          'for employees working in the plant is known as '
-                                                                                                                                                                                                                                                          '………',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Solutions — multiple choice questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'cl',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Q',
-                                                                                                                                                                                                                                                                                                                                    'Answer',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '1',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**C** — Manufacturing products',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**D**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '3',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — Assembly production',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '4',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Financial analysis',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '5',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**C** — Few varieties in large '
-                                                                                                                                                                                                                                                                                                                                                                                                  'volumes',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '6',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**C** — One only',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '7',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**E** — For stock and supply',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '8',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Optimal utilisation of '
-                                                                                                                                                                                                                                                                                                                                                                                                  'available resources',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '9',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**B** — Principle of cost',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '10',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**A** — Fixed position layout',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '11',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**D** — Cement',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '12',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**B** — Process layout',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': 'Solutions — short answer questions',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**Operations management**',
-                                                                                                                                                                                                                                                          '**Product**',
-                                                                                                                                                                                                                                                          '**Production system**',
-                                                                                                                                                                                                                                                          '**Process**',
-                                                                                                                                                                                                                                                          '**Fixed location**',
-                                                                                                                                                                                                                                                          '**Job production system**',
-                                                                                                                                                                                                                                                          '**Resources**',
-                                                                                                                                                                                                                                                          '**Plant layout**',
-                                                                                                                                                                                                                                                          '**Product or line layout**',
-                                                                                                                                                                                                                                                          '**Principle of safety and comfort**',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'MCQ 5, 6 and 7 together give the defining '
-                                                                                                                                                                                                            'contrast between the production systems: '
-                                                                                                                                                                                                            '**mass** production makes **few varieties in '
-                                                                                                                                                                                                            'large volumes**; **job** production makes '
-                                                                                                                                                                                                            '**one** item at a time to order; and '
-                                                                                                                                                                                                            '**continuous** production runs **for stock and '
-                                                                                                                                                                                                            'supply** rather than to a customer\'s order. '
-                                                                                                                                                                                                            'Variety and volume move in opposite directions.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Several answers in this bank sit awkwardly '
-                                                                                                                                                                                                             'with the text and with each other — MCQ 1 '
-                                                                                                                                                                                                             'gives "manufacturing products" for the '
-                                                                                                                                                                                                             'conversion of inputs into outputs where short '
-                                                                                                                                                                                                             'answer 1 gives "operations management" for '
-                                                                                                                                                                                                             'essentially the same idea, and MCQ 10 gives '
-                                                                                                                                                                                                             'fixed position layout for job production where '
-                                                                                                                                                                                                             'MCQ 12 gives process layout for low-volume '
-                                                                                                                                                                                                             'non-standard products. Reproduce the official '
-                                                                                                                                                                                                             'answers, but be ready to justify your '
-                                                                                                                                                                                                             'reasoning if a written question asks.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Section B sets **four essay questions**, **twelve multiple choice questions** and **ten short answer '
+       'questions**.'},
+ {'eg': {'tag': 'Study text — Section B essay questions',
+         't': 'Four essay questions',
+         'open': True,
+         'q': [{'ol': ['Define and explain the features of the following types of production system: **(i)** '
+                       'job production; **(ii)** flow production; **(iii)** batch production.',
+                       'What factors influence the location of a business in Ghana?',
+                       'Briefly explain the under-listed facilities layouts: **(i)** product layout; '
+                       '**(ii)** process layout.',
+                       'List and explain the types of maintenance used in an organisation.']}],
+         'a': [{'note': 'Worked study answers based on the production section. The study text prints the '
+                        'four questions without a separate model answer; the maintenance explanations below '
+                        'clarify its three named policies.',
+                'lbl': 'Study answers'},
+               {'h4': '1. Job, flow and batch production'},
+               {'def': {'t': 'Production system',
+                        'd': 'a collection of people, equipment and procedures organised to perform a '
+                             "company's manufacturing operations (found everywhere — bakeries, tailoring "
+                             'shops, salons, factories, breweries, restaurants) — all converting inputs '
+                             '(labour, raw materials, information) into goods/services.'}},
+               {'table': {'align': 'lll',
+                          'head': ['Type', 'Description', 'Examples'],
+                          'rows': [['**Job/unique production**',
+                                    'Complex, custom-made, "one-off" items — often huge single pieces.',
+                                    'Ship building, bridge/dam construction, custom furniture, aircraft '
+                                    'manufacturing, construction.'],
+                                   ['**Continuous/flow production**',
+                                    'Mass production that continues unbroken for weeks/months.',
+                                    'Cement, brewing, petroleum refining.'],
+                                   ['**Repetitive/batch production**',
+                                    'Products manufactured in small/large batches via a series of operations '
+                                    'before assembly.',
+                                    'Canned/cartoned packaged foods, footwear, garments, heavy motor '
+                                    'vehicles, electronic instruments, internal-combustion engines.']]}},
+               {'h4': '2. Factors influencing business location in Ghana'},
+               {'p': 'The choice balances costs, market access and operating needs. Relevant factors '
+                     'include:'},
+               {'ol': ['**Availability of raw materials** — proximity reduces the cost of obtaining and '
+                       'transporting inputs.',
+                       '**Government policy** — designated industrial zones, tax concessions, investment '
+                       'grants and free trade/export processing zones influence the choice.',
+                       '**Proximity to the market** — especially important for perishable products and '
+                       'services, and for making products easy for customers to find.',
+                       '**Commercial and social infrastructure** — transport, water, electricity, '
+                       'telecommunications, postal and financial services, markets and schools.',
+                       '**Characteristics of the site** — suitability for the intended activities.']},
+               {'p': 'Other factors identified in the source are:'},
+               {'ul': ['Location of competitors.',
+                       'Cost of renting, leasing or purchasing the site.',
+                       'Possibility of expansion.',
+                       'Availability of utility services.',
+                       'Convenience and accessibility.',
+                       'Waste-disposal facilities.',
+                       'Traffic density and parking space.']},
+               {'h4': '3. Product layout and process layout'},
+               {'table': {'align': 'll',
+                          'head': ['Layout type', 'Description'],
+                          'rows': [['**Product/line layout**',
+                                    "Equipment arranged per the product's operation sequence — one "
+                                    'standardised, large-quantity product per operating area; raw material '
+                                    'flows rapidly end-to-end with minimal WIP/storage/handling.'],
+                                   ['**Process/functional layout**',
+                                    'Machines grouped by TYPE/nature of operation (not sequence) — e.g. all '
+                                    'lathes together, all drills together. Suited to low-volume, '
+                                    'non-standardised, non-repetitive production, given its greater '
+                                    'flexibility.']]}},
+               {'h4': '4. Types of maintenance'},
+               {'p': 'The source names **preventive, breakdown and shut-down maintenance** under the '
+                     'maintenance function. Their practical meanings are:'},
+               {'ol': ['**Preventive maintenance** — planned inspection, servicing and replacement before a '
+                       'fault causes failure, keeping facilities ready for use and reducing deterioration.',
+                       '**Breakdown maintenance** — repairing or replacing a failed component after '
+                       'equipment breaks down, to restore its operation.',
+                       '**Shut-down maintenance** — deliberately stopping a plant or part of it so that '
+                       'servicing, inspections or major repairs that cannot be done during normal operation '
+                       'can be completed.']},
+               {'note': 'The three policy names are the source list in B.4(f); their plain-language '
+                        'explanations are added study guidance. The source does itemise the types, so the '
+                        'earlier claim that the question extends beyond the chapter was incorrect.'}]}},
+ {'eg': {'tag': 'Study text — Section B',
+         't': "Review questions, with the study text's own solutions",
+         'open': True,
+         'q': [{'h4': 'Multiple choice questions'},
+               {'ol': ['Conversion of inputs into outputs is known as: **A.** Application of technology; '
+                       '**B.** Operations management; **C.** Manufacturing products; **D.** Product; **E.** '
+                       'Service.',
+                       'Production management involves the following activities **EXCEPT**: **A.** Planning '
+                       "the location of the organisation's facilities; **B.** Assessing manpower needs of "
+                       'the production system; **C.** Maintenance of facilities; **D.** Ensuring compliance '
+                       'with health and safety procedures, regulations and standards; **E.** Deciding on the '
+                       'production system to use.',
+                       'Which of the following is **NOT** a type of production system? **A.** Mass '
+                       'production; **B.** Job production; **C.** Flow production; **D.** Unique production; '
+                       '**E.** Assembly production.',
+                       'All of the following decisions fall within the scope of operations management '
+                       '**except**: **A.** Financial analysis; **B.** Design of products and processes; '
+                       '**C.** Location of facilities; **D.** Quality management; **E.** Service quality.',
+                       'The number of product varieties that can be manufactured in **mass production** is: '
+                       '**A.** One only; **B.** Two only; **C.** Few varieties in large volumes; **D.** '
+                       'Large varieties in small volumes; **E.** None of the above.',
+                       'The number of product varieties that can be manufactured in **job production** is: '
+                       '**A.** Limited to one or two; **B.** Large varieties of products; **C.** One only; '
+                       '**D.** A few varieties; **E.** None of the above.',
+                       'Generally in **continuous production**, production is carried out to: **A.** '
+                       "Customer's order; **B.** Government orders only; **C.** Few rich customers; **D.** "
+                       'Satisfy public demand; **E.** For stock and supply.',
+                       'The desired objective of Production and Operations Management is: **A.** Optimal '
+                       'utilisation of available resources; **B.** Use cheap machinery to produce; **C.** To '
+                       'train unskilled workers to manufacture goods perfectly; **D.** To earn good profits.',
+                       'One of these is **NOT** a principle of plant layout: **A.** Principle of overall '
+                       'integration; **B.** Principle of cost; **C.** Principle of minimum distance; **D.** '
+                       'Principle of cubic space; **E.** Principle of flexibility.',
+                       'The most suitable layout for **job production** is: **A.** Fixed position layout; '
+                       '**B.** Combination layout; **C.** Process layout; **D.** Product layout.',
+                       'One of the product examples for **line layout** is: **A.** Repair workshop; **B.** '
+                       'Bridge; **C.** Fabrics; **D.** Cement; **E.** Electronic appliances.',
+                       'The following type of layout is preferred for **low volume production of '
+                       'non-standard products**: **A.** Product layout; **B.** Process layout; **C.** Fixed '
+                       'position layout; **D.** Combination layout; **E.** None of the above.']},
+               {'h4': 'Short answer questions'},
+               {'ol': ['……… is that part of an organisation which is concerned with the transformation of a '
+                       'range of inputs into services having the requisite level of quality.',
+                       'A ……… is something which is offered to customers to satisfy their needs or wants.',
+                       '……… is a collection of people, equipment and procedures organised to perform the '
+                       'manufacturing operations of a company.',
+                       'The arrangement of machines in sequence is a key feature of the ……… production '
+                       'system.',
+                       'The type of layout used in the manufacture of aeroplanes, hydraulic and steam '
+                       'turbines and ships is known as ………',
+                       'The production of single articles, or "one-off" items, in small or large quantities '
+                       'is ……… production.',
+                       'Production is the process by which ……… and other inputs are converted into products.',
+                       '……… is essentially an arrangement to facilitate the production process efficiently.',
+                       'If all the processing equipment and machines are arranged according to the sequence '
+                       'of operations of a product, the layout is known as ………',
+                       'The principle of plant layout which states that the best layout is safe and '
+                       'comfortable for employees working in the plant is known as ………']}],
+         'a': [{'h4': 'Solutions — multiple choice questions'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**C** — Manufacturing products'],
+                                   ['2', '**D**'],
+                                   ['3', '**E** — Assembly production'],
+                                   ['4', '**A** — Financial analysis'],
+                                   ['5', '**C** — Few varieties in large volumes'],
+                                   ['6', '**C** — One only'],
+                                   ['7', '**E** — For stock and supply'],
+                                   ['8', '**A** — Optimal utilisation of available resources'],
+                                   ['9', '**B** — Principle of cost'],
+                                   ['10', '**A** — Fixed position layout'],
+                                   ['11', '**D** — Cement'],
+                                   ['12', '**B** — Process layout']]}},
+               {'h4': 'Solutions — short answer questions'},
+               {'ol': ['**Operations management**',
+                       '**Product**',
+                       '**Production system**',
+                       '**Process**',
+                       '**Fixed location**',
+                       '**Job production system**',
+                       '**Resources**',
+                       '**Plant layout**',
+                       '**Product or line layout**',
+                       '**Principle of safety and comfort**']},
+               {'key': [{'p': 'MCQ 5, 6 and 7 together give the defining contrast between the production '
+                              'systems:'},
+                        {'ul': ['**mass** production makes **few varieties in large volumes**',
+                                '**job** production makes **one** item at a time to order',
+                                'and **continuous** production runs **for stock and supply** rather than to '
+                                "a customer's order. Variety and volume move in opposite directions."]}]},
+               {'note': 'Several answers in this bank sit awkwardly with the text and with each other — MCQ '
+                        '1 gives "manufacturing products" for the conversion of inputs into outputs where '
+                        'short answer 1 gives "operations management" for essentially the same idea, and MCQ '
+                        '10 gives fixed position layout for job production where MCQ 12 gives process layout '
+                        'for low-volume non-standard products. Reproduce the official answers, but be ready '
+                        'to justify your reasoning if a written question asks.'}]}}],
                                },
                     {
                                  'n': 'C.1',
                                  't': 'Definition of marketing',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Marketing',
-                                                                                                                      'd': 'a social and managerial process by which '
-                                                                                                                           'individuals/groups obtain what they need/want through '
-                                                                                                                           'creating and exchanging products and value with others '
-                                                                                                                           '(Kotler, 1988) — emphasising an EXCHANGE of value, where '
-                                                                                                                           'each party has something the other wants and both are '
-                                                                                                                           'willing/able to transact to mutual satisfaction (e.g. a '
-                                                                                                                           'manufacturer exchanging a product for the consumer\'s '
-                                                                                                                           'price; a Chartered Accountant exchanging audit services '
-                                                                                                                           'for the client\'s fee).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'The American Marketing Association defines marketing as the '
-                                                                                     'performance of business activities directing the flow of '
-                                                                                     'goods/services to the consumer — but this is limited, since '
-                                                                                     'marketing activities begin BEFORE goods/services are even created '
-                                                                                     '(starting with identifying consumer needs/wants/demands) and do '
-                                                                                     'NOT end at purchase (extending to after-sales services like '
-                                                                                     'maintenance/repair/returns).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.1.1  Analysis of the marketing process',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Identify customer needs the company can satisfy.',
-                                                                                                                          'Design a product ("bundle of benefits") satisfying those '
-                                                                                                                          'needs better than existing products.',
-                                                                                                                          'Promote/communicate these benefits to motivate purchase.',
-                                                                                                                          'Price at the right level so consumers are willing/able to '
-                                                                                                                          'buy AND the firm meets profit goals.',
-                                                                                                                          'Make the product available at the right place, facilitating '
-                                                                                                                          'the exchange.',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Marketing',
+          'd': 'a social and managerial process by which individuals/groups obtain what they need/want '
+               'through creating and exchanging products and value with others (Kotler, 1988) — emphasising '
+               'an EXCHANGE of value, where each party has something the other wants and both are '
+               'willing/able to transact to mutual satisfaction (e.g. a manufacturer exchanging a product '
+               "for the consumer's price; a Chartered Accountant exchanging audit services for the client's "
+               'fee).'}},
+ {'p': 'The American Marketing Association defines marketing as the performance of business activities '
+       'directing the flow of goods/services to the consumer — but this is limited, since marketing '
+       'activities begin BEFORE goods/services are even created (starting with identifying consumer '
+       'needs/wants/demands) and do NOT end at purchase (extending to after-sales services like '
+       'maintenance/repair/returns).'},
+ {'h4': 'C.1.1  Analysis of the marketing process'},
+ {'steps': ['Identify customer needs the company can satisfy.',
+            'Design a product ("bundle of benefits") satisfying those needs better than existing products.',
+            'Promote/communicate these benefits to motivate purchase.',
+            'Price at the right level so consumers are willing/able to buy AND the firm meets profit goals.',
+            'Make the product available at the right place, facilitating the exchange.']},
+ {'note': '[March 2021 MCQ 23](#/exams/2021-03/MAN?q=mcq-23) defines the person who physically purchases or '
+          'places an order: the **buyer**. Its printed stem includes **NOT**, yet the printed key is **B, '
+          'Buyer**. The key fits the definition only without that negation; the original stem/key pair is '
+          'internally inconsistent.',
+  'lbl': 'Printed wording/key conflict'}],
                                },
                     {
                                  'n': 'C.2',
                                  't': 'Marketing functions',
-                                 'b': [
-                                                          {
-                                                                                'p': '7 functions of a typical marketing department (Agbonifoh et al., '
-                                                                                     '2007): **marketing research** (systematic data gathering/analysis '
-                                                                                     'to inform product/price/distribution/promotion decisions); '
-                                                                                     '**planning/guiding new-product development** or existing-product '
-                                                                                     'modification; **pricing the product** (marketing is the ONLY '
-                                                                                     'activity bringing revenue, other activities incur expenditure); '
-                                                                                     '**distributing the product** (intermediaries widen the potential '
-                                                                                     'market, spreading urban tastes/habits to rural dwellers); '
-                                                                                     '**promoting the product and company** (directly providing '
-                                                                                     'employment in advertising/sales/PR; indirectly selling the '
-                                                                                     'organisation\'s offerings); **rendering after-sales service** '
-                                                                                     '(evaluating satisfaction to sustain patronage, reduce cognitive '
-                                                                                     'dissonance); and **training/motivating salespersons and '
-                                                                                     'planning/controlling the marketing effort** (via planning, '
-                                                                                     'forecasting, control).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '7 functions of a typical marketing department (Agbonifoh et al., 2007):'},
+ {'ul': ['**marketing research** (systematic data gathering/analysis to inform '
+         'product/price/distribution/promotion decisions)',
+         '**planning/guiding new-product development** or existing-product modification',
+         '**pricing the product** (marketing is the ONLY activity bringing revenue, other activities incur '
+         'expenditure)',
+         '**distributing the product** (intermediaries widen the potential market, spreading urban '
+         'tastes/habits to rural dwellers)',
+         '**promoting the product and company** (directly providing employment in advertising/sales/PR; '
+         "indirectly selling the organisation's offerings)",
+         '**rendering after-sales service** (evaluating satisfaction to sustain patronage, reduce cognitive '
+         'dissonance)',
+         'and **training/motivating salespersons and planning/controlling the marketing effort** (via '
+         'planning, forecasting, control).']}],
                                },
                     {
                                  'n': 'C.3',
@@ -1958,559 +1458,383 @@ CH = {
                     {
                                  'n': 'C.4',
                                  't': 'Market segmentation',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Market segmentation',
-                                                                                                                      'd': 'taking a total, heterogeneous market and dividing it into '
-                                                                                                                           'homogeneous sub-markets/segments (Stanton, 1978) — since '
-                                                                                                                           'a total market is often too large/varied to satisfy '
-                                                                                                                           'everyone, segmentation lets a company focus on and better '
-                                                                                                                           'serve a few segments.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.4.1  Methods of segmentation',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Basis',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Income**',
-                                                                                                                                                                                                                          'High/middle/low income groups.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Sex (gender)**',
-                                                                                                                                                                                                                          'Men and women purchase differently.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Geography**',
-                                                                                                                                                                                                                          'Region/district/city — differences in family '
-                                                                                                                                                                                                                          'size, infrastructure, income, customs, '
-                                                                                                                                                                                                                          'purchasing patterns.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Age**',
-                                                                                                                                                                                                                          'E.g. under-5, 5-9, 10-14, 15-24, 25-44 brackets.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Social class**',
-                                                                                                                                                                                                                          'Upper/middle/lower class.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Sector (industrial markets)**',
-                                                                                                                                                                                                                          'By economic sector — agriculture, manufacturing, '
-                                                                                                                                                                                                                          'trade, etc.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.4.2  Benefits of market segmentation',
-                                                                              },
-                                                          {
-                                                                                'p': 'Benefits: enables analysing/comparing each segment\'s '
-                                                                                     'characteristics/opportunities and designing suited marketing '
-                                                                                     'programmes; lets the organisation tailor its programme '
-                                                                                     '(pricing/promotion/distribution) to a focused segment; benefits '
-                                                                                     'the consumer (better product-need matching); and allows products '
-                                                                                     'designed for each segment\'s peculiar needs, focusing on and '
-                                                                                     'serving fewer segments better.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Market segmentation',
+          'd': 'taking a total, heterogeneous market and dividing it into homogeneous sub-markets/segments '
+               '(Stanton, 1978) — since a total market is often too large/varied to satisfy everyone, '
+               'segmentation lets a company focus on and better serve a few segments.'}},
+ {'h4': 'C.4.1  Methods of segmentation'},
+ {'table': {'align': 'll',
+            'head': ['Basis', 'Description'],
+            'rows': [['**Income**', 'High/middle/low income groups.'],
+                     ['**Sex (gender)**', 'Men and women purchase differently.'],
+                     ['**Geography**',
+                      'Region/district/city — differences in family size, infrastructure, income, customs, '
+                      'purchasing patterns.'],
+                     ['**Age**', 'E.g. under-5, 5-9, 10-14, 15-24, 25-44 brackets.'],
+                     ['**Social class**', 'Upper/middle/lower class.'],
+                     ['**Sector (industrial markets)**',
+                      'By economic sector — agriculture, manufacturing, trade, etc.']]}},
+ {'h4': 'C.4.2  Benefits of market segmentation'},
+ {'p': 'Benefits:'},
+ {'ul': ["enables analysing/comparing each segment's characteristics/opportunities and designing suited "
+         'marketing programmes',
+         'lets the organisation tailor its programme (pricing/promotion/distribution) to a focused segment',
+         'benefits the consumer (better product-need matching)',
+         "and allows products designed for each segment's peculiar needs, focusing on and serving fewer "
+         'segments better.']},
+ {'figure': {'src': 'assets/study-figures/man-p266.png',
+             'alt': 'Table 4.6: Comparison of Segmentation methods',
+             'cap': 'Table 4.6: Comparison of Segmentation methods — original Management study-text page 239 '
+                    '(PDF 266). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'C.5',
                                  't': 'Marketing mix',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The marketing mix has 4 key elements: **product** (anything '
-                                                                                     'offered for consumption/use), **price** (the value placed on an '
-                                                                                     'item), **promotion** (persuasive consumer communication), and '
-                                                                                     '**place** (activities making the product accessible).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The marketing mix has 4 key elements: **product** (anything offered for consumption/use), **price** '
+       '(the value placed on an item), **promotion** (persuasive consumer communication), and **place** '
+       '(activities making the product accessible).'},
+ {'figure': {'src': 'assets/study-figures/man-p268.png',
+             'alt': 'Figure 4.7: The Marketing Mix',
+             'cap': 'Figure 4.7: The Marketing Mix — original Management study-text page 241 (PDF 268). Open '
+                    'the page to enlarge.'}}],
                                },
                     {
                                  'n': 'C.6',
                                  't': 'Product',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.6.1 – C.6.2  Consumer products and industrial products',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Consumer product type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Convenience**',
-                                                                                                                                                                                                                          'Frequently-bought, relatively low-priced '
-                                                                                                                                                                                                                          '(cigarettes, pens, groceries, batteries, '
-                                                                                                                                                                                                                          'newspapers). 3 sub-types: **staples** (bought '
-                                                                                                                                                                                                                          'regularly — bread, soap); **impulse products** '
-                                                                                                                                                                                                                          '(bought with little planning — chocolate, '
-                                                                                                                                                                                                                          'magazines); **emergency products** (bought under '
-                                                                                                                                                                                                                          'urgent need — umbrellas in a rainstorm).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Shopping goods**',
-                                                                                                                                                                                                                          'Consumers compare price/quality/features across '
-                                                                                                                                                                                                                          'brands before buying — furniture, shoes, '
-                                                                                                                                                                                                                          'clothing, durables (fans, radios, TVs).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Specialty goods**',
-                                                                                                                                                                                                                          'Unique characteristics/brand identification, '
-                                                                                                                                                                                                                          'buyers make a special purchasing effort — '
-                                                                                                                                                                                                                          'expensive custom clothing, wrist watches, '
-                                                                                                                                                                                                                          'wedding gowns, brilliant lawyers\'/doctors\' '
-                                                                                                                                                                                                                          'services, luxury furniture.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Unsought products**',
-                                                                                                                                                                                                                          'Consumers don\'t know about, or don\'t normally '
-                                                                                                                                                                                                                          'think of buying — coffins, wedding gowns, life '
-                                                                                                                                                                                                                          'insurance, blood donations. Most major new '
-                                                                                                                                                                                                                          'inventions are unsought until advertising '
-                                                                                                                                                                                                                          'creates awareness.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'The consumer market is also subdivided into: **FMCG market** '
-                                                                                     '(toothpaste, beverages, body cream, detergent); **durables '
-                                                                                     'market** (motorcycles, cars, washing machines); and **services '
-                                                                                     'market** (insurance cover, bank fixed deposits, internet, '
-                                                                                     'transportation).',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Industrial product type',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Raw materials**',
-                                                                                                                                                                                                                          'Unprocessed goods used to produce other goods — '
-                                                                                                                                                                                                                          'farm products (wheat, cotton, livestock) and '
-                                                                                                                                                                                                                          'natural products (fish, lumber, crude petroleum, '
-                                                                                                                                                                                                                          'iron ore).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Installations**',
-                                                                                                                                                                                                                          'Fixed assets/expensive major goods not forming '
-                                                                                                                                                                                                                          'part of the finished product but expended/worn '
-                                                                                                                                                                                                                          'during use — factory buildings, large '
-                                                                                                                                                                                                                          'plants/equipment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Accessories**',
-                                                                                                                                                                                                                          'Aid production but don\'t significantly affect '
-                                                                                                                                                                                                                          'production scale, and don\'t form part of the '
-                                                                                                                                                                                                                          'final product, but cost less than installations '
-                                                                                                                                                                                                                          '— office equipment, portable tree-cutting '
-                                                                                                                                                                                                                          'machines, forklifts, hand tools.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Office supplies**',
-                                                                                                                                                                                                                          'Depleted during production, not part of the '
-                                                                                                                                                                                                                          'finished product — consumables (paper, ink, '
-                                                                                                                                                                                                                          'toner, stationery), maintenance/repair services, '
-                                                                                                                                                                                                                          'business advisory services.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Production supplies**',
-                                                                                                                                                                                                                          'Operating supplies (lubricants, coal, paper, '
-                                                                                                                                                                                                                          'pencils) and repair/maintenance items (paint, '
-                                                                                                                                                                                                                          'nails, brooms) — "the convenience products of '
-                                                                                                                                                                                                                          'the industrial field," bought with minimal '
-                                                                                                                                                                                                                          'effort/comparison.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Components**',
-                                                                                                                                                                                                                          'Become part of the finished product, needing no '
-                                                                                                                                                                                                                          'further processing before assembly — vehicle '
-                                                                                                                                                                                                                          'spare parts, tyres, buttons, bolts/nuts.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.6.3 – C.6.5  New products, new product development and its '
-                                                                                      'stages',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Define objectives — product type, customer wants, product '
-                                                                                                                          'features (marketing research helps here).',
-                                                                                                                          'Idea generation and screening — sources include marketing '
-                                                                                                                          'research, competitors, consultancies, universities/research '
-                                                                                                                          'institutions, internal brainstorming, trade associations, '
-                                                                                                                          'government agencies.',
-                                                                                                                          'Business analysis — estimating market potential, '
-                                                                                                                          'profitability, financial viability.',
-                                                                                                                          'Product research and development — converting the idea into '
-                                                                                                                          'a physical product/prototype, tested under lab/field '
-                                                                                                                          'conditions.',
-                                                                                                                          'Test marketing — launching the product on a limited, '
-                                                                                                                          'carefully-selected scale to test commercial viability and '
-                                                                                                                          'adjust design/style before mass production.',
-                                                                                                                          'Commercialisation — marketing the product nationally/at '
-                                                                                                                          'scale, if test-marketing proves positive.',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Products may be broadly classified into consumer and industrial products.'},
+ {'h4': 'C.6.1  Consumer products'},
+ {'table': {'align': 'll',
+            'head': ['Consumer product type', 'Description'],
+            'rows': [['**Convenience**',
+                      'Frequently-bought, relatively low-priced products. Source examples: cigarettes, pens, '
+                      'pencils, candies, groceries, flashlights batteries, sundry drugs, chewing gums, '
+                      'newspapers and flimsy shopping bags. Three sub-types: **staples** are products bought '
+                      'regularly, such as bread, bath soap, beverages and tooth paste; **impulse products** '
+                      'are purchased with little planning or search effort, such as chocolate and magazines; '
+                      '**emergency products** are purchased when the consumer’s need is urgent, such as '
+                      'umbrellas during a rainstorm.'],
+                     ['**Shopping goods**',
+                      'Consumers usually compare prices, quality and features of alternative brands before '
+                      'purchasing. Source examples: household furniture, shoes, clothing and consumer '
+                      'durables such as fans, radios, television sets and tape recorders.'],
+                     ['**Specialty goods**',
+                      'Unique characteristics/brand identification, buyers make a special purchasing effort '
+                      '— expensive custom clothing, wrist watches, wedding gowns, brilliant '
+                      "lawyers'/doctors' services, luxury furniture."],
+                     ['**Unsought products**',
+                      "Consumers don't know about, or don't normally think of buying — coffins, wedding "
+                      'gowns, life insurance, blood donations. Most major new inventions are unsought until '
+                      'advertising creates awareness.']]}},
+ {'p': 'The consumer market is also subdivided into:'},
+ {'ul': ['**FMCG market** (toothpaste, beverages, body cream, detergent)',
+         '**durables market** (motorcycles, cars, washing machines)',
+         'and **services market** (insurance cover, bank fixed deposits, internet, transportation).']},
+ {'h4': 'Table 4.7: Comparison of different types of Consumer Products'},
+ {'table': {'align': 'lll',
+            'head': ['Type of product', 'Features', 'Marketing strategies for the product'],
+            'rows': [['Convenience',
+                      'There are several brands. The consumer knows of different brands. The product is '
+                      'purchased frequently, often with little planning or comparison and with minimum '
+                      'effort. They are often low priced.',
+                      'Most producers set low prices. They are widely distributed through many outlets. '
+                      'Products are mass promoted on all available media.'],
+                     ['Shopping products',
+                      'Relatively expensive. There are many brands and consumers often compare product '
+                      'features, price, etc. before purchase. Less frequently purchased but purchased after '
+                      'a lot of planning.',
+                      'Promotion efforts often focusing on advertising and personal selling. Products often '
+                      'attractively packaged to attract consumers. Sales often focus on few distribution '
+                      'outlets.'],
+                     ['Specialty',
+                      'Products often regarded by consumers as unique. Consumers have strong preference for '
+                      'particular brands and do not accept substitutes. Consumers are often willing to pay '
+                      'any reasonable price for the product. They are often luxury products and are sold '
+                      'through exclusive sales outlets.',
+                      'Product should be of high quality and attractively packaged. Exclusive distribution '
+                      'through carefully selected sales outlets. Prices often high (perceived value pricing '
+                      'often used). Promotion is often limited – focusing on personal selling.']]}},
+ {'h4': 'C.6.2  Industrial products'},
+ {'table': {'align': 'll',
+            'head': ['Industrial product type', 'Description'],
+            'rows': [['**Raw materials**',
+                      'Unprocessed industrial goods used to produce other goods. Farm products include '
+                      'wheat, cotton, livestock, fruits and vegetables; natural products include fish, '
+                      'lumber, crude petroleum and iron ore.'],
+                     ['**Installations**',
+                      'Fixed assets/expensive major goods not forming part of the finished product but '
+                      'expended/worn during use — factory buildings, large plants/equipment.'],
+                     ['**Accessories**',
+                      'Industrial products used to aid an organisation’s production operations without any '
+                      'significant effect on its scale of production. Like installations, accessories do not '
+                      'form part of the final product, but they cost less than installations. Examples '
+                      'include office equipment such as computers and typewriters, portable tree-cutting '
+                      'machines, forklift trucks and factory hand tools.'],
+                     ['**Office supplies**',
+                      'Do not become part of the finished product but are depleted during production. These '
+                      'include business/office consumables — paper, ink, marker, toner and stationery — plus '
+                      'maintenance and repair services such as window cleaning and computer repair, and '
+                      'business advisory services such as legal services, management consulting and '
+                      'advertising. Such services are usually supplied under contract.'],
+                     ['**Production supplies**',
+                      'Operating supplies (lubricants, coal, paper, pencils) and repair/maintenance items '
+                      '(paint, nails, brooms) — "the convenience products of the industrial field," bought '
+                      'with minimal effort/comparison.'],
+                     ['**Components**',
+                      'Become part of the finished product, needing no further processing before assembly — '
+                      'vehicle spare parts, tyres, buttons, bolts/nuts.']]}},
+ {'h4': 'C.6.3  What is a new product?'},
+ {'p': 'A new product is a product which is innovative, unique, a replacement, which is significantly '
+       'different from existing ones in terms of physical appearance, packaging, style and quality, etc. New '
+       'products help an organisation to increase its market share by taking advantage of market '
+       'opportunities and attracting customers not previously covered by its products.'},
+ {'h4': 'C.6.4  New Product Development'},
+ {'p': 'One of the most prominent features of the market economy is the periodic introduction of new '
+       'products into the market. New product development is the development of original products, product '
+       'improvements, product modifications, and new brands through the firm’s own R&D efforts. New products '
+       'are introduced by organisations to exploit opportunities arising from changes in consumer demand, '
+       'taste, styles and fashions. Products may also be introduced as a result of technological inventions '
+       'and innovations or to replace old products which have declined in sales and profits.'},
+ {'h4': 'C.6.5  Stages in New Product Development'},
+ {'steps': ['Define objectives — product type, customer wants, product features (marketing research helps '
+            'here).',
+            'Idea generation and screening — sources include marketing research, competitors, consultancies, '
+            'universities/research institutions, internal brainstorming, trade associations, government '
+            'agencies.',
+            'Business analysis — estimating market potential, profitability, financial viability.',
+            'Product research and development — converting the idea into a physical product/prototype, '
+            'tested under lab/field conditions.',
+            'Test marketing — launching the product on a limited, carefully-selected scale to test '
+            'commercial viability and adjust design/style before mass production.',
+            'Commercialisation — marketing the product nationally/at scale, if test-marketing proves '
+            'positive.']},
+ {'figure': {'src': 'assets/study-figures/man-p269.png',
+             'alt': 'Table 4.7: Comparison of different types of Consumer Products',
+             'cap': 'Table 4.7: Comparison of different types of Consumer Products — original Management '
+                    'study-text page 242 (PDF 269). Open the page to enlarge.'}},
+ {'h4': 'Past-paper supplement — product life cycle'},
+ {'p': '[September 2021, short answer 17](#/exams/2021-09/MAN?q=saq-17) asks for the third stage in the '
+       'product life cycle; the printed answer is **“Maturity and Saturation.”** The sales life cycle '
+       'concerns a product’s market progress over time. It is different from the six '
+       '**new-product-development** stages in §C.6.5, which describe how a new offering is developed, tested '
+       'and launched.'},
+ {'p': 'The related [March 2019, MCQ 17](#/exams/2019-03/MAN?q=mcq-17) asks which feature does **not** '
+       'belong to the introductory stage. Its printed key is **E — “Sales and profits decline steeply.”** '
+       'The other source options describe high production/marketing costs and initially small output/sales '
+       'volumes. Use these attributed historic answers without replacing the original questions or keys.'}],
                                },
                     {
                                  'n': 'C.7',
                                  't': 'Pricing',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Price is the monetary value charged for a sale (Hoffman et al., '
-                                                                                     '2003), the amount needed to acquire goods/services (Nwokoye, '
-                                                                                     '2000), or the value placed on the utility received (Oladele, 2007) '
-                                                                                     '— taking forms like admission fee, tuition, salary, fare, premium, '
-                                                                                     'dues, interest.',
-                                                                              },
-                                                          {
-                                                                                'key': '4 basic pricing rules: all prices must cover costs AND profits '
-                                                                                       '(Price = Cost + Profit); the most effective way to lower prices '
-                                                                                       'is to lower costs; review prices frequently against '
-                                                                                       'cost/demand/competition/profit dynamics; and prices must be set '
-                                                                                       'to assure sales.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.7.1 – C.7.4  Basic rules of pricing, pricing objectives, '
-                                                                                      'pricing methods, and factors which influence pricing',
-                                                                              },
-                                                          {
-                                                                                'p': 'Pricing objectives: **survival** (in the face of '
-                                                                                     'overcapacity/competition/changing wants); **profit maximisation**; '
-                                                                                     '**market share** (low price to penetrate, or high price to '
-                                                                                     'establish leadership); **cash flow** (fast fund recovery); '
-                                                                                     '**product quality/leadership** (price signalling market position, '
-                                                                                     'e.g. Peak milk); and other objectives (matching competitor price, '
-                                                                                     'maximising sales, eliminating/protecting competitors, benefiting '
-                                                                                     'the customer).',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Pricing method',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Mark-up pricing**',
-                                                                                                                                                                                                                          'A profit margin added to purchase price (e.g. '
-                                                                                                                                                                                                                          'N1,000 cost + N500 mark-up = N1,500 sale price).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Target return pricing**',
-                                                                                                                                                                                                                          'Price fixed to achieve a specified profit level.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Demand differential (price discrimination)**',
-                                                                                                                                                                                                                          'Different prices for the same product by '
-                                                                                                                                                                                                                          'customer type, packaging, brand, place or time.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**FOB point-of-purchase pricing**',
-                                                                                                                                                                                                                          'Selling price quoted at the production point; '
-                                                                                                                                                                                                                          'buyer bears shipping cost.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Market penetration**',
-                                                                                                                                                                                                                          'Low introductory prices to stimulate demand — '
-                                                                                                                                                                                                                          'effective where the market is price-sensitive '
-                                                                                                                                                                                                                          'and unit cost falls with sales volume.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Market skimming**',
-                                                                                                                                                                                                                          'High price for fast profit — effective where the '
-                                                                                                                                                                                                                          'product is scarce/innovative.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Marketing-oriented pricing**',
-                                                                                                                                                                                                                          'Suited to new products marketed through several '
-                                                                                                                                                                                                                          'distribution channels — considers target market, '
-                                                                                                                                                                                                                          'competitors, product position, channel design.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Prestige pricing**',
-                                                                                                                                                                                                                          'Conveys a quality image, protects market '
-                                                                                                                                                                                                                          'share/shields competitors — e.g. gold jewellery, '
-                                                                                                                                                                                                                          'high-net-worth banking products.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Leader pricing**',
-                                                                                                                                                                                                                          'A low-priced product used as bait to attract '
-                                                                                                                                                                                                                          'customers who then buy a more expensive product.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Psychological pricing**',
-                                                                                                                                                                                                                          'Encourages emotional (not rational) purchase — '
-                                                                                                                                                                                                                          'e.g. N9,999.99 psychologically reads as less '
-                                                                                                                                                                                                                          'than N10,000, though effectively the same.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Factors influencing pricing: cost of production (variable costs, '
-                                                                                     'tied to output volume, e.g. raw materials/labour/haulage; fixed '
-                                                                                     'costs, incurred regardless of output, e.g. "specific programme '
-                                                                                     'costs" for a new office/campaign, or general '
-                                                                                     'admin/salaries/depreciation/rent); distributor margin; competitor '
-                                                                                     'activity; nature of demand (price elasticity); legal constraints '
-                                                                                     '(government regulation against exploitation); and company '
-                                                                                     'objectives/marketing goals (mass-market competitive pricing vs. '
-                                                                                     'prestige-segment high-quality pricing).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Price is the monetary value charged for a sale (Hoffman et al., 2003), the amount needed to acquire '
+       'goods/services (Nwokoye, 2000), or the value placed on the utility received (Oladele, 2007) — taking '
+       'forms like admission fee, tuition, salary, fare, premium, dues, interest.'},
+ {'h4': 'C.7.1  Basic Rules of Pricing'},
+ {'key': [{'p': '4 basic pricing rules:'},
+          {'ul': ['all prices must cover costs AND profits (Price = Cost + Profit)',
+                  'the most effective way to lower prices is to lower costs',
+                  'review prices frequently against cost/demand/competition/profit dynamics',
+                  'and prices must be set to assure sales.']}]},
+ {'h4': 'C.7.2  Pricing Objectives'},
+ {'p': 'Pricing objectives:'},
+ {'ul': ['**survival** (in the face of overcapacity/competition/changing wants)',
+         '**profit maximisation**',
+         '**market share** (low price to penetrate, or high price to establish leadership)',
+         '**cash flow** (fast fund recovery)',
+         '**product quality/leadership** (price signalling market position, e.g. Peak milk)',
+         'and other objectives (matching competitor price, maximising sales, eliminating/protecting '
+         'competitors, benefiting the customer).']},
+ {'h4': 'C.7.3  Pricing methods'},
+ {'table': {'align': 'll',
+            'head': ['Pricing method', 'Description'],
+            'rows': [['**Mark-up pricing**',
+                      'A profit margin added to purchase price (e.g. N1,000 cost + N500 mark-up = N1,500 '
+                      'sale price).'],
+                     ['**Target return pricing**', 'Price fixed to achieve a specified profit level.'],
+                     ['**Demand differential (price discrimination)**',
+                      'Different prices for the same product by customer type, packaging, brand, place or '
+                      'time.'],
+                     ['**FOB point-of-purchase pricing**',
+                      'Selling price quoted at the production point; buyer bears shipping cost.'],
+                     ['**Market penetration**',
+                      'Low introductory prices to stimulate demand — effective where the market is '
+                      'price-sensitive and unit cost falls with sales volume.'],
+                     ['**Market skimming**',
+                      'High price for fast profit — effective where the product is scarce/innovative.'],
+                     ['**Marketing-oriented pricing**',
+                      'Suited to new products marketed through several distribution channels — considers '
+                      'target market, competitors, product position, channel design.'],
+                     ['**Prestige pricing**',
+                      'Conveys a quality image, protects market share/shields competitors — e.g. gold '
+                      'jewellery, high-net-worth banking products.'],
+                     ['**Leader pricing**',
+                      'A low-priced product used as bait to attract customers who then buy a more expensive '
+                      'product.'],
+                     ['**Psychological pricing**',
+                      'Encourages emotional (not rational) purchase — e.g. N9,999.99 psychologically reads '
+                      'as less than N10,000, though effectively the same.']]}},
+ {'h4': 'C.7.4  Factors which influence pricing'},
+ {'p': 'Factors influencing pricing:'},
+ {'ul': ['cost of production (variable costs, tied to output volume, e.g. raw materials/labour/haulage; '
+         'fixed costs, incurred regardless of output, e.g. "specific programme costs" for a new '
+         'office/campaign, or general admin/salaries/depreciation/rent)',
+         'distributor margin',
+         'competitor activity',
+         'nature of demand (price elasticity)',
+         'legal constraints (government regulation against exploitation)',
+         'and company objectives/marketing goals (mass-market competitive pricing vs. prestige-segment '
+         'high-quality pricing).']}],
                                },
                     {
                                  'n': 'C.8',
                                  't': 'Promotion',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Promotion covers 4 activities: **advertising** (non-personal, '
-                                                                                     'paid, persuasive communication about ideas/goods/services); '
-                                                                                     '**public relations** (deliberate, planned, sustained effort '
-                                                                                     'maintaining mutual understanding with the organisation\'s "publics" '
-                                                                                     '— employees, shareholders, customers, government, competitors, '
-                                                                                     'press, community, distributors); **sales promotion** (marketing '
-                                                                                     'activity stimulating immediate consumer/dealer demand); and '
-                                                                                     '**personal selling** (face-to-face seller-prospect contact to make '
-                                                                                     'sales).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.8.1 – C.8.4  Advertising, public relations, sales promotion and '
-                                                                                      'personal selling',
-                                                                              },
-                                                          {
-                                                                                'p': '**Advertising media** (West Africa): newspapers/magazines '
-                                                                                     '(detailed coverage, relatively cheap, reaches large urban '
-                                                                                     'audiences); radio (reaches virtually every part of the country); '
-                                                                                     'outdoor advertising (signboards/billboards at high-traffic '
-                                                                                     'junctions); transport/transit advertising (buses, cars); '
-                                                                                     'specialities (key holders, calendars, mugs, T-shirts branded '
-                                                                                     'items).',
-                                                                              },
-                                                          {
-                                                                                'p': '**Public relations activities**: preparing '
-                                                                                     'newsletters/calendars/leaflets/brochures/sales aids; publishing '
-                                                                                     'house journals; ensuring good press relations, reacting to '
-                                                                                     'criticism; educating the public on organisational activities; '
-                                                                                     'arranging publicity (news conferences, press releases); handling '
-                                                                                     'customer complaints.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Sales promotion techniques**: ad materials, cash refunds, '
-                                                                                     'competitions/contests, demonstrations, free goods, free trials, '
-                                                                                     'premium offers, price packs, price reductions/price-offs (price '
-                                                                                     'deals), rebates, samples/specialties, sponsorship, sweepstakes, '
-                                                                                     'trade allowances, and trade fairs/exhibitions — aimed at inducing '
-                                                                                     'repeat purchase, trial by non-customers, new-product introduction, '
-                                                                                     'customer education, intermediary stocking, and pushing weak-line '
-                                                                                     'products.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Personal selling functions**: customer education; advertising '
-                                                                                     'the product; solving customer problems; after-sales service; '
-                                                                                     'taking/processing orders; searching for new customers; providing '
-                                                                                     'marketing-research information; product delivery. Particularly '
-                                                                                     'used by insurance companies/banks, given salespeople\'s mobility '
-                                                                                     'and frequent customer contact.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Promotion covers 4 activities:'},
+ {'ul': ['**advertising** (non-personal, paid, persuasive communication about ideas/goods/services)',
+         '**public relations** (deliberate, planned, sustained effort maintaining mutual understanding with '
+         'the organisation\'s "publics" — employees, shareholders, customers, government, competitors, '
+         'press, community, distributors)',
+         '**sales promotion** (marketing activity stimulating immediate consumer/dealer demand)',
+         'and **personal selling** (face-to-face seller-prospect contact to make sales).']},
+ {'h4': 'C.8.1  Advertising'},
+ {'p': '**Advertising media** (West Africa):'},
+ {'ul': ['newspapers/magazines (detailed coverage, relatively cheap, reaches large urban audiences)',
+         'radio (reaches virtually every part of the country)',
+         'outdoor advertising (signboards/billboards at high-traffic junctions)',
+         'transport/transit advertising (buses, cars)',
+         'specialities (key holders, calendars, mugs, T-shirts branded items).']},
+ {'h4': 'C.8.2  Public Relations'},
+ {'p': '**Public relations activities**:'},
+ {'ul': ['preparing newsletters/calendars/leaflets/brochures/sales aids',
+         'publishing house journals',
+         'ensuring good press relations, reacting to criticism',
+         'educating the public on organisational activities',
+         'arranging publicity (news conferences, press releases)',
+         'handling customer complaints.']},
+ {'h4': 'C.8.3  Sales Promotion'},
+ {'p': '**Sales promotion techniques**: ad materials, cash refunds, competitions/contests, demonstrations, '
+       'free goods, free trials, premium offers, price packs, price reductions/price-offs (price deals), '
+       'rebates, samples/specialties, sponsorship, sweepstakes, trade allowances, and trade '
+       'fairs/exhibitions — aimed at inducing repeat purchase, trial by non-customers, new-product '
+       'introduction, customer education, intermediary stocking, and pushing weak-line products.'},
+ {'h4': 'C.8.4  Personal Selling'},
+ {'p': '**Personal selling functions**:'},
+ {'ul': ['customer education',
+         'advertising the product',
+         'solving customer problems',
+         'after-sales service',
+         'taking/processing orders',
+         'searching for new customers',
+         'providing marketing-research information',
+         "product delivery. Particularly used by insurance companies/banks, given salespeople's mobility and "
+         'frequent customer contact.']}],
                                },
                     {
                                  'n': 'C.9',
                                  't': 'Place (distribution)',
-                                 'b': [
-                                                          {
-                                                                                'p': '**Direct distribution**: the producer supplies the product '
-                                                                                     'directly to the customer (no intermediary). **Indirect '
-                                                                                     'distribution**: intermediaries make the product available.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.9.1 – C.9.3  Functions of intermediaries, channels of '
-                                                                                      'distribution, and factors influencing choice of channel',
-                                                                              },
-                                                          {
-                                                                                'p': 'Intermediary functions: gathering goods from scattered producers '
-                                                                                     '(e.g. small-scale farmers) and making them available to customers; '
-                                                                                     'matching products to customer requirements via '
-                                                                                     'assembling/packaging; transporting/physically distributing goods; '
-                                                                                     'financing producers (ready market, or pre-financing production); '
-                                                                                     'gathering market-research-valuable information; and spreading '
-                                                                                     'product information via promotion.',
-                                                                              },
-                                                          {
-                                                                                'p': '4 distribution channels: **Channel 1** (Producer→Customer — '
-                                                                                     'direct, used by small-scale producers/service providers); '
-                                                                                     '**Channel 2** (Producer→Retailer→Customer — wholesaler bypassed, '
-                                                                                     'used by large-scale retailers); **Channel 3** '
-                                                                                     '(Producer→Wholesaler→Retailer→Customer — used for consumer '
-                                                                                     'goods/services); **Channel 4** '
-                                                                                     '(Producer→Agent→Wholesaler→Retailer→Customer — the longest '
-                                                                                     'indirect channel).',
-                                                                              },
-                                                          {
-                                                                                'p': 'Factors influencing channel choice: nature of the market '
-                                                                                     '(middlemen typical for consumer markets, direct sale typical for '
-                                                                                     'industrial markets); customer location (concentrated → direct; '
-                                                                                     'dispersed → middlemen); physical product features '
-                                                                                     '(perishable/bulky products sold directly); product complexity '
-                                                                                     '(complex products need skilled installer-dealers for after-sales '
-                                                                                     'service); and the producer\'s financial resources (large firms can '
-                                                                                     'run their own sales force/warehousing/transport).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.9.4 – C.9.5  Retailing and types of retailer',
-                                                                              },
-                                                          {
-                                                                                'p': '**Retailing** (sale to ultimate consumers) matters because '
-                                                                                     'retailers: provide convenient supply access; break products into '
-                                                                                     'consumer-suited smaller units; provide after-sales services '
-                                                                                     '(installation, repair, delivery, packaging); provide credit '
-                                                                                     'facilities; educate consumers on proper product use; relieve '
-                                                                                     'wholesalers of large-inventory needs; and feed the wholesaler '
-                                                                                     'consumer-need information.',
-                                                                              },
-                                                          {
-                                                                                'p': '**Small-scale retailers**: unit stores (proprietary, '
-                                                                                     'general/single-line); street traders (footpath/sidewalk); market '
-                                                                                     'traders (fixed days/dates); hawkers/peddlers (no fixed location); '
-                                                                                     'cheap-jacks (fixed but relocating within a locality). '
-                                                                                     '**Large-scale retailers**: departmental stores (multiple product '
-                                                                                     'lines, specialist buyers per line); multiple shops/chain stores '
-                                                                                     '(centralised buying/administration, decentralised selling, '
-                                                                                     'identical restricted range across locations); mail order houses '
-                                                                                     '(no premises visit, postal transactions); consumer cooperatives '
-                                                                                     '(member-owned, bulk purchase, eliminating middleman exploitation); '
-                                                                                     'supermarkets (large, low-cost, low-margin, high-volume, '
-                                                                                     'self-service); discount stores (lower prices via lower '
-                                                                                     'margin/higher volume); convenience stores (smaller, '
-                                                                                     'residential-located, personalised service/delivery); specialty '
-                                                                                     'stores (narrow line, deep assortment).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.9.6 – C.9.7  Wholesaling and distribution policies',
-                                                                              },
-                                                          {
-                                                                                'p': '**Wholesaling** (selling for resale/business use — buying large, '
-                                                                                     'selling smaller) matters because wholesalers: provide market '
-                                                                                     'information to producers; warehouse goods (relieving producers of '
-                                                                                     'large-stock costs); pay producers promptly (easing producer '
-                                                                                     'finance); relieve retailers of large-stock needs (replenishable '
-                                                                                     'anytime); finance retailers via credit; and repackage into '
-                                                                                     'required sizes.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Distribution policy',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Exclusive distribution**',
-                                                                                                                                                                                                                          'The producer sells only to specific middlemen '
-                                                                                                                                                                                                                          'per market — suits expensive, exclusive-segment, '
-                                                                                                                                                                                                                          'complex-service products (e.g. jewelry). Gives '
-                                                                                                                                                                                                                          'producer control/service/promotion focus, but '
-                                                                                                                                                                                                                          'limits marketing outlets and may inconvenience '
-                                                                                                                                                                                                                          'customers; the exclusive distributor gets a '
-                                                                                                                                                                                                                          '"protected" market but risks heavy loss if the '
-                                                                                                                                                                                                                          'agreement breaks down.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Intensive distribution**',
-                                                                                                                                                                                                                          'Distribution through a WIDE range of outlets — '
-                                                                                                                                                                                                                          'prevalent for convenience goods needing maximum '
-                                                                                                                                                                                                                          'exposure. Achieves wide coverage/convenience but '
-                                                                                                                                                                                                                          'needs heavy distribution/promotion investment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Selective distribution**',
-                                                                                                                                                                                                                          'Only a FEW outlets used (not the whole available '
-                                                                                                                                                                                                                          'channel) — suits specialty products where the '
-                                                                                                                                                                                                                          'producer wants control, avoiding intensive '
-                                                                                                                                                                                                                          'distribution\'s high cost while closely '
-                                                                                                                                                                                                                          'monitoring distributor performance.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '**Direct distribution**: the producer supplies the product directly to the customer (no '
+       'intermediary). **Indirect distribution**: intermediaries make the product available.'},
+ {'h4': 'C.9.1  Functions of intermediaries'},
+ {'p': 'Intermediary functions:'},
+ {'ul': ['gathering goods from scattered producers (e.g. small-scale farmers) and making them available to '
+         'customers',
+         'matching products to customer requirements via assembling/packaging',
+         'transporting/physically distributing goods',
+         'financing producers (ready market, or pre-financing production)',
+         'gathering market-research-valuable information',
+         'and spreading product information via promotion.']},
+ {'h4': 'C.9.2  Channels of distribution'},
+ {'p': '4 distribution channels:'},
+ {'ul': ['**Channel 1** (Producer→Customer — direct, used by small-scale producers/service providers)',
+         '**Channel 2** (Producer→Retailer→Customer — wholesaler bypassed, used by large-scale retailers)',
+         '**Channel 3** (Producer→Wholesaler→Retailer→Customer — used for consumer goods/services)',
+         '**Channel 4** (Producer→Agent→Wholesaler→Retailer→Customer — the longest indirect channel).']},
+ {'h4': 'C.9.3  Factors influencing Choice of Distribution channel'},
+ {'p': 'Factors influencing channel choice:'},
+ {'ul': ['nature of the market (middlemen typical for consumer markets, direct sale typical for industrial '
+         'markets)',
+         'customer location (concentrated → direct; dispersed → middlemen)',
+         'physical product features (perishable/bulky products sold directly)',
+         'product complexity (complex products need skilled installer-dealers for after-sales service)',
+         "and the producer's financial resources (large firms can run their own sales "
+         'force/warehousing/transport).']},
+ {'h4': 'C.9.4  Retailing'},
+ {'p': '**Retailing** (sale to ultimate consumers) matters because retailers:'},
+ {'ul': ['provide convenient supply access',
+         'break products into consumer-suited smaller units',
+         'provide after-sales services (installation, repair, delivery, packaging)',
+         'provide credit facilities',
+         'educate consumers on proper product use',
+         'relieve wholesalers of large-inventory needs',
+         'and feed the wholesaler consumer-need information.']},
+ {'h4': 'C.9.5  Types of Retailers'},
+ {'p': '**Small-scale retailers**:'},
+ {'ul': ['unit stores (proprietary, general/single-line)',
+         'street traders (footpath/sidewalk)',
+         'market traders (fixed days/dates)',
+         'hawkers/peddlers (no fixed location)',
+         'cheap-jacks (fixed but relocating within a locality). **Large-scale retailers**: departmental '
+         'stores (multiple product lines, specialist buyers per line)',
+         'multiple shops/chain stores (centralised buying/administration, decentralised selling, identical '
+         'restricted range across locations)',
+         'mail order houses (no premises visit, postal transactions)',
+         'consumer cooperatives (member-owned, bulk purchase, eliminating middleman exploitation)',
+         'supermarkets (large, low-cost, low-margin, high-volume, self-service)',
+         'discount stores (lower prices via lower margin/higher volume)',
+         'convenience stores (smaller, residential-located, personalised service/delivery)',
+         'specialty stores (narrow line, deep assortment).']},
+ {'h4': 'C.9.6  Wholesaling'},
+ {'p': '**Wholesaling** (selling for resale/business use — buying large, selling smaller) matters because '
+       'wholesalers:'},
+ {'ul': ['provide market information to producers',
+         'warehouse goods (relieving producers of large-stock costs)',
+         'pay producers promptly (easing producer finance)',
+         'relieve retailers of large-stock needs (replenishable anytime)',
+         'finance retailers via credit',
+         'and repackage into required sizes.']},
+ {'h4': 'C.9.7  Distribution Polices'},
+ {'table': {'align': 'll',
+            'head': ['Distribution policy', 'Description'],
+            'rows': [['**Exclusive distribution**',
+                      'The producer sells only to specific middlemen per market — suits expensive, '
+                      'exclusive-segment, complex-service products (e.g. jewelry). Gives producer '
+                      'control/service/promotion focus, but limits marketing outlets and may inconvenience '
+                      'customers; the exclusive distributor gets a "protected" market but risks heavy loss '
+                      'if the agreement breaks down.'],
+                     ['**Intensive distribution**',
+                      'Distribution through a WIDE range of outlets — prevalent for convenience goods '
+                      'needing maximum exposure. Achieves wide coverage/convenience but needs heavy '
+                      'distribution/promotion investment.'],
+                     ['**Selective distribution**',
+                      'Only a FEW outlets used (not the whole available channel) — suits specialty products '
+                      "where the producer wants control, avoiding intensive distribution's high cost while "
+                      'closely monitoring distributor performance.']]}}],
                                },
                     {
                                  'n': 'C.10',
                                  't': 'Extended 7Ps of marketing',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.10.1 – C.10.3  People, process and physical evidence',
-                                                                              },
-                                                          {
-                                                                                'p': 'The 7Ps model modifies the 4Ps for SERVICE industries, adding 3 '
-                                                                                     'unique elements:',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'P',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**People**',
-                                                                                                                                                                                                                          'The target market composition AND the people '
-                                                                                                                                                                                                                          'delivering the service — a service is '
-                                                                                                                                                                                                                          'inseparable from its provider, so '
-                                                                                                                                                                                                                          'hiring/training the right people is critical; '
-                                                                                                                                                                                                                          'every employee is now a potential mass-audience '
-                                                                                                                                                                                                                          'reach point (social media era), so an '
-                                                                                                                                                                                                                          'online-interaction policy matters.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Process**',
-                                                                                                                                                                                                                          'The procedures/mechanism/flow by which a service '
-                                                                                                                                                                                                                          'is delivered — affects how customers '
-                                                                                                                                                                                                                          'experience/judge the service; many companies use '
-                                                                                                                                                                                                                          'a "service blueprint" detailing even the service '
-                                                                                                                                                                                                                          'script/greeting phrases, to ensure consistent '
-                                                                                                                                                                                                                          'delivery.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Physical evidence**',
-                                                                                                                                                                                                                          'The environment/tangible elements accompanying '
-                                                                                                                                                                                                                          'an intangible service — customers infer quality '
-                                                                                                                                                                                                                          'from tangible clues (e.g. a hair salon\'s waiting '
-                                                                                                                                                                                                                          'area, a restaurant\'s ambience); also a '
-                                                                                                                                                                                                                          'differentiator (compare a private vs. government '
-                                                                                                                                                                                                                          'hospital\'s physical presentation).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The 7Ps model modifies the 4Ps for SERVICE industries, adding 3 unique elements:'},
+ {'h4': 'C.10.1  People'},
+ {'table': {'align': 'll',
+            'head': ['P', 'Description'],
+            'rows': [['**People**',
+                      'The target market composition AND the people delivering the service — a service is '
+                      'inseparable from its provider, so hiring/training the right people is critical; every '
+                      'employee is now a potential mass-audience reach point (social media era), so an '
+                      'online-interaction policy matters.']]}},
+ {'h4': 'C.10.2  Process'},
+ {'table': {'align': 'll',
+            'head': ['P', 'Description'],
+            'rows': [['**Process**',
+                      'The procedures/mechanism/flow by which a service is delivered — affects how customers '
+                      'experience/judge the service; many companies use a "service blueprint" detailing even '
+                      'the service script/greeting phrases, to ensure consistent delivery.']]}},
+ {'h4': 'C.10.3  Physical Evidence'},
+ {'table': {'align': 'll',
+            'head': ['P', 'Description'],
+            'rows': [['**Physical evidence**',
+                      'The environment/tangible elements accompanying an intangible service — customers '
+                      "infer quality from tangible clues (e.g. a hair salon's waiting area, a restaurant's "
+                      "ambience); also a differentiator (compare a private vs. government hospital's "
+                      'physical presentation).']]}}],
                                },
                     {
                                  'n': 'C.11',
@@ -2555,33 +1879,23 @@ CH = {
                     {
                                  'n': 'C.12',
                                  't': 'E-marketing',
-                                 'b': [
-                                                          {
-                                                                                'h4': 'C.12.1  Definition of e-marketing',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'E-marketing',
-                                                                                                                      'd': 'marketing online, keeping close customer relationships '
-                                                                                                                           'and meeting needs satisfactorily online, as marketers do '
-                                                                                                                           'physically — using email marketing, content marketing, '
-                                                                                                                           'social media marketing, video marketing, affiliate '
-                                                                                                                           'marketing, etc.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'C.12.2  Benefits of e-marketing',
-                                                                              },
-                                                          {
-                                                                                'p': 'Benefits of e-marketing: convenience (24/7 ordering); '
-                                                                                     'cost-effectiveness (lower buying cost, often better prices than '
-                                                                                     'retail); interactive communication (e.g. "chat"); wider customer '
-                                                                                     'choice; fewer sales-pressure hassles; personalisation; measurable '
-                                                                                     'results (e.g. via Google Analytics); fast information '
-                                                                                     'access/retrieval; enhanced global reach; and a level '
-                                                                                     'marketing-opportunity playing field for small AND large businesses.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': 'C.12.1  Definition of e-marketing'},
+ {'def': {'t': 'E-marketing',
+          'd': 'marketing online, keeping close customer relationships and meeting needs satisfactorily '
+               'online, as marketers do physically — using email marketing, content marketing, social media '
+               'marketing, video marketing, affiliate marketing, etc.'}},
+ {'h4': 'C.12.2  Benefits of e-marketing'},
+ {'p': 'Benefits of e-marketing:'},
+ {'ul': ['convenience (24/7 ordering)',
+         'cost-effectiveness (lower buying cost, often better prices than retail)',
+         'interactive communication (e.g. "chat")',
+         'wider customer choice',
+         'fewer sales-pressure hassles',
+         'personalisation',
+         'measurable results (e.g. via Google Analytics)',
+         'fast information access/retrieval',
+         'enhanced global reach',
+         'and a level marketing-opportunity playing field for small AND large businesses.']}],
                                },
                     {
                                  'n': 'C.13',
@@ -2917,33 +2231,25 @@ CH = {
                     {
                                  'n': 'D.2',
                                  't': 'Characteristics of finance',
-                                 'b': [
-                                                          {
-                                                                                'p': '6 characteristics of the finance function: usually centralised; '
-                                                                                     'performed in ALL business firms regardless of size/legal form; '
-                                                                                     'contributes to firm survival/growth; primarily involves data '
-                                                                                     'analysis for decision-making; concerned with basic business '
-                                                                                     'activities (plus external environmental factors affecting '
-                                                                                     'production/marketing); and centrally focused on VALUATION of the '
-                                                                                     'firm.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '6 characteristics of the finance function:'},
+ {'ul': ['usually centralised',
+         'performed in ALL business firms regardless of size/legal form',
+         'contributes to firm survival/growth',
+         'primarily involves data analysis for decision-making',
+         'concerned with basic business activities (plus external environmental factors affecting '
+         'production/marketing)',
+         'and centrally focused on VALUATION of the firm.']}],
                                },
                     {
                                  'n': 'D.3',
                                  't': 'The finance functions',
-                                 'b': [
-                                                          {
-                                                                                'p': '6 finance functions: **financial planning** (estimating financial '
-                                                                                     'needs, ensuring funds availability); **financial decisions** '
-                                                                                     '(identifying the best finance sources); **investment decisions** '
-                                                                                     '(choosing the best return-optimising portfolio); **cash flow '
-                                                                                     'management** (ensuring enough finance for operations); **dividend '
-                                                                                     'decisions** (apportioning profit between dividends and '
-                                                                                     'reinvestment); and **risk management** (identifying/managing '
-                                                                                     'financial risks).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '6 finance functions:'},
+ {'ul': ['**financial planning** (estimating financial needs, ensuring funds availability)',
+         '**financial decisions** (identifying the best finance sources)',
+         '**investment decisions** (choosing the best return-optimising portfolio)',
+         '**cash flow management** (ensuring enough finance for operations)',
+         '**dividend decisions** (apportioning profit between dividends and reinvestment)',
+         'and **risk management** (identifying/managing financial risks).']}],
                                },
                     {
                                  'n': 'D.4',
@@ -2964,57 +2270,65 @@ CH = {
                     {
                                  'n': 'D.5',
                                  't': 'The accounting function',
-                                 'b': [
-                                                          {
-                                                                                'p': '6 accounting functions: recording all transactions; classifying '
-                                                                                     'data (revenue/assets/liabilities); preparing financial statements '
-                                                                                     '(income statement, balance sheet); analysing financial statements '
-                                                                                     'to guide decisions; reporting results to stakeholders; and '
-                                                                                     'ensuring operational (financial-regulation) compliance.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '6 accounting functions:'},
+ {'ul': ['recording all transactions',
+         'classifying data (revenue/assets/liabilities)',
+         'preparing financial statements (income statement, balance sheet)',
+         'analysing financial statements to guide decisions',
+         'reporting results to stakeholders',
+         'and ensuring operational (financial-regulation) compliance.']},
+ {'h4': 'Past-paper supplement — historical accounting-package questions'},
+ {'p': 'The study text’s Section D review MCQ 16 distinguishes **Peachtree accounting software** from '
+       'manual-system components. Three past-paper questions separately ask for an exception among named '
+       '“accounting packages.” Their original printed classifications are:'},
+ {'ul': ['[September 2019, MCQ 28](#/exams/2019-09/MAN?q=mcq-28): printed key **E — “Debtor manager”**; '
+         'other options are E-view, Sage, Peachtree and Poise.',
+         '[September 2020, MCQ 20](#/exams/2020-09/MAN?q=mcq-20): printed key **B — “Module”**; other '
+         'options are Peachtree, Sage, E-view and Poise.',
+         '[March 2022, MCQ 25](#/exams/2022-03/MAN?q=mcq-25): printed key **E — “Debtor manager”**; other '
+         'options are Poise, Sage, Microsoft money and E-view.']},
+ {'note': 'These are the examination source’s historical names and answer keys, preserved for traceability. '
+          'They are not a current software catalogue or an independent certification of those products’ '
+          'features.'}],
                                },
                     {
                                  'n': 'D.6',
                                  't': 'Primary functions of an accounting department',
-                                 'b': [
-                                                          {
-                                                                                'p': '9 primary functions of an accounting department (often headed by '
-                                                                                     'qualified accountants): keeping financial-transaction records; '
-                                                                                     'analysing/interpreting financial information; preparing financial '
-                                                                                     'statements; managing organisational funds; designing accounting '
-                                                                                     'systems; preparing special business/financial studies; preparing '
-                                                                                     'forecasts/budgets; providing effective asset custody; and '
-                                                                                     'providing tax services.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '9 primary functions of an accounting department (often headed by qualified accountants):'},
+ {'ul': ['keeping financial-transaction records',
+         'analysing/interpreting financial information',
+         'preparing financial statements',
+         'managing organisational funds',
+         'designing accounting systems',
+         'preparing special business/financial studies',
+         'preparing forecasts/budgets',
+         'providing effective asset custody',
+         'and providing tax services.']}],
                                },
                     {
                                  'n': 'D.7',
                                  't': 'Strategic functions of an accountant',
-                                 'b': [
-                                                          {
-                                                                                'p': '8 chronological strategic functions of an accountant: observe '
-                                                                                     'events; identify economically-valued events; measure them in '
-                                                                                     'financial terms; record the measurements; classify them; summarise '
-                                                                                     'them; report them in financial statements/other reports; and '
-                                                                                     'interpret the contents of those statements/reports.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': '8 chronological strategic functions of an accountant:'},
+ {'ul': ['observe events',
+         'identify economically-valued events',
+         'measure them in financial terms',
+         'record the measurements',
+         'classify them',
+         'summarise them',
+         'report them in financial statements/other reports',
+         'and interpret the contents of those statements/reports.']}],
                                },
                     {
                                  'n': 'D.8',
                                  't': 'Structure of the accounting department, and positions of an accountant '
                                       'within the organisation',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Accountant positions within an organisation (best reserved for '
-                                                                                     'qualified accountants): Internal Auditor, Chief Accountant, '
-                                                                                     'Budgeting Officer, Final Accounts Officer, Treasurer, Management '
-                                                                                     'Accountant, Cost Accountant, Inventory Officer, Accounts '
-                                                                                     'Supervisor, Accounts Clerk.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Accountant positions within an organisation (best reserved for qualified accountants): Internal '
+       'Auditor, Chief Accountant, Budgeting Officer, Final Accounts Officer, Treasurer, Management '
+       'Accountant, Cost Accountant, Inventory Officer, Accounts Supervisor, Accounts Clerk.'},
+ {'figure': {'src': 'assets/study-figures/man-p294.png',
+             'alt': 'Figure 4.8: The Accounting Department Organogram',
+             'cap': 'Figure 4.8: The Accounting Department Organogram — original Management study-text page '
+                    '267 (PDF 294). Open the page to enlarge.'}}],
                                },
                     {
                                  'n': 'D.10',
@@ -3043,242 +2357,131 @@ CH = {
                     {
                                  'n': 'D.12',
                                  't': 'The money market',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'The money market',
-                                                                                                                      'd': 'the financial-market component for short-term (original '
-                                                                                                                           'maturity ≤1 year) borrowing/lending/buying/selling of '
-                                                                                                                           'high-quality credit instruments — treasury '
-                                                                                                                           'bills/certificates, call money, commercial paper, '
-                                                                                                                           'bankers\' acceptances, certificates of deposit, bills of '
-                                                                                                                           'exchange, repurchase agreements — plus '
-                                                                                                                           'gold/foreign-exchange dealing. Low risk, given issuance '
-                                                                                                                           'by highest-credit-rating obligors and short maturity.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Money market functions: provides the basis for executing effective '
-                                                                                     'monetary policy; promotes orderly short-term fund flow; ensures '
-                                                                                     'supply for expanding/contracting credit; forms a central '
-                                                                                     'liquid-resource pool for surplus-fund payments; maintains '
-                                                                                     'banking-system liquidity at the desired level; gives banks '
-                                                                                     'financial requirements for resource management/surplus-cash '
-                                                                                     'investment; mobilises funds from savers/lenders to '
-                                                                                     'borrowers/investors; channels central-bank cash into the economy; '
-                                                                                     'and helps commercial banks lower cash reserves.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'D.12.1 – D.12.2  Functions of the money market, and common money '
-                                                                                      'market instruments',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Instrument',
-                                                                                                                                                                             'Description',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Treasury bills**',
-                                                                                                                                                                                                                          'Short-term government debt (3-12 months, often '
-                                                                                                                                                                                                                          'within 91 days) — sold at a discount (not '
-                                                                                                                                                                                                                          'coupon-interest), default-free.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Treasury certificates**',
-                                                                                                                                                                                                                          'Similar, replacing commercial bills — 1-2 year '
-                                                                                                                                                                                                                          'maturity; discount is smaller than a bill\'s, '
-                                                                                                                                                                                                                          'actual amount repaid at maturity by the Central '
-                                                                                                                                                                                                                          'Bank.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Commercial bill**',
-                                                                                                                                                                                                                          'Used historically by commodity boards, '
-                                                                                                                                                                                                                          're-discountable by the Central Bank — abolished '
-                                                                                                                                                                                                                          'in 1968 after banks withdrew from the World '
-                                                                                                                                                                                                                          'Cocoa Market.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Certificate of deposit**',
-                                                                                                                                                                                                                          'A time deposit (banks, thrifts, credit unions) — '
-                                                                                                                                                                                                                          'in Nigeria, introduced 1985 to channel '
-                                                                                                                                                                                                                          'commercial-bank surplus to merchant banks, '
-                                                                                                                                                                                                                          'issued in multiples of N50,000, re-discountable '
-                                                                                                                                                                                                                          'by the CBN, 3-36 month maturity.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Call money**',
-                                                                                                                                                                                                                          'Guarantees on-demand payment to the issuing bank '
-                                                                                                                                                                                                                          '— allows banks/non-bank institutions to park '
-                                                                                                                                                                                                                          'temporary surplus cash with the Central Bank.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Money-market participants split into: **banks/bank financial '
-                                                                                     'institutions** (Central Bank, Commercial banks, Merchant banks, '
-                                                                                     'Development banks) and **non-bank financial institutions** '
-                                                                                     '(insurance companies, building societies, hire purchase companies, '
-                                                                                     'pension funds, investment trusts).',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Institution',
-                                                                                                                                                                             'Role',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Central Bank**',
-                                                                                                                                                                                                                          'Privileged control over money/credit '
-                                                                                                                                                                                                                          'production/distribution for a nation (e.g. Bank '
-                                                                                                                                                                                                                          'of Ghana, CBN, BCEAO for the West African CFA '
-                                                                                                                                                                                                                          'franc zone). Custody of cash reserves, lender of '
-                                                                                                                                                                                                                          'last resort, formulates monetary policy, '
-                                                                                                                                                                                                                          'regulates banking, stabilises the currency, '
-                                                                                                                                                                                                                          'keeps unemployment low, prevents inflation. Per '
-                                                                                                                                                                                                                          'the CBN Ordinance 1958: issue legal tender; '
-                                                                                                                                                                                                                          'maintain external reserves safeguarding currency '
-                                                                                                                                                                                                                          'value; promote monetary stability/strong '
-                                                                                                                                                                                                                          'financial structure; act as banker/financial '
-                                                                                                                                                                                                                          'adviser to government. Sets interest rates; does '
-                                                                                                                                                                                                                          'not offer retail banking to individuals; manages '
-                                                                                                                                                                                                                          'liquidity to minimise bank-reserve fluctuations.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Commercial banks**',
-                                                                                                                                                                                                                          'Primary functions: accepting deposits, making '
-                                                                                                                                                                                                                          'advances, credit creation. Secondary functions: '
-                                                                                                                                                                                                                          'cheque clearance, money transfer, share/bond '
-                                                                                                                                                                                                                          'sale-purchase, acting as trustee/representative, '
-                                                                                                                                                                                                                          'giving/accepting money, letter-of-credit '
-                                                                                                                                                                                                                          'provision.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Merchant banks**',
-                                                                                                                                                                                                                          'Per the Nigerian Banking Amendment Decree No.88 '
-                                                                                                                                                                                                                          '(1979): wholesale banking, medium/long-term '
-                                                                                                                                                                                                                          'financing, equipment leasing, debt factoring, '
-                                                                                                                                                                                                                          'investment management, bill issue/acceptance, '
-                                                                                                                                                                                                                          'unit trust management — also called '
-                                                                                                                                                                                                                          'Acceptance/Discount Houses, or "investment '
-                                                                                                                                                                                                                          'banks" in the USA. Functions: raising client '
-                                                                                                                                                                                                                          'finance; stock-exchange brokerage; project '
-                                                                                                                                                                                                                          'management (location advice, project reports, '
-                                                                                                                                                                                                                          'feasibility studies); expansion/modernisation '
-                                                                                                                                                                                                                          'advice (mergers, acquisitions, diversification, '
-                                                                                                                                                                                                                          'foreign collaboration); managing public issues; '
-                                                                                                                                                                                                                          'handling government consent for industrial '
-                                                                                                                                                                                                                          'projects; corporate restructuring; and '
-                                                                                                                                                                                                                          'money-market operations (underwriting government '
-                                                                                                                                                                                                                          'bonds, CDs, commercial paper).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Development banks**',
-                                                                                                                                                                                                                          'Specialised institutions providing '
-                                                                                                                                                                                                                          'medium/long-term credit to selected sectors '
-                                                                                                                                                                                                                          '(agriculture, commerce/industry, housing) — e.g. '
-                                                                                                                                                                                                                          'NIDB (1964, industry/commerce/agriculture), NBCI '
-                                                                                                                                                                                                                          '(1973, indigenisation exercise), NACB (1973, '
-                                                                                                                                                                                                                          'agriculture), FMBN (1977, housing), NEXIM (1991, '
-                                                                                                                                                                                                                          'import/export finance/insurance). Functions: '
-                                                                                                                                                                                                                          'promote small-scale industries; finance housing; '
-                                                                                                                                                                                                                          'facilitate large-scale industries; support '
-                                                                                                                                                                                                                          'agriculture/rural development; revive sick '
-                                                                                                                                                                                                                          'industrial units; encourage entrepreneurship; '
-                                                                                                                                                                                                                          'promote regional economic activity; contribute '
-                                                                                                                                                                                                                          'to capital-market growth.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': 'D.12.3  Role of participants in the money market',
-                                                                              },
-                                                          {
-                                                                                'p': 'Other non-bank institutions: **microfinance banks** (financial '
-                                                                                     'services to the poor/low-income segment, promoting financial '
-                                                                                     'inclusion/poverty alleviation); **insurance companies** '
-                                                                                     '(pooling/spreading risk, converting indeterminate risks into fixed '
-                                                                                     'costs via premiums — accumulating funds for long-term investment, '
-                                                                                     'mobilising national savings, operating pension schemes, granting '
-                                                                                     'mortgage loans, acting as capital-market underwriters, and serving '
-                                                                                     'as loan collateral); **finance companies** (mobilising deposits, '
-                                                                                     'using CP/CDs, financing LPOs/debt factoring/securities trading); '
-                                                                                     '**mortgage institutions** (primary mortgage institutions dealing '
-                                                                                     'directly with individuals/estate firms, under the Federal Mortgage '
-                                                                                     'Bank\'s supervision — accepting deposits, encouraging savings, '
-                                                                                     'building/financing housing); **discount houses** (specialising in '
-                                                                                     'discounting facilities — buying/selling securities, discounting '
-                                                                                     'bank bills, issuing their own securities); and **thrift and credit '
-                                                                                     'cooperative societies** (member savings mobilisation for '
-                                                                                     'low-interest member lending — common among '
-                                                                                     'traders/artisans/farmers).',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'The money market',
+          'd': 'the financial-market component for short-term (original maturity ≤1 year) '
+               'borrowing/lending/buying/selling of high-quality credit instruments — treasury '
+               "bills/certificates, call money, commercial paper, bankers' acceptances, certificates of "
+               'deposit, bills of exchange, repurchase agreements — plus gold/foreign-exchange dealing. Low '
+               'risk, given issuance by highest-credit-rating obligors and short maturity.'}},
+ {'h4': 'D.12.1  Functions of the Money Market'},
+ {'p': 'Money market functions:'},
+ {'ul': ['provides the basis for executing effective monetary policy',
+         'promotes orderly short-term fund flow',
+         'ensures supply for expanding/contracting credit',
+         'forms a central liquid-resource pool for surplus-fund payments',
+         'maintains banking-system liquidity at the desired level',
+         'gives banks financial requirements for resource management/surplus-cash investment',
+         'mobilises funds from savers/lenders to borrowers/investors',
+         'channels central-bank cash into the economy',
+         'and helps commercial banks lower cash reserves.']},
+ {'h4': 'D.12.2  Common Money Market Instruments'},
+ {'table': {'align': 'll',
+            'head': ['Instrument', 'Description'],
+            'rows': [['**Treasury bills**',
+                      'Short-term government debt (3-12 months, often within 91 days) — sold at a discount '
+                      '(not coupon-interest), default-free.'],
+                     ['**Treasury certificates**',
+                      'Similar, replacing commercial bills — 1-2 year maturity; discount is smaller than a '
+                      "bill's, actual amount repaid at maturity by the Central Bank."],
+                     ['**Commercial bill**',
+                      'Used historically by commodity boards, re-discountable by the Central Bank — '
+                      'abolished in 1968 after banks withdrew from the World Cocoa Market.'],
+                     ['**Certificate of deposit**',
+                      'A time deposit (banks, thrifts, credit unions) — in Nigeria, introduced 1985 to '
+                      'channel commercial-bank surplus to merchant banks, issued in multiples of N50,000, '
+                      're-discountable by the CBN, 3-36 month maturity.'],
+                     ['**Call money**',
+                      'Guarantees on-demand payment to the issuing bank — allows banks/non-bank institutions '
+                      'to park temporary surplus cash with the Central Bank.']]}},
+ {'h4': 'D.12.3  Role of participants in the money market.'},
+ {'p': 'Money-market participants split into: **banks/bank financial institutions** (Central Bank, '
+       'Commercial banks, Merchant banks, Development banks) and **non-bank financial institutions** '
+       '(insurance companies, building societies, hire purchase companies, pension funds, investment '
+       'trusts).'},
+ {'table': {'align': 'll',
+            'head': ['Institution', 'Role'],
+            'rows': [['**Central Bank**',
+                      'Privileged control over money/credit production/distribution for a nation (e.g. Bank '
+                      'of Ghana, CBN, BCEAO for the West African CFA franc zone). Custody of cash reserves, '
+                      'lender of last resort, formulates monetary policy, regulates banking, stabilises the '
+                      'currency, keeps unemployment low, prevents inflation. Per the CBN Ordinance 1958: '
+                      'issue legal tender; maintain external reserves safeguarding currency value; promote '
+                      'monetary stability/strong financial structure; act as banker/financial adviser to '
+                      'government. Sets interest rates; does not offer retail banking to individuals; '
+                      'manages liquidity to minimise bank-reserve fluctuations.'],
+                     ['**Commercial banks**',
+                      'Primary functions: accepting deposits, making advances, credit creation. Secondary '
+                      'functions: cheque clearance, money transfer, share/bond sale-purchase, acting as '
+                      'trustee/representative, giving/accepting money, letter-of-credit provision.'],
+                     ['**Merchant banks**',
+                      'Per the Nigerian Banking Amendment Decree No.88 (1979): wholesale banking, '
+                      'medium/long-term financing, equipment leasing, debt factoring, investment management, '
+                      'bill issue/acceptance, unit trust management — also called Acceptance/Discount '
+                      'Houses, or "investment banks" in the USA. Functions: raising client finance; '
+                      'stock-exchange brokerage; project management (location advice, project reports, '
+                      'feasibility studies); expansion/modernisation advice (mergers, acquisitions, '
+                      'diversification, foreign collaboration); managing public issues; handling government '
+                      'consent for industrial projects; corporate restructuring; and money-market operations '
+                      '(underwriting government bonds, CDs, commercial paper).'],
+                     ['**Development banks**',
+                      'Specialised institutions providing medium/long-term credit to selected sectors '
+                      '(agriculture, commerce/industry, housing) — e.g. NIDB (1964, '
+                      'industry/commerce/agriculture), NBCI (1973, indigenisation exercise), NACB (1973, '
+                      'agriculture), FMBN (1977, housing), NEXIM (1991, import/export finance/insurance). '
+                      'Functions: promote small-scale industries; finance housing; facilitate large-scale '
+                      'industries; support agriculture/rural development; revive sick industrial units; '
+                      'encourage entrepreneurship; promote regional economic activity; contribute to '
+                      'capital-market growth.']]}},
+ {'p': 'Other non-bank institutions:'},
+ {'ul': ['**microfinance banks** (financial services to the poor/low-income segment, promoting financial '
+         'inclusion/poverty alleviation)',
+         '**insurance companies** (pooling/spreading risk, converting indeterminate risks into fixed costs '
+         'via premiums — accumulating funds for long-term investment, mobilising national savings, operating '
+         'pension schemes, granting mortgage loans, acting as capital-market underwriters, and serving as '
+         'loan collateral)',
+         '**finance companies** (mobilising deposits, using CP/CDs, financing LPOs/debt factoring/securities '
+         'trading)',
+         '**mortgage institutions** (primary mortgage institutions dealing directly with individuals/estate '
+         "firms, under the Federal Mortgage Bank's supervision — accepting deposits, encouraging savings, "
+         'building/financing housing)',
+         '**discount houses** (specialising in discounting facilities — buying/selling securities, '
+         'discounting bank bills, issuing their own securities)',
+         'and **thrift and credit cooperative societies** (member savings mobilisation for low-interest '
+         'member lending — common among traders/artisans/farmers).']}],
                                },
                     {
                                  'n': 'D.13',
                                  't': 'The capital market',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'The capital market',
-                                                                                                                      'd': 'a collection of financial institutions set up for '
-                                                                                                                           'granting LONG-TERM loans — markets for government '
-                                                                                                                           'securities, corporate bonds, corporate shares (stocks), '
-                                                                                                                           'and mortgage loans.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': 'D.13.1  Segments of the capital market',
-                                                                              },
-                                                          {
-                                                                                'p': 'Comprises the **primary market** (new securities) and **secondary '
-                                                                                     'market** (insurance companies, building societies, savings banks '
-                                                                                     'and other long-term borrowing/lending bodies not directly issuing '
-                                                                                     'new securities, but on which new issues depend).',
-                                                                              },
-                                                          {
-                                                                                'p': 'Primary-market instruments: **public issue** (borrowing via public '
-                                                                                     'share/debenture issue — highest raising cost); **private placing** '
-                                                                                     '(sold directly to a small group of institutional/private '
-                                                                                     'investors); **rights issue** (selling new shares to EXISTING '
-                                                                                     'shareholders); **offer for sale** (the whole issue sold to an '
-                                                                                     'issue house/merchant banker below par, then resold to the public); '
-                                                                                     'and **term loans** (long-term debt finance from financial '
-                                                                                     'institutions, repayable in 1-10 years).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'D.13.2  Functions of the capital market',
-                                                                              },
-                                                          {
-                                                                                'p': 'The **secondary market** trades second-hand securities — existing '
-                                                                                     'shareholders contact buyers via licensed stockbrokers.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Capital market functions: machinery for mobilising long-term '
-                                                                                     'industrial-development finance; promoting rapid capital formation; '
-                                                                                     'providing sufficient investor liquidity; mobilising savings from '
-                                                                                     'numerous economic units for growth/development; encouraging '
-                                                                                     'efficient new-investment allocation via the pricing mechanism; '
-                                                                                     'providing government funding alternatives to taxation; and '
-                                                                                     'providing a necessary liquidity mechanism for investors via a '
-                                                                                     'formal debt/equity market.',
-                                                                              },
-                                                          {
-                                                                                'note': 'A gap in the numbering here follows the book: its §D.9 '
-                                                                                        '(positions of an accountant within the organisation) is folded '
-                                                                                        'into §D.8 above because the site treats the structure and the '
-                                                                                        'positions together, and its **§D.11 (nature of the financial '
-                                                                                        'system)** is covered within §D.10. The book\'s own sequence runs '
-                                                                                        'D.1 to D.13.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'The capital market',
+          'd': 'a collection of financial institutions set up for granting LONG-TERM loans — markets for '
+               'government securities, corporate bonds, corporate shares (stocks), and mortgage loans.'}},
+ {'h4': 'D.13.1  Segments of the capital market'},
+ {'p': 'Comprises the **primary market** (new securities) and **secondary market** (insurance companies, '
+       'building societies, savings banks and other long-term borrowing/lending bodies not directly issuing '
+       'new securities, but on which new issues depend).'},
+ {'p': 'Primary-market instruments:'},
+ {'ul': ['**public issue** (borrowing via public share/debenture issue — highest raising cost)',
+         '**private placing** (sold directly to a small group of institutional/private investors)',
+         '**rights issue** (selling new shares to EXISTING shareholders)',
+         '**offer for sale** (the whole issue sold to an issue house/merchant banker below par, then resold '
+         'to the public)',
+         'and **term loans** (long-term debt finance from financial institutions, repayable in 1-10 '
+         'years).']},
+ {'h4': 'D.13.2  Functions of the capital market'},
+ {'p': 'The **secondary market** trades second-hand securities — existing shareholders contact buyers via '
+       'licensed stockbrokers.'},
+ {'p': 'Capital market functions:'},
+ {'ul': ['machinery for mobilising long-term industrial-development finance',
+         'promoting rapid capital formation',
+         'providing sufficient investor liquidity',
+         'mobilising savings from numerous economic units for growth/development',
+         'encouraging efficient new-investment allocation via the pricing mechanism',
+         'providing government funding alternatives to taxation',
+         'and providing a necessary liquidity mechanism for investors via a formal debt/equity market.']},
+ {'note': 'A gap in the numbering here follows the book: its §D.9 (positions of an accountant within the '
+          'organisation) is folded into §D.8 above because the site treats the structure and the positions '
+          "together, and its **§D.11 (nature of the financial system)** is covered within §D.10. The book's "
+          'own sequence runs D.1 to D.13.'}],
                                },
                     {
                                  'n': 'D.14',

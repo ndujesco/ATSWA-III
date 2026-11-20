@@ -21,63 +21,55 @@ CH = {
    'Know the other appeal options available',
  ],
  'secs': [
-  {'n': '5.2', 't': 'Advance rulings (ss.73-76 NTAA)', 'b': [
-    {'def': {'t': 'Advance ruling (s.147 NTAA)', 'd': 'any ruling issued by the tax '
-                  'authority on a disputed or controversial tax matter, in accordance with '
-                  'this Act, the Nigeria Tax Act or any other tax law enacted by the National '
-                  'Assembly; or any written opinion/decision issued to a taxpayer on a '
-                  'transaction, proposed transaction or tax matter, to provide direction or '
-                  'clarification.'}},
-
-    {'h4': '5.2.1  Issuance of advance rulings — section 73 of NTAA'},
-    {'p': 'A relevant tax authority may issue an advance ruling for clarity, consistency and '
-          'certainty regarding the interpretation/application of a tax law — provided this '
-          'does not amount to amending or replacing the law. It may make a ruling on any '
-          'provision of a tax law, administration, precedent or policy, and must **issue the '
-          'ruling within 21 days** of receiving an application, or give written reasons for '
-          'its inability to do so.'},
-    {'p': 'An advance ruling must be signed by an authorised officer and state:'},
-    {'ol': [
-      'whether the ruling applies generally or is limited to the applicant taxpayer;',
-      'the name, Tax ID and postal address of the taxpayer;',
-      'the relevant statutory provisions or legal issues addressed;',
-      'any assumptions made or conditions imposed on the ruling\'s validity; and',
-      'the period for which the ruling is valid.',
-    ]},
-    {'p': 'An application (by a single party or jointly by two or more parties to the issue/'
-          'transaction) must contain: the taxpayer\'s name/Tax ID/postal address/email/'
-          'phone; a complete description of the tax issue/transaction (including financial '
-          'implications); a complete description of the impact on the taxpayer\'s (or a '
-          'connected person\'s) tax liability; details of any ongoing audit and prior '
-          'correspondence/decisions on the issue; the relevant statutory/legal basis relied '
-          'on; reasons the ruling should be granted; and a written statement on whether the '
-          'matter is before any tribunal/court. The authority may request more information, '
-          'must give the applicant a reasonable opportunity to make representations, and the '
-          'applicant may withdraw the application at any time before a ruling issues.'},
-
-    {'h4': '5.2.2  Rejection of application for advance rulings — section 74 of NTAA'},
-    {'p': 'The authority may reject an application requiring an opinion/conclusion/'
-          'determination on: the application or interpretation of foreign law; an issue '
-          'already before a competent court/tribunal; interpretation of the Constitution; an '
-          'issue that is academic, hypothetical, frivolous or vexatious; or a ruling that '
-          'would substantially interfere with an ongoing audit/investigation/proceeding.'},
-
-    {'h4': '5.2.3  Effect of advance rulings — section 75 of NTAA'},
-    {'key': 'A ruling binds only the applicant and the specific transaction ruled on — it '
-            'cannot be of general application. It is **void** where: the actual issue/'
-            'transaction is materially different from the one described in the ruling; there '
-            'was fraud, misrepresentation or non-disclosure of a material fact; or a stated '
-            'assumption/condition is not satisfied. It **ceases to be effective** (without '
-            'being void from the start) where the ruled-on provision is later repealed/'
-            'amended in a materially-affecting way (effective from the amendment date), or a '
-            'court overturns/modifies the interpretation it rested on (effective from the '
-            'judgement date, unless that decision is itself overturned).'},
-
-    {'h4': '5.2.4  Withdrawal or modification of advance rulings — section 76 of NTAA'},
-    {'p': 'The authority must withdraw or modify a ruling — retrospectively — where it was '
-          '**fraudulently obtained**, and may specify the date its withdrawal/modification '
-          'decision takes effect.'},
-  ]},
+  {'n': '5.2', 't': 'Advance rulings (ss.73-76 NTAA)', 'b': [{'def': {'t': 'Advance ruling (s.147 NTAA)',
+          'd': 'any ruling issued by the tax authority on a disputed or controversial tax matter, in '
+               'accordance with this Act, the Nigeria Tax Act or any other tax law enacted by the National '
+               'Assembly; or any written opinion/decision issued to a taxpayer on a transaction, proposed '
+               'transaction or tax matter, to provide direction or clarification.'}},
+ {'h4': '5.2.1  Issuance of advance rulings — section 73 of NTAA'},
+ {'p': 'A relevant tax authority may issue an advance ruling for clarity, consistency and certainty '
+       'regarding the interpretation/application of a tax law — provided this does not amount to amending or '
+       'replacing the law. It may make a ruling on any provision of a tax law, administration, precedent or '
+       'policy, and must **issue the ruling within 21 days** of receiving an application, or give written '
+       'reasons for its inability to do so.'},
+ {'p': 'An advance ruling must be signed by an authorised officer and state:'},
+ {'ol': ['whether the ruling applies generally or is limited to the applicant taxpayer;',
+         'the name, Tax ID and postal address of the taxpayer;',
+         'the relevant statutory provisions or legal issues addressed;',
+         "any assumptions made or conditions imposed on the ruling's validity; and",
+         'the period for which the ruling is valid.']},
+ {'p': 'An application (by a single party or jointly by two or more parties to the issue/transaction) must '
+       'contain:'},
+ {'ul': ["the taxpayer's name/Tax ID/postal address/email/phone",
+         'a complete description of the tax issue/transaction (including financial implications)',
+         "a complete description of the impact on the taxpayer's (or a connected person's) tax liability",
+         'details of any ongoing audit and prior correspondence/decisions on the issue',
+         'the relevant statutory/legal basis relied on',
+         'reasons the ruling should be granted',
+         'and a written statement on whether the matter is before any tribunal/court. The authority may '
+         'request more information, must give the applicant a reasonable opportunity to make '
+         'representations, and the applicant may withdraw the application at any time before a ruling '
+         'issues.']},
+ {'h4': '5.2.2  Rejection of application for advance rulings — section 74 of NTAA'},
+ {'p': 'The authority may reject an application requiring an opinion/conclusion/determination on:'},
+ {'ul': ['the application or interpretation of foreign law',
+         'an issue already before a competent court/tribunal',
+         'interpretation of the Constitution',
+         'an issue that is academic, hypothetical, frivolous or vexatious',
+         'or a ruling that would substantially interfere with an ongoing audit/investigation/proceeding.']},
+ {'h4': '5.2.3  Effect of advance rulings — section 75 of NTAA'},
+ {'key': [{'p': 'A ruling binds only the applicant and the specific transaction ruled on — it cannot be of '
+                'general application. It is **void** where:'},
+          {'ul': ['the actual issue/transaction is materially different from the one described in the ruling',
+                  'there was fraud, misrepresentation or non-disclosure of a material fact',
+                  'or a stated assumption/condition is not satisfied. It **ceases to be effective** (without '
+                  'being void from the start) where the ruled-on provision is later repealed/amended in a '
+                  'materially-affecting way (effective from the amendment date), or a court '
+                  'overturns/modifies the interpretation it rested on (effective from the judgement date, '
+                  'unless that decision is itself overturned).']}]},
+ {'h4': '5.2.4  Withdrawal or modification of advance rulings — section 76 of NTAA'},
+ {'p': 'The authority must withdraw or modify a ruling — retrospectively — where it was **fraudulently '
+       'obtained**, and may specify the date its withdrawal/modification decision takes effect.'}]},
 
   {'n': '5.3', 't': 'Settlement of disputes between the relevant tax authority and a '
     'taxable person (s.141 NTAA)', 'b': [
@@ -112,109 +104,102 @@ CH = {
             'settled amount as a debt, under the Act\'s ordinary collection provisions.'},
   ]},
 
-  {'n': '5.4', 't': 'The Tax Ombud', 'b': [
-    {'h4': '5.4.1  Establishment of the Office of the Tax Ombud — section 36 of the Joint Revenue Board of Nigeria (Establishment) Act (JRBEA), 2025'},
-    {'key': 'Established by **s.36 of the Joint Revenue Board of Nigeria (Establishment) Act '
-            '(JRBEA) 2025** as a body corporate — with perpetual succession, a common seal, '
-            'power to sue/be sued in its corporate name, and power to own/dispose of movable '
-            'or immovable property. Its head office is in the FCT, with **at least one branch '
-            'office in each of the six geo-political zones**.'},
-
-    {'h4': '5.4.2  Appointment of the Tax Ombud — section 37 of JRBEA'},
-    {'p': 'The Tax Ombud is appointed by the **President**, on the Minister\'s recommendation '
-          '— must be a Nigerian citizen with relevant qualifications and **at least 10 years\' '
-          'cognate experience** in taxation, law, accounting, auditing, administration or '
-          'dispute resolution, and holds office for a **4-year term, renewable once** (max 2 '
-          'terms). The Tax Ombud is the Office\'s Chief Executive and Accounting Officer.'},
-
-    {'h4': '5.4.3  Cessation of tenure of the Tax Ombud — section 38 of JRBEA'},
-    {'p': 'Tenure ceases where the Tax Ombud: resigns by written notice to the President; '
-          'becomes incapable through infirmity of mind or body; becomes bankrupt or '
-          'compromises with creditors; is convicted of a felony or an offence involving '
-          'dishonesty/fraud; is removed by the President in the public interest; is found '
-          'guilty of contravening the Code of Conduct Bureau and Tribunal Act or of gross '
-          'misconduct; or is disqualified by a professional body from the qualification that '
-          'made them eligible for the appointment.'},
-
-    {'h4': '5.4.4  Oath administration and document authentication — section 40 of JRBEA'},
-    {'p': '**Oath administration** (s.40 JRBEA): an Office officer may administer oaths and '
-          'authenticate affidavits/affirmations/declarations — such an authenticated document '
-          'is accepted as legal evidence with no further proof of signature, seal or official '
-          'capacity required.'},
-
-    {'h4': '5.4.5  Powers and functions of the Office of the Tax Ombud — section 41 of JRBEA'},
-    {'p': 'The Office of the Tax Ombud may:'},
-    {'ol': [
-      'serve as an independent, impartial arbiter reviewing/resolving complaints on tax, '
-      'levy, regulatory fee/charge, customs duty or excise matters;',
-      'review complaints against tax officials/authorities and resolve them by mediation '
-      'or conciliation, using informal, fair, cost-effective procedures;',
-      'receive and investigate taxpayer complaints about the actions/decisions of tax '
-      'authorities, agencies or their officials;',
-      'enter and inspect any premises where a tax authority/agency/official performs a '
-      'function, for investigation purposes;',
-      'invite and examine any person with relevant information or evidence;',
-      'make recommendations to revenue authorities/government agencies for '
-      'implementation;',
-      'institute legal proceedings on the taxpayer\'s behalf;',
-      'provide information and raise awareness of taxpayer rights/obligations, tax-'
-      'authority functions, and the Office\'s own role;',
-      'identify and review systemic/emerging fiscal-policy issues in collaboration with '
-      'relevant agencies;',
-      'serve as a watchdog against arbitrary government fiscal policy and report it to the '
-      'National Assembly;',
-      'issue guidelines, directives or orders for resolving complaints/implementing '
-      'recommendations; and',
-      'delegate any power or function to any of its own officers.',
-    ]},
-    {'note': 'The Office **may not charge a fee** for exercising its functions.'},
-
-    {'h4': '5.4.6  Conflict of interest — section 42 of JRBEA'},
-    {'p': 'An officer of the Office must: act in utmost good faith with care/skill/diligence; '
-          'maintain independence and impartiality at all times; never act where personal '
-          'interest conflicts with the Office\'s functions; disclose any conflict of interest '
-          'and refrain from the affected matter; never make secret profit; never accept a '
-          'gift/advantage for anything done or to be done in their official capacity; and may '
-          'publish studies/research/findings/recommendations/insights/proposals on matters '
-          'under the Office\'s consideration.'},
-
-    {'h4': '5.4.7  Limitations on the authority of the Office of the Tax Ombud — section 43 of JRBEA'},
-    {'warn': 'The Office of the Tax Ombud may **not**: interpret tax legislation beyond '
-             'operational/procedural/administrative issues arising from its application; '
-             'review or determine an issue already sub judice before a court/tribunal at the '
-             'date the complaint is received; determine any tax liability or duty, or issue a '
-             'tax assessment; or review a tax official\'s complaint concerning a personal '
-             'grievance relating to their own office.'},
-
-    {'h4': '5.4.8  Procedure of the Office of the Tax Ombud — Third Schedule to JRBEA'},
-    {'table': {'align': 'll', 'head': ['Stage', 'Key rules'], 'rows': [
-      ['**Complaints** (¶1)', 'Lodged in writing or via any Office-provided platform — only '
-       'once the issue is **unresolved by the relevant agencies**. The Office reviews for '
-       'jurisdiction/mandate, does **not entertain anonymous complaints**, may strike out a '
-       'false/misleading complaint, and refers any complaint alleging criminal malicious '
-       'misrepresentation to law enforcement.'],
-      ['**Investigation** (¶2)', 'Initiated by engaging the complainant/officer/agency for '
-       'more information, or via site visits/interviews/inspections. Must be conducted '
-       'within **14 days** of complaint receipt, extendable by a further **7 days**. Does '
-       'not affect any action the relevant agency has taken or will take. If the Office '
-       'decides not to investigate, it must communicate reasons to the complainant within 7 '
-       'days.'],
-      ['**Resolution and recommendations** (¶3)', 'Resolved by recommendations to the '
-       'agency/complainant. Where the complaint amounts to abuse of office/breach of '
-       'procedure, recommendations go to the tax authority within **14 days** of '
-       'determination. Where criminal proceedings appear warranted, the matter is referred '
-       'to the agency for action — if the agency fails to act within **30 days**, the Office '
-       'refers it directly to law enforcement.'],
-      ['**Non-compliance with recommendations** (¶4)', 'The agency must report to the Office '
-       'within **21 days** of receiving recommendations, stating reasons for non-compliance. '
-       'Persistent unexplained non-compliance is referred to the National Assembly / State '
-       'House of Assembly for oversight.'],
-      ['**Dispute resolution process** (¶5)', 'The Office may encourage alternative dispute '
-       'resolution. Parties/representatives must appear when requested and must not impede '
-       'the Office or prejudice a pending matter — failure is treated as the complaint being '
-       '**resolved against that party**.'],
-    ]}},
-  ]},
+  {'n': '5.4', 't': 'The Tax Ombud', 'b': [{'h4': '5.4.1  Establishment of the Office of the Tax Ombud — section 36 of the Joint Revenue Board of '
+        'Nigeria (Establishment) Act (JRBEA), 2025'},
+ {'key': 'Established by **s.36 of the Joint Revenue Board of Nigeria (Establishment) Act (JRBEA) 2025** as '
+         'a body corporate — with perpetual succession, a common seal, power to sue/be sued in its corporate '
+         'name, and power to own/dispose of movable or immovable property. Its head office is in the FCT, '
+         'with **at least one branch office in each of the six geo-political zones**.'},
+ {'h4': '5.4.2  Appointment of the Tax Ombud — section 37 of JRBEA'},
+ {'p': "The Tax Ombud is appointed by the **President**, on the Minister's recommendation — must be a "
+       "Nigerian citizen with relevant qualifications and **at least 10 years' cognate experience** in "
+       'taxation, law, accounting, auditing, administration or dispute resolution, and holds office for a '
+       "**4-year term, renewable once** (max 2 terms). The Tax Ombud is the Office's Chief Executive and "
+       'Accounting Officer.'},
+ {'h4': '5.4.3  Cessation of tenure of the Tax Ombud — section 38 of JRBEA'},
+ {'p': 'Tenure ceases where the Tax Ombud:'},
+ {'ul': ['resigns by written notice to the President',
+         'becomes incapable through infirmity of mind or body',
+         'becomes bankrupt or compromises with creditors',
+         'is convicted of a felony or an offence involving dishonesty/fraud',
+         'is removed by the President in the public interest',
+         'is found guilty of contravening the Code of Conduct Bureau and Tribunal Act or of gross misconduct',
+         'or is disqualified by a professional body from the qualification that made them eligible for the '
+         'appointment.']},
+ {'h4': '5.4.4  Oath administration and document authentication — section 40 of JRBEA'},
+ {'p': '**Oath administration** (s.40 JRBEA): an Office officer may administer oaths and authenticate '
+       'affidavits/affirmations/declarations — such an authenticated document is accepted as legal evidence '
+       'with no further proof of signature, seal or official capacity required.'},
+ {'h4': '5.4.5  Powers and functions of the Office of the Tax Ombud — section 41 of JRBEA'},
+ {'p': 'The Office of the Tax Ombud may:'},
+ {'ol': ['serve as an independent, impartial arbiter reviewing/resolving complaints on tax, levy, regulatory '
+         'fee/charge, customs duty or excise matters;',
+         'review complaints against tax officials/authorities and resolve them by mediation or conciliation, '
+         'using informal, fair, cost-effective procedures;',
+         'receive and investigate taxpayer complaints about the actions/decisions of tax authorities, '
+         'agencies or their officials;',
+         'enter and inspect any premises where a tax authority/agency/official performs a function, for '
+         'investigation purposes;',
+         'invite and examine any person with relevant information or evidence;',
+         'make recommendations to revenue authorities/government agencies for implementation;',
+         "institute legal proceedings on the taxpayer's behalf;",
+         'provide information and raise awareness of taxpayer rights/obligations, tax-authority functions, '
+         "and the Office's own role;",
+         'identify and review systemic/emerging fiscal-policy issues in collaboration with relevant '
+         'agencies;',
+         'serve as a watchdog against arbitrary government fiscal policy and report it to the National '
+         'Assembly;',
+         'issue guidelines, directives or orders for resolving complaints/implementing recommendations; and',
+         'delegate any power or function to any of its own officers.']},
+ {'note': 'The Office **may not charge a fee** for exercising its functions.'},
+ {'h4': '5.4.6  Conflict of interest — section 42 of JRBEA'},
+ {'p': 'An officer of the Office must:'},
+ {'ul': ['act in utmost good faith with care/skill/diligence',
+         'maintain independence and impartiality at all times',
+         "never act where personal interest conflicts with the Office's functions",
+         'disclose any conflict of interest and refrain from the affected matter',
+         'never make secret profit',
+         'never accept a gift/advantage for anything done or to be done in their official capacity',
+         'and may publish studies/research/findings/recommendations/insights/proposals on matters under the '
+         "Office's consideration."]},
+ {'h4': '5.4.7  Limitations on the authority of the Office of the Tax Ombud — section 43 of JRBEA'},
+ {'warn': [{'p': 'The Office of the Tax Ombud may **not**:'},
+           {'ul': ['interpret tax legislation beyond operational/procedural/administrative issues arising '
+                   'from its application',
+                   'review or determine an issue already sub judice before a court/tribunal at the date the '
+                   'complaint is received',
+                   'determine any tax liability or duty, or issue a tax assessment',
+                   "or review a tax official's complaint concerning a personal grievance relating to their "
+                   'own office.']}]},
+ {'h4': '5.4.8  Procedure of the Office of the Tax Ombud — Third Schedule to JRBEA'},
+ {'table': {'align': 'll',
+            'head': ['Stage', 'Key rules'],
+            'rows': [['**Complaints** (¶1)',
+                      'Lodged in writing or via any Office-provided platform — only once the issue is '
+                      '**unresolved by the relevant agencies**. The Office reviews for jurisdiction/mandate, '
+                      'does **not entertain anonymous complaints**, may strike out a false/misleading '
+                      'complaint, and refers any complaint alleging criminal malicious misrepresentation to '
+                      'law enforcement.'],
+                     ['**Investigation** (¶2)',
+                      'Initiated by engaging the complainant/officer/agency for more information, or via '
+                      'site visits/interviews/inspections. Must be conducted within **14 days** of complaint '
+                      'receipt, extendable by a further **7 days**. Does not affect any action the relevant '
+                      'agency has taken or will take. If the Office decides not to investigate, it must '
+                      'communicate reasons to the complainant within 7 days.'],
+                     ['**Resolution and recommendations** (¶3)',
+                      'Resolved by recommendations to the agency/complainant. Where the complaint amounts to '
+                      'abuse of office/breach of procedure, recommendations go to the tax authority within '
+                      '**14 days** of determination. Where criminal proceedings appear warranted, the matter '
+                      'is referred to the agency for action — if the agency fails to act within **30 days**, '
+                      'the Office refers it directly to law enforcement.'],
+                     ['**Non-compliance with recommendations** (¶4)',
+                      'The agency must report to the Office within **21 days** of receiving recommendations, '
+                      'stating reasons for non-compliance. Persistent unexplained non-compliance is referred '
+                      'to the National Assembly / State House of Assembly for oversight.'],
+                     ['**Dispute resolution process** (¶5)',
+                      'The Office may encourage alternative dispute resolution. Parties/representatives must '
+                      'appear when requested and must not impede the Office or prejudice a pending matter — '
+                      'failure is treated as the complaint being **resolved against that party**.']]}}]},
 
   {'n': '5.5', 't': 'Revision of assessment in case of objection / time limit for objection '
     'and appeal — section 41 of NTAA', 'b': [
@@ -255,84 +240,97 @@ CH = {
             'taxpayer may exercise the **right of appeal** to the Tax Appeal Tribunal.'},
   ]},
 
-  {'n': '5.8', 't': 'Hearing before the Tax Appeal Tribunal', 'b': [
-    {'h4': '5.8.1  Appeals from the decisions of the relevant tax authority — section 35 of JRBEA and the second paragraph of the Second Schedule'},
-    {'p': 'A taxable entity aggrieved by an assessment, demand notice, action, decision, or '
-          'a residency dispute, may appeal to the Tribunal within the stipulated period, in '
-          'the prescribed form and with the prescribed fee.'},
-    {'ol': [
-      'The appeal must be filed within **30 days** of the date the decision being appealed '
-      'was made (or deemed made);',
-      'the Tribunal may still entertain a late appeal if satisfied there was **sufficient '
-      'cause for the delay**;',
-      'where no notice of appeal is given within the period, the assessment/demand notice '
-      'becomes **final and conclusive**, and the authority may charge interest/penalties in '
-      'addition to recovering the outstanding liability; and',
-      'a relevant tax authority itself aggrieved by a taxable entity\'s non-compliance may '
-      'appeal to the Tribunal in the Zone where the taxpayer is resident (2nd Schedule ¶3).',
-    ]},
-
-    {'h4': '5.8.3 – 5.8.5  Special appeal procedures — Second Schedule, paragraphs 4 to 6'},
-    {'table': {'align': 'll', 'head': ['Procedure', 'Rule'], 'rows': [
-      ['**5.8.3 Liquidated money claim affidavit** (¶4)', 'Where the appeal is to recover a debt/liquidated '
-       'money demand, supported by an affidavit stating there is no defence, the Tribunal — '
-       'if satisfied there are good grounds — enters it for hearing as a "Liquidated Money '
-       'Claim Appeal".'],
-      ['**5.8.4 Appeal by summons** (¶5)', 'Where the issue is purely one of interpretation of tax '
-       'law/rules/regulations, without dispute of fact, the Tribunal hears and determines '
-       'the appeal by **affidavit evidence**.'],
-      ['**5.8.5 Settlement out of Tribunal** (¶6)', 'On an appeal\'s first appearance, the Chairman '
-       'may grant the parties **up to 30 days** to explore settlement. The case proceeds to '
-       'trial if they fail to settle within that (or an extended) period.'],
-    ]}},
-
-    {'h4': '5.8.6  Procedure before the Tax Appeal Tribunal — Second Schedule, paragraph 7'},
-    {'ol': [
-      'Tax Appeal Commissioners meet as often as necessary to hear appeals in their '
-      'assigned zone;',
-      'the Secretary gives **7 clear days\'** notice of the hearing date/place (not needed '
-      'for an adjourned hearing already fixed at a prior sitting);',
-      'notices/documents (other than Tribunal decisions) may be signified under the '
-      'Secretary\'s hand;',
-      'hearings are held **in public**;',
-      'the **burden of proof** that an assessment is excessive (or due for payment) lies on '
-      'the appellant;',
-      'the Tribunal may **adjourn** and order the appellant to deposit, before the adjourned '
-      'hearing, the **lesser of** the tax charged for the preceding assessment year or **one '
-      'half** of the tax charged by the assessment under appeal — triggered where the '
-      'authority proves the appellant failed to file returns, the appeal is frivolous/'
-      'vexatious/abusive, or a security deposit is otherwise expedient;',
-      'failure to comply with that deposit order means the assessment is **confirmed**, '
-      'with **no further right of appeal** to the Tribunal on it;',
-      'after giving the parties a hearing, the Tribunal may **confirm, reduce, increase or '
-      'annul** the assessment, or make any order it deems fit;',
-      'the Chairman records every decision in writing — a certified copy is supplied on '
-      'request within **7 days** of the decision; and',
-      'where no accounts/books were produced, or those produced were rejected as '
-      'incomplete/unsatisfactory, or the appellant/representative neglected a Secretary\'s '
-      'notice, or refused (without reasonable cause) to answer a Tribunal question — other '
-      'than through a legal practitioner or accountant acting for them — the Chairman '
-      'records these particulars in the written decision.',
-    ]},
-
-    {'h4': '5.8.7 – 5.8.11  Further Tribunal rules — Second Schedule, paragraphs 8 to 14'},
-    {'table': {'align': 'll', 'head': ['Rule', 'Detail'], 'rows': [
-      ['**5.8.7 Evidence Act** (¶8)', 'Tribunal proceedings/decisions must comply with the '
-       'Evidence Act.'],
-      ['**5.8.8 Procedure following decision of the Tribunal** (¶9)', 'Notice of the Tribunal-determined tax chargeable '
-       'is served by the tax authority on the taxpayer (or the chargeable person). An award/'
-       'judgement is enforced as a Federal High Court judgement once registered with the '
-       'Chief Registrar by the enforcing party.'],
-      ['**5.8.9 Right to representation** (¶11)', 'A party may appear in person or through legal '
-       'practitioners, a suitably qualified tax professional, or an officer. If a '
-       'representative cannot attend for good cause, the Tribunal may adjourn, or admit the '
-       'appeal by another person or by written address.'],
-      ['**5.8.10 Application of statutes of limitation** (¶12)', 'The Act\'s statute of limitation/pre-action-'
-       'notice rules and the Public Officer Protection Act do **not** apply to appeals before '
-       'the Tribunal.'],
-      ['**5.8.11 Costs** (¶14) — printed in the book under the heading *"Oaths"*', 'Each party bears its **own cost** of the appeal.'],
-    ]}},
-  ]},
+  {'n': '5.8', 't': 'Hearing before the Tax Appeal Tribunal', 'b': [{'h4': '5.8.1  Appeals from the decisions of the relevant tax authority — section 35 of JRBEA and the '
+        'second paragraph of the Second Schedule'},
+ {'p': 'A taxable entity aggrieved by an assessment, demand notice, action, decision, or a residency '
+       'dispute, may appeal to the Tribunal within the stipulated period, in the prescribed form and with '
+       'the prescribed fee.'},
+ {'ol': ['The appeal must be filed within **30 days** of the date the decision being appealed was made (or '
+         'deemed made);',
+         'the Tribunal may still entertain a late appeal if satisfied there was **sufficient cause for the '
+         'delay**;',
+         'where no notice of appeal is given within the period, the assessment/demand notice becomes **final '
+         'and conclusive**, and the authority may charge interest/penalties in addition to recovering the '
+         'outstanding liability; and']},
+ {'h4': '5.8.2  Appeal by relevant tax authorities — Third paragraph of the Second Schedule'},
+ {'p': "a relevant tax authority itself aggrieved by a taxable entity's non-compliance may appeal to the "
+       'Tribunal in the Zone where the taxpayer is resident (2nd Schedule ¶3).'},
+ {'h4': '5.8.3  Liquidated money claim affidavit - Fourth paragraph of the Second Schedule'},
+ {'table': {'align': 'll',
+            'head': ['Procedure', 'Rule'],
+            'rows': [['**5.8.3 Liquidated money claim affidavit** (¶4)',
+                      'Where the appeal is to recover a debt/liquidated money demand, supported by an '
+                      'affidavit stating there is no defence, the Tribunal — if satisfied there are good '
+                      'grounds — enters it for hearing as a "Liquidated Money Claim Appeal".']]}},
+ {'h4': '5.8.4  Appeal by Summons - Fifth paragraph of the Second Schedule to JRBEA'},
+ {'table': {'align': 'll',
+            'head': ['Procedure', 'Rule'],
+            'rows': [['**5.8.4 Appeal by summons** (¶5)',
+                      'Where the issue is purely one of interpretation of tax law/rules/regulations, without '
+                      'dispute of fact, the Tribunal hears and determines the appeal by **affidavit '
+                      'evidence**.']]}},
+ {'h4': '5.8.5  Settlement out of Tribunal - Paragraph 6 of the Second Schedule to JRBEA'},
+ {'table': {'align': 'll',
+            'head': ['Procedure', 'Rule'],
+            'rows': [['**5.8.5 Settlement out of Tribunal** (¶6)',
+                      "On an appeal's first appearance, the Chairman may grant the parties **up to 30 days** "
+                      'to explore settlement. The case proceeds to trial if they fail to settle within that '
+                      '(or an extended) period.']]}},
+ {'h4': '5.8.6  Procedure before the Tax Appeal Tribunal — Second Schedule, paragraph 7'},
+ {'ol': ['Tax Appeal Commissioners meet as often as necessary to hear appeals in their assigned zone;',
+         "the Secretary gives **7 clear days'** notice of the hearing date/place (not needed for an "
+         'adjourned hearing already fixed at a prior sitting);',
+         "notices/documents (other than Tribunal decisions) may be signified under the Secretary's hand;",
+         'hearings are held **in public**;',
+         'the **burden of proof** that an assessment is excessive (or due for payment) lies on the '
+         'appellant;',
+         'the Tribunal may **adjourn** and order the appellant to deposit, before the adjourned hearing, the '
+         '**lesser of** the tax charged for the preceding assessment year or **one half** of the tax charged '
+         'by the assessment under appeal — triggered where the authority proves the appellant failed to file '
+         'returns, the appeal is frivolous/vexatious/abusive, or a security deposit is otherwise expedient;',
+         'failure to comply with that deposit order means the assessment is **confirmed**, with **no further '
+         'right of appeal** to the Tribunal on it;',
+         'after giving the parties a hearing, the Tribunal may **confirm, reduce, increase or annul** the '
+         'assessment, or make any order it deems fit;',
+         'the Chairman records every decision in writing — a certified copy is supplied on request within '
+         '**7 days** of the decision; and',
+         'where no accounts/books were produced, or those produced were rejected as '
+         "incomplete/unsatisfactory, or the appellant/representative neglected a Secretary's notice, or "
+         'refused (without reasonable cause) to answer a Tribunal question — other than through a legal '
+         'practitioner or accountant acting for them — the Chairman records these particulars in the written '
+         'decision.']},
+ {'h4': '5.8.7  Application of the Evidence Act - paragraph 8 of the Second Schedule to'},
+ {'table': {'align': 'll',
+            'head': ['Rule', 'Detail'],
+            'rows': [['**5.8.7 Evidence Act** (¶8)',
+                      'Tribunal proceedings/decisions must comply with the Evidence Act.']]}},
+ {'h4': '5.8.8  Procedure following decision of the Tribunal - paragraph 9 of the Second'},
+ {'table': {'align': 'll',
+            'head': ['Rule', 'Detail'],
+            'rows': [['**5.8.8 Procedure following decision of the Tribunal** (¶9)',
+                      'Notice of the Tribunal-determined tax chargeable is served by the tax authority on '
+                      'the taxpayer (or the chargeable person). An award/judgement is enforced as a Federal '
+                      'High Court judgement once registered with the Chief Registrar by the enforcing '
+                      'party.']]}},
+ {'h4': '5.8.9  Right to Presentation - paragraph 11 of the Second Schedule to JRBEA'},
+ {'table': {'align': 'll',
+            'head': ['Rule', 'Detail'],
+            'rows': [['**5.8.9 Right to representation** (¶11)',
+                      'A party may appear in person or through legal practitioners, a suitably qualified tax '
+                      'professional, or an officer. If a representative cannot attend for good cause, the '
+                      'Tribunal may adjourn, or admit the appeal by another person or by written '
+                      'address.']]}},
+ {'h4': '5.8.10  Application of Status of Limitation - paragraph 12 of the Second Schedule to'},
+ {'table': {'align': 'll',
+            'head': ['Rule', 'Detail'],
+            'rows': [['**5.8.10 Application of statutes of limitation** (¶12)',
+                      "The Act's statute of limitation/pre-action-notice rules and the Public Officer "
+                      'Protection Act do **not** apply to appeals before the Tribunal.']]}},
+ {'h4': '5.8.11  Oaths - paragraph 14 of the Second Schedule to JRBEA'},
+ {'table': {'align': 'll',
+            'head': ['Rule', 'Detail'],
+            'rows': [['**5.8.11 Costs** (¶14) — printed in the book under the heading *"Oaths"*',
+                      'Each party bears its **own cost** of the appeal.']]}}]},
 
   {'n': '5.9', 't': 'Appeal to the Federal High Court (2nd Schedule, ¶10 JRBEA)', 'b': [
     {'ol': [

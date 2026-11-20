@@ -12,39 +12,34 @@ CH = {
    'Outline how criminal liability arises in auditing',
  ],
  'secs': [
-  {'n': '4.1', 't': 'Introduction', 'b': [
-    {'p': 'Statutory auditors perform audits and sign audit reports — their opinion on the '
-          'truth and fairness of financial statements. The auditor has responsibilities to '
-          'shareholders and other third parties who may rely on the certified financial '
-          'statements. If the auditor fails to meet the required standard of care, and a loss is '
-          'consequently suffered by an affected party, remedy can be obtained against the '
-          'auditor in a constituted court.'},
-    {'key': 'Because others rely on an auditor\'s work, the auditor has a clear responsibility '
-            'to work **honestly and carefully**: they must be honest — never certifying what '
-            'they do not believe to be true — and must take reasonable care and skill before '
-            'believing what they certify **is** true.'},
-    {'p': 'What "reasonable care and skill" means in a given case depends on the circumstances, '
-          'and is genuinely difficult to assess. What is clear is the causal chain that '
-          'liability follows:'},
-    {'ol': [
-      'an auditor may fail to exercise sufficient skill and care;',
-      'consequently, fraud or error may go undiscovered, or the auditor may fail to discover '
-      'that the accounts do not show a true and fair view, or contain a material misstatement;',
-      'consequently, somebody relying on the auditor\'s work may lose money;',
-      'that loss of money flows directly from the auditor\'s failure to do their job properly.',
-    ]},
-    {'warn': 'Auditors may be liable for **professional negligence** — an issue of growing '
-             'concern. Some firms have resorted to professional indemnity insurance to safeguard '
-             'their businesses, but in concrete terms, insurance does not actually **solve** the '
-             'underlying problem — it only cushions its financial consequence.'},
-    {'key': 'Auditor liability is not a single thing — it can arise through **four distinct '
-            'routes at once**: (1) common law negligence; (2) the law of **contract**, since a '
-            'client may sue to enforce the auditor\'s contractual duties; (3) the law of '
-            '**tort**, for duty of care, especially where a **third party** is involved; and (4) '
-            '**statute**, facing criminal penalty for deception and reckless negligence, or '
-            'civil liability for damages. This chapter works through common law, contract, '
-            'statute and criminal liability in turn.'},
-  ]},
+  {'n': '4.1', 't': 'Introduction', 'b': [{'p': 'Statutory auditors perform audits and sign audit reports — their opinion on the truth and fairness '
+       'of financial statements. The auditor has responsibilities to shareholders and other third parties '
+       'who may rely on the certified financial statements. If the auditor fails to meet the required '
+       'standard of care, and a loss is consequently suffered by an affected party, remedy can be obtained '
+       'against the auditor in a constituted court.'},
+ {'key': "Because others rely on an auditor's work, the auditor has a clear responsibility to work "
+         '**honestly and carefully**: they must be honest — never certifying what they do not believe to be '
+         'true — and must take reasonable care and skill before believing what they certify **is** true.'},
+ {'p': 'What "reasonable care and skill" means in a given case depends on the circumstances, and is '
+       'genuinely difficult to assess. What is clear is the causal chain that liability follows:'},
+ {'ol': ['an auditor may fail to exercise sufficient skill and care;',
+         'consequently, fraud or error may go undiscovered, or the auditor may fail to discover that the '
+         'accounts do not show a true and fair view, or contain a material misstatement;',
+         "consequently, somebody relying on the auditor's work may lose money;",
+         "that loss of money flows directly from the auditor's failure to do their job properly."]},
+ {'warn': 'Auditors may be liable for **professional negligence** — an issue of growing concern. Some firms '
+          'have resorted to professional indemnity insurance to safeguard their businesses, but in concrete '
+          'terms, insurance does not actually **solve** the underlying problem — it only cushions its '
+          'financial consequence.'},
+ {'key': [{'p': 'Auditor liability is not a single thing — it can arise through **four distinct routes at '
+                'once**:'},
+          {'ul': ['(1) common law negligence',
+                  "(2) the law of **contract**, since a client may sue to enforce the auditor's contractual "
+                  'duties',
+                  '(3) the law of **tort**, for duty of care, especially where a **third party** is involved',
+                  'and (4) **statute**, facing criminal penalty for deception and reckless negligence, or '
+                  'civil liability for damages. This chapter works through common law, contract, statute and '
+                  'criminal liability in turn.']}]}]},
 
   {'n': '4.2', 't': 'Auditors\' liability for negligence under common law', 'b': [
     {'key': 'An auditor incurs common law liability only where **both** conditions hold: they '

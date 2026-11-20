@@ -91,90 +91,80 @@ CH = {
              'sequence rather than a list.'},
   ]},
 
-  {'n': '10.4', 't': 'Types of entrepreneurs', 'b': [
-    {'p': 'Based on their **working relationship with the business environment** they are '
-          'functioning in, various types of entrepreneurs can be found. The chief categories '
-          'are these **six types**: **(i)** innovative entrepreneurs, **(ii)** imitating '
-          'entrepreneurs, **(iii)** Fabian entrepreneurs, **(iv)** drone entrepreneurs, '
-          '**(v)** intrapreneurs, and **(vi)** ultrapreneurs.'},
-    {'h4': '(i)  Innovative entrepreneurs'},
-    {'p': 'This type of entrepreneur is **more interested in introducing some new ideas** into '
-          'the market, the organisation or the nation. They are drawn towards innovations, and '
-          '**invest a lot of time and wealth in doing research and development**.'},
-    {'h4': '(ii)  Imitating entrepreneurs'},
-    {'p': 'These are often disparagingly referred to as **"copy cats"**. They **observe an '
-          'existing successful system and replicate it** in a manner where **all the '
-          'deficiencies of the original business model are addressed and all its efficiencies '
-          'are retained**. These entrepreneurs help to improve an existing product or '
-          'production process, and can offer suggestions to enhance the use of better '
-          'technology.'},
-    {'h4': '(iii)  Fabian entrepreneurs'},
-    {'p': 'These are entrepreneurs that are **very careful in their approaches and cautious in '
-          'adopting any changes**. They are **not prone to sudden decisions**, and try to shy '
-          'away from any innovation or change that does not fit their narrative.'},
-    {'h4': '(iv)  Drone entrepreneurs'},
-    {'p': 'These are entrepreneurs who **do not like change**. They are considered **"old '
-          'school"**. They want to do business in their own **traditional or orthodox methods** '
-          'of production and systems. Such people **attach pride and tradition even to outdated '
-          'methods** of doing business.'},
-    {'h4': '(v)  Intrapreneurs'},
-    {'def': {'t': 'Intrapreneur', 'd': 'the **employee** who avails himself of an opportunity, '
-                  'develops an idea and takes it to the next level **for the betterment of the '
-                  'organisation**.'}},
-    {'p': '**Intrapreneurship** is a phenomenon of **empowering the employees within the '
-          'organisation**, by valuing their ideas and converting them into a profit-making '
-          'model for the business. **The organisation would bear the associated risk and loss '
-          'if the intrapreneur\'s project failed.** It is the combination of employee '
-          'responsibilities with his or her entrepreneurship skills that creates an '
-          'intrapreneur.'},
-    {'p': 'The top executives in the organisation are encouraged to catch hold of new ideas and '
-          'then convert them into products through **research and development (R&D) activities '
-          'within the framework of the organisation**.'},
-    {'h4': '(vi)  Ultrapreneurs'},
-    {'def': {'t': 'Ultrapreneur', 'd': 'an entrepreneur who **goes beyond typical business '
-                  'success to create a positive impact on their family, friends, community, '
-                  'humanity and country**.'}},
-    {'p': 'They aim to achieve **financial freedom and lifestyle goals** while also making a '
-          '**meaningful contribution to society**, often balancing work and personal life. An '
-          'ultrapreneur is someone who has **exceeded at entrepreneurship** but goes on to have '
-          'a positive effect on his family, friends, community, humanity and country. He earns '
-          'enough money to live the lifestyle he wants, doing what he loves, and has ample time '
-          'to spend it with the people he loves.'},
-    {'p': 'Ultrapreneurs can be seen as **ultimate elite entrepreneurs** who are focused on '
-          '**creating a positive impact as well as job creation**. **Mindfulness, and the '
-          'ability to quiet the mind**, describes an ultrapreneur, compared with an entrepreneur '
-          'who is comparatively **restless**. Ultrapreneurs **get more done in less time** by '
-          'taking time out every day to calm the mind.'},
-    {'key': 'The first four types form a **single spectrum of attitude to change**, and the '
-            'cleanest way to remember them is in that order: the **innovative** entrepreneur '
-            '*creates* change; the **imitating** entrepreneur *copies and improves on* change '
-            'others have made; the **Fabian** entrepreneur is *cautious about* change and '
-            'adopts it only reluctantly; and the **drone** entrepreneur *refuses* change '
-            'altogether, taking pride in outdated methods. The last two types are not on that '
-            'spectrum at all — the **intrapreneur** is defined by *where* he operates (inside '
-            'an organisation, with the organisation bearing the risk), and the **ultrapreneur** '
-            'by *what he does with success* (impact beyond the business).'},
-    {'warn': 'The distinction between **Fabian** and **drone** is the single most examined point '
-             'in this chapter, and two of the ten multiple choice questions turn on it. A '
-             '**Fabian** entrepreneur is **cautious** — slow to adopt change, shying away from '
-             'innovation that does not fit his narrative, but not refusing it in principle. A '
-             '**drone** entrepreneur **refuses to change the method of production already '
-             'introduced** — he is "old school" and attaches pride to tradition. Cautious versus '
-             'refusing.'},
-    {'note': 'The **intrapreneur** carries a point candidates often miss: the **organisation '
-             'bears the risk and loss** if the project fails, not the intrapreneur. That is the '
-             'exact opposite of the entrepreneur at §10.2, who assumes **all the risks and '
-             'rewards** personally — and it is what makes intrapreneurship an attractive route '
-             'for an employee with entrepreneurial skills but no appetite for personal '
-             'exposure.'},
-    {'warn': 'An inconsistency in the study text, flagged rather than silently corrected: the '
-             'body of §10.4 lists the six types as innovative, imitating, Fabian, drone, '
-             '**intrapreneur** and ultrapreneur — but the **chapter summary** lists them as '
-             '"innovators, imitators, drone, fabian **technopreneur**, and ultrapreneur", '
-             'substituting a *technopreneur* that appears nowhere in the chapter and dropping '
-             'the intrapreneur, which the chapter discusses at length. The body\'s list of six '
-             'is the one to learn.'},
-  ]},
+  {'n': '10.4', 't': 'Types of entrepreneurs', 'b': [{'p': 'Based on their **working relationship with the business environment** they are functioning in, '
+       'various types of entrepreneurs can be found. The chief categories are these **six types**: **(i)** '
+       'innovative entrepreneurs, **(ii)** imitating entrepreneurs, **(iii)** Fabian entrepreneurs, **(iv)** '
+       'drone entrepreneurs, **(v)** intrapreneurs, and **(vi)** ultrapreneurs.'},
+ {'h4': '(i)  Innovative entrepreneurs'},
+ {'p': 'This type of entrepreneur is **more interested in introducing some new ideas** into the market, the '
+       'organisation or the nation. They are drawn towards innovations, and **invest a lot of time and '
+       'wealth in doing research and development**.'},
+ {'h4': '(ii)  Imitating entrepreneurs'},
+ {'p': 'These are often disparagingly referred to as **"copy cats"**. They **observe an existing successful '
+       'system and replicate it** in a manner where **all the deficiencies of the original business model '
+       'are addressed and all its efficiencies are retained**. These entrepreneurs help to improve an '
+       'existing product or production process, and can offer suggestions to enhance the use of better '
+       'technology.'},
+ {'h4': '(iii)  Fabian entrepreneurs'},
+ {'p': 'These are entrepreneurs that are **very careful in their approaches and cautious in adopting any '
+       'changes**. They are **not prone to sudden decisions**, and try to shy away from any innovation or '
+       'change that does not fit their narrative.'},
+ {'h4': '(iv)  Drone entrepreneurs'},
+ {'p': 'These are entrepreneurs who **do not like change**. They are considered **"old school"**. They want '
+       'to do business in their own **traditional or orthodox methods** of production and systems. Such '
+       'people **attach pride and tradition even to outdated methods** of doing business.'},
+ {'h4': '(v)  Intrapreneurs'},
+ {'def': {'t': 'Intrapreneur',
+          'd': 'the **employee** who avails himself of an opportunity, develops an idea and takes it to the '
+               'next level **for the betterment of the organisation**.'}},
+ {'p': '**Intrapreneurship** is a phenomenon of **empowering the employees within the organisation**, by '
+       'valuing their ideas and converting them into a profit-making model for the business. **The '
+       "organisation would bear the associated risk and loss if the intrapreneur's project failed.** It is "
+       'the combination of employee responsibilities with his or her entrepreneurship skills that creates an '
+       'intrapreneur.'},
+ {'p': 'The top executives in the organisation are encouraged to catch hold of new ideas and then convert '
+       'them into products through **research and development (R&D) activities within the framework of the '
+       'organisation**.'},
+ {'h4': '(vi)  Ultrapreneurs'},
+ {'def': {'t': 'Ultrapreneur',
+          'd': 'an entrepreneur who **goes beyond typical business success to create a positive impact on '
+               'their family, friends, community, humanity and country**.'}},
+ {'p': 'They aim to achieve **financial freedom and lifestyle goals** while also making a **meaningful '
+       'contribution to society**, often balancing work and personal life. An ultrapreneur is someone who '
+       'has **exceeded at entrepreneurship** but goes on to have a positive effect on his family, friends, '
+       'community, humanity and country. He earns enough money to live the lifestyle he wants, doing what he '
+       'loves, and has ample time to spend it with the people he loves.'},
+ {'p': 'Ultrapreneurs can be seen as **ultimate elite entrepreneurs** who are focused on **creating a '
+       'positive impact as well as job creation**. **Mindfulness, and the ability to quiet the mind**, '
+       'describes an ultrapreneur, compared with an entrepreneur who is comparatively **restless**. '
+       'Ultrapreneurs **get more done in less time** by taking time out every day to calm the mind.'},
+ {'key': [{'p': 'The first four types form a **single spectrum of attitude to change**, and the cleanest way '
+                'to remember them is in that order:'},
+          {'ul': ['the **innovative** entrepreneur *creates* change',
+                  'the **imitating** entrepreneur *copies and improves on* change others have made',
+                  'the **Fabian** entrepreneur is *cautious about* change and adopts it only reluctantly',
+                  'and the **drone** entrepreneur *refuses* change altogether, taking pride in outdated '
+                  'methods. The last two types are not on that spectrum at all — the **intrapreneur** is '
+                  'defined by *where* he operates (inside an organisation, with the organisation bearing the '
+                  'risk), and the **ultrapreneur** by *what he does with success* (impact beyond the '
+                  'business).']}]},
+ {'warn': 'The distinction between **Fabian** and **drone** is the single most examined point in this '
+          'chapter, and two of the ten multiple choice questions turn on it. A **Fabian** entrepreneur is '
+          '**cautious** — slow to adopt change, shying away from innovation that does not fit his narrative, '
+          'but not refusing it in principle. A **drone** entrepreneur **refuses to change the method of '
+          'production already introduced** — he is "old school" and attaches pride to tradition. Cautious '
+          'versus refusing.'},
+ {'note': 'The **intrapreneur** carries a point candidates often miss: the **organisation bears the risk and '
+          'loss** if the project fails, not the intrapreneur. That is the exact opposite of the entrepreneur '
+          'at §10.2, who assumes **all the risks and rewards** personally — and it is what makes '
+          'intrapreneurship an attractive route for an employee with entrepreneurial skills but no appetite '
+          'for personal exposure.'},
+ {'warn': 'An inconsistency in the study text, flagged rather than silently corrected: the body of §10.4 '
+          'lists the six types as innovative, imitating, Fabian, drone, **intrapreneur** and ultrapreneur — '
+          'but the **chapter summary** lists them as "innovators, imitators, drone, fabian '
+          '**technopreneur**, and ultrapreneur", substituting a *technopreneur* that appears nowhere in the '
+          "chapter and dropping the intrapreneur, which the chapter discusses at length. The body's list of "
+          'six is the one to learn.'}]},
 
   {'n': '10.5', 't': 'Qualities of an entrepreneur', 'b': [
     {'p': 'Entrepreneurs have many of the **personal qualities of leaders**. The psychological '

@@ -451,30 +451,26 @@ CH = {
 
   ]},
 
-  {'n': '1.3.6', 't': 'Organisations other than manufacturing companies where cost accounting can be applied', 'b': [
-    {'p': 'Every organisation uses some items of stores or materials — including non-profit '
-          'bodies — so cost accounting applies far beyond manufacturing:'},
-    {'ul': [
-      '**Local authorities** — District, Municipal or Metropolitan Assemblies (e.g. Accra '
-      'Metropolitan Authority, Kano Municipal Local Government, Lagos Island Local Education '
-      'Authority);',
-      '**Health-sector organisations** — hospitals, clinics;',
-      '**Educational institutions** — colleges, polytechnics, universities;',
-      '**Financial institutions** — banks, insurance companies;',
-      '**Transport businesses**;',
-      '**Consultancy firms** — accounting/audit firms, economic/management consultancies, legal '
-      'chambers;',
-      '**Utility companies** — water, electricity;',
-      '**Farming ventures**; and',
-      '**Trading outlets** — retailing, wholesaling, departmental stores, supermarkets.',
-    ]},
-    {'p': 'For such organisations, cost accounting can generate: cost per unit of product/'
-          'service; cost of running the organisation by section/department; wages cost per unit '
-          'and material cost per unit; cost per patient per consulting hour or per bed; '
-          'budgetary control statements; cost per full-time-equivalent student; and branch '
-          'operating statements.'},
-
-  ]},
+  {'n': '1.3.6', 't': 'Organisations other than manufacturing companies where cost accounting can be applied', 'b': [{'p': 'Every organisation uses some items of stores or materials — including non-profit bodies — so cost '
+       'accounting applies far beyond manufacturing:'},
+ {'ul': ['**Local authorities** — District, Municipal or Metropolitan Assemblies (e.g. Accra Metropolitan '
+         'Authority, Kano Municipal Local Government, Lagos Island Local Education Authority);',
+         '**Health-sector organisations** — hospitals, clinics;',
+         '**Educational institutions** — colleges, polytechnics, universities;',
+         '**Financial institutions** — banks, insurance companies;',
+         '**Transport businesses**;',
+         '**Consultancy firms** — accounting/audit firms, economic/management consultancies, legal chambers;',
+         '**Utility companies** — water, electricity;',
+         '**Farming ventures**; and',
+         '**Trading outlets** — retailing, wholesaling, departmental stores, supermarkets.']},
+ {'p': 'For such organisations, cost accounting can generate:'},
+ {'ul': ['cost per unit of product/service',
+         'cost of running the organisation by section/department',
+         'wages cost per unit and material cost per unit',
+         'cost per patient per consulting hour or per bed',
+         'budgetary control statements',
+         'cost per full-time-equivalent student',
+         'and branch operating statements.']}]},
 
   {'n': '1.3.7', 't': 'Value of cost information in the management decision-making process', 'b': [
     {'p': 'Business is dynamic — management must review decisions currently being implemented, '
@@ -504,24 +500,26 @@ CH = {
 
   ]},
 
-  {'n': '1.3.9', 't': 'Roles required of accounting technicians in collection, analysis and presentation of cost information', 'b': [
-    {'p': 'The accounting technician drives the day-to-day detail of information presentation — '
-          'laxity here has a profound, adverse effect on the quality and timeliness of the '
-          'information management relies on. Specifically, the technician is expected to:'},
-    {'ol': [
-      'ensure established formats for data compilation are correctly followed at every level;',
-      'monitor the regularity of data entry to ensure timeliness — hourly, daily, weekly and '
-      'monthly reports as required;',
-      'confirm the accuracy of figures supplied, through reasonableness checks or other '
-      'independent sources;',
-      'raise flags where extraneous or extraordinary figures appear;',
-      'prepare summaries of raw data showing results from various perspectives (e.g. sales by '
-      'branch, by period, by salesman, by season) to give a total picture;',
-      'draw summaries that are simple, straightforward and concise — not too voluminous for a '
-      'busy executive, without losing relevance; and',
-      'pre-empt questions with explanatory notes on the trends and movements observed.',
-    ]},
-  ]},
+  {'n': '1.3.9', 't': 'Roles required of accounting technicians in collection, analysis and presentation of cost information', 'b': [{'p': 'The accounting technician drives the day-to-day detail of information presentation — laxity here has '
+       'a profound, adverse effect on the quality and timeliness of the information management relies on. '
+       'Specifically, the technician is expected to:'},
+ {'ol': ['ensure established formats for data compilation are correctly followed at every level;',
+         'monitor the regularity of data entry to ensure timeliness — hourly, daily, weekly and monthly '
+         'reports as required;',
+         'confirm the accuracy of figures supplied, through reasonableness checks or other independent '
+         'sources;',
+         'raise flags where extraneous or extraordinary figures appear;',
+         'prepare summaries of raw data showing results from various perspectives (e.g. sales by branch, by '
+         'period, by salesman, by season) to give a total picture;',
+         'draw summaries that are simple, straightforward and concise — not too voluminous for a busy '
+         'executive, without losing relevance; and',
+         'pre-empt questions with explanatory notes on the trends and movements observed.']},
+ {'note': '[September 2019 MCQ 2](#/exams/2019-09/CA?q=mcq-2) prints **Understandability** as the quality '
+          'that is not always desirable. That unexplained key conflicts with the book’s own requirement for '
+          'simple, understandable reports (§1.2.12) and its warning against reports being too voluminous '
+          'here. Keep the original key as a source record; it does not establish that understandable '
+          'reporting is undesirable.',
+  'lbl': 'Printed key appears inconsistent'}]},
 
   {'n': '1.4', 't': 'Worksheet summary — definitions and structure', 'b': [
     {'p': 'Everything in this chapter, compressed for a last read-through.'},

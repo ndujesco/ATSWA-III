@@ -14,7 +14,7 @@ CH = {
    'Appreciate the necessity of capital budgeting in long-term decision making',
  ],
  'secs': [
-  {'n': '11.1', 't': 'Introduction — the concept of capital budgeting', 'b': [
+  {'sourceN': '11.1–11.1.1', 'n': '11.1', 't': 'Introduction — the concept of capital budgeting', 'b': [
     {'def': {'t': 'Capital budgeting', 'd': 'the planning of expenditure whose returns extend '
                   'beyond one year — deciding whether to commit resources to a project whose '
                   'benefits are spread across several future periods.'}},
@@ -215,7 +215,7 @@ CH = {
     ]}},
   ]},
 
-  {'n': '11.4', 't': 'Discounted Cash Flow (DCF) methods, and the Net Present Value method (11.5)', 'b': [
+  {'sourceN': '11.4–11.5', 'n': '11.4', 't': 'Discounted Cash Flow (DCF) methods, and the Net Present Value method (11.5)', 'b': [
     {'p': 'DCF methods use cash flows and **automatically account for the time value of '
           'money** — a Naira received today is worth more than the same Naira received later, '
           'since money received now can itself start earning a return. Values arising at '
@@ -388,736 +388,765 @@ CH = {
       ]}]}},
   ]},
 
-  {'n': '11.9', 't': 'Study text examination-type questions, worked', 'b': [
-    {'p': 'The study text closes the chapter with eight examination-type questions. All are '
-          'reproduced below with full answers.'},
-
-    {'eg': {'tag': 'Exam type — Q1', 't': 'Discuss briefly the payback or the ARR method',
-      'q': [{'p': 'Several methods are employed by management accountants for ascertaining the '
-                  'profitability of capital expenditure projects. Discuss briefly **one** of the '
-                  'following methods: (a) the pay-back method; (b) the accounting rate of return '
-                  'method.'}],
-      'a': [
-      {'note': 'Only one is required, but both are answered here so the chapter\'s coverage is '
-               'complete.'},
-      {'h4': '(a)  The payback method'},
-      {'def': {'t': 'Payback period', 'd': 'the length of time required for the net cash inflows '
-                    'from a project to recover the original cash outlay on it.'}},
-      {'fbox': {'h': 'Payback period', 'rows': [
-        {'lb': 'Even annual cash flows',
-         'tex': '\\text{Payback period} = \\frac{\\text{Initial investment}}'
-                '{\\text{Annual net cash inflow}}'},
-        {'lb': 'Uneven cash flows',
-         'tex': '\\text{Payback} = \\text{Years before full recovery} + '
-                '\\frac{\\text{Amount still unrecovered}}'
-                '{\\text{Cash inflow of the recovery year}}',
-         'nt': 'Build a cumulative cash flow column and find the year in which it turns '
-               'positive, then interpolate within that year.'},
-      ]}},
-      {'p': '**The decision rule:** accept a project whose payback period is shorter than the '
-            'maximum period the company has set; where projects are mutually exclusive, choose '
-            'the one with the **shortest** payback. It is a measure of **liquidity and risk**, '
-            'not of profitability — it answers "how long is our money at risk?", not "how much '
-            'will we make?"'},
-      {'p': '**Advantages:** simple to compute and easy for non-financial managers to '
-            'understand; emphasises early cash recovery, which matters to a business short of '
-            'cash; reduces risk by favouring projects whose returns arrive sooner and are '
-            'therefore more certain; useful where technology changes rapidly and distant cash '
-            'flows are speculative; and it needs no estimate of the cost of capital.'},
-      {'p': '**Disadvantages:** it **ignores the time value of money** (a naira in year 4 is '
-            'counted the same as a naira in year 1); it **ignores all cash flows after the '
-            'payback date**, so a project that pays back quickly and then stops is preferred to '
-            'one that pays back slowly and then earns for a decade; it therefore measures '
-            'liquidity rather than profitability and can reject value-creating projects; the '
-            'target payback period is arbitrary; and it ignores the scale of the investment.'},
-      {'h4': '(b)  The accounting rate of return method'},
-      {'def': {'t': 'Accounting rate of return (ARR)', 'd': 'the average annual accounting '
-                    'profit of a project expressed as a percentage of the capital invested in '
-                    'it. Also called the return on capital employed or return on investment '
-                    'method.'}},
-      {'fbox': {'h': 'Accounting rate of return', 'rows': [
-        {'lb': 'On initial investment',
-         'tex': 'ARR = \\frac{\\text{Average annual profit}}'
-                '{\\text{Initial investment}} \\times 100'},
-        {'lb': 'On average investment',
-         'tex': 'ARR = \\frac{\\text{Average annual profit}}'
-                '{\\text{Average investment}} \\times 100',
-         'nt': 'Average investment = (initial investment + scrap value) ÷ 2. The two versions '
-               'give very different percentages, so always state which you have used.'},
-      ]}},
-      {'p': '**The decision rule:** accept a project whose ARR exceeds the company\'s target '
-            'rate of return; between competing projects, choose the highest ARR.'},
-      {'p': '**Advantages:** simple to compute; easy to understand; uses **accounting profit**, '
-            'which is the measure by which the business and its managers are actually judged in '
-            'the published accounts; considers the **whole life** of the project, unlike '
-            'payback; and gives a percentage that is directly comparable with the company\'s '
-            'existing return on capital employed.'},
-      {'p': '**Disadvantages:** it **ignores the time value of money**; it uses **profit rather '
-            'than cash flow**, and profit is affected by depreciation policy and other '
-            'accounting conventions; averaging the profit conceals the pattern of returns, so '
-            'two projects with the same average but very different timing score identically; '
-            'the target rate is arbitrary; and there are two competing definitions (initial vs '
-            'average investment) which give different answers for the same project.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q2', 't': 'Two methods to guide a Board choosing between two '
-                                          'capital proposals',
-      'q': [{'p': 'A company wishes to expand its production. Two proposals of capital '
-                  'expenditure are being considered; each requires more or less the same outlay. '
-                  'As management accountant, you are required to furnish a profitability '
-                  'estimate to guide the Board in its decision. Describe briefly **two** methods '
-                  'that can be used for this purpose.'}],
-      'a': [
-      {'note': 'The question says the two proposals require **more or less the same outlay**. '
-               'That matters: where outlays are equal, the ranking problem that normally '
-               'separates NPV from the profitability index disappears, and NPV alone is '
-               'sufficient. Say so — it shows you read the question.'},
-      {'h4': 'Method 1 — Net Present Value (the recommended method)'},
-      {'def': {'t': 'Net present value', 'd': 'the sum of the present values of all a project\'s '
-                    'cash inflows and outflows, discounted at the company\'s cost of capital.'}},
-      {'tex': 'NPV = \\sum_{t=1}^{n} \\frac{C_t}{(1+r)^t} - I_0'},
-      {'p': 'where $C_t$ is the net cash flow in year $t$, $r$ the cost of capital, $n$ the '
-            'project life and $I_0$ the initial investment. **Decision rule:** accept if the NPV '
-            'is positive; between two mutually exclusive projects of similar size, choose the '
-            'higher NPV.'},
-      {'p': '**Why it should be recommended to the Board:** it is the only method that measures '
-            'the project in the terms the shareholders care about — **the absolute increase in '
-            'the value of the business, in today\'s naira**. It takes full account of the time '
-            'value of money, uses cash flows rather than accounting profit, considers the whole '
-            'life of the project, and allows for risk through the discount rate.'},
-      {'p': '**Limitations to mention:** it requires an estimate of the cost of capital; it is '
-            'harder for non-financial directors to interpret than a percentage or a period; and '
-            'it is sensitive to the reliability of the cash-flow forecasts.'},
-      {'h4': 'Method 2 — Internal Rate of Return'},
-      {'def': {'t': 'Internal rate of return', 'd': 'the discount rate at which a project\'s net '
-                    'present value is exactly zero — i.e. the rate of return the project itself '
-                    'earns on the funds invested in it.'}},
-      {'tex': 'IRR = A + \\frac{N_A}{N_A - N_B} \\times (B - A)'},
-      {'p': 'where $A$ and $B$ are two trial discount rates and $N_A$, $N_B$ the NPVs they '
-            'produce (one positive, one negative). **Decision rule:** accept if the IRR exceeds '
-            'the cost of capital.'},
-      {'p': '**Why it helps the Board:** it expresses the answer as a **percentage**, which '
-            'directors can compare directly against the cost of borrowing and against returns '
-            'available elsewhere, and it needs no precise cost of capital to compute — only to '
-            'interpret.'},
-      {'p': '**Limitations:** it can give multiple answers where cash flows change sign more '
-            'than once; it assumes interim cash flows are reinvested at the IRR itself, which is '
-            'usually unrealistic; and it measures a **rate** rather than an **amount**, so it '
-            'can rank a small, very profitable project above a large one that adds far more '
-            'value — though that problem does not arise here, since the two outlays are '
-            'similar.'},
-      {'h4': 'Recommendation'},
-      {'p': 'Present the Board with the **NPV of each proposal as the primary measure**, '
-            'supported by the **IRR** as a percentage they can compare with the cost of capital. '
-            'Add the payback period of each as a note on liquidity and risk. Where the two '
-            'methods disagree — which they can, even here — **follow the NPV**, because it '
-            'measures the absolute gain in shareholder value.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q3', 't': 'Payback period and NPV compared — which is superior?',
-      'q': [{'p': 'Give a comparative description of the Pay Back Period and Net Present Value '
-                  'approaches of investment appraisal. Which one of the two do you consider '
-                  'superior?'}],
-      'a': [
-      {'table': {'align': 'lll', 'head': ['', 'Payback period', 'Net present value'], 'rows': [
-        ['**What it measures**', 'The **time** taken to recover the original outlay — a measure '
-         'of liquidity and risk.', 'The **absolute increase in the value of the business**, in '
-         'today\'s naira — a measure of profitability.'],
-        ['**Unit of answer**', 'A period, in years and months.', 'An amount of money.'],
-        ['**Time value of money**', '**Ignored** — a naira in year 5 counts the same as a naira '
-         'in year 1.', '**Fully allowed for** — every cash flow is discounted to its present '
-         'value.'],
-        ['**Cash flows after the cut-off**', '**Ignored entirely**, however large.',
-         '**All included**, to the end of the project\'s life.'],
-        ['**Basis of measurement**', 'Cash flow.', 'Cash flow.'],
-        ['**Cost of capital needed?**', 'No.', 'Yes — the discount rate must be estimated.'],
-        ['**Decision rule**', 'Accept if payback is shorter than a target period set by '
-         'management (which is itself arbitrary).',
-         'Accept if NPV is positive — an objective rule derived from shareholder value.'],
-        ['**Scale of investment**', 'Ignored.', 'Reflected directly in the size of the NPV.'],
-        ['**Ease of use**', 'Very simple; easily understood by non-financial managers.',
-         'More complex; needs discount tables and a cost of capital.'],
-        ['**Risk**', 'Handled crudely, by preferring early recovery.',
-         'Handled explicitly, through a risk-adjusted discount rate.'],
-      ]}},
-      {'h4': 'Which is superior?'},
-      {'p': '**Net present value is clearly superior as a measure of a project\'s worth,** for '
-            'three reasons that go to the heart of what an investment decision is:'},
-      {'ol': [
-        'It **recognises the time value of money.** Money has a cost; tying it up for five years '
-        'is not the same as tying it up for one, and only NPV prices that difference.',
-        'It **counts every cash flow over the whole life of the project.** Payback\'s blindness '
-        'to everything after the cut-off date is not a minor limitation — it is capable of '
-        'reversing the right answer. Question 8 below is an exact illustration: Project 1 pays '
-        'back sooner (4.68 years against 5.05) and so wins on payback, yet Project 2 generates '
-        'N2.00m of net cash against Project 1\'s N0.70m. Payback picks the wrong project.',
-        'Its **decision rule is objective** — a positive NPV means the project earns more than '
-        'the cost of the money invested in it, and therefore makes the shareholders better off. '
-        'Payback\'s target period is simply chosen.',
-      ]},
-      {'p': '**But payback retains a real and legitimate role**, and a complete answer says so. '
-            'It is a useful **first screen** and a **risk indicator**: it is quick, it needs no '
-            'cost of capital, it is readily understood, and it speaks directly to a business '
-            'that is short of cash or operating where distant forecasts are worthless — a '
-            'politically unstable market, or a fast-moving technology. Most companies in '
-            'practice compute both, using payback to screen out projects that tie money up for '
-            'too long and NPV to choose among those that survive the screen.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q4', 't': 'Payback described, and the NPV of two projects at 12% '
-                                          'and 15%',
-      'q': [
-      {'p': '**(a)** Describe briefly the payback period method of investment appraisal and '
-            'state **five advantages** and **five disadvantages** of the method.'},
-      {'p': '**(b)** Using the information below, prepare tables showing the net present values '
-            'of each of the projects at applicable rates of **12%** and **15%** per annum, and '
-            'comment on which project would be profitable and should be undertaken.'},
-      {'stmt': {'t': 'Project cash flows (N)', 'rows': [
-        ['', 'Project X', 'Project Y', '@hd'],
-        ['Initial investment', 100000, 100000],
-        ['Cash flow — year 1', 5000, 60000],
-        ['Cash flow — year 2', 20000, 40000],
-        ['Cash flow — year 3', 100000, 100000],
-        ['Cash flow — year 4', 10000, 5000],
-      ]}},
-      {'note': 'The study text heads **both** columns "Project X". The second is Project Y; the '
-               'two sets of figures are plainly different and the question asks you to compare '
-               'them.'}],
-      'a': [
-      {'h4': '(a)  The payback period method'},
-      {'p': 'The payback period is the **time required for a project\'s net cash inflows to '
-            'recover its original cash outlay**. Where inflows are even, it is the investment '
-            'divided by the annual inflow; where they are uneven, a cumulative cash-flow column '
-            'is built and the recovery point interpolated within the year in which the '
-            'cumulative figure turns positive. A project is accepted if its payback is shorter '
-            'than a target period set by management, and between competing projects the shortest '
-            'payback wins.'},
-      {'h4': 'Five advantages'},
-      {'ol': [
-        '**Simple to calculate and easy to understand**, even for managers with no financial '
-        'training.',
-        '**Emphasises liquidity** — it shows how quickly the cash committed comes back, which is '
-        'critical for a business whose working capital is tight.',
-        '**Reduces risk** by favouring projects whose returns arrive early, since near cash '
-        'flows are far more certain than distant ones.',
-        '**Needs no estimate of the cost of capital**, so it can be applied where that figure is '
-        'unknown or disputed.',
-        '**Useful in volatile or fast-changing conditions** — rapidly obsolescing technology, or '
-        'politically uncertain markets — where forecasts beyond a few years are worthless '
-        'anyway.',
-        '**Serves as a quick screening device**, eliminating obviously unsuitable projects '
-        'before the more expensive discounted analysis is done.',
-      ]},
-      {'h4': 'Five disadvantages'},
-      {'ol': [
-        '**Ignores the time value of money** — N1 received in year 4 is treated as equal to N1 '
-        'received in year 1.',
-        '**Ignores all cash flows after the payback date**, so a highly profitable long-life '
-        'project can be rejected in favour of a short-lived one.',
-        '**Measures liquidity, not profitability** — it cannot tell you whether a project is '
-        'worth doing, only how fast the money comes back.',
-        '**The target payback period is arbitrary**, chosen by management rather than derived '
-        'from any principle.',
-        '**Ignores the size of the investment** and the total return, so it cannot rank projects '
-        'of different scale.',
-        '**Ignores the pattern of cash flows within the payback period** — two projects '
-        'recovering the same amount over the same period score identically even if one recovers '
-        'most of it in the first month.',
-      ]},
-      {'h4': '(b)  Net present values at 12% and 15%'},
-      {'stmt': {'t': 'Net present value at 12% (N)', 'rows': [
-        ['Year', 'DF @ 12%', 'Project X cash flow', 'Project X PV', 'Project Y cash flow',
-         'Project Y PV', '@hd'],
-        [1, 0.8929, 5000, 4465, 60000, 53574],
-        [2, 0.7972, 20000, 15944, 40000, 31888],
-        [3, 0.7118, 100000, 71180, 100000, 71180],
-        [4, 0.6355, 10000, 6355, 5000, 3178],
-        ['**Total present value**', '', '', 97944, '', 159820, '@t'],
-        ['Less: initial investment', '', '', 100000, '', 100000],
-        ['**Net present value**', '', '', -2056, '', 59820, '@tt'],
-      ]}},
-      {'stmt': {'t': 'Net present value at 15% (N)', 'rows': [
-        ['Year', 'DF @ 15%', 'Project X cash flow', 'Project X PV', 'Project Y cash flow',
-         'Project Y PV', '@hd'],
-        [1, 0.8696, 5000, 4348, 60000, 52176],
-        [2, 0.7561, 20000, 15122, 40000, 30244],
-        [3, 0.6575, 100000, 65750, 100000, 65750],
-        [4, 0.5718, 10000, 5718, 5000, 2859],
-        ['**Total present value**', '', '', 90938, '', 151029, '@t'],
-        ['Less: initial investment', '', '', 100000, '', 100000],
-        ['**Net present value**', '', '', -9062, '', 51029, '@tt'],
-      ]}},
-      {'h4': 'Comment'},
-      {'stmt': {'t': 'Summary of net present values (N)', 'rows': [
-        ['', 'Project X', 'Project Y', '@hd'],
-        ['NPV at 12%', -2056, 59820],
-        ['NPV at 15%', -9062, 51029],
-        '@gap',
-        ['Total undiscounted cash inflows', 135000, 205000],
-        ['Decision', '**REJECT**', '**ACCEPT**'],
-      ]}},
-      {'ol': [
-        '**Project Y should be undertaken.** Its NPV is strongly positive at both discount '
-        'rates — N59,820 at 12% and N51,029 at 15% — so it earns well above the cost of capital '
-        'on either assumption and increases the value of the business by that amount in today\'s '
-        'naira.',
-        '**Project X should be rejected.** Its NPV is **negative at both rates** (−N2,056 at 12% '
-        'and −N9,062 at 15%), so it fails to recover even the cost of the money invested in it.',
-        '**Why they differ so sharply.** Project Y returns more cash in total (N205,000 against '
-        'N135,000) **and** returns it earlier — N60,000 in year 1 against X\'s N5,000. Project '
-        'X is back-loaded, with 74% of its total inflow arriving in year 3, and discounting '
-        'punishes exactly that pattern.',
-        '**Sensitivity.** Raising the rate from 12% to 15% costs Project Y N8,791 of NPV but '
-        'leaves it comfortably positive; it pushes Project X from marginally negative to clearly '
-        'negative. Project X\'s internal rate of return is evidently just below 12%, so it '
-        'would be rejected at any realistic cost of capital.',
-      ]}]}},
-
-    {'eg': {'tag': 'Exam type — Q5 (ICAN, November/December 1993)',
-      't': 'Electro PLC — appraising a three-year market-share promotion at a 30% hurdle rate',
-      'q': [
-      {'p': 'Electro PLC, a manufacturer of high-quality metal cables, has a **15% market '
-            'share** for one of its products, ECM-1. The standard cost and profit margin for one '
-            'unit of ECM-1 are:'},
-      {'stmt': {'t': 'Standard cost and profit per unit (N)', 'rows': [
-        ['Sales', '', 10.00],
-        ['Less direct cost:  material', 4.00, ''],
-        ['                           labour', 2.00, ''],
-        ['                           overheads', 1.00, 7.00],
-        ['**Contribution**', '', 3.00, '@t'],
-        ['Less: fixed costs', '', 2.00],
-        ['**Profit**', '', 1.00, '@tt'],
-      ]}},
-      {'p': 'Budgeted sales of ECM-1 during 1994 are **N3,000,000**. The marketing director '
-            'proposes that market share could be increased to **20%** and maintained at that '
-            'level for the next three years if the following promotion budgets were spent at '
-            'the **beginning of each** of the next three years: Year 1 **N200,000**; Year 2 '
-            '**N150,000**; Year 3 **N150,000**.'},
-      {'p': 'The fixed cost of N2 per unit **includes 50% for the depreciation charge**. The '
-            'remaining 50% would be expected to **increase by N60,000** with the increase in '
-            'market share. The company has an overall profit return objective of **30%**, which '
-            'it applies as a hurdle rate to this type of project.'},
-      {'p': '**Required:** **(a)** evaluate whether the project should be adopted, assuming '
-            'these are the only variables; **(b)** show with suitable calculations what the '
-            'outcome will be if only a **4% increase in market share** is achieved.'},
-      {'stmt': {'t': 'Present value factors supplied', 'rows': [
-        ['Year', '10%', '20%', '30%', '40%', '@hd'],
-        [1, 0.9091, 0.8333, 0.7692, 0.7143],
-        [2, 0.8264, 0.6944, 0.5917, 0.5102],
-        [3, 0.7513, 0.5787, 0.4552, 0.3644],
-        [4, 0.6830, 0.4823, 0.3501, 0.2603],
-        [5, 0.6209, 0.4019, 0.2693, 0.1859],
-      ]}}],
-      'a': [
-      {'h4': 'Step 1 — the size of the market, and the extra volume'},
-      {'stmt': {'t': 'Market size', 'rows': [
-        ['Budgeted sales value of ECM-1, 1994', '', 'N3,000,000'],
-        ['÷ selling price per unit', '', 'N10.00'],
-        ['**Budgeted units at a 15% share**', '', '300,000 units', '@t'],
-        ['**Total market**  (300,000 ÷ 15%)', '', '2,000,000 units', '@t'],
-        '@gap',
-        ['Units at a 20% share  (2,000,000 × 20%)', '', '400,000 units'],
-        ['**Increase in units**', '', '100,000 units', '@tt'],
-      ]}},
-      {'h4': 'Step 2 — the incremental operating cash flow'},
-      {'p': 'Only the **incremental** figures matter. Contribution per unit is unchanged at N3, '
-            'and of the N2 fixed cost per unit, **half is depreciation** — a non-cash charge '
-            'that is irrelevant to a discounted cash flow appraisal — while the other half rises '
-            'by a stated **N60,000** in total.'},
-      {'stmt': {'t': 'Incremental operating cash flow per annum (N)', 'rows': [
-        ['Additional contribution:  100,000 units × N3', '', 300000],
-        ['Less: increase in cash fixed costs', '', 60000],
-        ['**Net incremental operating cash flow, each year for 3 years**', '', 240000, '@tt'],
-      ]}},
-      {'warn': '**Depreciation is excluded.** It is not a cash flow, and in any case the '
-               'question says the depreciation half of the fixed cost does not change. '
-               'Including it would understate the annual benefit by N150,000 and reverse the '
-               'decision. In every DCF appraisal, work with **cash**, not accounting profit.'},
-      {'h4': 'Step 3 — the timing of the promotion spend'},
-      {'p': 'The promotion is paid at the **beginning** of each year, so Year 1\'s spend falls '
-            'at **time 0**, Year 2\'s at the end of year 1 (time 1) and Year 3\'s at time 2. '
-            'The operating cash flows arise at the **end** of each year.'},
-      {'stmt': {'t': 'Net cash flow by period (N)', 'rows': [
-        ['Time', 'Operating cash flow', 'Promotion spend', 'Net cash flow', '@hd'],
-        ['0  (start of year 1)', 0, -200000, -200000],
-        ['1  (end of year 1 / start of year 2)', 240000, -150000, 90000],
-        ['2  (end of year 2 / start of year 3)', 240000, -150000, 90000],
-        ['3  (end of year 3)', 240000, 0, 240000],
-      ]}},
-      {'h4': '(a)  Net present value at the 30% hurdle rate'},
-      {'stmt': {'t': 'NPV at 30% (N)', 'rows': [
-        ['Time', 'Net cash flow', 'DF @ 30%', 'Present value', '@hd'],
-        [0, -200000, 1.0000, -200000],
-        [1, 90000, 0.7692, 69228],
-        [2, 90000, 0.5917, 53253],
-        [3, 240000, 0.4552, 109248],
-        ['**Net present value**', '', '', 31729, '@tt'],
-      ]}},
-      {'p': '**The project should be adopted.** At the company\'s own 30% hurdle rate the net '
-            'present value is **positive at N31,729**, so the promotion campaign earns more than '
-            'the 30% return the company requires and increases shareholder value.'},
-      {'h4': '(b)  If only a 4% increase in market share is achieved'},
-      {'p': 'A 4 percentage-point rise takes the share from 15% to **19%**, not 20%:'},
-      {'stmt': {'t': 'Revised incremental cash flow (N)', 'rows': [
-        ['Additional units  (2,000,000 × 4%)', '', '80,000 units'],
-        ['Additional contribution:  80,000 × N3', '', 240000],
-        ['Less: increase in cash fixed costs (unchanged — a step cost)', '', 60000],
-        ['**Net incremental operating cash flow per annum**', '', 180000, '@tt'],
-      ]}},
-      {'stmt': {'t': 'Revised NPV at 30% (N)', 'rows': [
-        ['Time', 'Operating flow', 'Promotion', 'Net cash flow', 'DF @ 30%', 'Present value',
-         '@hd'],
-        [0, 0, -200000, -200000, 1.0000, -200000],
-        [1, 180000, -150000, 30000, 0.7692, 23076],
-        [2, 180000, -150000, 30000, 0.5917, 17751],
-        [3, 180000, 0, 180000, 0.4552, 81936],
-        ['**Net present value**', '', '', '', '', -77237, '@tt'],
-      ]}},
-      {'p': '**On a 4% increase the project should be rejected** — the NPV is **negative at '
-            'N77,237**, so the campaign would destroy value.'},
-      {'key': 'The contrast between (a) and (b) is the real lesson. A **one percentage point** '
-              'shortfall in market share — 19% instead of 20% — swings the NPV by **N108,966**, '
-              'from +N31,729 to −N77,237, and turns a worthwhile project into a loss-making one. '
-              'The proposal is therefore **extremely sensitive to the marketing director\'s '
-              'forecast**, and the break-even share can be found exactly: the project needs '
-              'enough extra units for the NPV to reach zero, which lies between a 4% and a 5% '
-              'increase, very close to 4.7 percentage points. Before committing N500,000 of '
-              'promotion spend the Board should ask how confident the marketing director is of '
-              'hitting 20% rather than 19%, and should consider staging the spend so that years '
-              '2 and 3 can be abandoned if year 1 disappoints.'},
-      {'note': 'Other factors a full answer would raise: competitors are unlikely to surrender '
-               '5% of the market without responding, and a price war would cut the N3 '
-               'contribution; the assumption that the higher share is **maintained** for three '
-               'years with no further promotion after year 3 is optimistic; and a 30% hurdle '
-               'rate is high, so the project is being judged very severely.'}]}},
-
-    {'eg': {'tag': 'Exam type — Q6 (ACCA, Financial Management)',
-      't': 'Bourbon Can Company — six projects, N600,000 of capital, and a rationing decision',
-      'q': [
-      {'p': 'As financial consultant to the Bourbon Can Company, a medium-sized manufacturing '
-            'business, you have been asked to advise on the current year\'s investment '
-            'proposals. The proposed projects are **not mutually exclusive**:'},
-      {'stmt': {'t': 'The six projects', 'rows': [
-        ['Project', 'Description', 'Initial cost (N)', 'Expected life', 'Annual after-tax cash '
-         'inflow (N)', '@hd'],
-        ['A', 'Replace existing data processing equipment', 250000, '6 years', 72500],
-        ['B', 'Develop a new type of container', 70000, '5 years', 30000],
-        ['C', 'Install safety equipment', 90000, '3 years', 45000],
-        ['D', 'Construct a new factory building', 210000, '8 years', 57000],
-        ['E', 'Extend the existing loading equipment', 170000, '4 years', 70000],
-        ['F', 'Purchase patent rights to a new process', 135000, '7 years', 36000],
-      ]}},
-      {'ul': [
-        'Except for **project B**, all cash inflows would commence in the current year; '
-        'B\'s inflows commence **in one year\'s time**.',
-        'Annual cash inflows are always received on the **last day of the year**.',
-        'Tax may be assumed to have been paid in the year in which the profits are earned.',
-        'The company\'s **weighted average cost of capital is 16%**.',
-        'The company is in a **capital rationing situation** and will have only **N600,000** to '
-        'invest in capital projects in the current year.',
-      ]},
-      {'p': '**Required:** **(a)** which projects would you recommend the company undertake, and '
-            'why? **(b)** What factors, other than those given, would you advise the company to '
-            'consider before deciding?'}],
-      'a': [
-      {'h4': 'Step 1 — the net present value and profitability index of each project'},
-      {'p': 'All the inflows are equal annual amounts, so each is an **annuity** and the '
-            'cumulative discount factor at 16% can be used. Project B\'s inflows run from the '
-            'end of year 2 to the end of year 6, so its factor is the six-year annuity factor '
-            '**less** the one-year factor.'},
-      {'stmt': {'t': 'Cumulative discount factors at 16%', 'rows': [
-        ['Years', 1, 2, 3, 4, 5, 6, 7, 8, '@hd'],
-        ['Cumulative factor', 0.8621, 1.6052, 2.2459, 2.7982, 3.2743, 3.6847, 4.0386, 4.3436],
-      ]}},
-      {'stmt': {'t': 'Net present value and profitability index (N)', 'rows': [
-        ['Project', 'Annual inflow', 'Annuity factor', 'Present value of inflows',
-         'Initial cost', 'NPV', 'Profitability index', '@hd'],
-        ['A', 72500, '3.6847  (yrs 1–6)', 267141, 250000, 17141, 1.069],
-        ['B', 30000, '2.8226  (yrs 2–6)', 84678, 70000, 14678, 1.210],
-        ['C', 45000, '2.2459  (yrs 1–3)', 101066, 90000, 11066, 1.123],
-        ['D', 57000, '4.3436  (yrs 1–8)', 247585, 210000, 37585, 1.179],
-        ['E', 70000, '2.7982  (yrs 1–4)', 195874, 170000, 25874, 1.152],
-        ['F', 36000, '4.0386  (yrs 1–7)', 145390, 135000, 10390, 1.077],
-        ['**Total**', '', '', '', 925000, 116734, '', '@tt'],
-      ]}},
-      {'note': 'Project B\'s factor: the five inflows run from year 2 to year 6, so the factor '
-               'is the six-year cumulative figure less the first year — '
-               '$3.6847 - 0.8621 = 2.8226$. Deferring the start of an annuity by one year is '
-               'always handled this way, and it is the detail this question is really testing.'},
-      {'h4': 'Step 2 — the rationing problem'},
-      {'p': '**Every project has a positive NPV**, so in the absence of a constraint all six '
-            'should be undertaken, at a total cost of N925,000 for a combined NPV of N116,734. '
-            'But only **N600,000** is available, so N325,000 of worthwhile investment must be '
-            'given up and the money must be allocated to the projects that produce the most NPV '
-            '**per naira invested** — which is what the **profitability index** measures.'},
-      {'tex': '\\text{Profitability index} = \\frac{\\text{Present value of inflows}}'
-              '{\\text{Initial investment}}'},
-      {'stmt': {'t': 'Ranking by profitability index, and the cumulative outlay', 'rows': [
-        ['Rank', 'Project', 'PI', 'Cost (N)', 'Cumulative cost (N)', 'NPV (N)', '@hd'],
-        ['1st', 'B', 1.210, 70000, 70000, 14678],
-        ['2nd', 'D', 1.179, 210000, 280000, 37585],
-        ['3rd', 'E', 1.152, 170000, 450000, 25874],
-        ['4th', 'C', 1.123, 90000, 540000, 11066],
-        ['5th', 'F', 1.077, 135000, '*675,000 — exceeds the limit*', 10390],
-        ['6th', 'A', 1.069, 250000, '*—*', 17141],
-      ]}},
-      {'h4': '(a)  Recommendation'},
-      {'stmt': {'t': 'Recommended portfolio', 'rows': [
-        ['Project', 'Cost (N)', 'NPV (N)', '@hd'],
-        ['B — new type of container', 70000, 14678],
-        ['C — safety equipment', 90000, 11066],
-        ['D — new factory building', 210000, 37585],
-        ['E — extend loading equipment', 170000, 25874],
-        ['**Total committed**', 540000, 89203, '@tt'],
-        ['*Funds remaining unspent*', 60000, '', ''],
-      ]}},
-      {'p': '**Undertake projects B, C, D and E**, at a total cost of **N540,000**, producing a '
-            'combined net present value of **N89,203**. Projects A and F are rejected: neither '
-            'can be afforded out of the N60,000 remaining, and both rank lowest on profitability '
-            'index.'},
-      {'p': '**Reasons for the choice:** the projects are indivisible and not mutually '
-            'exclusive, so the task is to find the **combination** that maximises total NPV '
-            'within the N600,000 limit. Ranking by profitability index identifies the candidates '
-            'that generate the most present value per naira of scarce capital. Testing the '
-            'alternative affordable combinations confirms this one is optimal — for instance '
-            'B+D+E+F costs N585,000 but yields only N88,527, and A+B+D costs N530,000 and yields '
-            'only N69,404.'},
-      {'warn': 'Note why **NPV alone is the wrong ranking tool here**. On NPV, project D (N37,585) '
-               'and project E (N25,874) beat project B (N14,678) — yet B is ranked first, because '
-               'it generates N1.21 of present value for every naira invested where D generates '
-               'N1.18 and E N1.15. Under capital rationing the scarce resource is **capital**, so '
-               'the ranking must be by return **per unit of the limiting factor** — exactly the '
-               'principle used for machine hours in Chapter 9 Q1.'},
-      {'h4': '(b)  Other factors to consider before deciding'},
-      {'ol': [
-        '**Project C is safety equipment**, which may well be a **legal requirement** rather '
-        'than a discretionary investment. If so it must be undertaken whatever its NPV, and '
-        'should be removed from the ranking exercise and funded first. The consequences of not '
-        'installing it — prosecution, injury, closure, damage to reputation — are not captured '
-        'by a cash-flow model.',
-        '**Can the capital constraint be relaxed?** N325,000 of positive-NPV investment is being '
-        'forgone. Borrowing, leasing, a rights issue, staging the projects across two years, or '
-        'disposing of surplus assets might all release funds; the cost of doing so should be '
-        'compared with the N27,531 of NPV being given up on A and F.',
-        '**The N60,000 left unspent** should be invested somewhere, or the ranking reconsidered '
-        'to use it.',
-        '**Risk differs between projects.** All have been discounted at the same 16%, but '
-        'developing a **new container** and buying **patent rights to a new process** are '
-        'speculative, while replacing data processing equipment is not. Risk-adjusted discount '
-        'rates, or sensitivity analysis on each project, would give a truer ranking.',
-        '**Reliability of the estimates** — how firm are the cash-flow forecasts and the project '
-        'lives, and who produced them?',
-        '**Inflation**, and whether the cash flows and the 16% rate are both in money terms or '
-        'both in real terms.',
-        '**Interdependence between projects** — the new factory building (D) may be a '
-        'prerequisite for extending the loading equipment (E), or the two may compete for the '
-        'same site or management time.',
-        '**Non-financial and strategic factors** — effect on employees and industrial relations, '
-        'on customers and on the company\'s competitive position; whether rejecting the patent '
-        'rights (F) allows a competitor to acquire them.',
-        '**Scrap or residual values** at the end of each project\'s life, which the question '
-        'ignores entirely.',
-        '**The accuracy of the 16% cost of capital**, and whether it is the right rate for '
-        'projects of this risk.',
-      ]}]}},
-
-    {'eg': {'tag': 'Exam type — Q7',
-      't': 'Usman & Co. — traditional techniques, and NPV applied to two projects',
-      'q': [
-      {'p': '**(a)** Define any two "traditional" investment appraisal techniques, showing '
-            'briefly their advantages and disadvantages.'},
-      {'p': '**(b)** Demonstrate your knowledge of the more acceptable technique using cash flows '
-            'expected from two projects being negotiated by the General Manager of Usman & Co. '
-            'Ltd. Both projects require an initial cash investment of **N25,000** each. Project '
-            'one will earn **N8,000** in the first year, **N10,000** and **N6,000** in the next '
-            'two years, and **N1,000** each in years four and five.'},
-      {'warn': 'The question as printed **stops there** — the cash flows of project two are '
-               'missing from the study text altogether, and the sentence ends mid-thought. '
-               '(Confirmed by rendering page 303 of the PDF; it is not an extraction artifact.) '
-               'The question cannot be answered as set. Part (b) below works **project one** in '
-               'full on the data given, and then supplies a plausible project two — clearly '
-               'marked as supplied, not as the examiner\'s — so that the comparison the '
-               'question asks for can be demonstrated.',
-       'lbl': 'The question is incomplete in the study text'}],
-      'a': [
-      {'h4': '(a)  Two traditional techniques'},
-      {'p': 'The **traditional** (or non-discounted) techniques are those that take no account '
-            'of the time value of money: the **payback period** and the **accounting rate of '
-            'return**.'},
-      {'table': {'align': 'lll', 'head': ['', 'Payback period',
-        'Accounting rate of return (ARR)'], 'rows': [
-        ['**Definition**', 'The time required for a project\'s net cash inflows to recover the '
-         'original outlay.',
-         'Average annual accounting **profit** as a percentage of the capital invested.'],
-        ['**Formula**', '$\\dfrac{\\text{Initial investment}}'
-         '{\\text{Annual net cash inflow}}$, or by interpolation where flows are uneven.',
-         '$\\dfrac{\\text{Average annual profit}}{\\text{Initial (or average) investment}} '
-         '\\times 100$'],
-        ['**Decision rule**', 'Accept if shorter than the target period; choose the shortest.',
-         'Accept if above the target return; choose the highest.'],
-        ['**Advantages**', 'Simple; emphasises liquidity; reduces risk by favouring early '
-         'returns; needs no cost of capital; a useful first screen.',
-         'Simple; uses the profit measure by which the business is actually judged; considers '
-         'the **whole life** of the project; gives a percentage comparable with the existing '
-         'return on capital employed.'],
-        ['**Disadvantages**', 'Ignores the time value of money; **ignores everything after the '
-         'payback date**; measures liquidity rather than profitability; the target period is '
-         'arbitrary; ignores project size.',
-         'Ignores the time value of money; uses **profit rather than cash**, so it is distorted '
-         'by depreciation policy; averaging hides the timing of returns; the target rate is '
-         'arbitrary; two competing definitions give different answers.'],
-      ]}},
-      {'h4': '(b)  The more acceptable technique — net present value'},
-      {'p': 'The discounted methods are superior, and **net present value** is the most '
-            'acceptable of them, because it measures the absolute increase in the value of the '
-            'business after allowing for the cost of the money tied up. Applying it to project '
-            'one, at an assumed cost of capital of **10%** (no rate is given in the question — '
-            'state your assumption):'},
-      {'stmt': {'t': 'Project one — net present value at 10% (N)', 'rows': [
-        ['Year', 'Cash flow', 'DF @ 10%', 'Present value', '@hd'],
-        [0, -25000, 1.0000, -25000],
-        [1, 8000, 0.9091, 7273],
-        [2, 10000, 0.8264, 8264],
-        [3, 6000, 0.7513, 4508],
-        [4, 1000, 0.6830, 683],
-        [5, 1000, 0.6209, 621],
-        ['**Total present value of inflows**', '', '', 21349, '@t'],
-        ['**Net present value**', '', '', -3651, '@tt'],
-      ]}},
-      {'p': '**Project one should be rejected.** Although its total undiscounted inflows of '
-            'N26,000 exceed the N25,000 invested, the margin is only N1,000 — and once the cash '
-            'flows are discounted at 10% the project shows a **negative NPV of N3,651**. It does '
-            'not earn the cost of the capital employed in it. Note that its **payback period** '
-            'is $2 + \\tfrac{7{,}000}{6{,}000}$ — that is, during year 3, at about **2.17 '
-            'years** — which looks respectable, and is precisely the kind of case where the '
-            'traditional methods mislead.'},
-      {'h4': 'A supplied project two, for the comparison the question intends'},
-      {'note': 'The figures below are **not from the study text** — they are supplied here so '
-               'the comparison can be demonstrated. Treat them as an illustration of the method, '
-               'not as the examiner\'s data.'},
-      {'stmt': {'t': 'Project two (supplied) — net present value at 10% (N)', 'rows': [
-        ['Year', 'Cash flow', 'DF @ 10%', 'Present value', '@hd'],
-        [0, -25000, 1.0000, -25000],
-        [1, 6000, 0.9091, 5455],
-        [2, 8000, 0.8264, 6611],
-        [3, 9000, 0.7513, 6762],
-        [4, 7000, 0.6830, 4781],
-        [5, 5000, 0.6209, 3105],
-        ['**Total present value of inflows**', '', '', 26714, '@t'],
-        ['**Net present value**', '', '', 1714, '@tt'],
-      ]}},
-      {'p': '**Project two would be chosen.** Its NPV is positive at N1,714 against project '
-            'one\'s negative N3,651, even though its payback is **longer** (3.71 years against '
-            '2.17) — because it keeps earning after project one has dwindled to N1,000 a year. '
-            'That is exactly the comparison the examiner was setting up, and exactly why the '
-            'discounted method is "the more acceptable technique".'}]}},
-
-    {'eg': {'tag': 'Exam type — Q8 (PE II, May/June 1994)',
-      't': 'Modern Tech. Services — payback periods, and what payback conceals',
-      'q': [
-      {'p': 'Modern Tech. Services Ltd is considering two alternative projects for a business '
-            'expansion programme in the Northern part of the country. The projects have the '
-            'following Naira cash-flow profiles:'},
-      {'stmt': {'t': 'Cash flow profiles (N million)', 'rows': [
-        ['Year', 'Project 1', 'Project 2', '@hd'],
-        [0, '(1.00)', '(3.00)'],
-        [1, '(2.00)', 0.20],
-        [2, 0.95, 0.50],
-        [3, 0.85, 0.65],
-        [4, 0.78, 0.75],
-        [5, 0.62, 0.80],
-        [6, 0.40, 1.90],
-        [7, 0.10, 0.20],
-      ]}},
-      {'p': '**Required:** **(a)** calculate the payback period for each project; **(b)** based '
-            'on payback periods, advise which project should be chosen; **(c)** state the '
-            'advantages and disadvantages of the payback period criterion of investment '
-            'appraisal.'}],
-      'a': [
-      {'h4': '(a)  Payback periods'},
-      {'note': 'Project 1 has **two outflows** — N1m at time 0 and a further N2m at the end of '
-               'year 1 — so the total investment to be recovered is N3m, the same as project 2, '
-               'but it is committed later. The cleanest method is a single cumulative net '
-               'cash-flow column that includes both the outflows and the inflows.'},
-      {'stmt': {'t': 'Project 1 — cumulative net cash flow (N million)', 'rows': [
-        ['Year', 'Cash flow', 'Cumulative', '@hd'],
-        [0, '(1.00)', '(1.00)'],
-        [1, '(2.00)', '(3.00)'],
-        [2, 0.95, '(2.05)'],
-        [3, 0.85, '(1.20)'],
-        [4, 0.78, '(0.42)'],
-        ['**5**', '**0.62**', '**0.20  ← turns positive**'],
-        [6, 0.40, 0.60],
-        [7, 0.10, 0.70],
-      ]}},
-      {'tex': '\\text{Payback}_1 = 4 \\text{ years} + \\frac{0.42}{0.62} '
-              '= 4 + 0.68 = \\mathbf{4.68 \\text{ years}}'},
-      {'stmt': {'t': 'Project 2 — cumulative net cash flow (N million)', 'rows': [
-        ['Year', 'Cash flow', 'Cumulative', '@hd'],
-        [0, '(3.00)', '(3.00)'],
-        [1, 0.20, '(2.80)'],
-        [2, 0.50, '(2.30)'],
-        [3, 0.65, '(1.65)'],
-        [4, 0.75, '(0.90)'],
-        [5, 0.80, '(0.10)'],
-        ['**6**', '**1.90**', '**1.80  ← turns positive**'],
-        [7, 0.20, 2.00],
-      ]}},
-      {'tex': '\\text{Payback}_2 = 5 \\text{ years} + \\frac{0.10}{1.90} '
-              '= 5 + 0.05 = \\mathbf{5.05 \\text{ years}}'},
-      {'h4': '(b)  Advice based on payback periods'},
-      {'stmt': {'t': 'Comparison', 'rows': [
-        ['', 'Project 1', 'Project 2', '@hd'],
-        ['Payback period', '4.68 years', '5.05 years'],
-        ['**Decision on the payback criterion**', '**CHOOSE**', 'reject'],
-      ]}},
-      {'p': '**On the payback criterion, Project 1 should be chosen** — it recovers the N3m '
-            'invested about four and a half months sooner than Project 2.'},
-      {'warn': 'But look at what that criterion is throwing away. Over the full seven years '
-               '**Project 1 generates N3.70m of inflows against a N3.00m outlay — a net gain of '
-               'N0.70m**, while **Project 2 generates N5.00m against the same N3.00m — a net '
-               'gain of N2.00m**, nearly three times as much. Project 2\'s single largest '
-               'inflow, N1.90m in year 6, falls **after** Project 1 has already paid back, so '
-               'payback never sees it. A company that followed the payback rule here would '
-               'forgo N1.30m of net cash. This question is a textbook demonstration of '
-               'payback\'s central defect, and a complete answer **must say so** even though '
-               'part (b) asks only for the payback-based advice.',
-       'lbl': 'What payback conceals here'},
-      {'stmt': {'t': 'Total cash generated over the full seven years (N million)', 'rows': [
-        ['', 'Project 1', 'Project 2', '@hd'],
-        ['Total inflows', 3.70, 5.00],
-        ['Total outflows', '(3.00)', '(3.00)'],
-        ['**Net cash generated**', 0.70, 2.00, '@tt'],
-      ]}},
-      {'p': '**Recommendation:** advise the Board that on payback alone Project 1 wins, but that '
-            'the criterion is inadequate here and a **discounted cash flow appraisal of both '
-            'projects should be carried out before any commitment is made**. Project 2 is very '
-            'likely to show the higher net present value despite its slower payback.'},
-      {'h4': '(c)  Advantages and disadvantages of the payback period criterion'},
-      {'table': {'align': 'll', 'head': ['Advantages', 'Disadvantages'], 'rows': [
-        ['**Simple** to calculate and to understand, even for managers without financial '
-         'training.',
-         '**Ignores the time value of money** — N1 in year 7 is counted as equal to N1 in year '
-         '1.'],
-        ['**Emphasises liquidity** — it shows how quickly committed cash returns, which matters '
-         'to a business with tight working capital.',
-         '**Ignores all cash flows after the payback date**, however large — as Project 2\'s '
-         'N1.90m in year 6 demonstrates.'],
-        ['**Reduces risk** by favouring projects whose returns arrive early, since near-term '
-         'forecasts are far more reliable than distant ones.',
-         '**Measures liquidity, not profitability** — it cannot say whether a project is worth '
-         'doing at all.'],
-        ['**Needs no cost of capital**, so it can be used where that figure is unknown or '
-         'disputed.',
-         'The **target payback period is arbitrary**, set by management rather than derived from '
-         'principle.'],
-        ['**Useful as a first screen**, and in volatile markets or fast-obsolescing technology '
-         'where long forecasts are worthless.',
-         '**Ignores the size of the investment** and the total return, so projects of different '
-         'scale cannot be compared.'],
-        ['**Objective and consistent** — two analysts working from the same figures get the same '
-         'answer.',
-         '**Ignores the pattern of flows within the payback period**, and takes no account of '
-         'scrap or residual values.'],
-      ]}}]}},
-  ]},
+  {'n': '11.9', 't': 'Study text examination-type questions, worked', 'b': [{'p': 'The study text closes the chapter with eight examination-type questions. All are reproduced below '
+       'with full answers.'},
+ {'eg': {'tag': 'Exam type — Q1',
+         't': 'Discuss briefly the payback or the ARR method',
+         'q': [{'p': 'Several methods are employed by management accountants for ascertaining the '
+                     'profitability of capital expenditure projects. Discuss briefly **one** of the '
+                     'following methods: (a) the pay-back method; (b) the accounting rate of return '
+                     'method.'}],
+         'a': [{'note': "Only one is required, but both are answered here so the chapter's coverage is "
+                        'complete.'},
+               {'h4': '(a)  The payback method'},
+               {'def': {'t': 'Payback period',
+                        'd': 'the length of time required for the net cash inflows from a project to recover '
+                             'the original cash outlay on it.'}},
+               {'fbox': {'h': 'Payback period',
+                         'rows': [{'lb': 'Even annual cash flows',
+                                   'tex': '\\text{Payback period} = \\frac{\\text{Initial '
+                                          'investment}}{\\text{Annual net cash inflow}}'},
+                                  {'lb': 'Uneven cash flows',
+                                   'tex': '\\text{Payback} = \\text{Years before full recovery} + '
+                                          '\\frac{\\text{Amount still unrecovered}}{\\text{Cash inflow of '
+                                          'the recovery year}}',
+                                   'nt': 'Build a cumulative cash flow column and find the year in which it '
+                                         'turns positive, then interpolate within that year.'}]}},
+               {'p': '**The decision rule:** accept a project whose payback period is shorter than the '
+                     'maximum period the company has set; where projects are mutually exclusive, choose the '
+                     'one with the **shortest** payback. It is a measure of **liquidity and risk**, not of '
+                     'profitability — it answers "how long is our money at risk?", not "how much will we '
+                     'make?"'},
+               {'p': '**Advantages:'},
+               {'ul': ['** simple to compute and easy for non-financial managers to understand',
+                       'emphasises early cash recovery, which matters to a business short of cash',
+                       'reduces risk by favouring projects whose returns arrive sooner and are therefore '
+                       'more certain',
+                       'useful where technology changes rapidly and distant cash flows are speculative',
+                       'and it needs no estimate of the cost of capital.']},
+               {'p': '**Disadvantages:'},
+               {'ul': ['** it **ignores the time value of money** (a naira in year 4 is counted the same as '
+                       'a naira in year 1)',
+                       'it **ignores all cash flows after the payback date**, so a project that pays back '
+                       'quickly and then stops is preferred to one that pays back slowly and then earns for '
+                       'a decade',
+                       'it therefore measures liquidity rather than profitability and can reject '
+                       'value-creating projects',
+                       'the target payback period is arbitrary',
+                       'and it ignores the scale of the investment.']},
+               {'h4': '(b)  The accounting rate of return method'},
+               {'def': {'t': 'Accounting rate of return (ARR)',
+                        'd': 'the average annual accounting profit of a project expressed as a percentage of '
+                             'the capital invested in it. Also called the return on capital employed or '
+                             'return on investment method.'}},
+               {'fbox': {'h': 'Accounting rate of return',
+                         'rows': [{'lb': 'On initial investment',
+                                   'tex': 'ARR = \\frac{\\text{Average annual profit}}{\\text{Initial '
+                                          'investment}} \\times 100'},
+                                  {'lb': 'On average investment',
+                                   'tex': 'ARR = \\frac{\\text{Average annual profit}}{\\text{Average '
+                                          'investment}} \\times 100',
+                                   'nt': 'Average investment = (initial investment + scrap value) ÷ 2. The '
+                                         'two versions give very different percentages, so always state '
+                                         'which you have used.'}]}},
+               {'p': "**The decision rule:** accept a project whose ARR exceeds the company's target rate of "
+                     'return; between competing projects, choose the highest ARR.'},
+               {'p': '**Advantages:'},
+               {'ul': ['** simple to compute',
+                       'easy to understand',
+                       'uses **accounting profit**, which is the measure by which the business and its '
+                       'managers are actually judged in the published accounts',
+                       'considers the **whole life** of the project, unlike payback',
+                       "and gives a percentage that is directly comparable with the company's existing "
+                       'return on capital employed.']},
+               {'p': '**Disadvantages:'},
+               {'ul': ['** it **ignores the time value of money**',
+                       'it uses **profit rather than cash flow**, and profit is affected by depreciation '
+                       'policy and other accounting conventions',
+                       'averaging the profit conceals the pattern of returns, so two projects with the same '
+                       'average but very different timing score identically',
+                       'the target rate is arbitrary',
+                       'and there are two competing definitions (initial vs average investment) which give '
+                       'different answers for the same project.']}]}},
+ {'eg': {'tag': 'Exam type — Q2',
+         't': 'Two methods to guide a Board choosing between two capital proposals',
+         'q': [{'p': 'A company wishes to expand its production. Two proposals of capital expenditure are '
+                     'being considered; each requires more or less the same outlay. As management '
+                     'accountant, you are required to furnish a profitability estimate to guide the Board in '
+                     'its decision. Describe briefly **two** methods that can be used for this purpose.'}],
+         'a': [{'note': 'The question says the two proposals require **more or less the same outlay**. That '
+                        'matters: where outlays are equal, the ranking problem that normally separates NPV '
+                        'from the profitability index disappears, and NPV alone is sufficient. Say so — it '
+                        'shows you read the question.'},
+               {'h4': 'Method 1 — Net Present Value (the recommended method)'},
+               {'def': {'t': 'Net present value',
+                        'd': "the sum of the present values of all a project's cash inflows and outflows, "
+                             "discounted at the company's cost of capital."}},
+               {'tex': 'NPV = \\sum_{t=1}^{n} \\frac{C_t}{(1+r)^t} - I_0'},
+               {'p': 'where $C_t$ is the net cash flow in year $t$, $r$ the cost of capital, $n$ the project '
+                     'life and $I_0$ the initial investment. **Decision rule:** accept if the NPV is '
+                     'positive; between two mutually exclusive projects of similar size, choose the higher '
+                     'NPV.'},
+               {'p': '**Why it should be recommended to the Board:** it is the only method that measures the '
+                     'project in the terms the shareholders care about — **the absolute increase in the '
+                     "value of the business, in today's naira**. It takes full account of the time value of "
+                     'money, uses cash flows rather than accounting profit, considers the whole life of the '
+                     'project, and allows for risk through the discount rate.'},
+               {'p': '**Limitations to mention:'},
+               {'ul': ['** it requires an estimate of the cost of capital',
+                       'it is harder for non-financial directors to interpret than a percentage or a period',
+                       'and it is sensitive to the reliability of the cash-flow forecasts.']},
+               {'h4': 'Method 2 — Internal Rate of Return'},
+               {'def': {'t': 'Internal rate of return',
+                        'd': "the discount rate at which a project's net present value is exactly zero — "
+                             'i.e. the rate of return the project itself earns on the funds invested in '
+                             'it.'}},
+               {'tex': 'IRR = A + \\frac{N_A}{N_A - N_B} \\times (B - A)'},
+               {'p': 'where $A$ and $B$ are two trial discount rates and $N_A$, $N_B$ the NPVs they produce '
+                     '(one positive, one negative). **Decision rule:** accept if the IRR exceeds the cost of '
+                     'capital.'},
+               {'p': '**Why it helps the Board:** it expresses the answer as a **percentage**, which '
+                     'directors can compare directly against the cost of borrowing and against returns '
+                     'available elsewhere, and it needs no precise cost of capital to compute — only to '
+                     'interpret.'},
+               {'p': '**Limitations:'},
+               {'ul': ['** it can give multiple answers where cash flows change sign more than once',
+                       'it assumes interim cash flows are reinvested at the IRR itself, which is usually '
+                       'unrealistic',
+                       'and it measures a **rate** rather than an **amount**, so it can rank a small, very '
+                       'profitable project above a large one that adds far more value — though that problem '
+                       'does not arise here, since the two outlays are similar.']},
+               {'h4': 'Recommendation'},
+               {'p': 'Present the Board with the **NPV of each proposal as the primary measure**, supported '
+                     'by the **IRR** as a percentage they can compare with the cost of capital. Add the '
+                     'payback period of each as a note on liquidity and risk. Where the two methods disagree '
+                     '— which they can, even here — **follow the NPV**, because it measures the absolute '
+                     'gain in shareholder value.'}]}},
+ {'eg': {'tag': 'Exam type — Q3',
+         't': 'Payback period and NPV compared — which is superior?',
+         'q': [{'p': 'Give a comparative description of the Pay Back Period and Net Present Value approaches '
+                     'of investment appraisal. Which one of the two do you consider superior?'}],
+         'a': [{'table': {'align': 'lll',
+                          'head': ['', 'Payback period', 'Net present value'],
+                          'rows': [['**What it measures**',
+                                    'The **time** taken to recover the original outlay — a measure of '
+                                    'liquidity and risk.',
+                                    "The **absolute increase in the value of the business**, in today's "
+                                    'naira — a measure of profitability.'],
+                                   ['**Unit of answer**',
+                                    'A period, in years and months.',
+                                    'An amount of money.'],
+                                   ['**Time value of money**',
+                                    '**Ignored** — a naira in year 5 counts the same as a naira in year 1.',
+                                    '**Fully allowed for** — every cash flow is discounted to its present '
+                                    'value.'],
+                                   ['**Cash flows after the cut-off**',
+                                    '**Ignored entirely**, however large.',
+                                    "**All included**, to the end of the project's life."],
+                                   ['**Basis of measurement**', 'Cash flow.', 'Cash flow.'],
+                                   ['**Cost of capital needed?**',
+                                    'No.',
+                                    'Yes — the discount rate must be estimated.'],
+                                   ['**Decision rule**',
+                                    'Accept if payback is shorter than a target period set by management '
+                                    '(which is itself arbitrary).',
+                                    'Accept if NPV is positive — an objective rule derived from shareholder '
+                                    'value.'],
+                                   ['**Scale of investment**',
+                                    'Ignored.',
+                                    'Reflected directly in the size of the NPV.'],
+                                   ['**Ease of use**',
+                                    'Very simple; easily understood by non-financial managers.',
+                                    'More complex; needs discount tables and a cost of capital.'],
+                                   ['**Risk**',
+                                    'Handled crudely, by preferring early recovery.',
+                                    'Handled explicitly, through a risk-adjusted discount rate.']]}},
+               {'h4': 'Which is superior?'},
+               {'p': "**Net present value is clearly superior as a measure of a project's worth,** for three "
+                     'reasons that go to the heart of what an investment decision is:'},
+               {'ol': ['It **recognises the time value of money.** Money has a cost; tying it up for five '
+                       'years is not the same as tying it up for one, and only NPV prices that difference.',
+                       "It **counts every cash flow over the whole life of the project.** Payback's "
+                       'blindness to everything after the cut-off date is not a minor limitation — it is '
+                       'capable of reversing the right answer. Question 8 below is an exact illustration: '
+                       'Project 1 pays back sooner (4.68 years against 5.05) and so wins on payback, yet '
+                       "Project 2 generates N2.00m of net cash against Project 1's N0.70m. Payback picks the "
+                       'wrong project.',
+                       'Its **decision rule is objective** — a positive NPV means the project earns more '
+                       'than the cost of the money invested in it, and therefore makes the shareholders '
+                       "better off. Payback's target period is simply chosen."]},
+               {'p': '**But payback retains a real and legitimate role**, and a complete answer says so. It '
+                     'is a useful **first screen** and a **risk indicator**: it is quick, it needs no cost '
+                     'of capital, it is readily understood, and it speaks directly to a business that is '
+                     'short of cash or operating where distant forecasts are worthless — a politically '
+                     'unstable market, or a fast-moving technology. Most companies in practice compute both, '
+                     'using payback to screen out projects that tie money up for too long and NPV to choose '
+                     'among those that survive the screen.'}]}},
+ {'eg': {'tag': 'Exam type — Q4',
+         't': 'Payback described, and the NPV of two projects at 12% and 15%',
+         'q': [{'p': '**(a)** Describe briefly the payback period method of investment appraisal and state '
+                     '**five advantages** and **five disadvantages** of the method.'},
+               {'p': '**(b)** Using the information below, prepare tables showing the net present values of '
+                     'each of the projects at applicable rates of **12%** and **15%** per annum, and comment '
+                     'on which project would be profitable and should be undertaken.'},
+               {'stmt': {'t': 'Project cash flows (N)',
+                         'rows': [['', 'Project X', 'Project Y', '@hd'],
+                                  ['Initial investment', 100000, 100000],
+                                  ['Cash flow — year 1', 5000, 60000],
+                                  ['Cash flow — year 2', 20000, 40000],
+                                  ['Cash flow — year 3', 100000, 100000],
+                                  ['Cash flow — year 4', 10000, 5000]]}},
+               {'note': 'The study text heads **both** columns "Project X". The second is Project Y; the two '
+                        'sets of figures are plainly different and the question asks you to compare them.'}],
+         'a': [{'h4': '(a)  The payback period method'},
+               {'p': "The payback period is the **time required for a project's net cash inflows to recover "
+                     'its original cash outlay**. Where inflows are even, it is the investment divided by '
+                     'the annual inflow; where they are uneven, a cumulative cash-flow column is built and '
+                     'the recovery point interpolated within the year in which the cumulative figure turns '
+                     'positive. A project is accepted if its payback is shorter than a target period set by '
+                     'management, and between competing projects the shortest payback wins.'},
+               {'h4': 'Five advantages'},
+               {'ol': ['**Simple to calculate and easy to understand**, even for managers with no financial '
+                       'training.',
+                       '**Emphasises liquidity** — it shows how quickly the cash committed comes back, which '
+                       'is critical for a business whose working capital is tight.',
+                       '**Reduces risk** by favouring projects whose returns arrive early, since near cash '
+                       'flows are far more certain than distant ones.',
+                       '**Needs no estimate of the cost of capital**, so it can be applied where that figure '
+                       'is unknown or disputed.',
+                       '**Useful in volatile or fast-changing conditions** — rapidly obsolescing technology, '
+                       'or politically uncertain markets — where forecasts beyond a few years are worthless '
+                       'anyway.',
+                       '**Serves as a quick screening device**, eliminating obviously unsuitable projects '
+                       'before the more expensive discounted analysis is done.']},
+               {'h4': 'Five disadvantages'},
+               {'ol': ['**Ignores the time value of money** — N1 received in year 4 is treated as equal to '
+                       'N1 received in year 1.',
+                       '**Ignores all cash flows after the payback date**, so a highly profitable long-life '
+                       'project can be rejected in favour of a short-lived one.',
+                       '**Measures liquidity, not profitability** — it cannot tell you whether a project is '
+                       'worth doing, only how fast the money comes back.',
+                       '**The target payback period is arbitrary**, chosen by management rather than derived '
+                       'from any principle.',
+                       '**Ignores the size of the investment** and the total return, so it cannot rank '
+                       'projects of different scale.',
+                       '**Ignores the pattern of cash flows within the payback period** — two projects '
+                       'recovering the same amount over the same period score identically even if one '
+                       'recovers most of it in the first month.']},
+               {'h4': '(b)  Net present values at 12% and 15%'},
+               {'stmt': {'t': 'Net present value at 12% (N)',
+                         'rows': [['Year',
+                                   'DF @ 12%',
+                                   'Project X cash flow',
+                                   'Project X PV',
+                                   'Project Y cash flow',
+                                   'Project Y PV',
+                                   '@hd'],
+                                  [1, 0.8929, 5000, 4465, 60000, 53574],
+                                  [2, 0.7972, 20000, 15944, 40000, 31888],
+                                  [3, 0.7118, 100000, 71180, 100000, 71180],
+                                  [4, 0.6355, 10000, 6355, 5000, 3178],
+                                  ['**Total present value**', '', '', 97944, '', 159820, '@t'],
+                                  ['Less: initial investment', '', '', 100000, '', 100000],
+                                  ['**Net present value**', '', '', -2056, '', 59820, '@tt']]}},
+               {'stmt': {'t': 'Net present value at 15% (N)',
+                         'rows': [['Year',
+                                   'DF @ 15%',
+                                   'Project X cash flow',
+                                   'Project X PV',
+                                   'Project Y cash flow',
+                                   'Project Y PV',
+                                   '@hd'],
+                                  [1, 0.8696, 5000, 4348, 60000, 52176],
+                                  [2, 0.7561, 20000, 15122, 40000, 30244],
+                                  [3, 0.6575, 100000, 65750, 100000, 65750],
+                                  [4, 0.5718, 10000, 5718, 5000, 2859],
+                                  ['**Total present value**', '', '', 90938, '', 151029, '@t'],
+                                  ['Less: initial investment', '', '', 100000, '', 100000],
+                                  ['**Net present value**', '', '', -9062, '', 51029, '@tt']]}},
+               {'h4': 'Comment'},
+               {'stmt': {'t': 'Summary of net present values (N)',
+                         'rows': [['', 'Project X', 'Project Y', '@hd'],
+                                  ['NPV at 12%', -2056, 59820],
+                                  ['NPV at 15%', -9062, 51029],
+                                  '@gap',
+                                  ['Total undiscounted cash inflows', 135000, 205000],
+                                  ['Decision', '**REJECT**', '**ACCEPT**']]}},
+               {'ol': ['**Project Y should be undertaken.** Its NPV is strongly positive at both discount '
+                       'rates — N59,820 at 12% and N51,029 at 15% — so it earns well above the cost of '
+                       'capital on either assumption and increases the value of the business by that amount '
+                       "in today's naira.",
+                       '**Project X should be rejected.** Its NPV is **negative at both rates** (−N2,056 at '
+                       '12% and −N9,062 at 15%), so it fails to recover even the cost of the money invested '
+                       'in it.',
+                       '**Why they differ so sharply.** Project Y returns more cash in total (N205,000 '
+                       "against N135,000) **and** returns it earlier — N60,000 in year 1 against X's N5,000. "
+                       'Project X is back-loaded, with 74% of its total inflow arriving in year 3, and '
+                       'discounting punishes exactly that pattern.',
+                       '**Sensitivity.** Raising the rate from 12% to 15% costs Project Y N8,791 of NPV but '
+                       'leaves it comfortably positive; it pushes Project X from marginally negative to '
+                       "clearly negative. Project X's internal rate of return is evidently just below 12%, "
+                       'so it would be rejected at any realistic cost of capital.']}]}},
+ {'eg': {'tag': 'Exam type — Q5 (ICAN, November/December 1993)',
+         't': 'Electro PLC — appraising a three-year market-share promotion at a 30% hurdle rate',
+         'q': [{'p': 'Electro PLC, a manufacturer of high-quality metal cables, has a **15% market share** '
+                     'for one of its products, ECM-1. The standard cost and profit margin for one unit of '
+                     'ECM-1 are:'},
+               {'stmt': {'t': 'Standard cost and profit per unit (N)',
+                         'rows': [['Sales', '', 10.0],
+                                  ['Less direct cost:  material', 4.0, ''],
+                                  ['                           labour', 2.0, ''],
+                                  ['                           overheads', 1.0, 7.0],
+                                  ['**Contribution**', '', 3.0, '@t'],
+                                  ['Less: fixed costs', '', 2.0],
+                                  ['**Profit**', '', 1.0, '@tt']]}},
+               {'p': 'Budgeted sales of ECM-1 during 1994 are **N3,000,000**. The marketing director '
+                     'proposes that market share could be increased to **20%** and maintained at that level '
+                     'for the next three years if the following promotion budgets were spent at the '
+                     '**beginning of each** of the next three years: Year 1 **N200,000**; Year 2 '
+                     '**N150,000**; Year 3 **N150,000**.'},
+               {'p': 'The fixed cost of N2 per unit **includes 50% for the depreciation charge**. The '
+                     'remaining 50% would be expected to **increase by N60,000** with the increase in market '
+                     'share. The company has an overall profit return objective of **30%**, which it applies '
+                     'as a hurdle rate to this type of project.'},
+               {'p': '**Required:** **(a)** evaluate whether the project should be adopted, assuming these '
+                     'are the only variables; **(b)** show with suitable calculations what the outcome will '
+                     'be if only a **4% increase in market share** is achieved.'},
+               {'stmt': {'t': 'Present value factors supplied',
+                         'rows': [['Year', '10%', '20%', '30%', '40%', '@hd'],
+                                  [1, 0.9091, 0.8333, 0.7692, 0.7143],
+                                  [2, 0.8264, 0.6944, 0.5917, 0.5102],
+                                  [3, 0.7513, 0.5787, 0.4552, 0.3644],
+                                  [4, 0.683, 0.4823, 0.3501, 0.2603],
+                                  [5, 0.6209, 0.4019, 0.2693, 0.1859]]}}],
+         'a': [{'h4': 'Step 1 — the size of the market, and the extra volume'},
+               {'stmt': {'t': 'Market size',
+                         'rows': [['Budgeted sales value of ECM-1, 1994', '', 'N3,000,000'],
+                                  ['÷ selling price per unit', '', 'N10.00'],
+                                  ['**Budgeted units at a 15% share**', '', '300,000 units', '@t'],
+                                  ['**Total market**  (300,000 ÷ 15%)', '', '2,000,000 units', '@t'],
+                                  '@gap',
+                                  ['Units at a 20% share  (2,000,000 × 20%)', '', '400,000 units'],
+                                  ['**Increase in units**', '', '100,000 units', '@tt']]}},
+               {'h4': 'Step 2 — the incremental operating cash flow'},
+               {'p': 'Only the **incremental** figures matter. Contribution per unit is unchanged at N3, and '
+                     'of the N2 fixed cost per unit, **half is depreciation** — a non-cash charge that is '
+                     'irrelevant to a discounted cash flow appraisal — while the other half rises by a '
+                     'stated **N60,000** in total.'},
+               {'stmt': {'t': 'Incremental operating cash flow per annum (N)',
+                         'rows': [['Additional contribution:  100,000 units × N3', '', 300000],
+                                  ['Less: increase in cash fixed costs', '', 60000],
+                                  ['**Net incremental operating cash flow, each year for 3 years**',
+                                   '',
+                                   240000,
+                                   '@tt']]}},
+               {'warn': '**Depreciation is excluded.** It is not a cash flow, and in any case the question '
+                        'says the depreciation half of the fixed cost does not change. Including it would '
+                        'understate the annual benefit by N150,000 and reverse the decision. In every DCF '
+                        'appraisal, work with **cash**, not accounting profit.'},
+               {'h4': 'Step 3 — the timing of the promotion spend'},
+               {'p': "The promotion is paid at the **beginning** of each year, so Year 1's spend falls at "
+                     "**time 0**, Year 2's at the end of year 1 (time 1) and Year 3's at time 2. The "
+                     'operating cash flows arise at the **end** of each year.'},
+               {'stmt': {'t': 'Net cash flow by period (N)',
+                         'rows': [['Time', 'Operating cash flow', 'Promotion spend', 'Net cash flow', '@hd'],
+                                  ['0  (start of year 1)', 0, -200000, -200000],
+                                  ['1  (end of year 1 / start of year 2)', 240000, -150000, 90000],
+                                  ['2  (end of year 2 / start of year 3)', 240000, -150000, 90000],
+                                  ['3  (end of year 3)', 240000, 0, 240000]]}},
+               {'h4': '(a)  Net present value at the 30% hurdle rate'},
+               {'stmt': {'t': 'NPV at 30% (N)',
+                         'rows': [['Time', 'Net cash flow', 'DF @ 30%', 'Present value', '@hd'],
+                                  [0, -200000, 1.0, -200000],
+                                  [1, 90000, 0.7692, 69228],
+                                  [2, 90000, 0.5917, 53253],
+                                  [3, 240000, 0.4552, 109248],
+                                  ['**Net present value**', '', '', 31729, '@tt']]}},
+               {'p': "**The project should be adopted.** At the company's own 30% hurdle rate the net "
+                     'present value is **positive at N31,729**, so the promotion campaign earns more than '
+                     'the 30% return the company requires and increases shareholder value.'},
+               {'h4': '(b)  If only a 4% increase in market share is achieved'},
+               {'p': 'A 4 percentage-point rise takes the share from 15% to **19%**, not 20%:'},
+               {'stmt': {'t': 'Revised incremental cash flow (N)',
+                         'rows': [['Additional units  (2,000,000 × 4%)', '', '80,000 units'],
+                                  ['Additional contribution:  80,000 × N3', '', 240000],
+                                  ['Less: increase in cash fixed costs (unchanged — a step cost)', '', 60000],
+                                  ['**Net incremental operating cash flow per annum**', '', 180000, '@tt']]}},
+               {'stmt': {'t': 'Revised NPV at 30% (N)',
+                         'rows': [['Time',
+                                   'Operating flow',
+                                   'Promotion',
+                                   'Net cash flow',
+                                   'DF @ 30%',
+                                   'Present value',
+                                   '@hd'],
+                                  [0, 0, -200000, -200000, 1.0, -200000],
+                                  [1, 180000, -150000, 30000, 0.7692, 23076],
+                                  [2, 180000, -150000, 30000, 0.5917, 17751],
+                                  [3, 180000, 0, 180000, 0.4552, 81936],
+                                  ['**Net present value**', '', '', '', '', -77237, '@tt']]}},
+               {'p': '**On a 4% increase the project should be rejected** — the NPV is **negative at '
+                     'N77,237**, so the campaign would destroy value.'},
+               {'key': 'The contrast between (a) and (b) is the real lesson. A **one percentage point** '
+                       'shortfall in market share — 19% instead of 20% — swings the NPV by **N108,966**, '
+                       'from +N31,729 to −N77,237, and turns a worthwhile project into a loss-making one. '
+                       "The proposal is therefore **extremely sensitive to the marketing director's "
+                       'forecast**, and the break-even share can be found exactly: the project needs enough '
+                       'extra units for the NPV to reach zero, which lies between a 4% and a 5% increase, '
+                       'very close to 4.7 percentage points. Before committing N500,000 of promotion spend '
+                       'the Board should ask how confident the marketing director is of hitting 20% rather '
+                       'than 19%, and should consider staging the spend so that years 2 and 3 can be '
+                       'abandoned if year 1 disappoints.'},
+               {'note': [{'p': 'Other factors a full answer would raise:'},
+                         {'ul': ['competitors are unlikely to surrender 5% of the market without responding, '
+                                 'and a price war would cut the N3 contribution',
+                                 'the assumption that the higher share is **maintained** for three years '
+                                 'with no further promotion after year 3 is optimistic',
+                                 'and a 30% hurdle rate is high, so the project is being judged very '
+                                 'severely.']}]}]}},
+ {'eg': {'tag': 'Exam type — Q6 (ACCA, Financial Management)',
+         't': 'Bourbon Can Company — six projects, N600,000 of capital, and a rationing decision',
+         'q': [{'p': 'As financial consultant to the Bourbon Can Company, a medium-sized manufacturing '
+                     "business, you have been asked to advise on the current year's investment proposals. "
+                     'The proposed projects are **not mutually exclusive**:'},
+               {'stmt': {'t': 'The six projects',
+                         'rows': [['Project',
+                                   'Description',
+                                   'Initial cost (N)',
+                                   'Expected life',
+                                   'Annual after-tax cash inflow (N)',
+                                   '@hd'],
+                                  ['A',
+                                   'Replace existing data processing equipment',
+                                   250000,
+                                   '6 years',
+                                   72500],
+                                  ['B', 'Develop a new type of container', 70000, '5 years', 30000],
+                                  ['C', 'Install safety equipment', 90000, '3 years', 45000],
+                                  ['D', 'Construct a new factory building', 210000, '8 years', 57000],
+                                  ['E', 'Extend the existing loading equipment', 170000, '4 years', 70000],
+                                  ['F',
+                                   'Purchase patent rights to a new process',
+                                   135000,
+                                   '7 years',
+                                   36000]]}},
+               {'ul': ["Except for **project B**, all cash inflows would commence in the current year; B's "
+                       "inflows commence **in one year's time**.",
+                       'Annual cash inflows are always received on the **last day of the year**.',
+                       'Tax may be assumed to have been paid in the year in which the profits are earned.',
+                       "The company's **weighted average cost of capital is 16%**.",
+                       'The company is in a **capital rationing situation** and will have only **N600,000** '
+                       'to invest in capital projects in the current year.']},
+               {'p': '**Required:** **(a)** which projects would you recommend the company undertake, and '
+                     'why? **(b)** What factors, other than those given, would you advise the company to '
+                     'consider before deciding?'}],
+         'a': [{'h4': 'Step 1 — the net present value and profitability index of each project'},
+               {'p': 'All the inflows are equal annual amounts, so each is an **annuity** and the cumulative '
+                     "discount factor at 16% can be used. Project B's inflows run from the end of year 2 to "
+                     'the end of year 6, so its factor is the six-year annuity factor **less** the one-year '
+                     'factor.'},
+               {'stmt': {'t': 'Cumulative discount factors at 16%',
+                         'rows': [['Years', 1, 2, 3, 4, 5, 6, 7, 8, '@hd'],
+                                  ['Cumulative factor',
+                                   0.8621,
+                                   1.6052,
+                                   2.2459,
+                                   2.7982,
+                                   3.2743,
+                                   3.6847,
+                                   4.0386,
+                                   4.3436]]}},
+               {'stmt': {'t': 'Net present value and profitability index (N)',
+                         'rows': [['Project',
+                                   'Annual inflow',
+                                   'Annuity factor',
+                                   'Present value of inflows',
+                                   'Initial cost',
+                                   'NPV',
+                                   'Profitability index',
+                                   '@hd'],
+                                  ['A', 72500, '3.6847  (yrs 1–6)', 267141, 250000, 17141, 1.069],
+                                  ['B', 30000, '2.8226  (yrs 2–6)', 84678, 70000, 14678, 1.21],
+                                  ['C', 45000, '2.2459  (yrs 1–3)', 101066, 90000, 11066, 1.123],
+                                  ['D', 57000, '4.3436  (yrs 1–8)', 247585, 210000, 37585, 1.179],
+                                  ['E', 70000, '2.7982  (yrs 1–4)', 195874, 170000, 25874, 1.152],
+                                  ['F', 36000, '4.0386  (yrs 1–7)', 145390, 135000, 10390, 1.077],
+                                  ['**Total**', '', '', '', 925000, 116734, '', '@tt']]}},
+               {'note': "Project B's factor: the five inflows run from year 2 to year 6, so the factor is "
+                        'the six-year cumulative figure less the first year — $3.6847 - 0.8621 = 2.8226$. '
+                        'Deferring the start of an annuity by one year is always handled this way, and it is '
+                        'the detail this question is really testing.'},
+               {'h4': 'Step 2 — the rationing problem'},
+               {'p': '**Every project has a positive NPV**, so in the absence of a constraint all six should '
+                     'be undertaken, at a total cost of N925,000 for a combined NPV of N116,734. But only '
+                     '**N600,000** is available, so N325,000 of worthwhile investment must be given up and '
+                     'the money must be allocated to the projects that produce the most NPV **per naira '
+                     'invested** — which is what the **profitability index** measures.'},
+               {'tex': '\\text{Profitability index} = \\frac{\\text{Present value of '
+                       'inflows}}{\\text{Initial investment}}'},
+               {'stmt': {'t': 'Ranking by profitability index, and the cumulative outlay',
+                         'rows': [['Rank',
+                                   'Project',
+                                   'PI',
+                                   'Cost (N)',
+                                   'Cumulative cost (N)',
+                                   'NPV (N)',
+                                   '@hd'],
+                                  ['1st', 'B', 1.21, 70000, 70000, 14678],
+                                  ['2nd', 'D', 1.179, 210000, 280000, 37585],
+                                  ['3rd', 'E', 1.152, 170000, 450000, 25874],
+                                  ['4th', 'C', 1.123, 90000, 540000, 11066],
+                                  ['5th', 'F', 1.077, 135000, '*675,000 — exceeds the limit*', 10390],
+                                  ['6th', 'A', 1.069, 250000, '*—*', 17141]]}},
+               {'h4': '(a)  Recommendation'},
+               {'stmt': {'t': 'Recommended portfolio',
+                         'rows': [['Project', 'Cost (N)', 'NPV (N)', '@hd'],
+                                  ['B — new type of container', 70000, 14678],
+                                  ['C — safety equipment', 90000, 11066],
+                                  ['D — new factory building', 210000, 37585],
+                                  ['E — extend loading equipment', 170000, 25874],
+                                  ['**Total committed**', 540000, 89203, '@tt'],
+                                  ['*Funds remaining unspent*', 60000, '', '']]}},
+               {'p': '**Undertake projects B, C, D and E**, at a total cost of **N540,000**, producing a '
+                     'combined net present value of **N89,203**. Projects A and F are rejected: neither can '
+                     'be afforded out of the N60,000 remaining, and both rank lowest on profitability '
+                     'index.'},
+               {'p': '**Reasons for the choice:** the projects are indivisible and not mutually exclusive, '
+                     'so the task is to find the **combination** that maximises total NPV within the '
+                     'N600,000 limit. Ranking by profitability index identifies the candidates that generate '
+                     'the most present value per naira of scarce capital. Testing the alternative affordable '
+                     'combinations confirms this one is optimal — for instance B+D+E+F costs N585,000 but '
+                     'yields only N88,527, and A+B+D costs N530,000 and yields only N69,404.'},
+               {'warn': 'Note why **NPV alone is the wrong ranking tool here**. On NPV, project D (N37,585) '
+                        'and project E (N25,874) beat project B (N14,678) — yet B is ranked first, because '
+                        'it generates N1.21 of present value for every naira invested where D generates '
+                        'N1.18 and E N1.15. Under capital rationing the scarce resource is **capital**, so '
+                        'the ranking must be by return **per unit of the limiting factor** — exactly the '
+                        'principle used for machine hours in Chapter 9 Q1.'},
+               {'h4': '(b)  Other factors to consider before deciding'},
+               {'ol': ['**Project C is safety equipment**, which may well be a **legal requirement** rather '
+                       'than a discretionary investment. If so it must be undertaken whatever its NPV, and '
+                       'should be removed from the ranking exercise and funded first. The consequences of '
+                       'not installing it — prosecution, injury, closure, damage to reputation — are not '
+                       'captured by a cash-flow model.',
+                       '**Can the capital constraint be relaxed?** N325,000 of positive-NPV investment is '
+                       'being forgone. Borrowing, leasing, a rights issue, staging the projects across two '
+                       'years, or disposing of surplus assets might all release funds; the cost of doing so '
+                       'should be compared with the N27,531 of NPV being given up on A and F.',
+                       '**The N60,000 left unspent** should be invested somewhere, or the ranking '
+                       'reconsidered to use it.',
+                       '**Risk differs between projects.** All have been discounted at the same 16%, but '
+                       'developing a **new container** and buying **patent rights to a new process** are '
+                       'speculative, while replacing data processing equipment is not. Risk-adjusted '
+                       'discount rates, or sensitivity analysis on each project, would give a truer ranking.',
+                       '**Reliability of the estimates** — how firm are the cash-flow forecasts and the '
+                       'project lives, and who produced them?',
+                       '**Inflation**, and whether the cash flows and the 16% rate are both in money terms '
+                       'or both in real terms.',
+                       '**Interdependence between projects** — the new factory building (D) may be a '
+                       'prerequisite for extending the loading equipment (E), or the two may compete for the '
+                       'same site or management time.',
+                       '**Non-financial and strategic factors** — effect on employees and industrial '
+                       "relations, on customers and on the company's competitive position; whether rejecting "
+                       'the patent rights (F) allows a competitor to acquire them.',
+                       "**Scrap or residual values** at the end of each project's life, which the question "
+                       'ignores entirely.',
+                       '**The accuracy of the 16% cost of capital**, and whether it is the right rate for '
+                       'projects of this risk.']}]}},
+ {'eg': {'tag': 'Exam type — Q7',
+         't': 'Usman & Co. — traditional techniques, and NPV applied to two projects',
+         'q': [{'p': '**(a)** Define any two "traditional" investment appraisal techniques, showing briefly '
+                     'their advantages and disadvantages.'},
+               {'p': '**(b)** Demonstrate your knowledge of the more acceptable technique using cash flows '
+                     'expected from two projects being negotiated by the General Manager of Usman & Co. Ltd. '
+                     'Both projects require an initial cash investment of **N25,000** each. Project one will '
+                     'earn **N8,000** in the first year, **N10,000** and **N6,000** in the next two years, '
+                     'and **N1,000** each in years four and five.'},
+               {'warn': 'The question as printed **stops there** — the cash flows of project two are missing '
+                        'from the study text altogether, and the sentence ends mid-thought. (Confirmed by '
+                        'rendering page 303 of the PDF; it is not an extraction artifact.) The question '
+                        'cannot be answered as set. Part (b) below works **project one** in full on the data '
+                        'given, and then supplies a plausible project two — clearly marked as supplied, not '
+                        "as the examiner's — so that the comparison the question asks for can be "
+                        'demonstrated.',
+                'lbl': 'The question is incomplete in the study text'}],
+         'a': [{'h4': '(a)  Two traditional techniques'},
+               {'p': 'The **traditional** (or non-discounted) techniques are those that take no account of '
+                     'the time value of money: the **payback period** and the **accounting rate of '
+                     'return**.'},
+               {'table': {'align': 'lll',
+                          'head': ['', 'Payback period', 'Accounting rate of return (ARR)'],
+                          'rows': [['**Definition**',
+                                    "The time required for a project's net cash inflows to recover the "
+                                    'original outlay.',
+                                    'Average annual accounting **profit** as a percentage of the capital '
+                                    'invested.'],
+                                   ['**Formula**',
+                                    '$\\dfrac{\\text{Initial investment}}{\\text{Annual net cash inflow}}$, '
+                                    'or by interpolation where flows are uneven.',
+                                    '$\\dfrac{\\text{Average annual profit}}{\\text{Initial (or average) '
+                                    'investment}} \\times 100$'],
+                                   ['**Decision rule**',
+                                    'Accept if shorter than the target period; choose the shortest.',
+                                    'Accept if above the target return; choose the highest.'],
+                                   ['**Advantages**',
+                                    'Simple; emphasises liquidity; reduces risk by favouring early returns; '
+                                    'needs no cost of capital; a useful first screen.',
+                                    'Simple; uses the profit measure by which the business is actually '
+                                    'judged; considers the **whole life** of the project; gives a percentage '
+                                    'comparable with the existing return on capital employed.'],
+                                   ['**Disadvantages**',
+                                    'Ignores the time value of money; **ignores everything after the payback '
+                                    'date**; measures liquidity rather than profitability; the target period '
+                                    'is arbitrary; ignores project size.',
+                                    'Ignores the time value of money; uses **profit rather than cash**, so '
+                                    'it is distorted by depreciation policy; averaging hides the timing of '
+                                    'returns; the target rate is arbitrary; two competing definitions give '
+                                    'different answers.']]}},
+               {'h4': '(b)  The more acceptable technique — net present value'},
+               {'p': 'The discounted methods are superior, and **net present value** is the most acceptable '
+                     'of them, because it measures the absolute increase in the value of the business after '
+                     'allowing for the cost of the money tied up. Applying it to project one, at an assumed '
+                     'cost of capital of **10%** (no rate is given in the question — state your '
+                     'assumption):'},
+               {'stmt': {'t': 'Project one — net present value at 10% (N)',
+                         'rows': [['Year', 'Cash flow', 'DF @ 10%', 'Present value', '@hd'],
+                                  [0, -25000, 1.0, -25000],
+                                  [1, 8000, 0.9091, 7273],
+                                  [2, 10000, 0.8264, 8264],
+                                  [3, 6000, 0.7513, 4508],
+                                  [4, 1000, 0.683, 683],
+                                  [5, 1000, 0.6209, 621],
+                                  ['**Total present value of inflows**', '', '', 21349, '@t'],
+                                  ['**Net present value**', '', '', -3651, '@tt']]}},
+               {'p': '**Project one should be rejected.** Although its total undiscounted inflows of N26,000 '
+                     'exceed the N25,000 invested, the margin is only N1,000 — and once the cash flows are '
+                     'discounted at 10% the project shows a **negative NPV of N3,651**. It does not earn the '
+                     'cost of the capital employed in it. Note that its **payback period** is $2 + '
+                     '\\tfrac{7{,}000}{6{,}000}$ — that is, during year 3, at about **2.17 years** — which '
+                     'looks respectable, and is precisely the kind of case where the traditional methods '
+                     'mislead.'},
+               {'h4': 'A supplied project two, for the comparison the question intends'},
+               {'note': 'The figures below are **not from the study text** — they are supplied here so the '
+                        'comparison can be demonstrated. Treat them as an illustration of the method, not as '
+                        "the examiner's data."},
+               {'stmt': {'t': 'Project two (supplied) — net present value at 10% (N)',
+                         'rows': [['Year', 'Cash flow', 'DF @ 10%', 'Present value', '@hd'],
+                                  [0, -25000, 1.0, -25000],
+                                  [1, 6000, 0.9091, 5455],
+                                  [2, 8000, 0.8264, 6611],
+                                  [3, 9000, 0.7513, 6762],
+                                  [4, 7000, 0.683, 4781],
+                                  [5, 5000, 0.6209, 3105],
+                                  ['**Total present value of inflows**', '', '', 26714, '@t'],
+                                  ['**Net present value**', '', '', 1714, '@tt']]}},
+               {'p': "**Project two would be chosen.** Its NPV is positive at N1,714 against project one's "
+                     'negative N3,651, even though its payback is **longer** (3.71 years against 2.17) — '
+                     'because it keeps earning after project one has dwindled to N1,000 a year. That is '
+                     'exactly the comparison the examiner was setting up, and exactly why the discounted '
+                     'method is "the more acceptable technique".'}]}},
+ {'eg': {'tag': 'Exam type — Q8 (PE II, May/June 1994)',
+         't': 'Modern Tech. Services — payback periods, and what payback conceals',
+         'q': [{'p': 'Modern Tech. Services Ltd is considering two alternative projects for a business '
+                     'expansion programme in the Northern part of the country. The projects have the '
+                     'following Naira cash-flow profiles:'},
+               {'stmt': {'t': 'Cash flow profiles (N million)',
+                         'rows': [['Year', 'Project 1', 'Project 2', '@hd'],
+                                  [0, '(1.00)', '(3.00)'],
+                                  [1, '(2.00)', 0.2],
+                                  [2, 0.95, 0.5],
+                                  [3, 0.85, 0.65],
+                                  [4, 0.78, 0.75],
+                                  [5, 0.62, 0.8],
+                                  [6, 0.4, 1.9],
+                                  [7, 0.1, 0.2]]}},
+               {'p': '**Required:'},
+               {'ul': ['** **(a)** calculate the payback period for each project',
+                       '**(b)** based on payback periods, advise which project should be chosen',
+                       '**(c)** state the advantages and disadvantages of the payback period criterion of '
+                       'investment appraisal.']}],
+         'a': [{'h4': '(a)  Payback periods'},
+               {'note': 'Project 1 has **two outflows** — N1m at time 0 and a further N2m at the end of year '
+                        '1 — so the total investment to be recovered is N3m, the same as project 2, but it '
+                        'is committed later. The cleanest method is a single cumulative net cash-flow column '
+                        'that includes both the outflows and the inflows.'},
+               {'stmt': {'t': 'Project 1 — cumulative net cash flow (N million)',
+                         'rows': [['Year', 'Cash flow', 'Cumulative', '@hd'],
+                                  [0, '(1.00)', '(1.00)'],
+                                  [1, '(2.00)', '(3.00)'],
+                                  [2, 0.95, '(2.05)'],
+                                  [3, 0.85, '(1.20)'],
+                                  [4, 0.78, '(0.42)'],
+                                  ['**5**', '**0.62**', '**0.20  ← turns positive**'],
+                                  [6, 0.4, 0.6],
+                                  [7, 0.1, 0.7]]}},
+               {'tex': '\\text{Payback}_1 = 4 \\text{ years} + \\frac{0.42}{0.62} = 4 + 0.68 = \\mathbf{4.68 '
+                       '\\text{ years}}'},
+               {'stmt': {'t': 'Project 2 — cumulative net cash flow (N million)',
+                         'rows': [['Year', 'Cash flow', 'Cumulative', '@hd'],
+                                  [0, '(3.00)', '(3.00)'],
+                                  [1, 0.2, '(2.80)'],
+                                  [2, 0.5, '(2.30)'],
+                                  [3, 0.65, '(1.65)'],
+                                  [4, 0.75, '(0.90)'],
+                                  [5, 0.8, '(0.10)'],
+                                  ['**6**', '**1.90**', '**1.80  ← turns positive**'],
+                                  [7, 0.2, 2.0]]}},
+               {'tex': '\\text{Payback}_2 = 5 \\text{ years} + \\frac{0.10}{1.90} = 5 + 0.05 = \\mathbf{5.05 '
+                       '\\text{ years}}'},
+               {'h4': '(b)  Advice based on payback periods'},
+               {'stmt': {'t': 'Comparison',
+                         'rows': [['', 'Project 1', 'Project 2', '@hd'],
+                                  ['Payback period', '4.68 years', '5.05 years'],
+                                  ['**Decision on the payback criterion**', '**CHOOSE**', 'reject']]}},
+               {'p': '**On the payback criterion, Project 1 should be chosen** — it recovers the N3m '
+                     'invested about four and a half months sooner than Project 2.'},
+               {'warn': 'But look at what that criterion is throwing away. Over the full seven years '
+                        '**Project 1 generates N3.70m of inflows against a N3.00m outlay — a net gain of '
+                        'N0.70m**, while **Project 2 generates N5.00m against the same N3.00m — a net gain '
+                        "of N2.00m**, nearly three times as much. Project 2's single largest inflow, N1.90m "
+                        'in year 6, falls **after** Project 1 has already paid back, so payback never sees '
+                        'it. A company that followed the payback rule here would forgo N1.30m of net cash. '
+                        "This question is a textbook demonstration of payback's central defect, and a "
+                        'complete answer **must say so** even though part (b) asks only for the '
+                        'payback-based advice.',
+                'lbl': 'What payback conceals here'},
+               {'stmt': {'t': 'Total cash generated over the full seven years (N million)',
+                         'rows': [['', 'Project 1', 'Project 2', '@hd'],
+                                  ['Total inflows', 3.7, 5.0],
+                                  ['Total outflows', '(3.00)', '(3.00)'],
+                                  ['**Net cash generated**', 0.7, 2.0, '@tt']]}},
+               {'p': '**Recommendation:** advise the Board that on payback alone Project 1 wins, but that '
+                     'the criterion is inadequate here and a **discounted cash flow appraisal of both '
+                     'projects should be carried out before any commitment is made**. Project 2 is very '
+                     'likely to show the higher net present value despite its slower payback.'},
+               {'h4': '(c)  Advantages and disadvantages of the payback period criterion'},
+               {'table': {'align': 'll',
+                          'head': ['Advantages', 'Disadvantages'],
+                          'rows': [['**Simple** to calculate and to understand, even for managers without '
+                                    'financial training.',
+                                    '**Ignores the time value of money** — N1 in year 7 is counted as equal '
+                                    'to N1 in year 1.'],
+                                   ['**Emphasises liquidity** — it shows how quickly committed cash returns, '
+                                    'which matters to a business with tight working capital.',
+                                    '**Ignores all cash flows after the payback date**, however large — as '
+                                    "Project 2's N1.90m in year 6 demonstrates."],
+                                   ['**Reduces risk** by favouring projects whose returns arrive early, '
+                                    'since near-term forecasts are far more reliable than distant ones.',
+                                    '**Measures liquidity, not profitability** — it cannot say whether a '
+                                    'project is worth doing at all.'],
+                                   ['**Needs no cost of capital**, so it can be used where that figure is '
+                                    'unknown or disputed.',
+                                    'The **target payback period is arbitrary**, set by management rather '
+                                    'than derived from principle.'],
+                                   ['**Useful as a first screen**, and in volatile markets or '
+                                    'fast-obsolescing technology where long forecasts are worthless.',
+                                    '**Ignores the size of the investment** and the total return, so '
+                                    'projects of different scale cannot be compared.'],
+                                   ['**Objective and consistent** — two analysts working from the same '
+                                    'figures get the same answer.',
+                                    '**Ignores the pattern of flows within the payback period**, and takes '
+                                    'no account of scrap or residual values.']]}}]}}]},
 
  ],
  'formulas': [

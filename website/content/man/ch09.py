@@ -241,54 +241,56 @@ CH = {
              'mentoring program to proceed…"). The sense is unaffected.'},
   ]},
 
-  {'n': 'A.8', 't': 'Roles and responsibilities of mentor and mentee', 'b': [
-    {'h4': 'A.8.1  Mentor roles and responsibilities'},
-    {'p': '**1. Identifying roles**'},
-    {'ul': ['have a clear understanding of **why he or she wants to be a mentor**; and',
-            'mentor with a **realistic assessment** of the mentee\'s skills and experience.']},
-    {'p': '**2. Communicating expectations**'},
-    {'ul': ['have a clear understanding of the **mentor\'s expectations for the mentee**;',
-            '**clearly communicate** those expectations;',
-            '**stay flexible** in changing expectations;',
-            '**adapt feedback** to the mentee\'s learning style; and',
-            'be **realistic about setting timelines**.']},
-    {'p': '**3. Working together**'},
-    {'ul': ['**advise, do not dictate**;',
-            'advise on what the mentor **knows**, and **admit the things he or she does not '
-            'know**;',
-            'give **good examples**;', 'offer **constructive feedback**;',
-            '**evaluate progress**; and',
-            'be **supportive** to the mentee, and be **reliable**.']},
-    {'p': '**4. Meeting all the goals**'},
-    {'ul': ['after mentoring is completed, **follow up on successes**;',
-            'provide an **evaluation of the experience**; and',
-            '**repeat the mentoring process** with others.']},
-    {'h4': 'A.8.2  Mentee roles and responsibilities'},
-    {'p': '**1. Identifying roles**'},
-    {'ul': ['have an understanding of **what the mentee wants to be mentored in**; and',
-            '**select a mentor** based on his or her goals.']},
-    {'p': '**2. Communicating expectations**'},
-    {'ul': ['have a clear understanding of the **mentee\'s expectations for the mentor**;',
-            '**clearly communicate** those expectations;',
-            '**stay flexible** in changing expectations;',
-            '**inform the mentor** about the learning style the mentee prefers; and',
-            'be **realistic about setting timelines**.']},
-    {'p': '**3. Working together**'},
-    {'ul': ['**listen and contribute** to the conversation;',
-            'understand that **mentors will not have all the answers**;',
-            '**accept constructive feedback**;', '**evaluate progress**;',
-            '**celebrate success**; and', 'be **reliable**.']},
-    {'p': '**4. Meeting the goals**'},
-    {'ul': ['provide **updates to the mentor** after mentoring is completed;',
-            'provide an **evaluation of the experience**; and', '**say thank you**.']},
-    {'key': 'The two lists are deliberately **parallel** — the same four headings in the same '
-            'order — which is the structure to reproduce in an answer. Within them, note the '
-            'reciprocity: the mentor **adapts feedback** to the mentee\'s learning style and the '
-            'mentee **informs the mentor** what that style is; the mentor **offers** '
-            'constructive feedback and the mentee **accepts** it; both **evaluate progress** and '
-            'both must be **reliable**. Mentoring is a two-sided obligation, and the single most '
-            'quotable instruction in either list is the mentor\'s: **"advise, don\'t dictate"**.'},
-  ]},
+  {'n': 'A.8', 't': 'Roles and responsibilities of mentor and mentee', 'b': [{'h4': 'A.8.1  Mentor roles and responsibilities'},
+ {'p': '**1. Identifying roles**'},
+ {'ul': ['have a clear understanding of **why he or she wants to be a mentor**; and',
+         "mentor with a **realistic assessment** of the mentee's skills and experience."]},
+ {'p': '**2. Communicating expectations**'},
+ {'ul': ["have a clear understanding of the **mentor's expectations for the mentee**;",
+         '**clearly communicate** those expectations;',
+         '**stay flexible** in changing expectations;',
+         "**adapt feedback** to the mentee's learning style; and",
+         'be **realistic about setting timelines**.']},
+ {'p': '**3. Working together**'},
+ {'ul': ['**advise, do not dictate**;',
+         'advise on what the mentor **knows**, and **admit the things he or she does not know**;',
+         'give **good examples**;',
+         'offer **constructive feedback**;',
+         '**evaluate progress**; and',
+         'be **supportive** to the mentee, and be **reliable**.']},
+ {'p': '**4. Meeting all the goals**'},
+ {'ul': ['after mentoring is completed, **follow up on successes**;',
+         'provide an **evaluation of the experience**; and',
+         '**repeat the mentoring process** with others.']},
+ {'h4': 'A.8.2  Mentee roles and responsibilities'},
+ {'p': '**1. Identifying roles**'},
+ {'ul': ['have an understanding of **what the mentee wants to be mentored in**; and',
+         '**select a mentor** based on his or her goals.']},
+ {'p': '**2. Communicating expectations**'},
+ {'ul': ["have a clear understanding of the **mentee's expectations for the mentor**;",
+         '**clearly communicate** those expectations;',
+         '**stay flexible** in changing expectations;',
+         '**inform the mentor** about the learning style the mentee prefers; and',
+         'be **realistic about setting timelines**.']},
+ {'p': '**3. Working together**'},
+ {'ul': ['**listen and contribute** to the conversation;',
+         'understand that **mentors will not have all the answers**;',
+         '**accept constructive feedback**;',
+         '**evaluate progress**;',
+         '**celebrate success**; and',
+         'be **reliable**.']},
+ {'p': '**4. Meeting the goals**'},
+ {'ul': ['provide **updates to the mentor** after mentoring is completed;',
+         'provide an **evaluation of the experience**; and',
+         '**say thank you**.']},
+ {'key': [{'p': 'The two lists are deliberately **parallel** — the same four headings in the same order — '
+                'which is the structure to reproduce in an answer. Within them, note the reciprocity:'},
+          {'ul': ["the mentor **adapts feedback** to the mentee's learning style and the mentee **informs "
+                  'the mentor** what that style is',
+                  'the mentor **offers** constructive feedback and the mentee **accepts** it',
+                  'both **evaluate progress** and both must be **reliable**. Mentoring is a two-sided '
+                  "obligation, and the single most quotable instruction in either list is the mentor's: "
+                  '**"advise, don\'t dictate"**.']}]}]},
 
   {'n': 'A.9', 't': 'Summary of Section A', 'b': [
     {'p': 'The section explored the concept of mentoring as a contemporary management issue. '
@@ -307,106 +309,189 @@ CH = {
           'each party plays his or her roles effectively.'},
   ]},
 
-  {'n': 'A.10', 't': 'Review questions and multiple choice questions — Section A', 'b': [
-    {'p': 'Section A closes with **six review questions** and **ten multiple choice '
-          'questions**, the latter with the study text\'s own printed answers.'},
-    {'eg': {'tag': 'Study text — Section A review questions', 't': 'The six review questions',
-      'open': True,
-      'q': [{'ol': [
-        'Define mentoring.',
-        'State any **five (5)** characteristics of mentoring.',
-        'State any **five (5)** objectives of mentoring.',
-        'Give **two (2)** benefits of mentoring to the mentor, the mentee and the organisation.',
-        'Mention any **five (5)** demerits of mentoring.',
-        'Identify the roles and responsibilities of mentors and mentees.',
-      ]}],
-      'a': [{'p': 'Each of the six is answered directly by a section of this chapter, and the '
-                  'requirement tells you how much to give:'},
-            {'table': {'align': 'lll', 'head': ['Question', 'Answer at', 'What to give'],
-              'rows': [
-              ['(i) Define mentoring', '**§A.1**', 'The definition, plus the points that it is '
-               'long term, voluntary, one-on-one, unpaid, and differs from coaching in being '
-               'long rather than short term'],
-              ['(ii) Five characteristics', '**§A.2**', 'Any 5 of the 6'],
-              ['(iii) Five objectives', '**§A.3**', 'Any 5 of the 8'],
-              ['(iv) Two benefits to each party', '**§A.6.1, §A.6.2, §A.6.3**',
-               '**Two from each of the three lists — six in total.** Do not give six benefits '
-               'from one list'],
-              ['(v) Five demerits', '**§A.7**', 'Any 5 of the 9'],
-              ['(vi) Roles and responsibilities', '**§A.8.1 and §A.8.2**',
-               'Both parties, under the four parallel headings: identifying roles, '
-               'communicating expectations, working together, meeting the goals'],
-            ]}},
-            {'note': 'Question (iv) is the one most often answered wrongly — it asks for two '
-                     'benefits **to the mentor, the mentee and the organisation**, which is six '
-                     'benefits across three lists, not two benefits in total.'}]}},
-
-    {'eg': {'tag': 'Study text — Section A multiple choice questions',
-      't': 'Ten multiple choice questions, with the study text\'s own solutions', 'open': True,
-      'q': [{'ol': [
-        'This term can be defined as an act of regarding attentively or watching; mentees do '
-        'this action weekly. **A.** Observations; **B.** Video Logs; **C.** Meetings; **D.** '
-        'Emails.',
-        'In the mentor programme, you learn about ……… **A.** Yourself; **B.** Others; **C.** New '
-        'teaching strategies; **D.** All of the above.',
-        '……… is a type of listening in which you pay attention to the words, body language and '
-        'emotions of the person you are talking to. **A.** Double Listening; **B.** Active '
-        'Listening; **C.** Good Listening; **D.** Pay Attention Listening.',
-        'Mentors use this tool to stay updated on assignments and communicate with the Mentor '
-        'Coach. **A.** Video Logs; **B.** Pencil and Paper; **C.** Email; **D.** Microphone.',
-        'What is mentoring? **A.** The act of advising someone with less tenure or experience; '
-        '**B.** Listening to a new employee\'s personal troubles; **C.** The act of leading a '
-        'team of people; **D.** All of the above.',
-        'The main benefit to a mentee from working with an experienced specialist mentor is to '
-        '**A.** Increase dependence; **B.** Improve own performance; **C.** Build trust; **D.** '
-        'Build resilience.',
-        'An organisation is most likely to introduce a mentoring programme in order to ……… '
-        '**A.** Recognise specific skills; **B.** Close its skills gap; **C.** Increase its '
-        'training costs; **D.** Develop a promotional process.',
-        'Which of the following is the main type of question a mentor would use to seek further '
-        'clarification? **A.** Open; **B.** Closed; **C.** Leading; **D.** Probing.',
-        'A mentor can support a member of staff struggling with the demands of their own role '
-        'by ……… **A.** Advising a change of duties; **B.** Advising others to be helpful; '
-        '**C.** Directing to useful resources; **D.** Signposting issues to manager.',
-        'The term which describes long-term training which includes a combination of both '
-        'on-the-job and in-class training is: **A.** Mentorship; **B.** Computer based '
-        'training; **C.** Vestibule training; **D.** Apprenticeship.',
-      ]}],
-      'a': [
-      {'h4': 'Solutions to the multiple choice questions'},
-      {'table': {'align': 'cl', 'head': ['Q', 'Answer'], 'rows': [
-        ['1', '**A** — Observations'], ['2', '**D** — All of the above'],
-        ['3', '**B** — Active Listening'], ['4', '**C** — Email'],
-        ['5', '**A** — The act of advising someone with less tenure or experience'],
-        ['6', '**C** — Build trust'], ['7', '**B** — Close its skills gap'],
-        ['8', '**A** — Open'], ['9', '**C** — Directing to useful resources'],
-        ['10', '**A** — Mentorship'],
-      ]}},
-      {'key': 'Three of the answers are worth reasoning through rather than memorising. '
-              '**Q3 — active listening** is the attending to words, body language *and* '
-              'emotions, and it is the first benefit the mentor gains at §A.6.1. **Q7 — closing '
-              'the skills gap**: note that option C, "increase its training costs", is the '
-              'opposite of the truth, since §A.2 and §A.6.3 both say mentoring *reduces* '
-              'training costs. **Q10 — mentorship** rather than apprenticeship: both are long '
-              'term, but apprenticeship is a formal trade qualification, whereas mentorship is '
-              'the relationship this section describes.'},
-      {'warn': 'The study text gives **C (build trust)** as the answer to Q6, where the more '
-               'natural reading of "the main benefit to a mentee" points to **B (improve own '
-               'performance)** — the mentee benefits at §A.6.2 are competence, confidence, '
-               'communication skills, professional relationships and contacts, which is '
-               'performance improvement, while trust-building is listed at §A.3 as an '
-               '*objective* of mentoring rather than a benefit to the mentee. The printed answer '
-               'is reproduced above because it is the official one; be aware that B is '
-               'defensible and that the question is loosely drafted. Note in passing that option '
-               'A, "increase dependence", is plainly wrong — §A.3(vii) warns expressly against '
-               'making the mentee depend on the mentor.'},
-      {'note': 'Questions 1, 2 and 4 are drawn from a **structured mentoring programme** — '
-               'weekly observations, video logs, a Mentor Coach, email updates — which this '
-               'section never describes. They are testing familiarity with planned mentoring '
-               '(§A.1) in operation rather than anything in the text, and Q8\'s distinction '
-               'between open, closed, leading and probing questions belongs to the '
-               'communication material of Chapter 5.'}]}},
-  ]},
+  {'n': 'A.10', 't': 'Review questions and multiple choice questions — Section A', 'b': [{'p': 'Section A closes with **six review questions** and **ten multiple choice questions**, the latter '
+       "with the study text's own printed answers."},
+ {'eg': {'tag': 'Study text — Section A review questions',
+         't': 'The six review questions',
+         'open': True,
+         'q': [{'ol': ['Define mentoring.',
+                       'State any **five (5)** characteristics of mentoring.',
+                       'State any **five (5)** objectives of mentoring.',
+                       'Give **two (2)** benefits of mentoring to the mentor, the mentee and the '
+                       'organisation.',
+                       'Mention any **five (5)** demerits of mentoring.',
+                       'Identify the roles and responsibilities of mentors and mentees.']}],
+         'a': [{'note': 'Worked study answers drawn from this chapter’s source material. The study text '
+                        'provides these review questions without separate model answers.',
+                'lbl': 'Study answers'},
+               {'h4': '(i) Definition of mentoring'},
+               {'def': {'t': 'Mentoring',
+                        'd': 'a professional relationship in which an experienced person (the **mentor**) '
+                             'assists another (the **mentee**) in developing specific skills and knowledge '
+                             "that will enhance the less experienced person's professional and personal "
+                             'growth.'}},
+               {'p': 'Mentoring is a **long-term relationship** that meets a development need, helps develop '
+                     'full potential, and benefits all partners — mentor, mentee and the organisation. It is '
+                     'a **protected relationship** in which learning and experimentation can occur and '
+                     'potential skills be developed, and in which results can be **measured in terms of '
+                     'competencies gained**.'},
+               {'key': 'Mentoring is normally a **voluntary, one-on-one relationship** between the mentor '
+                       'and protégé, where **neither is paid** to be involved in the process. It is '
+                       'important at the workplace because it helps employees to do the right thing, by '
+                       'exposing them to senior employees. **Mentoring differs from coaching** because '
+                       'coaching is a **short-term** task and mentoring is a **long-term** one. Mentoring is '
+                       'widely recognised today as an extremely beneficial **career development tool**.'},
+               {'h4': '(ii) Five characteristics of mentoring'},
+               {'ol': ['mentoring is **long term in nature**;',
+                       'mentoring **involves two parties** — mentor and mentee — in which the mentor is the '
+                       'more qualified person compared to the mentee;',
+                       'mentoring is a **professional relationship**;',
+                       'the process of mentoring **enhances the skills of the mentee**;',
+                       'mentoring serves as a **career development tool**; and']},
+               {'h4': '(iii) Five objectives of mentoring'},
+               {'ol': ['providing an **opportunity to young people to share their concerns** and get both '
+                       'moral support and guidance for their development;',
+                       'establishing a **relationship of trust**;',
+                       '**modelling behavioural norms** for the young person;',
+                       "**listening** to the person's concerns and problems;",
+                       'helping him to **search for alternative solutions** to the problems;']},
+               {'h4': '(iv) Two benefits to each of the three parties'},
+               {'h4': 'Mentor'},
+               {'ol': ["the mentoring process **strengthens the mentor's active listening skills**;",
+                       'mentoring encourages **knowledge sharing**, which increases the **self-worth** of '
+                       'the mentor;']},
+               {'h4': 'Mentee'},
+               {'ol': ['the **skills or competency levels** of mentees are developed by the mentoring '
+                       'process;',
+                       "mentoring **improves the mentee's confidence** in their ability;"]},
+               {'h4': 'Organisation'},
+               {'ol': ['the process of mentoring helps an organisation **achieve its talent development '
+                       'goals**, such as succession planning and strong leadership development;',
+                       'it **improves employee retention** — keeping an employee for a long period, thereby '
+                       'reducing turnover rates;']},
+               {'key': 'Two benefits for each of three parties gives six benefits in total.'},
+               {'h4': '(v) Five demerits of mentoring'},
+               {'ol': ['the risk of mentors developing **considerable personal and private knowledge** about '
+                       'their mentees, which could lead to **confidentiality breaches or bias**;',
+                       '**overuse of mentors** can lead to **mentor fatigue**, and can potentially '
+                       '**replicate poor work styles** of a mentor in a mentee;',
+                       '**lack of clarity about the purpose and expectations** of the mentoring relationship '
+                       'can be detrimental to the process;',
+                       'the **intimate nature** of mentoring relationships can lead to a **sharing of '
+                       'sensitive information** that could be misused or disclosed;',
+                       'where mentoring relationships are **mandated or forced**, there may be a **lack of '
+                       'chemistry or a poor fit** between mentor and mentee;']},
+               {'h4': '(vi) Roles and responsibilities of mentor and mentee'},
+               {'h4': 'A.8.1  Mentor roles and responsibilities'},
+               {'p': '**1. Identifying roles**'},
+               {'ul': ['have a clear understanding of **why he or she wants to be a mentor**; and',
+                       "mentor with a **realistic assessment** of the mentee's skills and experience."]},
+               {'p': '**2. Communicating expectations**'},
+               {'ul': ["have a clear understanding of the **mentor's expectations for the mentee**;",
+                       '**clearly communicate** those expectations;',
+                       '**stay flexible** in changing expectations;',
+                       "**adapt feedback** to the mentee's learning style; and",
+                       'be **realistic about setting timelines**.']},
+               {'p': '**3. Working together**'},
+               {'ul': ['**advise, do not dictate**;',
+                       'advise on what the mentor **knows**, and **admit the things he or she does not '
+                       'know**;',
+                       'give **good examples**;',
+                       'offer **constructive feedback**;',
+                       '**evaluate progress**; and',
+                       'be **supportive** to the mentee, and be **reliable**.']},
+               {'p': '**4. Meeting all the goals**'},
+               {'ul': ['after mentoring is completed, **follow up on successes**;',
+                       'provide an **evaluation of the experience**; and',
+                       '**repeat the mentoring process** with others.']},
+               {'h4': 'A.8.2  Mentee roles and responsibilities'},
+               {'p': '**1. Identifying roles**'},
+               {'ul': ['have an understanding of **what the mentee wants to be mentored in**; and',
+                       '**select a mentor** based on his or her goals.']},
+               {'p': '**2. Communicating expectations**'},
+               {'ul': ["have a clear understanding of the **mentee's expectations for the mentor**;",
+                       '**clearly communicate** those expectations;',
+                       '**stay flexible** in changing expectations;',
+                       '**inform the mentor** about the learning style the mentee prefers; and',
+                       'be **realistic about setting timelines**.']},
+               {'p': '**3. Working together**'},
+               {'ul': ['**listen and contribute** to the conversation;',
+                       'understand that **mentors will not have all the answers**;',
+                       '**accept constructive feedback**;',
+                       '**evaluate progress**;',
+                       '**celebrate success**; and',
+                       'be **reliable**.']},
+               {'p': '**4. Meeting the goals**'},
+               {'ul': ['provide **updates to the mentor** after mentoring is completed;',
+                       'provide an **evaluation of the experience**; and',
+                       '**say thank you**.']}]}},
+ {'eg': {'tag': 'Study text — Section A multiple choice questions',
+         't': "Ten multiple choice questions, with the study text's own solutions",
+         'open': True,
+         'q': [{'ol': ['This term can be defined as an act of regarding attentively or watching; mentees do '
+                       'this action weekly. **A.** Observations; **B.** Video Logs; **C.** Meetings; **D.** '
+                       'Emails.',
+                       'In the mentor programme, you learn about ……… **A.** Yourself; **B.** Others; **C.** '
+                       'New teaching strategies; **D.** All of the above.',
+                       '……… is a type of listening in which you pay attention to the words, body language '
+                       'and emotions of the person you are talking to. **A.** Double Listening; **B.** '
+                       'Active Listening; **C.** Good Listening; **D.** Pay Attention Listening.',
+                       'Mentors use this tool to stay updated on assignments and communicate with the Mentor '
+                       'Coach. **A.** Video Logs; **B.** Pencil and Paper; **C.** Email; **D.** Microphone.',
+                       'What is mentoring? **A.** The act of advising someone with less tenure or '
+                       "experience; **B.** Listening to a new employee's personal troubles; **C.** The act "
+                       'of leading a team of people; **D.** All of the above.',
+                       'The main benefit to a mentee from working with an experienced specialist mentor is '
+                       'to **A.** Increase dependence; **B.** Improve own performance; **C.** Build trust; '
+                       '**D.** Build resilience.',
+                       'An organisation is most likely to introduce a mentoring programme in order to ……… '
+                       '**A.** Recognise specific skills; **B.** Close its skills gap; **C.** Increase its '
+                       'training costs; **D.** Develop a promotional process.',
+                       'Which of the following is the main type of question a mentor would use to seek '
+                       'further clarification? **A.** Open; **B.** Closed; **C.** Leading; **D.** Probing.',
+                       'A mentor can support a member of staff struggling with the demands of their own role '
+                       'by ……… **A.** Advising a change of duties; **B.** Advising others to be helpful; '
+                       '**C.** Directing to useful resources; **D.** Signposting issues to manager.',
+                       'The term which describes long-term training which includes a combination of both '
+                       'on-the-job and in-class training is: **A.** Mentorship; **B.** Computer based '
+                       'training; **C.** Vestibule training; **D.** Apprenticeship.']}],
+         'a': [{'h4': 'Solutions to the multiple choice questions'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**A** — Observations'],
+                                   ['2', '**D** — All of the above'],
+                                   ['3', '**B** — Active Listening'],
+                                   ['4', '**C** — Email'],
+                                   ['5',
+                                    '**A** — The act of advising someone with less tenure or experience'],
+                                   ['6', '**C** — Build trust'],
+                                   ['7', '**B** — Close its skills gap'],
+                                   ['8', '**A** — Open'],
+                                   ['9', '**C** — Directing to useful resources'],
+                                   ['10', '**A** — Mentorship']]}},
+               {'key': 'Three of the answers are worth reasoning through rather than memorising. **Q3 — '
+                       'active listening** is the attending to words, body language *and* emotions, and it '
+                       'is the first benefit the mentor gains at §A.6.1. **Q7 — closing the skills gap**: '
+                       'note that option C, "increase its training costs", is the opposite of the truth, '
+                       'since §A.2 and §A.6.3 both say mentoring *reduces* training costs. **Q10 — '
+                       'mentorship** rather than apprenticeship: both are long term, but apprenticeship is a '
+                       'formal trade qualification, whereas mentorship is the relationship this section '
+                       'describes.'},
+               {'warn': 'The study text gives **C (build trust)** as the answer to Q6, where the more '
+                        'natural reading of "the main benefit to a mentee" points to **B (improve own '
+                        'performance)** — the mentee benefits at §A.6.2 are competence, confidence, '
+                        'communication skills, professional relationships and contacts, which is performance '
+                        'improvement, while trust-building is listed at §A.3 as an *objective* of mentoring '
+                        'rather than a benefit to the mentee. The printed answer is reproduced above because '
+                        'it is the official one; be aware that B is defensible and that the question is '
+                        'loosely drafted. Note in passing that option A, "increase dependence", is plainly '
+                        'wrong — §A.3(vii) warns expressly against making the mentee depend on the mentor.'},
+               {'note': 'Questions 1, 2 and 4 are drawn from a **structured mentoring programme** — weekly '
+                        'observations, video logs, a Mentor Coach, email updates — which this section never '
+                        'describes. They are testing familiarity with planned mentoring (§A.1) in operation '
+                        "rather than anything in the text, and Q8's distinction between open, closed, "
+                        'leading and probing questions belongs to the communication material of Chapter '
+                        '5.'}]}}]},
 
   {'n': 'B.1', 't': 'Remote work', 'b': [
     {'def': {'t': 'Remote work', 'd': 'the practice of working outside of the traditional '
@@ -532,72 +617,112 @@ CH = {
           'leave work when the day ends.'},
   ]},
 
-  {'n': 'B.7', 't': 'Review questions and multiple choice questions — Section B', 'b': [
-    {'eg': {'tag': 'Study text — Section B review questions', 't': 'The five review questions',
-      'open': True,
-      'q': [{'ol': [
-        'Define remote work.',
-        'Distinguish between working from home and working from anywhere.',
-        'List the **four (4)** drivers of remote work.',
-        'State any **four (4)** advantages of remote work.',
-        'State any **four (4)** disadvantages of remote work.',
-      ]}],
-      'a': [{'table': {'align': 'lll', 'head': ['Question', 'Answer at', 'What to give'],
-        'rows': [
-        ['(i) Define remote work', '**§B.1**', 'Olson\'s definition — working outside the '
-         'traditional office in both a temporal and a spatial sense'],
-        ['(ii) Distinguish WFH from working from anywhere', '**§B.2**',
-         'Temporal flexibility only, within 50 miles of the office, against temporal **and** '
-         'geographical flexibility with almost no office presence — the latter also called '
-         'telecommuting'],
-        ['(iii) Four drivers', '**§B.3**', 'All four — IT availability, effective '
-         'manager–employee communication, experience and training, and effective management '
-         'practices. The question asks for four and there are exactly four'],
-        ['(iv) Four advantages', '**§B.4**', 'Any 4 of the 6'],
-        ['(v) Four disadvantages', '**§B.5**', 'Any 4 of the 5'],
-      ]}},
-      {'note': 'Question (iii) is the only one in the chapter where the number asked for equals '
-               'the number available, so nothing may be omitted. Attribute them to **Staples et '
-               'al. (2006)** if you can — the study text does.'}]}},
-
-    {'eg': {'tag': 'Study text — Section B multiple choice questions',
-      't': 'Five multiple choice questions, with the study text\'s own answers', 'open': True,
-      'q': [{'ol': [
-        'Which of these is **not** an advantage of remote work? **A.** Increase in family '
-        'social life; **B.** Increase in office socialisation; **C.** Increase in worker\'s '
-        'productivity; **D.** Increased integration of work and non-work life.',
-        'Which of these is **not** related to remote work? **A.** Working from home; **B.** '
-        'Telecommuting; **C.** Working from anywhere; **D.** Working alone.',
-        'The disadvantage of remote work is **A.** Inability to stop work when the work day '
-        'ends; **B.** Reduced commuting; **C.** Integrating work and family life; **D.** '
-        'Socialisation in family.',
-        'The term "telecommuting" in job design refers to: **A.** Job simplification; **B.** '
-        'Working in an office; **C.** Working from a remote location; **D.** Employee '
-        'turnover.',
-        'The concept of "telecommuting" is most closely associated with which principle of job '
-        'design? **A.** Autonomy; **B.** Variety; **C.** Feedback; **D.** Task significance.',
-      ]}],
-      'a': [
-      {'h4': 'Answers to the multiple choice questions'},
-      {'table': {'align': 'cl', 'head': ['Q', 'Answer'], 'rows': [
-        ['1', '**B** — Increase in office socialisation'],
-        ['2', '**D** — Working alone'],
-        ['3', '**A** — Inability to stop work when the work day ends'],
-        ['4', '**C** — Working from a remote location'],
-        ['5', '**A** — Autonomy'],
-      ]}},
-      {'key': 'Questions 1 and 3 are the same point from both sides, and both turn on the '
-              'symmetry at §B.5: remote work **increases family socialisation and removes '
-              'office socialisation**, and it **removes the commute but makes it hard to stop '
-              'working**. Question 2\'s answer is **working alone** — remote work is working '
-              'away from the office, not working without colleagues, which is precisely why '
-              'loneliness and lost information are listed as its costs rather than its '
-              'definition.'},
-      {'note': 'Question 5\'s answer, **autonomy**, links this section to job design: '
-               'telecommuting increases the worker\'s discretion over **when and where** work is '
-               'done, which is the autonomy dimension of the job characteristics model — not '
-               'variety, feedback or task significance, which are unaffected by location.'}]}},
-  ]},
+  {'n': 'B.7', 't': 'Review questions and multiple choice questions — Section B', 'b': [{'eg': {'tag': 'Study text — Section B review questions',
+         't': 'The five review questions',
+         'open': True,
+         'q': [{'ol': ['Define remote work.',
+                       'Distinguish between working from home and working from anywhere.',
+                       'List the **four (4)** drivers of remote work.',
+                       'State any **four (4)** advantages of remote work.',
+                       'State any **four (4)** disadvantages of remote work.']}],
+         'a': [{'note': 'Worked study answers drawn from the remote-work source section; no separate model '
+                        'answers are printed for these review questions.',
+                'lbl': 'Study answers'},
+               {'h4': '(i) Remote work'},
+               {'def': {'t': 'Remote work',
+                        'd': 'the practice of working outside of the traditional office, both in a '
+                             '**temporal** (time) and a **spatial** (location) sense (Olson, 1983).'}},
+               {'h4': '(ii) Working from home and working from anywhere'},
+               {'h4': 'B.2a  Working from home (WFH)'},
+               {'p': 'Working from home is defined by Choudhury et al. (2019) as **working within a certain '
+                     'distance from the corporate office (less than 50 miles away)**. This does not '
+                     'necessarily mean the person is working out of their own home, but for most workers '
+                     'that is the case.'},
+               {'key': 'The important aspect to consider is that working from home provides **temporal '
+                       'flexibility** — meaning the worker chooses their working hours more flexibly. '
+                       'Additionally, it **removes commuting** and **reduces sick days**.'},
+               {'h4': 'B.2b  Working from anywhere'},
+               {'p': 'The difference between working from home and working from anywhere is the '
+                     '**geographical flexibility** of working from anywhere. In addition to choosing their '
+                     'own hours, the worker also **chooses where they work from**, without any constraints '
+                     'and with **very limited physical presence at the office** (a few times per year). This '
+                     'allows workers to select an area with a **lower cost of living**, or one that suits '
+                     'their specific needs (Choudhury et al., 2019). It is also called **telecommuting**.'},
+               {'table': {'align': 'lll',
+                          'head': ['', 'Working from home', 'Working from anywhere'],
+                          'rows': [['Flexibility gained',
+                                    '**Temporal** — chooses working hours',
+                                    '**Temporal and geographical** — chooses hours *and* location'],
+                                   ['Distance from the office',
+                                    'Within a certain distance — **less than 50 miles**',
+                                    '**No constraint**'],
+                                   ['Physical presence at the office',
+                                    'Periodic',
+                                    '**Very limited** — a few times per year'],
+                                   ['Characteristic benefit',
+                                    'Removes commuting; reduces sick days',
+                                    'Allows choice of a **lower cost-of-living** area, or one suiting '
+                                    'specific needs'],
+                                   ['Also called', '—', '**Telecommuting**']]}},
+               {'h4': '(iii) Four drivers of remote work'},
+               {'p': 'According to Staples et al. (2006) there are **four key drivers** for an organisation '
+                     'that needs to carry out work in a virtual world; these include:'},
+               {'ol': ['**Availability of information technology (IT)**, which is a key part of a virtual '
+                       'working world. It allows workers to work remotely, allows the leaders to control the '
+                       'organisation, and allows the people within the organisation to communicate with each '
+                       'other.',
+                       '**Effective communication** between the manager and the employee.',
+                       '**Experience and training** from remote management or remote work, with the '
+                       'arrangements around it.',
+                       "**Effective management practices**, which includes the manager's view of what is "
+                       'realistic, so that expectations of meetings, performance and so on can be in line '
+                       'with reality.']},
+               {'h4': '(iv) Four advantages of remote work'},
+               {'ol': ['**socialisation in families**, with spouses and loved ones;',
+                       '**cuts down or completely removes the need for commuting**;',
+                       '**reduction of stress** from traffic congestion and public transport delays, and of '
+                       'the **carbon emissions** of the commute that would otherwise have been undertaken;',
+                       "it **enhances workers' lives** by reducing the time spent travelling;"]},
+               {'h4': '(v) Four disadvantages of remote work'},
+               {'ol': ['there are **feelings of loneliness and isolation**;',
+                       'it **blurs the boundaries** between work life and leisure time;',
+                       '**increased stress** and the **inability to leave work when the workday ends**;',
+                       '**missed socialisation at work**; and']}]}},
+ {'eg': {'tag': 'Study text — Section B multiple choice questions',
+         't': "Five multiple choice questions, with the study text's own answers",
+         'open': True,
+         'q': [{'ol': ['Which of these is **not** an advantage of remote work? **A.** Increase in family '
+                       "social life; **B.** Increase in office socialisation; **C.** Increase in worker's "
+                       'productivity; **D.** Increased integration of work and non-work life.',
+                       'Which of these is **not** related to remote work? **A.** Working from home; **B.** '
+                       'Telecommuting; **C.** Working from anywhere; **D.** Working alone.',
+                       'The disadvantage of remote work is **A.** Inability to stop work when the work day '
+                       'ends; **B.** Reduced commuting; **C.** Integrating work and family life; **D.** '
+                       'Socialisation in family.',
+                       'The term "telecommuting" in job design refers to: **A.** Job simplification; **B.** '
+                       'Working in an office; **C.** Working from a remote location; **D.** Employee '
+                       'turnover.',
+                       'The concept of "telecommuting" is most closely associated with which principle of '
+                       'job design? **A.** Autonomy; **B.** Variety; **C.** Feedback; **D.** Task '
+                       'significance.']}],
+         'a': [{'h4': 'Answers to the multiple choice questions'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**B** — Increase in office socialisation'],
+                                   ['2', '**D** — Working alone'],
+                                   ['3', '**A** — Inability to stop work when the work day ends'],
+                                   ['4', '**C** — Working from a remote location'],
+                                   ['5', '**A** — Autonomy']]}},
+               {'key': 'Questions 1 and 3 are the same point from both sides, and both turn on the symmetry '
+                       'at §B.5: remote work **increases family socialisation and removes office '
+                       'socialisation**, and it **removes the commute but makes it hard to stop working**. '
+                       "Question 2's answer is **working alone** — remote work is working away from the "
+                       'office, not working without colleagues, which is precisely why loneliness and lost '
+                       'information are listed as its costs rather than its definition.'},
+               {'note': "Question 5's answer, **autonomy**, links this section to job design: telecommuting "
+                        "increases the worker's discretion over **when and where** work is done, which is "
+                        'the autonomy dimension of the job characteristics model — not variety, feedback or '
+                        'task significance, which are unaffected by location.'}]}}]},
 
   {'n': 'C.1', 't': 'Workplace couple', 'b': [
     {'def': {'t': 'Workplace couple', 'd': 'two individuals who are **romantically involved and '
@@ -720,31 +845,26 @@ CH = {
              'both columns, which is why §C.6 is about managing it rather than preventing it.'},
   ]},
 
-  {'n': 'C.6', 't': 'Best practices for workplace couple life', 'b': [
-    {'ol': [
-      '**Set boundaries** — establish clear boundaries between personal and professional '
-      'relationships.',
-      '**Maintain professionalism** — treat each other with respect and professionalism in the '
-      'workplace.',
-      '**Communicate openly** — discuss challenges and conflicts openly and honestly.',
-      '**Be mindful of company policies** — familiarise yourself with your company\'s policies '
-      'on workplace romances.',
-      '**Prioritise your relationship** — make time for each other outside of work, to nurture '
-      'the relationship.',
-    ]},
-    {'key': 'Each best practice answers a specific disadvantage, and pairing them is the best '
-            'way to present this list: **setting boundaries** answers blurred boundaries; '
-            '**maintaining professionalism** answers gossip, favouritism and strained team '
-            'dynamics; **open communication** answers conflict; **awareness of company policy** '
-            'answers the discipline and reporting-line risk; and **prioritising the '
-            'relationship outside work** answers the distraction and breakup risks.'},
-    {'note': 'Note what the list is addressed to: it is advice to the **couple**, not to the '
-             'employer. The employer\'s counterpart measure appears in the section\'s own short '
-             'answer question — organisations need a **company policy** to regulate workplace '
-             'relationships between employees. If a question asks what the *organisation* '
-             'should do, the answer is a disclosure-and-conflict-of-interest policy, with rules '
-             'on relationships inside a reporting line.'},
-  ]},
+  {'n': 'C.6', 't': 'Best practices for workplace couple life', 'b': [{'ol': ['**Set boundaries** — establish clear boundaries between personal and professional relationships.',
+         '**Maintain professionalism** — treat each other with respect and professionalism in the workplace.',
+         '**Communicate openly** — discuss challenges and conflicts openly and honestly.',
+         "**Be mindful of company policies** — familiarise yourself with your company's policies on "
+         'workplace romances.',
+         '**Prioritise your relationship** — make time for each other outside of work, to nurture the '
+         'relationship.']},
+ {'key': [{'p': 'Each best practice answers a specific disadvantage, and pairing them is the best way to '
+                'present this list:'},
+          {'ul': ['**setting boundaries** answers blurred boundaries',
+                  '**maintaining professionalism** answers gossip, favouritism and strained team dynamics',
+                  '**open communication** answers conflict',
+                  '**awareness of company policy** answers the discipline and reporting-line risk',
+                  'and **prioritising the relationship outside work** answers the distraction and breakup '
+                  'risks.']}]},
+ {'note': 'Note what the list is addressed to: it is advice to the **couple**, not to the employer. The '
+          "employer's counterpart measure appears in the section's own short answer question — organisations "
+          'need a **company policy** to regulate workplace relationships between employees. If a question '
+          'asks what the *organisation* should do, the answer is a disclosure-and-conflict-of-interest '
+          'policy, with rules on relationships inside a reporting line.'}]},
 
   {'n': 'C.7', 't': 'Summary of Section C', 'b': [
     {'p': 'This section discussed the subject of the **workplace couple** as a contemporary '
@@ -758,68 +878,114 @@ CH = {
           'blurred boundaries and breakup complications.'},
   ]},
 
-  {'n': 'C.8', 't': 'Review questions and MCQ / short answer questions — Section C', 'b': [
-    {'eg': {'tag': 'Study text — Section C review questions', 't': 'The four review questions',
-      'open': True,
-      'q': [{'ol': [
-        'Define the terms **workplace couple, workplace spouse and workplace romance**.',
-        'Give any **five (5)** advantages of a workplace couple.',
-        'Give any **five (5)** disadvantages of a workplace couple.',
-        'Mention any **five (5)** best practices to guide workplace couple relationships in an '
-        'organisation.',
-      ]}],
-      'a': [{'table': {'align': 'lll', 'head': ['Question', 'Answer at', 'What to give'],
-        'rows': [
-        ['(a) The three terms', '**§C.1, §C.2, §C.3**',
-         'All three, and keep them distinct: **workplace couple** is the umbrella term covering '
-         'both romantic and close non-romantic relationships; **work spouse** is the '
-         '**platonic** version, with a close emotional bond, high disclosure and mutual trust; '
-         '**workplace romance** is the romantic, sexual or combination version'],
-        ['(b) Five advantages', '**§C.4**', 'Any 5 of the 13 — ideally a mix of benefits to the '
-         'couple and to the organisation'],
-        ['(c) Five disadvantages', '**§C.5**', 'Any 5 of the 9 — the reporting-line and policy '
-         'breach risk is the strongest one to lead with'],
-        ['(d) Five best practices', '**§C.6**', 'All five, since there are exactly five'],
-      ]}},
-      {'note': 'As with Section B\'s drivers question, part (d) asks for exactly as many items '
-               'as exist, so nothing can be left out.'}]}},
-
-    {'eg': {'tag': 'Study text — Section C MCQ / short answer questions',
-      't': 'Short answer and multiple choice questions, with the study text\'s own answers',
-      'open': True,
-      'q': [{'ol': [
-        '……… refers to two individuals who are romantically involved and work at the same '
-        'company.',
-        'Relationships between co-workers which can take romantic and sexual forms are known as '
-        '………',
-        'Organisations need to have ……… to regulate workplace relationships between employees '
-        'of the opposite sex.',
-        'One of these is **not** a factor that can influence workplace romance: **A.** Distance; '
-        '**B.** Appearance; **C.** Character; **D.** Proximity.',
-        'A failed workplace romantic relationship can result in: **A.** Voluntary overtime; '
-        '**B.** Increased communication; **C.** Violence; **D.** Moral value.',
-        'One of these is **not** an advantage of workplace romance: **A.** Job satisfaction; '
-        '**B.** Conflict of interest; **C.** Mutual support; **D.** Shared experiences.',
-      ]}],
-      'a': [
-      {'h4': 'Answers'},
-      {'table': {'align': 'cl', 'head': ['Q', 'Answer'], 'rows': [
-        ['1', '**Workplace couple**'], ['2', '**Workplace romance**'],
-        ['3', '**Company policy**'], ['4', '**A** — Distance'], ['5', '**C** — Violence'],
-        ['6', '**B** — Conflict of interest'],
-      ]}},
-      {'key': 'Question 4 turns on the contrast between **distance** and **proximity**. '
-              'Proximity *promotes* workplace romance — people who work near one another form '
-              'relationships — so distance, its opposite, is **not** a factor that influences '
-              'it. Appearance and character are both plainly influences.'},
-      {'note': 'Question 5\'s answer, **violence**, comes from §C.5(vi): where one partner is in '
-               'a position of authority, breakups "can lead to harassment claims or even '
-               'workplace violence". Question 6\'s answer, **conflict of interest**, is from the '
-               'disadvantages at §C.5(iv) — the other three options are all genuine advantages '
-               'from §C.4. And question 3 is the one point in the section addressed to the '
-               'employer rather than the couple: the organisation\'s answer to workplace '
-               'relationships is a **company policy**.'}]}},
-  ]},
+  {'n': 'C.8', 't': 'Review questions and MCQ / short answer questions — Section C', 'b': [{'eg': {'tag': 'Study text — Section C review questions',
+         't': 'The four review questions',
+         'open': True,
+         'q': [{'ol': ['Define the terms **workplace couple, workplace spouse and workplace romance**.',
+                       'Give any **five (5)** advantages of a workplace couple.',
+                       'Give any **five (5)** disadvantages of a workplace couple.',
+                       'Mention any **five (5)** best practices to guide workplace couple relationships in '
+                       'an organisation.']}],
+         'a': [{'note': 'Worked study answers drawn from the workplace-couple source section; no separate '
+                        'model answers are printed for these review questions.',
+                'lbl': 'Study answers'},
+               {'h4': '(a) Workplace couple, work spouse and workplace romance'},
+               {'def': {'t': 'Workplace couple',
+                        'd': 'two individuals who are **romantically involved and work at the same '
+                             'company**. The term can also refer to a **close, non-romantic relationship** '
+                             'between co-workers, sometimes described as a "work spouse" or "office '
+                             'spouse".'}},
+               {'p': '**Work spouse** is a term mostly used in American English, referring to a co-worker '
+                     'with whom one shares a special relationship, having bonds similar to those of a '
+                     'marriage. Early references suggest that a work spouse may not just be a co-worker, but '
+                     'can also be **someone in a similar field who the individual works closely with from a '
+                     'partnering company**.'},
+               {'def': {'t': 'Work spouse',
+                        'd': 'a special, **platonic** friendship with a work colleague, characterised by a '
+                             'close emotional bond, high levels of disclosure and support, and mutual trust, '
+                             'honesty, loyalty and respect.'}},
+               {'p': 'The "work spouse" is also referred to as **"workplace spouse"**, **"work wife"**, '
+                     '**"office husband"**, **"work husband"** or **"wusband"**.'},
+               {'p': '**Workplace romance**, or relationships between co-workers, can take various forms — '
+                     'including **romantic, sexual, or combination partnerships**. While some companies may '
+                     'have policies discouraging or even prohibiting workplace relationships — especially '
+                     '**between supervisors and subordinates** — many individuals experience and seek out '
+                     'romantic relationships in the workplace.'},
+               {'p': 'These relationships can have **both positive and negative consequences**, impacting '
+                     'not only the individuals involved but also the broader **workplace environment and '
+                     'culture**.'},
+               {'h4': '(b) Five advantages of a workplace couple'},
+               {'ol': ['**Increased job satisfaction** — being in a romantic relationship with a co-worker '
+                       'can make coming to work more enjoyable, due to the emotional support and shared '
+                       'experiences.',
+                       '**Improved communication** — couples who work together often develop strong '
+                       'communication skills, which can benefit their personal and professional '
+                       'relationships.',
+                       '**Mutual support** — workplace couples can offer each other emotional support and '
+                       'encouragement, both in their personal and professional lives.',
+                       '**Improved morale and team spirit** — the presence of happy couples can foster a '
+                       'sense of community and camaraderie among employees, boosting morale and team spirit.',
+                       '**Increased commitment and loyalty** — couples may feel more invested in the company '
+                       'and in the careers of their partners, leading to increased loyalty and commitment.']},
+               {'h4': '(c) Five disadvantages of a workplace couple'},
+               {'ol': ['**Company policies** — some companies have policies against workplace romances, or '
+                       "may require disclosure of the relationship. If it is against the company's policy, "
+                       'one or both parties could be **disciplined, suspended, demoted or fired**. If one of '
+                       'them reports to the other in the same management chain, **someone will have to '
+                       'transfer** (at minimum).',
+                       '**Blurred boundaries** — it can be challenging to separate personal and professional '
+                       'relationships, leading to conflicts or favouritism.',
+                       "**Gossip and rumours** — co-workers may gossip or speculate about the couple's "
+                       'relationship, creating an uncomfortable work environment.',
+                       '**Conflicts of interest** — workplace couples may face conflicts of interest, such '
+                       'as competing for the same promotions, or having different work priorities.',
+                       '**Breakup complications** — if the relationship ends, it can be awkward or '
+                       'uncomfortable to continue working together.']},
+               {'h4': '(d) Five best practices for workplace-couple relationships'},
+               {'ol': ['**Set boundaries** — establish clear boundaries between personal and professional '
+                       'relationships.',
+                       '**Maintain professionalism** — treat each other with respect and professionalism in '
+                       'the workplace.',
+                       '**Communicate openly** — discuss challenges and conflicts openly and honestly.',
+                       "**Be mindful of company policies** — familiarise yourself with your company's "
+                       'policies on workplace romances.',
+                       '**Prioritise your relationship** — make time for each other outside of work, to '
+                       'nurture the relationship.']}]}},
+ {'eg': {'tag': 'Study text — Section C MCQ / short answer questions',
+         't': "Short answer and multiple choice questions, with the study text's own answers",
+         'open': True,
+         'q': [{'ol': ['……… refers to two individuals who are romantically involved and work at the same '
+                       'company.',
+                       'Relationships between co-workers which can take romantic and sexual forms are known '
+                       'as ………',
+                       'Organisations need to have ……… to regulate workplace relationships between employees '
+                       'of the opposite sex.',
+                       'One of these is **not** a factor that can influence workplace romance: **A.** '
+                       'Distance; **B.** Appearance; **C.** Character; **D.** Proximity.',
+                       'A failed workplace romantic relationship can result in: **A.** Voluntary overtime; '
+                       '**B.** Increased communication; **C.** Violence; **D.** Moral value.',
+                       'One of these is **not** an advantage of workplace romance: **A.** Job satisfaction; '
+                       '**B.** Conflict of interest; **C.** Mutual support; **D.** Shared experiences.']}],
+         'a': [{'h4': 'Answers'},
+               {'table': {'align': 'cl',
+                          'head': ['Q', 'Answer'],
+                          'rows': [['1', '**Workplace couple**'],
+                                   ['2', '**Workplace romance**'],
+                                   ['3', '**Company policy**'],
+                                   ['4', '**A** — Distance'],
+                                   ['5', '**C** — Violence'],
+                                   ['6', '**B** — Conflict of interest']]}},
+               {'key': 'Question 4 turns on the contrast between **distance** and **proximity**. Proximity '
+                       '*promotes* workplace romance — people who work near one another form relationships — '
+                       'so distance, its opposite, is **not** a factor that influences it. Appearance and '
+                       'character are both plainly influences.'},
+               {'note': "Question 5's answer, **violence**, comes from §C.5(vi): where one partner is in a "
+                        'position of authority, breakups "can lead to harassment claims or even workplace '
+                        'violence". Question 6\'s answer, **conflict of interest**, is from the '
+                        'disadvantages at §C.5(iv) — the other three options are all genuine advantages from '
+                        '§C.4. And question 3 is the one point in the section addressed to the employer '
+                        "rather than the couple: the organisation's answer to workplace relationships is a "
+                        '**company policy**.'}]}}]},
  ],
  'formulas': [],
  'focus':

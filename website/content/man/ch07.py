@@ -134,42 +134,44 @@ CH = {
              'board.'},
   ]},
 
-  {'n': '7.5', 't': 'Summary', 'b': [
-    {'p': 'Organisational effectiveness is the **degree to which an organisation realises its '
-          'goals within its given environment**.'},
-    {'p': '**Criteria for measuring organisational effectiveness** include: adaptation to the '
-          'external environment; integration; sense of identity; productivity; goal attainment; '
-          'cohesion; efficiency; political effectiveness; survival; and control over the '
-          'environment.'},
-    {'p': '**Components of organisational performance** include communication, strong '
-          'leadership, goal alignment, innovativeness and adaptability to changes in the '
-          'environment, efficient operation, customer satisfaction, and performance measurement '
-          'to check for improvement indices.'},
-    {'p': '**Factors that influence organisational effectiveness** include leadership style, '
-          'organisational culture, organisational structure, deployment of appropriate '
-          'technology, human resources development, effective communication, external '
-          'organisational elements in the environment, and adaptability to change.'},
-    {'p': '**Strategies for improving organisational effectiveness** include having clearly '
-          'defined vision and goals, effective and efficient communication, engaging employees '
-          'in the planning process, imbibing the culture of continuous training and '
-          'development, creating objective performance metrics, supporting a creative, '
-          'innovative and adaptive work environment, and optimising resource utilisation.'},
-    {'warn': 'The **criteria for measuring organisational effectiveness** appear in the study '
-             'text **only here, in its chapter summary** — the body of the chapter (§7.1 to '
-             '§7.4) never sets them out, even though Review Question 2 asks for them. They are '
-             'reproduced in full above rather than left in the summary alone, because they are '
-             'examinable and are not obtainable from any other section. Ten criteria are listed: '
-             '**adaptation to the external environment, integration, sense of identity, '
-             'productivity, goal attainment, cohesion, efficiency, political effectiveness, '
-             'survival, and control over the environment**.'},
-    {'note': 'Note how the ten criteria pair up with the definition at §7.1. **Goal attainment, '
-             'productivity, efficiency, integration, cohesion and sense of identity** measure '
-             'the *inward* half — realising goals. **Adaptation to the external environment, '
-             'control over the environment, political effectiveness and survival** measure the '
-             '*outward* half — exploiting the environment to acquire critical resources. '
-             'Survival is the ultimate criterion: an organisation that does not survive has, by '
-             'definition, failed to secure the resources it needed.'},
-  ]},
+  {'n': '7.5', 't': 'Summary', 'b': [{'p': 'Organisational effectiveness is the **degree to which an organisation realises its goals within its '
+       'given environment**.'},
+ {'p': '**Criteria for measuring organisational effectiveness** include:'},
+ {'ul': ['adaptation to the external environment',
+         'integration',
+         'sense of identity',
+         'productivity',
+         'goal attainment',
+         'cohesion',
+         'efficiency',
+         'political effectiveness',
+         'survival',
+         'and control over the environment.']},
+ {'p': '**Components of organisational performance** include communication, strong leadership, goal '
+       'alignment, innovativeness and adaptability to changes in the environment, efficient operation, '
+       'customer satisfaction, and performance measurement to check for improvement indices.'},
+ {'p': '**Factors that influence organisational effectiveness** include leadership style, organisational '
+       'culture, organisational structure, deployment of appropriate technology, human resources '
+       'development, effective communication, external organisational elements in the environment, and '
+       'adaptability to change.'},
+ {'p': '**Strategies for improving organisational effectiveness** include having clearly defined vision and '
+       'goals, effective and efficient communication, engaging employees in the planning process, imbibing '
+       'the culture of continuous training and development, creating objective performance metrics, '
+       'supporting a creative, innovative and adaptive work environment, and optimising resource '
+       'utilisation.'},
+ {'warn': 'The **criteria for measuring organisational effectiveness** appear in the study text **only here, '
+          'in its chapter summary** — the body of the chapter (§7.1 to §7.4) never sets them out, even '
+          'though Review Question 2 asks for them. They are reproduced in full above rather than left in the '
+          'summary alone, because they are examinable and are not obtainable from any other section. Ten '
+          'criteria are listed: **adaptation to the external environment, integration, sense of identity, '
+          'productivity, goal attainment, cohesion, efficiency, political effectiveness, survival, and '
+          'control over the environment**.'},
+ {'note': 'Note how the ten criteria pair up with the definition at §7.1. **Goal attainment, productivity, '
+          'efficiency, integration, cohesion and sense of identity** measure the *inward* half — realising '
+          'goals. **Adaptation to the external environment, control over the environment, political '
+          'effectiveness and survival** measure the *outward* half — exploiting the environment to acquire '
+          'critical resources. Survival is the ultimate criterion: an organisation that does not survive '
+          'has, by definition, failed to secure the resources it needed.'}]},
 
   {'n': '7.6', 't': 'Review questions and short answer questions, with the study text\'s '
     'answers', 'b': [

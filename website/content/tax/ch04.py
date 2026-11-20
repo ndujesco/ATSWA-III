@@ -20,158 +20,152 @@ CH = {
  ],
  'secs': [
   {'n': '4.2', 't': 'Registration for tax purposes and the Taxpayer Identification Number '
-    '(Tax ID)', 'b': [
-    {'h4': '4.2.1  Registration with the relevant tax authority'},
-    {'p': '**(a) Registration of resident taxable persons — sections 4 and 5 of NTAA.** For the '
-          'purposes of compliance with tax obligations, **every taxable person shall register '
-          'with the relevant tax authority and obtain a taxpayer identification ("Tax ID")**. '
-          'In addition to the above, **every ministry, department or agency of the Federal or a '
-          'State government, and every local government**, shall register for tax and obtain a '
-          'Tax ID.'},
-    {'p': '**(b) Registration of non-resident taxable persons — section 6 of NTAA.** A '
-          'non-resident person shall register for tax purposes and obtain a Tax ID when it '
-          '**supplies taxable goods or services to any person in Nigeria**, or **derives income '
-          'from Nigeria**.'},
-    {'p': 'A non-resident person who derives **only passive income from investment in Nigeria** '
-          'may not be required to register for tax, but shall provide relevant information as '
-          'may be required by the Service.'},
-    {'p': 'The relevant tax authority is empowered to **issue guidelines** for the purpose of '
-          'giving effect to the provisions relating to registration of taxable persons.'},
-    {'note': 'Read (a) and (b) together and the rule is: residence decides *whether you must '
-             'register at all*, not *whether you are taxable*. A resident registers because it '
-             'is a taxable person, full stop — government ministries, departments and agencies '
-             'included, which is the part candidates most often miss. A non-resident registers '
-             'only once it has a **Nigerian nexus** (a supply into Nigeria, or Nigerian-source '
-             'income), and even then the one carve-out is **pure passive investment income**, '
-             'where information-reporting replaces registration.'},
+    '(Tax ID)', 'b': [{'h4': '4.2.1  Registration with the relevant tax authority'},
+ {'p': '**(a) Registration of resident taxable persons — sections 4 and 5 of NTAA.** For the purposes of '
+       'compliance with tax obligations, **every taxable person shall register with the relevant tax '
+       'authority and obtain a taxpayer identification ("Tax ID")**. In addition to the above, **every '
+       'ministry, department or agency of the Federal or a State government, and every local government**, '
+       'shall register for tax and obtain a Tax ID.'},
+ {'p': '**(b) Registration of non-resident taxable persons — section 6 of NTAA.** A non-resident person '
+       'shall register for tax purposes and obtain a Tax ID when it **supplies taxable goods or services to '
+       'any person in Nigeria**, or **derives income from Nigeria**.'},
+ {'p': 'A non-resident person who derives **only passive income from investment in Nigeria** may not be '
+       'required to register for tax, but shall provide relevant information as may be required by the '
+       'Service.'},
+ {'p': 'The relevant tax authority is empowered to **issue guidelines** for the purpose of giving effect to '
+       'the provisions relating to registration of taxable persons.'},
+ {'note': 'Read (a) and (b) together and the rule is: residence decides *whether you must register at all*, '
+          'not *whether you are taxable*. A resident registers because it is a taxable person, full stop — '
+          'government ministries, departments and agencies included, which is the part candidates most often '
+          'miss. A non-resident registers only once it has a **Nigerian nexus** (a supply into Nigeria, or '
+          'Nigerian-source income), and even then the one carve-out is **pure passive investment income**, '
+          'where information-reporting replaces registration.'},
+ {'h4': '4.2.2  Registration requirements and processes'},
+ {'table': {'align': 'll',
+            'head': ['Entity type', 'Requirements'],
+            'rows': [['**Limited liability companies**',
+                      'Two registration letters (income tax and VAT). The **income tax letter** discloses: '
+                      'company name, registered office, business address, precise business nature, '
+                      'commencement date, accounting date, bankers, major shareholders, directors, auditors, '
+                      'and tax representative — accompanied by: a copy of the certificate of incorporation '
+                      '(original for sighting); CTC of the memorandum/articles of association; a status '
+                      'report or Forms CAC 2/CAC 7/CAC 1.1; a recent utility bill; the company stamp/seal; '
+                      'and the completed taxpayer registration input form. The **VAT letter** is accompanied '
+                      'by a completed VAT Form 001 (signed by an authorised representative) and the '
+                      'certificate of incorporation.'],
+                     ['**Business names**',
+                      "Submit a VAT registration application on the firm's letterhead to the nearest NRS Tax "
+                      'Controller; complete the VAT/input forms; provide the certificate of registration and '
+                      'Form CAC/BN/A1 (originals for sighting); a recent utility bill; and the business '
+                      'stamp/seal.']]}},
+ {'p': "Set out in the book's own enumerated form, **(a) limited liability companies** must submit **two "
+       'letters of registration** — one for income tax and one for VAT. The **income tax registration '
+       'letter** shall disclose the following information on the company:'},
+ {'ol': ['name of the company;',
+         'registered office;',
+         'business address;',
+         'precise nature of business;',
+         'date of commencement of business;',
+         'accounting date;',
+         'name and address of bankers;',
+         'particulars of major shareholders;',
+         'particulars of directors;',
+         'name and address of auditors; and',
+         'name and address of tax representative.']},
+ {'p': 'Also, the **income tax** registration letter shall be accompanied by the following documents:'},
+ {'ol': ['copy of certificate of incorporation (original for sighting);',
+         'CTC (certified true copy) of memorandum and articles of association;',
+         'copy of status report, or Form CAC 2 and CAC 7, or Form CAC 1.1;',
+         'recent utility bill of business address;',
+         'company stamp or seal; and',
+         'the completed taxpayer registration input form for companies.']},
+ {'p': 'The **VAT** registration letter shall be accompanied by: **(i)** a completed copy of VAT form 001 '
+       '(the VAT registration form), duly signed by an authorised company representative; and **(ii)** the '
+       'certificate of incorporation.'},
+ {'p': '**(b) Business names.** A business name is required to register for VAT purposes as follows:'},
+ {'ol': ["submit an application for VAT registration on the firm's letterhead, addressed to the Tax "
+         'Controller of the nearest office of the NRS;',
+         'complete all registration forms given (VAT and input forms);',
+         'provide a copy of the certificate of registration and Form CAC/BN/A1, and submit the originals for '
+         'sighting;',
+         'recent utility bill; and',
+         "business stamp or seal, to be applied on the NRS' forms given."]},
+ {'note': 'Note the asymmetry the book draws without stating it outright: a **company** registers for two '
+          'taxes (income tax and VAT) and so files two letters, while a **business name** is described here '
+          'only as registering for **VAT** — its proprietor is an individual, assessed to personal income '
+          'tax by the State authority rather than assessed as a company. This is also why only the company '
+          "list calls for memorandum and articles, CAC 2/CAC 7 and directors' particulars: a business name "
+          'has none of those.'},
+ {'h4': '4.2.3  Issuance of Tax ID — section 7 of NTAA'},
+ {'p': 'On request, the relevant tax authority registers and issues a Tax ID — refusal must be notified, '
+       'with reasons, within **5 working days**. The authority may also register and issue a Tax ID (based '
+       'on information it already holds) to a person who should have applied but did not, promptly informing '
+       'them. A person with a valid Tax ID needs no other; multiple Tax IDs discovered must be promptly '
+       'reported for unification; and a Tax ID is **not transferable** between persons.'},
+ {'h4': '4.2.4  Notification of change in particulars — section 9 of NTAA'},
+ {'key': 'A taxable person must notify the relevant tax authority of any change in particulars **within 30 '
+         'days** (s.9 NTAA) — name/trading name/location/contact details/registered address; for an '
+         'incorporated person, changes in ≥5% shareholders or beneficial owners; for a trust, '
+         'trustee/beneficiary details; for a partnership, partner details; or details of a '
+         'sale/liquidation/acquisition/take-over/merger.'},
+ {'h4': '4.2.5  Objectives and uses of Tax ID — section 8 of NTAA'},
+ {'def': {'t': 'Taxpayer identification (Tax ID)',
+          'd': 'a unique number allocated to each taxpayer with a view to identifying an individual, '
+               'business or any other entity on tax returns and other documents filed with the tax '
+               'authorities.'}},
+ {'p': 'Objectives of the Tax ID (s.8 NTAA):'},
+ {'ul': ['identifying/registering taxable persons',
+         'widening the tax base',
+         'minimising evasion/fraud',
+         'enhancing administrative efficiency',
+         'reducing compliance cost',
+         'and serving as a precondition for bidding on government contracts.']},
+ {'p': 'Uses:'},
+ {'ul': ['disclosed on returns/notices/correspondence/documents for tax compliance',
+         'disclosed on transaction documents',
+         'and a precondition for contracting with any government ministry/department/agency. Banking, '
+         'insurance, stock-broking and other financial service providers must make Tax ID submission a '
+         'precondition for opening or operating any account.']},
+ {'h4': '4.2.6  Suspension, deregistration and cancellation of Tax ID — section 10 of NTAA'},
+ {'p': 'A **temporary** cessation of trade requires notifying the tax authority within 30 days, whereupon '
+       'the Tax ID is classified dormant/suspended (re-issued with the same ID on reapplication). A '
+       '**permanent** cessation similarly requires 30-day notification, after which the authority '
+       'deregisters the Tax ID. The authority also deregisters/cancels a Tax ID where the person is deceased '
+       '(or a body corporate is wound up/dissolved), or where a person holds a duplicate ID.'}]},
 
-    {'h4': '4.2.2  Registration requirements and processes'},
-    {'table': {'align': 'll', 'head': ['Entity type', 'Requirements'], 'rows': [
-      ['**Limited liability companies**', 'Two registration letters (income tax and VAT). The '
-       '**income tax letter** discloses: company name, registered office, business address, '
-       'precise business nature, commencement date, accounting date, bankers, major '
-       'shareholders, directors, auditors, and tax representative — accompanied by: a copy of '
-       'the certificate of incorporation (original for sighting); CTC of the memorandum/'
-       'articles of association; a status report or Forms CAC 2/CAC 7/CAC 1.1; a recent '
-       'utility bill; the company stamp/seal; and the completed taxpayer registration input '
-       'form. The **VAT letter** is accompanied by a completed VAT Form 001 (signed by an '
-       'authorised representative) and the certificate of incorporation.'],
-      ['**Business names**', 'Submit a VAT registration application on the firm\'s letterhead '
-       'to the nearest NRS Tax Controller; complete the VAT/input forms; provide the '
-       'certificate of registration and Form CAC/BN/A1 (originals for sighting); a recent '
-       'utility bill; and the business stamp/seal.'],
-    ]}},
-    {'p': 'Set out in the book\'s own enumerated form, **(a) limited liability companies** must '
-          'submit **two letters of registration** — one for income tax and one for VAT. The '
-          '**income tax registration letter** shall disclose the following information on the '
-          'company:'},
-    {'ol': [
-      'name of the company;', 'registered office;', 'business address;',
-      'precise nature of business;', 'date of commencement of business;', 'accounting date;',
-      'name and address of bankers;', 'particulars of major shareholders;',
-      'particulars of directors;', 'name and address of auditors; and',
-      'name and address of tax representative.',
-    ]},
-    {'p': 'Also, the **income tax** registration letter shall be accompanied by the following '
-          'documents:'},
-    {'ol': [
-      'copy of certificate of incorporation (original for sighting);',
-      'CTC (certified true copy) of memorandum and articles of association;',
-      'copy of status report, or Form CAC 2 and CAC 7, or Form CAC 1.1;',
-      'recent utility bill of business address;',
-      'company stamp or seal; and',
-      'the completed taxpayer registration input form for companies.',
-    ]},
-    {'p': 'The **VAT** registration letter shall be accompanied by: **(i)** a completed copy of '
-          'VAT form 001 (the VAT registration form), duly signed by an authorised company '
-          'representative; and **(ii)** the certificate of incorporation.'},
-    {'p': '**(b) Business names.** A business name is required to register for VAT purposes as '
-          'follows:'},
-    {'ol': [
-      'submit an application for VAT registration on the firm\'s letterhead, addressed to the '
-      'Tax Controller of the nearest office of the NRS;',
-      'complete all registration forms given (VAT and input forms);',
-      'provide a copy of the certificate of registration and Form CAC/BN/A1, and submit the '
-      'originals for sighting;',
-      'recent utility bill; and',
-      'business stamp or seal, to be applied on the NRS\' forms given.',
-    ]},
-    {'note': 'Note the asymmetry the book draws without stating it outright: a **company** '
-             'registers for two taxes (income tax and VAT) and so files two letters, while a '
-             '**business name** is described here only as registering for **VAT** — its '
-             'proprietor is an individual, assessed to personal income tax by the State '
-             'authority rather than assessed as a company. This is also why only the company '
-             'list calls for memorandum and articles, CAC 2/CAC 7 and directors\' particulars: '
-             'a business name has none of those.'},
-
-    {'h4': '4.2.3  Issuance of Tax ID — section 7 of NTAA'},
-    {'p': 'On request, the relevant tax authority registers and issues a Tax ID — refusal '
-          'must be notified, with reasons, within **5 working days**. The authority may also '
-          'register and issue a Tax ID (based on information it already holds) to a person who '
-          'should have applied but did not, promptly informing them. A person with a valid Tax '
-          'ID needs no other; multiple Tax IDs discovered must be promptly reported for '
-          'unification; and a Tax ID is **not transferable** between persons.'},
-
-    {'h4': '4.2.4  Notification of change in particulars — section 9 of NTAA'},
-    {'key': 'A taxable person must notify the relevant tax authority of any change in '
-            'particulars **within 30 days** (s.9 NTAA) — name/trading name/location/contact '
-            'details/registered address; for an incorporated person, changes in ≥5% '
-            'shareholders or beneficial owners; for a trust, trustee/beneficiary details; for a '
-            'partnership, partner details; or details of a sale/liquidation/acquisition/take-'
-            'over/merger.'},
-    {'h4': '4.2.5  Objectives and uses of Tax ID — section 8 of NTAA'},
-    {'def': {'t': 'Taxpayer identification (Tax ID)', 'd': 'a unique number allocated to each '
-                  'taxpayer with a view to identifying an individual, business or any other '
-                  'entity on tax returns and other documents filed with the tax authorities.'}},
-    {'p': 'Objectives of the Tax ID (s.8 NTAA): identifying/registering taxable persons; '
-          'widening the tax base; minimising evasion/fraud; enhancing administrative '
-          'efficiency; reducing compliance cost; and serving as a precondition for bidding on '
-          'government contracts.'},
-    {'p': 'Uses: disclosed on returns/notices/correspondence/documents for tax compliance; '
-          'disclosed on transaction documents; and a precondition for contracting with any '
-          'government ministry/department/agency. Banking, insurance, stock-broking and other '
-          'financial service providers must make Tax ID submission a precondition for opening '
-          'or operating any account.'},
-
-    {'h4': '4.2.6  Suspension, deregistration and cancellation of Tax ID — section 10 of NTAA'},
-    {'p': 'A **temporary** cessation of trade requires notifying the tax authority within 30 '
-          'days, whereupon the Tax ID is classified dormant/suspended (re-issued with the same '
-          'ID on reapplication). A **permanent** cessation similarly requires 30-day '
-          'notification, after which the authority deregisters the Tax ID. The authority also '
-          'deregisters/cancels a Tax ID where the person is deceased (or a body corporate is '
-          'wound up/dissolved), or where a person holds a duplicate ID.'},
-  ]},
-
-  {'n': '4.3', 't': 'Contents of income tax returns', 'b': [
-    {'h4': '4.3.1  Resident companies — section 11(1) of NTAA'},
-    {'key': 'Every company — with or without notice from the Service — must file a **self-'
-            'assessment return** at least once a year (s.11(1) NTAA), containing: a completed '
-            'self-assessment form; audited financial statements plus tax/capital allowance '
-            'computations for each profit source (a **small company** may substitute a '
-            'taxpayer-attested statement of accounts for audited statements); evidence of tax '
-            'payment; the effective tax rate/additional tax computation, where applicable; and '
-            'an attestation signed by a principal officer.'},
-    {'h4': '4.3.2  Non-resident companies — section 11(2) of NTAA'},
-    {'p': 'A **non-resident** company taxable in Nigeria (s.11(2) NTAA) must submit a return '
-          'containing: full audited financial statements plus the Nigerian operations\' '
-          'financial statements (attested by an independent qualified/certified accountant in '
-          'Nigeria); tax computation schedules based on Nigerian-attributable profits; a true, '
-          'correct written statement of profits from each Nigerian source; completed CIT self-'
-          'assessment forms; evidence of tax payment; and effective tax rate/additional tax '
-          'computation, where applicable.'},
-    {'note': 'A non-Nigerian company earning **only** income on which withholding tax is the '
-             'final tax is exempt from this filing obligation for that year.'},
-    {'h4': '4.3.3  Companies on cessation — section 11(4) of NTAA'},
-    {'p': 'A company **permanently ceasing** Nigerian operations (s.11(4)) must file returns '
-          'for the cessation year and any outstanding returns.'},
-    {'note': 'The three sub-sections answer one question — *what goes in the envelope* — for '
-             'three different filers. The resident list and the non-resident list look alike, '
-             'but the non-resident list adds two things a resident never needs: financial '
-             'statements **of the Nigerian operations specifically**, attested by an '
-             'independent qualified or certified accountant **in Nigeria**, and a written '
-             'statement of profits **from each and every Nigerian source**. That is the '
-             'apportionment problem a non-resident return exists to solve.'},
-  ]},
+  {'n': '4.3', 't': 'Contents of income tax returns', 'b': [{'h4': '4.3.1  Resident companies — section 11(1) of NTAA'},
+ {'key': [{'p': 'Every company — with or without notice from the Service — must file a **self-assessment '
+                'return** at least once a year (s.11(1) NTAA), containing:'},
+          {'ul': ['a completed self-assessment form',
+                  'audited financial statements plus tax/capital allowance computations for each profit '
+                  'source (a **small company** may substitute a taxpayer-attested statement of accounts for '
+                  'audited statements)',
+                  'evidence of tax payment',
+                  'the effective tax rate/additional tax computation, where applicable',
+                  'and an attestation signed by a principal officer.']}]},
+ {'h4': '4.3.2  Non-resident companies — section 11(2) of NTAA'},
+ {'p': 'A **non-resident** company taxable in Nigeria (s.11(2) NTAA) must submit a return containing:'},
+ {'ul': ["full audited financial statements plus the Nigerian operations' financial statements (attested by "
+         'an independent qualified/certified accountant in Nigeria)',
+         'tax computation schedules based on Nigerian-attributable profits',
+         'a true, correct written statement of profits from each Nigerian source',
+         'completed CIT self-assessment forms',
+         'evidence of tax payment',
+         'and effective tax rate/additional tax computation, where applicable.']},
+ {'note': 'A non-Nigerian company earning **only** income on which withholding tax is the final tax is '
+          'exempt from this filing obligation for that year.'},
+ {'h4': '4.3.3  Companies on cessation — section 11(4) of NTAA'},
+ {'p': 'A company **permanently ceasing** Nigerian operations (s.11(4)) must file returns for the cessation '
+       'year and any outstanding returns.'},
+ {'note': 'The three sub-sections answer one question — *what goes in the envelope* — for three different '
+          'filers. The resident list and the non-resident list look alike, but the non-resident list adds '
+          'two things a resident never needs: financial statements **of the Nigerian operations '
+          'specifically**, attested by an independent qualified or certified accountant **in Nigeria**, and '
+          'a written statement of profits **from each and every Nigerian source**. That is the apportionment '
+          'problem a non-resident return exists to solve.'},
+ {'warn': 'Source-number clarification: the resident-company return subsection on PDF page 109 / printed '
+          'page 108 is printed “4..3.1” with a doubled dot. The heading here uses 4.3.1 for the same source '
+          'subsection.'}]},
 
   {'n': '4.4', 't': 'Due dates for filing of tax returns', 'b': [
     {'h4': '4.4.1  Limited liability companies — section 11(5) of NTAA'},
@@ -299,116 +293,96 @@ CH = {
           '**N50,000.00**.'},
   ]},
 
-  {'n': '4.8', 't': 'Assessment procedures', 'b': [
-    {'key': 'Where a company files a satisfactory self-assessment return, the NRS may accept '
-            'it as made. Where a company **fails** to self-assess by the deadline, the NRS '
-            'proceeds to assess it directly.'},
-
-    {'h4': '4.8.1  Self-assessment — section 34 of NTAA'},
-    {'def': {'t': 'Self-assessment', 'd': 'a system where the taxpayer is legally granted the '
-                  'right to compute their own tax liability, submit a return, pay the tax due, '
-                  'and file the return with payment evidence, by the due date.'}},
-    {'p': 'A taxpayer submitting a self-assessment return is **deemed** to have made an '
-          'assessment of the amount payable (including a negative/nil amount) for that '
-          'period. Completing/submitting an approved electronic return is still self-'
-          'assessment, even if the form contains pre-entered tax-authority information, or '
-          'computes an estimate electronically as data is entered.'},
-    {'p': 'Once a return is delivered, the tax authority may: accept it without further '
-          'assessment; accept it and make an additional assessment; or reject it and, to the '
-          'best of its judgement, determine and assess the tax due. Undeclared income/tax '
-          'makes the taxpayer liable for the shortfall from the return\'s due date, subject to '
-          'penalty and interest.'},
-
-    {'h4': '4.8.2  Additional assessment — section 36 of NTAA'},
-    {'key': 'Where a taxpayer was not assessed, or under-assessed, the tax authority may '
-            'assess (or re-assess) within **6 years** of the original assessment — this limit '
-            'does not prevent continuing a tax audit/raising an additional assessment if the '
-            'audit began before the 6 years expired. Where there is **deliberate '
-            'misstatement**, the 6-year limit does **not** apply at all — the authority may '
-            'assess at any time, as often as necessary, to make good the resulting tax loss.'},
-
-    {'h4': '4.8.3  Best of judgement (BOJ) / administrative assessment — section 35 of NTAA'},
-    {'p': 'Where a taxpayer has not delivered a return, and the tax authority believes tax is '
-          'payable, it may assess **to the best of its judgement** — without prejudice to any '
-          'other liability arising from the failure to file. An assessment can be made even '
-          'before the normal filing deadline expires, if the authority considers the '
-          'assessment to be **in jeopardy**.'},
-
-    {'h4': '4.8.4  Deemed profit assessment or income statement — section 38 of NTAA'},
-    {'p': 'Where a business produces no assessable profit, or less than expected, or the true '
-          'profit cannot be readily ascertained: a **resident** is assessed on a fair/'
-          'reasonable percentage of gross income the authority determines; a **non-resident**\'s '
-          'profit is deemed to be their profit margin (EBIT ÷ revenue, per their own or '
-          'comparable companies\' published accounts) applied to their Nigerian turnover.'},
-
-    {'h4': '4.8.5  Substitution of dividend for total profit — section 9 of NTA'},
-    {'key': 'Where a Nigerian company declares a dividend out of profits on which no tax is '
-            'payable (because there are no total profits, or total profits are less than the '
-            'dividend), the company is charged tax **as if the dividend were its total '
-            'profits** for the relevant year. This does **not** apply to: dividends from '
-            'already-taxed retained earnings; dividends from tax-exempt profits; franked '
-            'investment income; or distributions by a real estate investment company from '
-            'rental/dividend income received on shareholders\' behalf.'},
-
-    {'h4': '4.8.6  Assessments based on undistributed profits treated as distributed — section 10 of NTA'},
-    {'p': 'For a Nigerian company controlled by **≤5 individuals**, which has not distributed '
-          'available profits, the Service may **direct** that the distributable proportion be '
-          'construed as distributed — becoming taxable income for shareholders proportionate '
-          'to their shareholding. Any such direction must be in writing, specify the deemed '
-          'distribution day, the gross deemed-distributed amount, the deduction-at-source rate '
-          'and the net amount, and be made **within 3 years** of receiving the audited '
-          'accounts. The company has a right of appeal. For a limited liability partnership, '
-          'all profits are similarly deemed distributed among partners.'},
-
-    {'h4': '4.8.7  Assessments to be final and conclusive — section 43 of NTAA'},
-    {'key': 'An assessment becomes **final and conclusive** where: no valid objection/appeal '
-            'is lodged within 30 days; the total profits amount has been agreed; the amount '
-            'has been determined/revised on objection; or the assessment has been agreed/'
-            'revised/determined on appeal. Unpaid tax on a final assessment (beyond 30 days) is '
-            'subject to normal recovery/penalty provisions, subject only to set-off of any '
-            'agreed/appeal-determined refund claim. This does not prevent a **fresh** '
-            'assessment on different facts for the same year.'},
-
-    {'h4': '4.8.8  Errors and defects in assessment and notice — section 42 of NTAA'},
-    {'p': 'An assessment/notice/warrant is **not invalidated** for a formal defect, mistake or '
-          'omission, provided its substance/effect conforms to the Act and the assessed party '
-          'is identified per common intent/understanding — including mistakes as to a '
-          'company/person\'s name, profit description, or tax amount, or assessment-notice '
-          'variances, provided the notice was duly served and substantively contains the '
-          'assessment particulars.'},
-
-    {'h4': '4.8.9  Artificial transactions — section 46 of NTAA'},
-    {'key': 'Where the tax authority considers a disposition not genuinely given effect to, or '
-            'a tax-reducing transaction **artificial or fictitious**, it may disregard it or '
-            'direct adjustments to counteract the reduction. Transactions between **connected '
-            'persons** are deemed artificial/fictitious if not made on terms comparable persons '
-            'dealing at **arm\'s length** would fairly use. A right of appeal applies as if the '
-            'direction were an assessment. "**Disposition**" includes any trust, grant, '
-            'covenant, agreement or arrangement.'},
-
-    {'h4': '4.8.10  Liability of manager or principal officer — section 45 of NTAA'},
-    {'p': 'A **manager or principal officer of a company** shall be liable for doing all such '
-          'acts, matters and things as are required to be done by virtue of this Act for the '
-          '**assessment of the company and payment of the tax**.'},
-    {'p': 'Based on the provision of **section 52 of NTAA**, a manager or agent answerable for '
-          'payment of tax on behalf of a taxable person: **(a)** may **retain out of any money '
-          'received** on behalf of the taxable person so much as shall be sufficient to pay the '
-          'tax; and **(b)** is **indemnified** against any person for all payments made.'},
-    {'note': 'Section 45 creates the liability and section 52 makes it bearable. Without the '
-             'retention-and-indemnity provision, an agent would be personally exposed to a tax '
-             'bill while holding the taxpayer\'s money in trust; s.52 lets the agent pay the '
-             'tax out of that money and be protected for having done so.'},
-
-    {'h4': '4.8.11  Company wound up — section 53 of NTAA'},
-    {'ol': [
-      'In the process of liquidating a company, the **liquidator shall not distribute any of '
-      'the assets** of the company to the shareholders **unless provision has been made for the '
-      'payment in full of any tax** which may be found payable by the company, including any '
-      'tax deductions made by the company under any law in effect in any part of Nigeria.',
-      'Where tax is not paid in accordance with the provision of this section or any other law, '
-      'the **liquidator shall be personally liable**.',
-    ]},
-  ]},
+  {'n': '4.8', 't': 'Assessment procedures', 'b': [{'key': 'Where a company files a satisfactory self-assessment return, the NRS may accept it as made. Where '
+         'a company **fails** to self-assess by the deadline, the NRS proceeds to assess it directly.'},
+ {'h4': '4.8.1  Self-assessment — section 34 of NTAA'},
+ {'def': {'t': 'Self-assessment',
+          'd': 'a system where the taxpayer is legally granted the right to compute their own tax liability, '
+               'submit a return, pay the tax due, and file the return with payment evidence, by the due '
+               'date.'}},
+ {'p': 'A taxpayer submitting a self-assessment return is **deemed** to have made an assessment of the '
+       'amount payable (including a negative/nil amount) for that period. Completing/submitting an approved '
+       'electronic return is still self-assessment, even if the form contains pre-entered tax-authority '
+       'information, or computes an estimate electronically as data is entered.'},
+ {'p': 'Once a return is delivered, the tax authority may:'},
+ {'ul': ['accept it without further assessment',
+         'accept it and make an additional assessment',
+         'or reject it and, to the best of its judgement, determine and assess the tax due. Undeclared '
+         "income/tax makes the taxpayer liable for the shortfall from the return's due date, subject to "
+         'penalty and interest.']},
+ {'h4': '4.8.2  Additional assessment — section 36 of NTAA'},
+ {'key': 'Where a taxpayer was not assessed, or under-assessed, the tax authority may assess (or re-assess) '
+         'within **6 years** of the original assessment — this limit does not prevent continuing a tax '
+         'audit/raising an additional assessment if the audit began before the 6 years expired. Where there '
+         'is **deliberate misstatement**, the 6-year limit does **not** apply at all — the authority may '
+         'assess at any time, as often as necessary, to make good the resulting tax loss.'},
+ {'h4': '4.8.3  Best of judgement (BOJ) / administrative assessment — section 35 of NTAA'},
+ {'p': 'Where a taxpayer has not delivered a return, and the tax authority believes tax is payable, it may '
+       'assess **to the best of its judgement** — without prejudice to any other liability arising from the '
+       'failure to file. An assessment can be made even before the normal filing deadline expires, if the '
+       'authority considers the assessment to be **in jeopardy**.'},
+ {'h4': '4.8.4  Deemed profit assessment or income statement — section 38 of NTAA'},
+ {'p': 'Where a business produces no assessable profit, or less than expected, or the true profit cannot be '
+       'readily ascertained: a **resident** is assessed on a fair/reasonable percentage of gross income the '
+       "authority determines; a **non-resident**'s profit is deemed to be their profit margin (EBIT ÷ "
+       "revenue, per their own or comparable companies' published accounts) applied to their Nigerian "
+       'turnover.'},
+ {'h4': '4.8.5  Substitution of dividend for total profit — section 9 of NTA'},
+ {'key': 'Where a Nigerian company declares a dividend out of profits on which no tax is payable (because '
+         'there are no total profits, or total profits are less than the dividend), the company is charged '
+         'tax **as if the dividend were its total profits** for the relevant year. This does **not** apply '
+         'to: dividends from already-taxed retained earnings; dividends from tax-exempt profits; franked '
+         'investment income; or distributions by a real estate investment company from rental/dividend '
+         "income received on shareholders' behalf."},
+ {'h4': '4.8.6  Assessments based on undistributed profits treated as distributed — section 10 of NTA'},
+ {'p': 'For a Nigerian company controlled by **≤5 individuals**, which has not distributed available '
+       'profits, the Service may **direct** that the distributable proportion be construed as distributed — '
+       'becoming taxable income for shareholders proportionate to their shareholding. Any such direction '
+       'must be in writing, specify the deemed distribution day, the gross deemed-distributed amount, the '
+       'deduction-at-source rate and the net amount, and be made **within 3 years** of receiving the audited '
+       'accounts. The company has a right of appeal. For a limited liability partnership, all profits are '
+       'similarly deemed distributed among partners.'},
+ {'h4': '4.8.7  Assessments to be final and conclusive — section 43 of NTAA'},
+ {'key': [{'p': 'An assessment becomes **final and conclusive** where:'},
+          {'ul': ['no valid objection/appeal is lodged within 30 days',
+                  'the total profits amount has been agreed',
+                  'the amount has been determined/revised on objection',
+                  'or the assessment has been agreed/revised/determined on appeal. Unpaid tax on a final '
+                  'assessment (beyond 30 days) is subject to normal recovery/penalty provisions, subject '
+                  'only to set-off of any agreed/appeal-determined refund claim. This does not prevent a '
+                  '**fresh** assessment on different facts for the same year.']}]},
+ {'h4': '4.8.8  Errors and defects in assessment and notice — section 42 of NTAA'},
+ {'p': 'An assessment/notice/warrant is **not invalidated** for a formal defect, mistake or omission, '
+       'provided its substance/effect conforms to the Act and the assessed party is identified per common '
+       "intent/understanding — including mistakes as to a company/person's name, profit description, or tax "
+       'amount, or assessment-notice variances, provided the notice was duly served and substantively '
+       'contains the assessment particulars.'},
+ {'h4': '4.8.9  Artificial transactions — section 46 of NTAA'},
+ {'key': 'Where the tax authority considers a disposition not genuinely given effect to, or a tax-reducing '
+         'transaction **artificial or fictitious**, it may disregard it or direct adjustments to counteract '
+         'the reduction. Transactions between **connected persons** are deemed artificial/fictitious if not '
+         "made on terms comparable persons dealing at **arm's length** would fairly use. A right of appeal "
+         'applies as if the direction were an assessment. "**Disposition**" includes any trust, grant, '
+         'covenant, agreement or arrangement.'},
+ {'h4': '4.8.10  Liability of manager or principal officer — section 45 of NTAA'},
+ {'p': 'A **manager or principal officer of a company** shall be liable for doing all such acts, matters and '
+       'things as are required to be done by virtue of this Act for the **assessment of the company and '
+       'payment of the tax**.'},
+ {'p': 'Based on the provision of **section 52 of NTAA**, a manager or agent answerable for payment of tax '
+       'on behalf of a taxable person: **(a)** may **retain out of any money received** on behalf of the '
+       'taxable person so much as shall be sufficient to pay the tax; and **(b)** is **indemnified** against '
+       'any person for all payments made.'},
+ {'note': 'Section 45 creates the liability and section 52 makes it bearable. Without the '
+          'retention-and-indemnity provision, an agent would be personally exposed to a tax bill while '
+          "holding the taxpayer's money in trust; s.52 lets the agent pay the tax out of that money and be "
+          'protected for having done so.'},
+ {'h4': '4.8.11  Company wound up — section 53 of NTAA'},
+ {'ol': ['In the process of liquidating a company, the **liquidator shall not distribute any of the assets** '
+         'of the company to the shareholders **unless provision has been made for the payment in full of any '
+         'tax** which may be found payable by the company, including any tax deductions made by the company '
+         'under any law in effect in any part of Nigeria.',
+         'Where tax is not paid in accordance with the provision of this section or any other law, the '
+         '**liquidator shall be personally liable**.']}]},
 
   {'n': '4.9', 't': 'Collection procedure', 'b': [
     {'h4': '4.9.1  Service of notice of assessment — section 40 of NTAA'},
@@ -440,86 +414,68 @@ CH = {
           'monthly — any credit balance may reduce the following month\'s refund funding need.'},
   ]},
 
-  {'n': '4.10', 't': 'Enforcement procedures', 'b': [
-    {'key': 'Where a company fails to pay assessed tax, the NRS may enforce payment/recovery '
-            'through any NTAA-stipulated method.'},
-
-    {'h4': '4.10.1  Call for returns, books, documents, and information — section 57 of NTAA'},
-    {'p': 'The tax authority may notify a taxable entity to: complete/deliver a specified '
-          'return; appear personally for examination; produce books/documents/records for '
-          'examination; provide information orally/in writing; or grant access to electronically-'
-          'stored records (computers, cloud, magnetic media, etc.). The notice period is **at '
-          'least 7 days**. An entity may apply in writing for a time extension, with good '
-          'cause shown before the original deadline expires. Delivered returns/information '
-          'must carry a true-and-correct attestation.'},
-
-    {'h4': '4.10.2  Power to assess lands, buildings, books and documents — section 58 of NTAA'},
-    {'p': 'An authorised officer has **free access, at all reasonable times**, to land/'
-          'buildings/places/books/documents (including electronically-stored ones) for '
-          'collecting tax. Where hard copies are unavailable (data is only digital), the '
-          'authority may take **immediate possession** of the removable media/equipment to '
-          'prevent destruction/alteration — or, if able to make exact duplicate digital '
-          'copies, use those as evidence instead of seizing the originals. The occupier must '
-          'provide reasonable facilities/assistance and answer questions. Entry into a '
-          '**private dwelling** requires either occupier consent or judicial authorisation — a '
-          'warrant valid for **3 months** (renewable), directed to a named officer, per the '
-          'prescribed Second Schedule form, produced on first entry and whenever subsequently '
-          'reasonably required.'},
-
-    {'h4': '4.10.3  Power to remove books and documents — section 59 of NTAA'},
-    {'p': 'An officer may remove/copy books/documents/items (under CEO authority), returning '
-          'originals as soon as practicable. A CEO-certified copy (including digital evidence) '
-          'is admissible in court as if original. The owner may inspect/copy the removed '
-          'items at their own expense; the remover bears the removal cost itself, and must '
-          'issue a written receipt describing what was removed and when/where.'},
-
-    {'h4': '4.10.4  Power to distrain — section 61 of NTAA'},
-    {'key': 'Once an assessment is **final and conclusive** and a demand notice unpaid within '
-            'its stated time, the tax authority may **distrain** — seizing goods/chattels/'
-            'bonds/securities, or land/premises/assets the person owns — to recover the tax by '
-            'sale.'},
-    {'p': 'Distrained assets may be kept **14 days**; if the tax/costs/charges remain unpaid, '
-          'they may be sold **only with a High Court order**. Sale proceeds first cover keeping/'
-          'sale costs, then the tax due; any balance is refunded within 90 days of sale (with '
-          'or without demand). Immovable property sale always requires a High Court order. '
-          'Distraint reaches all the debtor\'s assets wherever found, and also applies to '
-          'recovering tax evasion proceeds where the offender cannot be located.'},
-
-    {'h4': '4.10.5  Enforcement of powers — section 62 of NTAA'},
-    {'p': 'The tax authority may request law enforcement assistance. A warranted officer '
-          '(accompanied by law enforcement) may enter premises to search for/seize/copy books/'
-          'documents/items (including requiring passwords/access codes), search persons on '
-          'the premises, open containers, force entry, and remove obstructions with reasonable '
-          'force. A **bodily search** must be conducted by an officer of the **same gender** '
-          'as the person searched.'},
-
-    {'h4': '4.10.6  Power of substitution — section 60 of NTAA'},
-    {'p': 'The tax authority may appoint, by written notice, any person as **agent** of a '
-          'taxable person — where tax is due/payable and unpaid, or the agent holds/is '
-          'expected to hold the taxpayer\'s money/assets. The agent must pay tax due from any '
-          'held funds; a defaulting agent becomes liable to all the same enforcement/recovery '
-          'actions (including distraint) as if originally liable themselves. Objection/appeal '
-          'rights apply to such a notice as if it were an assessment/demand notice.'},
-
-    {'h4': '4.10.7  Remission of penalty — section 66 of NTAA; 4.10.8  Recovery of tax — '
-      'section 67; 4.10.9  Assignment of tax debts — section 68'},
-    {'p': 'The tax authority **must**, for good cause shown, remit whole/part of a penalty/'
-          'interest, reporting monthly to the Minister on waivers granted. Tax due is a '
-          '**debt** to the tax authority — unpaid beyond 30 days triggers a demand notice; '
-          'continued non-payment allows recovery via any NTAA power, including legal action. '
-          'Under-assessed or erroneously-repaid amounts are similarly recoverable on demand, '
-          'subject to a **6-year** limit (waived for untrue documents/statements). Outstanding '
-          'tax debts may be **assigned** to an accredited third party (banks, debt-recovery '
-          'practitioners, etc.) once all internal recovery steps are exhausted and the debt is '
-          'significant/long-outstanding — the taxpayer is notified in writing, and the '
-          'authority may reverse an assignment at any time.'},
-
-    {'h4': '4.10.10  Power to pay reward — section 69 of NTAA'},
-    {'p': '**Power to pay reward** (s.69 NTAA): the tax authority may reward (on its own '
-          'determined terms) any non-employee/non-related informant whose information assists '
-          'its duties — the informant\'s identity is kept confidential, with unauthorised '
-          'disclosure itself an offence.'},
-  ]},
+  {'n': '4.10', 't': 'Enforcement procedures', 'b': [{'key': 'Where a company fails to pay assessed tax, the NRS may enforce payment/recovery through any '
+         'NTAA-stipulated method.'},
+ {'h4': '4.10.1  Call for returns, books, documents, and information — section 57 of NTAA'},
+ {'p': 'The tax authority may notify a taxable entity to:'},
+ {'ul': ['complete/deliver a specified return',
+         'appear personally for examination',
+         'produce books/documents/records for examination',
+         'provide information orally/in writing',
+         'or grant access to electronically-stored records (computers, cloud, magnetic media, etc.). The '
+         'notice period is **at least 7 days**. An entity may apply in writing for a time extension, with '
+         'good cause shown before the original deadline expires. Delivered returns/information must carry a '
+         'true-and-correct attestation.']},
+ {'h4': '4.10.2  Power to assess lands, buildings, books and documents — section 58 of NTAA'},
+ {'p': 'An authorised officer has **free access, at all reasonable times**, to '
+       'land/buildings/places/books/documents (including electronically-stored ones) for collecting tax. '
+       'Where hard copies are unavailable (data is only digital), the authority may take **immediate '
+       'possession** of the removable media/equipment to prevent destruction/alteration — or, if able to '
+       'make exact duplicate digital copies, use those as evidence instead of seizing the originals. The '
+       'occupier must provide reasonable facilities/assistance and answer questions. Entry into a **private '
+       'dwelling** requires either occupier consent or judicial authorisation — a warrant valid for **3 '
+       'months** (renewable), directed to a named officer, per the prescribed Second Schedule form, produced '
+       'on first entry and whenever subsequently reasonably required.'},
+ {'h4': '4.10.3  Power to remove books and documents — section 59 of NTAA'},
+ {'p': 'An officer may remove/copy books/documents/items (under CEO authority), returning originals as soon '
+       'as practicable. A CEO-certified copy (including digital evidence) is admissible in court as if '
+       'original. The owner may inspect/copy the removed items at their own expense; the remover bears the '
+       'removal cost itself, and must issue a written receipt describing what was removed and when/where.'},
+ {'h4': '4.10.4  Power to distrain — section 61 of NTAA'},
+ {'key': 'Once an assessment is **final and conclusive** and a demand notice unpaid within its stated time, '
+         'the tax authority may **distrain** — seizing goods/chattels/bonds/securities, or '
+         'land/premises/assets the person owns — to recover the tax by sale.'},
+ {'p': 'Distrained assets may be kept **14 days**; if the tax/costs/charges remain unpaid, they may be sold '
+       '**only with a High Court order**. Sale proceeds first cover keeping/sale costs, then the tax due; '
+       'any balance is refunded within 90 days of sale (with or without demand). Immovable property sale '
+       "always requires a High Court order. Distraint reaches all the debtor's assets wherever found, and "
+       'also applies to recovering tax evasion proceeds where the offender cannot be located.'},
+ {'h4': '4.10.5  Enforcement of powers — section 62 of NTAA'},
+ {'p': 'The tax authority may request law enforcement assistance. A warranted officer (accompanied by law '
+       'enforcement) may enter premises to search for/seize/copy books/documents/items (including requiring '
+       'passwords/access codes), search persons on the premises, open containers, force entry, and remove '
+       'obstructions with reasonable force. A **bodily search** must be conducted by an officer of the '
+       '**same gender** as the person searched.'},
+ {'h4': '4.10.6  Power of substitution — section 60 of NTAA'},
+ {'p': 'The tax authority may appoint, by written notice, any person as **agent** of a taxable person — '
+       "where tax is due/payable and unpaid, or the agent holds/is expected to hold the taxpayer's "
+       'money/assets. The agent must pay tax due from any held funds; a defaulting agent becomes liable to '
+       'all the same enforcement/recovery actions (including distraint) as if originally liable themselves. '
+       'Objection/appeal rights apply to such a notice as if it were an assessment/demand notice.'},
+ {'h4': '4.10.7  Remission of penalty — section 66 of NTAA; 4.10.8  Recovery of tax — section 67; 4.10.9  '
+        'Assignment of tax debts — section 68'},
+ {'p': 'The tax authority **must**, for good cause shown, remit whole/part of a penalty/interest, reporting '
+       'monthly to the Minister on waivers granted. Tax due is a **debt** to the tax authority — unpaid '
+       'beyond 30 days triggers a demand notice; continued non-payment allows recovery via any NTAA power, '
+       'including legal action. Under-assessed or erroneously-repaid amounts are similarly recoverable on '
+       'demand, subject to a **6-year** limit (waived for untrue documents/statements). Outstanding tax '
+       'debts may be **assigned** to an accredited third party (banks, debt-recovery practitioners, etc.) '
+       'once all internal recovery steps are exhausted and the debt is significant/long-outstanding — the '
+       'taxpayer is notified in writing, and the authority may reverse an assignment at any time.'},
+ {'h4': '4.10.10  Power to pay reward — section 69 of NTAA'},
+ {'p': '**Power to pay reward** (s.69 NTAA): the tax authority may reward (on its own determined terms) any '
+       "non-employee/non-related informant whose information assists its duties — the informant's identity "
+       'is kept confidential, with unauthorised disclosure itself an offence.'}]},
 
   {'n': '4.11', 't': 'Service of notice of assessment — section 40 of NTAA', 'b': [
     {'p': 'The relevant tax authority can **serve on, or send by registered post, courier '

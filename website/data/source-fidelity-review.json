@@ -1,0 +1,6271 @@
+{
+  "reviewDate": "2026-11-20",
+  "method": "Confirmed source headings compared against canonical blocks; numbers restored without replacing body content. Internal section IDs remain stable for existing citations. This is a targeted audit, not a claim of independent recomputation of every answer.",
+  "headingRestorations": [
+    {
+      "code": "ca",
+      "chapter": 2,
+      "section": "2.3",
+      "section_index": 9,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Characteristics of a well-designed coding system",
+      "score": 1.0,
+      "source_number": "2.3.2",
+      "source_title": "Characteristics of a well-designed coding system",
+      "pdf_page": 48,
+      "path": "content/ca/ch02.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 2,
+      "section": "2.3",
+      "section_index": 9,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Methods of codification",
+      "score": 1.0,
+      "source_number": "2.3.3",
+      "source_title": "Methods of Codification",
+      "pdf_page": 48,
+      "path": "content/ca/ch02.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.2",
+      "section_index": 1,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Factors that facilitate effective materials cost control",
+      "score": 1.0,
+      "source_number": "3.4",
+      "source_title": "Factors That Facilitate Effective Materials Cost Control",
+      "pdf_page": 57,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.3",
+      "section_index": 2,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Responsibilities of the purchasing/procurement unit",
+      "score": 0.756,
+      "source_number": "3.5.1",
+      "source_title": "Responsibilities of Purchasing or Procurement Unit include:",
+      "pdf_page": 58,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.3",
+      "section_index": 2,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Methods of purchasing",
+      "score": 0.77,
+      "source_number": "3.5.2",
+      "source_title": "Methods of Purchasing include:",
+      "pdf_page": 58,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.3",
+      "section_index": 2,
+      "block_index": 5,
+      "tag": "h4",
+      "heading": "Settlement methods",
+      "score": 1.0,
+      "source_number": "3.5.3",
+      "source_title": "Settlement Methods",
+      "pdf_page": 59,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.3",
+      "section_index": 2,
+      "block_index": 8,
+      "tag": "h4",
+      "heading": "The stages of the purchasing function",
+      "score": 0.77,
+      "source_number": "3.5.4",
+      "source_title": "Summary of the Stages of the Purchasing Function",
+      "pdf_page": 59,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.4",
+      "section_index": 3,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Store operations",
+      "score": 1.0,
+      "source_number": "3.6.1",
+      "source_title": "Store operations",
+      "pdf_page": 61,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.4",
+      "section_index": 3,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Factors influencing the design of store-operating procedures",
+      "score": 0.638,
+      "source_number": "3.6.2",
+      "source_title": "The Factors that Influence the Design of Procedures for Operating the",
+      "pdf_page": 62,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.4",
+      "section_index": 3,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Receiving goods",
+      "score": 1.0,
+      "source_number": "3.6.3",
+      "source_title": "Receiving Goods",
+      "pdf_page": 62,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.4",
+      "section_index": 3,
+      "block_index": 12,
+      "tag": "h4",
+      "heading": "Store location, layout and type",
+      "score": 0.78,
+      "source_number": "3.6.6",
+      "source_title": "Store Location and Layout",
+      "pdf_page": 63,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.6",
+      "section_index": 5,
+      "block_index": 6,
+      "tag": "h4",
+      "heading": "Minimum inventory level",
+      "score": 1.0,
+      "source_number": "3.8.2",
+      "source_title": "Minimum Inventory Level",
+      "pdf_page": 70,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.6",
+      "section_index": 5,
+      "block_index": 10,
+      "tag": "h4",
+      "heading": "Maximum inventory level",
+      "score": 1.0,
+      "source_number": "3.8.3",
+      "source_title": "Maximum Inventory Level",
+      "pdf_page": 70,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.6",
+      "section_index": 5,
+      "block_index": 19,
+      "tag": "h4",
+      "heading": "Average inventory level",
+      "score": 1.0,
+      "source_number": "3.8.5",
+      "source_title": "Average Inventory Level",
+      "pdf_page": 73,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.8",
+      "section_index": 7,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "The perpetual inventory system",
+      "score": 0.77,
+      "source_number": "3.10",
+      "source_title": "PERPETUAL INVENTORY SYSTEM",
+      "pdf_page": 89,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.8",
+      "section_index": 7,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Inventory taking",
+      "score": 1.0,
+      "source_number": "3.11",
+      "source_title": "INVENTORY TAKING",
+      "pdf_page": 89,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.8",
+      "section_index": 7,
+      "block_index": 8,
+      "tag": "h4",
+      "heading": "Causes of stock discrepancies",
+      "score": 1.0,
+      "source_number": "3.11.4",
+      "source_title": "Causes of Stock Discrepancies",
+      "pdf_page": 91,
+      "path": "content/ca/ch03.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.2",
+      "section_index": 1,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Labour as a factor of production",
+      "score": 0.898,
+      "source_number": "4.2.1",
+      "source_title": "Labour: A Factor of Production.",
+      "pdf_page": 98,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.2",
+      "section_index": 1,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Labour recruitment process",
+      "score": 1.0,
+      "source_number": "4.2.2",
+      "source_title": "Labour Recruitment Process",
+      "pdf_page": 98,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.2",
+      "section_index": 1,
+      "block_index": 10,
+      "tag": "h4",
+      "heading": "Labour timing and assessment",
+      "score": 1.0,
+      "source_number": "4.2.4",
+      "source_title": "Labour Timing and Assessment.",
+      "pdf_page": 99,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.2",
+      "section_index": 1,
+      "block_index": 14,
+      "tag": "h4",
+      "heading": "Labour behaviour and control",
+      "score": 1.0,
+      "source_number": "4.2.5",
+      "source_title": "Labour Behaviour and Control",
+      "pdf_page": 100,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.3",
+      "section_index": 2,
+      "block_index": 6,
+      "tag": "h4",
+      "heading": "Piece rate (payment by result)",
+      "score": 0.847,
+      "source_number": "4.3.2",
+      "source_title": "Piece Rate (Payment by Result) Method",
+      "pdf_page": 102,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.3",
+      "section_index": 2,
+      "block_index": 11,
+      "tag": "h4",
+      "heading": "Premium bonus schemes",
+      "score": 1.0,
+      "source_number": "4.3.4",
+      "source_title": "Premium Bonus Schemes",
+      "pdf_page": 104,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.4",
+      "section_index": 3,
+      "block_index": 5,
+      "tag": "h4",
+      "heading": "Idle (waiting) time",
+      "score": 1.0,
+      "source_number": "4.5",
+      "source_title": "Idle (Waiting) Time",
+      "pdf_page": 109,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.5",
+      "section_index": 4,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Labour cost minimisation techniques",
+      "score": 1.0,
+      "source_number": "4.8",
+      "source_title": "Labour Cost Minimisation Techniques",
+      "pdf_page": 118,
+      "path": "content/ca/ch04.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.8",
+      "section_index": 7,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Stages in ABC",
+      "score": 1.0,
+      "source_number": "5.8.1",
+      "source_title": "Stages in ABC",
+      "pdf_page": 159,
+      "path": "content/ca/ch05.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.2",
+      "section_index": 1,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Job order costing procedure",
+      "score": 1.0,
+      "source_number": "7.2.3",
+      "source_title": "Job Order Costing Procedure",
+      "pdf_page": 205,
+      "path": "content/ca/ch07.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.2",
+      "section_index": 1,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Overhead absorption methods in job costing",
+      "score": 0.905,
+      "source_number": "7.2.4",
+      "source_title": "Overhead Cost Absorption Methods in Job Costing",
+      "pdf_page": 206,
+      "path": "content/ca/ch07.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.5",
+      "section_index": 4,
+      "block_index": 5,
+      "tag": "h4",
+      "heading": "Accounting treatment of by-products",
+      "score": 1.0,
+      "source_number": "8.2.2",
+      "source_title": "Accounting Treatment of By- Products",
+      "pdf_page": 242,
+      "path": "content/ca/ch08.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.6",
+      "section_index": 5,
+      "block_index": 10,
+      "tag": "h4",
+      "heading": "Total cost determination using the NRV method",
+      "score": 0.91,
+      "source_number": "8.2.4",
+      "source_title": "Total Cost Determination Using NRV Method",
+      "pdf_page": 245,
+      "path": "content/ca/ch08.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.4",
+      "section_index": 3,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Make or buy decisions",
+      "score": 1.0,
+      "source_number": "9.4.1",
+      "source_title": "Make or Buy Decisions",
+      "pdf_page": 271,
+      "path": "content/ca/ch09.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.4",
+      "section_index": 3,
+      "block_index": 6,
+      "tag": "h4",
+      "heading": "Acceptance/rejection of a special order",
+      "score": 0.911,
+      "source_number": "9.4.3",
+      "source_title": "Acceptance/Rejection of Special Order",
+      "pdf_page": 276,
+      "path": "content/ca/ch09.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.4",
+      "section_index": 3,
+      "block_index": 9,
+      "tag": "h4",
+      "heading": "Marginal costing and pricing decisions",
+      "score": 1.0,
+      "source_number": "9.4.4",
+      "source_title": "Marginal Costing and Pricing Decision",
+      "pdf_page": 277,
+      "path": "content/ca/ch09.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.4",
+      "section_index": 3,
+      "block_index": 12,
+      "tag": "h4",
+      "heading": "Marginal costing and profit planning",
+      "score": 1.0,
+      "source_number": "9.4.5",
+      "source_title": "Marginal Costing and Profit Planning",
+      "pdf_page": 279,
+      "path": "content/ca/ch09.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 10,
+      "section": "10.2",
+      "section_index": 1,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Assumptions of break-even analysis",
+      "score": 1.0,
+      "source_number": "10.2.1",
+      "source_title": "Assumptions of Break-even Analysis",
+      "pdf_page": 291,
+      "path": "content/ca/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 10,
+      "section": "10.2",
+      "section_index": 1,
+      "block_index": 14,
+      "tag": "h4",
+      "heading": "The Profit-Volume (P/V) ratio",
+      "score": 0.827,
+      "source_number": "10.2.3",
+      "source_title": "Profit-Volume Ratio, P/V Ratio",
+      "pdf_page": 294,
+      "path": "content/ca/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.2",
+      "section_index": 1,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "The principal budget factor",
+      "score": 0.77,
+      "source_number": "12.3.7",
+      "source_title": "Principal Budget Factor",
+      "pdf_page": 334,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.2",
+      "section_index": 1,
+      "block_index": 5,
+      "tag": "h4",
+      "heading": "Forecasting versus budgeting",
+      "score": 0.69,
+      "source_number": "12.3.8",
+      "source_title": "Forecasting in Budgeting",
+      "pdf_page": 334,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "section_index": 3,
+      "block_index": 0,
+      "tag": "h4",
+      "heading": "Introducing budgeting for the first time",
+      "score": 1.0,
+      "source_number": "12.5.1",
+      "source_title": "Introducing Budgeting for the First Time",
+      "pdf_page": 336,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "section_index": 3,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "The Budget Committee",
+      "score": 1.0,
+      "source_number": "12.5.3",
+      "source_title": "The Budget Committee",
+      "pdf_page": 336,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "section_index": 3,
+      "block_index": 6,
+      "tag": "h4",
+      "heading": "The Budget Manual",
+      "score": 1.0,
+      "source_number": "12.5.4",
+      "source_title": "The Budget Manual",
+      "pdf_page": 337,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "section_index": 3,
+      "block_index": 9,
+      "tag": "h4",
+      "heading": "Preparing the initial budget proposal",
+      "score": 0.816,
+      "source_number": "12.6.1",
+      "source_title": "The Initial Budget Proposal",
+      "pdf_page": 338,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "section_index": 3,
+      "block_index": 13,
+      "tag": "h4",
+      "heading": "Behavioural factors in budgeting",
+      "score": 1.0,
+      "source_number": "12.6.5",
+      "source_title": "Behavioural Factors in Budgeting",
+      "pdf_page": 339,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.8",
+      "section_index": 7,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "The budgetary control process",
+      "score": 1.0,
+      "source_number": "12.10.2",
+      "source_title": "The Budgetary Control Process",
+      "pdf_page": 358,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.10",
+      "section_index": 9,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "The ranking process in ZBB",
+      "score": 1.0,
+      "source_number": "12.13.2",
+      "source_title": "The Ranking Process in ZBB",
+      "pdf_page": 364,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.10",
+      "section_index": 9,
+      "block_index": 8,
+      "tag": "h4",
+      "heading": "Activity-Based Costing in budgeting",
+      "score": 0.791,
+      "source_number": "12.15",
+      "source_title": "Activity Based Costing Systems in Budgeting (ABC)",
+      "pdf_page": 367,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.10",
+      "section_index": 9,
+      "block_index": 10,
+      "tag": "h4",
+      "heading": "Periodic (continuous/rolling) budgets",
+      "score": 0.727,
+      "source_number": "12.15.2",
+      "source_title": "Periodic or Continuous Budgets:",
+      "pdf_page": 368,
+      "path": "content/ca/ch12.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.1",
+      "section_index": 0,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Four types of standards",
+      "score": 0.77,
+      "source_number": "13.2.2",
+      "source_title": "Types of standards",
+      "pdf_page": 389,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "section_index": 3,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Material cost variance (MCV)",
+      "score": 0.81,
+      "source_number": "13.6.4",
+      "source_title": "Material Cost Variances, MCV",
+      "pdf_page": 396,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "section_index": 3,
+      "block_index": 8,
+      "tag": "h4",
+      "heading": "Labour cost variance",
+      "score": 1.0,
+      "source_number": "13.6.5",
+      "source_title": "Labour Cost Variances",
+      "pdf_page": 398,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "section_index": 3,
+      "block_index": 13,
+      "tag": "h4",
+      "heading": "Total Overhead Cost Variance (TOCV)",
+      "score": 1.0,
+      "source_number": "13.6.6",
+      "source_title": "Total Overhead Cost Variance, TOCV",
+      "pdf_page": 400,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "section_index": 3,
+      "block_index": 16,
+      "tag": "h4",
+      "heading": "Variable Overhead Cost Variance (VOCV)",
+      "score": 0.726,
+      "source_number": "13.6.6.1",
+      "source_title": "Variable Overhead Cost Variances",
+      "pdf_page": 401,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "section_index": 3,
+      "block_index": 21,
+      "tag": "h4",
+      "heading": "Fixed Overhead Variance",
+      "score": 1.0,
+      "source_number": "13.6.6.2",
+      "source_title": "Fixed Overhead Variance",
+      "pdf_page": 402,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.5",
+      "section_index": 4,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Reconciling budgeted profit to actual profit",
+      "score": 0.643,
+      "source_number": "13.7.2",
+      "source_title": "Reconciliation of budgeted profit and actual profit",
+      "pdf_page": 415,
+      "path": "content/ca/ch13.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 7,
+      "section": "7.4",
+      "section_index": 3,
+      "block_index": 7,
+      "tag": "h4",
+      "heading": "Attendance at inventory taking",
+      "score": 1.0,
+      "source_number": "7.4.8",
+      "source_title": "Attendance at inventory taking",
+      "pdf_page": 242,
+      "path": "content/aud/ch07.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 7,
+      "section": "7.4",
+      "section_index": 3,
+      "block_index": 10,
+      "tag": "h4",
+      "heading": "Types of inventory taking",
+      "score": 1.0,
+      "source_number": "7.4.9",
+      "source_title": "Types of inventory taking",
+      "pdf_page": 243,
+      "path": "content/aud/ch07.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 7,
+      "section": "7.6",
+      "section_index": 5,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Auditing procedures",
+      "score": 1.0,
+      "source_number": "7.6.3",
+      "source_title": "Auditing Procedures",
+      "pdf_page": 257,
+      "path": "content/aud/ch07.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.5",
+      "section_index": 4,
+      "block_index": 2,
+      "tag": "h4",
+      "heading": "Audit interrogation software",
+      "score": 1.0,
+      "source_number": "10.5.1",
+      "source_title": "Audit Interrogation Software",
+      "pdf_page": 345,
+      "path": "content/aud/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.5",
+      "section_index": 4,
+      "block_index": 4,
+      "tag": "h4",
+      "heading": "Test data",
+      "score": 1.0,
+      "source_number": "10.5.2",
+      "source_title": "Test Data",
+      "pdf_page": 346,
+      "path": "content/aud/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.5",
+      "section_index": 4,
+      "block_index": 6,
+      "tag": "h4",
+      "heading": "Embedded audit facilities",
+      "score": 1.0,
+      "source_number": "10.5.3",
+      "source_title": "Embedded Audit Facilities",
+      "pdf_page": 346,
+      "path": "content/aud/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    },
+    {
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.7",
+      "section_index": 6,
+      "block_index": 3,
+      "tag": "h4",
+      "heading": "Database Management Systems (DBMS)",
+      "score": 1.0,
+      "source_number": "10.6.2",
+      "source_title": "Database Management Systems (DBMS)",
+      "pdf_page": 356,
+      "path": "content/aud/ch10.py",
+      "verified": "Source heading and existing block text compared; body content retained"
+    }
+  ],
+  "sectionReferenceRestorations": [
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.1",
+      "heading": "What materials are, and why they matter",
+      "source_numbers": [
+        "3.1",
+        "3.2"
+      ],
+      "source_refs": [
+        {
+          "number": "3.1",
+          "title": "INTRODUCTION",
+          "pdf_page": 54
+        },
+        {
+          "number": "3.2",
+          "title": "BASIC CLASSIFICATION OF MATERIALS",
+          "pdf_page": 54
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.2",
+      "heading": "The store functions, and factors that facilitate effective control",
+      "source_numbers": [
+        "3.3",
+        "3.4"
+      ],
+      "source_refs": [
+        {
+          "number": "3.3",
+          "title": "THE STORE FUNCTIONS AND ACTIVITIES",
+          "pdf_page": 56
+        },
+        {
+          "number": "3.4",
+          "title": "Factors That Facilitate Effective Materials Cost Control",
+          "pdf_page": 57
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.3",
+      "heading": "Procurement of materials and documentation",
+      "source_numbers": [
+        "3.5"
+      ],
+      "source_refs": [
+        {
+          "number": "3.5",
+          "title": "Procurement of Materials and Documentation",
+          "pdf_page": 58
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.4",
+      "heading": "Receipt and storage of materials",
+      "source_numbers": [
+        "3.6"
+      ],
+      "source_refs": [
+        {
+          "number": "3.6",
+          "title": "RECEIPTAND STORAGE OF MATERIALS",
+          "pdf_page": 61
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.5",
+      "heading": "Pricing of issues and valuation of inventory",
+      "source_numbers": [
+        "3.7"
+      ],
+      "source_refs": [
+        {
+          "number": "3.7",
+          "title": "PRICING OF ISSUES AND VALUATION OF INVENTORY",
+          "pdf_page": 65
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.6",
+      "heading": "Inventory control levels",
+      "source_numbers": [
+        "3.8"
+      ],
+      "source_refs": [
+        {
+          "number": "3.8",
+          "title": "INVENTORY CONTROL LEVELS",
+          "pdf_page": 69
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.7",
+      "heading": "Inventory control records and procedures",
+      "source_numbers": [
+        "3.9"
+      ],
+      "source_refs": [
+        {
+          "number": "3.9",
+          "title": "Inventory Control Records and Procedures",
+          "pdf_page": 74
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch03.py",
+      "code": "ca",
+      "chapter": 3,
+      "section": "3.8",
+      "heading": "Perpetual inventory and inventory taking",
+      "source_numbers": [
+        "3.10",
+        "3.11"
+      ],
+      "source_refs": [
+        {
+          "number": "3.10",
+          "title": "PERPETUAL INVENTORY SYSTEM",
+          "pdf_page": 89
+        },
+        {
+          "number": "3.11",
+          "title": "INVENTORY TAKING",
+          "pdf_page": 89
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch04.py",
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.4",
+      "heading": "Overtime and idle time",
+      "source_numbers": [
+        "4.4",
+        "4.5"
+      ],
+      "source_refs": [
+        {
+          "number": "4.4",
+          "title": "Overtime Remuneration Schemes",
+          "pdf_page": 108
+        },
+        {
+          "number": "4.5",
+          "title": "Idle (Waiting) Time",
+          "pdf_page": 109
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch04.py",
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.5",
+      "heading": "Direct and indirect cost of labour; minimising labour cost",
+      "source_numbers": [
+        "4.7",
+        "4.8"
+      ],
+      "source_refs": [
+        {
+          "number": "4.7",
+          "title": "Direct and Indirect Cost of Labour",
+          "pdf_page": 114
+        },
+        {
+          "number": "4.8",
+          "title": "Labour Cost Minimisation Techniques",
+          "pdf_page": 118
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch04.py",
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.6",
+      "heading": "Labour turnover",
+      "source_numbers": [
+        "4.9"
+      ],
+      "source_refs": [
+        {
+          "number": "4.9",
+          "title": "Labour Turnover",
+          "pdf_page": 118
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch04.py",
+      "code": "ca",
+      "chapter": 4,
+      "section": "4.7",
+      "heading": "Payroll preparation and accounting",
+      "source_numbers": [
+        "4.10"
+      ],
+      "source_refs": [
+        {
+          "number": "4.10",
+          "title": "PAYROLL PREPARATION AND ACCOUNTING",
+          "pdf_page": 123
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.1",
+      "heading": "Introduction and definition",
+      "source_numbers": [
+        "5.1",
+        "5.2"
+      ],
+      "source_refs": [
+        {
+          "number": "5.1",
+          "title": "INTRODUCTION",
+          "pdf_page": 134
+        },
+        {
+          "number": "5.2",
+          "title": "DEFINITION AND CLASSIFICATION OF OVERHEADS",
+          "pdf_page": 135
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.2",
+      "heading": "Types and classification of overheads",
+      "source_numbers": [
+        "5.3"
+      ],
+      "source_refs": [
+        {
+          "number": "5.3",
+          "title": "TYPES AND CLASSIFICATION OF OVERHEADS",
+          "pdf_page": 135
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.3",
+      "heading": "Overhead allocation and apportionment",
+      "source_numbers": [
+        "5.3.1",
+        "5.3.2"
+      ],
+      "source_refs": [
+        {
+          "number": "5.3.1",
+          "title": "Overhead Allocation and Apportionment Methods",
+          "pdf_page": 137
+        },
+        {
+          "number": "5.3.2",
+          "title": "The Concept of Overhead Absorption",
+          "pdf_page": 140
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.4",
+      "heading": "Re-apportioning reciprocal service-centre overheads",
+      "source_numbers": [
+        "5.3.3",
+        "5.3.4",
+        "5.3.5",
+        "5.3.6"
+      ],
+      "source_refs": [
+        {
+          "number": "5.3.3",
+          "title": "Methods of overheads analysis.",
+          "pdf_page": 140
+        },
+        {
+          "number": "5.3.4",
+          "title": "Elimination method:",
+          "pdf_page": 143
+        },
+        {
+          "number": "5.3.5",
+          "title": "Continuous allotment:",
+          "pdf_page": 145
+        },
+        {
+          "number": "5.3.6",
+          "title": "Simultaneous Equations:",
+          "pdf_page": 146
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.5",
+      "heading": "Overhead absorption — the six bases",
+      "source_numbers": [
+        "5.3.7",
+        "5.4"
+      ],
+      "source_refs": [
+        {
+          "number": "5.3.7",
+          "title": "Overheads Absorption Methods",
+          "pdf_page": 148
+        },
+        {
+          "number": "5.4",
+          "title": "Calculation of Overhead Absorption Rates",
+          "pdf_page": 152
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.6",
+      "heading": "Predetermined rates, and blanket versus departmental rates",
+      "source_numbers": [
+        "5.5",
+        "5.6"
+      ],
+      "source_refs": [
+        {
+          "number": "5.5",
+          "title": "Why Predetermined Rates Are Used",
+          "pdf_page": 154
+        },
+        {
+          "number": "5.6",
+          "title": "Blanket Overhead Absorption Rates Versus Cost Centre Overhead Absorption Rates.",
+          "pdf_page": 154
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch05.py",
+      "code": "ca",
+      "chapter": 5,
+      "section": "5.11",
+      "heading": "Chapter summary",
+      "source_numbers": [
+        "5.9"
+      ],
+      "source_refs": [
+        {
+          "number": "5.9",
+          "title": "CHAPTER SUMMARY",
+          "pdf_page": 161
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.1",
+      "heading": "Order costing — the concept",
+      "source_numbers": [
+        "7.1",
+        "7.2.1"
+      ],
+      "source_refs": [
+        {
+          "number": "7.1",
+          "title": "INTRODUCTION",
+          "pdf_page": 204
+        },
+        {
+          "number": "7.2.1",
+          "title": "The Concept of Order Costing",
+          "pdf_page": 204
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.2",
+      "heading": "Job costing",
+      "source_numbers": [
+        "7.2.2",
+        "7.2.3",
+        "7.2.4"
+      ],
+      "source_refs": [
+        {
+          "number": "7.2.2",
+          "title": "Job Costing",
+          "pdf_page": 205
+        },
+        {
+          "number": "7.2.3",
+          "title": "Job Order Costing Procedure",
+          "pdf_page": 205
+        },
+        {
+          "number": "7.2.4",
+          "title": "Overhead Cost Absorption Methods in Job Costing",
+          "pdf_page": 206
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.3",
+      "heading": "Batch costing",
+      "source_numbers": [
+        "7.2.5"
+      ],
+      "source_refs": [
+        {
+          "number": "7.2.5",
+          "title": "Batch Costing",
+          "pdf_page": 209
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.4",
+      "heading": "Contract costing and accounting",
+      "source_numbers": [
+        "7.3"
+      ],
+      "source_refs": [
+        {
+          "number": "7.3",
+          "title": "Contract Costing and Accounting",
+          "pdf_page": 211
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "code": "ca",
+      "chapter": 7,
+      "section": "7.5",
+      "heading": "Service (operation) costing",
+      "source_numbers": [],
+      "source_refs": [
+        {
+          "number": null,
+          "title": "Service Costing — unnumbered source heading",
+          "pdf_page": 215
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.1",
+      "heading": "Process costing — principles, application and distinction from order costing",
+      "source_numbers": [
+        "8.1",
+        "8.1.1",
+        "8.1.2",
+        "8.1.3",
+        "8.1.4"
+      ],
+      "source_refs": [
+        {
+          "number": "8.1",
+          "title": "INTRODUCTION TO CONTINUOUS OPERATION COSTING",
+          "pdf_page": 226
+        },
+        {
+          "number": "8.1.1",
+          "title": "PRINCIPLES OF PROCESS COSTING",
+          "pdf_page": 226
+        },
+        {
+          "number": "8.1.2",
+          "title": "Application Areas of Process Costing",
+          "pdf_page": 227
+        },
+        {
+          "number": "8.1.3",
+          "title": "Distinction Between Process Costing and Order Costing",
+          "pdf_page": 227
+        },
+        {
+          "number": "8.1.4",
+          "title": "Production Stages in Process Costing",
+          "pdf_page": 228
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.2",
+      "heading": "Process losses, wastages, and gains",
+      "source_numbers": [
+        "8.1.5"
+      ],
+      "source_refs": [
+        {
+          "number": "8.1.5",
+          "title": "Treatment of Process Losses and Wastages",
+          "pdf_page": 229
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.3",
+      "heading": "Equivalent units",
+      "source_numbers": [
+        "8.1.6"
+      ],
+      "source_refs": [
+        {
+          "number": "8.1.6",
+          "title": "Determination of Equivalent Units",
+          "pdf_page": 232
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.4",
+      "heading": "The cost of production report — weighted average and FIFO",
+      "source_numbers": [
+        "8.1.7"
+      ],
+      "source_refs": [
+        {
+          "number": "8.1.7",
+          "title": "Process and Cost of Production Report",
+          "pdf_page": 235
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.5",
+      "heading": "Joint products and by-products",
+      "source_numbers": [
+        "8.2.1",
+        "8.2.2"
+      ],
+      "source_refs": [
+        {
+          "number": "8.2.1",
+          "title": "The Concept of Joint Products",
+          "pdf_page": 241
+        },
+        {
+          "number": "8.2.2",
+          "title": "Accounting Treatment of By- Products",
+          "pdf_page": 242
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.6",
+      "heading": "Methods of apportioning joint cost",
+      "source_numbers": [
+        "8.2.3",
+        "8.2.4"
+      ],
+      "source_refs": [
+        {
+          "number": "8.2.3",
+          "title": "Methods of Apportionment of Joint Cost",
+          "pdf_page": 242
+        },
+        {
+          "number": "8.2.4",
+          "title": "Total Cost Determination Using NRV Method",
+          "pdf_page": 245
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch08.py",
+      "code": "ca",
+      "chapter": 8,
+      "section": "8.7",
+      "heading": "Non-specific order costing: service costing",
+      "source_numbers": [
+        "8.3",
+        "8.3.1"
+      ],
+      "source_refs": [
+        {
+          "number": "8.3",
+          "title": "Non- Specific Order Costing Methods",
+          "pdf_page": 246
+        },
+        {
+          "number": "8.3.1",
+          "title": "Service Costing",
+          "pdf_page": 246
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch09.py",
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.1",
+      "heading": "Marginal costing versus absorption costing",
+      "source_numbers": [
+        "9.1",
+        "9.1.1",
+        "9.2",
+        "9.2.1"
+      ],
+      "source_refs": [
+        {
+          "number": "9.1",
+          "title": "Marginal Costing Versus Absorption Costing",
+          "pdf_page": 258
+        },
+        {
+          "number": "9.1.1",
+          "title": "Introduction",
+          "pdf_page": 258
+        },
+        {
+          "number": "9.2",
+          "title": "PREPARATION OFINCOME STATEMENTS",
+          "pdf_page": 263
+        },
+        {
+          "number": "9.2.1",
+          "title": "Income Determination: Under Absorption and Marginal Costing",
+          "pdf_page": 263
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch09.py",
+      "code": "ca",
+      "chapter": 9,
+      "section": "9.2",
+      "heading": "The role of contribution",
+      "source_numbers": [
+        "9.2.2"
+      ],
+      "source_refs": [
+        {
+          "number": "9.2.2",
+          "title": "Role of Contribution",
+          "pdf_page": 266
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch10.py",
+      "code": "ca",
+      "chapter": 10,
+      "section": "10.3",
+      "heading": "CVP graphs",
+      "source_numbers": [
+        "10.2.5"
+      ],
+      "source_refs": [
+        {
+          "number": "10.2.5",
+          "title": "C.V.P Graphs",
+          "pdf_page": 300
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch10.py",
+      "code": "ca",
+      "chapter": 10,
+      "section": "10.4",
+      "heading": "Limitations of break-even analysis",
+      "source_numbers": [
+        "10.2.6"
+      ],
+      "source_refs": [
+        {
+          "number": "10.2.6",
+          "title": "Limitations of Break-Even Analysis",
+          "pdf_page": 304
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch11.py",
+      "code": "ca",
+      "chapter": 11,
+      "section": "11.1",
+      "heading": "Introduction — the concept of capital budgeting",
+      "source_numbers": [
+        "11.1",
+        "11.1.1"
+      ],
+      "source_refs": [
+        {
+          "number": "11.1",
+          "title": "INTRODUCTION",
+          "pdf_page": 313
+        },
+        {
+          "number": "11.1.1",
+          "title": "The Concept of Capital Budgeting",
+          "pdf_page": 313
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch11.py",
+      "code": "ca",
+      "chapter": 11,
+      "section": "11.4",
+      "heading": "Discounted Cash Flow (DCF) methods, and the Net Present Value method (11.5)",
+      "source_numbers": [
+        "11.4",
+        "11.5"
+      ],
+      "source_refs": [
+        {
+          "number": "11.4",
+          "title": "Discounted Cash Flow (DCF) Methods",
+          "pdf_page": 321
+        },
+        {
+          "number": "11.5",
+          "title": "Net Present Value (NPV) Method",
+          "pdf_page": 322
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.1",
+      "heading": "What a budget is",
+      "source_numbers": [
+        "12.1",
+        "12.2"
+      ],
+      "source_refs": [
+        {
+          "number": "12.1",
+          "title": "INTRODUCTION",
+          "pdf_page": 331
+        },
+        {
+          "number": "12.2",
+          "title": "Definition of Budget",
+          "pdf_page": 331
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.2",
+      "heading": "Types of budgets",
+      "source_numbers": [
+        "12.3"
+      ],
+      "source_refs": [
+        {
+          "number": "12.3",
+          "title": "Types of Budgets",
+          "pdf_page": 332
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.3",
+      "heading": "The objectives of budgeting",
+      "source_numbers": [
+        "12.4"
+      ],
+      "source_refs": [
+        {
+          "number": "12.4",
+          "title": "The Objectives of Budgeting: Budgeting is a critical tool set out to:",
+          "pdf_page": 334
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.4",
+      "heading": "The budgeting process",
+      "source_numbers": [
+        "12.5",
+        "12.6"
+      ],
+      "source_refs": [
+        {
+          "number": "12.5",
+          "title": "The Budgeting Process",
+          "pdf_page": 336
+        },
+        {
+          "number": "12.6",
+          "title": "The Process of Preparing Initial Budgets",
+          "pdf_page": 338
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.5",
+      "heading": "Preparing functional budgets",
+      "source_numbers": [
+        "12.7"
+      ],
+      "source_refs": [
+        {
+          "number": "12.7",
+          "title": "Preparation of Annual Budgets",
+          "pdf_page": 340
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.6",
+      "heading": "The cash budget",
+      "source_numbers": [
+        "12.8"
+      ],
+      "source_refs": [
+        {
+          "number": "12.8",
+          "title": "CASH BUDGET",
+          "pdf_page": 348
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.7",
+      "heading": "The master budget",
+      "source_numbers": [
+        "12.9"
+      ],
+      "source_refs": [
+        {
+          "number": "12.9",
+          "title": "Master Budget",
+          "pdf_page": 352
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.8",
+      "heading": "Budgetary control",
+      "source_numbers": [
+        "12.10"
+      ],
+      "source_refs": [
+        {
+          "number": "12.10",
+          "title": "The Meaning of Budgetary Control",
+          "pdf_page": 357
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.9",
+      "heading": "Fixed and flexible budgets",
+      "source_numbers": [
+        "12.11"
+      ],
+      "source_refs": [
+        {
+          "number": "12.11",
+          "title": "FIXED AND FLEXIBLE BUDGETS",
+          "pdf_page": 359
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch12.py",
+      "code": "ca",
+      "chapter": 12,
+      "section": "12.10",
+      "heading": "Zero-based and incremental budgeting",
+      "source_numbers": [
+        "12.12",
+        "12.13",
+        "12.14",
+        "12.15"
+      ],
+      "source_refs": [
+        {
+          "number": "12.12",
+          "title": "BUDGETARY CONTROL IMPROVEMENT TECHNIQUES",
+          "pdf_page": 363
+        },
+        {
+          "number": "12.13",
+          "title": "Mutually Exclusive Decision Packages",
+          "pdf_page": 364
+        },
+        {
+          "number": "12.14",
+          "title": "INCREMENTAL BUDGETING",
+          "pdf_page": 366
+        },
+        {
+          "number": "12.15",
+          "title": "Activity Based Costing Systems in Budgeting (ABC)",
+          "pdf_page": 367
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.1",
+      "heading": "Standards and standard costing",
+      "source_numbers": [
+        "13.1",
+        "13.2"
+      ],
+      "source_refs": [
+        {
+          "number": "13.1",
+          "title": "Introduction",
+          "pdf_page": 388
+        },
+        {
+          "number": "13.2",
+          "title": "Standard Costing",
+          "pdf_page": 388
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.2",
+      "heading": "The process of standard costing, and setting standards",
+      "source_numbers": [
+        "13.3",
+        "13.4"
+      ],
+      "source_refs": [
+        {
+          "number": "13.3",
+          "title": "The Process of Standard Costing",
+          "pdf_page": 392
+        },
+        {
+          "number": "13.4",
+          "title": "Setting Standard Costs",
+          "pdf_page": 392
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.3",
+      "heading": "The standard cost card",
+      "source_numbers": [
+        "13.5"
+      ],
+      "source_refs": [
+        {
+          "number": "13.5",
+          "title": "Computation of standard cost card",
+          "pdf_page": 394
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.4",
+      "heading": "Material, labour and overhead cost variances",
+      "source_numbers": [
+        "13.6"
+      ],
+      "source_refs": [
+        {
+          "number": "13.6",
+          "title": "Variance Analysis",
+          "pdf_page": 395
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.5",
+      "heading": "Sales margin variances",
+      "source_numbers": [
+        "13.7"
+      ],
+      "source_refs": [
+        {
+          "number": "13.7",
+          "title": "Other Variance Analysis Issues",
+          "pdf_page": 410
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.6",
+      "heading": "Activity, capacity and efficiency ratios",
+      "source_numbers": [
+        "13.8"
+      ],
+      "source_refs": [
+        {
+          "number": "13.8",
+          "title": "Computation of activity, capacity and efficiency variances",
+          "pdf_page": 422
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/ca/ch13.py",
+      "code": "ca",
+      "chapter": 13,
+      "section": "13.7",
+      "heading": "Causes of variances, and deciding what to investigate",
+      "source_numbers": [
+        "13.9"
+      ],
+      "source_refs": [
+        {
+          "number": "13.9",
+          "title": "Causes of Variances",
+          "pdf_page": 425
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.7",
+      "heading": "Requirements for objectivity and independence",
+      "source_numbers": [
+        "2.62"
+      ],
+      "source_refs": [
+        {
+          "number": "2.62",
+          "title": "REQUIREMENTS FOR OBJECTIVITY AND INDEPENDENCE",
+          "pdf_page": 60
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.8",
+      "heading": "Procedure for the appointment of auditors",
+      "source_numbers": [
+        "2.63"
+      ],
+      "source_refs": [
+        {
+          "number": "2.63",
+          "title": "PROCEDURE FOR THE AUDIT APPOINTMENT OF AUDITORS",
+          "pdf_page": 64
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.9",
+      "heading": "Letter of engagement",
+      "source_numbers": [
+        "2.64"
+      ],
+      "source_refs": [
+        {
+          "number": "2.64",
+          "title": "LETTER OF ENGAGEMENT",
+          "pdf_page": 69
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.10",
+      "heading": "Auditors' responsibility to consider fraud and error",
+      "source_numbers": [
+        "2.65"
+      ],
+      "source_refs": [
+        {
+          "number": "2.65",
+          "title": "AUDITORS’ RESPONSIBILITY TO CONSIDER FRAUD AND ERROR",
+          "pdf_page": 75
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.11",
+      "heading": "Auditors' responsibility to consider non-compliance with laws and regulations (NOCLAR)",
+      "source_numbers": [
+        "2.66"
+      ],
+      "source_refs": [
+        {
+          "number": "2.66",
+          "title": "AUDITORS’ RESPONSIBILITY TO CONSIDER NON-COMPLIANCE",
+          "pdf_page": 81
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.12",
+      "heading": "Impact of laws and accounting standards on audit",
+      "source_numbers": [
+        "2.67"
+      ],
+      "source_refs": [
+        {
+          "number": "2.67",
+          "title": "IMPACT OF LAWS AND ACCOUNTING STANDARDS ON AUDIT",
+          "pdf_page": 91
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.13",
+      "heading": "Scope of audit functions under CAMA, BOFIA and the Insurance Act",
+      "source_numbers": [
+        "2.68"
+      ],
+      "source_refs": [
+        {
+          "number": "2.68",
+          "title": "SCOPE OF AUDIT FUNCTIONS UNDER CAMA, BOFIA AND THE INSURANCE",
+          "pdf_page": 93
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "code": "aud",
+      "chapter": 2,
+      "section": "2.14",
+      "heading": "Chapter summary",
+      "source_numbers": [
+        "2.69"
+      ],
+      "source_refs": [
+        {
+          "number": "2.69",
+          "title": "CHAPTER SUMMARY",
+          "pdf_page": 102
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch03.py",
+      "code": "aud",
+      "chapter": 3,
+      "section": "3.1",
+      "heading": "Fundamental principles of the ICAN Code of Ethics",
+      "source_numbers": [
+        "1.1"
+      ],
+      "source_refs": [
+        {
+          "number": "1.1",
+          "title": "FUNDAMENTAL PRINCIPLES OF ICAN CODE OF ETHICS",
+          "pdf_page": 106
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately. Printed AUD3 numbering belongs to chapter 1 by source typesetting defect."
+    },
+    {
+      "path": "content/aud/ch03.py",
+      "code": "aud",
+      "chapter": 3,
+      "section": "3.2",
+      "heading": "Professional conduct for members of ICAN",
+      "source_numbers": [
+        "1.2"
+      ],
+      "source_refs": [
+        {
+          "number": "1.2",
+          "title": "PROFESSIONAL CONDUCT FOR MEMBERS OF ICAN",
+          "pdf_page": 107
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately. Printed AUD3 numbering belongs to chapter 1 by source typesetting defect."
+    },
+    {
+      "path": "content/aud/ch03.py",
+      "code": "aud",
+      "chapter": 3,
+      "section": "3.3",
+      "heading": "Actual and perceived independence",
+      "source_numbers": [
+        "1.3"
+      ],
+      "source_refs": [
+        {
+          "number": "1.3",
+          "title": "ACTUAL AND PERCEIVED INDEPENDENCE",
+          "pdf_page": 109
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately. Printed AUD3 numbering belongs to chapter 1 by source typesetting defect."
+    },
+    {
+      "path": "content/aud/ch03.py",
+      "code": "aud",
+      "chapter": 3,
+      "section": "3.4",
+      "heading": "The conceptual framework: five threats to the fundamental principles",
+      "source_numbers": [
+        "1.4"
+      ],
+      "source_refs": [
+        {
+          "number": "1.4",
+          "title": "INTRODUCTION TO THE CONCEPTUAL FRAMEWORK",
+          "pdf_page": 110
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately. Printed AUD3 numbering belongs to chapter 1 by source typesetting defect."
+    },
+    {
+      "path": "content/aud/ch03.py",
+      "code": "aud",
+      "chapter": 3,
+      "section": "3.8",
+      "heading": "Auditors' responsibilities with regard to confidentiality",
+      "source_numbers": [
+        "1.5"
+      ],
+      "source_refs": [
+        {
+          "number": "1.5",
+          "title": "AUDITORS’ RESPONSIBILITIES WITH REGARD TO CONFIDENTIALITY",
+          "pdf_page": 118
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately. Printed AUD3 numbering belongs to chapter 1 by source typesetting defect."
+    },
+    {
+      "path": "content/aud/ch10.py",
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.8",
+      "heading": "Business systems and associated IT risks",
+      "source_numbers": [
+        "10.7"
+      ],
+      "source_refs": [
+        {
+          "number": "10.7",
+          "title": "BUSINESS SYSTEMS AND ASSOCIATED IT RISKS",
+          "pdf_page": 358
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch10.py",
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.9",
+      "heading": "Current trends in information technology",
+      "source_numbers": [
+        "10.8"
+      ],
+      "source_refs": [
+        {
+          "number": "10.8",
+          "title": "CURRENT TRENDS IN INFORMATION TECHNOLOGY",
+          "pdf_page": 359
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    },
+    {
+      "path": "content/aud/ch10.py",
+      "code": "aud",
+      "chapter": 10,
+      "section": "10.10",
+      "heading": "Chapter summary",
+      "source_numbers": [
+        "10.9"
+      ],
+      "source_refs": [
+        {
+          "number": "10.9",
+          "title": "CHAPTER SUMMARY",
+          "pdf_page": 365
+        }
+      ],
+      "confirmed": true,
+      "note": "Retain internal section identity/citations; display source number(s) separately."
+    }
+  ],
+  "sourceAdditions": [
+    {
+      "path": "content/aud/ch02.py",
+      "chapter": 2,
+      "section": "2.9",
+      "insert_after_existing_section_blocks": true,
+      "source": "2025_Aud.pdf",
+      "pdf_pages": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "title": "Full study-text specimen — letter of engagement"
+    },
+    {
+      "path": "content/aud/ch08.py",
+      "chapter": 8,
+      "section": "8.11",
+      "insert_after_existing_section_blocks": true,
+      "source": "2025_Aud.pdf",
+      "pdf_pages": [
+        306,
+        307,
+        308
+      ],
+      "title": "Full study-text specimen — management letter"
+    },
+    {
+      "path": "content/ca/ch07.py",
+      "chapter": 7,
+      "section": "7.5",
+      "source": "2025_CA.pdf",
+      "pdf_pages": [
+        215,
+        216,
+        217,
+        218
+      ],
+      "insert_after_existing_section_blocks": true,
+      "replace_condensed_note_containing": "Included here for completeness (full fidelity to the source), condensed accordingly."
+    },
+    {
+      "path": "content/aud/ch08.py",
+      "section": "8.7",
+      "insert_before_heading": "Flowcharts",
+      "source": "2025_Aud.pdf",
+      "pdf_pages": [
+        285,
+        286
+      ]
+    },
+    {
+      "path": "content/aud/ch08.py",
+      "section": "8.8",
+      "insert_after_existing_section_blocks": true,
+      "source": "2025_Aud.pdf",
+      "pdf_pages": [
+        290,
+        291,
+        292
+      ]
+    },
+    {
+      "path": "content/ca/ch14.py",
+      "section": "14.11",
+      "insert_after_existing_section_blocks": true,
+      "source": "2025_CA.pdf",
+      "pdf_pages": [
+        460,
+        461,
+        462
+      ]
+    },
+    {
+      "path": "content/ca/ch14.py",
+      "section": "14.10",
+      "insert_after_existing_section_blocks": true,
+      "source": "2025_CA.pdf",
+      "pdf_pages": [
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455
+      ]
+    }
+  ],
+  "taxManagementSectionReviews": [
+    {
+      "chapter_file": "content/man/ch02.py",
+      "section": "2.3",
+      "evidence": [
+        {
+          "number": "2.3.1",
+          "title": "Management as a technique",
+          "pdf_page": 87
+        },
+        {
+          "number": "2.3.2",
+          "title": "Management as a process",
+          "pdf_page": 88
+        },
+        {
+          "number": "2.3.3",
+          "title": "Management as a discipline and profession",
+          "pdf_page": 88
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch02.py",
+      "section": "2.8",
+      "evidence": [
+        {
+          "number": "2.8.1",
+          "title": "Management as a Science",
+          "pdf_page": 94
+        },
+        {
+          "number": "2.8.2",
+          "title": "Management as an art",
+          "pdf_page": 95
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch02.py",
+      "section": "2.14",
+      "evidence": [
+        {
+          "number": "2.14.1",
+          "title": "Fredrick Winslow Taylor (1856-1915)",
+          "pdf_page": 105
+        },
+        {
+          "number": "2.14.2",
+          "title": "Frank Gilbreth and Lillian Gilbreth:",
+          "pdf_page": 106
+        },
+        {
+          "number": "2.14.3",
+          "title": "Henry L. Gantt (1861-1919)",
+          "pdf_page": 106
+        },
+        {
+          "number": "2.14.4",
+          "title": "Harrington Emerson (1853-1931): Principles of Efficiency",
+          "pdf_page": 107
+        },
+        {
+          "number": "2.14.5",
+          "title": "Contributions of Scientific Management Theory",
+          "pdf_page": 108
+        },
+        {
+          "number": "2.14.6",
+          "title": "Limitations of scientific management",
+          "pdf_page": 108
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch02.py",
+      "section": "2.15",
+      "evidence": [
+        {
+          "number": "2.15.1",
+          "title": "Henri Fayol (1841-1920)",
+          "pdf_page": 109
+        },
+        {
+          "number": "2.15.2",
+          "title": "Chester Barnard (1886-1961)",
+          "pdf_page": 111
+        },
+        {
+          "number": "2.15.3",
+          "title": "Colonel Lyndall Urwick, a British army officer turned distinguished executive and",
+          "pdf_page": 111
+        },
+        {
+          "number": "2.15.4",
+          "title": "Luther Gulick isolated the responsibilities of the chief executive and enumerated them",
+          "pdf_page": 111
+        },
+        {
+          "number": "2.15.5",
+          "title": "James D. Mooney and Alan C. Reilly",
+          "pdf_page": 112
+        },
+        {
+          "number": "2.15.6",
+          "title": "Implications of Administrative school to modern management",
+          "pdf_page": 112
+        },
+        {
+          "number": "2.15.7",
+          "title": "Limitations of Administrative Management",
+          "pdf_page": 112
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "B.6",
+      "evidence": [
+        {
+          "number": "B.6.1",
+          "title": "Advantages of individual decision-making",
+          "pdf_page": 155
+        },
+        {
+          "number": "B.6.2",
+          "title": "Disadvantages of individual decision-making",
+          "pdf_page": 155
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "B.7",
+      "evidence": [
+        {
+          "number": "B.7.1",
+          "title": "Advantages of Group Decision-Making",
+          "pdf_page": 156
+        },
+        {
+          "number": "B.7.2",
+          "title": "Disadvantages of Group Decision-Making",
+          "pdf_page": 157
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "C.13",
+      "evidence": [
+        {
+          "number": "C.13.1",
+          "title": "Advantages of Centralisation",
+          "pdf_page": 185
+        },
+        {
+          "number": "C.13.2",
+          "title": "Disadvantages of Centralisation",
+          "pdf_page": 185
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "C.14",
+      "evidence": [
+        {
+          "number": "C.14.1",
+          "title": "Advantages of Decentralisation",
+          "pdf_page": 186
+        },
+        {
+          "number": "C.14.2",
+          "title": "Disadvantages of Decentralisation",
+          "pdf_page": 186
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "F.5",
+      "evidence": [
+        {
+          "number": "F.5.1",
+          "title": "Strength",
+          "pdf_page": 207
+        },
+        {
+          "number": "F.5.2",
+          "title": "Weakness",
+          "pdf_page": 208
+        },
+        {
+          "number": "F.5.3",
+          "title": "Opportunity",
+          "pdf_page": 208
+        },
+        {
+          "number": "F.5.4",
+          "title": "Threat",
+          "pdf_page": 208
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "F.6",
+      "evidence": [
+        {
+          "number": "F.6.1",
+          "title": "Corporate Strategy",
+          "pdf_page": 209
+        },
+        {
+          "number": "F.6.2",
+          "title": "Business Strategy",
+          "pdf_page": 209
+        },
+        {
+          "number": "F.6.3",
+          "title": "Functional Strategy",
+          "pdf_page": 209
+        },
+        {
+          "number": "F.6.4",
+          "title": "Operating Strategy",
+          "pdf_page": 209
+        },
+        {
+          "number": "F.6.5",
+          "title": "Distinction between Corporate and Divisional Strategy",
+          "pdf_page": 210
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "C.10",
+      "evidence": [
+        {
+          "number": "C.10.1",
+          "title": "Line Authority",
+          "pdf_page": 179
+        },
+        {
+          "number": "C.10.2",
+          "title": "Staff Authority",
+          "pdf_page": 180
+        },
+        {
+          "number": "C.10.3",
+          "title": "Staff Organisation Structure",
+          "pdf_page": 180
+        },
+        {
+          "number": "C.10.4",
+          "title": "Line and Staff Organisation",
+          "pdf_page": 181
+        },
+        {
+          "number": "C.10.5",
+          "title": "Line and Staff Organisation Structure",
+          "pdf_page": 181
+        },
+        {
+          "number": "C.10.6",
+          "title": "Line and Staff Conflicts",
+          "pdf_page": 182
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch03.py",
+      "section": "C.11",
+      "evidence": [
+        {
+          "number": "C.11.1",
+          "title": "The process of delegation involves:",
+          "pdf_page": 183
+        },
+        {
+          "number": "C.11.2",
+          "title": "Advantages of delegation:",
+          "pdf_page": 183
+        },
+        {
+          "number": "C.11.3",
+          "title": "Barriers/Obstacles to Effective Delegation of Authority",
+          "pdf_page": 183
+        },
+        {
+          "number": "C.11.4",
+          "title": "Reasons for Managers Reluctance to Delegate",
+          "pdf_page": 184
+        },
+        {
+          "number": "C.11.5",
+          "title": "Subordinates Reluctance to Accept Delegated Authority",
+          "pdf_page": 184
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.6",
+      "evidence": [
+        {
+          "number": "A.6.1",
+          "title": "Sources of Recruitment",
+          "pdf_page": 221
+        },
+        {
+          "number": "A.6.2",
+          "title": "Internal Recruitment",
+          "pdf_page": 221
+        },
+        {
+          "number": "A.6.3",
+          "title": "External Recruitment",
+          "pdf_page": 222
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.7",
+      "evidence": [
+        {
+          "number": "A.7.1",
+          "title": "Analysis of Application Forms",
+          "pdf_page": 224
+        },
+        {
+          "number": "A.7.2",
+          "title": "Selection Tests",
+          "pdf_page": 224
+        },
+        {
+          "number": "A.7.3",
+          "title": "Selection Interview",
+          "pdf_page": 225
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.9",
+      "evidence": [
+        {
+          "number": "A.9.1",
+          "title": "Objectives of Induction",
+          "pdf_page": 225
+        },
+        {
+          "number": "A.9.2",
+          "title": "Importance of Induction",
+          "pdf_page": 225
+        },
+        {
+          "number": "A.9.3",
+          "title": "Induction Procedures",
+          "pdf_page": 226
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.10",
+      "evidence": [
+        {
+          "number": "A.10.1",
+          "title": "Definition of Job Analysis",
+          "pdf_page": 226
+        },
+        {
+          "number": "A.10.2",
+          "title": "Methods of Job Analysis",
+          "pdf_page": 227
+        },
+        {
+          "number": "A.10.3",
+          "title": "Uses of Job Analysis",
+          "pdf_page": 227
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.15",
+      "evidence": [
+        {
+          "number": "A.15.1",
+          "title": "Objectives of Wages and Salary Administration",
+          "pdf_page": 234
+        },
+        {
+          "number": "A.15.2",
+          "title": "Principles of Wages and Salary Administration",
+          "pdf_page": 234
+        },
+        {
+          "number": "A.15.3",
+          "title": "Establishment of Methods of Compensating Employees",
+          "pdf_page": 235
+        },
+        {
+          "number": "A.15.4",
+          "title": "Designing and Implementing Incentive Schemes",
+          "pdf_page": 235
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.16",
+      "evidence": [
+        {
+          "number": "A.16.1",
+          "title": "Features of Effective Discipline",
+          "pdf_page": 236
+        },
+        {
+          "number": "A.16.2",
+          "title": "Objectives of Employee Disciplinary actions",
+          "pdf_page": 237
+        },
+        {
+          "number": "A.16.3",
+          "title": "Causes of Indiscipline in an organisation",
+          "pdf_page": 238
+        },
+        {
+          "number": "A.16.4",
+          "title": "Disciplinary Measures in an organisation",
+          "pdf_page": 238
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "A.17",
+      "evidence": [
+        {
+          "number": "A.17.1",
+          "title": "Collective Bargaining",
+          "pdf_page": 239
+        },
+        {
+          "number": "A.17.2",
+          "title": "Contents of Collective Agreements",
+          "pdf_page": 239
+        },
+        {
+          "number": "A.17.3",
+          "title": "Importance of Collective Bargaining",
+          "pdf_page": 240
+        },
+        {
+          "number": "A.17.4",
+          "title": "Grievance and Grievance Procedure",
+          "pdf_page": 240
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "B.6",
+      "evidence": [
+        {
+          "number": "B.6.1",
+          "title": "Objectives of Plant Layout",
+          "pdf_page": 251
+        },
+        {
+          "number": "B.6.2",
+          "title": "Principles of Plant Layout",
+          "pdf_page": 251
+        },
+        {
+          "number": "B.6.3",
+          "title": "Factors Influencing Plant Layout and Design",
+          "pdf_page": 251
+        },
+        {
+          "number": "B.6.4",
+          "title": "Types of Plant Layout",
+          "pdf_page": 252
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "B.7",
+      "evidence": [
+        {
+          "number": "B.7.1",
+          "title": "Components of a production system",
+          "pdf_page": 254
+        },
+        {
+          "number": "B.7.2",
+          "title": "Features of Production systems",
+          "pdf_page": 255
+        },
+        {
+          "number": "B.7.3",
+          "title": "Factors influencing Type of Production System Used",
+          "pdf_page": 256
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.7",
+      "evidence": [
+        {
+          "number": "C.7.1",
+          "title": "Basic Rules of Pricing",
+          "pdf_page": 272
+        },
+        {
+          "number": "C.7.2",
+          "title": "Pricing Objectives",
+          "pdf_page": 272
+        },
+        {
+          "number": "C.7.3",
+          "title": "Pricing methods",
+          "pdf_page": 273
+        },
+        {
+          "number": "C.7.4",
+          "title": "Factors which influence pricing",
+          "pdf_page": 274
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.8",
+      "evidence": [
+        {
+          "number": "C.8.1",
+          "title": "Advertising",
+          "pdf_page": 275
+        },
+        {
+          "number": "C.8.2",
+          "title": "Public Relations",
+          "pdf_page": 275
+        },
+        {
+          "number": "C.8.3",
+          "title": "Sales Promotion",
+          "pdf_page": 276
+        },
+        {
+          "number": "C.8.4",
+          "title": "Personal Selling",
+          "pdf_page": 277
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.9",
+      "evidence": [
+        {
+          "number": "C.9.1",
+          "title": "Functions of intermediaries",
+          "pdf_page": 278
+        },
+        {
+          "number": "C.9.2",
+          "title": "Channels of distribution",
+          "pdf_page": 279
+        },
+        {
+          "number": "C.9.3",
+          "title": "Factors influencing Choice of Distribution channel",
+          "pdf_page": 279
+        },
+        {
+          "number": "C.9.4",
+          "title": "Retailing",
+          "pdf_page": 280
+        },
+        {
+          "number": "C.9.5",
+          "title": "Types of Retailers",
+          "pdf_page": 280
+        },
+        {
+          "number": "C.9.6",
+          "title": "Wholesaling",
+          "pdf_page": 281
+        },
+        {
+          "number": "C.9.7",
+          "title": "Distribution Polices",
+          "pdf_page": 282
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.10",
+      "evidence": [
+        {
+          "number": "C.10.1",
+          "title": "People",
+          "pdf_page": 283
+        },
+        {
+          "number": "C.10.2",
+          "title": "Process",
+          "pdf_page": 283
+        },
+        {
+          "number": "C.10.3",
+          "title": "Physical Evidence",
+          "pdf_page": 284
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "D.12",
+      "evidence": [
+        {
+          "number": "D.12.1",
+          "title": "Functions of the Money Market",
+          "pdf_page": 296
+        },
+        {
+          "number": "D.12.2",
+          "title": "Common Money Market Instruments",
+          "pdf_page": 297
+        },
+        {
+          "number": "D.12.3",
+          "title": "Role of participants in the money market.",
+          "pdf_page": 297
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "section": "C.2",
+      "evidence": [
+        {
+          "number": "C.2.1",
+          "title": "Formal Group",
+          "pdf_page": 328
+        },
+        {
+          "number": "C.2.2",
+          "title": "Informal Groups",
+          "pdf_page": 329
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "section": "E.1",
+      "evidence": [
+        {
+          "number": "E.1.1",
+          "title": "Nature of Attitudes",
+          "pdf_page": 338
+        },
+        {
+          "number": "E.1.2",
+          "title": "Components of Attitude",
+          "pdf_page": 338
+        },
+        {
+          "number": "E.1.3",
+          "title": "Factors that influence on our attitudes",
+          "pdf_page": 339
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "section": "E.2",
+      "evidence": [
+        {
+          "number": "E.2.1",
+          "title": "Job satisfaction",
+          "pdf_page": 339
+        },
+        {
+          "number": "E.2.2",
+          "title": "Organisational commitment",
+          "pdf_page": 339
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "section": "H.2",
+      "evidence": [],
+      "note": "Formatting-only conversion of the explicitly numbered paragraph enumeration into an actual list; wording retained."
+    },
+    {
+      "chapter_file": "content/man/ch05.py",
+      "section": "H.3",
+      "evidence": [],
+      "note": "Formatting-only conversion of the explicitly numbered paragraph enumeration into an actual list; wording retained."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "evidence": [
+        {
+          "number": "C.6.1",
+          "title": "Consumer products",
+          "pdf_page": 268
+        },
+        {
+          "number": "C.6.2",
+          "title": "Industrial products",
+          "pdf_page": 270
+        },
+        {
+          "number": "C.6.3",
+          "title": "What is a new product?",
+          "pdf_page": 271
+        },
+        {
+          "number": "C.6.4",
+          "title": "New Product Development",
+          "pdf_page": 271
+        },
+        {
+          "number": "C.6.5",
+          "title": "Stages in New Product Development",
+          "pdf_page": 271
+        }
+      ],
+      "note": "Confirmed substantive omissions: Table 4.7 (PDF269–270 / printed242–243), and definitions and reasons under C.6.3 and C.6.4 (PDF271 / printed244). Table cells checked against rendered pages."
+    },
+    {
+      "chapter_file": "content/tax/ch01.py",
+      "section": "1.13",
+      "evidence": [
+        {
+          "number": "1.13.1",
+          "title": "Objectives of the NTP",
+          "pdf_page": 49
+        },
+        {
+          "number": "1.13.2",
+          "title": "Policies guidelines as they relate to:",
+          "pdf_page": 50
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch02.py",
+      "section": "2.5",
+      "evidence": [
+        {
+          "number": "2.5.1",
+          "title": "The Nigeria Revenue Service (the Service) established under section 3(1) of",
+          "pdf_page": 79
+        },
+        {
+          "number": "2.5.2",
+          "title": "According to the provisions of section 3(2) of NTAA, the relevant tax authority",
+          "pdf_page": 79
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch02.py",
+      "section": "2.6",
+      "evidence": [
+        {
+          "number": "2.6.1",
+          "title": "Taxes collectible by the Federal Government - section 3(1) of NTAA, are",
+          "pdf_page": 80
+        },
+        {
+          "number": "2.6.2",
+          "title": "Taxes and levies collectible by state governments and local governments",
+          "pdf_page": 80
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch05.py",
+      "section": "5.8",
+      "evidence": [
+        {
+          "number": "5.8.1",
+          "title": "Appeals from the decisions of the relevant tax authority - section 35 of JRBEA",
+          "pdf_page": 145
+        },
+        {
+          "number": "5.8.2",
+          "title": "Appeal by relevant tax authorities - Third paragraph of the Second Schedule to",
+          "pdf_page": 145
+        },
+        {
+          "number": "5.8.3",
+          "title": "Liquidated money claim affidavit - Fourth paragraph of the Second Schedule",
+          "pdf_page": 146
+        },
+        {
+          "number": "5.8.4",
+          "title": "Appeal by Summons - Fifth paragraph of the Second Schedule to JRBEA",
+          "pdf_page": 146
+        },
+        {
+          "number": "5.8.5",
+          "title": "Settlement out of Tribunal - Paragraph 6 of the Second Schedule to JRBEA",
+          "pdf_page": 146
+        },
+        {
+          "number": "5.8.6",
+          "title": "Procedure before Tax Appeal Tribunal - Seventh paragraph of the Second",
+          "pdf_page": 146
+        },
+        {
+          "number": "5.8.7",
+          "title": "Application of the Evidence Act - paragraph 8 of the Second Schedule to",
+          "pdf_page": 147
+        },
+        {
+          "number": "5.8.8",
+          "title": "Procedure following decision of the Tribunal - paragraph 9 of the Second",
+          "pdf_page": 148
+        },
+        {
+          "number": "5.8.9",
+          "title": "Right to Presentation - paragraph 11 of the Second Schedule to JRBEA",
+          "pdf_page": 148
+        },
+        {
+          "number": "5.8.10",
+          "title": "Application of Status of Limitation - paragraph 12 of the Second Schedule to",
+          "pdf_page": 148
+        },
+        {
+          "number": "5.8.11",
+          "title": "Oaths - paragraph 14 of the Second Schedule to JRBEA",
+          "pdf_page": 148
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.23",
+      "evidence": [
+        {
+          "number": "7.23.1",
+          "title": "Benefits",
+          "pdf_page": 170
+        },
+        {
+          "number": "7.23.2",
+          "title": "Challenges",
+          "pdf_page": 170
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.37",
+      "evidence": [
+        {
+          "number": "7.37.1",
+          "title": "Merits",
+          "pdf_page": 181
+        },
+        {
+          "number": "7.37.2",
+          "title": "Demerits",
+          "pdf_page": 182
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.28",
+      "evidence": [
+        {
+          "number": "7.28.1",
+          "title": "VAT exempt items",
+          "pdf_page": 174
+        },
+        {
+          "number": "7.28.2",
+          "title": "Zero-rated items",
+          "pdf_page": 174
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.34",
+      "evidence": [
+        {
+          "number": "7.34.1",
+          "title": "Gross product type variant of VAT",
+          "pdf_page": 179
+        },
+        {
+          "number": "7.34.2",
+          "title": "Income type variant of VAT",
+          "pdf_page": 179
+        },
+        {
+          "number": "7.34.3",
+          "title": "The consumption type variant of VAT",
+          "pdf_page": 180
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.38",
+      "evidence": [
+        {
+          "number": "7.38.1",
+          "title": "Failure to register for VAT - section 100 of NTAA",
+          "pdf_page": 182
+        },
+        {
+          "number": "7.38.2",
+          "title": "Failure to file VAT returns - section 101 of NTAA",
+          "pdf_page": 182
+        },
+        {
+          "number": "7.38.3",
+          "title": "Other general offences and penalties relating to tax",
+          "pdf_page": 182
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch08.py",
+      "section": "8.29",
+      "evidence": [
+        {
+          "number": "8.29.1",
+          "title": "Failure to stamp - section 110 of NTAA",
+          "pdf_page": 205
+        },
+        {
+          "number": "8.29.2",
+          "title": "Failure to disclose facts in a dutiable instrument - section 111 of NTAA",
+          "pdf_page": 205
+        },
+        {
+          "number": "8.29.3",
+          "title": "Fraud in relation to stamps - section 113 of NTAA",
+          "pdf_page": 206
+        },
+        {
+          "number": "8.29.4",
+          "title": "Other offences and penalties of general application",
+          "pdf_page": 206
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch12.py",
+      "section": "12.5",
+      "evidence": [
+        {
+          "number": "12.5.1",
+          "title": "Employment",
+          "pdf_page": 264
+        },
+        {
+          "number": "12.5.2",
+          "title": "Vocation",
+          "pdf_page": 264
+        },
+        {
+          "number": "12.5.3",
+          "title": "Profession",
+          "pdf_page": 264
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch25.py",
+      "section": "25.3",
+      "evidence": [
+        {
+          "number": "25.3.1",
+          "title": "Current roles of tax practicing firms",
+          "pdf_page": 567
+        },
+        {
+          "number": "25.3.2",
+          "title": "Elements of tax practice",
+          "pdf_page": 567
+        },
+        {
+          "number": "25.3.3",
+          "title": "Tax compliance",
+          "pdf_page": 568
+        },
+        {
+          "number": "25.3.4",
+          "title": "Tax planning and advisory",
+          "pdf_page": 568
+        },
+        {
+          "number": "25.3.5",
+          "title": "Tax litigation",
+          "pdf_page": 568
+        },
+        {
+          "number": "25.3.6",
+          "title": "Tax research and intelligence",
+          "pdf_page": 568
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/tax/ch25.py",
+      "section": "25.11",
+      "evidence": [
+        {
+          "number": "25.11.1",
+          "title": "Cloud technology",
+          "pdf_page": 580
+        },
+        {
+          "number": "25.11.2",
+          "title": "Data analytics technology",
+          "pdf_page": 580
+        },
+        {
+          "number": "25.11.4",
+          "title": "Social media technology",
+          "pdf_page": 581
+        },
+        {
+          "number": "25.11.5",
+          "title": "Mobile app technology",
+          "pdf_page": 581
+        },
+        {
+          "number": "25.11.6",
+          "title": "Blockchain technology",
+          "pdf_page": 581
+        }
+      ],
+      "note": "Restore separate original subsection headings while retaining authored text and tables."
+    },
+    {
+      "chapter_file": "content/man/ch01.py",
+      "section": "A.13",
+      "evidence": [
+        {
+          "number": "A.13.1",
+          "title": "Definition of Stakeholders",
+          "pdf_page": 49
+        },
+        {
+          "number": "A.13.2",
+          "title": "Internal Stakeholders",
+          "pdf_page": 49
+        },
+        {
+          "number": "A.13.3",
+          "title": "External Stakeholders",
+          "pdf_page": 49
+        },
+        {
+          "number": "A.13.4",
+          "title": "Expectation of Stakeholders",
+          "pdf_page": 49
+        },
+        {
+          "number": "A.13.5",
+          "title": "Effects of Stakeholders’ Expectations",
+          "pdf_page": 49
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.30",
+      "evidence": [
+        {
+          "number": "7.30.1",
+          "title": "Introduction",
+          "pdf_page": 176
+        },
+        {
+          "number": "7.30.2",
+          "title": "Definition of financial institutions",
+          "pdf_page": 176
+        },
+        {
+          "number": "7.30.3",
+          "title": "Services rendered by financial institutions that are liable to VAT",
+          "pdf_page": 176
+        },
+        {
+          "number": "7.30.4",
+          "title": "Services rendered by financial institutions that are vatable",
+          "pdf_page": 176
+        },
+        {
+          "number": "7.30.5",
+          "title": "non-vatable income of financial institutions",
+          "pdf_page": 177
+        },
+        {
+          "number": "7.30.6",
+          "title": "Registration for VAT and rendition of returns",
+          "pdf_page": 177
+        },
+        {
+          "number": "7.30.7",
+          "title": "Treatment of input tax",
+          "pdf_page": 177
+        },
+        {
+          "number": "7.30.8",
+          "title": "Duty to account for VAT",
+          "pdf_page": 178
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.35",
+      "evidence": [
+        {
+          "number": "7.35.1",
+          "title": "VAT visits",
+          "pdf_page": 181
+        },
+        {
+          "number": "7.35.2",
+          "title": "VAT drive",
+          "pdf_page": 181
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch09.py",
+      "section": "9.20",
+      "evidence": [
+        {
+          "number": "9.20.1",
+          "title": "Merits",
+          "pdf_page": 220
+        },
+        {
+          "number": "9.20.2",
+          "title": "Demerits",
+          "pdf_page": 221
+        },
+        {
+          "number": "9.20.3",
+          "title": "Withholding tax rate and double taxation relief",
+          "pdf_page": 221
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch10.py",
+      "section": "10.5",
+      "evidence": [
+        {
+          "number": "10.5.1",
+          "title": "Rates",
+          "pdf_page": 233
+        },
+        {
+          "number": "10.5.2",
+          "title": "Basis of computation",
+          "pdf_page": 234
+        },
+        {
+          "number": "10.5.3",
+          "title": "Computation of the customs value of imported goods – section 69 to 74",
+          "pdf_page": 234
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch12.py",
+      "section": "12.12",
+      "evidence": [
+        {
+          "number": "12.12.1",
+          "title": "In personal taxation, determination of residence is vital, for the purpose of",
+          "pdf_page": 271
+        },
+        {
+          "number": "12.12.2",
+          "title": "Non-resident individual - section 201 of NTA",
+          "pdf_page": 271
+        },
+        {
+          "number": "12.12.3",
+          "title": "Residence and nationality",
+          "pdf_page": 272
+        },
+        {
+          "number": "12.12.4",
+          "title": "Place of residence - paragraph 12 of the First Schedule to the NTAA",
+          "pdf_page": 272
+        },
+        {
+          "number": "12.12.5",
+          "title": "Principal place of residence - paragraph 12 of the First Schedule to the",
+          "pdf_page": 272
+        },
+        {
+          "number": "12.12.6",
+          "title": "Pension - paragraph 5 of the First Schedule to the NTAA",
+          "pdf_page": 272
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch12.py",
+      "section": "12.13",
+      "evidence": [
+        {
+          "number": "12.13.1",
+          "title": "Earned income - paragraph 12 of the First Schedule to the NTAA",
+          "pdf_page": 273
+        },
+        {
+          "number": "12.13.2",
+          "title": "Other earned income - paragraph 6 of the First Schedule to the NTAA",
+          "pdf_page": 273
+        },
+        {
+          "number": "12.13.3",
+          "title": "Unearned income - paragraph 7 of the First Schedule to the NTAA",
+          "pdf_page": 273
+        },
+        {
+          "number": "12.13.4",
+          "title": "Corporation sole or body of individuals - paragraph 9 of the First Schedule",
+          "pdf_page": 274
+        },
+        {
+          "number": "12.13.5",
+          "title": "Family income - paragraph 10 of the First Schedule to the NTAA",
+          "pdf_page": 274
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch14.py",
+      "section": "14.5",
+      "evidence": [
+        {
+          "number": "14.5.1",
+          "title": "- Definitions",
+          "pdf_page": 299
+        },
+        {
+          "number": "14.5.2",
+          "title": "Interests from sources outside Nigeria - section 162 of NTA",
+          "pdf_page": 300
+        },
+        {
+          "number": "14.5.3",
+          "title": "Relevant territories in which interests paid by a Nigerian company arises -",
+          "pdf_page": 300
+        },
+        {
+          "number": "14.5.4",
+          "title": "Interests that are tax-exempt",
+          "pdf_page": 300
+        },
+        {
+          "number": "14.5.5",
+          "title": "Interest on short term securities and corporate bonds -section 51(5) of NTAA",
+          "pdf_page": 301
+        }
+      ],
+      "note": "Restore source subsection headings and retain authored content."
+    },
+    {
+      "chapter_file": "content/tax/ch25.py",
+      "section": "25.8",
+      "evidence": [
+        {
+          "number": "25.8.1",
+          "title": "Cloud computing technology",
+          "pdf_page": 576
+        },
+        {
+          "number": "25.8.2",
+          "title": "Artificial intelligence and robotics",
+          "pdf_page": 576
+        },
+        {
+          "number": "25.8.3",
+          "title": "Blockchain technology",
+          "pdf_page": 577
+        },
+        {
+          "number": "25.8.5",
+          "title": "Social media technology",
+          "pdf_page": 577
+        },
+        {
+          "number": "25.8.6",
+          "title": "Mobile app technology",
+          "pdf_page": 578
+        }
+      ],
+      "note": "Correct previous erroneous numbering-gap claim against source PDF577; preserve six original technologies and add individual headings."
+    },
+    {
+      "chapter_file": "content/tax/ch12.py",
+      "section": "12.2",
+      "evidence": [],
+      "note": "Make existing correction of a source-number typo explicit; no new current-law assertion."
+    },
+    {
+      "chapter_file": "content/tax/ch22.py",
+      "section": "22.15",
+      "evidence": [
+        {
+          "number": "22.15.1",
+          "title": "Objectives of Nigeria Startup Act, 2022.",
+          "pdf_page": 486
+        },
+        {
+          "number": "22.15.2",
+          "title": "Companies covered by the provisions of the Act",
+          "pdf_page": 486
+        },
+        {
+          "number": "22.15.3",
+          "title": "Composition, functions, and powers of the National Council for Digital",
+          "pdf_page": 487
+        },
+        {
+          "number": "22.15.4",
+          "title": "Startup labelling process, obligations, withdrawal and reissuance of startup label",
+          "pdf_page": 488
+        },
+        {
+          "number": "22.15.6",
+          "title": "Tax and fiscal benefits available to labelled startups",
+          "pdf_page": 489
+        },
+        {
+          "number": "22.15.7",
+          "title": "Incentives and reliefs for investors investing in a labelled startup",
+          "pdf_page": 491
+        },
+        {
+          "number": "22.15.8",
+          "title": "Criticism of tax incentives",
+          "pdf_page": 491
+        }
+      ],
+      "note": "Make existing correction of a source-number typo explicit; no new current-law assertion."
+    },
+    {
+      "chapter_file": "content/tax/ch25.py",
+      "section": "25.7",
+      "evidence": [
+        {
+          "number": "25.7.1",
+          "title": "Company registration process",
+          "pdf_page": 573
+        }
+      ],
+      "note": "Make existing correction of a source-number typo explicit; no new current-law assertion."
+    },
+    {
+      "chapter_file": "content/tax/ch01.py",
+      "section": "1.15",
+      "evidence": [
+        {
+          "number": "1.15.1",
+          "title": "Questions",
+          "pdf_page": 58
+        },
+        {
+          "number": "1.15.2",
+          "title": "Suggested solutions to examination-type questions",
+          "pdf_page": 58
+        }
+      ],
+      "note": "Preserve original 1.15.2 solution-section reference while keeping source questions paired with answers."
+    },
+    {
+      "chapter_file": "content/tax/ch14.py",
+      "section": "14.4",
+      "evidence": [
+        {
+          "pdf_page": 298,
+          "printed_heading": "14..4.2 Dividend exempt from tax - section 162 of NTA"
+        },
+        {
+          "pdf_page": 299,
+          "printed_heading": "14..4.4 Relevant territory in which dividends paid by a Nigerian company arise"
+        }
+      ]
+    },
+    {
+      "chapter_file": "content/tax/ch04.py",
+      "section": "4.3",
+      "evidence": [
+        {
+          "pdf_page": 109
+        }
+      ]
+    },
+    {
+      "chapter_file": "content/tax/ch07.py",
+      "section": "7.28",
+      "evidence": [
+        {
+          "pdf_page": 174
+        }
+      ]
+    },
+    {
+      "chapter_file": "content/man/ch08.py",
+      "section": "8.8",
+      "evidence": [
+        {
+          "pdf_page": 369
+        }
+      ]
+    }
+  ],
+  "listFormatting": {
+    "method": "Colon-introduced lists separated by at least two semicolons outside parentheses, brackets and maths; every word and its order checked unchanged.",
+    "lists": 473,
+    "sections": [
+      {
+        "path": "content/aud/ch01.py",
+        "section": "1.6",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch01.py",
+        "section": "1.16",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch02.py",
+        "section": "2.4",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch02.py",
+        "section": "2.10",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch02.py",
+        "section": "2.11",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch02.py",
+        "section": "2.12",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch02.py",
+        "section": "2.13",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch04.py",
+        "section": "4.1",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch05.py",
+        "section": "5.1",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch05.py",
+        "section": "5.3",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.4",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.5",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.7",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.8",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.9",
+        "lists": 4
+      },
+      {
+        "path": "content/aud/ch06.py",
+        "section": "6.11",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.1",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.4",
+        "lists": 5
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.5",
+        "lists": 4
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.6",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.7",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch07.py",
+        "section": "7.8",
+        "lists": 6
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.1",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.4",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.5",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.7",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.8",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.9",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.11",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch08.py",
+        "section": "8.12",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch09.py",
+        "section": "9.4",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch09.py",
+        "section": "9.5",
+        "lists": 6
+      },
+      {
+        "path": "content/aud/ch09.py",
+        "section": "9.6",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch10.py",
+        "section": "10.3",
+        "lists": 2
+      },
+      {
+        "path": "content/aud/ch10.py",
+        "section": "10.6",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch10.py",
+        "section": "10.7",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch10.py",
+        "section": "10.8",
+        "lists": 3
+      },
+      {
+        "path": "content/aud/ch10.py",
+        "section": "10.9",
+        "lists": 6
+      },
+      {
+        "path": "content/aud/ch11.py",
+        "section": "11.1",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch11.py",
+        "section": "11.3",
+        "lists": 1
+      },
+      {
+        "path": "content/aud/ch12.py",
+        "section": "12.12",
+        "lists": 7
+      },
+      {
+        "path": "content/ca/ch01.py",
+        "section": "1.3.6",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch02.py",
+        "section": "2.1.3",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch02.py",
+        "section": "2.4",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch02.py",
+        "section": "2.7",
+        "lists": 5
+      },
+      {
+        "path": "content/ca/ch03.py",
+        "section": "3.4",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch03.py",
+        "section": "3.5",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch03.py",
+        "section": "3.6",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch03.py",
+        "section": "3.11",
+        "lists": 8
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.2",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.3",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.4",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.5",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.6",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.7",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch04.py",
+        "section": "4.10",
+        "lists": 5
+      },
+      {
+        "path": "content/ca/ch05.py",
+        "section": "5.8",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch05.py",
+        "section": "5.12",
+        "lists": 4
+      },
+      {
+        "path": "content/ca/ch07.py",
+        "section": "7.8",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.2",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.3",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.4",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.6",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.10",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch08.py",
+        "section": "8.11",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch09.py",
+        "section": "9.1",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch09.py",
+        "section": "9.3",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch09.py",
+        "section": "9.4",
+        "lists": 3
+      },
+      {
+        "path": "content/ca/ch09.py",
+        "section": "9.7",
+        "lists": 3
+      },
+      {
+        "path": "content/ca/ch10.py",
+        "section": "10.1",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch10.py",
+        "section": "10.2",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch10.py",
+        "section": "10.3",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch10.py",
+        "section": "10.7",
+        "lists": 10
+      },
+      {
+        "path": "content/ca/ch11.py",
+        "section": "11.9",
+        "lists": 8
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.1",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.2",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.4",
+        "lists": 6
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.6",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.8",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.9",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.19",
+        "lists": 4
+      },
+      {
+        "path": "content/ca/ch12.py",
+        "section": "12.20",
+        "lists": 5
+      },
+      {
+        "path": "content/ca/ch13.py",
+        "section": "13.1",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch13.py",
+        "section": "13.2",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch13.py",
+        "section": "13.4",
+        "lists": 3
+      },
+      {
+        "path": "content/ca/ch13.py",
+        "section": "13.5",
+        "lists": 2
+      },
+      {
+        "path": "content/ca/ch13.py",
+        "section": "13.13",
+        "lists": 7
+      },
+      {
+        "path": "content/ca/ch14.py",
+        "section": "14.6",
+        "lists": 1
+      },
+      {
+        "path": "content/ca/ch14.py",
+        "section": "14.11",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "A.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "A.7",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "A.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "A.12",
+        "lists": 3
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "B.4",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "C.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch01.py",
+        "section": "C.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.10",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.11",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.14",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.15",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.19",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch02.py",
+        "section": "2.20",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "A.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "A.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "C.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "C.6",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "C.10",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "C.11",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "E.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "E.4",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "E.7",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "E.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "E.9",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "F.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch03.py",
+        "section": "F.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.5",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.7",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.9",
+        "lists": 3
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.10",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.13",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.15",
+        "lists": 3
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.16",
+        "lists": 5
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "A.17",
+        "lists": 3
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "B.5",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "B.6",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "B.7",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "B.9",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.4",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.7",
+        "lists": 3
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.8",
+        "lists": 4
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.9",
+        "lists": 6
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "C.12",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.5",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.7",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.12",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch04.py",
+        "section": "D.13",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "A.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "A.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "A.4",
+        "lists": 4
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "B.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "B.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "B.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "C.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "D.4",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "D.5",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "E.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "E.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "F.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "F.5",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "F.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "F.7",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "G.2",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch05.py",
+        "section": "G.3",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch06.py",
+        "section": "6.1",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch07.py",
+        "section": "7.5",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch08.py",
+        "section": "8.4",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch08.py",
+        "section": "8.10",
+        "lists": 2
+      },
+      {
+        "path": "content/man/ch09.py",
+        "section": "A.8",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch09.py",
+        "section": "C.6",
+        "lists": 1
+      },
+      {
+        "path": "content/man/ch10.py",
+        "section": "10.4",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.2",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.8",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.10.2",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.11",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.12",
+        "lists": 6
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.13",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch01.py",
+        "section": "1.15",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch02.py",
+        "section": "2.2",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch02.py",
+        "section": "2.4",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch02.py",
+        "section": "2.8",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch02.py",
+        "section": "2.10",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch03.py",
+        "section": "3.1",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch04.py",
+        "section": "4.2",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch04.py",
+        "section": "4.3",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch04.py",
+        "section": "4.8",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch04.py",
+        "section": "4.10",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch05.py",
+        "section": "5.2",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch05.py",
+        "section": "5.4",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch07.py",
+        "section": "7.2",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch07.py",
+        "section": "7.8",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch07.py",
+        "section": "7.22",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch07.py",
+        "section": "7.24",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch07.py",
+        "section": "7.35",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch08.py",
+        "section": "8.7",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch08.py",
+        "section": "8.11",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch08.py",
+        "section": "8.14",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch09.py",
+        "section": "9.13",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.2",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.3",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.7",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.10",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.11",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch10.py",
+        "section": "10.14",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch12.py",
+        "section": "12.6",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch12.py",
+        "section": "12.7",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch12.py",
+        "section": "12.9",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch12.py",
+        "section": "12.16",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch13.py",
+        "section": "13.3",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch13.py",
+        "section": "13.6",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch13.py",
+        "section": "13.16",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch14.py",
+        "section": "14.4",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch14.py",
+        "section": "14.5",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch14.py",
+        "section": "14.11",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch15.py",
+        "section": "15.9",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch15.py",
+        "section": "15.13",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch16.py",
+        "section": "16.6",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch17.py",
+        "section": "17.3",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch17.py",
+        "section": "17.15",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch18.py",
+        "section": "18.4",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch18.py",
+        "section": "18.11",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch18.py",
+        "section": "18.17",
+        "lists": 5
+      },
+      {
+        "path": "content/tax/ch19.py",
+        "section": "19.5",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch19.py",
+        "section": "19.7",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch20.py",
+        "section": "20.3",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch20.py",
+        "section": "20.7",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch20.py",
+        "section": "20.13",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch21.py",
+        "section": "21.3",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch21.py",
+        "section": "21.4",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch21.py",
+        "section": "21.5",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch21.py",
+        "section": "21.10",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.2",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.4",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.5",
+        "lists": 4
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.6",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.7",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.9",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.10",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.11",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.12",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.13",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.14",
+        "lists": 4
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.15",
+        "lists": 3
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.16",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.17",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.18",
+        "lists": 4
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.19",
+        "lists": 4
+      },
+      {
+        "path": "content/tax/ch22.py",
+        "section": "22.21",
+        "lists": 2
+      },
+      {
+        "path": "content/tax/ch23.py",
+        "section": "23.10",
+        "lists": 4
+      },
+      {
+        "path": "content/tax/ch24.py",
+        "section": "24.3",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch24.py",
+        "section": "24.7",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch24.py",
+        "section": "24.23",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch25.py",
+        "section": "25.6",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch25.py",
+        "section": "25.10",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch25.py",
+        "section": "25.14",
+        "lists": 1
+      },
+      {
+        "path": "content/tax/ch25.py",
+        "section": "25.15",
+        "lists": 1
+      }
+    ]
+  },
+  "productDetailRestorations": [
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "table_first_header": "Consumer product type",
+      "row_label": "**Convenience**",
+      "column": 1,
+      "original_cell": "Frequently-bought, relatively low-priced (cigarettes, pens, groceries, batteries, newspapers). 3 sub-types: **staples** (bought regularly — bread, soap); **impulse products** (bought with little planning — chocolate, magazines); **emergency products** (bought under urgent need — umbrellas in a rainstorm).",
+      "replacement_cell": "Frequently-bought, relatively low-priced products. Source examples: cigarettes, pens, pencils, candies, groceries, flashlights batteries, sundry drugs, chewing gums, newspapers and flimsy shopping bags. Three sub-types: **staples** are products bought regularly, such as bread, bath soap, beverages and tooth paste; **impulse products** are purchased with little planning or search effort, such as chocolate and magazines; **emergency products** are purchased when the consumer’s need is urgent, such as umbrellas during a rainstorm."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "table_first_header": "Consumer product type",
+      "row_label": "**Shopping goods**",
+      "column": 1,
+      "original_cell": "Consumers compare price/quality/features across brands before buying — furniture, shoes, clothing, durables (fans, radios, TVs).",
+      "replacement_cell": "Consumers usually compare prices, quality and features of alternative brands before purchasing. Source examples: household furniture, shoes, clothing and consumer durables such as fans, radios, television sets and tape recorders."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "table_first_header": "Industrial product type",
+      "row_label": "**Raw materials**",
+      "column": 1,
+      "original_cell": "Unprocessed goods used to produce other goods — farm products (wheat, cotton, livestock) and natural products (fish, lumber, crude petroleum, iron ore).",
+      "replacement_cell": "Unprocessed industrial goods used to produce other goods. Farm products include wheat, cotton, livestock, fruits and vegetables; natural products include fish, lumber, crude petroleum and iron ore."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "table_first_header": "Industrial product type",
+      "row_label": "**Accessories**",
+      "column": 1,
+      "original_cell": "Aid production but don't significantly affect production scale, and don't form part of the final product, but cost less than installations — office equipment, portable tree-cutting machines, forklifts, hand tools.",
+      "replacement_cell": "Industrial products used to aid an organisation’s production operations without any significant effect on its scale of production. Like installations, accessories do not form part of the final product, but they cost less than installations. Examples include office equipment such as computers and typewriters, portable tree-cutting machines, forklift trucks and factory hand tools."
+    },
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "table_first_header": "Industrial product type",
+      "row_label": "**Office supplies**",
+      "column": 1,
+      "original_cell": "Depleted during production, not part of the finished product — consumables (paper, ink, toner, stationery), maintenance/repair services, business advisory services.",
+      "replacement_cell": "Do not become part of the finished product but are depleted during production. These include business/office consumables — paper, ink, marker, toner and stationery — plus maintenance and repair services such as window cleaning and computer repair, and business advisory services such as legal services, management consulting and advertising. Such services are usually supplied under contract."
+    }
+  ],
+  "studyFigureCaptions": 42,
+  "workedAnswerAndReportReviews": [
+    {
+      "chapter_file": "content/man/ch04.py",
+      "section": "B.9",
+      "evidence": {
+        "source": "2025_MAN.pdf",
+        "pdf_pages": [
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "printed_pages": [
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231
+        ],
+        "defect": "Four questions had reference-only answers, three incorrect section references, and a false source-gap warning about maintenance."
+      },
+      "note": "Replace answer-location table with self-contained worked answers; the original questions remain unchanged. Added explanations are labelled."
+    },
+    {
+      "chapter_file": "content/man/ch09.py",
+      "section": "A.10",
+      "evidence": {
+        "source": "2025_MAN.pdf",
+        "pdf_pages": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "defect": "Six descriptive review questions had answer-location instructions in place of actual list answers."
+      },
+      "note": "Replace answer-location table with self-contained worked answers; the original questions remain unchanged. Added explanations are labelled."
+    },
+    {
+      "chapter_file": "content/man/ch09.py",
+      "section": "B.7",
+      "evidence": {
+        "source": "2025_MAN.pdf",
+        "pdf_pages": [
+          390,
+          391,
+          392
+        ],
+        "defect": "Five descriptive review questions had answer-location instructions in place of actual answers."
+      },
+      "note": "Replace answer-location table with self-contained worked answers; the original questions remain unchanged. Added explanations are labelled."
+    },
+    {
+      "chapter_file": "content/man/ch09.py",
+      "section": "C.8",
+      "evidence": {
+        "source": "2025_MAN.pdf",
+        "pdf_pages": [
+          394,
+          395,
+          396,
+          397
+        ],
+        "defect": "Four descriptive review questions had answer-location instructions in place of actual list answers."
+      },
+      "note": "Replace answer-location table with self-contained worked answers; the original questions remain unchanged. Added explanations are labelled."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.2",
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          373,
+          374
+        ]
+      },
+      "note": "Restore the full original source illustration, including introduction/scope/signature material and original address/placeholders, rather than the previous excerpt."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.4",
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          378
+        ]
+      },
+      "note": "Restore the full original source illustration, including introduction/scope/signature material and original address/placeholders, rather than the previous excerpt."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.4",
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          379,
+          380
+        ]
+      },
+      "note": "Restore the full original source illustration, including introduction/scope/signature material and original address/placeholders, rather than the previous excerpt."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.4",
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          381,
+          382
+        ]
+      },
+      "note": "Restore the full original source illustration, including introduction/scope/signature material and original address/placeholders, rather than the previous excerpt."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.4",
+      "insert_after_existing_section_blocks": true,
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          378,
+          379
+        ]
+      },
+      "note": "Restore an entire original source specimen missing from the authored chapter."
+    },
+    {
+      "chapter_file": "content/aud/ch11.py",
+      "section": "11.4",
+      "insert_after_existing_section_blocks": true,
+      "evidence": {
+        "source": "2025_Aud.pdf",
+        "pdf_pages": [
+          380,
+          381
+        ]
+      },
+      "note": "Restore an entire original source specimen missing from the authored chapter."
+    }
+  ],
+  "sourceTextFingerprints": [
+    {
+      "path": "content/aud/ch06.py",
+      "section": "6.5",
+      "sha256": "5fc3decd92c5b278d176a5eff028f6d4d1430c04377db6b79235d00f63f5ba97",
+      "sourcePages": [
+        181
+      ]
+    },
+    {
+      "path": "content/aud/ch06.py",
+      "section": "6.5",
+      "sha256": "4e757b5e6ef648704d447271f4c2d393c782acc29d1424d98a44cf5deca522b3",
+      "sourcePages": [
+        184,
+        185
+      ]
+    },
+    {
+      "path": "content/aud/ch06.py",
+      "section": "6.5",
+      "sha256": "64cf15a05cf1f57b6df3a5010147d868db0ac731e7e6bfbd75f72fcdb50f58ce",
+      "sourcePages": [
+        188,
+        189
+      ]
+    },
+    {
+      "path": "content/aud/ch02.py",
+      "section": "2.9",
+      "sha256": "a26b3f08e34b8f191ff92084bbf485e3104c1ca7e900ae5b9ff0d5a08ba91efb",
+      "sourcePages": [
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "path": "content/aud/ch08.py",
+      "section": "8.11",
+      "sha256": "f0aafe8c37fbc7eef97ea17ad18813630f0b21be7f0422a4d76874c94952d88c",
+      "sourcePages": [
+        306,
+        307,
+        308
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.2",
+      "sha256": "e348aaeaa950914b23e0f9d6d0a943f9a6c62c98ba69291ca1499a26f44a3282",
+      "sourcePages": [
+        373,
+        374
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.4",
+      "sha256": "abaa0030a10af3c9499ab7b40d55d5a0efd6a3c6f560ebe396a70e6aa793e4d4",
+      "sourcePages": [
+        378
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.4",
+      "sha256": "df7ab10a39938851b2076f5638f1193a4519bc2dc5c58b956484fd8d12749d99",
+      "sourcePages": [
+        379,
+        380
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.4",
+      "sha256": "8422011db755d153f723b9a28ebe93e59c41b9827b276d73782dc243acb66364",
+      "sourcePages": [
+        381,
+        382
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.4",
+      "sha256": "f3b808e9c6089fee8b3a5ee476bf712854c4ddb0d3021e520466955bfafc3f39",
+      "sourcePages": [
+        378,
+        379
+      ]
+    },
+    {
+      "path": "content/aud/ch11.py",
+      "section": "11.4",
+      "sha256": "be0a0d620fe125332121b24c983c0df29356e97fdb687b7f01cb1308764e1ad9",
+      "sourcePages": [
+        380,
+        381
+      ]
+    }
+  ],
+  "citationRestorationReviews": [
+    {
+      "key": [
+        "2020-03",
+        "AUD",
+        "secb",
+        3
+      ],
+      "chapter": 8,
+      "section": "8.11",
+      "reason": "Reporting on internal control to management explains the management/weakness letter, its purpose of communicating significant weaknesses, their implications and recommendations, and its litigation/evidence role. These directly answer essay parts(a)and(b);part(c)also needs AUD11/11.1 report elements as an existing secondary reading.",
+      "passage_title": "Reporting on internal control to management",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2021-03",
+        "AUD",
+        "saq",
+        4
+      ],
+      "chapter": 1,
+      "section": "1.17",
+      "reason": "The Audit Committee membership definition expressly says it views the company position in a detached and dispassionate manner and liaises effectively between the main board and external auditors. The old2/2.9 engagement-letter target was a weaker and incorrect primary match.",
+      "passage_title": "Audit committee",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2021-03",
+        "AUD",
+        "saq",
+        7
+      ],
+      "chapter": 1,
+      "section": "1.17",
+      "reason": "The first paragraph says the committee intent is to create space between external auditors and directors; this directly establishes why the familiarity claim is false.",
+      "passage_title": "Audit committee",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2021-03",
+        "CA",
+        "saq",
+        18
+      ],
+      "chapter": 8,
+      "section": "8.7",
+      "reason": "Service costing section explicitly includes a canteen cost statement and gives restaurant cost unit as meal served. It therefore teaches the printed canteen/service-costing answer more precisely than the old generic7/7.5 service heading.",
+      "passage_title": "Non-specific order costing: service costing",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2021-09",
+        "CA",
+        "secb",
+        3
+      ],
+      "chapter": 7,
+      "section": "7.5",
+      "reason": "Service(operation)costing contains the full transport-company operating cost-sheet format, standing/running charges, driver salaries, depreciation,fuel,repairs and cost per vehicle per kilometre. This directly supports the transport operating statement and unit-cost exercise;8/8.7 additionally explains choosing distance/weight cost units.",
+      "passage_title": "Service (operation) costing",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2022-03",
+        "AUD",
+        "saq",
+        11
+      ],
+      "chapter": 6,
+      "section": "6.5",
+      "reason": "The §6.5.1 Debtors circularisation definition explicitly describes contacting trade debtors directly to confirm their balances;the full positive-confirmation specimen is also restored in this section.",
+      "passage_title": "Specific examples of third-party confirmations",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2023-09",
+        "AUD",
+        "mcq",
+        21
+      ],
+      "chapter": 12,
+      "section": "12.11",
+      "reason": "Under §12.11.1 Where a true and fair view may not be given,the fourth list item explicitly rejects figures whose presentation is so complicated that they are difficult to interpret or understand,exactly the printed correct option A.11/11.2 is only the unmodified report specimen and was not the precise primary passage.",
+      "passage_title": "Truth and fairness assessment of financial statements",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2023-09",
+        "AUD",
+        "saq",
+        3
+      ],
+      "chapter": 11,
+      "section": "11.4",
+      "reason": "The scope-limitation discussion distinguishes qualified opinions from severe limitations requiring disclaimer,and contains both full specimens.The printed answer Disclaimer is retained;the question wording alone does not establish pervasiveness and should not be interpreted as every material limitation requiring a disclaimer.",
+      "passage_title": "Circumstances that may result in a modified opinion",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2023-09",
+        "AUD",
+        "saq",
+        17
+      ],
+      "chapter": 11,
+      "section": "11.1",
+      "reason": "The opening(introductory)paragraph discussion identifies the audited financial statements and explains management representations and the auditor opinion,with a specimen listing SFP,comprehensive income,changes in equity and cash flows.This is a more direct passage on what statements fall within the audit report scope than the clean-opinion specimen alone in11/11.2.",
+      "passage_title": "Basic elements of the auditor's report",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2023-09",
+        "CA",
+        "mcq",
+        12
+      ],
+      "chapter": 4,
+      "section": "4.3",
+      "reason": "The piece-rate comparison distinguishes straight output payment,guaranteed day rates and differential piece rates;the differential rate rises with output rather than guaranteeing time-based wages.The same section contrasts Halsey/Rowan/premium bonus schemes.",
+      "passage_title": "Labour remuneration methods",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2024-03",
+        "AUD",
+        "mcq",
+        4
+      ],
+      "chapter": 11,
+      "section": "11.1",
+      "reason": "Opening paragraph and Financial statements are management representations callouts expressly allocate preparation/estimates/accounting-method selection to management and audit/opinion to the auditor,matching correct option D.Previous11/11.4 modified-opinion circumstances was an indirect target.",
+      "passage_title": "Basic elements of the auditor's report",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2024-03",
+        "CA",
+        "mcq",
+        5
+      ],
+      "chapter": 5,
+      "section": "5.8",
+      "reason": "ABC definition,activity/cost-driver steps and ABM supplement teach the activity-based-costing/management family;budgeting is further covered in12/12.10.The previous14/14.10 sustainability section does not teach activity-based accounting.Specific broader family list and exclusion of performance bonds are not fully listed in5.8 and merit a labelled source-question supplement rather than a false claim of exact phrase coverage.",
+      "passage_title": "Activity-Based Costing (ABC)",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2024-03",
+        "CA",
+        "mcq",
+        17
+      ],
+      "chapter": 8,
+      "section": "8.7",
+      "reason": "The section is explicitly Non-specific order costing:service costing,and defines service/operation costing as the non-physical-output counterpart to product costing.This is the appropriate continuous-operation/non-specific-order context for X=Service Costing;7/7.5 also defines service costing but is inside the specific-order chapter.",
+      "passage_title": "Non-specific order costing: service costing",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2024-03",
+        "CA",
+        "mcq",
+        29
+      ],
+      "chapter": 14,
+      "section": "14.6",
+      "reason": "AMT explicitly encompasses Computer Aided Design and Manufacturing(CAD/CAM)and explains replacing traditional inefficiencies with high-quality low-cost technologically driven production.The human-labour-reliance distractor runs against that explanation;the site does not yet enumerate every specific CAM benefit in the options.",
+      "passage_title": "Advanced Manufacturing Technology (AMT)",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2025-09",
+        "AUD",
+        "mcq",
+        18
+      ],
+      "chapter": 10,
+      "section": "10.6",
+      "reason": "Controls in a computer environment directly covers programmed application controls,input accuracy/completeness/authorisation,processing/master-file controls and the general controls an auditor tests.This is the precise system-embedded-controls context for ERP and correct option D,more specific than generic8/8.8 ICEQ evaluation.",
+      "passage_title": "Controls in a computer environment",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2025-09",
+        "AUD",
+        "saq",
+        11
+      ],
+      "chapter": 6,
+      "section": "6.1",
+      "reason": "The Audit evidence definition says all information used by the auditor to reach conclusions on which the audit opinion is based,including accounting records and other information.It matches the question verbatim in substance;6/6.6 is reliability rather than the core definition.",
+      "passage_title": "Nature and scope of audit evidence",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2026-03",
+        "AUD",
+        "mcq",
+        10
+      ],
+      "chapter": 8,
+      "section": "8.10",
+      "reason": "The opening states small entities implement control-environment elements differently,not worse,and underlying concepts still apply less formally.The detailed component comparison directly disproves option D that small entities need no internal control.",
+      "passage_title": "Control systems as they apply to small entities",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2026-03",
+        "AUD",
+        "saq",
+        8
+      ],
+      "chapter": 8,
+      "section": "8.8",
+      "reason": "ICEQ is defined as the evaluation questionnaire used after ascertaining/recording controls.The advantages table says it highlights weak areas requiring extensive substantive testing,and the restored52 questions make the evaluation technique concrete.",
+      "passage_title": "Evaluating the internal control system",
+      "review_scope": "uncertain after restoration"
+    },
+    {
+      "key": [
+        "2019-09",
+        "AUD",
+        "mcq",
+        15
+      ],
+      "chapter": 8,
+      "section": "8.8",
+      "reason": "The first paragraph explains evaluating controls to decide whether to rely on them and reduce substantive testing or perform in-depth testing;the advantages table identifies areas for tests.This restores the previous semantically correct8.8 target;new8.12 is about using internal audit work and is not the primary evaluation-purpose passage.",
+      "passage_title": "Evaluating the internal control system",
+      "review_scope": "already-confident destination drift reviewed"
+    },
+    {
+      "key": [
+        "2019-03",
+        "TAX",
+        "mcq",
+        20
+      ],
+      "chapter": 2,
+      "section": "2.5",
+      "reason": "Section 2.5.2 assigns resident individual income/profits/gains to State/FCT tax authorities, subject to federal exclusive categories. This directly addresses individual capital-gains jurisdiction; 2.2 is only a generic introduction. Historical tax-law flag remains necessary."
+    },
+    {
+      "key": [
+        "2019-03",
+        "TAX",
+        "saq",
+        3
+      ],
+      "chapter": 2,
+      "section": "2.5",
+      "reason": "Section 2.5.2 explicitly allocates resident individual gains to State/FCT tax authorities. It is the relevant jurisdiction passage for the historical individual capital-gains administrator; preserve the historical-law flag."
+    },
+    {
+      "key": [
+        "2019-03",
+        "MAN",
+        "saq",
+        10
+      ],
+      "chapter": 4,
+      "section": "C.6",
+      "reason": "Section C.6.1 separately lists convenience, shopping, specialty and unsought consumer goods; the consumer product table gives the classification and meaning."
+    },
+    {
+      "key": [
+        "2019-09",
+        "TAX",
+        "mcq",
+        30
+      ],
+      "chapter": 2,
+      "section": "2.5",
+      "reason": "Section 2.5.1 expressly places companies within the NRS exclusive jurisdiction; 2.4.2 separately describes NRS Board supervision. 2.5 directly answers the authority-allocation question while the historical FIRS/NRS flag preserves the terminology difference."
+    },
+    {
+      "key": [
+        "2019-09",
+        "MAN",
+        "mcq",
+        28
+      ],
+      "chapter": 4,
+      "section": "D.5",
+      "reason": "D.5 distinguishes manual and computerised accounting; the proposed labelled historical-package supplement gives this original question and printed exception E, Debtor manager. D.6 only lists accounting-department functions and is an incorrect exact reading target.",
+      "requires_supplement": "accounting_packages"
+    },
+    {
+      "key": [
+        "2020-03",
+        "TAX",
+        "mcq",
+        20
+      ],
+      "chapter": 2,
+      "section": "2.5",
+      "reason": "Section 2.5.2 gives the State/FCT authority responsibility for resident individual income/profits/gains; this is the relevant passage for individual capital-gains jurisdiction, with the historical-law flag retained."
+    },
+    {
+      "key": [
+        "2020-03",
+        "TAX",
+        "mcq",
+        28
+      ],
+      "chapter": 7,
+      "section": "7.15",
+      "reason": "Section 7.15 lists VAT-exempt supplies, including baby products; an ordinary private vehicle is not listed. Section 7.17 identifies basic food, medical/pharmaceutical and non-oil exports as zero-rated under the new source. The historical question requires its law-change flag; 7.28 compares input-credit treatment rather than identifying exempt items."
+    },
+    {
+      "key": [
+        "2020-09",
+        "TAX",
+        "mcq",
+        4
+      ],
+      "chapter": 2,
+      "section": "2.4",
+      "reason": "Section 2.4.6 gives the State Service Management Board composition, including State Service directors, Finance Ministry director, Legal Adviser/Secretary and Governor-appointed persons. It is the direct board-composition passage; retain law-change/source-defect flags for historical options."
+    },
+    {
+      "key": [
+        "2020-09",
+        "TAX",
+        "mcq",
+        6
+      ],
+      "chapter": 2,
+      "section": "2.4",
+      "reason": "Section 2.4.6 Technical Committee row lists Executive Chairman, State Service directors and Legal Adviser, with co-option powers. This directly addresses membership; 2.2 contains no committee composition."
+    },
+    {
+      "key": [
+        "2020-09",
+        "MAN",
+        "mcq",
+        18
+      ],
+      "chapter": 4,
+      "section": "C.6",
+      "reason": "Section C.6.1 consumer product table defines specialty goods by unique characteristics, brand identity and special purchasing effort, matching this stem."
+    },
+    {
+      "key": [
+        "2020-09",
+        "MAN",
+        "mcq",
+        20
+      ],
+      "chapter": 4,
+      "section": "D.5",
+      "reason": "D.5 supplies the manual/computerised system context; the proposed historical-package supplement cites the original printed exception B, Module. D.6 has no package list or software classification.",
+      "requires_supplement": "accounting_packages"
+    },
+    {
+      "key": [
+        "2020-09",
+        "MAN",
+        "mcq",
+        24
+      ],
+      "chapter": 5,
+      "section": "C.3",
+      "reason": "Section C.3 names self-managed, cross-functional and virtual teams and contrasts teams with groups. It directly supplies the team-type classification; Commonwealth teams is not a listed type."
+    },
+    {
+      "key": [
+        "2020-09",
+        "MAN",
+        "saq",
+        10
+      ],
+      "chapter": 3,
+      "section": "B.1",
+      "reason": "The Decision definition in B.1 states a conscious choice among competing alternatives toward a definite purpose; the adjacent Decision making definition distinguishes the process."
+    },
+    {
+      "key": [
+        "2021-03",
+        "MAN",
+        "mcq",
+        23
+      ],
+      "chapter": 4,
+      "section": "C.1",
+      "reason": "C.1 explains the marketing exchange between a producer/service provider and the purchasing consumer/client. The question defines a buyer but includes NOT and prints key B, Buyer, so it needs a labelled source-defect explanation; a C.6 product-type table does not resolve that contradiction.",
+      "requires_supplement": "root_source_defect_review"
+    },
+    {
+      "key": [
+        "2021-03",
+        "MAN",
+        "mcq",
+        27
+      ],
+      "chapter": 5,
+      "section": "C.3",
+      "reason": "C.3 defines a work team by common performance goals and mutual accountability. The proposed labelled source supplement adds the exact historical term team based pay, printed option E, so this target is valid once that genuine omitted concept is added.",
+      "requires_supplement": "team_based_pay"
+    },
+    {
+      "key": [
+        "2021-03",
+        "MAN",
+        "secb",
+        3
+      ],
+      "chapter": 4,
+      "section": "A.17",
+      "reason": "A.17.1 defines collective bargaining; A.17.2 lists collective-agreement contents such as union recognition, validity, renegotiation, dues check-off, engagement terms, pay/discipline rules, rights and welfare. These directly cover both parts of the original essay."
+    },
+    {
+      "key": [
+        "2021-09",
+        "MAN",
+        "mcq",
+        20
+      ],
+      "chapter": 4,
+      "section": "C.2",
+      "reason": "C.2 marketing-functions list expressly defines marketing research as systematic data gathering/analysis used in product, price, distribution and promotion decisions."
+    },
+    {
+      "key": [
+        "2021-09",
+        "MAN",
+        "mcq",
+        27
+      ],
+      "chapter": 5,
+      "section": "F.3",
+      "reason": "F.3 distinguishes formal official channels from informal grapevine communication, alongside the separate directional classification. Social interaction among employees is the informal category."
+    },
+    {
+      "key": [
+        "2022-03",
+        "MAN",
+        "mcq",
+        25
+      ],
+      "chapter": 4,
+      "section": "D.5",
+      "reason": "D.5 supplies the computerised accounting-system context; proposed historical-package supplement cites printed exception E, Debtor manager. D.6 is only department functions, so restoring that old target would conceal a content/citation mismatch.",
+      "requires_supplement": "accounting_packages"
+    },
+    {
+      "key": [
+        "2022-09",
+        "MAN",
+        "saq",
+        13
+      ],
+      "chapter": 5,
+      "section": "A.4",
+      "reason": "A.4.2 contains Equity Theory (Adams,1957) and expressly explains reward fairness through comparing input/reward ratios with peers. A.2 is intrinsic versus extrinsic motivation and does not teach this fairness theory."
+    },
+    {
+      "key": [
+        "2023-03",
+        "MAN",
+        "mcq",
+        15
+      ],
+      "chapter": 3,
+      "section": "B.8",
+      "reason": "B.8 Delphi technique table describes a systematic procedure developing expert consensus through repeated anonymous questionnaires and revision, and contrasts Delphi with NGT."
+    },
+    {
+      "key": [
+        "2024-09",
+        "MAN",
+        "saq",
+        15
+      ],
+      "chapter": 4,
+      "section": "C.6",
+      "reason": "C.6.5 Stages in New Product Development includes Test marketing: launch on a carefully selected limited scale to test commercial viability before national commercialisation, matching the stem."
+    },
+    {
+      "key": [
+        "2020-03",
+        "TAX",
+        "mcq",
+        4
+      ],
+      "chapter": 2,
+      "section": "2.6",
+      "reason": "The question asks which tax is not collected by federal FIRS. Section 2.6 expressly separates collectible federal taxes and state/local taxes; 2.5 describes jurisdiction and is also relevant, while prior2.2 is generic. Recommend2.6 as the exact list passage.",
+      "reviewed_confident_change": true
+    },
+    {
+      "key": [
+        "2020-03",
+        "MAN",
+        "mcq",
+        18
+      ],
+      "chapter": 4,
+      "section": "B.7",
+      "reason": "Restore prior B.7: its production-system table explicitly defines continuous/flow production as mass production continuing unbroken for weeks/months. Current B.3 only gives the four production-management objectives and is wrong.",
+      "reviewed_confident_change": true
+    },
+    {
+      "key": [
+        "2021-09",
+        "MAN",
+        "saq",
+        17
+      ],
+      "chapter": 4,
+      "section": "C.6",
+      "reason": "Restore prior C.6 after adding labelled source-backed product-life-cycle supplement: original answer is Maturity and Saturation. Current B.1 defines production transformation and has no product-life-cycle stages; C.6 existing six new-product-development stages must not be confused with the sales life cycle.",
+      "reviewed_confident_change": true,
+      "requires_supplement": "product_life_cycle"
+    },
+    {
+      "key": [
+        "2024-03",
+        "MAN",
+        "saq",
+        20
+      ],
+      "chapter": 4,
+      "section": "B.6",
+      "reason": "Keep current B.6: under B.6.4, Product/line layout explicitly arranges equipment according to the product operation sequence. Prior B.9 is a review-question bank rather than the direct explanatory passage.",
+      "reviewed_confident_change": true
+    },
+    {
+      "key": [
+        "2019-09",
+        "CA",
+        "mcq",
+        2
+      ],
+      "chapter": 1,
+      "section": "1.3.9",
+      "reason": "Presenting cost information explicitly requires reports not too voluminous, while1.2.12 requires understandable reporting. The original key A is now flagged as inconsistent, rather than treating unrelated sustainability as an answer passage."
+    },
+    {
+      "key": [
+        "2019-09",
+        "MAN",
+        "saq",
+        11
+      ],
+      "chapter": 4,
+      "section": "C.2",
+      "reason": "Marketing functions explicitly define systematic marketing research supporting product, price, distribution and promotion decisions; it answers what, how and price-to-sell requirement."
+    },
+    {
+      "key": [
+        "2023-09",
+        "CA",
+        "saq",
+        20
+      ],
+      "chapter": 2,
+      "section": "2.3",
+      "reason": "Coding section defines the system of symbols applied to a classified set of items for brief accurate reference, entry, collation and analysis; Chapter1 is an indirect automatic match."
+    }
+  ],
+  "questionGapSupplements": [
+    {
+      "id": "product_life_cycle",
+      "chapter_file": "content/man/ch04.py",
+      "section": "C.6",
+      "evidence": [
+        {
+          "diet": "2021-09",
+          "subject": "MAN",
+          "kind": "saq",
+          "n": 17,
+          "printed_answer": "Maturity and Saturation",
+          "sourcePage": 89
+        },
+        {
+          "diet": "2019-03",
+          "subject": "MAN",
+          "kind": "mcq",
+          "n": 17,
+          "printed_key": "E",
+          "sourcePage": 85
+        }
+      ]
+    },
+    {
+      "id": "team_based_pay",
+      "chapter_file": "content/man/ch05.py",
+      "section": "C.3",
+      "evidence": [
+        {
+          "diet": "2021-03",
+          "subject": "MAN",
+          "kind": "mcq",
+          "n": 27,
+          "printed_key": "E",
+          "sourcePage": 88
+        }
+      ]
+    },
+    {
+      "id": "accounting_packages",
+      "chapter_file": "content/man/ch04.py",
+      "section": "D.5",
+      "evidence": [
+        {
+          "diet": "2019-09",
+          "subject": "MAN",
+          "kind": "mcq",
+          "n": 28,
+          "printed_key": "E",
+          "sourcePage": 90
+        },
+        {
+          "diet": "2020-09",
+          "subject": "MAN",
+          "kind": "mcq",
+          "n": 20,
+          "printed_key": "B",
+          "sourcePage": 83
+        },
+        {
+          "diet": "2022-03",
+          "subject": "MAN",
+          "kind": "mcq",
+          "n": 25,
+          "printed_key": "E",
+          "sourcePage": 86
+        }
+      ]
+    }
+  ]
+}

@@ -524,11 +524,11 @@ var ATSWA = (function () {
 
       var toc = (c.secs || []).map(function (sec) {
         return '<a href="#/s/' + code + '/' + n + '?sec=' + esc(sec.n).replace(/\./g, '-') +
-          '"><span>' + esc(sec.n) + '</span>' + esc(sec.t) + '</a>';
+          '"><span>' + esc(sec.sourceN === undefined ? sec.n : sec.sourceN) + '</span>' + esc(sec.t) + '</a>';
       }).join('');
       var secs = (c.secs || []).map(function (sec) {
         return '<section class="sec" id="sec-' + esc(sec.n).replace(/\./g, '-') + '">' +
-          '<h2><span class="sn">' + esc(sec.n) + '</span><span>' + esc(sec.t) + '</span></h2>' +
+          '<h2><span class="sn">' + esc(sec.sourceN === undefined ? sec.n : sec.sourceN) + '</span><span>' + esc(sec.t) + '</span></h2>' +
           R.blocks(sec.b) + '</section>';
       }).join('');
       var fbox = c.formulas && c.formulas.length

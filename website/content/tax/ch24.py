@@ -77,35 +77,21 @@ CH = {
                     {
                                  'n': '24.3',
                                  't': 'Consideration for assets disposed',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Ordinarily: cost of acquisition = amount paid to acquire the '
-                                                                                     'asset; consideration for disposal = the sales proceeds. **Market '
-                                                                                     'value substitutes** for the actual consideration where the '
-                                                                                     'disposal/acquisition is: not at arm\'s length; wholly/partly for '
-                                                                                     'consideration that cannot be valued; by a trustee for creditors of '
-                                                                                     'the disposing person; or on devolution on death (personal '
-                                                                                     'representative/legatee).',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Gifts (other than on devolution on death)',
-                                                                              },
-                                                          {
-                                                                                'p': 'The acquirer is deemed to have acquired the asset for: the amount '
-                                                                                     'it was last disposed of by an arm\'s-length bargain; or, if that '
-                                                                                     'cannot be ascertained, its market value on the date of disposal.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Assets acquired by a creditor in debt satisfaction',
-                                                                              },
-                                                          {
-                                                                                'p': 'The asset is not treated as disposed of/acquired for more than its '
-                                                                                     'market value at the time of the creditor\'s acquisition — and the '
-                                                                                     'creditor\'s eventual chargeable gain on disposal cannot exceed what '
-                                                                                     'it would have been had they acquired the property for an amount '
-                                                                                     'equal to the debt (or part of the debt) it satisfied.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Ordinarily:'},
+ {'ul': ['cost of acquisition = amount paid to acquire the asset',
+         'consideration for disposal = the sales proceeds. **Market value substitutes** for the actual '
+         "consideration where the disposal/acquisition is: not at arm's length",
+         'wholly/partly for consideration that cannot be valued',
+         'by a trustee for creditors of the disposing person',
+         'or on devolution on death (personal representative/legatee).']},
+ {'h4': 'Gifts (other than on devolution on death)'},
+ {'p': 'The acquirer is deemed to have acquired the asset for: the amount it was last disposed of by an '
+       "arm's-length bargain; or, if that cannot be ascertained, its market value on the date of disposal."},
+ {'h4': 'Assets acquired by a creditor in debt satisfaction'},
+ {'p': 'The asset is not treated as disposed of/acquired for more than its market value at the time of the '
+       "creditor's acquisition — and the creditor's eventual chargeable gain on disposal cannot exceed what "
+       'it would have been had they acquired the property for an amount equal to the debt (or part of the '
+       'debt) it satisfied.'}],
                                },
                     {
                                  'n': '24.4',
@@ -189,95 +175,35 @@ CH = {
                     {
                                  'n': '24.7',
                                  't': 'Partial disposal',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Where an asset is only partly disposed, the acquisition cost (plus '
-                                                                                     'any value-enhancing expenditure, for a non-capital-allowance '
-                                                                                     'asset) — or the residue/tax-written-down value (for a '
-                                                                                     'capital-allowance asset) — is **apportioned** between the disposed '
-                                                                                     'and undisposed parts.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'lr',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Chargeable gains on the part disposed',
-                                                                                                                                                                             'N',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Sales proceeds of part sold',
-                                                                                                                                                                                                                          'X',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Less: cost of part sold — A/(A+B) × C',
-                                                                                                                                                                                                                          '(X)',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Chargeable gains**',
-                                                                                                                                                                                                                          '**X**',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'p': 'Where: **A** = sales proceeds (or market value) of the part sold; '
-                                                                                     '**B** = market value of the unsold part; **C** = cost of '
-                                                                                     'acquisition (or residue/tax written down value, where capital '
-                                                                                     'allowance has been claimed) of the whole asset.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Illustration 24.1 — partial disposal (Maryland Limited)',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Maryland Limited, a trading company, acquired a '
-                                                                                                                                                                                                          'plot of land for business expansion at a cost of '
-                                                                                                                                                                                                          'N30,000,000 in August 2023. Facing an urgent need '
-                                                                                                                                                                                                          'for funds, management sold a portion of the land '
-                                                                                                                                                                                                          'for N40,000,000 in June 2026. The market value of '
-                                                                                                                                                                                                          'the unsold portion is N35,000,000. **Required**: '
-                                                                                                                                                                                                          'assess and advise on the chargeable gains and the '
-                                                                                                                                                                                                          'relevant year of assessment.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Maryland Limited — chargeable '
-                                                                                                                                                                                                                                                                                                                                    'gains',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Sales proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '40,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: cost of part sold — '
-                                                                                                                                                                                                                                                                                                                                                                                                  '40,000,000/(40,000,000+35,000,000'
-                                                                                                                                                                                                                                                                                                                                                                                                  ') × 30,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(16,000,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Chargeable gains**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**24,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The N24,000,000 chargeable gain is included in '
-                                                                                                                                                                                                          'the company\'s total profit and subject to tax in '
-                                                                                                                                                                                                          'the **2027 year of assessment** (the year '
-                                                                                                                                                                                                          'following the June 2026 disposal).',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Where an asset is only partly disposed, the acquisition cost (plus any value-enhancing expenditure, '
+       'for a non-capital-allowance asset) — or the residue/tax-written-down value (for a capital-allowance '
+       'asset) — is **apportioned** between the disposed and undisposed parts.'},
+ {'table': {'align': 'lr',
+            'head': ['Chargeable gains on the part disposed', 'N'],
+            'rows': [['Sales proceeds of part sold', 'X'],
+                     ['Less: cost of part sold — A/(A+B) × C', '(X)'],
+                     ['**Chargeable gains**', '**X**']]}},
+ {'p': 'Where:'},
+ {'ul': ['**A** = sales proceeds (or market value) of the part sold',
+         '**B** = market value of the unsold part',
+         '**C** = cost of acquisition (or residue/tax written down value, where capital allowance has been '
+         'claimed) of the whole asset.']},
+ {'eg': {'t': 'Illustration 24.1 — partial disposal (Maryland Limited)',
+         'q': [{'p': 'Maryland Limited, a trading company, acquired a plot of land for business expansion at '
+                     'a cost of N30,000,000 in August 2023. Facing an urgent need for funds, management sold '
+                     'a portion of the land for N40,000,000 in June 2026. The market value of the unsold '
+                     'portion is N35,000,000. **Required**: assess and advise on the chargeable gains and '
+                     'the relevant year of assessment.'}],
+         'a': [{'table': {'align': 'lr',
+                          'head': ['Maryland Limited — chargeable gains', 'N'],
+                          'rows': [['Sales proceeds', '40,000,000'],
+                                   ['Deduct: cost of part sold — 40,000,000/(40,000,000+35,000,000) × '
+                                    '30,000,000',
+                                    '(16,000,000)'],
+                                   ['**Chargeable gains**', '**24,000,000**']]}},
+               {'p': "The N24,000,000 chargeable gain is included in the company's total profit and subject "
+                     'to tax in the **2027 year of assessment** (the year following the June 2026 '
+                     'disposal).'}]}}],
                                },
                     {
                                  'n': '24.8',
@@ -977,354 +903,131 @@ CH = {
                     {
                                  'n': '24.23',
                                  't': 'Worked examples — study text questions and suggested solutions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The study text sets **three questions** at §24.23.1 — two '
-                                                                                     'computations and one theory question — with its own suggested '
-                                                                                     'solutions at §24.23.2. All three are reproduced here in full, with '
-                                                                                     'the book\'s answers, every figure independently recomputed, and '
-                                                                                     'added explanation. The book\'s own **Illustrations 24.1 to 24.3** '
-                                                                                     'are separate and appear earlier, at §24.7 (partial disposal) and '
-                                                                                     '§24.9 (assets lost or destroyed).',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'XYZ Limited — three disposals in one year, including a '
-                                                                                                                         'compulsory acquisition',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'XYZ Limited, a manufacturing company in Agbara '
-                                                                                                                                                                                                          'Industrial Estate, projects these transactions '
-                                                                                                                                                                                                          'for the year ending 31 December 2027: (a) an '
-                                                                                                                                                                                                          'oil-melting plant bought 1 January 2026 for '
-                                                                                                                                                                                                          'N45,000,000, to be disposed for N55,000,000 on 31 '
-                                                                                                                                                                                                          'March 2027; (b) land bought 4 March 2026 for '
-                                                                                                                                                                                                          'warehouse construction, cost N25,000,000, sold 30 '
-                                                                                                                                                                                                          'June 2027 for N42,000,000, with N1,250,000 paid '
-                                                                                                                                                                                                          'to Bukola Ventures for facilitating the disposal; '
-                                                                                                                                                                                                          '(c) landed property costing N12,500,000 to be '
-                                                                                                                                                                                                          'compulsorily acquired by the Lagos State '
-                                                                                                                                                                                                          'Government on 5 May 2027 (Lagos-Badagry '
-                                                                                                                                                                                                          'expressway expansion), with N30,000,000 '
-                                                                                                                                                                                                          'compensation. **Required**: ascertain the '
-                                                                                                                                                                                                          'chargeable gains subject to tax in the relevant '
-                                                                                                                                                                                                          'assessment year.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**(a) Disposal of melting plant** — one year of '
-                                                                                                                                                                                                          'capital allowance (20% annual rate, First '
-                                                                                                                                                                                                          'Schedule) would have been claimed for the 2027 '
-                                                                                                                                                                                                          'assessment year (relating to 2026 usage) before '
-                                                                                                                                                                                                          'the March 2027 disposal:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Melting plant',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Sales proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '55,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Cost',
-                                                                                                                                                                                                                                                                                                                                                                                                  '45,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Less: capital allowance (2027 '
-                                                                                                                                                                                                                                                                                                                                                                                                  'YA, 20% × 45,000,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(9,000,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Residual value',
-                                                                                                                                                                                                                                                                                                                                                                                                  '36,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Chargeable gains**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**19,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**(b) Disposal of land** — no capital allowance '
-                                                                                                                                                                                                          'applies to land:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Land',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Sales proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '42,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: incidental cost of '
-                                                                                                                                                                                                                                                                                                                                                                                                  'disposal',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(1,250,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Net sales proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '40,750,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: cost of acquisition',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(25,000,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Chargeable gains**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**15,750,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**(c) Compulsory acquisition** — exempt per '
-                                                                                                                                                                                                          '§24.3, since nothing indicates the company '
-                                                                                                                                                                                                          'anticipated the acquisition or advertised the '
-                                                                                                                                                                                                          'land for sale:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Compulsorily-acquired property',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Compensation',
-                                                                                                                                                                                                                                                                                                                                                                                                  '30,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: acquisition cost',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(12,500,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Chargeable gains '
-                                                                                                                                                                                                                                                                                                                                                                                                  '(tax-exempt)**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**17,500,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Total chargeable gains subject to tax in the '
-                                                                                                                                                                                                          '2028 assessment year** = N19,000,000 + '
-                                                                                                                                                                                                          'N15,750,000 = **N34,750,000**. The '
-                                                                                                                                                                                                          'compulsory-acquisition gain (N17,500,000) is '
-                                                                                                                                                                                                          'excluded entirely, being tax-exempt.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'Note the **two different deduction rules** this '
-                                                                                                                                                                                                            'question sets side by side. For the **plant**, '
-                                                                                                                                                                                                            'the deduction is the **residual value** — '
-                                                                                                                                                                                                            'original cost *less the capital allowances '
-                                                                                                                                                                                                            'already claimed* (N45,000,000 − N9,000,000 = '
-                                                                                                                                                                                                            'N36,000,000) — because the asset has already '
-                                                                                                                                                                                                            'attracted tax relief on its cost, and allowing '
-                                                                                                                                                                                                            'the full cost again would relieve it twice. For '
-                                                                                                                                                                                                            'the **land**, there are no capital allowances, '
-                                                                                                                                                                                                            'so the deduction is the **full acquisition '
-                                                                                                                                                                                                            'cost** plus the **incidental cost of disposal** '
-                                                                                                                                                                                                            '(N1,250,000 of agent\'s fees). Confusing the two '
-                                                                                                                                                                                                            'is the commonest error on chargeable gains.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Why only **one** year\'s annual allowance on '
-                                                                                                                                                                                                             'the plant: it was bought on 1 January 2026, so '
-                                                                                                                                                                                                             'the year ended 31 December 2026 is its first '
-                                                                                                                                                                                                             'basis period, assessed in the **2027** year of '
-                                                                                                                                                                                                             'assessment at 20% × N45,000,000 = '
-                                                                                                                                                                                                             '**N9,000,000**. It was sold on 31 March 2027, '
-                                                                                                                                                                                                             'within the next basis period, so no further '
-                                                                                                                                                                                                             'allowance arises. The disposals all fall in '
-                                                                                                                                                                                                             'the year ended 31 December 2027 and are '
-                                                                                                                                                                                                             'therefore assessed in **2028**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Part (c) is the trap: the gain of N17,500,000 '
-                                                                                                                                                                                                             'on the land compulsorily acquired by the Lagos '
-                                                                                                                                                                                                             'State Government **is computed and then '
-                                                                                                                                                                                                             'exempted**, not ignored. Show the computation '
-                                                                                                                                                                                                             'and then state the exemption — the mark is for '
-                                                                                                                                                                                                             'knowing the exemption exists, which an answer '
-                                                                                                                                                                                                             'that silently omits the land cannot '
-                                                                                                                                                                                                             'demonstrate. The exemption is at §24.21(j), '
-                                                                                                                                                                                                             'and it carries two conditions: the taxpayer '
-                                                                                                                                                                                                             'must not have acquired the land knowing it was '
-                                                                                                                                                                                                             'likely to be compulsorily acquired, and must '
-                                                                                                                                                                                                             'not have advertised or otherwise made known a '
-                                                                                                                                                                                                             'willingness to sell it to the authority.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 24.23.1, Question 1',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Ultimate Agro-allied Company Limited — one compulsory and '
-                                                                                                                         'one voluntary disposal',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Ultimate Agro-allied Company Limited sold two '
-                                                                                                                                                                                                          'landed properties in 2026. The Lagos property '
-                                                                                                                                                                                                          '(Amuwo, Lagos-Badagry expressway) was '
-                                                                                                                                                                                                          'compulsorily acquired by the Lagos State '
-                                                                                                                                                                                                          'Government in June 2026 (road dualisation), for '
-                                                                                                                                                                                                          'compensation of N47,000,000 — the land originally '
-                                                                                                                                                                                                          'cost N10,500,000. Fearing the same fate for its '
-                                                                                                                                                                                                          'Offa land (Offa-Ilorin Road, Kwara State), the '
-                                                                                                                                                                                                          'company voluntarily sold it for N55,000,000 on 25 '
-                                                                                                                                                                                                          'September 2026 — original cost N17,500,000, with '
-                                                                                                                                                                                                          '10% of sales proceeds paid to Omolara Ventures '
-                                                                                                                                                                                                          'for facilitating the disposal. **Required**: '
-                                                                                                                                                                                                          'compute the company\'s chargeable gains subject to '
-                                                                                                                                                                                                          'tax in the relevant assessment year.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lrr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Ultimate Agro-allied Company '
-                                                                                                                                                                                                                                                                                                                                    'Limited',
-                                                                                                                                                                                                                                                                                                                                    'Lagos land (N)',
-                                                                                                                                                                                                                                                                                                                                    'Offa land (N)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Compensation / sales proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '47,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '55,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: sales expenses (10% for '
-                                                                                                                                                                                                                                                                                                                                                                                                  'Offa)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '0',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(5,500,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Net compensation / sales '
-                                                                                                                                                                                                                                                                                                                                                                                                  'proceeds',
-                                                                                                                                                                                                                                                                                                                                                                                                  '47,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '49,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Deduct: cost of acquisition',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(10,500,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '(17,500,000)',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  'Chargeable gains',
-                                                                                                                                                                                                                                                                                                                                                                                                  '36,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '32,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Chargeable gains subject to '
-                                                                                                                                                                                                                                                                                                                                                                                                  'tax**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Nil (exempt)**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**32,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The Lagos land\'s gain is exempt (compulsory '
-                                                                                                                                                                                                          'acquisition, §24.3). The Offa land — sold '
-                                                                                                                                                                                                          '**voluntarily**, despite the company\'s '
-                                                                                                                                                                                                          'expectation of a similar compulsory acquisition — '
-                                                                                                                                                                                                          'does not qualify for the exemption, so its full '
-                                                                                                                                                                                                          'N32,000,000 gain is subject to tax, included in '
-                                                                                                                                                                                                          'total profit for the **2027 assessment year**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The contrast between the two lands is the whole '
-                                                                                                                                                                                                            'question. The **Lagos land** was taken under '
-                                                                                                                                                                                                            '**compulsory powers**, so its N36,500,000 gain '
-                                                                                                                                                                                                            'is **exempt** under §24.21(j). The **Offa '
-                                                                                                                                                                                                            'land** was sold **voluntarily** — the company '
-                                                                                                                                                                                                            '"quickly sold" it fearing the same fate — so '
-                                                                                                                                                                                                            'its N32,000,000 gain is **fully chargeable**. A '
-                                                                                                                                                                                                            'fear of future compulsory acquisition is not '
-                                                                                                                                                                                                            'compulsory acquisition, and anticipating it by '
-                                                                                                                                                                                                            'selling forfeits the exemption entirely.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'The **10% of sales proceeds** paid to Omolara '
-                                                                                                                                                                                                             'Ventures is 10% × N55,000,000 = '
-                                                                                                                                                                                                             '**N5,500,000**, deductible as an **incidental '
-                                                                                                                                                                                                             'cost of disposal**. Note that the Lagos '
-                                                                                                                                                                                                             'disposal has **no** sales expenses, because '
-                                                                                                                                                                                                             'the land was taken rather than marketed. The '
-                                                                                                                                                                                                             'chargeable gain of N32,000,000 is then '
-                                                                                                                                                                                                             '**included as taxable income in determining '
-                                                                                                                                                                                                             'total profit** for the companies income tax '
-                                                                                                                                                                                                             'computation of the 2027 year of assessment — '
-                                                                                                                                                                                                             'it is not taxed under a separate capital gains '
-                                                                                                                                                                                                             'charge.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'A point the question raises without stating: '
-                                                                                                                                                                                                             'Ultimate Agro-allied is "a long-standing '
-                                                                                                                                                                                                             'company operating in the agricultural value '
-                                                                                                                                                                                                             'chain". The five-year agricultural exemption '
-                                                                                                                                                                                                             'of §22.4.3 applies only to the **first five '
-                                                                                                                                                                                                             'years** from commencement, so a long-standing '
-                                                                                                                                                                                                             'company has no shelter — and in any event that '
-                                                                                                                                                                                                             'exemption is for **income generated by the '
-                                                                                                                                                                                                             'agricultural business**, not for gains on '
-                                                                                                                                                                                                             'disposing of land.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 24.23.1, Question 2',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Chargeable gains exempt from tax',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Chargeable gains are gains arising from the '
-                                                                                                                                                                                                          'disposal of chargeable assets — all forms of '
-                                                                                                                                                                                                          'property, whether situated in Nigeria or not. '
-                                                                                                                                                                                                          'Chargeable gains are included as taxable income '
-                                                                                                                                                                                                          'of taxable persons in determining income tax '
-                                                                                                                                                                                                          'payable, except those specifically exempted by '
-                                                                                                                                                                                                          'the extant tax laws. **Required**: advise on '
-                                                                                                                                                                                                          'chargeable gains that are exempt from tax under '
-                                                                                                                                                                                                          'the Nigeria Tax Act 2025.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'See the full 13-item consolidated exemption list '
-                                                                                                                                                                                                          'at §24.14 above — dwelling house disposal, trust '
-                                                                                                                                                                                                          'property, gifts, motor vehicles, shares, personal '
-                                                                                                                                                                                                          'chattels, personal injury/loss-of-office '
-                                                                                                                                                                                                          'compensation, life assurance/deferred annuities, '
-                                                                                                                                                                                                          'startup investments, compulsory land acquisition, '
-                                                                                                                                                                                                          'pension funds/assets, valour awards, and '
-                                                                                                                                                                                                          'retirement benefits.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 24.23.1, Question 3',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The study text sets **three questions** at §24.23.1 — two computations and one theory question — '
+       "with its own suggested solutions at §24.23.2. All three are reproduced here in full, with the book's "
+       "answers, every figure independently recomputed, and added explanation. The book's own "
+       '**Illustrations 24.1 to 24.3** are separate and appear earlier, at §24.7 (partial disposal) and '
+       '§24.9 (assets lost or destroyed).'},
+ {'eg': {'t': 'XYZ Limited — three disposals in one year, including a compulsory acquisition',
+         'q': [{'p': 'XYZ Limited, a manufacturing company in Agbara Industrial Estate, projects these '
+                     'transactions for the year ending 31 December 2027:'},
+               {'ul': ['(a) an oil-melting plant bought 1 January 2026 for N45,000,000, to be disposed for '
+                       'N55,000,000 on 31 March 2027',
+                       '(b) land bought 4 March 2026 for warehouse construction, cost N25,000,000, sold 30 '
+                       'June 2027 for N42,000,000, with N1,250,000 paid to Bukola Ventures for facilitating '
+                       'the disposal',
+                       '(c) landed property costing N12,500,000 to be compulsorily acquired by the Lagos '
+                       'State Government on 5 May 2027 (Lagos-Badagry expressway expansion), with '
+                       'N30,000,000 compensation. **Required**: ascertain the chargeable gains subject to '
+                       'tax in the relevant assessment year.']}],
+         'a': [{'p': '**(a) Disposal of melting plant** — one year of capital allowance (20% annual rate, '
+                     'First Schedule) would have been claimed for the 2027 assessment year (relating to 2026 '
+                     'usage) before the March 2027 disposal:'},
+               {'table': {'align': 'lr',
+                          'head': ['Melting plant', 'N'],
+                          'rows': [['Sales proceeds', '55,000,000'],
+                                   ['Cost', '45,000,000'],
+                                   ['Less: capital allowance (2027 YA, 20% × 45,000,000)', '(9,000,000)'],
+                                   ['Residual value', '36,000,000'],
+                                   ['**Chargeable gains**', '**19,000,000**']]}},
+               {'p': '**(b) Disposal of land** — no capital allowance applies to land:'},
+               {'table': {'align': 'lr',
+                          'head': ['Land', 'N'],
+                          'rows': [['Sales proceeds', '42,000,000'],
+                                   ['Deduct: incidental cost of disposal', '(1,250,000)'],
+                                   ['Net sales proceeds', '40,750,000'],
+                                   ['Deduct: cost of acquisition', '(25,000,000)'],
+                                   ['**Chargeable gains**', '**15,750,000**']]}},
+               {'p': '**(c) Compulsory acquisition** — exempt per §24.3, since nothing indicates the company '
+                     'anticipated the acquisition or advertised the land for sale:'},
+               {'table': {'align': 'lr',
+                          'head': ['Compulsorily-acquired property', 'N'],
+                          'rows': [['Compensation', '30,000,000'],
+                                   ['Deduct: acquisition cost', '(12,500,000)'],
+                                   ['**Chargeable gains (tax-exempt)**', '**17,500,000**']]}},
+               {'p': '**Total chargeable gains subject to tax in the 2028 assessment year** = N19,000,000 + '
+                     'N15,750,000 = **N34,750,000**. The compulsory-acquisition gain (N17,500,000) is '
+                     'excluded entirely, being tax-exempt.'},
+               {'key': 'Note the **two different deduction rules** this question sets side by side. For the '
+                       '**plant**, the deduction is the **residual value** — original cost *less the capital '
+                       'allowances already claimed* (N45,000,000 − N9,000,000 = N36,000,000) — because the '
+                       'asset has already attracted tax relief on its cost, and allowing the full cost again '
+                       'would relieve it twice. For the **land**, there are no capital allowances, so the '
+                       'deduction is the **full acquisition cost** plus the **incidental cost of disposal** '
+                       "(N1,250,000 of agent's fees). Confusing the two is the commonest error on chargeable "
+                       'gains.'},
+               {'note': "Why only **one** year's annual allowance on the plant: it was bought on 1 January "
+                        '2026, so the year ended 31 December 2026 is its first basis period, assessed in the '
+                        '**2027** year of assessment at 20% × N45,000,000 = **N9,000,000**. It was sold on '
+                        '31 March 2027, within the next basis period, so no further allowance arises. The '
+                        'disposals all fall in the year ended 31 December 2027 and are therefore assessed in '
+                        '**2028**.'},
+               {'note': 'Part (c) is the trap: the gain of N17,500,000 on the land compulsorily acquired by '
+                        'the Lagos State Government **is computed and then exempted**, not ignored. Show the '
+                        'computation and then state the exemption — the mark is for knowing the exemption '
+                        'exists, which an answer that silently omits the land cannot demonstrate. The '
+                        'exemption is at §24.21(j), and it carries two conditions: the taxpayer must not '
+                        'have acquired the land knowing it was likely to be compulsorily acquired, and must '
+                        'not have advertised or otherwise made known a willingness to sell it to the '
+                        'authority.'}],
+         'tag': 'Study text — 24.23.1, Question 1',
+         'open': True}},
+ {'eg': {'t': 'Ultimate Agro-allied Company Limited — one compulsory and one voluntary disposal',
+         'q': [{'p': 'Ultimate Agro-allied Company Limited sold two landed properties in 2026. The Lagos '
+                     'property (Amuwo, Lagos-Badagry expressway) was compulsorily acquired by the Lagos '
+                     'State Government in June 2026 (road dualisation), for compensation of N47,000,000 — '
+                     'the land originally cost N10,500,000. Fearing the same fate for its Offa land '
+                     '(Offa-Ilorin Road, Kwara State), the company voluntarily sold it for N55,000,000 on 25 '
+                     'September 2026 — original cost N17,500,000, with 10% of sales proceeds paid to Omolara '
+                     "Ventures for facilitating the disposal. **Required**: compute the company's chargeable "
+                     'gains subject to tax in the relevant assessment year.'}],
+         'a': [{'table': {'align': 'lrr',
+                          'head': ['Ultimate Agro-allied Company Limited', 'Lagos land (N)', 'Offa land (N)'],
+                          'rows': [['Compensation / sales proceeds', '47,000,000', '55,000,000'],
+                                   ['Deduct: sales expenses (10% for Offa)', '0', '(5,500,000)'],
+                                   ['Net compensation / sales proceeds', '47,000,000', '49,500,000'],
+                                   ['Deduct: cost of acquisition', '(10,500,000)', '(17,500,000)'],
+                                   ['Chargeable gains', '36,500,000', '32,000,000'],
+                                   ['**Chargeable gains subject to tax**',
+                                    '**Nil (exempt)**',
+                                    '**32,000,000**']]}},
+               {'p': "The Lagos land's gain is exempt (compulsory acquisition, §24.3). The Offa land — sold "
+                     "**voluntarily**, despite the company's expectation of a similar compulsory acquisition "
+                     '— does not qualify for the exemption, so its full N32,000,000 gain is subject to tax, '
+                     'included in total profit for the **2027 assessment year**.'},
+               {'key': 'The contrast between the two lands is the whole question. The **Lagos land** was '
+                       'taken under **compulsory powers**, so its N36,500,000 gain is **exempt** under '
+                       '§24.21(j). The **Offa land** was sold **voluntarily** — the company "quickly sold" '
+                       'it fearing the same fate — so its N32,000,000 gain is **fully chargeable**. A fear '
+                       'of future compulsory acquisition is not compulsory acquisition, and anticipating it '
+                       'by selling forfeits the exemption entirely.'},
+               {'note': 'The **10% of sales proceeds** paid to Omolara Ventures is 10% × N55,000,000 = '
+                        '**N5,500,000**, deductible as an **incidental cost of disposal**. Note that the '
+                        'Lagos disposal has **no** sales expenses, because the land was taken rather than '
+                        'marketed. The chargeable gain of N32,000,000 is then **included as taxable income '
+                        'in determining total profit** for the companies income tax computation of the 2027 '
+                        'year of assessment — it is not taxed under a separate capital gains charge.'},
+               {'note': 'A point the question raises without stating: Ultimate Agro-allied is "a '
+                        'long-standing company operating in the agricultural value chain". The five-year '
+                        'agricultural exemption of §22.4.3 applies only to the **first five years** from '
+                        'commencement, so a long-standing company has no shelter — and in any event that '
+                        'exemption is for **income generated by the agricultural business**, not for gains '
+                        'on disposing of land.'}],
+         'tag': 'Study text — 24.23.1, Question 2',
+         'open': True}},
+ {'eg': {'t': 'Chargeable gains exempt from tax',
+         'q': [{'p': 'Chargeable gains are gains arising from the disposal of chargeable assets — all forms '
+                     'of property, whether situated in Nigeria or not. Chargeable gains are included as '
+                     'taxable income of taxable persons in determining income tax payable, except those '
+                     'specifically exempted by the extant tax laws. **Required**: advise on chargeable gains '
+                     'that are exempt from tax under the Nigeria Tax Act 2025.'}],
+         'a': [{'p': 'See the full 13-item consolidated exemption list at §24.14 above — dwelling house '
+                     'disposal, trust property, gifts, motor vehicles, shares, personal chattels, personal '
+                     'injury/loss-of-office compensation, life assurance/deferred annuities, startup '
+                     'investments, compulsory land acquisition, pension funds/assets, valour awards, and '
+                     'retirement benefits.'}],
+         'tag': 'Study text — 24.23.1, Question 3',
+         'open': True}}],
                                },
                   ],
  'formulas': [

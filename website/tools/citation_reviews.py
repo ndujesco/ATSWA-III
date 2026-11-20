@@ -127,4 +127,11 @@ def reviewed_pins():
                 raise ValueError(f'Duplicate citation refinement: {key}')
             refined.add(key)
             chapters[key], sections[key] = int(chapter), section
+    from source_restoration_reviews import REVIEWS
+    restored = set()
+    for key, chapter, section, reason in REVIEWS:
+        if key in restored or not reason.strip():
+            raise ValueError(f'Invalid source-restoration review: {key}')
+        restored.add(key)
+        chapters[key], sections[key] = chapter, section
     return chapters, sections

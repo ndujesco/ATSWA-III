@@ -20,41 +20,39 @@ CH = {
    'Explain the relationship between internal and external auditing',
  ],
  'secs': [
-  {'n': '8.1', 't': 'Definition, objectives, features and importance', 'b': [
-    {'key': 'Systems-based auditing only works if the auditor can **rely on internal '
-            'controls** to reduce the volume of substantive testing — so examining the '
-            'client\'s internal control practices, and recommending improvements where '
-            'weaknesses appear, is central to the whole audit approach.'},
-    {'def': {'t': 'Internal control (the operational standard/guideline)', 'd': 'the whole '
-                  'system of controls, financial and otherwise, established by management to '
-                  'carry on the business in an orderly and efficient manner, ensure adherence '
-                  'to management policies, safeguard the assets, and secure as far as possible '
-                  'the completeness and accuracy of the records.'}},
-    {'key': 'The definition\'s striking feature is its **all-embracing nature** — internal '
-            'control concerns every area of corporate activity, and how individual controls '
-            '**inter-relate**, not just isolated procedures. Individual components are called '
-            '"controls" or "internal controls."'},
-    {'p': 'The four objectives of internal control (drawn directly from the definition):'},
-    {'ol': [
-      'to carry on the business in an orderly and efficient manner;',
-      'to ensure adherence to management policies;',
-      'to safeguard the organisation\'s assets; and',
-      'to secure completeness and accuracy of the records.',
-    ]},
-    {'p': 'The detailed nature of controls in any organisation depends on: the nature/size of '
-          'the business; the number of administrative staff; the volume and materiality of '
-          'transactions; the importance management itself places on internal control; '
-          'management style (particularly trust in key personnel\'s integrity/honesty and their '
-          'own supervisory ability); the enterprise\'s geographical distribution; and many other '
-          'factors.'},
-    {'p': 'Importance of internal controls to auditors: they prevent **and** detect errors, '
-          'fraud or material misstatement; they ensure complete/adequate recording of '
-          'transactions; they ensure recorded transactions are real, properly valued, in the '
-          'correct period, properly classified, correctly authorised and posted; they support '
-          'reliable financial reporting and compliance with laws/regulations/standards; and '
-          'they give management reasonable assurance that goals important to the company (and '
-          'equally important to the auditor) will be met.'},
-  ]},
+  {'n': '8.1', 't': 'Definition, objectives, features and importance', 'b': [{'key': 'Systems-based auditing only works if the auditor can **rely on internal controls** to reduce the '
+         "volume of substantive testing — so examining the client's internal control practices, and "
+         'recommending improvements where weaknesses appear, is central to the whole audit approach.'},
+ {'def': {'t': 'Internal control (the operational standard/guideline)',
+          'd': 'the whole system of controls, financial and otherwise, established by management to carry on '
+               'the business in an orderly and efficient manner, ensure adherence to management policies, '
+               'safeguard the assets, and secure as far as possible the completeness and accuracy of the '
+               'records.'}},
+ {'key': "The definition's striking feature is its **all-embracing nature** — internal control concerns "
+         'every area of corporate activity, and how individual controls **inter-relate**, not just isolated '
+         'procedures. Individual components are called "controls" or "internal controls."'},
+ {'p': 'The four objectives of internal control (drawn directly from the definition):'},
+ {'ol': ['to carry on the business in an orderly and efficient manner;',
+         'to ensure adherence to management policies;',
+         "to safeguard the organisation's assets; and",
+         'to secure completeness and accuracy of the records.']},
+ {'p': 'The detailed nature of controls in any organisation depends on:'},
+ {'ul': ['the nature/size of the business',
+         'the number of administrative staff',
+         'the volume and materiality of transactions',
+         'the importance management itself places on internal control',
+         "management style (particularly trust in key personnel's integrity/honesty and their own "
+         'supervisory ability)',
+         "the enterprise's geographical distribution",
+         'and many other factors.']},
+ {'p': 'Importance of internal controls to auditors:'},
+ {'ul': ['they prevent **and** detect errors, fraud or material misstatement',
+         'they ensure complete/adequate recording of transactions',
+         'they ensure recorded transactions are real, properly valued, in the correct period, properly '
+         'classified, correctly authorised and posted',
+         'they support reliable financial reporting and compliance with laws/regulations/standards',
+         'and they give management reasonable assurance that goals important to the company (and equally '
+         'important to the auditor) will be met.']}]},
 
   {'n': '8.2', 't': 'Types of internal control', 'b': [
     {'p': 'Internal controls fall into nine categories:'},
@@ -130,52 +128,54 @@ CH = {
     ]}},
   ]},
 
-  {'n': '8.4', 't': 'Internal controls and their inherent limitations', 'b': [
-    {'p': 'Directors set up internal controls to ensure: transactions are executed per proper '
-          'authorisation; all transactions are promptly recorded at correct values in the '
-          'appropriate accounts per the relevant regulatory framework; asset access is '
-          'permitted only per authorised procedures; and recorded assets are compared with '
-          'physically existing assets at reasonable intervals, with differences reconciled.'},
-    {'warn': 'Even so, any internal control system provides only **reasonable, not absolute**, '
-             'assurance, because of inherent limitations:'},
-    {'ol': [
-      'the requirement that a control\'s cost must not outweigh the potential loss from its '
-      'absence;',
-      'most systematic controls target **routine** transactions rather than non-routine ones;',
-      'the potential for **human error** — carelessness, distraction, mistakes of judgment, '
-      'misunderstanding instructions;',
-      'the possibility of a control being **abused/overridden** by the very person responsible '
-      'for exercising it;',
-      'the possibility of controls being **bypassed through collusion** of two or more people '
-      '(inside the organisation, or involving outsiders); and',
-      'the possibility that procedures become inadequate as conditions change, or that '
-      'compliance deteriorates over time — particularly likely during business expansion.',
-    ]},
-    {'p': 'Factors determining a system\'s success: the nature/size/volume of transactions; the '
-          'enterprise\'s geographical distribution; controls exercised personally by individual '
-          'management members; the cost of setting up controls against the benefit obtainable; '
-          'and management\'s own attitude to controls.'},
-  ]},
+  {'n': '8.4', 't': 'Internal controls and their inherent limitations', 'b': [{'p': 'Directors set up internal controls to ensure:'},
+ {'ul': ['transactions are executed per proper authorisation',
+         'all transactions are promptly recorded at correct values in the appropriate accounts per the '
+         'relevant regulatory framework',
+         'asset access is permitted only per authorised procedures',
+         'and recorded assets are compared with physically existing assets at reasonable intervals, with '
+         'differences reconciled.']},
+ {'warn': 'Even so, any internal control system provides only **reasonable, not absolute**, assurance, '
+          'because of inherent limitations:'},
+ {'ol': ["the requirement that a control's cost must not outweigh the potential loss from its absence;",
+         'most systematic controls target **routine** transactions rather than non-routine ones;',
+         'the potential for **human error** — carelessness, distraction, mistakes of judgment, '
+         'misunderstanding instructions;',
+         'the possibility of a control being **abused/overridden** by the very person responsible for '
+         'exercising it;',
+         'the possibility of controls being **bypassed through collusion** of two or more people (inside the '
+         'organisation, or involving outsiders); and',
+         'the possibility that procedures become inadequate as conditions change, or that compliance '
+         'deteriorates over time — particularly likely during business expansion.']},
+ {'p': "Factors determining a system's success:"},
+ {'ul': ['the nature/size/volume of transactions',
+         "the enterprise's geographical distribution",
+         'controls exercised personally by individual management members',
+         'the cost of setting up controls against the benefit obtainable',
+         "and management's own attitude to controls."]}]},
 
-  {'n': '8.5', 't': 'Understanding the internal control system', 'b': [
-    {'key': 'In planning the audit, the auditor obtains and **documents** an understanding of '
-            'the accounting system and control environment sufficient to determine the audit '
-            'approach.'},
-    {'p': 'Understanding the accounting system lets the auditor identify: major classes of '
-          'transactions; how they are initiated; significant accounting records, supporting '
-          'documents and financial statement accounts; and the accounting/financial reporting '
-          'process from a significant transaction\'s initiation through to its inclusion in the '
-          'financial statements.'},
-    {'p': 'Factors affecting the nature/timing/extent of these understanding-building '
-          'procedures: materiality; the entity\'s size/complexity; the assessed inherent risk; '
-          'the complexity of computer systems; the type of internal controls involved; the '
-          'nature of transaction documentation; and reporting requirements.'},
-    {'p': 'Previous knowledge is updated via: enquiries of appropriate personnel at various '
-          'organisational levels, referencing documentation like procedure manuals/job '
-          'descriptions/systems descriptions; inspection of relevant documents/records; and '
-          'observation of activities/operations, including IT functions, organisation, control-'
-          'performing personnel, and how transactions are processed.'},
-  ]},
+  {'n': '8.5', 't': 'Understanding the internal control system', 'b': [{'key': 'In planning the audit, the auditor obtains and **documents** an understanding of the accounting '
+         'system and control environment sufficient to determine the audit approach.'},
+ {'p': 'Understanding the accounting system lets the auditor identify:'},
+ {'ul': ['major classes of transactions',
+         'how they are initiated',
+         'significant accounting records, supporting documents and financial statement accounts',
+         "and the accounting/financial reporting process from a significant transaction's initiation through "
+         'to its inclusion in the financial statements.']},
+ {'p': 'Factors affecting the nature/timing/extent of these understanding-building procedures:'},
+ {'ul': ['materiality',
+         "the entity's size/complexity",
+         'the assessed inherent risk',
+         'the complexity of computer systems',
+         'the type of internal controls involved',
+         'the nature of transaction documentation',
+         'and reporting requirements.']},
+ {'p': 'Previous knowledge is updated via:'},
+ {'ul': ['enquiries of appropriate personnel at various organisational levels, referencing documentation '
+         'like procedure manuals/job descriptions/systems descriptions',
+         'inspection of relevant documents/records',
+         'and observation of activities/operations, including IT functions, organisation, control-performing '
+         'personnel, and how transactions are processed.']}]},
 
   {'n': '8.6', 't': 'Ascertaining the system of controls', 'b': [
     {'p': 'Six methods, generally used in combination:'},
@@ -198,242 +198,409 @@ CH = {
     ]}},
   ]},
 
-  {'n': '8.7', 't': 'Recording the system of controls', 'b': [
-    {'p': 'Four methods of recording: narrative notes, organisation charts, Internal Control '
-          'Questionnaires (ICQ), and flowcharts/other diagrammatic presentation.'},
+  {'n': '8.7', 't': 'Recording the system of controls', 'b': [{'p': 'Four methods of recording: narrative notes, organisation charts, Internal Control Questionnaires '
+       '(ICQ), and flowcharts/other diagrammatic presentation.'},
+ {'h4': 'Narrative notes'},
+ {'p': 'Describes the system in words — appropriate for simple systems handled by only one or a few people. '
+       'Should describe:'},
+ {'ul': ['functions performed and who performs them',
+         'documents used',
+         'document source/destination',
+         'document filing sequence',
+         'and types of accounting books kept.']},
+ {'key': 'Advantage: simple to record and easy to understand. Disadvantages: difficult to note changes in '
+         "the system; a complex system's notes take up disproportionate space; and it can be hard to tell if "
+         'part of the system has been missed altogether.'},
+ {'h4': 'Organization chart'},
+ {'p': 'Conveniently describes authority, responsibility, approval and reporting relationships — the '
+       "organisation's formal relationships. It does **not**, however, specify individuals' precise duties."},
+ {'h4': 'Internal Control Questionnaire (ICQ)'},
+ {'key': 'ICQ remains the **longest-used** internal control assessment/recording technique — highlighting '
+         "precisely where the system's strengths and weaknesses lie. It is a standardised, pre-printed "
+         'document designed by the audit firm, comprising questions determining whether desirable controls '
+         'are present, one set per major transaction cycle.'},
+ {'p': 'Points worth noting about ICQ use:'},
+ {'ol': ["normally used if the client's size/complexity justifies it;",
+         'a complete ICQ has an effective life of roughly **3 years** (updating only needed meanwhile) — a '
+         'new ICQ is needed after a major system change (e.g. manual to computerised);',
+         "should be completed by a **senior** audit staff member, after questioning the client's responsible "
+         'officers;',
+         'observation and selected tests should confirm the ICQ accurately reflects actual day-to-day '
+         'strengths/weaknesses;',
+         'the auditor should **not** rely on controls purely from this preliminary evaluation — further '
+         'compliance tests are needed for reasonable assurance the controls actually function; and',
+         'questions should be formulated so a simple Yes/No answer indicates compliance/non-compliance — '
+         "though this isn't always possible (e.g. needing named authorised cheque signatories, or a specific "
+         "officer's expenditure authority limit)."]},
+ {'p': 'A specimen ICQ typically covers areas like purchases and trade creditors (e.g. are official orders '
+       'issued showing supplier/quantity/price? Are orders authorised per authority limits? Are goods '
+       'inspected on arrival?), cheque payments (is signing blank cheques prohibited? Is signing restricted '
+       'to authorised officials? Are paid cheques returned by the bank monthly?), and cash payments (are all '
+       'non-payroll payments made from an imprest? Are vouchers examined/authorised independently of the '
+       'cashier? Is petty cash balance-checked at random by an independent official?) — each question '
+       'answered Yes/No/N/A with a date.'},
+ {'table': {'align': 'll',
+            'head': ['Advantages of ICQ', 'Disadvantages of ICQ'],
+            'rows': [['If drafted thoroughly, ensures all controls are considered; quick to prepare; easy to '
+                      'use and control (a reviewing manager/partner can easily see what has been done).',
+                      'The client may overstate controls; may contain many irrelevant controls; can give the '
+                      'impression all controls carry equal weight; and may miss unusual controls that are '
+                      'nevertheless effective in that specific circumstance.']]}},
+ {'h4': 'Full study-text Specimen Internal Control Questionnaire'},
+ {'note': 'Original form at source §8.7, PDF pages 285–286 (printed 259–260). All 21 source questions and '
+          'the Yes/No/N/A/Date of Answer columns are retained. The separate explanation above is an '
+          'overview.'},
+ {'h4': 'i. Purchases and Trade Creditors'},
+ {'table': {'align': 'lllll',
+            'head': ['Question', 'Yes', 'No', 'N/A', 'Date of Answer'],
+            'rows': [['Are official orders issued showing names of suppliers, quantities ordered and prices?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are copies of orders retained on files?', '', '', '', ''],
+                     ['Are orders authorized based on authority limits?', '', '', '', ''],
+                     ['Is a record kept of orders placed but not executed?', '', '', '', ''],
+                     ['If the answer to question above is “Yes” how is this record complied? (Specify)',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are goods from suppliers inspected on arrival as to quantity and quality?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are all invoices received compared with copy orders?', '', '', '', ''],
+                     ['Are the invoices checked for calculations, extensions, and additions?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Is the purchases ledger personnel independent of those responsible for approving '
+                      'invoices and credit notes?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Is the control account function independent of purchases ledger function?',
+                      '',
+                      '',
+                      '',
+                      '']]}},
+ {'h4': 'ii. Cheque Payments'},
+ {'table': {'align': 'lllll',
+            'head': ['Question', 'Yes', 'No', 'N/A', 'Date of Answer'],
+            'rows': [['Is the signing of blank cheques prohibited?', '', '', '', ''],
+                     ['Is the signing of cheques restricted to directors/Secretaries/other senior officials?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Is the duly authorized invoice produced in respect of each payment before cheques are '
+                      'signed?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are all cheques (other than those for cash) suitably crossed?', '', '', '', ''],
+                     ['Are “paid” cheques returned by the bank monthly?', '', '', '', ''],
+                     ['Are these cheques filed in the order in which they appear in the cash book?',
+                      '',
+                      '',
+                      '',
+                      '']]}},
+ {'h4': 'iii. Cash Payments'},
+ {'table': {'align': 'lllll',
+            'head': ['Question', 'Yes', 'No', 'N/A', 'Date of Answer'],
+            'rows': [['Apart from salaries and wages, are all payments made from an imprest?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are supporting vouchers examined and authorized by a party other than the cashier or '
+                      'accountant?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are expenditures appropriately analyzed?', '', '', '', ''],
+                     ['Is the amount of the claim enclosed on specially designed petty cash or other '
+                      'voucher?',
+                      '',
+                      '',
+                      '',
+                      ''],
+                     ['Are checks made on the balance of cash in hand at random intervals by an independent '
+                      'official?',
+                      '',
+                      '',
+                      '',
+                      '']]}},
+ {'h4': 'Flowcharts'},
+ {'p': 'Flowcharts, supplemented by narrative notes, are kept in the permanent audit file, updated via '
+       "periodic review — either adapted from the client's own, or drawn from scratch (the exercise of "
+       'drawing itself teaches the auditor a great deal about how the system actually works). The auditor '
+       'should not commit a flowchart to file until (via questioning/observation) reasonably satisfied it '
+       "represents what actually happens — since subsequent audit tests largely follow the chart's pattern, "
+       'an incomplete/inaccurate chart wastes significant time.'},
+ {'table': {'align': 'll',
+            'head': ['Document flowcharts', 'Information flowcharts'],
+            'rows': [['More commonly used, relatively easy to prepare — follow every document from beginning '
+                      'to end, showing all operations/controls.',
+                      'Prepared in reverse — starting from the entry into accounting records and working '
+                      'back to the transaction. Concentrate on significant information flows, ignoring '
+                      'unimportant items/document copies. Easy to understand, but require skill/experience '
+                      'to compile.']]}},
+ {'p': 'Rules of flowcharting:'},
+ {'ul': ['use one only when the system cannot readily be understood in words',
+         'keep it simple (conforming symbols each meaning one thing, top-to-bottom/left-to-right direction, '
+         'no loose ends, main flow finishing bottom-right, minimal crossing lines)',
+         'always provide a key unless using BSI symbols',
+         'always use a template (freehand is rarely acceptable)',
+         'reflect the system as it actually is, weaknesses included',
+         'and include marginal comments via dotted flow lines/brackets where appropriate.']},
+ {'table': {'align': 'll',
+            'head': ['Advantages of flowcharts', 'Disadvantages of flowcharts'],
+            'rows': [['Present the whole system (or part) without losing detail; simply depict cross-area '
+                      'relationships; highlight control features (or their absence) via designated symbols; '
+                      'easily incorporate references to other audit documents; facilitate later reference '
+                      'more readily than pure narrative; let new team members participate quickly after '
+                      'brief induction, saving time; are fairly easy to follow given their standard form; '
+                      'ensure the whole system is recorded (loose ends are apparent at a glance); and '
+                      'eliminate the need for extensive narrative.',
+                      'Only suit standard systems — unusual transactions still need narrative notes; only '
+                      'useful while records/assets remain in flux (once static, e.g. non-current assets, '
+                      'they stop being useful); major amendments require redrawing; and time can be wasted '
+                      'charting audit-insignificant areas.']]}}]},
 
-    {'h4': 'Narrative notes'},
-    {'p': 'Describes the system in words — appropriate for simple systems handled by only one '
-          'or a few people. Should describe: functions performed and who performs them; '
-          'documents used; document source/destination; document filing sequence; and types of '
-          'accounting books kept.'},
-    {'key': 'Advantage: simple to record and easy to understand. Disadvantages: difficult to '
-            'note changes in the system; a complex system\'s notes take up disproportionate '
-            'space; and it can be hard to tell if part of the system has been missed '
-            'altogether.'},
+  {'n': '8.8', 't': 'Evaluating the internal control system', 'b': [{'key': 'After ascertaining/recording the system, the auditor conducts a preliminary evaluation to decide '
+         'whether to rely on it (reducing substantive testing) or disregard it as inefficient (requiring '
+         'in-depth testing) — generally using the **Internal Control Evaluation Questionnaire (ICEQ)**.'},
+ {'def': {'t': 'ICEQ',
+          'd': 'a questionnaire determining whether appropriate control systems exist to prevent specific '
+               'errors/omissions — answered using knowledge from the flowchart or ICQ, concentrating on the '
+               'criteria existing controls **should** meet.'}},
+ {'p': 'Illustrative ICEQ questions, by cycle:'},
+ {'ul': ['sales — are sales properly authorised/made to reliable payers, are all dispatched goods '
+         'invoiced/recorded, will slow payers be chased and doubtful debts provided for, will the system '
+         'neither over- nor understate debtors at period end',
+         'purchases — could goods/services be received without a liability being recorded, is a liability '
+         'recorded only for authorised items at the proper amount, are all payments properly authorised',
+         'wages/salaries — are employees paid only for work done, at the correct gross/net amount, to the '
+         'right person',
+         'inventories — is inventory safeguarded from physical loss, are records accurate/up to date, does '
+         'recorded inventory exist and belong to the company, is cut-off reliable',
+         'non-current assets — do recorded assets exist and belong to the company, is capital '
+         'expenditure/disposal authorised and reported, is depreciation realistic',
+         'investments — do recorded investments belong to the company and are they safeguarded, is '
+         'income/rights/bonus issues properly received and accounted for',
+         'and management information/general controls — is the nominal ledger satisfactorily controlled, are '
+         'journal entries adequately controlled, is there a clear authority structure, are systems operated '
+         'by competent/supported staff, is internal audit (if any) adequate.']},
+ {'table': {'align': 'll',
+            'head': ['Advantages of ICEQ', 'Disadvantage of ICEQ'],
+            'rows': [['Highlights areas of weakness requiring extensive substantive testing; answering ICEQs '
+                      'helps auditors identify important controls most likely to need control testing.',
+                      'Can be drafted vaguely, leading to misunderstanding and important controls not being '
+                      'identified.']]}},
+ {'h4': 'Full study-text Internal Control Evaluation Questionnaire examples'},
+ {'note': 'Original examples at source §8.8, PDF pages 290–292 (printed 264–266). All seven groups and their '
+          '52 source questions are retained, including the source’s wording. The earlier paragraph is an '
+          'additional overview.'},
+ {'h4': 'i. The sales (revenue) cycle'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that sales are properly authorized?',
+         'that sales are made to reliable payers?',
+         'that all goods dispatched are invoiced?',
+         'that all invoices are properly prepared?',
+         'that all invoices are recorded?',
+         'that invoices are properly supported?',
+         'that all credits to customers’ accounts are valid?',
+         'that cash and cheques received are properly recorded and deposited?',
+         'that slow payers will be chased and that bad and doubtful debts will be provided against?',
+         'that all transactions are properly accounted for?',
+         'that cash sales are properly dealt with?',
+         'that sundry sales are controlled?',
+         'that at the period end the system will neither overstate nor understate debtors?']},
+ {'h4': 'ii. The purchases (expenditure) cycle'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that goods or services could not be received without a liability being recorded?',
+         'that receipt of goods or services is required in order to establish a liability?',
+         'that a liability will be recorded: (i) only for authorized items; and (ii) at the proper amount?',
+         'that all payments are properly authorized?',
+         'that all credits due from suppliers are received?',
+         'that all transactions are properly accounted for?',
+         'that at the period end liabilities are neither overstated nor understated by the system?',
+         'that the balance at the bank is properly recorded at all times?',
+         'that unauthorized cash payments could not be made and that the balance of petty cash is correctly '
+         'stated at all times?']},
+ {'h4': 'iii. Wages and Salaries'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that employees are only paid for work done?',
+         'that employees are paid the correct amount (gross and net)?',
+         'that the right employees actually receive the right amount?',
+         'that accounting for payroll costs and deductions is accurate?']},
+ {'h4': 'iv. Inventories'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that inventory is safeguarded from physical loss (e.g. fire, theft, deterioration)?',
+         'that inventory records are accurate and up to date?',
+         'that the recorded inventory exists?',
+         'that the recorded inventory is owned by the company?',
+         'that the cut off is reliable?',
+         'that the costing system is reliable?',
+         'that the inventory sheets are accurately complied?',
+         'that the inventory valuation is fair?']},
+ {'h4': 'v. Non-current assets'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that recorded assets actually exist and belong to the company?',
+         'that capital expenditure is authorized and reported?',
+         'that disposals of non-current assets are authorized and reported?',
+         'that depreciation is realistic?',
+         'that non-current assets are correctly accounted for?',
+         'that income derived from non-current assets is accounted for?',
+         'That the carrying values reflect the fair values.']},
+ {'h4': 'vi. Investments'},
+ {'p': 'Is there reasonable assurance:'},
+ {'ul': ['that recorded investments belong to the company and are safeguarded from loss?',
+         'that all income, rights or bonus issues are properly received and accounted for?',
+         'That investment transaction is made only in accordance with company policy and are appropriately '
+         'authorized and documented?',
+         'that the carrying values of investments are reasonably settled?']},
+ {'h4': 'vii. Management information and general controls'},
+ {'ul': ['Is the nominal ledger satisfactorily controlled?',
+         'Are journal entries adequately controlled?',
+         'Does the organization structure provide a clear definition of the extent and limitation of '
+         'authority?',
+         'Are the systems operated by competent employees, who are adequately supported?',
+         'If there is an internal audit function, and is it adequate?',
+         'Are financial planning procedures adequate?',
+         'Are periodic management reporting procedures adequate?']}]},
 
-    {'h4': 'Organization chart'},
-    {'p': 'Conveniently describes authority, responsibility, approval and reporting '
-          'relationships — the organisation\'s formal relationships. It does **not**, however, '
-          'specify individuals\' precise duties.'},
-
-    {'h4': 'Internal Control Questionnaire (ICQ)'},
-    {'key': 'ICQ remains the **longest-used** internal control assessment/recording technique '
-            '— highlighting precisely where the system\'s strengths and weaknesses lie. It is '
-            'a standardised, pre-printed document designed by the audit firm, comprising '
-            'questions determining whether desirable controls are present, one set per major '
-            'transaction cycle.'},
-    {'p': 'Points worth noting about ICQ use:'},
-    {'ol': [
-      'normally used if the client\'s size/complexity justifies it;',
-      'a complete ICQ has an effective life of roughly **3 years** (updating only needed '
-      'meanwhile) — a new ICQ is needed after a major system change (e.g. manual to '
-      'computerised);',
-      'should be completed by a **senior** audit staff member, after questioning the client\'s '
-      'responsible officers;',
-      'observation and selected tests should confirm the ICQ accurately reflects actual '
-      'day-to-day strengths/weaknesses;',
-      'the auditor should **not** rely on controls purely from this preliminary evaluation — '
-      'further compliance tests are needed for reasonable assurance the controls actually '
-      'function; and',
-      'questions should be formulated so a simple Yes/No answer indicates compliance/'
-      'non-compliance — though this isn\'t always possible (e.g. needing named authorised '
-      'cheque signatories, or a specific officer\'s expenditure authority limit).',
-    ]},
-    {'p': 'A specimen ICQ typically covers areas like purchases and trade creditors (e.g. are '
-          'official orders issued showing supplier/quantity/price? Are orders authorised per '
-          'authority limits? Are goods inspected on arrival?), cheque payments (is signing '
-          'blank cheques prohibited? Is signing restricted to authorised officials? Are paid '
-          'cheques returned by the bank monthly?), and cash payments (are all non-payroll '
-          'payments made from an imprest? Are vouchers examined/authorised independently of '
-          'the cashier? Is petty cash balance-checked at random by an independent official?) — '
-          'each question answered Yes/No/N/A with a date.'},
-    {'table': {'align': 'll', 'head': ['Advantages of ICQ', 'Disadvantages of ICQ'], 'rows': [
-      ['If drafted thoroughly, ensures all controls are considered; quick to prepare; easy to '
-       'use and control (a reviewing manager/partner can easily see what has been done).',
-       'The client may overstate controls; may contain many irrelevant controls; can give the '
-       'impression all controls carry equal weight; and may miss unusual controls that are '
-       'nevertheless effective in that specific circumstance.'],
-    ]}},
-
-    {'h4': 'Flowcharts'},
-    {'p': 'Flowcharts, supplemented by narrative notes, are kept in the permanent audit file, '
-          'updated via periodic review — either adapted from the client\'s own, or drawn from '
-          'scratch (the exercise of drawing itself teaches the auditor a great deal about how '
-          'the system actually works). The auditor should not commit a flowchart to file until '
-          '(via questioning/observation) reasonably satisfied it represents what actually '
-          'happens — since subsequent audit tests largely follow the chart\'s pattern, an '
-          'incomplete/inaccurate chart wastes significant time.'},
-    {'table': {'align': 'll', 'head': ['Document flowcharts', 'Information flowcharts'], 'rows': [
-      ['More commonly used, relatively easy to prepare — follow every document from beginning '
-       'to end, showing all operations/controls.', 'Prepared in reverse — starting from the '
-       'entry into accounting records and working back to the transaction. Concentrate on '
-       'significant information flows, ignoring unimportant items/document copies. Easy to '
-       'understand, but require skill/experience to compile.'],
-    ]}},
-    {'p': 'Rules of flowcharting: use one only when the system cannot readily be understood in '
-          'words; keep it simple (conforming symbols each meaning one thing, top-to-bottom/'
-          'left-to-right direction, no loose ends, main flow finishing bottom-right, minimal '
-          'crossing lines); always provide a key unless using BSI symbols; always use a '
-          'template (freehand is rarely acceptable); reflect the system as it actually is, '
-          'weaknesses included; and include marginal comments via dotted flow lines/brackets '
-          'where appropriate.'},
-    {'table': {'align': 'll', 'head': ['Advantages of flowcharts', 'Disadvantages of '
-      'flowcharts'], 'rows': [
-      ['Present the whole system (or part) without losing detail; simply depict cross-area '
-       'relationships; highlight control features (or their absence) via designated symbols; '
-       'easily incorporate references to other audit documents; facilitate later reference '
-       'more readily than pure narrative; let new team members participate quickly after '
-       'brief induction, saving time; are fairly easy to follow given their standard form; '
-       'ensure the whole system is recorded (loose ends are apparent at a glance); and '
-       'eliminate the need for extensive narrative.',
-       'Only suit standard systems — unusual transactions still need narrative notes; only '
-       'useful while records/assets remain in flux (once static, e.g. non-current assets, they '
-       'stop being useful); major amendments require redrawing; and time can be wasted charting '
-       'audit-insignificant areas.'],
-    ]}},
-  ]},
-
-  {'n': '8.8', 't': 'Evaluating the internal control system', 'b': [
-    {'key': 'After ascertaining/recording the system, the auditor conducts a preliminary '
-            'evaluation to decide whether to rely on it (reducing substantive testing) or '
-            'disregard it as inefficient (requiring in-depth testing) — generally using the '
-            '**Internal Control Evaluation Questionnaire (ICEQ)**.'},
-    {'def': {'t': 'ICEQ', 'd': 'a questionnaire determining whether appropriate control systems '
-                  'exist to prevent specific errors/omissions — answered using knowledge from '
-                  'the flowchart or ICQ, concentrating on the criteria existing controls '
-                  '**should** meet.'}},
-    {'p': 'Illustrative ICEQ questions, by cycle: sales — are sales properly authorised/made to '
-          'reliable payers, are all dispatched goods invoiced/recorded, will slow payers be '
-          'chased and doubtful debts provided for, will the system neither over- nor '
-          'understate debtors at period end; purchases — could goods/services be received '
-          'without a liability being recorded, is a liability recorded only for authorised '
-          'items at the proper amount, are all payments properly authorised; wages/salaries — '
-          'are employees paid only for work done, at the correct gross/net amount, to the '
-          'right person; inventories — is inventory safeguarded from physical loss, are '
-          'records accurate/up to date, does recorded inventory exist and belong to the '
-          'company, is cut-off reliable; non-current assets — do recorded assets exist and '
-          'belong to the company, is capital expenditure/disposal authorised and reported, is '
-          'depreciation realistic; investments — do recorded investments belong to the company '
-          'and are they safeguarded, is income/rights/bonus issues properly received and '
-          'accounted for; and management information/general controls — is the nominal ledger '
-          'satisfactorily controlled, are journal entries adequately controlled, is there a '
-          'clear authority structure, are systems operated by competent/supported staff, is '
-          'internal audit (if any) adequate.'},
-    {'table': {'align': 'll', 'head': ['Advantages of ICEQ', 'Disadvantage of ICEQ'], 'rows': [
-      ['Highlights areas of weakness requiring extensive substantive testing; answering ICEQs '
-       'helps auditors identify important controls most likely to need control testing.',
-       'Can be drafted vaguely, leading to misunderstanding and important controls not being '
-       'identified.'],
-    ]}},
-  ]},
-
-  {'n': '8.9', 't': 'Practical application of internal control', 'b': [
-    {'p': 'A summary of internal control considerations relevant to the key control risk '
-          'areas: general financial arrangements; cash and cheques (received and paid); wages '
-          'and salaries; purchases and trade creditors; sales and trade debtors; inventories '
-          'and WIP; and non-current assets and investments.'},
-    {'table': {'align': 'll', 'head': ['Area', 'Key control considerations'], 'rows': [
-      ['**General financial arrangements**', 'A properly integrated system of accounts/'
-       'records; appropriate general financial/budgetary supervision, regular interim '
-       'accounts and special reports; safeguarding (and, if necessary, duplicating and '
-       'separately storing) important records; and engaging, training and allocating '
-       'competent management/staff to specific duties, with cover arranged for absences.'],
-      ['**Cash/cheques received by post**', 'Safeguards against mail interception before '
-       'opening; a responsible person independent of the cashier appointed to open or '
-       'supervise mail opening; cash/cheques adequately protected (e.g. restrictive crossing) '
-       'and accounted for (e.g. post-lists compared independently against later records).'],
-      ['**Custody/control of money received**', 'Suitable persons appointed with clearly '
-       'defined responsibilities at each collection/handling stage; defined arrangements for '
-       'clearing cash offices/registers, agreeing collections with cash/sales records '
-       '(ideally by someone independent of the receiving cashier), and investigating any '
-       'cash shortage/surplus.'],
-      ['**Recording of cash received**', 'A person responsible for records; practical limits '
-       'on the receiving cashier\'s duties (e.g. no involvement in other books, funds, credit '
-       'notes, cash payments); a nominated deputy for absences; and rules on when receipts are '
-       'issued, serial-numbered and reconciled against records/paying-in slips.'],
-      ['**Payment into banks**', 'How frequently banking occurs (preferably daily); who '
-       'prepares paying-in slips (independent of the receiving/recording cashier); who makes '
-       'the actual bank payment (not the slip-preparer); and whether all receipts are banked '
-       'intact.'],
-      ['**Cash balances**', 'Cash-float amounts and whether payments out of received cash are '
-       'permitted; access restrictions on cash registers/offices; imprest-system rules and '
-       'reimbursement methods; frequency of independent float checks; overnight safeguarding '
-       'arrangements; fidelity guarantee/cash insurance suitability; and control of any funds '
-       'held in trust for employees (e.g. sickness/holiday funds).'],
-      ['**Cheque payments**', 'Control over the supply/issue/safekeeping of blank cheques; who '
-       'prepares cheques and on what authorising documents, with safeguards against double '
-       'payment on the same document; authorised signatories, their limits, and minimum '
-       'signatories per cheque; safeguards for mechanically signed/printed signatures; the '
-       'extent of restrictive crossing and any exceptions; arrangements for obtaining and '
-       'reviewing paid/returned cheques; and ensuring payment within discount periods.'],
-      ['**Cash payments**', 'A responsible person authorising expenditure, with evidenced '
-       'documentation; safeguards against double presentation of supporting vouchers; any '
-       'limit on individual disbursement amounts; and rules on cash advances, IOUs and cheque '
-       'cashing for staff.'],
-      ['**Wages and salaries**', 'Who authorises engagement/discharge of employees and pay-'
-       'rate changes; how personnel/pay-rate changes are recorded/controlled; how non-'
-       'statutory deductions are authorised; arrangements for recording hours worked/output '
-       'and their scrutiny before reaching the wages department; rules on pay advances and '
-       'their recovery; handling of holiday pay; and who deals with pay queries.'],
-      ['**Preparation of payroll**', 'The records used as a payroll basis and their '
-       'authorisation; who prepares/checks/approves pay sheets and how individual '
-       'responsibility is indicated at each stage; and procedures for non-routine '
-       'circumstances (e.g. an employee\'s absence, or leaving mid-period).'],
-      ['**Payment of wages/salaries**', 'For cash payment: arrangements to obtain/safeguard '
-       'the cash, safeguards against irregularities, who pays employees (independent of pay-'
-       'sheet preparers), identity verification and distribution recording, and handling of '
-       'unclaimed wages. For cheque/bank transfer: who prepares/signs cheques or transfer '
-       'lists (mutually independent, and independent of pay-sheet preparers), and whether a '
-       'separate wages bank account is maintained and regularly reconciled.'],
-      ['**Purchases**', 'The procedure for inventory requisitions and who is responsible; '
-       'preparation/authorisation of purchase orders (including tender-acceptance '
-       'authorisation); special authorisation for capital items; goods-inward examination '
-       'procedures (quantity/quality/condition) and their evidencing; a responsible goods-'
-       'acceptance officer; and checking goods-inward records against authorised purchase '
-       'orders.'],
-      ['**Accounting for purchases**', 'Separate responsibility for checking supplier '
-       'invoices, recording purchases/returns, maintaining supplier ledger accounts, checking '
-       'supplier statements, and authorising payments; and ensuring, before payment, that '
-       'goods were received matching the order and correctly priced/invoiced, that '
-       'expenditure was properly allocated, and that payment was duly authorised.'],
-      ['**Sales**', 'Ensuring goods are sold at current prices, with controlled discounts/'
-       'special reductions; responsibility for and control over credit terms granted; who '
-       'accepts customer orders and the procedure for production orders/dispatch notes; who '
-       'prepares invoices/credit notes and how errors are prevented; special controls over '
-       'free/special-terms dispatches; who authorises dispatch and how; independent recording '
-       'of goods outward; and agreeing goods outward with orders/dispatch notes/invoices.'],
-      ['**Accounting for sales**', 'Separate responsibility for recording sales returns, '
-       'maintaining customer accounts, and preparing debtor statements; control over returns/'
-       'price adjustments; cut-off procedures for goods dispatched-but-not-invoiced (and vice '
-       'versa); arrangements for group/related-party sales; procedures for preparing/checking/'
-       'dispatching debtor statements without interference; authorisation of discounts; who '
-       'handles statement queries; procedures for reviewing overdue accounts; authorisation of '
-       'bad debt write-offs; and an independently checked sales control account.'],
-      ['**Inventories and WIP**', 'Goods-inward receiving/checking/recording arrangements; '
-       'responsibility for safeguarding against theft/misuse/deterioration; control (via set '
-       'inventory levels) and recording methods (ledgers, control accounts, bin cards); '
-       'independent record-keeping and periodic reconciliation with the financial accounts; '
-       'authorised/evidenced/recorded stock movement; handling of returnable containers; '
-       'controlling inventory held by/for third parties; who physically checks inventory, how '
-       'often (at least annually), and by whom (independent of storekeepers), with proper '
-       'cut-off; the valuation basis adopted; periodic review and authorised write-off of '
-       'damaged/slow-moving/obsolete stock; and controlling scrap/waste and disposal '
-       'proceeds.'],
-      ['**Non-current assets**', 'Who authorises capital expenditure and how evidenced; who '
-       'authorises disposal/scrapping/transfer and how disposal proceeds are controlled; who '
-       'maintains the asset register and how often it is agreed/physically verified; '
-       'arrangements ensuring proper maintenance/use (periodic physical checks); depreciation '
-       'accounting on inter-branch/company transfers; and how depreciation rates are '
-       'authorised, evidenced and calculated/checked.'],
-      ['**Investments**', 'Who authorises purchases/sales (ideally independent of cash/title-'
-       'document custody) and how evidenced; maintenance of a detailed investment register, '
-       'periodically agreed to the control account with physical title-document verification; '
-       'and checking contract notes against authorised instructions, ensuring transfer charges '
-       'are correctly calculated and rights/dividends/interest/capital repayments are received '
-       'and accounted for.'],
-    ]}},
-  ]},
+  {'n': '8.9', 't': 'Practical application of internal control', 'b': [{'p': 'A summary of internal control considerations relevant to the key control risk areas:'},
+ {'ul': ['general financial arrangements',
+         'cash and cheques (received and paid)',
+         'wages and salaries',
+         'purchases and trade creditors',
+         'sales and trade debtors',
+         'inventories and WIP',
+         'and non-current assets and investments.']},
+ {'table': {'align': 'll',
+            'head': ['Area', 'Key control considerations'],
+            'rows': [['**General financial arrangements**',
+                      'A properly integrated system of accounts/records; appropriate general '
+                      'financial/budgetary supervision, regular interim accounts and special reports; '
+                      'safeguarding (and, if necessary, duplicating and separately storing) important '
+                      'records; and engaging, training and allocating competent management/staff to specific '
+                      'duties, with cover arranged for absences.'],
+                     ['**Cash/cheques received by post**',
+                      'Safeguards against mail interception before opening; a responsible person independent '
+                      'of the cashier appointed to open or supervise mail opening; cash/cheques adequately '
+                      'protected (e.g. restrictive crossing) and accounted for (e.g. post-lists compared '
+                      'independently against later records).'],
+                     ['**Custody/control of money received**',
+                      'Suitable persons appointed with clearly defined responsibilities at each '
+                      'collection/handling stage; defined arrangements for clearing cash offices/registers, '
+                      'agreeing collections with cash/sales records (ideally by someone independent of the '
+                      'receiving cashier), and investigating any cash shortage/surplus.'],
+                     ['**Recording of cash received**',
+                      "A person responsible for records; practical limits on the receiving cashier's duties "
+                      '(e.g. no involvement in other books, funds, credit notes, cash payments); a nominated '
+                      'deputy for absences; and rules on when receipts are issued, serial-numbered and '
+                      'reconciled against records/paying-in slips.'],
+                     ['**Payment into banks**',
+                      'How frequently banking occurs (preferably daily); who prepares paying-in slips '
+                      '(independent of the receiving/recording cashier); who makes the actual bank payment '
+                      '(not the slip-preparer); and whether all receipts are banked intact.'],
+                     ['**Cash balances**',
+                      'Cash-float amounts and whether payments out of received cash are permitted; access '
+                      'restrictions on cash registers/offices; imprest-system rules and reimbursement '
+                      'methods; frequency of independent float checks; overnight safeguarding arrangements; '
+                      'fidelity guarantee/cash insurance suitability; and control of any funds held in trust '
+                      'for employees (e.g. sickness/holiday funds).'],
+                     ['**Cheque payments**',
+                      'Control over the supply/issue/safekeeping of blank cheques; who prepares cheques and '
+                      'on what authorising documents, with safeguards against double payment on the same '
+                      'document; authorised signatories, their limits, and minimum signatories per cheque; '
+                      'safeguards for mechanically signed/printed signatures; the extent of restrictive '
+                      'crossing and any exceptions; arrangements for obtaining and reviewing paid/returned '
+                      'cheques; and ensuring payment within discount periods.'],
+                     ['**Cash payments**',
+                      'A responsible person authorising expenditure, with evidenced documentation; '
+                      'safeguards against double presentation of supporting vouchers; any limit on '
+                      'individual disbursement amounts; and rules on cash advances, IOUs and cheque cashing '
+                      'for staff.'],
+                     ['**Wages and salaries**',
+                      'Who authorises engagement/discharge of employees and pay-rate changes; how '
+                      'personnel/pay-rate changes are recorded/controlled; how non-statutory deductions are '
+                      'authorised; arrangements for recording hours worked/output and their scrutiny before '
+                      'reaching the wages department; rules on pay advances and their recovery; handling of '
+                      'holiday pay; and who deals with pay queries.'],
+                     ['**Preparation of payroll**',
+                      'The records used as a payroll basis and their authorisation; who '
+                      'prepares/checks/approves pay sheets and how individual responsibility is indicated at '
+                      "each stage; and procedures for non-routine circumstances (e.g. an employee's absence, "
+                      'or leaving mid-period).'],
+                     ['**Payment of wages/salaries**',
+                      'For cash payment: arrangements to obtain/safeguard the cash, safeguards against '
+                      'irregularities, who pays employees (independent of pay-sheet preparers), identity '
+                      'verification and distribution recording, and handling of unclaimed wages. For '
+                      'cheque/bank transfer: who prepares/signs cheques or transfer lists (mutually '
+                      'independent, and independent of pay-sheet preparers), and whether a separate wages '
+                      'bank account is maintained and regularly reconciled.'],
+                     ['**Purchases**',
+                      'The procedure for inventory requisitions and who is responsible; '
+                      'preparation/authorisation of purchase orders (including tender-acceptance '
+                      'authorisation); special authorisation for capital items; goods-inward examination '
+                      'procedures (quantity/quality/condition) and their evidencing; a responsible '
+                      'goods-acceptance officer; and checking goods-inward records against authorised '
+                      'purchase orders.'],
+                     ['**Accounting for purchases**',
+                      'Separate responsibility for checking supplier invoices, recording purchases/returns, '
+                      'maintaining supplier ledger accounts, checking supplier statements, and authorising '
+                      'payments; and ensuring, before payment, that goods were received matching the order '
+                      'and correctly priced/invoiced, that expenditure was properly allocated, and that '
+                      'payment was duly authorised.'],
+                     ['**Sales**',
+                      'Ensuring goods are sold at current prices, with controlled discounts/special '
+                      'reductions; responsibility for and control over credit terms granted; who accepts '
+                      'customer orders and the procedure for production orders/dispatch notes; who prepares '
+                      'invoices/credit notes and how errors are prevented; special controls over '
+                      'free/special-terms dispatches; who authorises dispatch and how; independent recording '
+                      'of goods outward; and agreeing goods outward with orders/dispatch notes/invoices.'],
+                     ['**Accounting for sales**',
+                      'Separate responsibility for recording sales returns, maintaining customer accounts, '
+                      'and preparing debtor statements; control over returns/price adjustments; cut-off '
+                      'procedures for goods dispatched-but-not-invoiced (and vice versa); arrangements for '
+                      'group/related-party sales; procedures for preparing/checking/dispatching debtor '
+                      'statements without interference; authorisation of discounts; who handles statement '
+                      'queries; procedures for reviewing overdue accounts; authorisation of bad debt '
+                      'write-offs; and an independently checked sales control account.'],
+                     ['**Inventories and WIP**',
+                      'Goods-inward receiving/checking/recording arrangements; responsibility for '
+                      'safeguarding against theft/misuse/deterioration; control (via set inventory levels) '
+                      'and recording methods (ledgers, control accounts, bin cards); independent '
+                      'record-keeping and periodic reconciliation with the financial accounts; '
+                      'authorised/evidenced/recorded stock movement; handling of returnable containers; '
+                      'controlling inventory held by/for third parties; who physically checks inventory, how '
+                      'often (at least annually), and by whom (independent of storekeepers), with proper '
+                      'cut-off; the valuation basis adopted; periodic review and authorised write-off of '
+                      'damaged/slow-moving/obsolete stock; and controlling scrap/waste and disposal '
+                      'proceeds.'],
+                     ['**Non-current assets**',
+                      'Who authorises capital expenditure and how evidenced; who authorises '
+                      'disposal/scrapping/transfer and how disposal proceeds are controlled; who maintains '
+                      'the asset register and how often it is agreed/physically verified; arrangements '
+                      'ensuring proper maintenance/use (periodic physical checks); depreciation accounting '
+                      'on inter-branch/company transfers; and how depreciation rates are authorised, '
+                      'evidenced and calculated/checked.'],
+                     ['**Investments**',
+                      'Who authorises purchases/sales (ideally independent of cash/title-document custody) '
+                      'and how evidenced; maintenance of a detailed investment register, periodically agreed '
+                      'to the control account with physical title-document verification; and checking '
+                      'contract notes against authorised instructions, ensuring transfer charges are '
+                      'correctly calculated and rights/dividends/interest/capital repayments are received '
+                      'and accounted for.']]}}]},
 
   {'n': '8.10', 't': 'Control systems as they apply to small entities', 'b': [
     {'p': 'Small entities implement control environment elements **differently**, not '
@@ -463,160 +630,211 @@ CH = {
     ]}},
   ]},
 
-  {'n': '8.11', 't': 'Reporting on internal control to management', 'b': [
-    {'key': 'At the conclusion of the internal control assessment, the auditor must '
-            'communicate any weaknesses discovered to the client\'s management — typically via '
-            'a **Management Letter**, **Letter of Weakness**, or **Internal Control Letter** '
-            '(other report forms are also acceptable). Exactly when to send it, how far its '
-            'content should extend, and what to do if major weaknesses are ignored, are all '
-            'matters of professional judgment.'},
-    {'p': 'Where the audit spans multiple visits, auditors normally report after the interim '
-          'audit **and** after the final visit, especially if procedures need improving before '
-          'the year end.'},
-    {'p': 'Principal purposes: to comment on the design/operation of examined systems and '
-          'suggest improvements; to provide constructive advice on potential economies/'
-          'efficiency improvements; and to communicate other matters coming to attention (e.g. '
-          'adjusted/unadjusted errors, or particular accounting policies/practices).'},
+  {'n': '8.11', 't': 'Reporting on internal control to management', 'b': [{'key': 'At the conclusion of the internal control assessment, the auditor must communicate any weaknesses '
+         "discovered to the client's management — typically via a **Management Letter**, **Letter of "
+         'Weakness**, or **Internal Control Letter** (other report forms are also acceptable). Exactly when '
+         'to send it, how far its content should extend, and what to do if major weaknesses are ignored, are '
+         'all matters of professional judgment.'},
+ {'p': 'Where the audit spans multiple visits, auditors normally report after the interim audit **and** '
+       'after the final visit, especially if procedures need improving before the year end.'},
+ {'p': 'Principal purposes:'},
+ {'ul': ['to comment on the design/operation of examined systems and suggest improvements',
+         'to provide constructive advice on potential economies/efficiency improvements',
+         'and to communicate other matters coming to attention (e.g. adjusted/unadjusted errors, or '
+         'particular accounting policies/practices).']},
+ {'h4': 'Material weaknesses'},
+ {'def': {'t': 'Material weakness (in this context)',
+          'd': 'a condition that may result in a material misstatement in the financial statements.'}},
+ {'key': 'Material weaknesses must be reported **in writing**, on a timely basis, to directors/audit '
+         "committee/appropriate management. If management has already detected and (in the auditor's view) "
+         'appropriately corrected a weakness, no report is needed on that specific matter — but the auditor '
+         'should still document the reasoning behind that conclusion in the working papers.'},
+ {'p': 'Ordinarily a written report is used, though sometimes raising matters orally, followed by a file '
+       'note recording the observations/responses, suffices. Where **no** material weaknesses are found, the '
+       'auditor may choose not to issue a report at all — but may still need to inform management that none '
+       'will be issued.'},
+ {'h4': 'Addressee and content'},
+ {'p': 'The auditor considers who has power to act on the findings — ordinarily the board, audit committee '
+       'or similar body. A **tiered** report may be appropriate: major points to the board, less important '
+       'matters delegated to other management levels. A reply is ordinarily requested, indicating intended '
+       'actions.'},
+ {'key': 'The report must explain it is **not a comprehensive statement** of every weakness or possible '
+         'improvement — only the matters that came to attention through the audit procedures actually '
+         'performed. Referencing the audit approach helps management appreciate the nature/timing/extent of '
+         'the work behind the report.'},
+ {'p': 'Other (non-material) weaknesses may be included in the same report, a separate report, or raised '
+       'orally with a supporting file note. To be effective, a report is issued immediately after the '
+       'procedures giving rise to the observations are complete. An interim report must make clear the '
+       'overall audit is only partially complete. Matters raised in **previous** reports must be followed up '
+       '— where not effectively addressed, the auditor enquires why, and, if still significant, considers '
+       'repeating the point (otherwise risking the impression the weakness was accepted as corrected).'},
+ {'h4': 'Third parties'},
+ {'warn': 'A report to management is a **confidential communication** — prior consent is needed before '
+          'sharing it with a third party. Since auditors have little control over what happens to a report '
+          'once dispatched (management may pass copies to banks or regulators), the report ordinarily '
+          "states: it is prepared for the entity's **sole use**; must **not** be disclosed to a third party "
+          "without the auditor's written consent; and **no responsibility** is assumed to any other person. "
+          'Negligence liability to a third party ordinarily only arises where the auditor knowingly does '
+          'work meant to be relied upon by that specific third party, who may then suffer loss as a result — '
+          'an express liability disclaimer normally gives strong protection against unforeseen third-party '
+          'liability.'},
+ {'h4': 'Specimen management letter — structure'},
+ {'p': 'A typical management letter (illustrative) is organised as one entry per identified weakness, each '
+       'following a consistent structure:'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'Content'],
+            'rows': [['**Present system**',
+                      'What was actually observed during the audit — e.g. some departments ordering goods '
+                      'orally without a purchase requisition/order; a monthly purchase-ledger reconciliation '
+                      "that was skipped for two months; total debtors equating to roughly three months' "
+                      'sales against a stated four-week credit term.'],
+                     ['**Implication**',
+                      'The consequence — e.g. unenforceable action against non-performing suppliers absent a '
+                      'written order; unexplained differences between supplier statements and ledger '
+                      'balances, implying a breakdown in invoice/payment batching and posting; or a high '
+                      'overdraft level with resulting interest cost and difficulty paying key suppliers on '
+                      'time.'],
+                     ['**Recommendation**',
+                      'The suggested fix — e.g. centralising procurement responsibility with subsequent '
+                      'written confirmation of oral orders; performing the reconciliation regularly, by '
+                      'someone independent of the purchase ledger/cashier/nominal ledger functions; or '
+                      'adopting a more structured debt-collection system with standard letters and earlier '
+                      'statement dispatch.']]}},
+ {'h4': 'Full study-text specimen — management letter'},
+ {'note': 'Original specimen at source §8.11, PDF pages 306–308 (printed 280–282). The original address, '
+          'date, all three observations, implications and recommendations are retained; the preceding '
+          'structure table is an additional explanation.'},
+ {'pre': '\n'
+         '\n'
+         '\n'
+         '6th February 2025\n'
+         'The Board of Directors\n'
+         'Seek First Plc\n'
+         '\n'
+         '290 Abeka Rd Ext\n'
+         'Lagos\n'
+         'Members of the Board,\n'
+         'Financial Statements for the year ended 31 December 2024\n'
+         'Following the conduct of our interim audit, we set out below certain points which arose\n'
+         'as a result of our review of the accounting systems and procedures operated by your\n'
+         'company.\n'
+         'We wish to point out, however, that our audit testing was undertaken in accordance with\n'
+         'the scope of our audit engagement, and therefore, will not necessarily identify all\n'
+         'weaknesses that may exist. As you are aware, it is the responsibility of the directors to\n'
+         'ensure that satisfactory internal controls are maintained at all times.\n'
+         '   1.   Purchase order Procedure\n'
+         '            Present system\n'
+         '        During the audit we found out that some departments order some goods from\n'
+         '        suppliers orally without the support of any purchase requisition or purchase order.\n'
+         '        Implication\n'
+         '        Actions against suppliers’ non-performance would become unenforceable in the\n'
+         '        absence of a written purchase order.\n'
+         '        Recommendation\n'
+         '        We recommend that the Logistic Department be made responsible for all\n'
+         '        procurements and when orders are made orally, they should be subsequently\n'
+         '        confirmed by raising official purchase order.\n'
+         '   2.   Purchase Ledger Reconciliation\n'
+         '            Present System:\n'
+         '        Although it is the practice of your company to reconcile the purchase ledger with\n'
+         '        statements received from various suppliers at the end of every month, this was not\n'
+         '        done in August and September.\n'
+         '        Implication\n'
+         '        Unexplained differences exist between suppliers ‘statements balance and purchase\n'
+         '        ledger balances. This implies a breakdown of purchases invoice and or cheque\n'
+         '        payment batching and posting procedures.\n'
+         '        Recommendation\n'
+         '        It is important that this reconciliation is performed regularly by a responsible\n'
+         '\n'
+         'official independent of day-to-day purchase ledger, cashier and nominal ledger\n'
+         '              functions.\n'
+         '     3        Credit Control\n'
+         '              Present System\n'
+         '              As at 30 October 2024, total debtors figure approximates three months sales\n'
+         '              although the company’s trade terms allow four weeks credit to customers.\n'
+         '              Implication\n'
+         '              This has resulted in high overdraft level with the resultant high interest charges '
+         'and\n'
+         '              difficulty in settling the accounts of some key suppliers on time.\n'
+         '              Recommendations\n'
+         '              We recommend that a more structured system of debt collection be considered\n'
+         '              using standard letters and that account statements should be sent out a week '
+         'earlier\n'
+         '              than it is now.\n'
+         '\n'
+         '\n'
+         '     Yours faithfully,\n'
+         '\n'
+         '\n'
+         '     ABC & Co.\n'
+         '     Chartered Accountants\n'
+         '\n'}]},
 
-    {'h4': 'Material weaknesses'},
-    {'def': {'t': 'Material weakness (in this context)', 'd': 'a condition that may result in a '
-                  'material misstatement in the financial statements.'}},
-    {'key': 'Material weaknesses must be reported **in writing**, on a timely basis, to '
-            'directors/audit committee/appropriate management. If management has already '
-            'detected and (in the auditor\'s view) appropriately corrected a weakness, no '
-            'report is needed on that specific matter — but the auditor should still document '
-            'the reasoning behind that conclusion in the working papers.'},
-    {'p': 'Ordinarily a written report is used, though sometimes raising matters orally, '
-          'followed by a file note recording the observations/responses, suffices. Where **no** '
-          'material weaknesses are found, the auditor may choose not to issue a report at all — '
-          'but may still need to inform management that none will be issued.'},
-
-    {'h4': 'Addressee and content'},
-    {'p': 'The auditor considers who has power to act on the findings — ordinarily the board, '
-          'audit committee or similar body. A **tiered** report may be appropriate: major '
-          'points to the board, less important matters delegated to other management levels. '
-          'A reply is ordinarily requested, indicating intended actions.'},
-    {'key': 'The report must explain it is **not a comprehensive statement** of every weakness '
-            'or possible improvement — only the matters that came to attention through the '
-            'audit procedures actually performed. Referencing the audit approach helps '
-            'management appreciate the nature/timing/extent of the work behind the report.'},
-    {'p': 'Other (non-material) weaknesses may be included in the same report, a separate '
-          'report, or raised orally with a supporting file note. To be effective, a report is '
-          'issued immediately after the procedures giving rise to the observations are '
-          'complete. An interim report must make clear the overall audit is only partially '
-          'complete. Matters raised in **previous** reports must be followed up — where not '
-          'effectively addressed, the auditor enquires why, and, if still significant, '
-          'considers repeating the point (otherwise risking the impression the weakness was '
-          'accepted as corrected).'},
-
-    {'h4': 'Third parties'},
-    {'warn': 'A report to management is a **confidential communication** — prior consent is '
-             'needed before sharing it with a third party. Since auditors have little control '
-             'over what happens to a report once dispatched (management may pass copies to '
-             'banks or regulators), the report ordinarily states: it is prepared for the '
-             'entity\'s **sole use**; must **not** be disclosed to a third party without the '
-             'auditor\'s written consent; and **no responsibility** is assumed to any other '
-             'person. Negligence liability to a third party ordinarily only arises where the '
-             'auditor knowingly does work meant to be relied upon by that specific third party, '
-             'who may then suffer loss as a result — an express liability disclaimer normally '
-             'gives strong protection against unforeseen third-party liability.'},
-
-    {'h4': 'Specimen management letter — structure'},
-    {'p': 'A typical management letter (illustrative) is organised as one entry per identified '
-          'weakness, each following a consistent structure:'},
-    {'table': {'align': 'll', 'head': ['Element', 'Content'], 'rows': [
-      ['**Present system**', 'What was actually observed during the audit — e.g. some '
-       'departments ordering goods orally without a purchase requisition/order; a monthly '
-       'purchase-ledger reconciliation that was skipped for two months; total debtors '
-       'equating to roughly three months\' sales against a stated four-week credit term.'],
-      ['**Implication**', 'The consequence — e.g. unenforceable action against non-performing '
-       'suppliers absent a written order; unexplained differences between supplier statements '
-       'and ledger balances, implying a breakdown in invoice/payment batching and posting; or '
-       'a high overdraft level with resulting interest cost and difficulty paying key '
-       'suppliers on time.'],
-      ['**Recommendation**', 'The suggested fix — e.g. centralising procurement responsibility '
-       'with subsequent written confirmation of oral orders; performing the reconciliation '
-       'regularly, by someone independent of the purchase ledger/cashier/nominal ledger '
-       'functions; or adopting a more structured debt-collection system with standard letters '
-       'and earlier statement dispatch.'],
-    ]}},
-  ]},
-
-  {'n': '8.12', 't': 'Internal audit as a control factor', 'b': [
-    {'key': 'The external auditor should consider internal auditing\'s activities and their '
-            'effect (if any) on external audit procedures.'},
-    {'def': {'t': 'Internal auditing', 'd': 'an appraisal activity established within an '
-                  'entity, as a service to the entity, whose functions include, among other '
-                  'things, monitoring the internal control system.'}},
-    {'warn': 'The **external auditor retains sole responsibility** for the audit opinion and '
-             'for determining the nature/timing/extent of external audit procedures — but '
-             'parts of internal audit\'s work may still be useful to the external auditor.'},
-
-    {'h4': 'Scope and objectives of internal auditing'},
-    {'p': 'Internal auditing activities ordinarily include: **monitoring of internal '
-          'control** (management is responsible for establishing adequate control, but often '
-          'delegates specific review/monitoring/improvement-recommendation responsibility to '
-          'internal audit); **examination of financial and operating information** (reviewing '
-          'the means used to identify/measure/classify/report information, including detailed '
-          'testing); and **review of economy, efficiency and effectiveness of operations**, '
-          'including non-financial controls and compliance with laws/regulations/policies.'},
-
-    {'h4': 'Relationship between internal auditing and the external auditor'},
-    {'key': 'Internal audit\'s objectives are set by **management** and differ from the '
-            'external auditor\'s independent reporting role — though the means of achieving '
-            'their respective objectives are often similar. Being **part of the entity**, '
-            'internal audit can never achieve the same degree of independence the external '
-            'auditor needs — and using internal audit\'s work **never reduces** the external '
-            'auditor\'s own sole responsibility for the opinion. Every audit judgment remains '
-            'the external auditor\'s own.'},
-
-    {'h4': 'Understanding and preliminary assessment of internal auditing'},
-    {'p': 'The external auditor obtains sufficient understanding of internal audit activities '
-          'to identify/assess risks of material misstatement and design further procedures. '
-          'Effective internal auditing may modify the nature/timing and **reduce** the extent '
-          'of external procedures — but can never **eliminate** them entirely; in some cases '
-          'the external auditor may conclude internal audit has no effect at all on external '
-          'procedures.'},
-    {'p': 'Assessment criteria:'},
-    {'table': {'align': 'll', 'head': ['Criterion', 'What it examines'], 'rows': [
-      ['**Organizational status**', 'Internal audit\'s specific status and its effect on '
-       'objectivity — ideally reporting to the highest management level, free of other '
-       'operating responsibility, with any management-imposed constraints carefully '
-       'considered. Internal auditors must be free to communicate fully with the external '
-       'auditor.'],
-      ['**Scope of function**', 'The nature/extent of internal audit assignments, and whether '
-       'management acts on its recommendations (and how that is evidenced).'],
-      ['**Technical competence**', 'Whether performed by adequately trained/proficient '
-       'persons — e.g. reviewing hiring/training policies, experience and professional '
-       'qualifications.'],
-      ['**Due professional care**', 'Whether internal auditing is properly planned, '
-       'supervised, reviewed and documented — e.g. the existence of adequate manuals, work '
-       'programmes and working papers.'],
-    ]}},
-
-    {'h4': 'Timing, liaison and coordination'},
-    {'p': 'When planning to use internal audit\'s work, the external auditor discusses internal '
-          'audit\'s tentative plan as early as possible — ideally agreeing in advance the '
-          'timing/extent of coverage, materiality levels, sample-selection methods, '
-          'documentation, and review/reporting procedures. Effective liaison uses meetings at '
-          'appropriate intervals, mutual access to relevant reports, and mutual notice of '
-          'significant matters affecting the other.'},
-
-    {'h4': 'Evaluating specific internal auditing work'},
-    {'p': 'Where the external auditor intends to use specific internal audit work, they '
-          'evaluate and perform procedures on it to confirm its adequacy — considering: '
-          'whether it was performed by adequately trained/proficient persons, with assistants\' '
-          'work properly supervised/reviewed/documented; whether sufficient appropriate '
-          'evidence was obtained for reasonable conclusions; whether conclusions/reports are '
-          'appropriate and consistent with the work performed; and whether any exceptions/'
-          'unusual matters were properly resolved.'},
-    {'key': 'The nature/timing/extent of procedures applied to internal audit\'s own work '
-            'depends on the auditor\'s judgment about the area\'s risk, the internal audit '
-            'assessment, and the specific work\'s own evaluation — possibly including '
-            're-examining items internal audit already examined, examining similar other '
-            'items, and observing internal audit procedures. Conclusions on the evaluated work '
-            'are recorded.'},
-  ]},
+  {'n': '8.12', 't': 'Internal audit as a control factor', 'b': [{'key': "The external auditor should consider internal auditing's activities and their effect (if any) on "
+         'external audit procedures.'},
+ {'def': {'t': 'Internal auditing',
+          'd': 'an appraisal activity established within an entity, as a service to the entity, whose '
+               'functions include, among other things, monitoring the internal control system.'}},
+ {'warn': 'The **external auditor retains sole responsibility** for the audit opinion and for determining '
+          "the nature/timing/extent of external audit procedures — but parts of internal audit's work may "
+          'still be useful to the external auditor.'},
+ {'h4': 'Scope and objectives of internal auditing'},
+ {'p': 'Internal auditing activities ordinarily include:'},
+ {'ul': ['**monitoring of internal control** (management is responsible for establishing adequate control, '
+         'but often delegates specific review/monitoring/improvement-recommendation responsibility to '
+         'internal audit)',
+         '**examination of financial and operating information** (reviewing the means used to '
+         'identify/measure/classify/report information, including detailed testing)',
+         'and **review of economy, efficiency and effectiveness of operations**, including non-financial '
+         'controls and compliance with laws/regulations/policies.']},
+ {'h4': 'Relationship between internal auditing and the external auditor'},
+ {'key': "Internal audit's objectives are set by **management** and differ from the external auditor's "
+         'independent reporting role — though the means of achieving their respective objectives are often '
+         'similar. Being **part of the entity**, internal audit can never achieve the same degree of '
+         "independence the external auditor needs — and using internal audit's work **never reduces** the "
+         "external auditor's own sole responsibility for the opinion. Every audit judgment remains the "
+         "external auditor's own."},
+ {'h4': 'Understanding and preliminary assessment of internal auditing'},
+ {'p': 'The external auditor obtains sufficient understanding of internal audit activities to '
+       'identify/assess risks of material misstatement and design further procedures. Effective internal '
+       'auditing may modify the nature/timing and **reduce** the extent of external procedures — but can '
+       'never **eliminate** them entirely; in some cases the external auditor may conclude internal audit '
+       'has no effect at all on external procedures.'},
+ {'p': 'Assessment criteria:'},
+ {'table': {'align': 'll',
+            'head': ['Criterion', 'What it examines'],
+            'rows': [['**Organizational status**',
+                      "Internal audit's specific status and its effect on objectivity — ideally reporting to "
+                      'the highest management level, free of other operating responsibility, with any '
+                      'management-imposed constraints carefully considered. Internal auditors must be free '
+                      'to communicate fully with the external auditor.'],
+                     ['**Scope of function**',
+                      'The nature/extent of internal audit assignments, and whether management acts on its '
+                      'recommendations (and how that is evidenced).'],
+                     ['**Technical competence**',
+                      'Whether performed by adequately trained/proficient persons — e.g. reviewing '
+                      'hiring/training policies, experience and professional qualifications.'],
+                     ['**Due professional care**',
+                      'Whether internal auditing is properly planned, supervised, reviewed and documented — '
+                      'e.g. the existence of adequate manuals, work programmes and working papers.']]}},
+ {'h4': 'Timing, liaison and coordination'},
+ {'p': "When planning to use internal audit's work, the external auditor discusses internal audit's "
+       'tentative plan as early as possible — ideally agreeing in advance the timing/extent of coverage, '
+       'materiality levels, sample-selection methods, documentation, and review/reporting procedures. '
+       'Effective liaison uses meetings at appropriate intervals, mutual access to relevant reports, and '
+       'mutual notice of significant matters affecting the other.'},
+ {'h4': 'Evaluating specific internal auditing work'},
+ {'p': 'Where the external auditor intends to use specific internal audit work, they evaluate and perform '
+       'procedures on it to confirm its adequacy — considering:'},
+ {'ul': ["whether it was performed by adequately trained/proficient persons, with assistants' work properly "
+         'supervised/reviewed/documented',
+         'whether sufficient appropriate evidence was obtained for reasonable conclusions',
+         'whether conclusions/reports are appropriate and consistent with the work performed',
+         'and whether any exceptions/unusual matters were properly resolved.']},
+ {'key': "The nature/timing/extent of procedures applied to internal audit's own work depends on the "
+         "auditor's judgment about the area's risk, the internal audit assessment, and the specific work's "
+         'own evaluation — possibly including re-examining items internal audit already examined, examining '
+         'similar other items, and observing internal audit procedures. Conclusions on the evaluated work '
+         'are recorded.'}]},
 
   {'n': '8.13', 't': 'Chapter summary', 'b': [
     {'ol': [

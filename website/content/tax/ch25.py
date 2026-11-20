@@ -38,87 +38,50 @@ CH = {
                     {
                                  'n': '25.3',
                                  't': 'Overview of the technological impact on tax practice and administration',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Tax practitioners',
-                                                                                                                      'd': 'independent firms licensed to provide tax-related '
-                                                                                                                           'services to clients.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Tax administration',
-                                                                                                                      'd': 'revenue agencies/authorities mandated to assess, collect '
-                                                                                                                           'and account for taxes on behalf of government.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': '25.3.1  Current roles of tax practising firms',
-                                                                              },
-                                                          {
-                                                                                'ul': [
-                                                                                                                    'providing independent services to clients;',
-                                                                                                                    'preparing tax records;',
-                                                                                                                    'computing end-of-year tax liabilities;',
-                                                                                                                    'filing tax returns;',
-                                                                                                                    'advising clients on tax matters;',
-                                                                                                                    'complying with tax legislation;',
-                                                                                                                    'resolving tax disputes; and',
-                                                                                                                    'engaging in tax audit and investigation.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'Technological evidence shows most of these tasks can be made '
-                                                                                        'more efficient and effective through automation.',
-                                                                              },
-                                                          {
-                                                                                'h4': '25.3.2 – 25.3.6  Elements of tax practice — tax compliance, tax '
-                                                                                      'planning and advisory, tax litigation, and tax research and '
-                                                                                      'intelligence',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Element',
-                                                                                                                                                                             'What it involves',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax compliance**',
-                                                                                                                                                                                                                          'Gathering relevant tax information; '
-                                                                                                                                                                                                                          'evaluating/classifying it; filing necessary '
-                                                                                                                                                                                                                          'returns; representing clients during '
-                                                                                                                                                                                                                          'audits/investigations.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax planning and advisory**',
-                                                                                                                                                                                                                          'Arranging a client\'s transactions to optimise '
-                                                                                                                                                                                                                          '(usually minimise) tax liability — planning for '
-                                                                                                                                                                                                                          'OPEN transactions (timing/amount of pending '
-                                                                                                                                                                                                                          'future transactions) and CLOSED transactions '
-                                                                                                                                                                                                                          '(how past transactions are presented/classified '
-                                                                                                                                                                                                                          'in the accounts to reduce tax exposure).',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax litigation**',
-                                                                                                                                                                                                                          'Settling disputes with tax authorities in '
-                                                                                                                                                                                                                          'court/tribunal (requiring close reading/citing '
-                                                                                                                                                                                                                          'of extant tax law); appearing as an '
-                                                                                                                                                                                                                          'expert/technical witness; appealing on clients\' '
-                                                                                                                                                                                                                          'behalf when necessary.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax research and intelligence**',
-                                                                                                                                                                                                                          'Identifying a tax problem; gathering relevant '
-                                                                                                                                                                                                                          'evidence/information; evaluating several '
-                                                                                                                                                                                                                          'scenarios; determining and outlining solutions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Tax practitioners',
+          'd': 'independent firms licensed to provide tax-related services to clients.'}},
+ {'def': {'t': 'Tax administration',
+          'd': 'revenue agencies/authorities mandated to assess, collect and account for taxes on behalf of '
+               'government.'}},
+ {'h4': '25.3.1  Current roles of tax practising firms'},
+ {'ul': ['providing independent services to clients;',
+         'preparing tax records;',
+         'computing end-of-year tax liabilities;',
+         'filing tax returns;',
+         'advising clients on tax matters;',
+         'complying with tax legislation;',
+         'resolving tax disputes; and',
+         'engaging in tax audit and investigation.']},
+ {'note': 'Technological evidence shows most of these tasks can be made more efficient and effective through '
+          'automation.'},
+ {'h4': '25.3.2  Elements of tax practice'},
+ {'h4': '25.3.3  Tax compliance'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'What it involves'],
+            'rows': [['**Tax compliance**',
+                      'Gathering relevant tax information; evaluating/classifying it; filing necessary '
+                      'returns; representing clients during audits/investigations.']]}},
+ {'h4': '25.3.4  Tax planning and advisory'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'What it involves'],
+            'rows': [['**Tax planning and advisory**',
+                      "Arranging a client's transactions to optimise (usually minimise) tax liability — "
+                      'planning for OPEN transactions (timing/amount of pending future transactions) and '
+                      'CLOSED transactions (how past transactions are presented/classified in the accounts '
+                      'to reduce tax exposure).']]}},
+ {'h4': '25.3.5  Tax litigation'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'What it involves'],
+            'rows': [['**Tax litigation**',
+                      'Settling disputes with tax authorities in court/tribunal (requiring close '
+                      'reading/citing of extant tax law); appearing as an expert/technical witness; '
+                      "appealing on clients' behalf when necessary."]]}},
+ {'h4': '25.3.6  Tax research and intelligence'},
+ {'table': {'align': 'll',
+            'head': ['Element', 'What it involves'],
+            'rows': [['**Tax research and intelligence**',
+                      'Identifying a tax problem; gathering relevant evidence/information; evaluating '
+                      'several scenarios; determining and outlining solutions.']]}}],
                                },
                     {
                                  'n': '25.4',
@@ -332,240 +295,152 @@ CH = {
                                  'n': '25.6',
                                  't': 'Operations of the NRS TAXPROMAX solution relating to filing requirements '
                                       'and procedures',
-                                 'b': [
-                                                          {
-                                                                                'h4': '25.6.1  Preamble',
-                                                                              },
-                                                          {
-                                                                                'p': 'The NRS is empowered to automate return filing and payment '
-                                                                                     'processes, hence TaxPro Max — a one-stop online platform letting '
-                                                                                     'taxpayers: register, file returns, remit taxes; carry out '
-                                                                                     'assessments and track obligations; manage withholding tax '
-                                                                                     'deductions; manage capital allowance and loss; download TCCs; and '
-                                                                                     'communicate with the NRS on tax issues.',
-                                                                              },
-                                                          {
-                                                                                'p': 'The portal opened for filing of all naira-denominated taxes on **7 '
-                                                                                     'June 2021** (per a circular dated 4 June 2021). Due to early '
-                                                                                     'registration/use hitches, companies with a 31 December accounting '
-                                                                                     'year-end (returns otherwise due 30 June 2021) had their filing '
-                                                                                     'deadline extended to **31 July 2021**, without penalty/interest '
-                                                                                     'for the extension itself.',
-                                                                              },
-                                                          {
-                                                                                'note': 'Taxpayers must register to access the portal, then log in to '
-                                                                                        'file returns — filing generates a mandatory **Document Identity '
-                                                                                        'Number (DIN)**, required to remit taxes via the portal. The '
-                                                                                        'portal may be used by taxpayers directly or by their approved '
-                                                                                        'agents. Taxpayers preferring hard-copy filing may visit a local '
-                                                                                        'tax office for NRS staff to upload documents — done **at least '
-                                                                                        '2 weeks before the deadline**.',
-                                                                              },
-                                                          {
-                                                                                'h4': '25.6.2  Filing requirements for value added tax (VAT)',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Fill the tax update form at any local NRS tax office.',
-                                                                                                                          'Access the portal (taxpromax.nrs.gov.ng) and log in with '
-                                                                                                                          'your user details to reach the dashboard.',
-                                                                                                                          'Click "Taxes Due" and select the tax type.',
-                                                                                                                          'Click "Process" to begin.',
-                                                                                                                          'Fill in the required schedules — sales adjustment, exempt '
-                                                                                                                          'and zero-rated goods/services.',
-                                                                                                                          'Click "Add Record" and "Proceed."',
-                                                                                                                          'Ensure the VAT form loads once all schedules are complete.',
-                                                                                                                          'Select the currency type under "Returning Currency."',
-                                                                                                                          'Insert total sales/income, exclusive of VAT.',
-                                                                                                                          'Tick the declaration-form box.',
-                                                                                                                          'Confirm all entries before submission.',
-                                                                                                                        ],
-                                                                              },
-                                                          {
-                                                                                'h4': '25.6.3  Filing requirements for companies income tax (CIT)',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Log in to taxpromax.nrs.gov.ng.',
-                                                                                                                          'Click "Taxes Due."',
-                                                                                                                          'Under the action column, click "Process" to reach the '
-                                                                                                                          'schedules.',
-                                                                                                                          'The CIT form is generated once all schedules are complete.',
-                                                                                                                          'Select the currency type (NGN, GBP, USD, CFA, EUR, etc.) '
-                                                                                                                          'under "Returning Currency."',
-                                                                                                                          'Insert the total revenue amount — this auto-fills the '
-                                                                                                                          'remaining pre-fill boxes.',
-                                                                                                                          'Click "Declaration" beneath the generated form, confirming '
-                                                                                                                          'the information is correct and in accordance with the '
-                                                                                                                          'relevant Tax Act.',
-                                                                                                                          'Select a payment option — full payment, or 2/3/4 instalments.',
-                                                                                                                          'Click "Submit."',
-                                                                                                                          'On the CIT assessment page, click "Review the CIT '
-                                                                                                                          'Assessment," then "Proceed to Payment."',
-                                                                                                                          'Upload audited accounts, tax computations, notes to '
-                                                                                                                          'accounts, and memorandum/articles of association — all '
-                                                                                                                          'documents in PDF, except notes to accounts (Excel); file '
-                                                                                                                          'size capped at 200KB.',
-                                                                                                                          'Click "Submit."',
-                                                                                                                          'On the payment page, review the description items and '
-                                                                                                                          'amounts, then click "Process to Payment," "Pay Now," and '
-                                                                                                                          '"Pay" — the system generates a payment reference code.',
-                                                                                                                          'Choose "Pay Online" (connects to the Remita platform with '
-                                                                                                                          'payer name/phone/email/amount/reference code auto-filled) or '
-                                                                                                                          '"Pay at Bank" at any NRS-designated bank.',
-                                                                                                                          'Confirm payment and print the payment acknowledgment slip.',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '25.6.1  Preamble'},
+ {'p': 'The NRS is empowered to automate return filing and payment processes, hence TaxPro Max — a one-stop '
+       'online platform letting taxpayers:'},
+ {'ul': ['register, file returns, remit taxes',
+         'carry out assessments and track obligations',
+         'manage withholding tax deductions',
+         'manage capital allowance and loss',
+         'download TCCs',
+         'and communicate with the NRS on tax issues.']},
+ {'p': 'The portal opened for filing of all naira-denominated taxes on **7 June 2021** (per a circular dated '
+       '4 June 2021). Due to early registration/use hitches, companies with a 31 December accounting '
+       'year-end (returns otherwise due 30 June 2021) had their filing deadline extended to **31 July '
+       '2021**, without penalty/interest for the extension itself.'},
+ {'note': 'Taxpayers must register to access the portal, then log in to file returns — filing generates a '
+          'mandatory **Document Identity Number (DIN)**, required to remit taxes via the portal. The portal '
+          'may be used by taxpayers directly or by their approved agents. Taxpayers preferring hard-copy '
+          'filing may visit a local tax office for NRS staff to upload documents — done **at least 2 weeks '
+          'before the deadline**.'},
+ {'h4': '25.6.2  Filing requirements for value added tax (VAT)'},
+ {'steps': ['Fill the tax update form at any local NRS tax office.',
+            'Access the portal (taxpromax.nrs.gov.ng) and log in with your user details to reach the '
+            'dashboard.',
+            'Click "Taxes Due" and select the tax type.',
+            'Click "Process" to begin.',
+            'Fill in the required schedules — sales adjustment, exempt and zero-rated goods/services.',
+            'Click "Add Record" and "Proceed."',
+            'Ensure the VAT form loads once all schedules are complete.',
+            'Select the currency type under "Returning Currency."',
+            'Insert total sales/income, exclusive of VAT.',
+            'Tick the declaration-form box.',
+            'Confirm all entries before submission.']},
+ {'h4': '25.6.3  Filing requirements for companies income tax (CIT)'},
+ {'steps': ['Log in to taxpromax.nrs.gov.ng.',
+            'Click "Taxes Due."',
+            'Under the action column, click "Process" to reach the schedules.',
+            'The CIT form is generated once all schedules are complete.',
+            'Select the currency type (NGN, GBP, USD, CFA, EUR, etc.) under "Returning Currency."',
+            'Insert the total revenue amount — this auto-fills the remaining pre-fill boxes.',
+            'Click "Declaration" beneath the generated form, confirming the information is correct and in '
+            'accordance with the relevant Tax Act.',
+            'Select a payment option — full payment, or 2/3/4 instalments.',
+            'Click "Submit."',
+            'On the CIT assessment page, click "Review the CIT Assessment," then "Proceed to Payment."',
+            'Upload audited accounts, tax computations, notes to accounts, and memorandum/articles of '
+            'association — all documents in PDF, except notes to accounts (Excel); file size capped at '
+            '200KB.',
+            'Click "Submit."',
+            'On the payment page, review the description items and amounts, then click "Process to Payment," '
+            '"Pay Now," and "Pay" — the system generates a payment reference code.',
+            'Choose "Pay Online" (connects to the Remita platform with payer '
+            'name/phone/email/amount/reference code auto-filled) or "Pay at Bank" at any NRS-designated '
+            'bank.',
+            'Confirm payment and print the payment acknowledgment slip.']}],
                                },
                     {
                                  'n': '25.7',
                                  't': 'Operations of the NRS Rev360 solution relating to filing requirements and '
                                       'procedures',
-                                 'b': [
-                                                          {
-                                                                                'h4': '25.7.1  Company registration process',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Access registration: go to selfservice.nrs.gov.ng and click '
-                                                                                                                          '"Create New Account."',
-                                                                                                                          'Select "Corporate" as the entity category.',
-                                                                                                                          'Select the specific corporate category applicable to the '
-                                                                                                                          'business.',
-                                                                                                                          'Verify CAC details: enter the RC Number and click "Verify" — '
-                                                                                                                          'the system connects to CAC and auto-retrieves the company\'s '
-                                                                                                                          'registration details.',
-                                                                                                                          'OTP verification: an OTP is sent to the CAC-registered '
-                                                                                                                          'email/SMS to confirm ownership.',
-                                                                                                                          'Enter business information — contact details, commencement '
-                                                                                                                          'date, accounting year-end, business sector.',
-                                                                                                                          'Select the preferred Tax Office — recommended to choose the '
-                                                                                                                          'one closest to the business.',
-                                                                                                                          'Add a Tax Representative (optional) — enter their Tax ID if '
-                                                                                                                          'applicable.',
-                                                                                                                          'Save and resume (optional) — "Save Progress and Close" '
-                                                                                                                          'generates a Resume ID to continue registration later.',
-                                                                                                                          'Additional declarations — whether the company is part of a '
-                                                                                                                          'multinational enterprise group (if yes, add each entity\'s '
-                                                                                                                          'name/Tax ID/country of residence/% holding) and whether it '
-                                                                                                                          'has any foreign-controlled company (same 4 details for each).',
-                                                                                                                          'Upload required documents — a valid director\'s ID (National '
-                                                                                                                          'ID, international passport, or driver\'s licence) and a '
-                                                                                                                          'utility bill for address verification.',
-                                                                                                                          'Review CAC details — this information is automatically '
-                                                                                                                          'submitted to the NRS as part of registration.',
-                                                                                                                          'Submit registration — complete the Declarant Information '
-                                                                                                                          'section and click "Submit Form." Registration is then '
-                                                                                                                          'pending NRS verification.',
-                                                                                                                        ],
-                                                                              },
-                                                          {
-                                                                                'h4': 'Logging into Rev360',
-                                                                              },
-                                                          {
-                                                                                'steps': [
-                                                                                                                          'Go to selfservice.nrs.gov.ng.',
-                                                                                                                          'Click "Continue with NRS SSO."',
-                                                                                                                          'Enter your username and password (sent to your registered '
-                                                                                                                          'email during onboarding/migration).',
-                                                                                                                          'Click "Sign In." First-time users may be required to change '
-                                                                                                                          'their password; keep credentials secure and never share them.',
-                                                                                                                        ],
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '25.7.1  Company registration process'},
+ {'steps': ['Access registration: go to selfservice.nrs.gov.ng and click "Create New Account."',
+            'Select "Corporate" as the entity category.',
+            'Select the specific corporate category applicable to the business.',
+            'Verify CAC details: enter the RC Number and click "Verify" — the system connects to CAC and '
+            "auto-retrieves the company's registration details.",
+            'OTP verification: an OTP is sent to the CAC-registered email/SMS to confirm ownership.',
+            'Enter business information — contact details, commencement date, accounting year-end, business '
+            'sector.',
+            'Select the preferred Tax Office — recommended to choose the one closest to the business.',
+            'Add a Tax Representative (optional) — enter their Tax ID if applicable.',
+            'Save and resume (optional) — "Save Progress and Close" generates a Resume ID to continue '
+            'registration later.',
+            'Additional declarations — whether the company is part of a multinational enterprise group (if '
+            "yes, add each entity's name/Tax ID/country of residence/% holding) and whether it has any "
+            'foreign-controlled company (same 4 details for each).',
+            "Upload required documents — a valid director's ID (National ID, international passport, or "
+            "driver's licence) and a utility bill for address verification.",
+            'Review CAC details — this information is automatically submitted to the NRS as part of '
+            'registration.',
+            'Submit registration — complete the Declarant Information section and click "Submit Form." '
+            'Registration is then pending NRS verification.']},
+ {'h4': 'Logging into Rev360'},
+ {'steps': ['Go to selfservice.nrs.gov.ng.',
+            'Click "Continue with NRS SSO."',
+            'Enter your username and password (sent to your registered email during onboarding/migration).',
+            'Click "Sign In." First-time users may be required to change their password; keep credentials '
+            'secure and never share them.']},
+ {'warn': 'Source-number clarification: the Logging into Rev360 subsection on PDF page 575 / printed page '
+          '574 is printed as “27.7.2” inside Chapter 25. Its heading here uses 25.7.2; both identify the '
+          'same four-step login procedure.'}],
                                },
                     {
                                  'n': '25.8',
                                  't': 'New technologies for tax practice and administration',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Two future trends both rest on information technology: '
-                                                                                     '**increasing use of digital technology** (already happening '
-                                                                                     'globally — sophisticated tools enhancing traditional ways of '
-                                                                                     'serving clients); and a **radical shift/total takeover** '
-                                                                                     '(technology actively displacing, not just streamlining, the work '
-                                                                                     'of traditional tax professionals).',
-                                                                              },
-                                                          {
-                                                                                'h4': '25.8.1 – 25.8.6  Cloud computing, artificial intelligence and '
-                                                                                      'robotics, blockchain, data analytics, social media and mobile app '
-                                                                                      'technology',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Technology',
-                                                                                                                                                                             'Impact on tax practice',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Cloud computing**',
-                                                                                                                                                                                                                          'Accounting software modules for automated tax '
-                                                                                                                                                                                                                          'computation, returns preparation/filing, '
-                                                                                                                                                                                                                          'planning/forecasting, and payment — relieving '
-                                                                                                                                                                                                                          'firms of onsite server investment/maintenance, '
-                                                                                                                                                                                                                          'enabling remote work from any device/location, '
-                                                                                                                                                                                                                          'and facilitating practitioner-client '
-                                                                                                                                                                                                                          'collaboration.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**AI and robotics**',
-                                                                                                                                                                                                                          'Robotic Process Automation (RPA) handles '
-                                                                                                                                                                                                                          'routine/monotonous tasks; AI frees practitioners '
-                                                                                                                                                                                                                          'from time-consuming, repetitive work for '
-                                                                                                                                                                                                                          'higher-value advisory insight; **OCR** (optical '
-                                                                                                                                                                                                                          'character recognition) automates manual data '
-                                                                                                                                                                                                                          'entry by converting scanned/photographed text to '
-                                                                                                                                                                                                                          'digital files.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Blockchain**',
-                                                                                                                                                                                                                          'An open, secured, decentralised ledger — where '
-                                                                                                                                                                                                                          'tax consultants/authorities are given data-chain '
-                                                                                                                                                                                                                          'access, all parties can see each transaction and '
-                                                                                                                                                                                                                          'determine its tax implication; facilitates tax '
-                                                                                                                                                                                                                          'payments at reduced processing cost; enables '
-                                                                                                                                                                                                                          'smart contracts and asset-ownership verification.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Data analytics**',
-                                                                                                                                                                                                                          'Real-time monitoring of financial/tax matters; '
-                                                                                                                                                                                                                          'produces insights from both structured AND '
-                                                                                                                                                                                                                          'unstructured data; helps tax administrators '
-                                                                                                                                                                                                                          'improve internal operations and build revenue; '
-                                                                                                                                                                                                                          'helps practising firms offer more valuable '
-                                                                                                                                                                                                                          'advisory services.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Social media**',
-                                                                                                                                                                                                                          'Used primarily for disseminating tax information '
-                                                                                                                                                                                                                          '(wide reach, appeal to younger audiences) and '
-                                                                                                                                                                                                                          'for professional collaboration (Facebook, '
-                                                                                                                                                                                                                          'Instagram, Twitter/X, LinkedIn); increases '
-                                                                                                                                                                                                                          'practitioner visibility to clients.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Mobile apps**',
-                                                                                                                                                                                                                          'On-the-go access to client financial data '
-                                                                                                                                                                                                                          '(especially where clients use cloud accounting); '
-                                                                                                                                                                                                                          'tax authorities/practitioners can deploy their '
-                                                                                                                                                                                                                          'own apps for updates/news to taxpayers/clients.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'A numbering gap in the study text, flagged rather than silently '
-                                                                                        'corrected: this section\'s sub-sections run **25.8.1, 25.8.2, '
-                                                                                        '25.8.3, then 25.8.5 and 25.8.6** — there is **no 25.8.4** '
-                                                                                        'anywhere in the chapter. The six technologies are all '
-                                                                                        'discussed; only the number is missing. Note that §25.11 numbers '
-                                                                                        'the same six technologies consecutively as 25.11.1 to 25.11.6, '
-                                                                                        'which is how the set should read.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Two future trends both rest on information technology: **increasing use of digital technology** '
+       '(already happening globally — sophisticated tools enhancing traditional ways of serving clients); '
+       'and a **radical shift/total takeover** (technology actively displacing, not just streamlining, the '
+       'work of traditional tax professionals).'},
+ {'h4': '25.8.1  Cloud computing technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**Cloud computing**',
+                      'Accounting software modules for automated tax computation, returns '
+                      'preparation/filing, planning/forecasting, and payment — relieving firms of onsite '
+                      'server investment/maintenance, enabling remote work from any device/location, and '
+                      'facilitating practitioner-client collaboration.']]}},
+ {'h4': '25.8.2  Artificial intelligence and robotics'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**AI and robotics**',
+                      'Robotic Process Automation (RPA) handles routine/monotonous tasks; AI frees '
+                      'practitioners from time-consuming, repetitive work for higher-value advisory insight; '
+                      '**OCR** (optical character recognition) automates manual data entry by converting '
+                      'scanned/photographed text to digital files.']]}},
+ {'h4': '25.8.3  Blockchain technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**Blockchain**',
+                      'An open, secured, decentralised ledger — where tax consultants/authorities are given '
+                      'data-chain access, all parties can see each transaction and determine its tax '
+                      'implication; facilitates tax payments at reduced processing cost; enables smart '
+                      'contracts and asset-ownership verification.']]}},
+ {'h4': '25.8.4  Data analytics technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**Data analytics**',
+                      'Real-time monitoring of financial/tax matters; produces insights from both structured '
+                      'AND unstructured data; helps tax administrators improve internal operations and build '
+                      'revenue; helps practising firms offer more valuable advisory services.']]}},
+ {'h4': '25.8.5  Social media technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**Social media**',
+                      'Used primarily for disseminating tax information (wide reach, appeal to younger '
+                      'audiences) and for professional collaboration (Facebook, Instagram, Twitter/X, '
+                      'LinkedIn); increases practitioner visibility to clients.']]}},
+ {'h4': '25.8.6  Mobile app technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Impact on tax practice'],
+            'rows': [['**Mobile apps**',
+                      'On-the-go access to client financial data (especially where clients use cloud '
+                      'accounting); tax authorities/practitioners can deploy their own apps for updates/news '
+                      'to taxpayers/clients.']]}},
+ {'warn': 'Source-number clarification: the study text prints “25..8.4 Data analytics technology” with a '
+          'doubled dot at PDF page 577 / printed page 576. The readable heading above normalises that '
+          'typographical error to 25.8.4. The source discusses all six technologies consecutively; it does '
+          'not omit the fourth subsection.'}],
                                },
                     {
                                  'n': '25.9',
@@ -603,201 +478,112 @@ CH = {
                     {
                                  'n': '25.10',
                                  't': 'Taxes applicable to technology-based transactions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'E-business/e-commerce are now the norm, with most economic '
-                                                                                     'transactions executed online in real time. Common e-commerce '
-                                                                                     'examples: online shopping, online movies, internet banking, online '
-                                                                                     'ticketing/reservation, auction sites, journal subscriptions, and '
-                                                                                     'online betting/gaming.',
-                                                                              },
-                                                          {
-                                                                                'key': 'Income generated from technology-based transactions is **not '
-                                                                                       'exempt** from income tax — the traditional tax types (VAT, WHT, '
-                                                                                       'CIT, PIT) apply to e-commerce transactions just as they do to '
-                                                                                       'conventional ones. Some multinationals now separately line-item '
-                                                                                       'digital-business transactions in their own financial statements.',
-                                                                              },
-                                                          {
-                                                                                'p': 'A genuine practical difficulty: does a digital-space player '
-                                                                                     '(Google, Apple, Microsoft, Facebook, Jumia, Konga, etc.) pay the '
-                                                                                     'right amount of tax in every jurisdiction where its services are '
-                                                                                     'consumed, given it may have **no physical presence** there? This '
-                                                                                     'has driven many countries toward special taxes based on '
-                                                                                     '**significant economic presence (SEP)**, aligned with the OECD '
-                                                                                     'framework.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Digital Service Tax (DST) — international snapshot',
-                                                                              },
-                                                          {
-                                                                                'p': 'As at 14 October 2020: Austria, France, Hungary, Italy, Poland, '
-                                                                                     'Spain, Turkey and the UK had implemented a DST; Belgium, the Czech '
-                                                                                     'Republic and Slovakia had published DST proposals; and Latvia, '
-                                                                                     'Norway and Slovenia had signalled intent to implement one.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Jurisdiction',
-                                                                                                                                                                             'DST detail',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'United Kingdom',
-                                                                                                                                                                                                                          '2% on gross UK-generated revenues of large '
-                                                                                                                                                                                                                          'businesses providing a social media service, '
-                                                                                                                                                                                                                          'search engine, or online marketplace to UK-based '
-                                                                                                                                                                                                                          'users — applied from 1 April 2020.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'France',
-                                                                                                                                                                                                                          '3% tax on digital revenue for large tech '
-                                                                                                                                                                                                                          'companies (widely seen as targeting US tech '
-                                                                                                                                                                                                                          'giants) — France said it would withdraw the tax '
-                                                                                                                                                                                                                          'in favour of an internationally-negotiated OECD '
-                                                                                                                                                                                                                          'solution.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'note': 'In late February 2021, the incoming US administration dropped '
-                                                                                        'the prior administration\'s insistence on a "safe harbour" for '
-                                                                                        'companies, removing a key obstacle to a global digital-tax deal '
-                                                                                        '— the OECD at the time predicted an acceptable international '
-                                                                                        'agreement was likely by mid-2021.',
-                                                                              },
-                                                          {
-                                                                                'h4': 'Nigeria\'s response — Significant Economic Presence (SEP)',
-                                                                              },
-                                                          {
-                                                                                'key': 'Nigeria established a legal framework allowing it to tax the '
-                                                                                       'income of non-resident technology companies (NRTCs) whose '
-                                                                                       'activities constitute a **Significant Economic Presence** in '
-                                                                                       'Nigeria, where they lack a separately-incorporated local entity. '
-                                                                                       'Electronic transactions were also made subject to **stamp '
-                                                                                       'duties**.',
-                                                                              },
-                                                          {
-                                                                                'p': 'The Companies Income Tax (Significant Economic Presence) Order, '
-                                                                                     '2020 (published 29 May 2020, Official Gazette No. 21, Vol. 107 of '
-                                                                                     '10 February 2020) provides that a non-resident company has an SEP '
-                                                                                     'in Nigeria in any accounting year where it derives **≥N25 '
-                                                                                     'million** annual gross turnover (or its currency equivalent) from '
-                                                                                     'specified digital activities — OR falls into a second sub-category '
-                                                                                     'by:',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'using a Nigerian domain name;',
-                                                                                                                    'registering a website in Nigeria; or',
-                                                                                                                    'having a purposeful and sustained interaction with persons in '
-                                                                                                                    'Nigeria by customising its digital platforms to target them '
-                                                                                                                    '(the **localisation test**) — for example, reflecting product '
-                                                                                                                    'prices in naira, or offering naira billing/payment options.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'Some countries have also introduced regulatory frameworks '
-                                                                                        'making cryptocurrency transactions taxable. The (historical) '
-                                                                                        'Twitter ban in Nigeria reignited public debate over whether '
-                                                                                        'technology giants operating in the digital space were paying '
-                                                                                        'appropriate tax to Nigeria.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'E-business/e-commerce are now the norm, with most economic transactions executed online in real '
+       'time. Common e-commerce examples: online shopping, online movies, internet banking, online '
+       'ticketing/reservation, auction sites, journal subscriptions, and online betting/gaming.'},
+ {'key': 'Income generated from technology-based transactions is **not exempt** from income tax — the '
+         'traditional tax types (VAT, WHT, CIT, PIT) apply to e-commerce transactions just as they do to '
+         'conventional ones. Some multinationals now separately line-item digital-business transactions in '
+         'their own financial statements.'},
+ {'p': 'A genuine practical difficulty: does a digital-space player (Google, Apple, Microsoft, Facebook, '
+       'Jumia, Konga, etc.) pay the right amount of tax in every jurisdiction where its services are '
+       'consumed, given it may have **no physical presence** there? This has driven many countries toward '
+       'special taxes based on **significant economic presence (SEP)**, aligned with the OECD framework.'},
+ {'h4': 'Digital Service Tax (DST) — international snapshot'},
+ {'p': 'As at 14 October 2020:'},
+ {'ul': ['Austria, France, Hungary, Italy, Poland, Spain, Turkey and the UK had implemented a DST',
+         'Belgium, the Czech Republic and Slovakia had published DST proposals',
+         'and Latvia, Norway and Slovenia had signalled intent to implement one.']},
+ {'table': {'align': 'll',
+            'head': ['Jurisdiction', 'DST detail'],
+            'rows': [['United Kingdom',
+                      '2% on gross UK-generated revenues of large businesses providing a social media '
+                      'service, search engine, or online marketplace to UK-based users — applied from 1 '
+                      'April 2020.'],
+                     ['France',
+                      '3% tax on digital revenue for large tech companies (widely seen as targeting US tech '
+                      'giants) — France said it would withdraw the tax in favour of an '
+                      'internationally-negotiated OECD solution.']]}},
+ {'note': "In late February 2021, the incoming US administration dropped the prior administration's "
+          'insistence on a "safe harbour" for companies, removing a key obstacle to a global digital-tax '
+          'deal — the OECD at the time predicted an acceptable international agreement was likely by '
+          'mid-2021.'},
+ {'h4': "Nigeria's response — Significant Economic Presence (SEP)"},
+ {'key': 'Nigeria established a legal framework allowing it to tax the income of non-resident technology '
+         'companies (NRTCs) whose activities constitute a **Significant Economic Presence** in Nigeria, '
+         'where they lack a separately-incorporated local entity. Electronic transactions were also made '
+         'subject to **stamp duties**.'},
+ {'p': 'The Companies Income Tax (Significant Economic Presence) Order, 2020 (published 29 May 2020, '
+       'Official Gazette No. 21, Vol. 107 of 10 February 2020) provides that a non-resident company has an '
+       'SEP in Nigeria in any accounting year where it derives **≥N25 million** annual gross turnover (or '
+       'its currency equivalent) from specified digital activities — OR falls into a second sub-category '
+       'by:'},
+ {'ol': ['using a Nigerian domain name;',
+         'registering a website in Nigeria; or',
+         'having a purposeful and sustained interaction with persons in Nigeria by customising its digital '
+         'platforms to target them (the **localisation test**) — for example, reflecting product prices in '
+         'naira, or offering naira billing/payment options.']},
+ {'note': 'Some countries have also introduced regulatory frameworks making cryptocurrency transactions '
+          'taxable. The (historical) Twitter ban in Nigeria reignited public debate over whether technology '
+          'giants operating in the digital space were paying appropriate tax to Nigeria.'}],
                                },
                     {
                                  'n': '25.11',
                                  't': 'Technology as an effective tool for tax practitioners and administrators',
-                                 'b': [
-                                                          {
-                                                                                'note': 'The study text divides this section into **§25.11.1 to '
-                                                                                        '§25.11.6** — cloud technology, data analytics technology, '
-                                                                                        'artificial intelligence and robotics, social media technology, '
-                                                                                        'mobile app technology, and blockchain technology — taking in '
-                                                                                        'turn each of the technologies introduced at §25.8 and showing '
-                                                                                        'how a practitioner or administrator actually uses it.',
-                                                                              },
-                                                          {
-                                                                                'note': 'McKinsey has estimated that by 2030, intelligent agents/robots '
-                                                                                        'could replace up to 30% of the world\'s current human labour, '
-                                                                                        'causing 375 million people to switch job categories — raising '
-                                                                                        'the provocative question of whether robots should themselves be '
-                                                                                        'required to pay tax, given how many are being deployed to take '
-                                                                                        'over accountants\' repetitive tasks.',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Technology',
-                                                                                                                                                                             'Specific impact on tax work',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Cloud**',
-                                                                                                                                                                                                                          'Cloud-hosted tax management software; '
-                                                                                                                                                                                                                          'storage/retrieval of tax transaction data; '
-                                                                                                                                                                                                                          'access/analysis of tax data on any device, '
-                                                                                                                                                                                                                          'anywhere/anytime; robust dashboards; '
-                                                                                                                                                                                                                          'collaboration between tax authorities and/or '
-                                                                                                                                                                                                                          'taxpayers.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Data analytics**',
-                                                                                                                                                                                                                          'Statistical analysis of large data volumes for '
-                                                                                                                                                                                                                          'better business insight; identifying/predicting '
-                                                                                                                                                                                                                          'tax risk factors and anomalies; deeper-insight '
-                                                                                                                                                                                                                          'advisory services. For auditors specifically: '
-                                                                                                                                                                                                                          'checking transactions at source, reviewing 100% '
-                                                                                                                                                                                                                          'of a dataset (not just a sample), predictive '
-                                                                                                                                                                                                                          'risk-assessment analytics, and evaluating '
-                                                                                                                                                                                                                          'programmed tax controls.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**AI and robotics**',
-                                                                                                                                                                                                                          'OCR and voice recognition already in use; '
-                                                                                                                                                                                                                          'AI-enabled chatbots handle complex tasks like '
-                                                                                                                                                                                                                          'answering subtle taxation queries; zero data '
-                                                                                                                                                                                                                          'entry; machine learning from an auditor\'s own '
-                                                                                                                                                                                                                          'past conclusions applied to future scenarios; '
-                                                                                                                                                                                                                          'pattern identification across '
-                                                                                                                                                                                                                          'structured/unstructured data to flag "normal" '
-                                                                                                                                                                                                                          'vs. "abnormal" transactions.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Social media**',
-                                                                                                                                                                                                                          'Gaining visibility/exposure; being recognised as '
-                                                                                                                                                                                                                          'an expert; building an online professional '
-                                                                                                                                                                                                                          'network; keeping clients informed with prompt '
-                                                                                                                                                                                                                          'service.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Mobile apps**',
-                                                                                                                                                                                                                          'On-demand client data access on the go, without '
-                                                                                                                                                                                                                          'needing to start a laptop/computer and go online '
-                                                                                                                                                                                                                          '— information available with a single tap.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Blockchain**',
-                                                                                                                                                                                                                          'Decentralisation/distribution of a shared '
-                                                                                                                                                                                                                          'database; all parties (including tax '
-                                                                                                                                                                                                                          'authorities) involved in recording/validating a '
-                                                                                                                                                                                                                          'transaction from inception — meaning **no '
-                                                                                                                                                                                                                          'reconciliation needed** and **no tax audit '
-                                                                                                                                                                                                                          'required**. The immutable, '
-                                                                                                                                                                                                                          'identical-across-the-network ledger further '
-                                                                                                                                                                                                                          'offers: no single controlling entity, no single '
-                                                                                                                                                                                                                          'point of failure, enhanced security, enhanced '
-                                                                                                                                                                                                                          'transparency, and faster/more cost-effective '
-                                                                                                                                                                                                                          'processing.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'note': 'The study text divides this section into **§25.11.1 to §25.11.6** — cloud technology, data '
+          'analytics technology, artificial intelligence and robotics, social media technology, mobile app '
+          'technology, and blockchain technology — taking in turn each of the technologies introduced at '
+          '§25.8 and showing how a practitioner or administrator actually uses it.'},
+ {'note': 'McKinsey has estimated that by 2030, intelligent agents/robots could replace up to 30% of the '
+          "world's current human labour, causing 375 million people to switch job categories — raising the "
+          'provocative question of whether robots should themselves be required to pay tax, given how many '
+          "are being deployed to take over accountants' repetitive tasks."},
+ {'h4': '25.11.1  Cloud technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**Cloud**',
+                      'Cloud-hosted tax management software; storage/retrieval of tax transaction data; '
+                      'access/analysis of tax data on any device, anywhere/anytime; robust dashboards; '
+                      'collaboration between tax authorities and/or taxpayers.']]}},
+ {'h4': '25.11.2  Data analytics technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**Data analytics**',
+                      'Statistical analysis of large data volumes for better business insight; '
+                      'identifying/predicting tax risk factors and anomalies; deeper-insight advisory '
+                      'services. For auditors specifically: checking transactions at source, reviewing 100% '
+                      'of a dataset (not just a sample), predictive risk-assessment analytics, and '
+                      'evaluating programmed tax controls.']]}},
+ {'h4': '25.11.3  Artificial intelligence and robotics'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**AI and robotics**',
+                      'OCR and voice recognition already in use; AI-enabled chatbots handle complex tasks '
+                      'like answering subtle taxation queries; zero data entry; machine learning from an '
+                      "auditor's own past conclusions applied to future scenarios; pattern identification "
+                      'across structured/unstructured data to flag "normal" vs. "abnormal" transactions.']]}},
+ {'h4': '25.11.4  Social media technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**Social media**',
+                      'Gaining visibility/exposure; being recognised as an expert; building an online '
+                      'professional network; keeping clients informed with prompt service.']]}},
+ {'h4': '25.11.5  Mobile app technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**Mobile apps**',
+                      'On-demand client data access on the go, without needing to start a laptop/computer '
+                      'and go online — information available with a single tap.']]}},
+ {'h4': '25.11.6  Blockchain technology'},
+ {'table': {'align': 'll',
+            'head': ['Technology', 'Specific impact on tax work'],
+            'rows': [['**Blockchain**',
+                      'Decentralisation/distribution of a shared database; all parties (including tax '
+                      'authorities) involved in recording/validating a transaction from inception — meaning '
+                      '**no reconciliation needed** and **no tax audit required**. The immutable, '
+                      'identical-across-the-network ledger further offers: no single controlling entity, no '
+                      'single point of failure, enhanced security, enhanced transparency, and faster/more '
+                      'cost-effective processing.']]}}],
                                },
                     {
                                  'n': '25.12',
@@ -860,230 +646,111 @@ CH = {
                     {
                                  'n': '25.14',
                                  't': 'Chapter review',
-                                 'b': [
-                                                          {
-                                                                                'p': 'This — the final chapter of the Taxation subject — discussed: '
-                                                                                     'computer applications amenable to tax planning/administration; '
-                                                                                     'navigational skills for NRS and other tax portals; electronic '
-                                                                                     'filing of income tax returns; automated VAT management/returns; '
-                                                                                     'excel payroll software templates for computing employees\' tax; and '
-                                                                                     'the key features of the Nigeria Revenue Service\'s Integrated Tax '
-                                                                                     'Administration System (ITAS).',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'This — the final chapter of the Taxation subject — discussed:'},
+ {'ul': ['computer applications amenable to tax planning/administration',
+         'navigational skills for NRS and other tax portals',
+         'electronic filing of income tax returns',
+         'automated VAT management/returns',
+         "excel payroll software templates for computing employees' tax",
+         "and the key features of the Nigeria Revenue Service's Integrated Tax Administration System "
+         '(ITAS).']}],
                                },
                     {
                                  'n': '25.15',
                                  't': 'Worked examples — study text questions and suggested solutions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The study text sets **three questions** at §25.15.1, with its own '
-                                                                                     'suggested solutions at §25.15.2. All three are reproduced here in '
-                                                                                     'full, with the book\'s answers and added explanation. The book '
-                                                                                     'prints them as questions, not illustrations — there are no '
-                                                                                     'illustrations in this chapter.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'The aspects of tax administration handled by TAXPRO MAX '
-                                                                                                                         'and Rev360',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'In 2006, the NRS deployed the first tax portal '
-                                                                                                                                                                                                          '(Webportal) to automate and streamline taxpayer '
-                                                                                                                                                                                                          'registration and other administration processes. '
-                                                                                                                                                                                                          'In 2014, an ITAS known as SIGTAS was implemented. '
-                                                                                                                                                                                                          'More recently, the locally developed TaxPro Max '
-                                                                                                                                                                                                          'solution has handled different aspects of tax '
-                                                                                                                                                                                                          'administration, and on 30 April 2026 the NRS '
-                                                                                                                                                                                                          'introduced Rev360 with features designed to make '
-                                                                                                                                                                                                          'tax compliance easier, faster and more '
-                                                                                                                                                                                                          'transparent. **Required**: explain the different '
-                                                                                                                                                                                                          'aspects of tax administration that TaxPro Max and '
-                                                                                                                                                                                                          'Rev360 can handle.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The different aspects of tax administration that '
-                                                                                                                                                                                                          'can be handled by TaxPro Max and Rev360 include:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**e-registration** of taxpayers;',
-                                                                                                                                                                                                                                                          '**e-assessment**;',
-                                                                                                                                                                                                                                                          '**e-payment** of assessments;',
-                                                                                                                                                                                                                                                          '**e-filing** of returns;',
-                                                                                                                                                                                                                                                          'an **e-tax calculator**;',
-                                                                                                                                                                                                                                                          '**e-TCC** (electronic tax clearance '
-                                                                                                                                                                                                                                                          'certificates);',
-                                                                                                                                                                                                                                                          '**e-reporting**; and',
-                                                                                                                                                                                                                                                          '**e-tax audit**.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The eight functions cover the **whole '
-                                                                                                                                                                                                            'compliance cycle end to end** — from getting on '
-                                                                                                                                                                                                            'the register, through being assessed, paying, '
-                                                                                                                                                                                                            'filing and obtaining a TCC, to being audited. '
-                                                                                                                                                                                                            'That is the point of an **integrated** tax '
-                                                                                                                                                                                                            'administration system: the same platform '
-                                                                                                                                                                                                            'carries the taxpayer from registration under '
-                                                                                                                                                                                                            '§4.2 to the tax clearance certificate of '
-                                                                                                                                                                                                            'Chapter 6 and on to the tax audit of §4.10, '
-                                                                                                                                                                                                            'without the taxpayer ever attending a tax '
-                                                                                                                                                                                                            'office.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Know the **timeline** the question sets out, '
-                                                                                                                                                                                                             'because the dates are examinable: the first '
-                                                                                                                                                                                                             '**Webportal** in **2006**; the integrated tax '
-                                                                                                                                                                                                             'administration system **SIGTAS** in **2014**; '
-                                                                                                                                                                                                             'the locally developed **TaxPro Max**; and '
-                                                                                                                                                                                                             '**Rev360** from **30 April 2026**. The '
-                                                                                                                                                                                                             'progression is from a portal that merely '
-                                                                                                                                                                                                             'automated registration to a single solution '
-                                                                                                                                                                                                             'handling every aspect of administration.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 25.15.1, Question 1',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'Two reasons why a firm of accountants should leverage '
-                                                                                                                         'technology',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'There are many reasons a tax practitioner should '
-                                                                                                                                                                                                          'leverage new technology, such as cloud computing, '
-                                                                                                                                                                                                          'in their firm. **Required**: explain 2 reasons it '
-                                                                                                                                                                                                          'is beneficial for a firm of accountants to '
-                                                                                                                                                                                                          'leverage technology.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The main reasons why practice firms leverage '
-                                                                                                                                                                                                          'technology include:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**winning more clients** — the majority of '
-                                                                                                                                                                                                                                                          'clients would prefer to hire tax practice '
-                                                                                                                                                                                                                                                          'firms that are adaptive to technology changes;',
-                                                                                                                                                                                                                                                          '**retaining more clients** — the adoption and '
-                                                                                                                                                                                                                                                          'adaptation of modern technologies enables '
-                                                                                                                                                                                                                                                          'practising firms to render the much-needed '
-                                                                                                                                                                                                                                                          'valuable and improved services which make '
-                                                                                                                                                                                                                                                          'clients retain them;',
-                                                                                                                                                                                                                                                          '**cross-selling services** — technology '
-                                                                                                                                                                                                                                                          'provides platforms enabling practising firms '
-                                                                                                                                                                                                                                                          'to make their services more visible to many '
-                                                                                                                                                                                                                                                          'clients; and',
-                                                                                                                                                                                                                                                          '**adding greater value** — firms that adopt '
-                                                                                                                                                                                                                                                          'new technologies are able to automate most of '
-                                                                                                                                                                                                                                                          'the routine and labour-intensive tasks, which '
-                                                                                                                                                                                                                                                          'makes it possible for such firms to focus '
-                                                                                                                                                                                                                                                          'their attention on tasks that generate greater '
-                                                                                                                                                                                                                                                          'value for their clients.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The question asks for **two**. Give two and '
-                                                                                                                                                                                                            'develop them — the book\'s solution lists four, '
-                                                                                                                                                                                                            'but marks here go to **explanation rather than '
-                                                                                                                                                                                                            'enumeration**. The strongest pair is usually '
-                                                                                                                                                                                                            '**adding greater value** (automation frees '
-                                                                                                                                                                                                            'professional time for advisory work rather than '
-                                                                                                                                                                                                            'data entry) and **retaining clients** (better '
-                                                                                                                                                                                                            'service quality), because the other two follow '
-                                                                                                                                                                                                            'from them.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Note that all four reasons are **commercial**, '
-                                                                                                                                                                                                             'not technical — they are about the firm\'s '
-                                                                                                                                                                                                             'client base and the value of its output. That '
-                                                                                                                                                                                                             'is deliberate: §25.12 is about why a firm '
-                                                                                                                                                                                                             '*chooses* to invest in technology, while '
-                                                                                                                                                                                                             '§25.11 is about *how* each technology is '
-                                                                                                                                                                                                             'actually used and §25.13 about what goes wrong.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 25.15.1, Question 2',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    't': 'The current roles of tax administrators in Nigeria',
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'A tax system comprises tax policy, tax '
-                                                                                                                                                                                                          'legislation, and tax administration. Tax '
-                                                                                                                                                                                                          'administrators are public authorities empowered '
-                                                                                                                                                                                                          'to assess, collect and account for taxes for a '
-                                                                                                                                                                                                          'recognised jurisdiction. **Required**: explain '
-                                                                                                                                                                                                          'the current roles of tax administrators in '
-                                                                                                                                                                                                          'Nigeria.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The roles of the tax administrators include:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          '**registering and educating** taxpayers;',
-                                                                                                                                                                                                                                                          '**receiving tax returns** filed by taxpayers;',
-                                                                                                                                                                                                                                                          '**assessing** taxpayers (individuals and '
-                                                                                                                                                                                                                                                          'entities);',
-                                                                                                                                                                                                                                                          '**collecting, maintaining records and '
-                                                                                                                                                                                                                                                          'accounting for** taxes paid;',
-                                                                                                                                                                                                                                                          '**managing and processing tax refund '
-                                                                                                                                                                                                                                                          'applications**;',
-                                                                                                                                                                                                                                                          'conducting **routine tax audits, '
-                                                                                                                                                                                                                                                          'investigations**, etc.;',
-                                                                                                                                                                                                                                                          '**managing and enforcing tax debt recovery**; '
-                                                                                                                                                                                                                                                          'and',
-                                                                                                                                                                                                                                                          '**advising on the review of tax legislation '
-                                                                                                                                                                                                                                                          'and regulations**.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The question\'s own preamble gives the framework '
-                                                                                                                                                                                                            'an answer should use: a tax system comprises '
-                                                                                                                                                                                                            '**tax policy, tax legislation and tax '
-                                                                                                                                                                                                            'administration**, and tax administrators are '
-                                                                                                                                                                                                            'the public authorities **empowered to assess, '
-                                                                                                                                                                                                            'collect and account for taxes**. The eight '
-                                                                                                                                                                                                            'roles then fall into that shape — assess (iii), '
-                                                                                                                                                                                                            'collect and account (iv), with registration and '
-                                                                                                                                                                                                            'education before, audit and enforcement behind, '
-                                                                                                                                                                                                            'and an **advisory role on legislation** that '
-                                                                                                                                                                                                            'feeds back into the other two limbs of the '
-                                                                                                                                                                                                            'system.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Each of these roles has a statutory home '
-                                                                                                                                                                                                             'elsewhere in the subject, which is worth '
-                                                                                                                                                                                                             'citing: registration at **§4.2**, receipt of '
-                                                                                                                                                                                                             'returns at **§4.3 and §4.4**, assessment at '
-                                                                                                                                                                                                             '**§4.8**, collection at **§4.9**, refunds at '
-                                                                                                                                                                                                             '**§4.9.3**, audit and investigation at '
-                                                                                                                                                                                                             '**§4.10**, and debt recovery at **§4.10.8 and '
-                                                                                                                                                                                                             '§4.10.9**. The administrators themselves — the '
-                                                                                                                                                                                                             'NRS, the State Services, the Joint Revenue '
-                                                                                                                                                                                                             'Board and the local government revenue '
-                                                                                                                                                                                                             'committees — are at **§2.4**.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'tag': 'Study text — 25.15.1, Question 3',
-                                                                                                                    'open': True,
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The study text sets **three questions** at §25.15.1, with its own suggested solutions at §25.15.2. '
+       "All three are reproduced here in full, with the book's answers and added explanation. The book "
+       'prints them as questions, not illustrations — there are no illustrations in this chapter.'},
+ {'eg': {'t': 'The aspects of tax administration handled by TAXPRO MAX and Rev360',
+         'q': [{'p': 'In 2006, the NRS deployed the first tax portal (Webportal) to automate and streamline '
+                     'taxpayer registration and other administration processes. In 2014, an ITAS known as '
+                     'SIGTAS was implemented. More recently, the locally developed TaxPro Max solution has '
+                     'handled different aspects of tax administration, and on 30 April 2026 the NRS '
+                     'introduced Rev360 with features designed to make tax compliance easier, faster and '
+                     'more transparent. **Required**: explain the different aspects of tax administration '
+                     'that TaxPro Max and Rev360 can handle.'}],
+         'a': [{'p': 'The different aspects of tax administration that can be handled by TaxPro Max and '
+                     'Rev360 include:'},
+               {'ol': ['**e-registration** of taxpayers;',
+                       '**e-assessment**;',
+                       '**e-payment** of assessments;',
+                       '**e-filing** of returns;',
+                       'an **e-tax calculator**;',
+                       '**e-TCC** (electronic tax clearance certificates);',
+                       '**e-reporting**; and',
+                       '**e-tax audit**.']},
+               {'key': 'The eight functions cover the **whole compliance cycle end to end** — from getting '
+                       'on the register, through being assessed, paying, filing and obtaining a TCC, to '
+                       'being audited. That is the point of an **integrated** tax administration system: the '
+                       'same platform carries the taxpayer from registration under §4.2 to the tax clearance '
+                       'certificate of Chapter 6 and on to the tax audit of §4.10, without the taxpayer ever '
+                       'attending a tax office.'},
+               {'note': [{'p': 'Know the **timeline** the question sets out, because the dates are '
+                               'examinable:'},
+                         {'ul': ['the first **Webportal** in **2006**',
+                                 'the integrated tax administration system **SIGTAS** in **2014**',
+                                 'the locally developed **TaxPro Max**',
+                                 'and **Rev360** from **30 April 2026**. The progression is from a portal '
+                                 'that merely automated registration to a single solution handling every '
+                                 'aspect of administration.']}]}],
+         'tag': 'Study text — 25.15.1, Question 1',
+         'open': True}},
+ {'eg': {'t': 'Two reasons why a firm of accountants should leverage technology',
+         'q': [{'p': 'There are many reasons a tax practitioner should leverage new technology, such as '
+                     'cloud computing, in their firm. **Required**: explain 2 reasons it is beneficial for a '
+                     'firm of accountants to leverage technology.'}],
+         'a': [{'p': 'The main reasons why practice firms leverage technology include:'},
+               {'ol': ['**winning more clients** — the majority of clients would prefer to hire tax practice '
+                       'firms that are adaptive to technology changes;',
+                       '**retaining more clients** — the adoption and adaptation of modern technologies '
+                       'enables practising firms to render the much-needed valuable and improved services '
+                       'which make clients retain them;',
+                       '**cross-selling services** — technology provides platforms enabling practising firms '
+                       'to make their services more visible to many clients; and',
+                       '**adding greater value** — firms that adopt new technologies are able to automate '
+                       'most of the routine and labour-intensive tasks, which makes it possible for such '
+                       'firms to focus their attention on tasks that generate greater value for their '
+                       'clients.']},
+               {'key': "The question asks for **two**. Give two and develop them — the book's solution lists "
+                       'four, but marks here go to **explanation rather than enumeration**. The strongest '
+                       'pair is usually **adding greater value** (automation frees professional time for '
+                       'advisory work rather than data entry) and **retaining clients** (better service '
+                       'quality), because the other two follow from them.'},
+               {'note': 'Note that all four reasons are **commercial**, not technical — they are about the '
+                        "firm's client base and the value of its output. That is deliberate: §25.12 is about "
+                        'why a firm *chooses* to invest in technology, while §25.11 is about *how* each '
+                        'technology is actually used and §25.13 about what goes wrong.'}],
+         'tag': 'Study text — 25.15.1, Question 2',
+         'open': True}},
+ {'eg': {'t': 'The current roles of tax administrators in Nigeria',
+         'q': [{'p': 'A tax system comprises tax policy, tax legislation, and tax administration. Tax '
+                     'administrators are public authorities empowered to assess, collect and account for '
+                     'taxes for a recognised jurisdiction. **Required**: explain the current roles of tax '
+                     'administrators in Nigeria.'}],
+         'a': [{'p': 'The roles of the tax administrators include:'},
+               {'ol': ['**registering and educating** taxpayers;',
+                       '**receiving tax returns** filed by taxpayers;',
+                       '**assessing** taxpayers (individuals and entities);',
+                       '**collecting, maintaining records and accounting for** taxes paid;',
+                       '**managing and processing tax refund applications**;',
+                       'conducting **routine tax audits, investigations**, etc.;',
+                       '**managing and enforcing tax debt recovery**; and',
+                       '**advising on the review of tax legislation and regulations**.']},
+               {'key': "The question's own preamble gives the framework an answer should use: a tax system "
+                       'comprises **tax policy, tax legislation and tax administration**, and tax '
+                       'administrators are the public authorities **empowered to assess, collect and account '
+                       'for taxes**. The eight roles then fall into that shape — assess (iii), collect and '
+                       'account (iv), with registration and education before, audit and enforcement behind, '
+                       'and an **advisory role on legislation** that feeds back into the other two limbs of '
+                       'the system.'},
+               {'note': 'Each of these roles has a statutory home elsewhere in the subject, which is worth '
+                        'citing: registration at **§4.2**, receipt of returns at **§4.3 and §4.4**, '
+                        'assessment at **§4.8**, collection at **§4.9**, refunds at **§4.9.3**, audit and '
+                        'investigation at **§4.10**, and debt recovery at **§4.10.8 and §4.10.9**. The '
+                        'administrators themselves — the NRS, the State Services, the Joint Revenue Board '
+                        'and the local government revenue committees — are at **§2.4**.'}],
+         'tag': 'Study text — 25.15.1, Question 3',
+         'open': True}}],
                                },
                   ],
  'formulas': [

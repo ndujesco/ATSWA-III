@@ -167,7 +167,12 @@ def run(papers=None, published=True):
     for source in law_sources['sources']:
         path = ROOT.parent / source['localFile']
         assert hashlib.sha256(path.read_bytes()).hexdigest() == source['sha256'], source['title']
+    study_figures = json.loads((DATA / 'study-figures.json').read_text())
+    assert hashlib.sha256((ROOT.parent / study_figures['source']).read_bytes()).hexdigest() == study_figures['sourceSha256']
+    assert all((ROOT / item['src']).is_file() for item in study_figures['pages'])
     report = {'papers': len(papers), 'diets': len(diets), 'questions': dict(totals),
+              'studyFigurePages': len(study_figures['pages']),
+              'studyFigureAndTableCaptions': len(study_figures['captions']),
               'citations': {code: dict(counts) for code, counts in citation_counts.items()},
               'additionalReadingLinks': reading_links,
               'flags': len(exams['flags']), 'revisionSourceQuestions': len(revision_keys),

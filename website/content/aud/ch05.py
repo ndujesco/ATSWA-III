@@ -21,156 +21,122 @@ CH = {
    'Differentiate between current and permanent audit files',
  ],
  'secs': [
-  {'n': '5.1', 't': 'Audit planning procedures', 'b': [
-    {'def': {'t': 'Audit plan', 'd': 'the specific guideline followed when conducting an '
-                  'audit — helping the auditor obtain sufficient evidence, keep audit cost at a '
-                  'reasonable level, and avoid misunderstandings with the client.'}},
-    {'p': 'The form and nature of planning required is affected by the enterprise\'s size and '
-          'complexity, its commercial environment, its transaction-processing methods, and its '
-          'reporting requirements.'},
-    {'def': {'t': 'Audit planning', 'd': 'the formulation of the general strategy for an audit, '
-                  'which sets the audit\'s direction, describes its expected scope and conduct, '
-                  'and guides the development of the audit programme.'}},
-    {'p': 'Adequate audit planning aims at:'},
-    {'ol': [
-      'establishing the intended means of achieving the audit\'s objectives;',
-      'assisting in the direction and control of the work;',
-      'helping ensure attention is devoted to critical aspects of the audit work;',
-      'ensuring the work is completed expeditiously;',
-      'facilitating review of the audit work; and',
-      'helping assign proper tasks to audit team members and co-ordinating outside experts.',
-    ]},
-
-    {'h4': '§5.1.1 Planning an audit of financial statements'},
-    {'ul': [
-      'The auditor should plan the audit so the engagement is performed effectively and '
-      'efficiently;',
-      'Planning involves establishing the overall audit strategy and developing an audit plan, '
-      'to reduce audit risk to an acceptably low level;',
-      'Planning involves the engagement partner and other key team members, to benefit from '
-      'their experience/insight and enhance the planning process\'s effectiveness/efficiency;',
-      'Adequate planning ensures appropriate attention to important aspects/areas; that '
-      'potential problems are identified and resolved on a timely basis; and that the '
-      'engagement is properly organised and managed;',
-      'Adequate planning also assists proper task assignment, facilitates direction/'
-      'supervision/review of team members\' work, and helps coordinate the work of component '
-      'auditors and experts.',
-    ]},
-    {'key': 'Planning is **not a discrete phase** of an audit — it is a **continual and '
-            'iterative process**, often beginning shortly after (or in connection with) the '
-            'completion of the previous audit, and continuing until the current engagement is '
-            'complete.'},
-
-    {'h4': '§5.1.2 Preliminary engagement activities'},
-    {'p': 'At the beginning of the current engagement, the auditor should:'},
-    {'ol': [
-      'perform procedures regarding continuance of the client relationship and the specific '
-      'engagement;',
-      'evaluate compliance with ethical requirements, including independence; and',
-      'establish an understanding of the engagement\'s terms.',
-    ]},
-    {'key': 'The purpose is to ensure the auditor plans an engagement for which: **independence '
-            'and the ability to perform** the engagement are maintained; there are **no '
-            'management-integrity issues** that would affect willingness to continue; and there '
-            'is **no misunderstanding** with the client over the engagement\'s terms.'},
-
-    {'h4': '§5.1.3 The overall audit strategy'},
-    {'def': {'t': 'Overall audit strategy', 'd': 'sets the scope, timing and direction of the '
-                  'audit, and guides development of the more detailed audit plan.'}},
-    {'p': 'Establishing it involves:'},
-    {'ol': [
-      'determining the engagement\'s scope-defining characteristics (financial reporting '
-      'framework, industry-specific requirements, locations of entity components);',
-      'ascertaining the reporting objectives, to plan timing and required communications '
-      '(interim/final reporting deadlines, key dates for management/governance '
-      'communication); and',
-      'considering the factors determining the team\'s focus (materiality levels, preliminary '
-      'high-risk areas, material components/balances, whether to test internal control '
-      'effectiveness, recent significant developments).',
-    ]},
-    {'p': 'The overall audit strategy sets out clearly:'},
-    {'ul': [
-      'the resources to deploy for specific areas (e.g. experienced staff for high-risk areas, '
-      'expert involvement for complex matters);',
-      'the number of resources allocated (material locations, review of other auditors\' work, '
-      'the hour budget for high-risk areas);',
-      'when resources are deployed (interim stage or key cut-off dates); and',
-      'how resources are managed, directed and supervised (briefing/debriefing meetings, '
-      'partner/manager review timing, quality control review completion).',
-    ]},
-    {'note': 'Although the auditor ordinarily establishes the overall strategy before the '
-             'detailed plan, the two are **not strictly sequential** — they are closely '
-             'inter-related, since changes in one often trigger consequential changes to the '
-             'other. In audits of small entities, strategy-setting need not be complex or '
-             'time-consuming — a brief memorandum from the previous audit\'s completion, updated '
-             'through discussion with the owner-manager, can suffice.'},
-
-    {'h4': '§5.1.4 The audit plan'},
-    {'p': 'The audit plan is **more detailed** than the overall strategy, including the nature, '
-          'timing and extent of procedures team members will perform to obtain sufficient '
-          'appropriate audit evidence. It includes:'},
-    {'ol': [
-      'a description of the nature, timing and extent of planned risk assessment procedures, '
-      'sufficient to assess the risks of material misstatement;',
-      'a description of the nature, timing and extent of planned further audit procedures at '
-      'the assertion level, for each material class of transactions, account balance and '
-      'disclosure;',
-      'the plan for further audit procedures, reflecting whether to test control-operating '
-      'effectiveness, and the nature/timing/extent of substantive procedures; and',
-      'other required audit procedures for the engagement.',
-    ]},
-    {'key': 'Planning of specific further audit procedures **depends on the outcome of risk '
-            'assessment procedures** — risk assessment planning ordinarily happens early, while '
-            'detailed substantive/control-testing planning follows once those risk assessment '
-            'results are known.'},
-
-    {'h4': '§5.1.5 Changes to planning decisions during the audit'},
-    {'p': 'The overall strategy and audit plan should be updated as necessary during the audit. '
-          'Planning is continual and iterative — unexpected events, changed conditions, or '
-          'contradictory audit evidence may require the auditor to modify the strategy/plan and '
-          'the resulting nature/timing/extent of further procedures, re-evaluating planned '
-          'procedures based on revised risk assessment.'},
-
-    {'h4': '§5.1.6 Direction, supervision and review of audit work'},
-    {'key': 'The nature/timing/extent of direction, supervision and review are planned based on '
-            'the **assessed risk of material misstatement** — as that risk increases for a '
-            'given audit area, the auditor ordinarily increases direction/supervision extent '
-            'and timeliness, and performs a more detailed review, also factoring in the team\'s '
-            'own capabilities and competence.'},
-    {'note': 'In a small entity audited entirely by the engagement partner (possibly a sole '
-             'practitioner), questions of directing/supervising a team simply do not arise — but '
-             'the partner still needs to be satisfied the audit follows ISAs. Forming an '
-             'objective view of judgments made can be practically difficult when the same '
-             'individual performed the entire audit — for complex or unusual issues, it may be '
-             'desirable to consult other experienced auditors or the professional body.'},
-
-    {'h4': '§5.1.7 Procedures of audit planning'},
-    {'p': 'The auditor considers the outline audit approach, including reliance on internal '
-          'controls and any area needing particular attention, plus any agreed additional work. '
-          'Preparatory procedures to consider:'},
-    {'ol': [
-      'reviewing matters raised in the previous year\'s audit with continuing relevance;',
-      'assessing the effects of legislative/accounting-practice changes on the financial '
-      'statements;',
-      'reviewing interim/management accounts and consulting management/staff (current trading '
-      'circumstances, significant business/management changes);',
-      'identifying significant changes in accounting procedures (e.g. new accounting '
-      'software);',
-      'determining the number, experience and special skills of audit staff needed, and their '
-      'visit timing;',
-      'briefing the team on the client\'s affairs and the required work\'s nature/scope;',
-      'considering the need for expert help and involvement of auditors in group audits;',
-      'preparing the planning memorandum setting out the outline audit approach;',
-      'establishing materiality and risk factors;',
-      'setting out the audit programme of tests to be undertaken;',
-      'establishing initial sample sizes for testing;',
-      'setting staff allocation and a fee budget — used to control time spent, with major '
-      'variances (under or over) investigated by the engagement manager;',
-      'informing the client of the auditor\'s expected attendance dates; and',
-      'liaising with joint auditors, where applicable, to allocate work and agree control/'
-      'review procedures.',
-    ]},
-  ]},
+  {'n': '5.1', 't': 'Audit planning procedures', 'b': [{'def': {'t': 'Audit plan',
+          'd': 'the specific guideline followed when conducting an audit — helping the auditor obtain '
+               'sufficient evidence, keep audit cost at a reasonable level, and avoid misunderstandings with '
+               'the client.'}},
+ {'p': "The form and nature of planning required is affected by the enterprise's size and complexity, its "
+       'commercial environment, its transaction-processing methods, and its reporting requirements.'},
+ {'def': {'t': 'Audit planning',
+          'd': "the formulation of the general strategy for an audit, which sets the audit's direction, "
+               'describes its expected scope and conduct, and guides the development of the audit '
+               'programme.'}},
+ {'p': 'Adequate audit planning aims at:'},
+ {'ol': ["establishing the intended means of achieving the audit's objectives;",
+         'assisting in the direction and control of the work;',
+         'helping ensure attention is devoted to critical aspects of the audit work;',
+         'ensuring the work is completed expeditiously;',
+         'facilitating review of the audit work; and',
+         'helping assign proper tasks to audit team members and co-ordinating outside experts.']},
+ {'h4': '§5.1.1 Planning an audit of financial statements'},
+ {'ul': ['The auditor should plan the audit so the engagement is performed effectively and efficiently;',
+         'Planning involves establishing the overall audit strategy and developing an audit plan, to reduce '
+         'audit risk to an acceptably low level;',
+         'Planning involves the engagement partner and other key team members, to benefit from their '
+         "experience/insight and enhance the planning process's effectiveness/efficiency;",
+         'Adequate planning ensures appropriate attention to important aspects/areas; that potential '
+         'problems are identified and resolved on a timely basis; and that the engagement is properly '
+         'organised and managed;',
+         'Adequate planning also assists proper task assignment, facilitates direction/supervision/review of '
+         "team members' work, and helps coordinate the work of component auditors and experts."]},
+ {'key': 'Planning is **not a discrete phase** of an audit — it is a **continual and iterative process**, '
+         'often beginning shortly after (or in connection with) the completion of the previous audit, and '
+         'continuing until the current engagement is complete.'},
+ {'h4': '§5.1.2 Preliminary engagement activities'},
+ {'p': 'At the beginning of the current engagement, the auditor should:'},
+ {'ol': ['perform procedures regarding continuance of the client relationship and the specific engagement;',
+         'evaluate compliance with ethical requirements, including independence; and',
+         "establish an understanding of the engagement's terms."]},
+ {'key': [{'p': 'The purpose is to ensure the auditor plans an engagement for which:'},
+          {'ul': ['**independence and the ability to perform** the engagement are maintained',
+                  'there are **no management-integrity issues** that would affect willingness to continue',
+                  "and there is **no misunderstanding** with the client over the engagement's terms."]}]},
+ {'h4': '§5.1.3 The overall audit strategy'},
+ {'def': {'t': 'Overall audit strategy',
+          'd': 'sets the scope, timing and direction of the audit, and guides development of the more '
+               'detailed audit plan.'}},
+ {'p': 'Establishing it involves:'},
+ {'ol': ["determining the engagement's scope-defining characteristics (financial reporting framework, "
+         'industry-specific requirements, locations of entity components);',
+         'ascertaining the reporting objectives, to plan timing and required communications (interim/final '
+         'reporting deadlines, key dates for management/governance communication); and',
+         "considering the factors determining the team's focus (materiality levels, preliminary high-risk "
+         'areas, material components/balances, whether to test internal control effectiveness, recent '
+         'significant developments).']},
+ {'p': 'The overall audit strategy sets out clearly:'},
+ {'ul': ['the resources to deploy for specific areas (e.g. experienced staff for high-risk areas, expert '
+         'involvement for complex matters);',
+         "the number of resources allocated (material locations, review of other auditors' work, the hour "
+         'budget for high-risk areas);',
+         'when resources are deployed (interim stage or key cut-off dates); and',
+         'how resources are managed, directed and supervised (briefing/debriefing meetings, partner/manager '
+         'review timing, quality control review completion).']},
+ {'note': 'Although the auditor ordinarily establishes the overall strategy before the detailed plan, the '
+          'two are **not strictly sequential** — they are closely inter-related, since changes in one often '
+          'trigger consequential changes to the other. In audits of small entities, strategy-setting need '
+          "not be complex or time-consuming — a brief memorandum from the previous audit's completion, "
+          'updated through discussion with the owner-manager, can suffice.'},
+ {'h4': '§5.1.4 The audit plan'},
+ {'p': 'The audit plan is **more detailed** than the overall strategy, including the nature, timing and '
+       'extent of procedures team members will perform to obtain sufficient appropriate audit evidence. It '
+       'includes:'},
+ {'ol': ['a description of the nature, timing and extent of planned risk assessment procedures, sufficient '
+         'to assess the risks of material misstatement;',
+         'a description of the nature, timing and extent of planned further audit procedures at the '
+         'assertion level, for each material class of transactions, account balance and disclosure;',
+         'the plan for further audit procedures, reflecting whether to test control-operating effectiveness, '
+         'and the nature/timing/extent of substantive procedures; and',
+         'other required audit procedures for the engagement.']},
+ {'key': 'Planning of specific further audit procedures **depends on the outcome of risk assessment '
+         'procedures** — risk assessment planning ordinarily happens early, while detailed '
+         'substantive/control-testing planning follows once those risk assessment results are known.'},
+ {'h4': '§5.1.5 Changes to planning decisions during the audit'},
+ {'p': 'The overall strategy and audit plan should be updated as necessary during the audit. Planning is '
+       'continual and iterative — unexpected events, changed conditions, or contradictory audit evidence may '
+       'require the auditor to modify the strategy/plan and the resulting nature/timing/extent of further '
+       'procedures, re-evaluating planned procedures based on revised risk assessment.'},
+ {'h4': '§5.1.6 Direction, supervision and review of audit work'},
+ {'key': 'The nature/timing/extent of direction, supervision and review are planned based on the **assessed '
+         'risk of material misstatement** — as that risk increases for a given audit area, the auditor '
+         'ordinarily increases direction/supervision extent and timeliness, and performs a more detailed '
+         "review, also factoring in the team's own capabilities and competence."},
+ {'note': 'In a small entity audited entirely by the engagement partner (possibly a sole practitioner), '
+          'questions of directing/supervising a team simply do not arise — but the partner still needs to be '
+          'satisfied the audit follows ISAs. Forming an objective view of judgments made can be practically '
+          'difficult when the same individual performed the entire audit — for complex or unusual issues, it '
+          'may be desirable to consult other experienced auditors or the professional body.'},
+ {'h4': '§5.1.7 Procedures of audit planning'},
+ {'p': 'The auditor considers the outline audit approach, including reliance on internal controls and any '
+       'area needing particular attention, plus any agreed additional work. Preparatory procedures to '
+       'consider:'},
+ {'ol': ["reviewing matters raised in the previous year's audit with continuing relevance;",
+         'assessing the effects of legislative/accounting-practice changes on the financial statements;',
+         'reviewing interim/management accounts and consulting management/staff (current trading '
+         'circumstances, significant business/management changes);',
+         'identifying significant changes in accounting procedures (e.g. new accounting software);',
+         'determining the number, experience and special skills of audit staff needed, and their visit '
+         'timing;',
+         "briefing the team on the client's affairs and the required work's nature/scope;",
+         'considering the need for expert help and involvement of auditors in group audits;',
+         'preparing the planning memorandum setting out the outline audit approach;',
+         'establishing materiality and risk factors;',
+         'setting out the audit programme of tests to be undertaken;',
+         'establishing initial sample sizes for testing;',
+         'setting staff allocation and a fee budget — used to control time spent, with major variances '
+         '(under or over) investigated by the engagement manager;',
+         "informing the client of the auditor's expected attendance dates; and",
+         'liaising with joint auditors, where applicable, to allocate work and agree control/review '
+         'procedures.']}]},
 
   {'n': '5.2', 't': 'Audit Planning Memorandum (APM)', 'b': [
     {'p': 'It is essential that the auditor documents the overall audit plan to cover:'},
@@ -221,118 +187,111 @@ CH = {
     ]}},
   ]},
 
-  {'n': '5.3', 't': 'Knowledge of the client\'s business', 'b': [
-    {'h4': '§5.3.1 Introduction'},
-    {'key': 'Knowledge-building happens in **two stages**: prior to accepting an engagement, '
-            'the auditor obtains **preliminary** knowledge (industry, ownership, management, '
-            'operations) sufficient to judge their ability and willingness to undertake the '
-            'audit; after acceptance, they obtain **more detailed** knowledge sufficient to '
-            'plan the audit, develop an effective approach, and understand events/practices '
-            'with a significant effect on the financial statements or the audit work.'},
-    {'p': 'What should be known about the client:'},
-    {'ol': [
-      'general economic factors and industry conditions affecting the entity\'s business;',
-      'important characteristics of the entity, its business, financial performance and '
-      'reporting requirements, including changes since the last audit;',
-      'the general level of competence of management, and recent management changes;',
-      'the accounting policies adopted and changes in them;',
-      'the effect of new legislation, accounting or auditing pronouncements;',
-      'the regulatory framework, if any; and',
-      'the auditors\' cumulative knowledge of the accounting/internal control systems and any '
-      'expected changes.',
-    ]},
-    {'note': 'In succeeding periods, the auditor considers previously gathered information and '
-             'performs procedures to identify **significant changes** since the last audit — '
-             'client knowledge is cumulative across audits, not rebuilt from scratch each time.'},
-
-    {'h4': '§5.3.2 Sources of knowledge'},
-    {'ol': [
-      'previous experience with the entity and its industry;',
-      'discussion with people within the entity (junior and senior managers);',
-      'discussion with internal audit personnel, and review of internal audit reports;',
-      'discussion with auditors (including predecessor auditors) and legal/other advisers who '
-      'have served the entity or industry;',
-      'discussion with knowledgeable outsiders (industry economists, regulators, customers, '
-      'suppliers, competitors);',
-      'industry publications (government, banks, regulators, financial newspapers);',
-      'legislation and regulations significantly affecting the entity;',
-      'visits to the entity\'s premises and plant facilities;',
-      'internal documents (minutes, shareholder materials, promotional literature, prior-year '
-      'annual/financial reports, budgets, management reports, interim reports, policies, '
-      'accounts, job descriptions, marketing/sales plans); and',
-      'industry-specific guidance (e.g. government/regulator circulars).',
-    ]},
-
-    {'h4': '§5.3.3 Using the knowledge'},
-    {'p': 'Understanding the business, and using it appropriately, assists the auditor in:'},
-    {'ol': [
-      'assessing risks and identifying problems;',
-      'planning and performing the audit effectively and efficiently; and',
-      'evaluating audit evidence.',
-    ]},
-    {'p': 'Business knowledge informs judgment throughout the audit, for example when:'},
-    {'ul': [
-      'assessing inherent and control risks;',
-      'considering business risks and management\'s response to them;',
-      'developing the overall audit plan and audit programme;',
-      'determining a materiality level, and assessing whether it remains appropriate;',
-      'assessing audit evidence\'s appropriateness and the validity of related assertions;',
-      'evaluating accounting estimates and management representations;',
-      'identifying areas needing special audit consideration and skill;',
-      'identifying related parties and related-party transactions;',
-      'recognising conflicting information (e.g. contradictory representations);',
-      'making informed enquiries and assessing the reasonableness of answers; and',
-      'considering the appropriateness of accounting policies and disclosures.',
-    ]},
-    {'key': 'The engagement partner must ensure assistants assigned to the audit obtain '
-            'sufficient business knowledge to carry out their delegated work — passed on '
-            'initially via the APM or a briefing meeting, and subsequently as the audit '
-            'proceeds. The partner must also ensure assistants understand the need to '
-            '**actively share** additional information they encounter, not just receive it.'},
-
-    {'h4': '§5.3.4 Matters to consider'},
-    {'p': 'The matters relevant to knowledge of the client\'s business fall into five groups:'},
-    {'table': {'align': 'll', 'head': ['Group', 'Key matters'], 'rows': [
-      ['**General economic factors**', 'Level of economic activity (growth/recession); '
-       'interest rates and financing availability; inflation; government monetary/fiscal/trade '
-       'policy; foreign currency rates and control.'],
-      ['**Industry conditions**', 'Market and competition; cyclical/seasonal activity; product '
-       'technology changes; business risk (e.g. high-tech, high-fashion, easy market entry); '
-       'declining/expanding operations; adverse conditions (declining demand, excess capacity, '
-       'price competition); key ratios/operating statistics; specific accounting practices/'
-       'problems; environmental issues; regulatory framework; energy supply/cost; and unique '
-       'practices (labour contracts, financing, accounting methods).'],
-      ['**Management and ownership**', 'Corporate structure (private/public/government); '
-       'beneficial owners and related parties; the owner-director-management relationship; '
-       'capital structure; organisational structure; management objectives/philosophy/strategy; '
-       'planned or recent acquisitions/mergers/disposals; financing sources/methods; board '
-       'composition and independence, meeting frequency, audit committee existence/scope, '
-       'corporate conduct policy; operating management\'s experience/reputation/turnover, key '
-       'financial personnel, incentive/bonus plans, use of forecasts/budgets, management '
-       'pressures, information systems; internal audit function (existence, quality); and '
-       'attitude to the internal control environment.'],
-      ['**The entity\'s business — products, markets, suppliers, expenses and operations**',
-       'Nature of business (manufacturer, wholesaler, financial services, imports/exports); '
-       'location of facilities; employment factors; products/services and markets (customers, '
-       'contracts, payment terms, margins, warranties, order book, marketing strategy); key '
-       'suppliers; inventories; franchises/licences/patents; important expense categories; R&D; '
-       'foreign currency exposure/hedging; relevant legislation; information systems; and debt '
-       'structure including covenants.'],
-      ['**Financial performance**', 'Accounting policies; earnings and cash-flow trends; '
-       'leasing and other financial commitments; credit line availability; off-statement-of-'
-       'financial-position finance; foreign exchange/interest rate exposure; and comparison '
-       'against industry trends.'],
-    ]}},
-    {'p': 'A sixth group, **reporting environment**, covers the external influences affecting '
-          'how directors prepare the financial statements: legislation; the regulatory '
-          'environment; taxation; accounting requirements; measurement/disclosure issues '
-          'peculiar to the business; audit reporting requirements; and the users of the '
-          'financial statements.'},
-    {'key': 'Knowledge of the client\'s business only becomes useful if it is **communicated to '
-            'the whole audit team** — the engagement partner must ensure the team obtains '
-            'sufficient knowledge (typically via planning documentation) and that staff '
-            'regularly share subsequently gained knowledge with the rest of the team.'},
-  ]},
+  {'n': '5.3', 't': 'Knowledge of the client\'s business', 'b': [{'h4': '§5.3.1 Introduction'},
+ {'key': 'Knowledge-building happens in **two stages**: prior to accepting an engagement, the auditor '
+         'obtains **preliminary** knowledge (industry, ownership, management, operations) sufficient to '
+         'judge their ability and willingness to undertake the audit; after acceptance, they obtain **more '
+         'detailed** knowledge sufficient to plan the audit, develop an effective approach, and understand '
+         'events/practices with a significant effect on the financial statements or the audit work.'},
+ {'p': 'What should be known about the client:'},
+ {'ol': ["general economic factors and industry conditions affecting the entity's business;",
+         'important characteristics of the entity, its business, financial performance and reporting '
+         'requirements, including changes since the last audit;',
+         'the general level of competence of management, and recent management changes;',
+         'the accounting policies adopted and changes in them;',
+         'the effect of new legislation, accounting or auditing pronouncements;',
+         'the regulatory framework, if any; and',
+         "the auditors' cumulative knowledge of the accounting/internal control systems and any expected "
+         'changes.']},
+ {'note': 'In succeeding periods, the auditor considers previously gathered information and performs '
+          'procedures to identify **significant changes** since the last audit — client knowledge is '
+          'cumulative across audits, not rebuilt from scratch each time.'},
+ {'h4': '§5.3.2 Sources of knowledge'},
+ {'ol': ['previous experience with the entity and its industry;',
+         'discussion with people within the entity (junior and senior managers);',
+         'discussion with internal audit personnel, and review of internal audit reports;',
+         'discussion with auditors (including predecessor auditors) and legal/other advisers who have served '
+         'the entity or industry;',
+         'discussion with knowledgeable outsiders (industry economists, regulators, customers, suppliers, '
+         'competitors);',
+         'industry publications (government, banks, regulators, financial newspapers);',
+         'legislation and regulations significantly affecting the entity;',
+         "visits to the entity's premises and plant facilities;",
+         'internal documents (minutes, shareholder materials, promotional literature, prior-year '
+         'annual/financial reports, budgets, management reports, interim reports, policies, accounts, job '
+         'descriptions, marketing/sales plans); and',
+         'industry-specific guidance (e.g. government/regulator circulars).']},
+ {'h4': '§5.3.3 Using the knowledge'},
+ {'p': 'Understanding the business, and using it appropriately, assists the auditor in:'},
+ {'ol': ['assessing risks and identifying problems;',
+         'planning and performing the audit effectively and efficiently; and',
+         'evaluating audit evidence.']},
+ {'p': 'Business knowledge informs judgment throughout the audit, for example when:'},
+ {'ul': ['assessing inherent and control risks;',
+         "considering business risks and management's response to them;",
+         'developing the overall audit plan and audit programme;',
+         'determining a materiality level, and assessing whether it remains appropriate;',
+         "assessing audit evidence's appropriateness and the validity of related assertions;",
+         'evaluating accounting estimates and management representations;',
+         'identifying areas needing special audit consideration and skill;',
+         'identifying related parties and related-party transactions;',
+         'recognising conflicting information (e.g. contradictory representations);',
+         'making informed enquiries and assessing the reasonableness of answers; and',
+         'considering the appropriateness of accounting policies and disclosures.']},
+ {'key': 'The engagement partner must ensure assistants assigned to the audit obtain sufficient business '
+         'knowledge to carry out their delegated work — passed on initially via the APM or a briefing '
+         'meeting, and subsequently as the audit proceeds. The partner must also ensure assistants '
+         'understand the need to **actively share** additional information they encounter, not just receive '
+         'it.'},
+ {'h4': '§5.3.4 Matters to consider'},
+ {'p': "The matters relevant to knowledge of the client's business fall into five groups:"},
+ {'table': {'align': 'll',
+            'head': ['Group', 'Key matters'],
+            'rows': [['**General economic factors**',
+                      'Level of economic activity (growth/recession); interest rates and financing '
+                      'availability; inflation; government monetary/fiscal/trade policy; foreign currency '
+                      'rates and control.'],
+                     ['**Industry conditions**',
+                      'Market and competition; cyclical/seasonal activity; product technology changes; '
+                      'business risk (e.g. high-tech, high-fashion, easy market entry); declining/expanding '
+                      'operations; adverse conditions (declining demand, excess capacity, price '
+                      'competition); key ratios/operating statistics; specific accounting '
+                      'practices/problems; environmental issues; regulatory framework; energy supply/cost; '
+                      'and unique practices (labour contracts, financing, accounting methods).'],
+                     ['**Management and ownership**',
+                      'Corporate structure (private/public/government); beneficial owners and related '
+                      'parties; the owner-director-management relationship; capital structure; '
+                      'organisational structure; management objectives/philosophy/strategy; planned or '
+                      'recent acquisitions/mergers/disposals; financing sources/methods; board composition '
+                      'and independence, meeting frequency, audit committee existence/scope, corporate '
+                      "conduct policy; operating management's experience/reputation/turnover, key financial "
+                      'personnel, incentive/bonus plans, use of forecasts/budgets, management pressures, '
+                      'information systems; internal audit function (existence, quality); and attitude to '
+                      'the internal control environment.'],
+                     ["**The entity's business — products, markets, suppliers, expenses and operations**",
+                      'Nature of business (manufacturer, wholesaler, financial services, imports/exports); '
+                      'location of facilities; employment factors; products/services and markets (customers, '
+                      'contracts, payment terms, margins, warranties, order book, marketing strategy); key '
+                      'suppliers; inventories; franchises/licences/patents; important expense categories; '
+                      'R&D; foreign currency exposure/hedging; relevant legislation; information systems; '
+                      'and debt structure including covenants.'],
+                     ['**Financial performance**',
+                      'Accounting policies; earnings and cash-flow trends; leasing and other financial '
+                      'commitments; credit line availability; off-statement-of-financial-position finance; '
+                      'foreign exchange/interest rate exposure; and comparison against industry trends.']]}},
+ {'p': 'A sixth group, **reporting environment**, covers the external influences affecting how directors '
+       'prepare the financial statements:'},
+ {'ul': ['legislation',
+         'the regulatory environment',
+         'taxation',
+         'accounting requirements',
+         'measurement/disclosure issues peculiar to the business',
+         'audit reporting requirements',
+         'and the users of the financial statements.']},
+ {'key': "Knowledge of the client's business only becomes useful if it is **communicated to the whole audit "
+         'team** — the engagement partner must ensure the team obtains sufficient knowledge (typically via '
+         'planning documentation) and that staff regularly share subsequently gained knowledge with the rest '
+         'of the team.'}]},
 
   {'n': '5.4', 't': 'Audit risk assessment and planning for materiality', 'b': [
     {'h4': '§5.4.1 Introduction'},

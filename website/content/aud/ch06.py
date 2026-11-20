@@ -210,229 +210,342 @@ CH = {
              'remains available when required.'},
   ]},
 
-  {'n': '6.4', 't': 'Reliability of third-party evidence: external confirmation', 'b': [
-    {'p': 'The auditor determines whether external confirmation is necessary to obtain '
-          'sufficient appropriate evidence, considering the assessed risk of material '
-          'misstatement and how evidence from other planned procedures will reduce that risk to '
-          'an acceptably low level.'},
-    {'def': {'t': 'External confirmation', 'd': 'the process of obtaining and evaluating audit '
-                  'evidence through a representation of information or an existing condition, '
-                  'directly from a third party, in response to a request about a particular item '
-                  'affecting the financial statement assertions or disclosures.'}},
-    {'p': 'Situations where external confirmations may be used:'},
-    {'ul': [
-      'bank balances and other information from bankers;',
-      'accounts receivable balances;',
-      'inventories held by third parties at bonded warehouses for processing or on '
-      'consignment;',
-      'property title deeds held by lawyers/financiers for safe custody or as security;',
-      'investments purchased from stockbrokers but not delivered at the reporting date;',
-      'loans from lenders; and',
-      'accounts payable balances.',
-    ]},
-    {'key': 'Reliability depends on the auditor applying appropriate procedures across three '
-            'stages: **designing** the request, **performing** the confirmation procedures, and '
-            '**evaluating** the results — plus factors like the control exercised over requests/'
-            'responses, respondent characteristics, and any restrictions in the response or '
-            'imposed by management.'},
+  {'n': '6.4', 't': 'Reliability of third-party evidence: external confirmation', 'b': [{'p': 'The auditor determines whether external confirmation is necessary to obtain sufficient appropriate '
+       'evidence, considering the assessed risk of material misstatement and how evidence from other planned '
+       'procedures will reduce that risk to an acceptably low level.'},
+ {'def': {'t': 'External confirmation',
+          'd': 'the process of obtaining and evaluating audit evidence through a representation of '
+               'information or an existing condition, directly from a third party, in response to a request '
+               'about a particular item affecting the financial statement assertions or disclosures.'}},
+ {'p': 'Situations where external confirmations may be used:'},
+ {'ul': ['bank balances and other information from bankers;',
+         'accounts receivable balances;',
+         'inventories held by third parties at bonded warehouses for processing or on consignment;',
+         'property title deeds held by lawyers/financiers for safe custody or as security;',
+         'investments purchased from stockbrokers but not delivered at the reporting date;',
+         'loans from lenders; and',
+         'accounts payable balances.']},
+ {'key': 'Reliability depends on the auditor applying appropriate procedures across three stages: '
+         '**designing** the request, **performing** the confirmation procedures, and **evaluating** the '
+         'results — plus factors like the control exercised over requests/responses, respondent '
+         'characteristics, and any restrictions in the response or imposed by management.'},
+ {'h4': '§6.4.2 Designing the request'},
+ {'p': 'Requests should be tailored to the specific audit objective, considering the assertions addressed '
+       "and factors affecting reliability — the request's form, prior experience, the information's nature, "
+       'and the intended respondent all directly affect the reliability of the resulting evidence.'},
+ {'h4': '§6.4.3 Positive vs. negative confirmations'},
+ {'table': {'align': 'll',
+            'head': ['Positive confirmation', 'Negative confirmation'],
+            'rows': [['Asks the respondent to reply **in every case** — either confirming agreement or '
+                      'filling in requested information. Ordinarily provides reliable evidence, but risks a '
+                      'respondent replying without actually verifying the information (undetectable by the '
+                      'auditor). A "blank" variant (omitting the stated amount, asking the respondent to '
+                      'fill it in) reduces this risk but tends to lower response rates.',
+                      'Asks the respondent to reply **only if they disagree**. No response gives no explicit '
+                      'evidence that the request was even received and verified — so it ordinarily provides '
+                      '**less reliable** evidence than positive confirmation, and the auditor should '
+                      'consider supplementing it with other substantive procedures.']]}},
+ {'p': 'Negative confirmation may reduce risk to an acceptable level when:'},
+ {'ul': ['the assessed risk of material misstatement is lower',
+         'a large number of small balances is involved',
+         'a substantial number of errors is not expected',
+         'and the auditor has no reason to believe respondents will disregard the requests. A '
+         '**combination** may be used — e.g. positive requests for a small number of large balances, '
+         'negative requests for a large number of small balances.']},
+ {'h4': '§6.4.4 Management requests to withhold confirmation'},
+ {'p': 'If management asks the auditor not to seek confirmation on a matter, the auditor must consider '
+       'whether valid grounds exist and obtain evidence supporting that validity. If the auditor agrees, '
+       'alternative procedures must be applied instead. If the auditor **disagrees** and is prevented from '
+       "confirming anyway, this is a **scope limitation**, with possible impact on the auditor's report."},
+ {'key': 'Applying professional scepticism here means considering whether the request has any implications '
+         "for management's **integrity** — whether it may indicate the possible existence of fraud or error, "
+         'and whether the proposed alternative procedures can genuinely provide sufficient appropriate '
+         'evidence in its place.'},
+ {'h4': '§6.4.5-6.4.11 Process integrity, non-response and evaluation'},
+ {'p': "Reliability is affected by the respondent's competence, independence, authority to respond, "
+       'knowledge and objectivity — the auditor tries to direct requests to an appropriately knowledgeable, '
+       'authorised individual. The auditor maintains **control** over the whole process (selecting '
+       'recipients, preparing/sending requests, receiving responses) to minimise the risk of interception or '
+       'alteration — ensuring the auditor sends the requests, they are properly addressed, and replies come '
+       'directly back to the auditor.'},
+ {'p': 'Where **no response** is received to a positive request, the auditor performs **alternative '
+       'procedures** providing evidence for the same assertions — e.g. for receivables: examining subsequent '
+       'cash receipts, shipping documentation for existence, and sales near period-end for cut-off; for '
+       'payables: subsequent cash disbursements, third-party correspondence, and goods-received notes.'},
+ {'p': 'The auditor also considers the **authenticity** of responses received (e.g. verifying a response by '
+       'telephone call, requesting the original be mailed directly, validating electronic responses), '
+       'documents oral confirmations in the working papers, and, for significant oral information, requests '
+       'written confirmation directly.'},
+ {'p': 'Where confirmation and alternative procedures together have not provided sufficient appropriate '
+       'evidence, additional procedures are performed — considering the reliability of what was obtained, '
+       'the nature and implications of any **exceptions** (which may indicate a misstatement requiring '
+       'further investigation), and the evidence from other procedures. The overall results are finally '
+       'evaluated together with all other audit evidence obtained for that assertion.'},
+ {'note': 'The auditor may confirm balances at a date **prior to** the reporting date (e.g. where the audit '
+          'must complete shortly after period end) — but must then obtain sufficient evidence that '
+          'transactions in the intervening period have not been materially misstated, considering the need '
+          'for further evidence covering the remainder of the period.'}]},
 
-    {'h4': '§6.4.2 Designing the request'},
-    {'p': 'Requests should be tailored to the specific audit objective, considering the '
-          'assertions addressed and factors affecting reliability — the request\'s form, prior '
-          'experience, the information\'s nature, and the intended respondent all directly '
-          'affect the reliability of the resulting evidence.'},
-
-    {'h4': '§6.4.3 Positive vs. negative confirmations'},
-    {'table': {'align': 'll', 'head': ['Positive confirmation', 'Negative confirmation'], 'rows': [
-      ['Asks the respondent to reply **in every case** — either confirming agreement or filling '
-       'in requested information. Ordinarily provides reliable evidence, but risks a respondent '
-       'replying without actually verifying the information (undetectable by the auditor). A '
-       '"blank" variant (omitting the stated amount, asking the respondent to fill it in) '
-       'reduces this risk but tends to lower response rates.',
-       'Asks the respondent to reply **only if they disagree**. No response gives no explicit '
-       'evidence that the request was even received and verified — so it ordinarily provides '
-       '**less reliable** evidence than positive confirmation, and the auditor should consider '
-       'supplementing it with other substantive procedures.'],
-    ]}},
-    {'p': 'Negative confirmation may reduce risk to an acceptable level when: the assessed risk '
-          'of material misstatement is lower; a large number of small balances is involved; a '
-          'substantial number of errors is not expected; and the auditor has no reason to '
-          'believe respondents will disregard the requests. A **combination** may be used — '
-          'e.g. positive requests for a small number of large balances, negative requests for a '
-          'large number of small balances.'},
-
-    {'h4': '§6.4.4 Management requests to withhold confirmation'},
-    {'p': 'If management asks the auditor not to seek confirmation on a matter, the auditor must '
-          'consider whether valid grounds exist and obtain evidence supporting that validity. If '
-          'the auditor agrees, alternative procedures must be applied instead. If the auditor '
-          '**disagrees** and is prevented from confirming anyway, this is a **scope '
-          'limitation**, with possible impact on the auditor\'s report.'},
-    {'key': 'Applying professional scepticism here means considering whether the request has '
-            'any implications for management\'s **integrity** — whether it may indicate the '
-            'possible existence of fraud or error, and whether the proposed alternative '
-            'procedures can genuinely provide sufficient appropriate evidence in its place.'},
-
-    {'h4': '§6.4.5-6.4.11 Process integrity, non-response and evaluation'},
-    {'p': 'Reliability is affected by the respondent\'s competence, independence, authority to '
-          'respond, knowledge and objectivity — the auditor tries to direct requests to an '
-          'appropriately knowledgeable, authorised individual. The auditor maintains **control** '
-          'over the whole process (selecting recipients, preparing/sending requests, receiving '
-          'responses) to minimise the risk of interception or alteration — ensuring the auditor '
-          'sends the requests, they are properly addressed, and replies come directly back to '
-          'the auditor.'},
-    {'p': 'Where **no response** is received to a positive request, the auditor performs '
-          '**alternative procedures** providing evidence for the same assertions — e.g. for '
-          'receivables: examining subsequent cash receipts, shipping documentation for '
-          'existence, and sales near period-end for cut-off; for payables: subsequent cash '
-          'disbursements, third-party correspondence, and goods-received notes.'},
-    {'p': 'The auditor also considers the **authenticity** of responses received (e.g. verifying '
-          'a response by telephone call, requesting the original be mailed directly, validating '
-          'electronic responses), documents oral confirmations in the working papers, and, for '
-          'significant oral information, requests written confirmation directly.'},
-    {'p': 'Where confirmation and alternative procedures together have not provided sufficient '
-          'appropriate evidence, additional procedures are performed — considering the '
-          'reliability of what was obtained, the nature and implications of any **exceptions** '
-          '(which may indicate a misstatement requiring further investigation), and the '
-          'evidence from other procedures. The overall results are finally evaluated together '
-          'with all other audit evidence obtained for that assertion.'},
-    {'note': 'The auditor may confirm balances at a date **prior to** the reporting date (e.g. '
-             'where the audit must complete shortly after period end) — but must then obtain '
-             'sufficient evidence that transactions in the intervening period have not been '
-             'materially misstated, considering the need for further evidence covering the '
-             'remainder of the period.'},
-  ]},
-
-  {'n': '6.5', 't': 'Specific examples of third-party confirmations', 'b': [
-    {'p': 'The most commonly used external verification procedures are debtors circularisation, '
-          'bank confirmations, and confirmation of pending legal matters.'},
-
-    {'h4': '§6.5.1 Debtors circularisation'},
-    {'def': {'t': 'Debtors circularisation', 'd': 'a verification procedure where trade debtors '
-                  'are contacted directly to confirm their balances — the normal means of '
-                  'checking whether debtors really owe the amount stated in the client\'s sales '
-                  'ledger.'}},
-    {'key': 'Circularisation is essentially an act of the **client**, who alone can authorise '
-            'third parties to divulge information to the auditor. If the client refuses to '
-            'co-operate, the auditors must consider whether to **qualify their report**, since '
-            'they may be unable to satisfy themselves by other means of the validity/accuracy '
-            'of debtor balances.'},
-    {'p': 'Ideally circularisation happens immediately after year end, to cover the actual '
-          'year-end balances. Where timing constraints prevent this, prior year-end '
-          'circularisation may be appropriate — recommended to be no more than **two months** '
-          'before year end, especially where internal controls are strong enough for the '
-          'auditor to gain reasonable assurance from reconciling the intervening period\'s '
-          'movements.'},
-    {'table': {'align': 'll', 'head': ['Positive circularisation', 'Negative circularisation'],
-      'rows': [
-      ['Requires confirmation of the outstanding balance **in every case**. Appropriate where: '
-       'the auditor is not satisfied with sales/debtor control systems; other verification work '
-       'showed unsatisfactory results. Its usefulness depends heavily on the auditor\'s '
-       'tenacity in following up non-replies (telephone, personal calls).',
-       'Requires a reply only if the debtor disputes the balance. Simpler, needs no follow-up, '
-       'but appropriate only where: the auditor already trusts the internal control governing '
-       'sales/debtors; other verification already showed satisfactory results; and it is used '
-       'with a large, carefully selected sample (otherwise many requests are simply discarded, '
-       'negating the test\'s value).'],
-    ]}},
-    {'p': 'Sample selection requires scrutinising accounts individually to include special '
-          'cases, such as: accounts with credit balances; accounts written off as bad, or under '
-          'specific loss provision; active accounts with nil balances; accounts unpaid beyond '
-          'the normal period; accounts habitually exceeding credit limits; accounts with '
-          'balances materially smaller at the reporting date than usual (possibly artificially '
-          'reduced to escape attention); accounts of debtors connected to the client or its '
-          'officers; accounts with unusually favourable trade terms; and accounts in arrears '
-          'that do not appear to be followed up by normal credit control.'},
-    {'p': 'For **positive** circularisation, non-respondents must be followed up by all '
-          'practical means — a second request after 2-3 weeks, then telephone (with client '
-          'permission) if needed. Where follow-up is limited, alternative procedures include: '
-          'checking post-date cash receipts and valid purchase orders; examining the account for '
-          'specific invoices and confirming their validity; obtaining explanations for unpaid '
-          'invoices when later ones have been paid; checking if the balance is growing (and '
-          'why); and testing controls over credit notes and bad debt write-offs.'},
-    {'p': 'Where circularisation is carried out **before** year end, additional procedures '
-          'apply: reviewing/reconciling debtor control account entries for the intervening '
-          'period; reconciling sales journal/invoice/dispatch note entries to the control '
-          'account; checking credit entries for returns/allowances; sampling cash receipts for '
-          'correct control account crediting; reviewing balances at both the circularisation '
-          'and year-end dates and investigating unexpected movements (possibly sending further '
-          'year-end requests to material debtors); analytical review comparing debtor ratios at '
-          'both dates; and year-end cut-off tests in addition to those at the confirmation '
-          'date.'},
-    {'key': 'All circularisation results must be properly recorded and evaluated — every '
-            'disagreement and non-reply followed up, with its effect on total debtors assessed. '
-            'Differences that are merely invoices or cash in transit generally need no '
-            'adjustment, but disputed amounts and genuine client errors might.'},
-
-    {'h4': '§6.5.2 Bank confirmations'},
-    {'p': 'Auditors rely heavily on bank confirmation for the completeness, existence, rights, '
-          'obligations and valuation of bank balances. A standard bank confirmation letter '
-          'requests:'},
-    {'ol': [
-      'balances on all current, deposit and term accounts, noting any restrictions (blocked '
-      'funds, compensating balances) — including a description of any account with no balance '
-      'that operated during the year;',
-      'the name and closure date of any accounts closed during the year;',
-      'balances on advance/loan/overdraft accounts, with terms, interest, and any collateral/'
-      'guarantees held;',
-      'liability for notes/bills discounted or deposited for collection;',
-      'guarantees given on the client\'s behalf, or given by the client for third parties;',
-      'a list of share certificates/securities deposited, and any lien/pledge/restriction on '
-      'them;',
-      'interest/charges to be paid, and interest due, not yet included in the stated balances;',
-      'details of any other operations or matters in progress not otherwise covered; and',
-      'a list of officers authorised to sign cheques, and how their signatures must be '
-      'combined.',
-    ]},
-    {'note': 'Matters excluded from the **standard** bank letter, requiring a supplementary '
-             'request where needed: copies of bank statements; copies of paying-in slips for '
-             'specific lodgements; the make-up of those lodgements; lists of securities/title '
-             'documents lodged with the bank (usually only relevant between banking '
-             'organisations); interest paid to/by third parties and their names; insurance-'
-             'related receipts; returned paid cheques; stopped cheques (not normally needed, '
-             'since they clear through the banking system within the audit period anyway); '
-             'third-party securities including director guarantees (requiring specific third-'
-             'party authority); and outstanding forward foreign exchange contract details.'},
-
-    {'h4': '§6.5.3 Legal confirmation of pending legal matters'},
-    {'p': 'Confirmation from a client\'s legal advisers is often required for contingent '
-          'liabilities from outstanding legal matters — pending lawsuits present problems of '
-          'both **ascertainment** (does the claim exist) and **appraisal** (what might it '
-          'cost).'},
-    {'p': 'Relevant audit procedures for verifying such claims exist (though not necessarily '
-          'their likely amount):'},
-    {'ol': [
-      'reviewing the claims-recording system and how claims reach management\'s attention;',
-      'discussing solicitor-instruction arrangements with the responsible official (e.g. head '
-      'of legal, or the company secretary);',
-      'examining board/committee minutes for references to possible claims;',
-      'examining solicitors\' bills and correspondence;',
-      'obtaining a list of matters referred to solicitors, with liability estimates, from the '
-      'appropriate director/official; and',
-      'obtaining written assurance that the director/official is not aware of any referred '
-      'matters beyond those disclosed.',
-    ]},
-    {'key': 'The normal, proper source of confirmation for legal matters is the company\'s '
-            '**own legal advisers** — requests should stay within the solicitor-client '
-            'relationship, with the client asking that a copy of the reply go directly to the '
-            'auditor. If the enquiries turn up nothing unexpected, the auditor would not '
-            'normally qualify the report merely for lack of independent corroboration of the '
-            'list\'s completeness. But if the auditor remains unable to obtain all the '
-            'information required, **the report must be qualified**.'},
-
-    {'h4': '§6.5.4 Summary: assets/liabilities and their confirming third party'},
-    {'table': {'align': 'll', 'head': ['Asset/Liability', 'Confirming third party'], 'rows': [
-      ['Bank balance, security, bank loans, contingent liabilities, accrued interest', 'Bank'],
-      ['Debtors and creditors balances', 'Individual debtors and creditors'],
-      ['Staff loans, advances, mortgages, accrued interest', 'Individual staff members / '
-       'financial houses'],
-      ['Assets held abroad, goods on consignment/sale-or-return, liabilities repayable abroad',
-       'Overseas agents, associate firms, agents, consignees, sale-or-return holders'],
-      ['Investments in subsidiary companies', 'Auditors of the subsidiaries'],
-      ['Goods held in bond or warehouse', 'Harbour board, warehouse company'],
-      ['Leased premises', 'Landlord'],
-      ['Pending litigation, possible damages/costs/legal fees outstanding', 'Solicitors'],
-    ]}},
-  ]},
+  {'n': '6.5', 't': 'Specific examples of third-party confirmations', 'b': [{'p': 'The most commonly used external verification procedures are debtors circularisation, bank '
+       'confirmations, and confirmation of pending legal matters.'},
+ {'h4': '§6.5.1 Debtors circularisation'},
+ {'def': {'t': 'Debtors circularisation',
+          'd': 'a verification procedure where trade debtors are contacted directly to confirm their '
+               'balances — the normal means of checking whether debtors really owe the amount stated in the '
+               "client's sales ledger."}},
+ {'key': 'Circularisation is essentially an act of the **client**, who alone can authorise third parties to '
+         'divulge information to the auditor. If the client refuses to co-operate, the auditors must '
+         'consider whether to **qualify their report**, since they may be unable to satisfy themselves by '
+         'other means of the validity/accuracy of debtor balances.'},
+ {'p': 'Ideally circularisation happens immediately after year end, to cover the actual year-end balances. '
+       'Where timing constraints prevent this, prior year-end circularisation may be appropriate — '
+       'recommended to be no more than **two months** before year end, especially where internal controls '
+       'are strong enough for the auditor to gain reasonable assurance from reconciling the intervening '
+       "period's movements."},
+ {'table': {'align': 'll',
+            'head': ['Positive circularisation', 'Negative circularisation'],
+            'rows': [['Requires confirmation of the outstanding balance **in every case**. Appropriate '
+                      'where: the auditor is not satisfied with sales/debtor control systems; other '
+                      'verification work showed unsatisfactory results. Its usefulness depends heavily on '
+                      "the auditor's tenacity in following up non-replies (telephone, personal calls).",
+                      'Requires a reply only if the debtor disputes the balance. Simpler, needs no '
+                      'follow-up, but appropriate only where: the auditor already trusts the internal '
+                      'control governing sales/debtors; other verification already showed satisfactory '
+                      'results; and it is used with a large, carefully selected sample (otherwise many '
+                      "requests are simply discarded, negating the test's value)."]]}},
+ {'p': 'Sample selection requires scrutinising accounts individually to include special cases, such as:'},
+ {'ul': ['accounts with credit balances',
+         'accounts written off as bad, or under specific loss provision',
+         'active accounts with nil balances',
+         'accounts unpaid beyond the normal period',
+         'accounts habitually exceeding credit limits',
+         'accounts with balances materially smaller at the reporting date than usual (possibly artificially '
+         'reduced to escape attention)',
+         'accounts of debtors connected to the client or its officers',
+         'accounts with unusually favourable trade terms',
+         'and accounts in arrears that do not appear to be followed up by normal credit control.']},
+ {'p': 'For **positive** circularisation, non-respondents must be followed up by all practical means — a '
+       'second request after 2-3 weeks, then telephone (with client permission) if needed. Where follow-up '
+       'is limited, alternative procedures include: checking post-date cash receipts and valid purchase '
+       'orders; examining the account for specific invoices and confirming their validity; obtaining '
+       'explanations for unpaid invoices when later ones have been paid; checking if the balance is growing '
+       '(and why); and testing controls over credit notes and bad debt write-offs.'},
+ {'p': 'Where circularisation is carried out **before** year end, additional procedures apply:'},
+ {'ul': ['reviewing/reconciling debtor control account entries for the intervening period',
+         'reconciling sales journal/invoice/dispatch note entries to the control account',
+         'checking credit entries for returns/allowances',
+         'sampling cash receipts for correct control account crediting',
+         'reviewing balances at both the circularisation and year-end dates and investigating unexpected '
+         'movements (possibly sending further year-end requests to material debtors)',
+         'analytical review comparing debtor ratios at both dates',
+         'and year-end cut-off tests in addition to those at the confirmation date.']},
+ {'key': 'All circularisation results must be properly recorded and evaluated — every disagreement and '
+         'non-reply followed up, with its effect on total debtors assessed. Differences that are merely '
+         'invoices or cash in transit generally need no adjustment, but disputed amounts and genuine client '
+         'errors might.'},
+ {'h4': 'Specimen of positive confirmation letter'},
+ {'note': 'Study-text specimen reproduced from PDF page 181 (printed 155). The original names, dates, '
+          'amounts and source wording are retained.'},
+ {'pre': 'Specimen of positive confirmation letter\n'
+         'Praise-him Plc,\n'
+         'P. O. Box 4268,\n'
+         'Monrovia.\n'
+         '30 November, 2025\n'
+         'Goodman Enterprise\n'
+         'BALANCE AS AT 30 NOVEMBER, 2025\n'
+         'In accordance with the request of our auditors, Messrs PPP Chartered Accountants, we ask that\n'
+         'you kindly confirm to them directly, your indebtedness to us as at 30 November 2025, which\n'
+         'according to our records amounted to L$300,000,000 shown by the enclosed statement. If the\n'
+         'above amount is in agreement with your records, please sign in the space provided below and\n'
+         'return this letter ”direct to” our auditors in the enclosed stamped addressed envelope.\n'
+         'If the amount is not in agreement with your records, please notify our auditors directly of the\n'
+         'amount shown by your records, and if possible detail in the reverse of this letter full '
+         'particulars of\n'
+         'the difference.\n'
+         '\n'
+         '\n'
+         'Yours faithfully,\n'
+         'For: Praise-him Plc\n'
+         'Alhaji Baba\n'
+         'Financial Accountant\n'
+         '\n'
+         '\n'
+         '- (Tear off Slip)\n'
+         '\n'
+         'The amount shown above is/is not in agreement with our records as at 30 November 2025\n'
+         'Account No. 72100009                                          Signature ………………………….\n'
+         'Date: ………………………….                                             Position …………………………...\n'
+         'The position according to our records is shown overleaf:\n'
+         'Note; * The letter is on the client company’s letterhead, signed by the client,\n'
+         '       * A copy of the statements is attached, and\n'
+         '       * The response is sent directly to the auditor in a prepaid envelope.'},
+ {'h4': '§6.5.2 Bank confirmations'},
+ {'p': 'Auditors rely heavily on bank confirmation for the completeness, existence, rights, obligations and '
+       'valuation of bank balances. A standard bank confirmation letter requests:'},
+ {'ol': ['balances on all current, deposit and term accounts, noting any restrictions (blocked funds, '
+         'compensating balances) — including a description of any account with no balance that operated '
+         'during the year;',
+         'the name and closure date of any accounts closed during the year;',
+         'balances on advance/loan/overdraft accounts, with terms, interest, and any collateral/guarantees '
+         'held;',
+         'liability for notes/bills discounted or deposited for collection;',
+         "guarantees given on the client's behalf, or given by the client for third parties;",
+         'a list of share certificates/securities deposited, and any lien/pledge/restriction on them;',
+         'interest/charges to be paid, and interest due, not yet included in the stated balances;',
+         'details of any other operations or matters in progress not otherwise covered; and',
+         'a list of officers authorised to sign cheques, and how their signatures must be combined.']},
+ {'note': [{'p': 'Matters excluded from the **standard** bank letter, requiring a supplementary request '
+                 'where needed:'},
+           {'ul': ['copies of bank statements',
+                   'copies of paying-in slips for specific lodgements',
+                   'the make-up of those lodgements',
+                   'lists of securities/title documents lodged with the bank (usually only relevant between '
+                   'banking organisations)',
+                   'interest paid to/by third parties and their names',
+                   'insurance-related receipts',
+                   'returned paid cheques',
+                   'stopped cheques (not normally needed, since they clear through the banking system within '
+                   'the audit period anyway)',
+                   'third-party securities including director guarantees (requiring specific third-party '
+                   'authority)',
+                   'and outstanding forward foreign exchange contract details.']}]},
+ {'h4': 'Specimen of Bank Confirmation Letter'},
+ {'note': 'Study-text specimen reproduced from PDF pages 184, 185 (printed 158, 159). The original names, '
+          'dates, amounts and source wording are retained.'},
+ {'pre': '\n'
+         '                                 CAT, RAT & CO\n'
+         '                           (CHARTERED ACCOUNTANTS)\n'
+         '11 April, 2025\n'
+         'The Manager\n'
+         'Excellent Bank Ghana Limited\n'
+         'Opeibea House Branch\n'
+         'P. O. Box KIA 2020\n'
+         'Monrovia\n'
+         '\n'
+         'Dear Sir,\n'
+         '\n'
+         'KEEPWELL PLC\n'
+         'BANK CONFIRMATION - AUDIT FOR THE YEAR ENDING 31 DECEMBER 2024\n'
+         'In connection with our audit of the financial statements of the above, and with the authority\n'
+         'evidenced by the company’s stamp and signature below, we request that you provide us with a\n'
+         'certificate giving the following information on its account with you at the close of business on '
+         '31\n'
+         '\n'
+         'DECEMBER 2024\n'
+         'a.    Balances on all current, deposit and term accounts, stating whether these are free, '
+         'blocked,\n'
+         '      or subject to any other withdrawal or restriction such as compensating balances or special\n'
+         '      – purpose funds. If any of the accounts, although having operated during the last twelve\n'
+         '      months, have no balance at the above stated date, please give a description of such '
+         'accounts\n'
+         '      in your reply;\n'
+         '\n'
+         '\n'
+         'b.    The name and date of closure of any accounts, which have been closed during the year,\n'
+         '      ending on the above date;\n'
+         'c.    Balances on all advance, loan or overdraft accounts stating the terms, interests, etc. and\n'
+         '      collateral security or guarantees that you hold in connection therewith;\n'
+         'd.    Its liability in connection with notes receivable or bills of exchange which it has '
+         'discounted\n'
+         '      with you or deposited with you for collection;\n'
+         'e.    Any guarantees you have given on its behalf or that it has given to you on behalf of third\n'
+         '      parties;\n'
+         'f.    A list of all share certificates and securities deposited with you for its accounts, '
+         'indicating\n'
+         '      whether these were free for withdrawal or were subject to any lien, pledge or other\n'
+         '      restriction;\n'
+         'g.    Amounts of interest and charges to be paid by it, and of interest due to it, not yet '
+         'included\n'
+         '      in the balances as of the above stated date;\n'
+         'h.     Details of any other operations with you, and of any matters in the course of execution,\n'
+         '      which have not been included in the above paragraphs; and\n'
+         'i.    A lists of officers entitled to sign cheques on all of the accounts which it has with you,\n'
+         '      indicating the way in which they must be combined;\n'
+         '\n'
+         'It is desired that your certificate should cover all of the above matters and it should indicate '
+         'by an\n'
+         'appropriate mention those that are not applicable in its case.\n'
+         '\n'
+         'Your prompt reply direct to the above address would be appreciated.\n'
+         'Thanking you in advance for your co-operation.\n'
+         'Yours faithfully,'},
+ {'h4': '§6.5.3 Legal confirmation of pending legal matters'},
+ {'p': "Confirmation from a client's legal advisers is often required for contingent liabilities from "
+       'outstanding legal matters — pending lawsuits present problems of both **ascertainment** (does the '
+       'claim exist) and **appraisal** (what might it cost).'},
+ {'p': 'Relevant audit procedures for verifying such claims exist (though not necessarily their likely '
+       'amount):'},
+ {'ol': ["reviewing the claims-recording system and how claims reach management's attention;",
+         'discussing solicitor-instruction arrangements with the responsible official (e.g. head of legal, '
+         'or the company secretary);',
+         'examining board/committee minutes for references to possible claims;',
+         "examining solicitors' bills and correspondence;",
+         'obtaining a list of matters referred to solicitors, with liability estimates, from the appropriate '
+         'director/official; and',
+         'obtaining written assurance that the director/official is not aware of any referred matters beyond '
+         'those disclosed.']},
+ {'key': "The normal, proper source of confirmation for legal matters is the company's **own legal "
+         'advisers** — requests should stay within the solicitor-client relationship, with the client asking '
+         'that a copy of the reply go directly to the auditor. If the enquiries turn up nothing unexpected, '
+         'the auditor would not normally qualify the report merely for lack of independent corroboration of '
+         "the list's completeness. But if the auditor remains unable to obtain all the information required, "
+         '**the report must be qualified**.'},
+ {'h4': 'Specimen of Lawyer’s Confirmation'},
+ {'note': 'Study-text specimen reproduced from PDF pages 188, 189 (printed 162, 163). The original names, '
+          'dates, amounts and source wording are retained.'},
+ {'pre': '\n'
+         '29 May 2025\n'
+         'Bob and Sons Legal Consults\n'
+         '523 Eko Street,\n'
+         'Victoria Island\n'
+         'Lagos. Nigeria\n'
+         'Dear Sir,\n'
+         '\n'
+         'RE: LEGAL CONFIRMATION- PEACE AND PROSPERITY PLC FOR THE\n'
+         'YEAR ENDED 31 DECEMBER 2024\n'
+         'In connection with the audit of our financial statements as of 31 December 2024 and for\n'
+         'the year then ended, please furnish to our independent auditors, CAT, RAT & Co Chartered\n'
+         'Accountants, P.O Box KA 4040, Beach Street, Victoria Island, Lagos, a brief description\n'
+         'of any litigation involving our Company as either plaintiff or defendant, which was pending\n'
+         'or threatened at the date indicated above or which has subsequently been initiated and with\n'
+         'respect to which you have devoted substantive attention or represented or counselled. In\n'
+         'addition, please furnish a description of any other matters with respect to which you have\n'
+         'given substantive attention or represented or counselled, involving a claim or potential\n'
+         'claim or contingent liability by or against this Company at 31 December 2024\n'
+         '\n'
+         'Please, furnish directly to CAT, RAT & Co Chartered Accountants such explanation, if\n'
+         'any, that you consider necessary to supplement the foregoing information, including an\n'
+         'explanation of those matters with respect to which your views may differ from those stated\n'
+         'and identification of the omission of any material settled litigation and claims relating to\n'
+         'this company.\n'
+         '\n'
+         'Your response should include matters that existed as of 31 December 2024 and additional\n'
+         'information about those matters or new matters that arose during the period from 31\n'
+         '\n'
+         'December to the effective date of your response.\n'
+         '        Please specifically identify the nature of and reasons for any limitation on your '
+         'response\n'
+         '        to this letter.\n'
+         '        Your response will not be quoted or referred to in our financial statements without prior\n'
+         '        consultation with you.\n'
+         '        Please send your response directly to CAT, RAT & Co Chartered Accountants; P.O Box\n'
+         '        KA 4040 Beach Street, Victoria Island, Lagos, with a copy to us.\n'
+         '        Yours faithfully,\n'
+         '        Pa Joe\n'
+         '        Chief Executive Officer'},
+ {'h4': '§6.5.4 Summary: assets/liabilities and their confirming third party'},
+ {'table': {'align': 'll',
+            'head': ['Asset/Liability', 'Confirming third party'],
+            'rows': [['Bank balance, security, bank loans, contingent liabilities, accrued interest', 'Bank'],
+                     ['Debtors and creditors balances', 'Individual debtors and creditors'],
+                     ['Staff loans, advances, mortgages, accrued interest',
+                      'Individual staff members / financial houses'],
+                     ['Assets held abroad, goods on consignment/sale-or-return, liabilities repayable abroad',
+                      'Overseas agents, associate firms, agents, consignees, sale-or-return holders'],
+                     ['Investments in subsidiary companies', 'Auditors of the subsidiaries'],
+                     ['Goods held in bond or warehouse', 'Harbour board, warehouse company'],
+                     ['Leased premises', 'Landlord'],
+                     ['Pending litigation, possible damages/costs/legal fees outstanding', 'Solicitors']]}}]},
 
   {'n': '6.6', 't': 'The reliability of audit evidence — a consolidated view', 'b': [
     {'p': 'Reliability is influenced by source (internal or external) and nature (visual, '
@@ -455,281 +568,254 @@ CH = {
             'takeaway.'},
   ]},
 
-  {'n': '6.7', 't': 'Using the work of an expert', 'b': [
-    {'def': {'t': 'Expert', 'd': 'a person or firm possessing special skill, knowledge and '
-                  'experience in a particular field other than accounting and auditing.'}},
-    {'key': 'The auditor\'s education and experience make them knowledgeable about business '
-            'matters generally, but they are **not expected** to have the expertise of a person '
-            'trained in another profession (e.g. an actuary or engineer). When using an '
-            'expert\'s work, the auditor must still obtain sufficient appropriate evidence that '
-            'the work is adequate for the audit\'s purposes — using an expert does not transfer '
-            'responsibility for the opinion.'},
-    {'p': 'An expert may be engaged by the entity, engaged by the auditor, employed by the '
-          'entity, or employed by the auditor. Where the auditor uses the work of their own '
-          'employee-expert, that work is used in the employee\'s capacity **as an expert**, not '
-          'as an ordinary audit assistant — so the auditor applies the relevant procedures to '
-          'their work/findings, but does not ordinarily need to re-evaluate their skill/'
-          'competence for each engagement (unlike an outside expert).'},
+  {'n': '6.7', 't': 'Using the work of an expert', 'b': [{'def': {'t': 'Expert',
+          'd': 'a person or firm possessing special skill, knowledge and experience in a particular field '
+               'other than accounting and auditing.'}},
+ {'key': "The auditor's education and experience make them knowledgeable about business matters generally, "
+         'but they are **not expected** to have the expertise of a person trained in another profession '
+         "(e.g. an actuary or engineer). When using an expert's work, the auditor must still obtain "
+         "sufficient appropriate evidence that the work is adequate for the audit's purposes — using an "
+         'expert does not transfer responsibility for the opinion.'},
+ {'p': 'An expert may be engaged by the entity, engaged by the auditor, employed by the entity, or employed '
+       'by the auditor. Where the auditor uses the work of their own employee-expert, that work is used in '
+       "the employee's capacity **as an expert**, not as an ordinary audit assistant — so the auditor "
+       'applies the relevant procedures to their work/findings, but does not ordinarily need to re-evaluate '
+       'their skill/competence for each engagement (unlike an outside expert).'},
+ {'h4': '§6.7.1 Determining the need for an expert'},
+ {'p': "Examples where an expert's report/opinion/valuation/statement may be needed:"},
+ {'ul': ['valuations of certain assets (land/buildings, plant/machinery, art, precious stones);',
+         'determining quantities or physical condition of assets (stored minerals, underground reserves, '
+         'remaining plant life);',
+         'determining amounts using specialised techniques (e.g. actuarial valuation);',
+         'measuring work completed/to be completed on contracts in progress; and',
+         'legal opinions interpreting agreements, statutes and regulations.']},
+ {'p': 'Relevant considerations:'},
+ {'ul': ["the engagement team's own knowledge/experience of the matter",
+         "the risk of material misstatement based on the matter's nature/complexity/materiality",
+         'and the quantity/quality of other evidence expected to be available.']},
+ {'h4': '§6.7.2 Competence and objectivity of the expert'},
+ {'p': "The auditor evaluates the expert's **professional competence** — considering professional "
+       'certification/licensing/membership, and experience/reputation in the relevant field — and separately '
+       'evaluates their **objectivity**.'},
+ {'warn': 'The risk of impaired objectivity **increases** where the expert is: employed by the entity; or '
+          'otherwise related to the entity (e.g. financially dependent on it, or holding an investment in '
+          'it). If concerned about competence or objectivity, the auditor discusses reservations with '
+          'management, considers whether sufficient appropriate evidence can still be obtained, and may need '
+          'additional procedures or a different expert entirely.'},
+ {'h4': "§6.7.3 Scope of the expert's work"},
+ {'p': "The auditor obtains evidence that the scope of the expert's work is adequate — often via reviewing "
+       'written instructions from the entity to the expert, covering:'},
+ {'ul': ['the objectives/scope of the work',
+         "the matters the expert's report is expected to cover",
+         "the auditor's intended use of the work (including possible disclosure of the expert's "
+         'identity/involvement to third parties)',
+         "the expert's access to records/files",
+         "clarification of the expert's relationship with the entity",
+         'confidentiality',
+         'and the assumptions/methods to be used and their consistency with prior periods. Where these are '
+         'not clearly set out, the auditor may communicate with the expert directly.']},
+ {'h4': "§6.7.4 Evaluating the expert's work"},
+ {'p': "The auditor evaluates whether the substance of the expert's findings is properly reflected in, or "
+       'supports, the financial statements — considering the source data used, the assumptions/methods used '
+       "and their consistency with prior periods, and the results in light of the auditor's own business "
+       'knowledge and other audit evidence.'},
+ {'key': "The **appropriateness and reasonableness of assumptions and methods** are the **expert's** own "
+         'responsibility — the auditor typically lacks the expertise to challenge them directly, but must '
+         'still understand them and consider whether they seem appropriate and reasonable given the '
+         "auditor's own knowledge and other evidence. Where the expert's results are insufficient, or "
+         'inconsistent with other evidence, the auditor resolves the matter — via discussion, additional '
+         "procedures, possibly engaging another expert, or modifying the auditor's report."},
+ {'h4': "§6.7.5 Reference to an expert in the auditor's report"},
+ {'warn': "When issuing an **unmodified** report, the auditor should **not** refer to an expert's work — "
+          'such a reference might be misunderstood as a qualification, or a division of responsibility, '
+          "neither of which is intended. If the auditor's report is **modified** as a result of an expert's "
+          "work, it may be appropriate to describe the expert's involvement (identity and extent) in "
+          "explaining the modification — but only with the expert's **permission**; if refused and the "
+          'auditor still believes reference is necessary, legal advice may be needed.'}]},
 
-    {'h4': '§6.7.1 Determining the need for an expert'},
-    {'p': 'Examples where an expert\'s report/opinion/valuation/statement may be needed:'},
-    {'ul': [
-      'valuations of certain assets (land/buildings, plant/machinery, art, precious stones);',
-      'determining quantities or physical condition of assets (stored minerals, underground '
-      'reserves, remaining plant life);',
-      'determining amounts using specialised techniques (e.g. actuarial valuation);',
-      'measuring work completed/to be completed on contracts in progress; and',
-      'legal opinions interpreting agreements, statutes and regulations.',
-    ]},
-    {'p': 'Relevant considerations: the engagement team\'s own knowledge/experience of the '
-          'matter; the risk of material misstatement based on the matter\'s nature/complexity/'
-          'materiality; and the quantity/quality of other evidence expected to be available.'},
+  {'n': '6.8', 't': 'Management representation', 'b': [{'key': 'The auditor should obtain evidence that management acknowledges its responsibility for the fair '
+         'presentation of the financial statements, and has approved them — via minutes of governance '
+         'meetings, a written representation, or a signed copy of the financial statements.'},
+ {'p': 'Written representations should be obtained on matters **material** to the financial statements when '
+       'other sufficient appropriate evidence cannot reasonably be expected to exist — reducing the '
+       'possibility of misunderstanding, since oral representations confirmed in writing are less ambiguous. '
+       'Requests may be limited to matters material individually or collectively; the auditor may need to '
+       'inform management of their understanding of materiality for this purpose.'},
+ {'p': 'The auditor should obtain written representation that management: (a) acknowledges responsibility '
+       'for designing and implementing internal control to prevent and detect error; and (b) believes the '
+       'effects of uncorrected misstatements aggregated by the auditor are immaterial, individually and in '
+       'aggregate — with a summary of such items attached.'},
+ {'p': 'Where management representations relate to material matters, the auditor should:'},
+ {'ul': ['seek corroborative evidence from inside or outside the entity',
+         'evaluate whether the representations seem reasonable and consistent with other evidence obtained',
+         'and consider whether the individuals making them can reasonably be expected to be well informed.']},
+ {'warn': 'Management representations are **never a substitute** for other audit evidence the auditor could '
+          "reasonably expect to be available — e.g. a management representation about an asset's cost is not "
+          'a substitute for the cost evidence the auditor would ordinarily expect to obtain independently. '
+          'If the auditor cannot obtain sufficient appropriate evidence on a matter with a material effect '
+          '(or potential material effect), that is a **scope limitation**, even if management has made a '
+          'representation on the matter.'},
+ {'p': "Some matters genuinely cannot be evidenced any other way — e.g. management's intention to hold an "
+       'investment long-term, or to call up a debt before month-end balancing and re-grant the facility. In '
+       'such cases, a written representation is the appropriate evidence. If a representation is '
+       '**contradicted** by other evidence, the auditor investigates and, where necessary, reconsiders the '
+       'reliability of other representations made.'},
+ {'h4': 'Documentation and form'},
+ {'p': 'Working papers ordinarily include a summary of oral discussions, or written representations. A '
+       '**written** representation is ordinarily more reliable than an oral one, and can take the form of: a '
+       'representation letter from management; a letter from the auditor outlining their understanding of '
+       "management's representations, acknowledged/confirmed by management; or relevant board minutes/a "
+       'signed copy of the financial statements.'},
+ {'p': 'A management representation letter should be addressed to the auditor, contain the specified '
+       "information, and be appropriately dated and signed — ordinarily dated the same date as the auditor's "
+       'report (though a separate letter on specific matters may be obtained during the audit, or after the '
+       'report date, e.g. at a public offering). It is ordinarily signed by those with primary '
+       'responsibility for the entity and its financial aspects (ordinarily the CEO and CFO), based on the '
+       'best of their knowledge and belief. Separate representation letters may be sought from other '
+       'individuals where appropriate (e.g. confirming the completeness of minute-keeping from the person '
+       'responsible for it).'},
+ {'h4': 'Contents typically confirmed in a management representation letter'},
+ {'p': 'A specimen letter (illustrative, not a fixed standard — content varies by entity and period) would '
+       "ordinarily confirm, to the best of management's knowledge and belief:"},
+ {'ol': ['no irregularities involving management or employees with a significant internal control role, or '
+         'with a material effect on the financial statements;',
+         'all books of account, supporting documentation and meeting minutes have been made available;',
+         'completeness of information provided on the identification of related parties;',
+         'the financial statements are free of material misstatement, including omissions;',
+         'compliance with contractual agreements and regulatory requirements whose breach could have a '
+         'material effect;',
+         'proper recording/disclosure of related-party balances/transactions, sale/purchase commitment '
+         'losses, asset buy-back agreements, and pledged collateral;',
+         'no undisclosed plans that would materially alter asset/liability carrying values or '
+         'classification;',
+         'no undisclosed plans that would cause excess/obsolete inventory, and no inventory stated above net '
+         'realisable value;',
+         'satisfactory title to all assets, with no undisclosed liens/encumbrances;',
+         'all liabilities (actual and contingent) recorded/disclosed as appropriate, with guarantees given '
+         'to third parties disclosed;',
+         'no undisclosed post-period-end events requiring adjustment or disclosure;',
+         'confirmation of settled litigation amounts, and no other expected claims;',
+         'no undisclosed compensating balance arrangements or other credit lines; and',
+         'proper recording/disclosure of capital stock repurchase options/agreements and reserved shares.']},
+ {'h4': 'Action if management refuses to provide representations'},
+ {'warn': 'If management refuses to provide a representation the auditor considers necessary, the auditor '
+          'should discuss it with management. The refusal itself constitutes a **scope limitation**, and the '
+          'auditor should express a **modified opinion**. The auditor should also re-evaluate reliance '
+          'placed on any other management representations made during the audit, and consider whether the '
+          'refusal has additional implications for the report.'}]},
 
-    {'h4': '§6.7.2 Competence and objectivity of the expert'},
-    {'p': 'The auditor evaluates the expert\'s **professional competence** — considering '
-          'professional certification/licensing/membership, and experience/reputation in the '
-          'relevant field — and separately evaluates their **objectivity**.'},
-    {'warn': 'The risk of impaired objectivity **increases** where the expert is: employed by '
-             'the entity; or otherwise related to the entity (e.g. financially dependent on it, '
-             'or holding an investment in it). If concerned about competence or objectivity, the '
-             'auditor discusses reservations with management, considers whether sufficient '
-             'appropriate evidence can still be obtained, and may need additional procedures or '
-             'a different expert entirely.'},
-
-    {'h4': '§6.7.3 Scope of the expert\'s work'},
-    {'p': 'The auditor obtains evidence that the scope of the expert\'s work is adequate — often '
-          'via reviewing written instructions from the entity to the expert, covering: the '
-          'objectives/scope of the work; the matters the expert\'s report is expected to cover; '
-          'the auditor\'s intended use of the work (including possible disclosure of the '
-          'expert\'s identity/involvement to third parties); the expert\'s access to records/'
-          'files; clarification of the expert\'s relationship with the entity; confidentiality; '
-          'and the assumptions/methods to be used and their consistency with prior periods. '
-          'Where these are not clearly set out, the auditor may communicate with the expert '
-          'directly.'},
-
-    {'h4': '§6.7.4 Evaluating the expert\'s work'},
-    {'p': 'The auditor evaluates whether the substance of the expert\'s findings is properly '
-          'reflected in, or supports, the financial statements — considering the source data '
-          'used, the assumptions/methods used and their consistency with prior periods, and the '
-          'results in light of the auditor\'s own business knowledge and other audit evidence.'},
-    {'key': 'The **appropriateness and reasonableness of assumptions and methods** are the '
-            '**expert\'s** own responsibility — the auditor typically lacks the expertise to '
-            'challenge them directly, but must still understand them and consider whether they '
-            'seem appropriate and reasonable given the auditor\'s own knowledge and other '
-            'evidence. Where the expert\'s results are insufficient, or inconsistent with other '
-            'evidence, the auditor resolves the matter — via discussion, additional procedures, '
-            'possibly engaging another expert, or modifying the auditor\'s report.'},
-
-    {'h4': '§6.7.5 Reference to an expert in the auditor\'s report'},
-    {'warn': 'When issuing an **unmodified** report, the auditor should **not** refer to an '
-             'expert\'s work — such a reference might be misunderstood as a qualification, or a '
-             'division of responsibility, neither of which is intended. If the auditor\'s report '
-             'is **modified** as a result of an expert\'s work, it may be appropriate to '
-             'describe the expert\'s involvement (identity and extent) in explaining the '
-             'modification — but only with the expert\'s **permission**; if refused and the '
-             'auditor still believes reference is necessary, legal advice may be needed.'},
-  ]},
-
-  {'n': '6.8', 't': 'Management representation', 'b': [
-    {'key': 'The auditor should obtain evidence that management acknowledges its responsibility '
-            'for the fair presentation of the financial statements, and has approved them — via '
-            'minutes of governance meetings, a written representation, or a signed copy of the '
-            'financial statements.'},
-    {'p': 'Written representations should be obtained on matters **material** to the financial '
-          'statements when other sufficient appropriate evidence cannot reasonably be expected '
-          'to exist — reducing the possibility of misunderstanding, since oral representations '
-          'confirmed in writing are less ambiguous. Requests may be limited to matters material '
-          'individually or collectively; the auditor may need to inform management of their '
-          'understanding of materiality for this purpose.'},
-    {'p': 'The auditor should obtain written representation that management: (a) acknowledges '
-          'responsibility for designing and implementing internal control to prevent and detect '
-          'error; and (b) believes the effects of uncorrected misstatements aggregated by the '
-          'auditor are immaterial, individually and in aggregate — with a summary of such items '
-          'attached.'},
-    {'p': 'Where management representations relate to material matters, the auditor should: '
-          'seek corroborative evidence from inside or outside the entity; evaluate whether the '
-          'representations seem reasonable and consistent with other evidence obtained; and '
-          'consider whether the individuals making them can reasonably be expected to be well '
-          'informed.'},
-    {'warn': 'Management representations are **never a substitute** for other audit evidence '
-             'the auditor could reasonably expect to be available — e.g. a management '
-             'representation about an asset\'s cost is not a substitute for the cost evidence the '
-             'auditor would ordinarily expect to obtain independently. If the auditor cannot '
-             'obtain sufficient appropriate evidence on a matter with a material effect (or '
-             'potential material effect), that is a **scope limitation**, even if management has '
-             'made a representation on the matter.'},
-    {'p': 'Some matters genuinely cannot be evidenced any other way — e.g. management\'s '
-          'intention to hold an investment long-term, or to call up a debt before month-end '
-          'balancing and re-grant the facility. In such cases, a written representation is the '
-          'appropriate evidence. If a representation is **contradicted** by other evidence, the '
-          'auditor investigates and, where necessary, reconsiders the reliability of other '
-          'representations made.'},
-
-    {'h4': 'Documentation and form'},
-    {'p': 'Working papers ordinarily include a summary of oral discussions, or written '
-          'representations. A **written** representation is ordinarily more reliable than an '
-          'oral one, and can take the form of: a representation letter from management; a '
-          'letter from the auditor outlining their understanding of management\'s '
-          'representations, acknowledged/confirmed by management; or relevant board minutes/a '
-          'signed copy of the financial statements.'},
-    {'p': 'A management representation letter should be addressed to the auditor, contain the '
-          'specified information, and be appropriately dated and signed — ordinarily dated the '
-          'same date as the auditor\'s report (though a separate letter on specific matters may '
-          'be obtained during the audit, or after the report date, e.g. at a public offering). '
-          'It is ordinarily signed by those with primary responsibility for the entity and its '
-          'financial aspects (ordinarily the CEO and CFO), based on the best of their knowledge '
-          'and belief. Separate representation letters may be sought from other individuals '
-          'where appropriate (e.g. confirming the completeness of minute-keeping from the '
-          'person responsible for it).'},
-    {'h4': 'Contents typically confirmed in a management representation letter'},
-    {'p': 'A specimen letter (illustrative, not a fixed standard — content varies by entity and '
-          'period) would ordinarily confirm, to the best of management\'s knowledge and belief:'},
-    {'ol': [
-      'no irregularities involving management or employees with a significant internal control '
-      'role, or with a material effect on the financial statements;',
-      'all books of account, supporting documentation and meeting minutes have been made '
-      'available;',
-      'completeness of information provided on the identification of related parties;',
-      'the financial statements are free of material misstatement, including omissions;',
-      'compliance with contractual agreements and regulatory requirements whose breach could '
-      'have a material effect;',
-      'proper recording/disclosure of related-party balances/transactions, sale/purchase '
-      'commitment losses, asset buy-back agreements, and pledged collateral;',
-      'no undisclosed plans that would materially alter asset/liability carrying values or '
-      'classification;',
-      'no undisclosed plans that would cause excess/obsolete inventory, and no inventory '
-      'stated above net realisable value;',
-      'satisfactory title to all assets, with no undisclosed liens/encumbrances;',
-      'all liabilities (actual and contingent) recorded/disclosed as appropriate, with '
-      'guarantees given to third parties disclosed;',
-      'no undisclosed post-period-end events requiring adjustment or disclosure;',
-      'confirmation of settled litigation amounts, and no other expected claims;',
-      'no undisclosed compensating balance arrangements or other credit lines; and',
-      'proper recording/disclosure of capital stock repurchase options/agreements and reserved '
-      'shares.',
-    ]},
-
-    {'h4': 'Action if management refuses to provide representations'},
-    {'warn': 'If management refuses to provide a representation the auditor considers '
-             'necessary, the auditor should discuss it with management. The refusal itself '
-             'constitutes a **scope limitation**, and the auditor should express a **modified '
-             'opinion**. The auditor should also re-evaluate reliance placed on any other '
-             'management representations made during the audit, and consider whether the '
-             'refusal has additional implications for the report.'},
-  ]},
-
-  {'n': '6.9', 't': 'Verification of assets and liabilities', 'b': [
-    {'key': 'The auditor has a duty to verify all assets and liabilities appearing in the '
-            'Statement of Financial Position, **and** to ensure there are no other assets or '
-            'liabilities that ought to appear but do not.'},
-    {'h4': '§6.9.1 Verification of assets: CAVEBOP and VEBOP'},
-    {'p': 'In verifying assets, the auditor seeks to establish six things, remembered by the '
-          'mnemonic **CAVEBOP**:'},
-    {'ol': [
-      '**C**ost;',
-      '**A**uthorization;',
-      '**V**alue;',
-      '**E**xistence;',
-      '**B**eneficial **O**wnership; and',
-      '**P**resentation in the accounts.',
-    ]},
-    {'key': 'Cost and authorisation are ordinarily verified **once**, in the year of '
-            'acquisition. For assets already on the books from prior years, the auditor '
-            'therefore only needs the remaining four aspects — remembered as **VEBOP** '
-            '(Valuation, Existence, Beneficial ownership, Presentation/disclosure). Assets '
-            'acquired **during** the current year still need the full CAVEBOP treatment.'},
-
-    {'h4': '§6.9.2 Verification of trade debtors and creditors'},
-    {'key': 'Independent, externally derived confirmation minimises the risk of **collusion** '
-            'between third parties and the company\'s own staff aimed at deceiving the '
-            'auditor — as a general rule, independent documentary evidence is superior to '
-            'documentary evidence compiled by company staff, regardless of their seniority.'},
-    {'p': 'Circularising a carefully selected sample of debtors/creditors serves to: ensure the '
-          'accuracy of sales/purchase ledger book entries and resulting balances; ensure proper '
-          'functioning of the credit control system; identify disputed accounts; and ensure '
-          'records are fully up to date. Where suppliers are circularised, the confirmations '
-          'received support both the creditors\' ledger balances and the monthly statements '
-          'most suppliers send their customers anyway.'},
-    {'note': 'It is essential that replies be sent **directly to the auditor at their own '
-             'office** — otherwise there is a risk of tampering or suppression by client '
-             'staff.'},
-
-    {'h4': '§6.9.3 Verification of inventory and work in progress'},
-    {'key': 'Management is responsible for ensuring reported stock figures represent stock '
-            'physically in existence and include everything the entity owns; the auditor\'s '
-            'duty is to obtain evidence of **ownership, existence and condition** at year end.'},
-    {'p': 'Inventory receives particular audit attention because: it usually forms one of the '
-          'largest Statement of Financial Position items (so a small error can be material); '
-          'closing inventory directly affects cost of sales and hence profit/loss; it can be '
-          'manipulated to hit a targeted profit figure; different valuation bases may be used; '
-          'and there can be genuine valuation/existence/development-stage problems for '
-          'specialised inventory (livestock, production-in-process, etc.).'},
-    {'p': 'Objectives of inventory taking: verify condition; verify existence; establish title; '
-          'determine cut-off accuracy; ascertain internal control effectiveness over inventory; '
-          'provide a basis for checking inventory record correctness; ensure adequate provision '
-          'for slow-moving/obsolete inventory; provide a quantity basis for valuation; and '
-          'determine valuation accuracy.'},
-
-    {'h4': '§6.9.4 Liability verification'},
-    {'p': 'A Statement of Financial Position groups liabilities under headings such as equity, '
-          'reserves, creditors due after more than one year, provisions for liabilities/charges, '
-          'creditors due within one year, and contingent liabilities. The auditor\'s duty: '
-          'verify the existence of stated liabilities; verify the correctness of their money '
-          'amounts; verify the appropriateness of their description and the adequacy of '
-          'disclosure; and verify that **all** existing liabilities are actually included.'},
-    {'p': 'General verification principles (applied per the specific circumstances):'},
-    {'ol': [
-      '**Schedule** — request or prepare a schedule for each liability/class;',
-      '**Cut-off** — e.g. a trade creditor should not be included unless the goods were '
-      'acquired before year end;',
-      '**Reasonableness** — of the liability itself;',
-      '**Internal control** — determine, evaluate and test relevant procedures;',
-      '**Previous-date clearance** — have prior-period liabilities all been cleared?',
-      '**Authority** — for all liabilities;',
-      '**Description** — adequacy of each liability\'s description in the accounts;',
-      '**Documents** — examine relevant invoices, correspondence, debenture deeds, etc.;',
-      '**Vouching** — the creation of each liability (e.g. receipt of a loan);',
-      '**Accounting policies** — appropriate and consistently applied;',
-      '**Disclosure** — everything needed for a true and fair view;',
-      '**External verification** — direct confirmation with creditors, where possible;',
-      '**Materiality** — a factor in every accounting/auditing decision;',
-      '**Post-reporting-date events** — particularly important for liabilities;',
-      '**Accounting standards** — liabilities accounted for per the relevant standards; and',
-      '**Risk** — assess the risk of misstatement.',
-    ]},
-
-    {'h4': '§6.9.5 Verification of non-current assets'},
-    {'p': 'Verification often begins with the **asset register**, which facilitates identifying '
-          'assets during a physical check and forms an important part of internal control. It '
-          'must be agreed to the financial records, and the auditor enquires about the extent/'
-          'frequency of company officials\' own reconciliation checks between records, register '
-          'and physical assets.'},
-    {'p': 'An asset register normally records, per asset: supplier\'s name; purchase date; '
-          'original cost; estimated useful life; estimated residual value; a summary of repair '
-          'expenditure to date; estimated replacement cost (updated annually); and eventual '
-          'disposal details.'},
-
-    {'h4': '§6.9.6 Verification of intangible assets'},
-    {'key': 'All intangibles have a finite economic life and should therefore be **amortised**.'},
-    {'table': {'align': 'll', 'head': ['Intangible', 'Key verification points'], 'rows': [
-      ['**Goodwill**', 'Arises on purchase of a business — examine the contract and allocation '
-       'of purchase price to assets; normally remains in the accounts at cost.'],
-      ['**Patents**', 'Examine the patent and its assignment (a patent can only be granted to '
-       'an individual, e.g. an employee, who assigns it to the company); check payment of '
-       'renewal fees and accounting for receivable royalties.'],
-      ['**Trademarks**', 'Examine the patent office certificate; the assignment, if purchased; '
-       'the reasonableness of capitalised design costs; and payment of renewal fees.'],
-      ['**Copyrights**', 'Examine the document of title and assignment (if purchased); note '
-       'that its life is the author\'s life plus 50 years.'],
-    ]}},
-
-    {'h4': '§6.9.7 Physical examination'},
-    {'p': 'Physical inspection ascertains the existence of assets and liabilities, supporting '
-          'the auditor\'s conclusion on the fairness of related financial statement '
-          'assertions — using professional judgment to determine sufficient evidence, '
-          'considering the item\'s nature, the materiality of possible errors, the item\'s '
-          'relative risk, and the quality/quantity of evidence available cost-effectively.'},
-  ]},
+  {'n': '6.9', 't': 'Verification of assets and liabilities', 'b': [{'key': 'The auditor has a duty to verify all assets and liabilities appearing in the Statement of '
+         'Financial Position, **and** to ensure there are no other assets or liabilities that ought to '
+         'appear but do not.'},
+ {'h4': '§6.9.1 Verification of assets: CAVEBOP and VEBOP'},
+ {'p': 'In verifying assets, the auditor seeks to establish six things, remembered by the mnemonic '
+       '**CAVEBOP**:'},
+ {'ol': ['**C**ost;',
+         '**A**uthorization;',
+         '**V**alue;',
+         '**E**xistence;',
+         '**B**eneficial **O**wnership; and',
+         '**P**resentation in the accounts.']},
+ {'key': 'Cost and authorisation are ordinarily verified **once**, in the year of acquisition. For assets '
+         'already on the books from prior years, the auditor therefore only needs the remaining four aspects '
+         '— remembered as **VEBOP** (Valuation, Existence, Beneficial ownership, Presentation/disclosure). '
+         'Assets acquired **during** the current year still need the full CAVEBOP treatment.'},
+ {'h4': '§6.9.2 Verification of trade debtors and creditors'},
+ {'key': 'Independent, externally derived confirmation minimises the risk of **collusion** between third '
+         "parties and the company's own staff aimed at deceiving the auditor — as a general rule, "
+         'independent documentary evidence is superior to documentary evidence compiled by company staff, '
+         'regardless of their seniority.'},
+ {'p': 'Circularising a carefully selected sample of debtors/creditors serves to:'},
+ {'ul': ['ensure the accuracy of sales/purchase ledger book entries and resulting balances',
+         'ensure proper functioning of the credit control system',
+         'identify disputed accounts',
+         'and ensure records are fully up to date. Where suppliers are circularised, the confirmations '
+         "received support both the creditors' ledger balances and the monthly statements most suppliers "
+         'send their customers anyway.']},
+ {'note': 'It is essential that replies be sent **directly to the auditor at their own office** — otherwise '
+          'there is a risk of tampering or suppression by client staff.'},
+ {'h4': '§6.9.3 Verification of inventory and work in progress'},
+ {'key': 'Management is responsible for ensuring reported stock figures represent stock physically in '
+         "existence and include everything the entity owns; the auditor's duty is to obtain evidence of "
+         '**ownership, existence and condition** at year end.'},
+ {'p': 'Inventory receives particular audit attention because:'},
+ {'ul': ['it usually forms one of the largest Statement of Financial Position items (so a small error can be '
+         'material)',
+         'closing inventory directly affects cost of sales and hence profit/loss',
+         'it can be manipulated to hit a targeted profit figure',
+         'different valuation bases may be used',
+         'and there can be genuine valuation/existence/development-stage problems for specialised inventory '
+         '(livestock, production-in-process, etc.).']},
+ {'p': 'Objectives of inventory taking:'},
+ {'ul': ['verify condition',
+         'verify existence',
+         'establish title',
+         'determine cut-off accuracy',
+         'ascertain internal control effectiveness over inventory',
+         'provide a basis for checking inventory record correctness',
+         'ensure adequate provision for slow-moving/obsolete inventory',
+         'provide a quantity basis for valuation',
+         'and determine valuation accuracy.']},
+ {'h4': '§6.9.4 Liability verification'},
+ {'p': 'A Statement of Financial Position groups liabilities under headings such as equity, reserves, '
+       'creditors due after more than one year, provisions for liabilities/charges, creditors due within one '
+       "year, and contingent liabilities. The auditor's duty: verify the existence of stated liabilities; "
+       'verify the correctness of their money amounts; verify the appropriateness of their description and '
+       'the adequacy of disclosure; and verify that **all** existing liabilities are actually included.'},
+ {'p': 'General verification principles (applied per the specific circumstances):'},
+ {'ol': ['**Schedule** — request or prepare a schedule for each liability/class;',
+         '**Cut-off** — e.g. a trade creditor should not be included unless the goods were acquired before '
+         'year end;',
+         '**Reasonableness** — of the liability itself;',
+         '**Internal control** — determine, evaluate and test relevant procedures;',
+         '**Previous-date clearance** — have prior-period liabilities all been cleared?',
+         '**Authority** — for all liabilities;',
+         "**Description** — adequacy of each liability's description in the accounts;",
+         '**Documents** — examine relevant invoices, correspondence, debenture deeds, etc.;',
+         '**Vouching** — the creation of each liability (e.g. receipt of a loan);',
+         '**Accounting policies** — appropriate and consistently applied;',
+         '**Disclosure** — everything needed for a true and fair view;',
+         '**External verification** — direct confirmation with creditors, where possible;',
+         '**Materiality** — a factor in every accounting/auditing decision;',
+         '**Post-reporting-date events** — particularly important for liabilities;',
+         '**Accounting standards** — liabilities accounted for per the relevant standards; and',
+         '**Risk** — assess the risk of misstatement.']},
+ {'h4': '§6.9.5 Verification of non-current assets'},
+ {'p': 'Verification often begins with the **asset register**, which facilitates identifying assets during a '
+       'physical check and forms an important part of internal control. It must be agreed to the financial '
+       "records, and the auditor enquires about the extent/frequency of company officials' own "
+       'reconciliation checks between records, register and physical assets.'},
+ {'p': 'An asset register normally records, per asset:'},
+ {'ul': ["supplier's name",
+         'purchase date',
+         'original cost',
+         'estimated useful life',
+         'estimated residual value',
+         'a summary of repair expenditure to date',
+         'estimated replacement cost (updated annually)',
+         'and eventual disposal details.']},
+ {'h4': '§6.9.6 Verification of intangible assets'},
+ {'key': 'All intangibles have a finite economic life and should therefore be **amortised**.'},
+ {'table': {'align': 'll',
+            'head': ['Intangible', 'Key verification points'],
+            'rows': [['**Goodwill**',
+                      'Arises on purchase of a business — examine the contract and allocation of purchase '
+                      'price to assets; normally remains in the accounts at cost.'],
+                     ['**Patents**',
+                      'Examine the patent and its assignment (a patent can only be granted to an individual, '
+                      'e.g. an employee, who assigns it to the company); check payment of renewal fees and '
+                      'accounting for receivable royalties.'],
+                     ['**Trademarks**',
+                      'Examine the patent office certificate; the assignment, if purchased; the '
+                      'reasonableness of capitalised design costs; and payment of renewal fees.'],
+                     ['**Copyrights**',
+                      'Examine the document of title and assignment (if purchased); note that its life is '
+                      "the author's life plus 50 years."]]}},
+ {'h4': '§6.9.7 Physical examination'},
+ {'p': "Physical inspection ascertains the existence of assets and liabilities, supporting the auditor's "
+       'conclusion on the fairness of related financial statement assertions — using professional judgment '
+       "to determine sufficient evidence, considering the item's nature, the materiality of possible errors, "
+       "the item's relative risk, and the quality/quantity of evidence available cost-effectively."}]},
 
   {'n': '6.10', 't': 'Quality control', 'b': [
     {'key': 'Per the International Standard on Quality Control (ISQC), the audit firm '
@@ -781,22 +867,23 @@ CH = {
     ]}},
   ]},
 
-  {'n': '6.11', 't': 'Peer review', 'b': [
-    {'p': 'To mitigate litigation and losses arising from negligence, firms have taken measures '
-          'to improve work quality — one of which is peer review.'},
-    {'def': {'t': 'Peer review', 'd': 'a process where firms agree to set up mechanisms to '
-                  'review each other\'s processes, identifying practice weaknesses that could be '
-                  'addressed to improve quality standards. It involves a review of one audit '
-                  'firm\'s systems, procedures and strategies by another audit firm of comparable '
-                  'size, reputation and standard.'}},
-    {'warn': 'Peer review is **not common in Nigeria** — it is a new approach, limited by: '
-             'potentially prohibitive cost; the legality/confidentiality of allowing others '
-             'through a client\'s file being unprotected; and the inevitable exposure of one '
-             'firm\'s procedures/standards to a competing firm.'},
-    {'p': 'The reviewer is expected to report on: acceptance and retention of clients; means of '
-          'engaging, training, allocating and motivating staff; independence, integrity and '
-          'competence; and the conduct of individual audit and other engagements.'},
-  ]},
+  {'n': '6.11', 't': 'Peer review', 'b': [{'p': 'To mitigate litigation and losses arising from negligence, firms have taken measures to improve work '
+       'quality — one of which is peer review.'},
+ {'def': {'t': 'Peer review',
+          'd': "a process where firms agree to set up mechanisms to review each other's processes, "
+               'identifying practice weaknesses that could be addressed to improve quality standards. It '
+               "involves a review of one audit firm's systems, procedures and strategies by another audit "
+               'firm of comparable size, reputation and standard.'}},
+ {'warn': [{'p': 'Peer review is **not common in Nigeria** — it is a new approach, limited by:'},
+           {'ul': ['potentially prohibitive cost',
+                   "the legality/confidentiality of allowing others through a client's file being "
+                   'unprotected',
+                   "and the inevitable exposure of one firm's procedures/standards to a competing firm."]}]},
+ {'p': 'The reviewer is expected to report on:'},
+ {'ul': ['acceptance and retention of clients',
+         'means of engaging, training, allocating and motivating staff',
+         'independence, integrity and competence',
+         'and the conduct of individual audit and other engagements.']}]},
 
   {'n': '6.12', 't': 'Chapter summary', 'b': [
     {'ol': [

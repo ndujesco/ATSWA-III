@@ -73,6 +73,9 @@ await test('every authored chapter renders its actual section targets', () => {
       const chapter = A.DATA[code].chapters.find(ch => ch.n === n);
       for (const section of chapter.secs) {
         assert.ok(doc.getElementById('sec-' + String(section.n).replaceAll('.', '-')), `${code}/${n}/${section.n}`);
+        for (const block of section.b) {
+          if ((block.h3 || block.h4) && block.id) assert.ok(doc.getElementById(block.id), block.id);
+        }
       }
       assert.ok(page.querySelector('h1'));
     }
@@ -439,6 +442,19 @@ await test('multi-topic essays link each passage and appear in secondary chapter
   assert.equal(question.ch,14);
   assert.equal(question.sec,'14.4');
   assert.ok(question.pre.join(' ').includes('Uniform Costing'));
+});
+
+await test('source numbers display without breaking citations and printed subheadings can be linked', async () => {
+  const page = view('#/s/CA/3');
+  assert.equal(page.querySelector('#sec-3-3 > h2 .sn').textContent, '3.5');
+  assert.ok(page.querySelector('.reader-index a[href="#/s/CA/3?sec=3-3"]'));
+  view('#/s/CA/3?sec=book-3-5-1'); await tick(80);
+  has(doc.getElementById('sec-book-3-5-1'), '3.5.1');
+  assert.ok(doc.getElementById('sec-book-3-5-1').classList.contains('landed'));
+  view('#/s/MAN/3');
+  const original = doc.querySelector('img[src="assets/study-figures/man-p160.png"]');
+  assert.ok(original && original.alt.includes('Decision Tree'));
+  assert.equal(original.closest('a').getAttribute('href'), original.getAttribute('src'));
 });
 
 await test('no runtime or data-loading errors occurred', () => assert.deepEqual(errors, []));

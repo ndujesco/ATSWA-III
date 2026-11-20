@@ -3425,3 +3425,56 @@ records were archived under website/.cache/unrequested-sites-publication/
 outside the active configuration. The extra copy remains private; no removal
 was performed. No further publication or source synchronization is authorized
 without a new explicit user request.
+
+
+## 2026-11-20 — source-fidelity re-audit and local release refresh
+
+User requested a thorough ATSWA III finish before Skills, then explicitly
+instructed that Skills be left for now. No Skills source files were modified.
+
+Fresh PDF rebuild and browser checks initially passed the existing tests, but
+source comparisons found omissions the previous tests did not detect.
+Restored five full audit letters; complete ICQ (21 questions) and ICEQ
+(52 questions); six full original audit-report specimens; Cost Accounting's
+digital-pricing, sustainability and carbon-footprint passages; transport
+cost-sheet format; Management's product comparison/details and 19 complete
+review answers. Original questions and explanatory material remain intact.
+37 original Management page images preserve all 42 inventoried figure/table
+captions and exact diagrams. Source PDF provenance is hash-checked.
+
+Restored 61 numbered headings and 70 main-source reference mappings, with
+62 additional Taxation/Management section reviews. Visible source references
+and separately anchored subheadings preserve existing section/citation URLs.
+The formatting pass converted 473 enumerations, with every original word
+checked in order. Redundant embedded copies of dynamic supplements were then
+removed, leaving each original supplement applied once. The compiled content
+has 531 more list/step blocks overall than the prior release, including new
+worked answers and restored source lists. Two further contradictory printed
+question keys are flagged rather than silently replaced.
+
+Reviewed 48 uncertain/changed question targets against actual passages.
+Several old links were substantively wrong; new records identify why each
+corrected reading applies. Missing tested concepts were added as attributed
+historical-question supplements. No confidence gate was reduced. Inventory:
+62 chapters, 60 papers/15 diets, 3,360 questions with chapter/section/PDF links,
+171 additional passage links, 1,434 reviewed citation overrides, 386 flags,
+seven reviewed MCQ and seven short-answer corrections. Original questions,
+answers, PDF hashes and all revision identities pass the integrity audit.
+
+Validation PASS: fresh extraction from all original PDFs and full rebuild;
+13 Python source regressions; 30 jsdom UI regressions; 38 real Chrome checks
+across five widths; 124 chapter layout checks (all 62 at 320px/1440px); extra
+browser checks for guide filters, exact-question routes, timed references,
+restored forms/reports/diagrams, source-heading routes and new key warnings.
+Four exam-filtered abbreviation audits have zero unresolved candidates; COST
+in the restored uppercase cost-sheet heading is an ordinary word, excluded
+alongside CASH/TOTAL. QA evidence is local under website/.cache/.
+The runtime dist/ is refreshed with inventory/file hashes. User preview at
+localhost:4000 remains running. No commit, push, source sync or deployment.
+
+Limits: source heading/caption inventories were scanned and body samples
+investigated, including all concrete omissions above. This does not certify
+every prose line or independently recompute every historic/legal answer.
+Five older unavailable diets remain documented external limits. Evidence:
+website/data/source-fidelity-review.json, website/data/study-figures.json and
+website/tools/source_restoration_reviews.py.

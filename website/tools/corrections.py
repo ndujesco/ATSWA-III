@@ -99,6 +99,22 @@ SAQ_CORRECTIONS = {
     ('2025-09', 'MAN', 'saq', 16): ['Process layout / functional layout'],
 }
 FLAGS = {
+    ('2019-09', 'CA', 'mcq', 2):
+        'Printed key appears inconsistent: **A, Understandability**, is printed '
+        'as a quality that is not always desirable. The study text requires '
+        'reports to be simple and understandable (1.2.12) and not too '
+        'voluminous for a busy executive (1.3.9). The source gives no '
+        'explanation reconciling its key with those principles. Preserve '
+        'the original key, but do not learn that understandable information '
+        'is undesirable. [Presenting cost information](#/s/CA/1?sec=1-3-9).',
+    ('2021-03', 'MAN', 'mcq', 23):
+        'Printed wording/key conflict: the stem asks who is **NOT** the person '
+        'who purchases or orders, but the printed key is **B, Buyer**. '
+        'The study text defines that purchasing role as the **buyer**, which '
+        'fits the stem only if NOT is removed. Read the role definition '
+        'rather than treating this contradictory printed stem/key pair as '
+        'a reliable single-answer exercise. The original wording and key '
+        'are retained. [Buying roles](#/s/MAN/4?sec=C-1).',
     ('2026-03', 'TAX', 'mcq', 6):
         'Printed key defect: **C, a person experienced in tax laws and '
         'administration**, is printed. **D, the Supervisor for Finance**, '

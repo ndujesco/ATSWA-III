@@ -236,11 +236,15 @@ nav.tabs a[aria-current]{background:var(--accent-bg);color:var(--accent);}
 .sec{margin:0 0 40px;scroll-margin-top:78px;transition:background-color 1.8s ease;
   border-radius:8px;}
 .sec.landed{background-color:var(--accent-wash,rgba(31,98,68,.08));}
+[id^="sec-book-"].landed{background-color:var(--accent-wash,rgba(31,98,68,.08));}
+.study-figure{margin:24px 0;padding:12px;border:1px solid var(--rule);border-radius:8px;}
+.study-figure img{display:block;width:100%;height:auto;background:#fff;}
+.study-figure figcaption{font:400 14px/1.6 var(--sans);color:var(--ink2);margin-top:10px;}
 .sec > h2{font-size:25px;letter-spacing:-.026em;padding-bottom:9px;
   border-bottom:1px solid var(--rule);margin-bottom:18px;
   display:flex;align-items:baseline;gap:11px;}
 .sec > h2 .sn{font-family:var(--mono);font-size:13px;color:var(--accent);font-weight:600;
-  flex:none;}
+  flex:none;max-width:6.5rem;overflow-wrap:anywhere;}
 .sec h3{font-size:19px;margin:26px 0 10px;letter-spacing:-.02em;}
 .sec h4{font-size:16.5px;margin:20px 0 8px;color:var(--ink2);font-family:var(--sans);}
 .sec ul,.sec ol{margin:0 0 .9em;padding-left:22px;}

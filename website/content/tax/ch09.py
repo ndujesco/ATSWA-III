@@ -496,35 +496,26 @@ CH = {
                     {
                                  'n': '9.13',
                                  't': 'Contents of WHT returns / payment schedule — regulation 7(3)',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Each WHT cheque paid to the Revenue must be accompanied by a '
-                                                                                     'payment schedule, listing:',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'names of the taxpayers who suffered the deductions;',
-                                                                                                                    'their addresses;',
-                                                                                                                    'the nature of their activities/services and the period covered;',
-                                                                                                                    'their Tax ID;',
-                                                                                                                    'the total amount payable;',
-                                                                                                                    'the rate of tax applied;',
-                                                                                                                    'the amount of tax withheld;',
-                                                                                                                    'the balance paid to the taxpayer;',
-                                                                                                                    'the tax contract the returns relate to;',
-                                                                                                                    'the date of payment; and',
-                                                                                                                    'the cheque number and date.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': 'The Second Schedule template requires: name and Tax ID of the '
-                                                                                        'payer; month covered; relevant tax authority; currency of '
-                                                                                        'remittance; and, per beneficiary: name/address, Tax ID, nature '
-                                                                                        'of transaction, gross amount, rate, and amount deducted — with '
-                                                                                        'a signed declaration by authorised personnel of the paying '
-                                                                                        'entity.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Each WHT cheque paid to the Revenue must be accompanied by a payment schedule, listing:'},
+ {'ol': ['names of the taxpayers who suffered the deductions;',
+         'their addresses;',
+         'the nature of their activities/services and the period covered;',
+         'their Tax ID;',
+         'the total amount payable;',
+         'the rate of tax applied;',
+         'the amount of tax withheld;',
+         'the balance paid to the taxpayer;',
+         'the tax contract the returns relate to;',
+         'the date of payment; and',
+         'the cheque number and date.']},
+ {'note': [{'p': 'The Second Schedule template requires:'},
+           {'ul': ['name and Tax ID of the payer',
+                   'month covered',
+                   'relevant tax authority',
+                   'currency of remittance',
+                   'and, per beneficiary: name/address, Tax ID, nature of transaction, gross amount, rate, '
+                   'and amount deducted — with a signed declaration by authorised personnel of the paying '
+                   'entity.']}]}],
                                },
                     {
                                  'n': '9.14',
@@ -633,77 +624,27 @@ CH = {
                     {
                                  'n': '9.20',
                                  't': 'Merits and demerits of WHT scheme',
-                                 'b': [
-                                                          {
-                                                                                'h4': '9.20.1 – 9.20.2  Merits and demerits',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Merits',
-                                                                                                                                                                             'Demerits',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Source of government revenue.',
-                                                                                                                                                                                                                          'A high WHT rate can affect the operational '
-                                                                                                                                                                                                                          'performance of most businesses.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Expands the tax net, bringing in persons '
-                                                                                                                                                                                                                          'previously unknown to the tax authorities.',
-                                                                                                                                                                                                                          'Affects the cash flow of most businesses, who '
-                                                                                                                                                                                                                          'receive less than invoiced/budgeted.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Helps determine a person\'s turnover, aiding '
-                                                                                                                                                                                                                          'correct income ascertainment.',
-                                                                                                                                                                                                                          'Likely discourages hard work by revenue '
-                                                                                                                                                                                                                          'officers, since it is self-accounting.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Makes tax payment less cumbersome for the '
-                                                                                                                                                                                                                          'taxpayer (no need to visit the tax office).',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Reduces incidence of tax evasion.',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Involves little or no collection cost, being '
-                                                                                                                                                                                                                          'self-accounting.',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          'Saves revenue officers\' time for other duties.',
-                                                                                                                                                                                                                          '',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '9.20.3  Withholding tax rate and double taxation relief',
-                                                                              },
-                                                          {
-                                                                                'p': 'The principle behind double taxation relief is to avoid taxing the '
-                                                                                     'same income more than once. Where a double taxation treaty exists '
-                                                                                     'between Nigeria and another country, a resident of that country '
-                                                                                     'receiving Nigerian income is entitled to relief at the treaty rate.',
-                                                                              },
-                                                          {
-                                                                                'key': 'The WHT rate is **7.5%** for dividend, interest and royalty, for '
-                                                                                       'recipients of a country with an active double taxation treaty '
-                                                                                       'with Nigeria.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Nigeria has active double taxation treaties with: Canada, Czech '
-                                                                                     'Republic, France, Netherlands, Pakistan, Romania, Italy (air and '
-                                                                                     'shipping only), United Kingdom, South Africa, Philippines, '
-                                                                                     'Belgium, China, Rwanda, Singapore, Slovakia, and Spain.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '9.20.1  Merits'},
+ {'ul': ['Source of government revenue.',
+         'Expands the tax net, bringing in persons previously unknown to the tax authorities.',
+         "Helps determine a person's turnover, aiding correct income ascertainment.",
+         'Makes tax payment less cumbersome for the taxpayer (no need to visit the tax office).',
+         'Reduces incidence of tax evasion.',
+         'Involves little or no collection cost, being self-accounting.',
+         "Saves revenue officers' time for other duties."]},
+ {'h4': '9.20.2  Demerits'},
+ {'ul': ['A high WHT rate can affect the operational performance of most businesses.',
+         'Affects the cash flow of most businesses, who receive less than invoiced/budgeted.',
+         'Likely discourages hard work by revenue officers, since it is self-accounting.']},
+ {'h4': '9.20.3  Withholding tax rate and double taxation relief'},
+ {'p': 'The principle behind double taxation relief is to avoid taxing the same income more than once. Where '
+       'a double taxation treaty exists between Nigeria and another country, a resident of that country '
+       'receiving Nigerian income is entitled to relief at the treaty rate.'},
+ {'key': 'The WHT rate is **7.5%** for dividend, interest and royalty, for recipients of a country with an '
+         'active double taxation treaty with Nigeria.'},
+ {'p': 'Nigeria has active double taxation treaties with: Canada, Czech Republic, France, Netherlands, '
+       'Pakistan, Romania, Italy (air and shipping only), United Kingdom, South Africa, Philippines, '
+       'Belgium, China, Rwanda, Singapore, Slovakia, and Spain.'}],
                                },
                     {
                                  'n': '9.21',

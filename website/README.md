@@ -12,11 +12,12 @@ A dependency-free study website for Cost Accounting, Principles of Auditing
 | Questions linked to both chapter and section | 3,360 / 3,360 |
 | Questions linked to an original PDF page | 3,360 / 3,360 |
 | Additional passages for multi-topic essays | 171 |
-| Individually reviewed citation overrides | 1,386 |
-| Question-level law/source flags | 384 |
+| Individually reviewed citation overrides | 1,434 |
+| Question-level law/source flags | 386 |
 | Reviewed MCQ / short-answer corrections | 7 / 7 |
 | Original PDFs / recovered figure pages / tax-table appendices | 15 / 7 / 15 |
 | Source questions retained in Final Revision | 3,360 |
+| Original study-text diagram/table pages and captions | 37 / 42 |
 
 The exact build inventory is in `data/audit-report.json`. The five older
 target diets (September 2016, March/September 2017, March/September 2018)
@@ -76,7 +77,7 @@ python3 tools/rebuild.py --extract
 Without source-PDF changes, `python3 tools/rebuild.py` reuses the extracted
 bank. Both commands rebuild chapter content, chapter/section retrieval,
 source figures, exams, revision and the HTML, then run the integrity audit,
-7 Python source regressions and 29 jsdom UI regressions. Extraction and
+13 Python source regressions and 30 jsdom UI regressions. Extraction and
 figure recovery use Poppler's `pdftotext` and `pdftoppm`; Python 3 and Node
 are build tools. The UI suite uses jsdom (`npm install --no-save jsdom`).
 None is a deployed runtime dependency.
@@ -85,10 +86,34 @@ For a UI-only change, `sh build.sh` assembles the page and
 `node tools/test.mjs` checks its behavior. Rebuild the full chain after any
 content, citation, correction or law-flag change.
 
-The final release passed the full rebuild, all 7 Python and 29 jsdom tests,
+The final release passed the full rebuild, all 13 Python and 30 jsdom tests,
 38 real Chrome checks across five viewport widths, and additional Chrome
 checks for the guide, cross-topic reading links and timed reference tables.
 Browser QA helpers/screenshots are local, ignored files under `.cache/`.
+
+## Source-fidelity re-audit — 20 November 2026
+
+Restored five complete audit specimen letters, full ICQ/ICEQ forms (21/52
+questions), six complete audit-report specimens, the Cost Accounting digital
+pricing and sustainability/carbon discussions, the Management consumer-product
+comparison and missing source examples, and 19 self-contained Management
+review answers. Original diagram/table pages preserve all 42 inventoried
+Management captions. Printed source numbering is visible while existing
+question links remain stable. Numbering defects and two additional contradictory
+printed question keys are explicitly explained; original answers remain visible.
+
+The review record is data/source-fidelity-review.json. Its 48 individual
+citation reviews are in tools/source_restoration_reviews.py. The final corpus
+still has all 3,360 questions with chapter/section/PDF-page links. The build
+checks original specimen text fingerprints and diagram provenance; the audit
+covers source heading/caption inventories and targeted body comparisons, not
+a claim of word-for-word certification or independent recomputation of every
+source answer.
+
+Final checks: 13 Python source regressions, 30 jsdom UI regressions, 38 real
+Chrome checks across five widths, 124 chapter-layout checks (all 62 chapters
+at 320px and 1440px), and additional guide/source-restoration browser checks.
+All pass. Skills is on hold under the latest user instruction.
 
 ## Content integrity
 
@@ -145,4 +170,4 @@ The optional dist/ contains just runtime files. Do not deploy on the user's
 behalf. See ../RELEASE.md for the local build record and this preference.
 
 See `../PROGRESS.md` for the dated work log and `../../HANDOVER.md` for the
-current checkpoint. Skills is a separate project, now resumed locally; see ../../HANDOVER.md.
+current checkpoint. Skills is a separate project, currently on hold; see ../../HANDOVER.md.

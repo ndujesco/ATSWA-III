@@ -22,23 +22,20 @@ CH = {
    'and further administrative matters',
  ],
  'secs': [
-  {'n': '2.2', 't': 'Nature of tax administration', 'b': [
-    {'key': 'Tax administration in Nigeria is vested in **three** broad tax authorities: the '
-            'Nigeria Revenue Service (NRS); the State Internal Revenue Service (SIRS); and the '
-            'Local Government Revenue Committee. The enabling law for each type of tax '
-            'normally specifies which body administers it.'},
-    {'p': 'The relevant enabling tax laws:'},
-    {'ol': [
-      'the **Nigeria Tax Act (NTA) 2025** — imposes tax on the income of companies (other '
-      'than corporation soles), individuals, and companies in petroleum operations (upstream);',
-      'the **Petroleum Industry Act (PIA) 2021** — imposes tax on the profits of companies in '
-      'petroleum operations;',
-      'the **Nigeria Tax Administration Act (NTAA) 2025**;',
-      'the **Joint Revenue Board of Nigeria (Establishment) Act (JRBA) 2025**;',
-      'the **Nigeria Revenue Service (Establishment) Act (NRSA) 2025**; and',
-      'the **Nigerian Insurance Industry Reform Act (NIIRA) 2025**.',
-    ]},
-  ]},
+  {'n': '2.2', 't': 'Nature of tax administration', 'b': [{'key': [{'p': 'Tax administration in Nigeria is vested in **three** broad tax authorities:'},
+          {'ul': ['the Nigeria Revenue Service (NRS)',
+                  'the State Internal Revenue Service (SIRS)',
+                  'and the Local Government Revenue Committee. The enabling law for each type of tax '
+                  'normally specifies which body administers it.']}]},
+ {'p': 'The relevant enabling tax laws:'},
+ {'ol': ['the **Nigeria Tax Act (NTA) 2025** — imposes tax on the income of companies (other than '
+         'corporation soles), individuals, and companies in petroleum operations (upstream);',
+         'the **Petroleum Industry Act (PIA) 2021** — imposes tax on the profits of companies in petroleum '
+         'operations;',
+         'the **Nigeria Tax Administration Act (NTAA) 2025**;',
+         'the **Joint Revenue Board of Nigeria (Establishment) Act (JRBA) 2025**;',
+         'the **Nigeria Revenue Service (Establishment) Act (NRSA) 2025**; and',
+         'the **Nigerian Insurance Industry Reform Act (NIIRA) 2025**.']}]},
 
   {'n': '2.3', 't': 'Objective and application of the NTAA (s.1)', 'b': [
     {'p': 'The Act ensures uniform procedures for consistent, efficient tax law '
@@ -48,285 +45,296 @@ CH = {
             'whether personally or **on behalf of another person**.'},
   ]},
 
-  {'n': '2.4', 't': 'Organs of tax administration', 'b': [
-    {'h4': '2.4.1  Joint Revenue Board (JRB) — s.3 JRBA 2025'},
-    {'table': {'align': 'll', 'head': ['Aspect', 'Detail'], 'rows': [
-      ['**Composition**', 'The Executive Chairman of the NRS (as Chairman); the Chairman of '
-       'each State/FCT Internal Revenue Service; and ex-officio members representing: the '
-       'Minister of Finance; the Director-General of NIMC; the Chairman of the Revenue '
-       'Mobilisation, Allocation and Fiscal Commission; the Comptroller-General of the '
-       'Nigerian Immigration Service; the Corps Marshal of the FRSC; the Comptroller-General '
-       'of the Nigeria Customs Service; and the NRS (each not below a specified minimum '
-       'rank). Members serve part-time. The Board may co-opt up to 2 additional persons/'
-       'bodies/agencies as needed.'],
-      ['**Quorum**', 'One-third of members, including the Chairman.'],
-      ['**Functions** (s.5 JRBA)', 'Integrate/maintain a nationwide Taxpayer ID database; '
-       'resolve residency-determination disputes between tax authorities; advise government '
-       'on (domestic and international) double taxation matters; resolve other inter-'
-       'authority disputes; maintain a data collection/exchange platform among tax '
-       'authorities; promote harmonisation and uniformity of taxes/levies/rates/charges; '
-       'advise on new/changed taxes; provide periodic impact analysis and capacity-building '
-       'recommendations; collaborate on surveys and publish tax indices/statistics; recommend/'
-       'facilitate fiscal and tax policy reform; receive/collate/publish periodic tax revenue '
-       'collected; receive/collate/publish tax expenditure from waivers/exemptions/'
-       'incentives; support research on tax fraud/evasion and recommend interventions; guide '
-       'tax agent accreditation; and carry out any other Act-assigned function.'],
-      ['**Powers** (s.6 JRBA)', 'Provide general policy guidelines; manage/superintend its own '
-       'policies; review/approve strategic plans; employ staff and set terms/conditions '
-       '(including discipline); stipulate staff remuneration/allowances/pensions; and do '
-       'other things necessary for efficient performance.'],
-      ['**Executive Secretary** (s.10 JRBA)', 'The chief executive/accounting officer, '
-       'responsible for executing Board policy. Requires relevant taxation/accountancy/'
-       'economics/law qualification and **≥10 years** relevant experience. Holds office for a '
-       '**4-year term, renewable once (max 8 years)**. Duties: issuing meeting notices, '
-       'keeping proceedings records, conducting correspondence, and other Board-determined '
-       'duties.'],
-      ['**Cessation of membership** (s.8 JRBA)', 'No longer occupying the qualifying office; '
-       'resignation by notice; death or incapacity (mind/body infirmity); bankruptcy or '
-       'creditor compromise; or conviction for a felony or dishonesty/fraud offence.'],
-    ]}},
+  {'n': '2.4', 't': 'Organs of tax administration', 'b': [{'h4': '2.4.1  Joint Revenue Board (JRB) — s.3 JRBA 2025'},
+ {'table': {'align': 'll',
+            'head': ['Aspect', 'Detail'],
+            'rows': [['**Composition**',
+                      'The Executive Chairman of the NRS (as Chairman); the Chairman of each State/FCT '
+                      'Internal Revenue Service; and ex-officio members representing: the Minister of '
+                      'Finance; the Director-General of NIMC; the Chairman of the Revenue Mobilisation, '
+                      'Allocation and Fiscal Commission; the Comptroller-General of the Nigerian Immigration '
+                      'Service; the Corps Marshal of the FRSC; the Comptroller-General of the Nigeria '
+                      'Customs Service; and the NRS (each not below a specified minimum rank). Members serve '
+                      'part-time. The Board may co-opt up to 2 additional persons/bodies/agencies as '
+                      'needed.'],
+                     ['**Quorum**', 'One-third of members, including the Chairman.'],
+                     ['**Functions** (s.5 JRBA)',
+                      'Integrate/maintain a nationwide Taxpayer ID database; resolve residency-determination '
+                      'disputes between tax authorities; advise government on (domestic and international) '
+                      'double taxation matters; resolve other inter-authority disputes; maintain a data '
+                      'collection/exchange platform among tax authorities; promote harmonisation and '
+                      'uniformity of taxes/levies/rates/charges; advise on new/changed taxes; provide '
+                      'periodic impact analysis and capacity-building recommendations; collaborate on '
+                      'surveys and publish tax indices/statistics; recommend/facilitate fiscal and tax '
+                      'policy reform; receive/collate/publish periodic tax revenue collected; '
+                      'receive/collate/publish tax expenditure from waivers/exemptions/incentives; support '
+                      'research on tax fraud/evasion and recommend interventions; guide tax agent '
+                      'accreditation; and carry out any other Act-assigned function.'],
+                     ['**Powers** (s.6 JRBA)',
+                      'Provide general policy guidelines; manage/superintend its own policies; '
+                      'review/approve strategic plans; employ staff and set terms/conditions (including '
+                      'discipline); stipulate staff remuneration/allowances/pensions; and do other things '
+                      'necessary for efficient performance.'],
+                     ['**Executive Secretary** (s.10 JRBA)',
+                      'The chief executive/accounting officer, responsible for executing Board policy. '
+                      'Requires relevant taxation/accountancy/economics/law qualification and **≥10 years** '
+                      'relevant experience. Holds office for a **4-year term, renewable once (max 8 '
+                      'years)**. Duties: issuing meeting notices, keeping proceedings records, conducting '
+                      'correspondence, and other Board-determined duties.'],
+                     ['**Cessation of membership** (s.8 JRBA)',
+                      'No longer occupying the qualifying office; resignation by notice; death or incapacity '
+                      '(mind/body infirmity); bankruptcy or creditor compromise; or conviction for a felony '
+                      'or dishonesty/fraud offence.']]}},
+ {'h4': '2.4.2  Nigeria Revenue Service Board (NRSB) — s.6-15 NRSA'},
+ {'key': "The NRSB has **overall supervision** of the NRS — administration of tax on incorporated companies' "
+         'profits is vested in the NRS and this Board together.'},
+ {'table': {'align': 'll',
+            'head': ['Aspect', 'Detail'],
+            'rows': [['**Composition** (s.7 NRSA)',
+                      'The Executive Chairman (appointed by the President, Senate-confirmed); plus '
+                      'ex-officio members representing: the Minister of Finance; the Minister of National '
+                      'Planning; the Attorney-General of the Federation; the Minister of Petroleum and Gas '
+                      'Resources; the CBN Governor; the Chairman of the Revenue Mobilisation, Allocation and '
+                      'Fiscal Commission; the Comptroller-General of Customs; the Registrar-General of the '
+                      'CAC; and Executive Directors appointed by the President. All but the Executive '
+                      'Chairman and Executive Directors serve part-time.'],
+                     ['**Powers/functions** (s.8 NRSA)',
+                      'Provide general policy guidelines; evaluate policy implementation on '
+                      'assessment/collection/accounting; review/approve strategic plans; employ staff and '
+                      'set terms/discipline; stipulate remuneration/pensions; (with Ministerial approval) '
+                      'make rules/regulations with compliance requirements and non-compliance consequences; '
+                      'assign Executive Directors their directorates; and do other necessary things.'],
+                     ['**Secretary to the Board** (s.13 NRSA)',
+                      'Appointed by the Board from within the Service — must be a lawyer, chartered '
+                      'accountant or chartered secretary, at least Assistant Director rank. Duties: issuing '
+                      'meeting notices, keeping proceedings records, and other Board/Chairman-directed '
+                      'duties.'],
+                     ['**Tenure** (s.9 NRSA)',
+                      'The Executive Chairman and non-ex-officio members each hold office for a **4-year '
+                      'term, renewable once (max 8 years)**; other terms per the letter of appointment.'],
+                     ['**Cessation of membership** (s.11 NRSA)',
+                      'Resignation (non-ex-officio, by notice to the President); death/incapacity; '
+                      'bankruptcy/creditor compromise; conviction for felony/dishonesty/fraud; presidential '
+                      'removal in the public/Service interest (non-ex-officio); Code of Conduct Bureau '
+                      'breach or gross misconduct; professional disqualification; presidential satisfaction '
+                      'that continuation is not in the public/Service interest; tenure expiry; or ceasing to '
+                      'hold the qualifying office.'],
+                     ['**Delegation** (s.12 NRSA)',
+                      'The Board may exercise its powers itself, or via an authorised officer — and may '
+                      "**review** any authorised officer's decision, with the reviewed decision taking "
+                      "effect as the original. An approved committee's order/ruling/directive is not treated "
+                      "as the Board's own until **ratified** by the Board."],
+                     ['**Technical Committee** (ss.14-15 NRSA)',
+                      'Comprises: the Executive Chairman (Chairman); 2 Board members; the Executive '
+                      'Directors; the Director Legal; and the Director for Tax Policy — with the Board '
+                      'Secretary as its Secretary, and power to co-opt Service directors/officers as needed. '
+                      'Functions: considering technical/professional tax matters and recommending to the '
+                      'Board; advising the Board on its functions/powers; and attending to Board-referred '
+                      'matters.']]}},
+ {'h4': '2.4.3  Nigeria Revenue Service (NRS) itself — ss.3-5 NRSA'},
+ {'p': 'Established by s.3(1) NRSA as a **body corporate** with perpetual succession and a common seal — may '
+       'sue/be sued in its own name, and acquire/hold/dispose of property to carry out its functions.'},
+ {'key': [{'p': "The Service's functions (s.4 NRSA) are extensive — among them:"},
+          {'ul': ['assess corporate/individual taxpayers',
+                  'collect/recover/enforce/remit assessed tax',
+                  'account for all government revenue',
+                  'review tax regimes (with relevant Ministries, National Assembly approval) to grow '
+                  'economic activity',
+                  'carry out compliance examinations/investigations',
+                  'determine financial losses from tax fraud/evasion and revenue foregone from waivers',
+                  'identify/trace/freeze/confiscate/seize proceeds of tax fraud/evasion',
+                  'adopt compliance/regulatory/investigative measures',
+                  'exchange information with national/international agencies',
+                  'exchange personnel/experts for capacity building',
+                  'monitor international tax dynamics for suspicious transactions',
+                  'maintain up-to-date taxpayer data/access',
+                  'maintain databases/statistics/records on tax administration matters',
+                  'support research on tax fraud/evasion',
+                  'review government tax policy and implement it',
+                  'liaise with the AGF and law enforcement on tax offences',
+                  'issue Taxpayer IDs (with State/Local/JRB collaboration)',
+                  'run public tax-compliance awareness campaigns',
+                  'carry out administrative/oversight functions over federal taxes/levies (including '
+                  'query/subpoena/sanction/reward power)',
+                  'and provide/receive cross-border revenue-collection assistance under international '
+                  'agreements.']}]},
+ {'p': 'With Ministerial approval, the Service makes rules/regulations giving full effect to the Act, '
+       'including compliance requirements and non-compliance consequences — and carries out other necessary '
+       'activities, including specifying return/claim/statement/notice forms, and deploying '
+       'technology/digital platforms to automate tax administration processes.'},
+ {'h4': '2.4.4  Assistance of Nigeria Revenue Service in tax collection — section 5 of NRSA'},
+ {'p': 'On request from a State/Local Government, the NRS may assist collect/administer a tax that '
+       'government has the statutory right to collect — covering proper '
+       'assessment/collection/accounting/enforcement, PIT administration for a class of taxpayers, or '
+       "collection/enforcement of a particular revenue claim. Revenue collected on another authority's "
+       'behalf is remitted directly to them, as agreed. Under international '
+       'double-taxation/administrative-assistance agreements, the Service carries out the obligations '
+       'prescribed and may agree the performance manner with the foreign competent authority; the '
+       "Accountant-General opens a designated account for revenue collected on another country's behalf "
+       'pending remittance. The Service applies its usual enforcement/collection powers as if the revenue '
+       'were its own (except regarding time limits), may take interim (including judicial) measures to '
+       'preserve collection, and may charge an agreed fee to defray the assistance cost. A **"revenue '
+       'claim"** covers tax, levy, fee, charge or statutory contribution due (including interest, penalties '
+       'and collection/conservancy cost) to a Nigerian local/state government or agency, or a foreign '
+       'government under a subsisting double-taxation/administrative-assistance agreement.'},
+ {'h4': '2.4.5  Miscellaneous provisions (including confidentiality)'},
+ {'table': {'align': 'll',
+            'head': ['Provision', 'Detail'],
+            'rows': [['**Institutional confidentiality** (s.32 NRSA)',
+                      'All internal Service information/communications/documents/memoranda are confidential '
+                      '— unauthorised disclosure is an offence, liable on conviction to a fine of **up to '
+                      'N5,000,000**, or imprisonment for **up to 3 years**, or both.'],
+                     ['**Official secrecy** (s.33 NRSA)',
+                      'Officials must treat taxpayer documents/information/returns/notices/assessments as '
+                      'secret/confidential — unauthorised communication is an offence carrying the same '
+                      "penalty (up to N5,000,000 fine, and/or up to 3 years' imprisonment) — except where "
+                      "authorised by the Service, ordered by a court, or required for the Act's purposes. "
+                      'Officials need not produce documents/information except as necessary for legal '
+                      'proceedings relating to Nigerian tax. The secrecy obligation does NOT prevent '
+                      'disclosure to an authorised foreign officer under a tax treaty/agreement/arrangement '
+                      'with Nigeria.'],
+                     ['**Endorsement of transactions** (s.34 NRSA)',
+                      'The Executive Chairman or an authorised officer may endorse anything done, or '
+                      "required to be done, under the Service's powers or the Second Schedule laws (NTA, "
+                      'NTAA, etc.).'],
+                     ['**Service of documents** (s.36 NRSA)',
+                      'Notices/summonses/documents may be served on the Service by delivery to the Executive '
+                      'Chairman, registered post/courier/substituted service, a designated Service email '
+                      'address, or other electronic means the Service provides.'],
+                     ['**Legislations administered** (Second Schedule)',
+                      'NTA 2025; NTAA 2025; laws imposing other government-entity-collected '
+                      'taxes/fees/levies (signature bonus, pipeline fees, gas-flaring penalties, depot '
+                      'levies/licences, OEL/OML/OPL fees, royalties, rents, drilling-rig/pipeline licence '
+                      'fees, haulage fees, and similar oil-industry fees); related '
+                      'regulations/proclamations/orders/notices; and any other National Assembly law for '
+                      'federal revenue assessment/collection/accounting.'],
+                     ['**Forms** (s.85 NTAA)',
+                      'The relevant tax authority may specify/simplify forms, statements and notices for '
+                      'effective tax administration, from time to time.'],
+                     ['**Assessment lists** (s.44 NTAA)',
+                      'The relevant tax authority maintains assessment lists of taxed persons, recording: '
+                      'names/addresses of those assessed; the name/address of anyone else chargeable in '
+                      'their name; total profits; tax payable; and other tax-authority-determined '
+                      'particulars. Complete filed assessment notices/amendments themselves constitute the '
+                      'assessment lists.']]}},
+ {'h4': '2.4.6  Establishment and composition of the management board of the State Service Management Board '
+        '(State Board) — s.89-92 NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Aspect', 'Detail'],
+            'rows': [['**Composition** (s.89(2))',
+                      'The Executive Chairman of the State Service (Chairman); directors from within the '
+                      'State Service; a director from the State Ministry of Finance; the Legal Adviser to '
+                      'the State Service (Secretary); and 3 other persons appointed by the State Governor on '
+                      'personal merit, one per Senatorial District, with relevant taxation '
+                      'experience/knowledge.'],
+                     ['**Quorum** (s.89(4))', '5 members, including the Chairman or a director.'],
+                     ['**Functions** (s.91)',
+                      'Provide general policy guidelines; manage/superintend '
+                      'revenue-assessment/collection/accounting policy; review/approve strategic plans; '
+                      'employ staff and set terms/discipline; stipulate staff remuneration (in consultation '
+                      'with the Governor); retain an approved portion of collected revenue to defray '
+                      'collection/administration cost; make recommendations to the Unified Revenue '
+                      'Commission on tax policy/reform/legislation/treaties/exemptions; and do other '
+                      'necessary things.'],
+                     ['**Delegation** (s.91(2), s.98)',
+                      'The State Board may authorise any person (by gazette notice or in writing) to perform '
+                      'its functions/duties/powers, or receive notices/documents on its behalf — and may '
+                      "reverse/modify an officer's erroneous or unlawful decision, or one already reviewed "
+                      'under dispute resolution.'],
+                     ['**Technical Committee** (s.92)',
+                      "Comprises the State Board's Executive Chairman (Chairman), State Service directors, "
+                      'and the Legal Adviser — may co-opt additional staff. Functions: considering '
+                      'technical/professional matters and recommending to the State Board; advising on the '
+                      "State Board's s.91 powers/duties; and attending to referred matters."]]}},
+ {'h4': '2.4.7  State Internal Revenue Service (SIRS) — s.87-90 NTA/NTAA'},
+ {'key': "Established for each state (s.87 NTA), **without prejudice** to the State Government's own power "
+         'over individual income tax, PAYE and stamp duties — the State Service is **autonomous** in its '
+         'day-to-day financial, technical, professional and administrative affairs.'},
+ {'p': 'Functions (s.88 NTAA):'},
+ {'ul': ['assess individuals, estates, trusts, settlements, communities and families',
+         'assess/collect/account/enforce state-due taxes',
+         'collect/recover/remit tax under this or any other law',
+         'carry out compliance examinations/investigations (with law enforcement)',
+         'and carry out other State House of Assembly-prescribed functions.']},
+ {'p': 'The **Executive Chairman** (s.90 NTAA) is appointed by the State Governor, subject to State House of '
+       'Assembly confirmation — the Chief Executive/Accounting Officer, responsible for policy execution and '
+       'day-to-day administration, and must have taxation experience and membership of a recognised '
+       'professional body.'},
+ {'h4': '2.4.8  State Joint Revenue Committee (SJRC) — s.95-96 NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Aspect', 'Detail'],
+            'rows': [['**Composition**',
+                      "The State Service's Executive Chairman (Chairman); the Chairmen of each Local "
+                      'Government Revenue Committee; a representative of the local-government-affairs '
+                      'agency; a Revenue Mobilisation Allocation and Fiscal Commission representative '
+                      "(observer); the State Sector Commander of the FRSC (observer); the State Service's "
+                      'Legal Adviser; and a Secretary (a State Service staff member).'],
+                     ['**Functions**',
+                      'Implement JRB decisions; advise the JRB and State/Local Governments on revenue '
+                      'matters; harmonise state tax administration; enlighten the public on State/Local '
+                      'Government revenue matters; and carry out other JRB-assigned functions.']]}},
+ {'h4': '2.4.9  Local Government Revenue Committee (LGRC) — s.93-94 NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Aspect', 'Detail'],
+            'rows': [['**Composition**',
+                      'The Local Government Supervisor for Finance (Chairman); 3 local government '
+                      'councillors; and 2 other persons experienced in revenue matters, nominated by the '
+                      'Local Government Chairman on personal merit.'],
+                     ['**Functions**',
+                      'Assess and collect all taxes/fines/rates under its jurisdiction, accounting for all '
+                      'sums collected as the local government prescribes. The Committee is **autonomous of '
+                      'the local government treasury**, responsible for its own day-to-day administration as '
+                      'its operational arm.']]}}]},
 
-    {'h4': '2.4.2  Nigeria Revenue Service Board (NRSB) — s.6-15 NRSA'},
-    {'key': 'The NRSB has **overall supervision** of the NRS — administration of tax on '
-            'incorporated companies\' profits is vested in the NRS and this Board together.'},
-    {'table': {'align': 'll', 'head': ['Aspect', 'Detail'], 'rows': [
-      ['**Composition** (s.7 NRSA)', 'The Executive Chairman (appointed by the President, '
-       'Senate-confirmed); plus ex-officio members representing: the Minister of Finance; the '
-       'Minister of National Planning; the Attorney-General of the Federation; the Minister of '
-       'Petroleum and Gas Resources; the CBN Governor; the Chairman of the Revenue '
-       'Mobilisation, Allocation and Fiscal Commission; the Comptroller-General of Customs; '
-       'the Registrar-General of the CAC; and Executive Directors appointed by the President. '
-       'All but the Executive Chairman and Executive Directors serve part-time.'],
-      ['**Powers/functions** (s.8 NRSA)', 'Provide general policy guidelines; evaluate policy '
-       'implementation on assessment/collection/accounting; review/approve strategic plans; '
-       'employ staff and set terms/discipline; stipulate remuneration/pensions; (with '
-       'Ministerial approval) make rules/regulations with compliance requirements and '
-       'non-compliance consequences; assign Executive Directors their directorates; and do '
-       'other necessary things.'],
-      ['**Secretary to the Board** (s.13 NRSA)', 'Appointed by the Board from within the '
-       'Service — must be a lawyer, chartered accountant or chartered secretary, at least '
-       'Assistant Director rank. Duties: issuing meeting notices, keeping proceedings '
-       'records, and other Board/Chairman-directed duties.'],
-      ['**Tenure** (s.9 NRSA)', 'The Executive Chairman and non-ex-officio members each hold '
-       'office for a **4-year term, renewable once (max 8 years)**; other terms per the '
-       'letter of appointment.'],
-      ['**Cessation of membership** (s.11 NRSA)', 'Resignation (non-ex-officio, by notice to '
-       'the President); death/incapacity; bankruptcy/creditor compromise; conviction for '
-       'felony/dishonesty/fraud; presidential removal in the public/Service interest (non-'
-       'ex-officio); Code of Conduct Bureau breach or gross misconduct; professional '
-       'disqualification; presidential satisfaction that continuation is not in the public/'
-       'Service interest; tenure expiry; or ceasing to hold the qualifying office.'],
-      ['**Delegation** (s.12 NRSA)', 'The Board may exercise its powers itself, or via an '
-       'authorised officer — and may **review** any authorised officer\'s decision, with the '
-       'reviewed decision taking effect as the original. An approved committee\'s order/ruling/'
-       'directive is not treated as the Board\'s own until **ratified** by the Board.'],
-      ['**Technical Committee** (ss.14-15 NRSA)', 'Comprises: the Executive Chairman '
-       '(Chairman); 2 Board members; the Executive Directors; the Director Legal; and the '
-       'Director for Tax Policy — with the Board Secretary as its Secretary, and power to '
-       'co-opt Service directors/officers as needed. Functions: considering technical/'
-       'professional tax matters and recommending to the Board; advising the Board on its '
-       'functions/powers; and attending to Board-referred matters.'],
-    ]}},
+  {'n': '2.5', 't': 'Jurisdictions of the tax authorities (s.3 NTAA)', 'b': [{'h4': '2.5.1  The Nigeria Revenue Service'},
+ {'p': 'The **NRS** has:'},
+ {'ol': ['**exclusive** responsibility to administer taxes on: companies; persons employed in the Nigerian '
+         'Army/Navy/Air Force/Police (other than civilian-capacity staff); Nigerian Foreign Service '
+         'officers; non-resident persons deriving profit/income from Nigeria (or income from Nigerian '
+         'employment by a non-resident); and specific NTA-listed items — development levy, non-resident '
+         'taxpayers, specialised-trade companies, petroleum operations income tax, VAT, economic development '
+         'tax incentive, and VAT exemptions;',
+         '**power** to administer: income tax; taxation of petroleum income; stamp duties; VAT; and tax '
+         'incentives; and',
+         'any other NRSA/NTAA/National Assembly-conferred powers/functions.']},
+ {'h4': '2.5.2  Relevant State/FCT tax authority'},
+ {'key': 'Per s.3(2) NTAA, the **relevant State/FCT tax authority** administers taxes for resident '
+         'individuals — imposition of tax on income/profits/gains, ascertainment of '
+         'profits/income/assessable profits/total income/chargeable gains, and rates of tax — plus any other '
+         "National-Assembly-conferred powers, **subject to** the NRS's own exclusive areas above."},
+ {'p': 'With relevant-government approval, a tax authority may authorise another tax authority to administer '
+       'taxes within its jurisdiction, on agreed terms. For administering taxes generally, a tax authority '
+       'may do what it deems necessary/expedient for assessment/collection, accounting for all sums '
+       'collected per the NTAA, NTA and any other applicable law.'}]},
 
-    {'h4': '2.4.3  Nigeria Revenue Service (NRS) itself — ss.3-5 NRSA'},
-    {'p': 'Established by s.3(1) NRSA as a **body corporate** with perpetual succession and a '
-          'common seal — may sue/be sued in its own name, and acquire/hold/dispose of '
-          'property to carry out its functions.'},
-    {'key': 'The Service\'s functions (s.4 NRSA) are extensive — among them: assess corporate/'
-            'individual taxpayers; collect/recover/enforce/remit assessed tax; account for all '
-            'government revenue; review tax regimes (with relevant Ministries, National '
-            'Assembly approval) to grow economic activity; carry out compliance examinations/'
-            'investigations; determine financial losses from tax fraud/evasion and revenue '
-            'foregone from waivers; identify/trace/freeze/confiscate/seize proceeds of tax '
-            'fraud/evasion; adopt compliance/regulatory/investigative measures; exchange '
-            'information with national/international agencies; exchange personnel/experts for '
-            'capacity building; monitor international tax dynamics for suspicious '
-            'transactions; maintain up-to-date taxpayer data/access; maintain databases/'
-            'statistics/records on tax administration matters; support research on tax fraud/'
-            'evasion; review government tax policy and implement it; liaise with the AGF and '
-            'law enforcement on tax offences; issue Taxpayer IDs (with State/Local/JRB '
-            'collaboration); run public tax-compliance awareness campaigns; carry out '
-            'administrative/oversight functions over federal taxes/levies (including query/'
-            'subpoena/sanction/reward power); and provide/receive cross-border revenue-'
-            'collection assistance under international agreements.'},
-    {'p': 'With Ministerial approval, the Service makes rules/regulations giving full effect to '
-          'the Act, including compliance requirements and non-compliance consequences — and '
-          'carries out other necessary activities, including specifying return/claim/'
-          'statement/notice forms, and deploying technology/digital platforms to automate tax '
-          'administration processes.'},
-
-    {'h4': '2.4.4  Assistance of Nigeria Revenue Service in tax collection — section 5 of NRSA'},
-    {'p': 'On request from a State/Local Government, the NRS may assist collect/administer a '
-          'tax that government has the statutory right to collect — covering proper '
-          'assessment/collection/accounting/enforcement, PIT administration for a class of '
-          'taxpayers, or collection/enforcement of a particular revenue claim. Revenue '
-          'collected on another authority\'s behalf is remitted directly to them, as agreed. '
-          'Under international double-taxation/administrative-assistance agreements, the '
-          'Service carries out the obligations prescribed and may agree the performance '
-          'manner with the foreign competent authority; the Accountant-General opens a '
-          'designated account for revenue collected on another country\'s behalf pending '
-          'remittance. The Service applies its usual enforcement/collection powers as if the '
-          'revenue were its own (except regarding time limits), may take interim (including '
-          'judicial) measures to preserve collection, and may charge an agreed fee to defray '
-          'the assistance cost. A **"revenue claim"** covers tax, levy, fee, charge or '
-          'statutory contribution due (including interest, penalties and collection/'
-          'conservancy cost) to a Nigerian local/state government or agency, or a foreign '
-          'government under a subsisting double-taxation/administrative-assistance agreement.'},
-
-    {'h4': '2.4.5  Miscellaneous provisions (including confidentiality)'},
-    {'table': {'align': 'll', 'head': ['Provision', 'Detail'], 'rows': [
-      ['**Institutional confidentiality** (s.32 NRSA)', 'All internal Service information/'
-       'communications/documents/memoranda are confidential — unauthorised disclosure is an '
-       'offence, liable on conviction to a fine of **up to N5,000,000**, or imprisonment for '
-       '**up to 3 years**, or both.'],
-      ['**Official secrecy** (s.33 NRSA)', 'Officials must treat taxpayer documents/'
-       'information/returns/notices/assessments as secret/confidential — unauthorised '
-       'communication is an offence carrying the same penalty (up to N5,000,000 fine, and/or '
-       'up to 3 years\' imprisonment) — except where authorised by the Service, ordered by a '
-       'court, or required for the Act\'s purposes. Officials need not produce documents/'
-       'information except as necessary for legal proceedings relating to Nigerian tax. The '
-       'secrecy obligation does NOT prevent disclosure to an authorised foreign officer under '
-       'a tax treaty/agreement/arrangement with Nigeria.'],
-      ['**Endorsement of transactions** (s.34 NRSA)', 'The Executive Chairman or an authorised '
-       'officer may endorse anything done, or required to be done, under the Service\'s powers '
-       'or the Second Schedule laws (NTA, NTAA, etc.).'],
-      ['**Service of documents** (s.36 NRSA)', 'Notices/summonses/documents may be served on '
-       'the Service by delivery to the Executive Chairman, registered post/courier/'
-       'substituted service, a designated Service email address, or other electronic means '
-       'the Service provides.'],
-      ['**Legislations administered** (Second Schedule)', 'NTA 2025; NTAA 2025; laws imposing '
-       'other government-entity-collected taxes/fees/levies (signature bonus, pipeline fees, '
-       'gas-flaring penalties, depot levies/licences, OEL/OML/OPL fees, royalties, rents, '
-       'drilling-rig/pipeline licence fees, haulage fees, and similar oil-industry fees); '
-       'related regulations/proclamations/orders/notices; and any other National Assembly law '
-       'for federal revenue assessment/collection/accounting.'],
-      ['**Forms** (s.85 NTAA)', 'The relevant tax authority may specify/simplify forms, '
-       'statements and notices for effective tax administration, from time to time.'],
-      ['**Assessment lists** (s.44 NTAA)', 'The relevant tax authority maintains assessment '
-       'lists of taxed persons, recording: names/addresses of those assessed; the name/'
-       'address of anyone else chargeable in their name; total profits; tax payable; and '
-       'other tax-authority-determined particulars. Complete filed assessment notices/'
-       'amendments themselves constitute the assessment lists.'],
-    ]}},
-
-    {'h4': '2.4.6  Establishment and composition of the management board of the State Service Management Board (State Board) — s.89-92 NTAA'},
-    {'table': {'align': 'll', 'head': ['Aspect', 'Detail'], 'rows': [
-      ['**Composition** (s.89(2))', 'The Executive Chairman of the State Service (Chairman); '
-       'directors from within the State Service; a director from the State Ministry of '
-       'Finance; the Legal Adviser to the State Service (Secretary); and 3 other persons '
-       'appointed by the State Governor on personal merit, one per Senatorial District, with '
-       'relevant taxation experience/knowledge.'],
-      ['**Quorum** (s.89(4))', '5 members, including the Chairman or a director.'],
-      ['**Functions** (s.91)', 'Provide general policy guidelines; manage/superintend '
-       'revenue-assessment/collection/accounting policy; review/approve strategic plans; '
-       'employ staff and set terms/discipline; stipulate staff remuneration (in consultation '
-       'with the Governor); retain an approved portion of collected revenue to defray '
-       'collection/administration cost; make recommendations to the Unified Revenue '
-       'Commission on tax policy/reform/legislation/treaties/exemptions; and do other '
-       'necessary things.'],
-      ['**Delegation** (s.91(2), s.98)', 'The State Board may authorise any person (by gazette '
-       'notice or in writing) to perform its functions/duties/powers, or receive notices/'
-       'documents on its behalf — and may reverse/modify an officer\'s erroneous or unlawful '
-       'decision, or one already reviewed under dispute resolution.'],
-      ['**Technical Committee** (s.92)', 'Comprises the State Board\'s Executive Chairman '
-       '(Chairman), State Service directors, and the Legal Adviser — may co-opt additional '
-       'staff. Functions: considering technical/professional matters and recommending to the '
-       'State Board; advising on the State Board\'s s.91 powers/duties; and attending to '
-       'referred matters.'],
-    ]}},
-
-    {'h4': '2.4.7  State Internal Revenue Service (SIRS) — s.87-90 NTA/NTAA'},
-    {'key': 'Established for each state (s.87 NTA), **without prejudice** to the State '
-            'Government\'s own power over individual income tax, PAYE and stamp duties — '
-            'the State Service is **autonomous** in its day-to-day financial, technical, '
-            'professional and administrative affairs.'},
-    {'p': 'Functions (s.88 NTAA): assess individuals, estates, trusts, settlements, '
-          'communities and families; assess/collect/account/enforce state-due taxes; collect/'
-          'recover/remit tax under this or any other law; carry out compliance examinations/'
-          'investigations (with law enforcement); and carry out other State House of '
-          'Assembly-prescribed functions.'},
-    {'p': 'The **Executive Chairman** (s.90 NTAA) is appointed by the State Governor, subject '
-          'to State House of Assembly confirmation — the Chief Executive/Accounting Officer, '
-          'responsible for policy execution and day-to-day administration, and must have '
-          'taxation experience and membership of a recognised professional body.'},
-
-    {'h4': '2.4.8  State Joint Revenue Committee (SJRC) — s.95-96 NTAA'},
-    {'table': {'align': 'll', 'head': ['Aspect', 'Detail'], 'rows': [
-      ['**Composition**', 'The State Service\'s Executive Chairman (Chairman); the Chairmen of '
-       'each Local Government Revenue Committee; a representative of the local-government-'
-       'affairs agency; a Revenue Mobilisation Allocation and Fiscal Commission representative '
-       '(observer); the State Sector Commander of the FRSC (observer); the State Service\'s '
-       'Legal Adviser; and a Secretary (a State Service staff member).'],
-      ['**Functions**', 'Implement JRB decisions; advise the JRB and State/Local Governments '
-       'on revenue matters; harmonise state tax administration; enlighten the public on '
-       'State/Local Government revenue matters; and carry out other JRB-assigned functions.'],
-    ]}},
-
-    {'h4': '2.4.9  Local Government Revenue Committee (LGRC) — s.93-94 NTAA'},
-    {'table': {'align': 'll', 'head': ['Aspect', 'Detail'], 'rows': [
-      ['**Composition**', 'The Local Government Supervisor for Finance (Chairman); 3 local '
-       'government councillors; and 2 other persons experienced in revenue matters, nominated '
-       'by the Local Government Chairman on personal merit.'],
-      ['**Functions**', 'Assess and collect all taxes/fines/rates under its jurisdiction, '
-       'accounting for all sums collected as the local government prescribes. The Committee '
-       'is **autonomous of the local government treasury**, responsible for its own day-to-'
-       'day administration as its operational arm.'],
-    ]}},
-  ]},
-
-  {'n': '2.5', 't': 'Jurisdictions of the tax authorities (s.3 NTAA)', 'b': [
-    {'p': 'The **NRS** has:'},
-    {'ol': [
-      '**exclusive** responsibility to administer taxes on: companies; persons employed in '
-      'the Nigerian Army/Navy/Air Force/Police (other than civilian-capacity staff); Nigerian '
-      'Foreign Service officers; non-resident persons deriving profit/income from Nigeria (or '
-      'income from Nigerian employment by a non-resident); and specific NTA-listed items — '
-      'development levy, non-resident taxpayers, specialised-trade companies, petroleum '
-      'operations income tax, VAT, economic development tax incentive, and VAT exemptions;',
-      '**power** to administer: income tax; taxation of petroleum income; stamp duties; VAT; '
-      'and tax incentives; and',
-      'any other NRSA/NTAA/National Assembly-conferred powers/functions.',
-    ]},
-    {'key': 'Per s.3(2) NTAA, the **relevant State/FCT tax authority** administers taxes for '
-            'resident individuals — imposition of tax on income/profits/gains, ascertainment '
-            'of profits/income/assessable profits/total income/chargeable gains, and rates of '
-            'tax — plus any other National-Assembly-conferred powers, **subject to** the '
-            'NRS\'s own exclusive areas above.'},
-    {'p': 'With relevant-government approval, a tax authority may authorise another tax '
-          'authority to administer taxes within its jurisdiction, on agreed terms. For '
-          'administering taxes generally, a tax authority may do what it deems necessary/'
-          'expedient for assessment/collection, accounting for all sums collected per the '
-          'NTAA, NTA and any other applicable law.'},
-  ]},
-
-  {'n': '2.6', 't': 'Taxes and levies collectible by each tier of government', 'b': [
-    {'p': 'Taxes collectible by the **Federal Government** (s.3(1) NTAA):'},
-    {'ol': [
-      'companies income tax;',
-      'withholding tax on companies and non-resident individuals;',
-      'hydrocarbon tax;',
-      'value added tax;',
-      'stamp duties;',
-      'federal development levy;',
-      'economic development tax incentives; and',
-      'personal income tax on members of the armed forces, the Nigerian Police Force, and '
-      'staff of the Ministry of External Affairs and non-resident individuals.',
-    ]},
-    {'key': 'Once the **States Harmonised Taxes and Levies (Approved List for Collection) Bill '
-            '2025** is passed (the Taxes and Levies (Approved List for Collection) Act Cap. T2 '
-            'LFN 2004 remains un-repealed/un-amended by ss.195-196 NTA 2025 in the meantime), '
-            'projected state/local government collectible taxes/levies are:'},
-    {'table': {'align': 'll', 'head': ['Tier', 'Taxes/levies'], 'rows': [
-      ['**States**', 'Income tax; stamp duties; property tax; road tax; haulage levy; '
-       'economic development levy.'],
-      ['**Local governments**', 'A harmonised levy (shops, slaughter slab fees, motor parks, '
-       'domestic animal fees, bicycles, trucks, canoes, wheelbarrows/carts); liquor licences; '
-       'TV/radio fees and other local levies; user charges (marriage/birth/death registration, '
-       'street naming, signage/mobile advertisements, sewage/refuse disposal, burial ground '
-       'permits, religious-place establishment fees, wharf landing charges); and daily '
-       'ticketing (market levies, including transporters\' tickets).'],
-    ]}},
-  ]},
+  {'n': '2.6', 't': 'Taxes and levies collectible by each tier of government', 'b': [{'h4': '2.6.1  Taxes collectible by the Federal Government - section 3(1) of NTAA, are'},
+ {'p': 'Taxes collectible by the **Federal Government** (s.3(1) NTAA):'},
+ {'ol': ['companies income tax;',
+         'withholding tax on companies and non-resident individuals;',
+         'hydrocarbon tax;',
+         'value added tax;',
+         'stamp duties;',
+         'federal development levy;',
+         'economic development tax incentives; and',
+         'personal income tax on members of the armed forces, the Nigerian Police Force, and staff of the '
+         'Ministry of External Affairs and non-resident individuals.']},
+ {'h4': '2.6.2  Taxes and levies collectible by state governments and local governments'},
+ {'key': 'Once the **States Harmonised Taxes and Levies (Approved List for Collection) Bill 2025** is passed '
+         '(the Taxes and Levies (Approved List for Collection) Act Cap. T2 LFN 2004 remains '
+         'un-repealed/un-amended by ss.195-196 NTA 2025 in the meantime), projected state/local government '
+         'collectible taxes/levies are:'},
+ {'table': {'align': 'll',
+            'head': ['Tier', 'Taxes/levies'],
+            'rows': [['**States**',
+                      'Income tax; stamp duties; property tax; road tax; haulage levy; economic development '
+                      'levy.'],
+                     ['**Local governments**',
+                      'A harmonised levy (shops, slaughter slab fees, motor parks, domestic animal fees, '
+                      'bicycles, trucks, canoes, wheelbarrows/carts); liquor licences; TV/radio fees and '
+                      'other local levies; user charges (marriage/birth/death registration, street naming, '
+                      'signage/mobile advertisements, sewage/refuse disposal, burial ground permits, '
+                      'religious-place establishment fees, wharf landing charges); and daily ticketing '
+                      "(market levies, including transporters' tickets)."]]}}]},
 
   {'n': '2.7', 't': 'Tax Appeal Tribunal', 'b': [
     {'h4': '2.7.1  Establishment of the Tax Appeal Tribunal — section 23 of JRBA, 2025'},
@@ -372,20 +380,19 @@ CH = {
              'follows after 2.7.8.'},
   ]},
 
-  {'n': '2.8', 't': 'Disclosure of tax planning — section 30 of NTAA', 'b': [
-    {'key': 'A taxpayer entering (or intending to enter) a **"disclosable transaction or '
-            'agreement"** — whose principal purpose is obtaining a tax advantage — must, '
-            '**without being asked**, provide the relevant tax authority with information '
-            'about it. The tax authority may make regulations on: the required information; '
-            'its form/manner of delivery; the delivery timeframe; and administrative '
-            'penalties for non-disclosure, false disclosure, incomplete or late disclosure.'},
-    {'p': '**"Transaction"** includes any course of action, agreement, scheme or arrangement. '
-          '**"Tax advantage"** means: relief or increased relief from tax; repayment or '
-          'increased repayment of tax; avoidance or reduction of a tax charge/assessment; '
-          'avoidance of a possible assessment; deferral of payment (or advancement of '
-          'repayment); or avoidance of an obligation to deduct/account for tax.'},
-
-  ]},
+  {'n': '2.8', 't': 'Disclosure of tax planning — section 30 of NTAA', 'b': [{'key': 'A taxpayer entering (or intending to enter) a **"disclosable transaction or agreement"** — whose '
+         'principal purpose is obtaining a tax advantage — must, **without being asked**, provide the '
+         'relevant tax authority with information about it. The tax authority may make regulations on: the '
+         'required information; its form/manner of delivery; the delivery timeframe; and administrative '
+         'penalties for non-disclosure, false disclosure, incomplete or late disclosure.'},
+ {'p': '**"Transaction"** includes any course of action, agreement, scheme or arrangement. **"Tax '
+       'advantage"** means:'},
+ {'ul': ['relief or increased relief from tax',
+         'repayment or increased repayment of tax',
+         'avoidance or reduction of a tax charge/assessment',
+         'avoidance of a possible assessment',
+         'deferral of payment (or advancement of repayment)',
+         'or avoidance of an obligation to deduct/account for tax.']}]},
 
   {'n': '2.9', 't': 'Accreditation of tax agents — section 33 of NTAA', 'b': [
     {'p': 'A taxpayer may represent themselves, or be represented by a **tax authority-'
@@ -397,22 +404,19 @@ CH = {
 
   ]},
 
-  {'n': '2.10', 't': 'Prohibited tax avoidance arrangement — section 47 of NTAA', 'b': [
-    {'key': 'The relevant tax authority may **counteract** a prohibited tax avoidance '
-            'arrangement — via adjustment, disregarding, or re-characterisation (assessment, '
-            'assessment modification, or claim amendment/disallowance) — unless the taxpayer '
-            'proves the benefit would genuinely accord with the object/purpose of the relevant '
-            'tax law.'},
-    {'p': 'A **"prohibited tax avoidance arrangement"** is one where, on the facts, it is '
-          'reasonable to conclude: its main purpose was obtaining a tax benefit; that benefit '
-          'is contrary to the relevant law\'s object/purpose; it results (directly or '
-          'indirectly) in misuse/abuse of the law\'s provisions; or it lacks commercial '
-          'substance/coherence, in whole or part. "Tax benefit/advantage" includes relief/'
-          'increased relief and avoidance of a possible assessment; "arrangement" includes '
-          'any agreement, understanding, scheme, transaction or series of transactions — '
-          'whether or not legally enforceable.'},
-
-  ]},
+  {'n': '2.10', 't': 'Prohibited tax avoidance arrangement — section 47 of NTAA', 'b': [{'key': 'The relevant tax authority may **counteract** a prohibited tax avoidance arrangement — via '
+         'adjustment, disregarding, or re-characterisation (assessment, assessment modification, or claim '
+         'amendment/disallowance) — unless the taxpayer proves the benefit would genuinely accord with the '
+         'object/purpose of the relevant tax law.'},
+ {'p': 'A **"prohibited tax avoidance arrangement"** is one where, on the facts, it is reasonable to '
+       'conclude:'},
+ {'ul': ['its main purpose was obtaining a tax benefit',
+         "that benefit is contrary to the relevant law's object/purpose",
+         "it results (directly or indirectly) in misuse/abuse of the law's provisions",
+         'or it lacks commercial substance/coherence, in whole or part. "Tax benefit/advantage" includes '
+         'relief/increased relief and avoidance of a possible assessment',
+         '"arrangement" includes any agreement, understanding, scheme, transaction or series of transactions '
+         '— whether or not legally enforceable.']}]},
 
   {'n': '2.11', 't': 'Exchange of information and joint audits — section 48 of NTAA', 'b': [
     {'p': 'Tax authorities may exchange relevant information with each other to ensure '

@@ -12,340 +12,424 @@ CH = {
    'Choose which type of audit report is appropriate to specific situations',
  ],
  'secs': [
-  {'n': '11.1', 't': 'Basic elements of the auditor\'s report', 'b': [
-    {'key': 'The auditor reviews and assesses the conclusions drawn from audit evidence as the '
-            'basis for expressing an opinion — considering whether the financial statements '
-            'were prepared per an acceptable financial reporting framework (IFRS, or relevant '
-            'national standards/practices), and whether they comply with necessary statutory '
-            'requirements. The report must contain a **clear written expression of opinion** on '
-            'the financial statements **taken as a whole**.'},
-    {'p': 'The auditor\'s report has eight basic elements, in this layout:'},
-    {'ol': [
-      '**Title**;',
-      '**Addressee**;',
-      '**Opening/introductory paragraph** — identifying the financial statements audited, and '
-      'stating the respective responsibilities of management and the auditor;',
-      '**Scope paragraph** — describing the nature of the audit: a reference to ISAs (or '
-      'relevant national standards/practices), and a description of the work performed;',
-      '**Opinion paragraph** — a reference to the financial reporting framework used '
-      '(identifying its country of origin, if not IFRS), and the actual expression of '
-      'opinion;',
-      '**Auditor\'s signature**;',
-      '**Auditor\'s address**; and',
-      '**Date of the report**.',
-    ]},
-    {'key': 'A measure of **uniformity** in report form/content is desirable — it helps the '
-            'reader\'s understanding and helps unusual circumstances stand out when they occur.'},
+  {'n': '11.1', 't': 'Basic elements of the auditor\'s report', 'b': [{'key': 'The auditor reviews and assesses the conclusions drawn from audit evidence as the basis for '
+         'expressing an opinion — considering whether the financial statements were prepared per an '
+         'acceptable financial reporting framework (IFRS, or relevant national standards/practices), and '
+         'whether they comply with necessary statutory requirements. The report must contain a **clear '
+         'written expression of opinion** on the financial statements **taken as a whole**.'},
+ {'p': "The auditor's report has eight basic elements, in this layout:"},
+ {'ol': ['**Title**;',
+         '**Addressee**;',
+         '**Opening/introductory paragraph** — identifying the financial statements audited, and stating the '
+         'respective responsibilities of management and the auditor;',
+         '**Scope paragraph** — describing the nature of the audit: a reference to ISAs (or relevant '
+         'national standards/practices), and a description of the work performed;',
+         '**Opinion paragraph** — a reference to the financial reporting framework used (identifying its '
+         'country of origin, if not IFRS), and the actual expression of opinion;',
+         "**Auditor's signature**;",
+         "**Auditor's address**; and",
+         '**Date of the report**.']},
+ {'key': "A measure of **uniformity** in report form/content is desirable — it helps the reader's "
+         'understanding and helps unusual circumstances stand out when they occur.'},
+ {'h4': 'Title'},
+ {'p': 'An appropriate title is needed — often "**Independent Auditor\'s Report**," distinguishing it from '
+       'reports issued by others (entity officers, the board, or auditors not bound by the same ethical '
+       'requirements).'},
+ {'h4': 'Addressee'},
+ {'p': 'Addressed as circumstances/local regulations require — ordinarily to the **shareholders** of the '
+       'entity being audited.'},
+ {'h4': 'Opening (introductory) paragraph'},
+ {'p': 'Identifies the financial statements audited (including their date and period covered), and states: '
+       "the financial statements are **management's responsibility**; and the auditor's responsibility is to "
+       '**express an opinion** on them based on the audit.'},
+ {'key': "Financial statements are **management's representations** — their preparation requires management "
+         'to make significant accounting estimates/judgments and determine appropriate accounting '
+         'principles/methods, within whichever financial reporting framework management chooses or is '
+         "required to use. The auditor's role is, by contrast, purely to **audit** those statements and "
+         'express an opinion.'},
+ {'pre': 'We have audited the accompanying statement of financial position of ABC Company as of 31 December '
+         '2021, and the related statements of comprehensive income, changes in equity and cash flows for the '
+         "year then ended. These financial statements are the responsibility of the Company's management. "
+         'Our responsibility is to express an opinion on these financial statements based on our audit.'},
+ {'h4': 'Scope paragraph'},
+ {'def': {'t': 'Scope (of the audit)',
+          'd': "the auditor's ability to perform audit procedures deemed necessary in the circumstances."}},
+ {'p': 'States the audit was conducted per ISAs (or relevant national standards/practices) — assuring the '
+       'reader the audit met established standards. Unless otherwise stated, the standards followed are '
+       "presumed to be those of the country shown by the auditor's address. The paragraph states the audit "
+       'was **planned and performed to obtain reasonable assurance** that the financial statements are free '
+       'of material misstatement, describing the audit as including:'},
+ {'ol': ['examining, on a test basis, evidence supporting the financial statement amounts and disclosures;',
+         'assessing the accounting principles used;',
+         'assessing significant estimates management made; and',
+         'evaluating the overall financial statement presentation.']},
+ {'p': 'It also states the audit provides a **reasonable basis** for the opinion.'},
+ {'pre': 'We conducted our audit in accordance with International Standards on Auditing (or refer to '
+         'relevant national standards or practices). Those standards require that we plan and perform the '
+         'audit to obtain reasonable assurance about whether the financial statements are free of material '
+         'misstatement. An audit includes examining, on a test basis, evidence supporting the amounts and '
+         'disclosures in the financial statements. An audit also includes assessing the accounting '
+         'principles used and significant estimates made by management, as well as evaluating the overall '
+         'financial statements presentation. We believe that our audit provides a reasonable basis for our '
+         'opinion.'},
+ {'h4': 'Opinion paragraph'},
+ {'key': 'Clearly indicates the financial reporting framework used (with country of origin, if not IFRS), '
+         'and states the auditor\'s opinion on whether the financial statements **"give a true and fair '
+         'view"** (or **"present fairly, in all material respects"**) per that framework — the two phrasings '
+         'are **equivalent**, both indicating the auditor considers only matters **material** to the '
+         'financial statements.'},
+ {'p': 'The financial reporting framework is set by IFRS, rules from recognised standard-setting bodies '
+       "(e.g. the Financial Reporting Council of Nigeria), and a country's own developed general practice, "
+       'with appropriate regard to fairness and local legislation. The framework reference is stated in '
+       'terms like: "…in accordance with International Financial Reporting Standards (or title of framework, '
+       'with country of origin)…" — helping users understand the reporting basis used, and, where statements '
+       'are prepared specifically for use in another country, prompting the auditor to consider whether the '
+       'entity disclosed the framework used appropriately. The opinion paragraph may also need to cover '
+       'compliance with other statutory/legal requirements, beyond the true-and-fair opinion itself.'},
+ {'pre': 'In our opinion, the financial statements give a true and fair view of (or present fairly, in all '
+         'material respects) the financial position of the Company as of 31 December 2021, and of the '
+         'results of its operations and its cash flows for the year then ended in accordance with '
+         'International Financial Reporting Standards (or [title of financial reporting framework with '
+         'reference to the country of origin]) (and comply with…).'},
+ {'h4': "Auditor's signature"},
+ {'key': "The report is signed in the **personal name of the engagement partner**, with the Institute's "
+         'stamp affixed and the report sealed — the signer must state their **FRC (Financial Reporting '
+         "Council) number** after their name. The report is ordinarily in the **firm's** name (on the firm's "
+         'letterhead), since the firm assumes audit responsibility.'},
+ {'p': 'Signing procedure:'},
+ {'ul': ['the engagement auditor signs',
+         'writes their full name',
+         'includes their FRC number',
+         "states the firm's name and city",
+         "affixes the Institute's stamp",
+         'and affixes their seal.']},
+ {'h4': "Auditor's address"},
+ {'p': 'Names a specific location — ordinarily the city where the auditor maintains the office responsible '
+       'for the audit.'},
+ {'h4': 'Date of the report'},
+ {'key': "Dated as of the **audit's completion date** — informing the reader the auditor considered the "
+         'effect of events/transactions they became aware of up to that date. Since the auditor reports on '
+         'the financial statements **as prepared/represented by management**, the report should **not** be '
+         'dated earlier than the date management signed or approved the financial statements.'}]},
 
-    {'h4': 'Title'},
-    {'p': 'An appropriate title is needed — often "**Independent Auditor\'s Report**," '
-          'distinguishing it from reports issued by others (entity officers, the board, or '
-          'auditors not bound by the same ethical requirements).'},
+  {'n': '11.2', 't': 'The unmodified (unqualified) audit report', 'b': [{'key': 'An unqualified (clean) opinion is expressed when the auditor concludes the financial statements '
+         'give a true and fair view (or are presented fairly, in all material respects) per the identified '
+         'framework — implicitly also indicating any accounting-principle changes (and their '
+         'application/effects) have been properly determined and disclosed.'},
+ {'eg': {'tag': 'Study text',
+         't': "Illustration — a full unqualified auditor's report",
+         'open': True,
+         'q': [{'p': "Reproduce a complete unqualified auditor's report to the members of ABC Plc, combining "
+                     'every basic element covered in §11.1.'}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 373, 374 (printed 347, 348). Names, dates '
+                        'and placeholders are reproduced as printed; this is the source report format.'},
+               {'pre': 'AUDITOR’S REPORT\n'
+                       '\n'
+                       'Audit Report to the Members of ABC Plc\n'
+                       'We have audited the accompanied statement of financial position of ABC Company as of '
+                       '31 December 2021, and the related statements of income, and cash flows for the year '
+                       'then ended. These financial statements are the responsibility of the Company’s '
+                       'management. Our responsibility is to express an opinion on these financial '
+                       'statements based on our audit. We conducted our audit in accordance with '
+                       'International Standards on Auditing (or refer to relevant national or practices). '
+                       'Those Standards require that we plan and perform the audit to obtain reasonable '
+                       'assurance about whether the financial statements are free of material misstatement. '
+                       'An audit includes examining on a test basis, evidence supporting the amounts and '
+                       'disclosures in the financial statements. An audit also includes assessing\n'
+                       '\n'
+                       'the accounting principles used and significant estimates made by management, as well '
+                       'as evaluating the overall financial statement presentation. We believe that our '
+                       'audit provides a reasonable basis for our opinion. In our opinion, the financial '
+                       'statements give a true and fair view of (or present fairly, in all material '
+                       'respects) the financial position of the Company as of 31 December 2021, and of the '
+                       'results of its operations and its cash flows for the year then ended in accordance '
+                       'with the International Financial Reporting Standards.\n'
+                       'Signature\n'
+                       '\n'
+                       'PPP Chartered Accountants Victory Island\n'
+                       'Banjul\n'
+                       'Date: 1 October 2025'},
+               {'note': 'The printed signature block says “Victory Island, Banjul”. That wording is retained '
+                        'as the source example rather than silently substituting a different address.'}]}}]},
 
-    {'h4': 'Addressee'},
-    {'p': 'Addressed as circumstances/local regulations require — ordinarily to the '
-          '**shareholders** of the entity being audited.'},
+  {'n': '11.3', 't': 'The modified audit report', 'b': [{'p': 'An auditor\'s report is "modified" in the following situations:'},
+ {'table': {'align': 'll',
+            'head': ['Category', 'Types'],
+            'rows': [['**Matters that do NOT affect the opinion**', 'Emphasis of Matter.'],
+                     ['**Matters that DO affect the opinion**',
+                      'Qualified opinion; Disclaimer of opinion; or Adverse opinion.']]}},
+ {'key': 'Uniformity in the form/content of each modified-report type furthers user understanding — **ISA '
+         '705, "Modifications to the Opinion in the Independent Auditor\'s Report,"** provides suggested '
+         'wording for both the unqualified opinion and modifying phrases used in modified reports.'},
+ {'h4': '§11.3.1 Matters that do not affect the opinion — Emphasis of Matter'},
+ {'p': 'In certain circumstances, the report may add an **emphasis of matter paragraph**, highlighting a '
+       'matter affecting the financial statements that is already more fully discussed in a note — this '
+       'addition does **not** affect the opinion. The paragraph is preferably placed **after** the opinion '
+       'paragraph, and ordinarily states the opinion is not qualified in that respect.'},
+ {'key': 'The auditor **should** modify the report with such a paragraph for a material **going concern** '
+         'problem. The auditor **should consider** doing so for any other significant **uncertainty** (whose '
+         'resolution depends on future events, and which may affect the financial statements) — an '
+         "uncertainty being a matter whose outcome depends on future actions/events not under the entity's "
+         'direct control.'},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — emphasis of matter for a significant uncertainty',
+         'open': True,
+         'q': [{'p': 'How does an emphasis of matter paragraph, for a pending lawsuit whose outcome cannot '
+                     'presently be determined, appear within an otherwise unqualified opinion?'}],
+         'a': [{'pre': 'In our opinion, the financial statements give a true and fair view of (or present '
+                       'fairly, in all material respects) the financial position of the Company as of 31 '
+                       'December 2021, and of the results of its operations and its cash flows for the year '
+                       'then ended in accordance with International Accounting Standards/International '
+                       'Financial Reporting Standards.\n'
+                       '\n'
+                       'Without qualifying our opinion, we draw attention to Note X to the financial '
+                       'statements. The Company is the defendant in a lawsuit alleging infringement of '
+                       'certain patent rights and claiming royalties and punitive damages. The Company has '
+                       'filed a countersuit, and preliminary hearing and discovery proceedings on both '
+                       'actions are in progress.\n'
+                       '\n'
+                       'The ultimate outcome of the matter cannot presently be determined, and a provision '
+                       'for any liability that may result has been made in the financial statements.'}]}},
+ {'warn': "Adding an emphasis-of-matter paragraph is **ordinarily adequate** to meet the auditor's reporting "
+          'duty on a going concern problem or significant uncertainty. But in **extreme cases** — e.g. '
+          'multiple uncertainties significant to the financial statements — the auditor may consider a '
+          '**disclaimer of opinion** more appropriate than an emphasis of matter paragraph.'},
+ {'p': 'An emphasis of matter paragraph may also cover matters **other than** those affecting the financial '
+       'statements — e.g. a material inconsistency in other information within a document containing the '
+       'audited statements, where the entity refuses to amend it, or additional statutory reporting '
+       'responsibilities.'},
+ {'h4': '§11.3.2 Matters that affect the opinion'},
+ {'key': "An unqualified opinion cannot be expressed where, in the auditor's judgment, the effect of a "
+         'matter is or may be **material** to the financial statements, and either: (a) there is a '
+         "**limitation on the scope** of the auditor's work; or (b) there is a **disagreement** with "
+         'management over accounting policy acceptability, its application method, or disclosure adequacy.'},
+ {'table': {'align': 'll',
+            'head': ['Cause', 'Possible opinions'],
+            'rows': [['**(a) Limitation of scope**', 'Qualified opinion, or disclaimer of opinion.'],
+                     ['**(b) Disagreement with management**', 'Qualified opinion, or adverse opinion.']]}},
+ {'table': {'align': 'll',
+            'head': ['Opinion type', 'When expressed'],
+            'rows': [['**Qualified opinion**',
+                      'When an unqualified opinion cannot be expressed, but the effect of the disagreement '
+                      'or scope limitation is NOT so material and pervasive as to need an adverse opinion or '
+                      'disclaimer — expressed as being **"except for"** the effects of the matter '
+                      'qualified.'],
+                     ['**Disclaimer of opinion**',
+                      'When the possible effect of a scope limitation is SO material and pervasive that the '
+                      'auditor cannot obtain sufficient appropriate evidence, and is accordingly unable to '
+                      'express any opinion at all.'],
+                     ['**Adverse opinion**',
+                      'When the effect of a disagreement is SO material and pervasive that a mere '
+                      'qualification would not adequately disclose the misleading or incomplete nature of '
+                      'the financial statements.']]}},
+ {'key': [{'p': 'The pattern across both causes is identical:'},
+          {'ul': ['**mild** → qualified',
+                  '**severe, from a scope limitation** → disclaimer (auditor cannot form an opinion at all)',
+                  '**severe, from a disagreement** → adverse (auditor actively concludes the statements are '
+                  'misleading). A scope limitation never leads to an adverse opinion, and a disagreement '
+                  'never leads to a disclaimer — the type of cause determines which severe outcome '
+                  'applies.']}]},
+ {'h4': '§11.3.3 Disclosures in a modified opinion'},
+ {'key': 'Whenever the opinion is anything other than unqualified, the report must include a **clear '
+         'description of all substantive reasons**, and (unless impracticable) a **quantification of the '
+         'possible effect(s)** on the financial statements — ordinarily set out in a separate paragraph '
+         '**preceding** the opinion or disclaimer paragraph, possibly referencing a fuller discussion in a '
+         'note.'}]},
 
-    {'h4': 'Opening (introductory) paragraph'},
-    {'p': 'Identifies the financial statements audited (including their date and period '
-          'covered), and states: the financial statements are **management\'s responsibility**; '
-          'and the auditor\'s responsibility is to **express an opinion** on them based on the '
-          'audit.'},
-    {'key': 'Financial statements are **management\'s representations** — their preparation '
-            'requires management to make significant accounting estimates/judgments and '
-            'determine appropriate accounting principles/methods, within whichever financial '
-            'reporting framework management chooses or is required to use. The auditor\'s role '
-            'is, by contrast, purely to **audit** those statements and express an opinion.'},
-    {'pre': 'We have audited the accompanying statement of financial position of ABC Company as '
-            'of 31 December 2021, and the related statements of comprehensive income, changes '
-            'in equity and cash flows for the year then ended. These financial statements are '
-            'the responsibility of the Company\'s management. Our responsibility is to express '
-            'an opinion on these financial statements based on our audit.'},
-
-    {'h4': 'Scope paragraph'},
-    {'def': {'t': 'Scope (of the audit)', 'd': 'the auditor\'s ability to perform audit '
-                  'procedures deemed necessary in the circumstances.'}},
-    {'p': 'States the audit was conducted per ISAs (or relevant national standards/practices) '
-          '— assuring the reader the audit met established standards. Unless otherwise stated, '
-          'the standards followed are presumed to be those of the country shown by the '
-          'auditor\'s address. The paragraph states the audit was **planned and performed to '
-          'obtain reasonable assurance** that the financial statements are free of material '
-          'misstatement, describing the audit as including:'},
-    {'ol': [
-      'examining, on a test basis, evidence supporting the financial statement amounts and '
-      'disclosures;',
-      'assessing the accounting principles used;',
-      'assessing significant estimates management made; and',
-      'evaluating the overall financial statement presentation.',
-    ]},
-    {'p': 'It also states the audit provides a **reasonable basis** for the opinion.'},
-    {'pre': 'We conducted our audit in accordance with International Standards on Auditing (or '
-            'refer to relevant national standards or practices). Those standards require that '
-            'we plan and perform the audit to obtain reasonable assurance about whether the '
-            'financial statements are free of material misstatement. An audit includes '
-            'examining, on a test basis, evidence supporting the amounts and disclosures in the '
-            'financial statements. An audit also includes assessing the accounting principles '
-            'used and significant estimates made by management, as well as evaluating the '
-            'overall financial statements presentation. We believe that our audit provides a '
-            'reasonable basis for our opinion.'},
-
-    {'h4': 'Opinion paragraph'},
-    {'key': 'Clearly indicates the financial reporting framework used (with country of origin, '
-            'if not IFRS), and states the auditor\'s opinion on whether the financial statements '
-            '**"give a true and fair view"** (or **"present fairly, in all material '
-            'respects"**) per that framework — the two phrasings are **equivalent**, both '
-            'indicating the auditor considers only matters **material** to the financial '
-            'statements.'},
-    {'p': 'The financial reporting framework is set by IFRS, rules from recognised standard-'
-          'setting bodies (e.g. the Financial Reporting Council of Nigeria), and a country\'s '
-          'own developed general practice, with appropriate regard to fairness and local '
-          'legislation. The framework reference is stated in terms like: "…in accordance with '
-          'International Financial Reporting Standards (or title of framework, with country of '
-          'origin)…" — helping users understand the reporting basis used, and, where statements '
-          'are prepared specifically for use in another country, prompting the auditor to '
-          'consider whether the entity disclosed the framework used appropriately. The opinion '
-          'paragraph may also need to cover compliance with other statutory/legal requirements, '
-          'beyond the true-and-fair opinion itself.'},
-    {'pre': 'In our opinion, the financial statements give a true and fair view of (or present '
-            'fairly, in all material respects) the financial position of the Company as of 31 '
-            'December 2021, and of the results of its operations and its cash flows for the '
-            'year then ended in accordance with International Financial Reporting Standards (or '
-            '[title of financial reporting framework with reference to the country of origin]) '
-            '(and comply with…).'},
-
-    {'h4': 'Auditor\'s signature'},
-    {'key': 'The report is signed in the **personal name of the engagement partner**, with the '
-            'Institute\'s stamp affixed and the report sealed — the signer must state their '
-            '**FRC (Financial Reporting Council) number** after their name. The report is '
-            'ordinarily in the **firm\'s** name (on the firm\'s letterhead), since the firm '
-            'assumes audit responsibility.'},
-    {'p': 'Signing procedure: the engagement auditor signs; writes their full name; includes '
-          'their FRC number; states the firm\'s name and city; affixes the Institute\'s stamp; '
-          'and affixes their seal.'},
-
-    {'h4': 'Auditor\'s address'},
-    {'p': 'Names a specific location — ordinarily the city where the auditor maintains the '
-          'office responsible for the audit.'},
-
-    {'h4': 'Date of the report'},
-    {'key': 'Dated as of the **audit\'s completion date** — informing the reader the auditor '
-            'considered the effect of events/transactions they became aware of up to that '
-            'date. Since the auditor reports on the financial statements **as prepared/'
-            'represented by management**, the report should **not** be dated earlier than the '
-            'date management signed or approved the financial statements.'},
-  ]},
-
-  {'n': '11.2', 't': 'The unmodified (unqualified) audit report', 'b': [
-    {'key': 'An unqualified (clean) opinion is expressed when the auditor concludes the '
-            'financial statements give a true and fair view (or are presented fairly, in all '
-            'material respects) per the identified framework — implicitly also indicating any '
-            'accounting-principle changes (and their application/effects) have been properly '
-            'determined and disclosed.'},
-    {'eg': {'tag': 'Study text', 't': 'Illustration — a full unqualified auditor\'s report',
-      'open': True, 'q': [
-      {'p': 'Reproduce a complete unqualified auditor\'s report to the members of ABC Plc, '
-            'combining every basic element covered in §11.1.'}],
-      'a': [
-      {'pre': 'AUDITOR\'S REPORT\n'
-              'Audit Report to the Members of ABC Plc\n\n'
-              'We have audited the accompanying statement of financial position of ABC '
-              'Company as of 31 December 2021, and the related statements of income, and cash '
-              'flows for the year then ended. These financial statements are the '
-              'responsibility of the Company\'s management. Our responsibility is to express '
-              'an opinion on these financial statements based on our audit.\n\n'
-              'We conducted our audit in accordance with International Standards on Auditing '
-              '(or refer to relevant national standards or practices). Those Standards require '
-              'that we plan and perform the audit to obtain reasonable assurance about whether '
-              'the financial statements are free of material misstatement. An audit includes '
-              'examining, on a test basis, evidence supporting the amounts and disclosures in '
-              'the financial statements. An audit also includes assessing the accounting '
-              'principles used and significant estimates made by management, as well as '
-              'evaluating the overall financial statement presentation. We believe that our '
-              'audit provides a reasonable basis for our opinion.\n\n'
-              'In our opinion, the financial statements give a true and fair view of (or '
-              'present fairly, in all material respects) the financial position of the Company '
-              'as of 31 December 2021, and of the results of its operations and its cash flows '
-              'for the year then ended in accordance with the International Financial '
-              'Reporting Standards.\n\n'
-              'Signature\n\n'
-              'PPP Chartered Accountants\nVictoria Island\nLagos\n'
-              'Date: 1 October 2025'}]}},
-  ]},
-
-  {'n': '11.3', 't': 'The modified audit report', 'b': [
-    {'p': 'An auditor\'s report is "modified" in the following situations:'},
-    {'table': {'align': 'll', 'head': ['Category', 'Types'], 'rows': [
-      ['**Matters that do NOT affect the opinion**', 'Emphasis of Matter.'],
-      ['**Matters that DO affect the opinion**', 'Qualified opinion; Disclaimer of opinion; or '
-       'Adverse opinion.'],
-    ]}},
-    {'key': 'Uniformity in the form/content of each modified-report type furthers user '
-            'understanding — **ISA 705, "Modifications to the Opinion in the Independent '
-            'Auditor\'s Report,"** provides suggested wording for both the unqualified opinion '
-            'and modifying phrases used in modified reports.'},
-
-    {'h4': '§11.3.1 Matters that do not affect the opinion — Emphasis of Matter'},
-    {'p': 'In certain circumstances, the report may add an **emphasis of matter paragraph**, '
-          'highlighting a matter affecting the financial statements that is already more fully '
-          'discussed in a note — this addition does **not** affect the opinion. The paragraph '
-          'is preferably placed **after** the opinion paragraph, and ordinarily states the '
-          'opinion is not qualified in that respect.'},
-    {'key': 'The auditor **should** modify the report with such a paragraph for a material '
-            '**going concern** problem. The auditor **should consider** doing so for any other '
-            'significant **uncertainty** (whose resolution depends on future events, and which '
-            'may affect the financial statements) — an uncertainty being a matter whose outcome '
-            'depends on future actions/events not under the entity\'s direct control.'},
-    {'eg': {'tag': 'Study text', 't': 'Illustration — emphasis of matter for a significant '
-      'uncertainty', 'open': True, 'q': [
-      {'p': 'How does an emphasis of matter paragraph, for a pending lawsuit whose outcome '
-            'cannot presently be determined, appear within an otherwise unqualified opinion?'}],
-      'a': [
-      {'pre': 'In our opinion, the financial statements give a true and fair view of (or '
-              'present fairly, in all material respects) the financial position of the Company '
-              'as of 31 December 2021, and of the results of its operations and its cash flows '
-              'for the year then ended in accordance with International Accounting Standards/'
-              'International Financial Reporting Standards.\n\n'
-              'Without qualifying our opinion, we draw attention to Note X to the financial '
-              'statements. The Company is the defendant in a lawsuit alleging infringement of '
-              'certain patent rights and claiming royalties and punitive damages. The Company '
-              'has filed a countersuit, and preliminary hearing and discovery proceedings on '
-              'both actions are in progress.\n\n'
-              'The ultimate outcome of the matter cannot presently be determined, and a '
-              'provision for any liability that may result has been made in the financial '
-              'statements.'}]}},
-    {'warn': 'Adding an emphasis-of-matter paragraph is **ordinarily adequate** to meet the '
-             'auditor\'s reporting duty on a going concern problem or significant uncertainty. '
-             'But in **extreme cases** — e.g. multiple uncertainties significant to the '
-             'financial statements — the auditor may consider a **disclaimer of opinion** more '
-             'appropriate than an emphasis of matter paragraph.'},
-    {'p': 'An emphasis of matter paragraph may also cover matters **other than** those '
-          'affecting the financial statements — e.g. a material inconsistency in other '
-          'information within a document containing the audited statements, where the entity '
-          'refuses to amend it, or additional statutory reporting responsibilities.'},
-
-    {'h4': '§11.3.2 Matters that affect the opinion'},
-    {'key': 'An unqualified opinion cannot be expressed where, in the auditor\'s judgment, the '
-            'effect of a matter is or may be **material** to the financial statements, and '
-            'either: (a) there is a **limitation on the scope** of the auditor\'s work; or (b) '
-            'there is a **disagreement** with management over accounting policy acceptability, '
-            'its application method, or disclosure adequacy.'},
-    {'table': {'align': 'll', 'head': ['Cause', 'Possible opinions'], 'rows': [
-      ['**(a) Limitation of scope**', 'Qualified opinion, or disclaimer of opinion.'],
-      ['**(b) Disagreement with management**', 'Qualified opinion, or adverse opinion.'],
-    ]}},
-    {'table': {'align': 'll', 'head': ['Opinion type', 'When expressed'], 'rows': [
-      ['**Qualified opinion**', 'When an unqualified opinion cannot be expressed, but the '
-       'effect of the disagreement or scope limitation is NOT so material and pervasive as to '
-       'need an adverse opinion or disclaimer — expressed as being **"except for"** the '
-       'effects of the matter qualified.'],
-      ['**Disclaimer of opinion**', 'When the possible effect of a scope limitation is SO '
-       'material and pervasive that the auditor cannot obtain sufficient appropriate evidence, '
-       'and is accordingly unable to express any opinion at all.'],
-      ['**Adverse opinion**', 'When the effect of a disagreement is SO material and pervasive '
-       'that a mere qualification would not adequately disclose the misleading or incomplete '
-       'nature of the financial statements.'],
-    ]}},
-    {'key': 'The pattern across both causes is identical: **mild** → qualified; **severe, '
-            'from a scope limitation** → disclaimer (auditor cannot form an opinion at all); '
-            '**severe, from a disagreement** → adverse (auditor actively concludes the '
-            'statements are misleading). A scope limitation never leads to an adverse opinion, '
-            'and a disagreement never leads to a disclaimer — the type of cause determines '
-            'which severe outcome applies.'},
-
-    {'h4': '§11.3.3 Disclosures in a modified opinion'},
-    {'key': 'Whenever the opinion is anything other than unqualified, the report must include '
-            'a **clear description of all substantive reasons**, and (unless impracticable) a '
-            '**quantification of the possible effect(s)** on the financial statements — '
-            'ordinarily set out in a separate paragraph **preceding** the opinion or disclaimer '
-            'paragraph, possibly referencing a fuller discussion in a note.'},
-  ]},
-
-  {'n': '11.4', 't': 'Circumstances that may result in a modified opinion', 'b': [
-    {'h4': '§11.4.1 Limitation of scope'},
-    {'p': 'A scope limitation may be **entity-imposed** (e.g. engagement terms specifying the '
-          'auditor will not carry out a procedure the auditor believes necessary) — where the '
-          'limitation is severe enough that the auditor believes a disclaimer would be needed, '
-          'the auditor ordinarily would **not accept** such a limited engagement as an audit '
-          'engagement at all (unless required by statute), and a statutory auditor would not '
-          'accept it where the limitation infringes their statutory duties.'},
-    {'p': 'A scope limitation may also arise from **circumstances** — e.g. appointment timing '
-          'preventing observation of a physical inventory count, inadequate accounting records, '
-          'or inability to carry out a desirable procedure. Here, the auditor first attempts '
-          '**reasonable alternative procedures** to obtain sufficient appropriate evidence '
-          'supporting an unqualified opinion.'},
-    {'key': 'Where a scope limitation genuinely requires a qualified opinion or disclaimer, the '
-            'report should **describe the limitation** and indicate the possible adjustments '
-            'that might have been found necessary, had the limitation not existed.'},
-    {'eg': {'tag': 'Study text', 't': 'Illustration — qualified opinion for a scope limitation '
-      '(inventory not observed)', 'open': True, 'q': [
-      {'p': 'The auditor was engaged after the year-end inventory count date, and the '
-            'company\'s records did not allow inventory quantities to be verified by any '
-            'alternative means. How is this reflected in a qualified auditor\'s report?'}],
-      'a': [
-      {'pre': 'Except as discussed in the following paragraph, we conducted our audit in '
-              'accordance with International Standards on Auditing (or refer to relevant '
-              'national standards or practices)…\n\n'
-              'We did not observe the counting of the physical inventories as of 31 December, '
-              '2021 since that date was prior to the time we were initially engaged as '
-              'auditors of the company. Owing to the nature of the company\'s records, we were '
-              'unable to satisfy ourselves as to inventory quantities by other audit '
-              'procedures.\n\n'
-              'In our opinion, except for the effects of such adjustments, if any, as might '
-              'have been determined to be necessary, had we been able to satisfy ourselves as '
-              'to physical inventory quantities, the financial statements give a true and fair '
-              'view of (or present fairly, in all material respects) the financial position of '
-              'the Company as of 31 December 2021, and of the results of its operations and '
-              'its cash flows for the year then ended in accordance with the International '
-              'Financial Reporting Standards.'}]}},
-    {'key': 'Where the scope limitation is severe enough to require a **disclaimer**, the '
-            'report omits the statement of the auditor\'s own responsibility, either omits or '
-            'amends the scope paragraph, adds a paragraph describing the limitation, and closes '
-            'with the explicit statement that **no opinion is expressed** — e.g. "...because of '
-            'the significance of the matters discussed in the preceding paragraph, we do not '
-            'express an opinion on the financial statements."'},
-
-    {'h4': '§11.4.2 Disagreement with management'},
-    {'p': 'Disagreements may cover the acceptability of accounting policies selected, their '
-          'method of application, or disclosure adequacy. Where material, the auditor expresses '
-          'a **qualified** or an **adverse** opinion.'},
-    {'eg': {'tag': 'Study text', 't': 'Illustration — qualified opinion for disagreement '
-      '(inappropriate accounting policy)', 'open': True, 'q': [
-      {'p': 'Management has provided no depreciation at all in the financial statements — a '
-            'practice the auditor considers non-compliant with International Accounting '
-            'Standards. How does the qualification paragraph read?'}],
-      'a': [
-      {'pre': 'As discussed in Note X to the financial statements, no depreciation has been '
-              'provided in the financial statements, which practice, in our opinion, is not in '
-              'accordance with International Accounting Standards. The provision for the year '
-              'ended 31 December 2024 should be N[xxx] based on the straight-line method of '
-              'depreciation using annual rates of 5% for the building and 20% for the '
-              'equipment. Accordingly, the fixed assets should be reduced by accumulated '
-              'depreciation of N[xxx], and the loss for the year and accumulated deficit '
-              'should be increased by N[xxx] respectively.\n\n'
-              'In our opinion, except for the effect on the financial statements of the matter '
-              'referred to in the preceding paragraph, the financial statements give a true '
-              'and fair view of (or present fairly, in all material respects) the financial '
-              'position of the Company as of 31 December 2024, and of the results of its '
-              'operations and its cash flows for the year then ended in accordance with '
-              'International Accounting Standards/International Financial Reporting '
-              'Standards.'}]}},
-    {'note': 'A disagreement can equally concern **inadequate disclosure** rather than an '
-             'inappropriate accounting method — e.g. an undisclosed debenture agreement '
-             'restricting future dividend payments — with the same "except for the omission '
-             'of the information…" qualified-opinion structure applying.'},
-    {'eg': {'tag': 'Study text', 't': 'Illustration — adverse opinion for disagreement', 'open':
-      True, 'q': [
-      {'p': 'The disagreement with management is so material and pervasive that a mere '
-            'qualification would not adequately disclose the misleading nature of the '
-            'financial statements. How does the opinion paragraph read?'}],
-      'a': [
-      {'pre': 'In our opinion, because of the effects of the matters discussed in the '
-              'preceding paragraph(s), the financial statements do not give a true and fair '
-              'view of (or do not present fairly) the financial position of the Company as of '
-              '31 December 2024, and of the results of its operations and its cash flows for '
-              'the year then ended in accordance with International Accounting Standards (and '
-              'do not comply with…).'}]}},
-  ]},
+  {'n': '11.4', 't': 'Circumstances that may result in a modified opinion', 'b': [{'h4': '§11.4.1 Limitation of scope'},
+ {'p': 'A scope limitation may be **entity-imposed** (e.g. engagement terms specifying the auditor will not '
+       'carry out a procedure the auditor believes necessary) — where the limitation is severe enough that '
+       'the auditor believes a disclaimer would be needed, the auditor ordinarily would **not accept** such '
+       'a limited engagement as an audit engagement at all (unless required by statute), and a statutory '
+       'auditor would not accept it where the limitation infringes their statutory duties.'},
+ {'p': 'A scope limitation may also arise from **circumstances** — e.g. appointment timing preventing '
+       'observation of a physical inventory count, inadequate accounting records, or inability to carry out '
+       'a desirable procedure. Here, the auditor first attempts **reasonable alternative procedures** to '
+       'obtain sufficient appropriate evidence supporting an unqualified opinion.'},
+ {'key': 'Where a scope limitation genuinely requires a qualified opinion or disclaimer, the report should '
+         '**describe the limitation** and indicate the possible adjustments that might have been found '
+         'necessary, had the limitation not existed.'},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — qualified opinion for a scope limitation (inventory not observed)',
+         'open': True,
+         'q': [{'p': "The auditor was engaged after the year-end inventory count date, and the company's "
+                     'records did not allow inventory quantities to be verified by any alternative means. '
+                     "How is this reflected in a qualified auditor's report?"}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 378 (printed 352). Names, dates and '
+                        'placeholders are reproduced as printed; this is the source report format.'},
+               {'pre': 'We have audited the accompanied statement of financial position of ABC Company as of '
+                       '31 December 2021, and the related statements of income, and cash flows for the year '
+                       'then ended. These financial statements are the responsibility of the Company’s '
+                       'management. Our responsibility is to express an opinion on these financial '
+                       'statements based on our audit.\n'
+                       '\n'
+                       'Except as discussed in the following paragraph, we conducted our audit in accordance '
+                       'with International Standards on Auditing (or refer to relevant national or '
+                       'practices). Those Standards require that we plan and perform the audit to obtain '
+                       'reasonable assurance about whether the financial statements are free of material '
+                       'misstatement. An audit includes examining on a test basis, evidence supporting the '
+                       'amounts and disclosures in the financial statements. An audit also includes '
+                       'assessing the accounting principles used and significant estimates made by '
+                       'management, as well as evaluating the overall financial statement presentation. We '
+                       'believe that our audit provides a reasonable basis for our opinion. We did not '
+                       'observe the counting of the physical inventories as of 31 December, 2021 since that '
+                       'date was prior to the time we were initially engaged as auditors of the company. '
+                       'Owing to the nature of the company’s records, we were unable to satisfy ourselves as '
+                       'to inventory quantities by other audit procedures. In our opinion, except for the '
+                       'effects of such adjustments, if any, as might have been determined to be necessary, '
+                       'had we been able to satisfy ourselves as to physical inventory quantities, the '
+                       'financial statements give a true and fair view of (or present fairly, in all '
+                       'material respects) the financial position of the Company as of 31 December 2021, and '
+                       'of the results of its operations and its cash flows for the year then ended in '
+                       'accordance with the International Financial Reporting Standards.'}]}},
+ {'key': 'Where the scope limitation is severe enough to require a **disclaimer**, the report omits the '
+         "statement of the auditor's own responsibility, either omits or amends the scope paragraph, adds a "
+         'paragraph describing the limitation, and closes with the explicit statement that **no opinion is '
+         'expressed** — e.g. "...because of the significance of the matters discussed in the preceding '
+         'paragraph, we do not express an opinion on the financial statements."'},
+ {'h4': '§11.4.2 Disagreement with management'},
+ {'p': 'Disagreements may cover the acceptability of accounting policies selected, their method of '
+       'application, or disclosure adequacy. Where material, the auditor expresses a **qualified** or an '
+       '**adverse** opinion.'},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — qualified opinion for disagreement (inappropriate accounting policy)',
+         'open': True,
+         'q': [{'p': 'Management has provided no depreciation at all in the financial statements — a '
+                     'practice the auditor considers non-compliant with International Accounting Standards. '
+                     'How does the qualification paragraph read?'}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 379, 380 (printed 353, 354). Names, dates '
+                        'and placeholders are reproduced as printed; this is the source report format.'},
+               {'pre': '“We have audited the accompanied statement of financial position of ABC Company as '
+                       'of 31 December 2024, and the related statements of income, and cash flows for the '
+                       'year then ended. These financial statements are the responsibility of the Company’s '
+                       'management. Our responsibility is to express an opinion on these financial '
+                       'statements based on our audit. We conducted our audit in accordance with '
+                       'International Standards on Auditing). Those Standards require that we plan and '
+                       'perform the audit to obtain reasonable assurance about whether the financial '
+                       'statements are free of material misstatement. An audit includes examining on a test '
+                       'basis, evidence supporting the amounts and disclosures in the financial statements. '
+                       'An audit also includes assessing the accounting principles used and significant '
+                       'estimates made by management, as well as evaluating the overall financial statement '
+                       'presentation. We believe that our audit provides a reasonable basis\n'
+                       '\n'
+                       'for our opinion.\n'
+                       '\n'
+                       'As discussed in Note X to the financial statements, no depreciation has been '
+                       'provided in the financial statements which practice, in our opinion, is not in '
+                       'accordance with International Accounting Standards. The provision for the year ended '
+                       '31 December, 2024 should be Nxzz based on the straight-line method of depreciation '
+                       'using annual rates of 5percent for the building and 20percent for the equipment. '
+                       'Accordingly, the fixed assets should be reduced by accumulated depreciation of Nxxx '
+                       'and the loss for the year and accumulated deficit should be increased by Nyxy '
+                       'respectively. In the opinion, except for the effect on the financial statement of '
+                       'the matter referred to in the preceding paragraph, the financial statements give a '
+                       'true and fair view of (or present fairly, in all material respects) the financial '
+                       'position of the Company as of 31 December 2024, and of the results of its operations '
+                       'and it cash flows for the year then ended in accordance with International '
+                       'Accounting Standards/ International Financial Reporting Standards.\n'
+                       'Signature\n'
+                       'PPP Chartered Accountants Victoria Island\n'
+                       'Lagos\n'
+                       '\n'
+                       'Date: 11 February, 2025'},
+               {'note': 'The source uses the distinct placeholders Nxzz, Nxxx and Nyxy. These are '
+                        'unspecified example amounts; no actual figures are supplied.'}]}},
+ {'note': 'A disagreement can equally concern **inadequate disclosure** rather than an inappropriate '
+          'accounting method — e.g. an undisclosed debenture agreement restricting future dividend payments '
+          '— with the same "except for the omission of the information…" qualified-opinion structure '
+          'applying.'},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — adverse opinion for disagreement',
+         'open': True,
+         'q': [{'p': 'The disagreement with management is so material and pervasive that a mere '
+                     'qualification would not adequately disclose the misleading nature of the financial '
+                     'statements. How does the opinion paragraph read?'}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 381, 382 (printed 355, 356). Names, dates '
+                        'and placeholders are reproduced as printed; this is the source report format.'},
+               {'pre': '“We have audited the accompanied statement of financial position of ABC Company as '
+                       'of 31 December 2024, and the related statements of income, and cash flows for the '
+                       'year then ended. These financial statements are the responsibility of the Company’s '
+                       'management. Our responsibility is to express an opinion on these financial '
+                       'statements based on our audit. We conducted our audit in accordance with '
+                       'International Standards on Auditing. Those Standards require that we plan and '
+                       'perform the audit to obtain reasonable assurance about whether the financial '
+                       'statements are free of material misstatement. An audit includes examining on a test '
+                       'basis, evidence supporting the amounts and\n'
+                       '\n'
+                       'disclosures in the financial statements. An audit also includes assessing the '
+                       'accounting principles used and significant estimates made by management, as well as '
+                       'evaluating the overall financial statement presentation. We believe that our audit '
+                       'provides a reasonable basis for our opinion.\n'
+                       '\n'
+                       '(Paragraph(s) discussing the disagreement).\n'
+                       '\n'
+                       'In our opinion, because of the effects of the matters discussed in the preceding '
+                       'paragraph (s), the financial statements do not give a true and fair view of (or do '
+                       'not present fairly) the financial position of the Company as of 31 December 2024, '
+                       'and of the results of its operations and its cash flows for the year then ended in '
+                       'accordance with International Accounting Standards (and do not comply with…)\n'
+                       '\n'
+                       'Signature\n'
+                       'PPP Chartered Accountants\n'
+                       'Victoria Island\n'
+                       'Lagos\n'
+                       'Date: 12 February, 2025'}]}},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — disclaimer of opinion for a scope limitation',
+         'open': True,
+         'q': [{'p': 'Show the source report where the company prevents observation of inventory and '
+                     'confirmation of receivables, and the auditor does not express an opinion.'}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 378, 379 (printed 352, 353).'},
+               {'pre': 'We were engaged to audit the accompanied statement of financial position of ABC '
+                       'Companies as of 31December 2021, and the related statements of income and cash\n'
+                       '\n'
+                       'flows for the year then ended. These financial statements are the responsibility of '
+                       'the company’s management. (Omit the sentence stating the responsibility of the '
+                       'auditor).\n'
+                       '\n'
+                       '(The paragraph discussing the scope of the audit would either be omitted or amended '
+                       'according to circumstances) (Add a paragraph discussing the scope limitation as '
+                       'follows) We were not able to observe all physical inventories and confirm accounts '
+                       'receivable due to limitations placed on the scope of our work by the company because '
+                       'of the significance of the matters discussed in the preceding paragraph, we do not '
+                       'express an opinion on the financial statements.'}]}},
+ {'eg': {'tag': 'Study text',
+         't': 'Illustration — qualified opinion for inadequate disclosure',
+         'open': True,
+         'q': [{'p': 'Show the source report where the company fails to disclose debenture restrictions '
+                     'affecting future dividends.'}],
+         'a': [{'note': 'Original study-text specimen, PDF pages 380, 381 (printed 354, 355).'},
+               {'pre': '“We have audited the accompanied Statement of Financial Position of ABC Company as '
+                       'of 31 December 2041, and the related statements of income, and cash flows for the '
+                       'year then ended. These financial statements are the responsibility of the Company’s '
+                       'management. Our responsibility is to express an opinion on these financial '
+                       'statements based on our audit.\n'
+                       '\n'
+                       'We conducted our audit in accordance with International Standards on Auditing. Those '
+                       'Standards require that we plan and perform the audit to obtain reasonable\n'
+                       '\n'
+                       'assurance about whether the financial statements are free of material misstatement. '
+                       'An audit includes examining on a test basis, evidence supporting the amounts and '
+                       'disclosures in the financial statements. An audit also includes assessing the '
+                       'accounting principles used and significant estimates made by management, as well as '
+                       'evaluating the overall financial statement presentation. We believe that our audit '
+                       'provides a reasonable basis for our opinion. On 15 January 2025, the Company issued '
+                       'debentures in the amount of Nxxx for the purpose of financing plant expansion. The '
+                       'debenture agreement restricts the payment of future cash dividends to earnings after '
+                       '31 December 2024. In our opinion, disclosure of this information is required by '
+                       '(refer to relevant law or legislation) In our opinion, except for the omission of '
+                       'the information included in the preceding paragraph, the financial statements give a '
+                       'true and fair view of (or present fairly, in all material respects) the financial '
+                       'position of the Company as of 31 December 2024, and of the results of its operations '
+                       'and it cash flows for the year then ended in accordance with the International '
+                       'Financial Reporting Standards.\n'
+                       'Signature\n'
+                       'PPP Chartered Accountants Victoria Island\n'
+                       'Lagos\n'
+                       'Date: 16 February, 2025'},
+               {'warn': 'The source introduction prints the year **2041**, while the opinion refers to '
+                        '**2024** and the subsequent event and signature are dated **2025**. The 2041 date '
+                        'is a source typesetting inconsistency; it is retained above for comparison.'}]}}]},
 
   {'n': '11.5', 't': 'Chapter summary', 'b': [
     {'ol': [

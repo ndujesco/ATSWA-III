@@ -561,47 +561,36 @@ CH = {
                     {
                                  'n': '8.7',
                                  't': 'Types of stamp duties',
-                                 'b': [
-                                                          {
-                                                                                'p': 'There are two types of stamp duties:',
-                                                                              },
-                                                          {
-                                                                                'h4': '8.7.1  Fixed duties',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Fixed duty',
-                                                                                                                      'd': 'a duty that does not vary with the consideration for the '
-                                                                                                                           'document being stamped — applied at a flat rate (e.g. '
-                                                                                                                           'N1,000, N500).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Examples: agreements/contracts (all types); bill of exchange '
-                                                                                     'payable on demand; bill of lading; cheque leaf; counterpart or '
-                                                                                     'duplicate; guarantee; letter of credit; and electronic '
-                                                                                     'receipt/transfer of N10,000 upwards.',
-                                                                              },
-                                                          {
-                                                                                'h4': '8.7.2  Ad valorem duties',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Ad valorem duty',
-                                                                                                                      'd': 'a duty that varies with the amount of consideration, per '
-                                                                                                                           'a scale the Act prescribes — the tax authority must know '
-                                                                                                                           'the transaction amount to determine the appropriate duty.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Examples: contract note; bonds (repayment of money and transfer '
-                                                                                     'stocks); annuity; conveyance or transfer on sale; promissory note; '
-                                                                                     'marketable security; mortgage/bond/debenture/covenant; capital '
-                                                                                     'duty on loan capital; agreement for sale of real property, legal '
-                                                                                     'mortgage and debenture loans; capital duty on nominal shares; and '
-                                                                                     'irrevocable assignment.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'There are two types of stamp duties:'},
+ {'h4': '8.7.1  Fixed duties'},
+ {'def': {'t': 'Fixed duty',
+          'd': 'a duty that does not vary with the consideration for the document being stamped — applied at '
+               'a flat rate (e.g. N1,000, N500).'}},
+ {'p': 'Examples:'},
+ {'ul': ['agreements/contracts (all types)',
+         'bill of exchange payable on demand',
+         'bill of lading',
+         'cheque leaf',
+         'counterpart or duplicate',
+         'guarantee',
+         'letter of credit',
+         'and electronic receipt/transfer of N10,000 upwards.']},
+ {'h4': '8.7.2  Ad valorem duties'},
+ {'def': {'t': 'Ad valorem duty',
+          'd': 'a duty that varies with the amount of consideration, per a scale the Act prescribes — the '
+               'tax authority must know the transaction amount to determine the appropriate duty.'}},
+ {'p': 'Examples:'},
+ {'ul': ['contract note',
+         'bonds (repayment of money and transfer stocks)',
+         'annuity',
+         'conveyance or transfer on sale',
+         'promissory note',
+         'marketable security',
+         'mortgage/bond/debenture/covenant',
+         'capital duty on loan capital',
+         'agreement for sale of real property, legal mortgage and debenture loans',
+         'capital duty on nominal shares',
+         'and irrevocable assignment.']}],
                                },
                     {
                                  'n': '8.8',
@@ -736,20 +725,13 @@ CH = {
                     {
                                  'n': '8.11',
                                  't': 'Obligation to stamp — section 125 of NTA',
-                                 'b': [
-                                                          {
-                                                                                'key': 'A dutiable instrument executed in Nigeria must be stamped **not '
-                                                                                       'later than 30 days** after its execution, by the person required '
-                                                                                       'to pay the appropriate duty.',
-                                                                              },
-                                                          {
-                                                                                'p': 'Liability to pay falls on: the transferee of an interest in real '
-                                                                                     'property (other than a voluntary lifetime disposition by the '
-                                                                                     'transferor); the beneficiary of a service for which consideration '
-                                                                                     'was paid; or any other person taking security in a transaction for '
-                                                                                     'which an instrument is executed.',
-                                                                              },
-                                                        ],
+                                 'b': [{'key': 'A dutiable instrument executed in Nigeria must be stamped **not later than 30 days** after its '
+         'execution, by the person required to pay the appropriate duty.'},
+ {'p': 'Liability to pay falls on:'},
+ {'ul': ['the transferee of an interest in real property (other than a voluntary lifetime disposition by the '
+         'transferor)',
+         'the beneficiary of a service for which consideration was paid',
+         'or any other person taking security in a transaction for which an instrument is executed.']}],
                                },
                     {
                                  'n': '8.12',
@@ -797,78 +779,35 @@ CH = {
                     {
                                  'n': '8.14',
                                  't': 'Process of adjudication, the time limits, and appeals procedure',
-                                 'b': [
-                                                          {
-                                                                                'h4': '8.14.1  Adjudication',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Adjudication',
-                                                                                                                      'd': 'the process by which the relevant tax authority '
-                                                                                                                           'determines the correct amount of duty payable — a '
-                                                                                                                           'document is duly stamped and adjudicated only once the '
-                                                                                                                           'applicable duty has been paid.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'Benefits of adjudication: it is the first step in disputing the '
-                                                                                     'stamp duties office\'s view on the correct duty amount; it '
-                                                                                     'demonstrates the document is genuine; it satisfies the statutory '
-                                                                                     'requirement; and it makes an adjudicated instrument admissible for '
-                                                                                     'all purposes, notwithstanding any objection as to the duty payable.',
-                                                                              },
-                                                          {
-                                                                                'h4': '8.14.2  The time limits — section 125 of NTA',
-                                                                              },
-                                                          {
-                                                                                'key': 'Time limit (s.125 NTA): dutiable instruments must be stamped '
-                                                                                       '**not later than 30 days** after execution, by the person '
-                                                                                       'required to pay the duty.',
-                                                                              },
-                                                          {
-                                                                                'h4': '8.14.3  Appeals procedure — a judicial review of the adjudication '
-                                                                                      'process',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Stage',
-                                                                                                                                                                             'Rule',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax Ombud** (s.36 JRBEA; ¶2 of 3rd Sch.)',
-                                                                                                                                                                                                                          'The Office of the Tax Ombud serves as an '
-                                                                                                                                                                                                                          'independent, impartial arbiter '
-                                                                                                                                                                                                                          'reviewing/resolving tax/levy complaints — a '
-                                                                                                                                                                                                                          'taxpayer may lodge a complaint, and an '
-                                                                                                                                                                                                                          'investigation must be conducted within **14 '
-                                                                                                                                                                                                                          'days** of receipt.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Tax Appeal Tribunal (TAT)** (s.23(1) JRBEA)',
-                                                                                                                                                                                                                          'TAT settles any tax dispute arising from '
-                                                                                                                                                                                                                          'adjudication of stamp duties. An appeal must be '
-                                                                                                                                                                                                                          'filed within **30 days** of receiving the notice '
-                                                                                                                                                                                                                          'of assessment.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Federal High Court** (¶10, 2nd Sch. to JRBEA)',
-                                                                                                                                                                                                                          'A person dissatisfied with the Tribunal\'s '
-                                                                                                                                                                                                                          'decision may appeal on a point of law to the '
-                                                                                                                                                                                                                          'Federal High Court, within **30 days** of the '
-                                                                                                                                                                                                                          'decision.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Court of Appeal** (¶15, 2nd Sch. to JRBEA)',
-                                                                                                                                                                                                                          'An appeal against the Federal High Court\'s '
-                                                                                                                                                                                                                          'decision lies to the Court of Appeal.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '8.14.1  Adjudication'},
+ {'def': {'t': 'Adjudication',
+          'd': 'the process by which the relevant tax authority determines the correct amount of duty '
+               'payable — a document is duly stamped and adjudicated only once the applicable duty has been '
+               'paid.'}},
+ {'p': 'Benefits of adjudication:'},
+ {'ul': ["it is the first step in disputing the stamp duties office's view on the correct duty amount",
+         'it demonstrates the document is genuine',
+         'it satisfies the statutory requirement',
+         'and it makes an adjudicated instrument admissible for all purposes, notwithstanding any objection '
+         'as to the duty payable.']},
+ {'h4': '8.14.2  The time limits — section 125 of NTA'},
+ {'key': 'Time limit (s.125 NTA): dutiable instruments must be stamped **not later than 30 days** after '
+         'execution, by the person required to pay the duty.'},
+ {'h4': '8.14.3  Appeals procedure — a judicial review of the adjudication process'},
+ {'table': {'align': 'll',
+            'head': ['Stage', 'Rule'],
+            'rows': [['**Tax Ombud** (s.36 JRBEA; ¶2 of 3rd Sch.)',
+                      'The Office of the Tax Ombud serves as an independent, impartial arbiter '
+                      'reviewing/resolving tax/levy complaints — a taxpayer may lodge a complaint, and an '
+                      'investigation must be conducted within **14 days** of receipt.'],
+                     ['**Tax Appeal Tribunal (TAT)** (s.23(1) JRBEA)',
+                      'TAT settles any tax dispute arising from adjudication of stamp duties. An appeal must '
+                      'be filed within **30 days** of receiving the notice of assessment.'],
+                     ['**Federal High Court** (¶10, 2nd Sch. to JRBEA)',
+                      "A person dissatisfied with the Tribunal's decision may appeal on a point of law to "
+                      'the Federal High Court, within **30 days** of the decision.'],
+                     ['**Court of Appeal** (¶15, 2nd Sch. to JRBEA)',
+                      "An appeal against the Federal High Court's decision lies to the Court of Appeal."]]}}],
                                },
                     {
                                  'n': '8.15',
@@ -1113,54 +1052,29 @@ CH = {
                     {
                                  'n': '8.29',
                                  't': 'Offences and penalties',
-                                 'b': [
-                                                          {
-                                                                                'h4': '8.29.1 – 8.29.3  Failure to stamp (s.110 NTAA), failure to '
-                                                                                      'disclose facts in a dutiable instrument (s.111 NTAA), and fraud '
-                                                                                      'in relation to stamps (s.113 NTAA)',
-                                                                              },
-                                                          {
-                                                                                'table': {
-                                                                                                                          'align': 'll',
-                                                                                                                          'head': [
-                                                                                                                                                                             'Offence',
-                                                                                                                                                                             'Penalty',
-                                                                                                                                                                           ],
-                                                                                                                          'rows': [
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Failure to stamp** (s.110 NTAA)',
-                                                                                                                                                                                                                          '10% of the unpaid duty, plus interest at the '
-                                                                                                                                                                                                                          'prevailing CBN Monetary Policy Rate.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Failure to disclose facts in a dutiable '
-                                                                                                                                                                                                                          'instrument, or underpayment of duty** (s.111 '
-                                                                                                                                                                                                                          'NTAA)',
-                                                                                                                                                                                                                          'Administrative penalty of N100,000 (in addition '
-                                                                                                                                                                                                                          'to the duty due), OR on conviction: a fine of '
-                                                                                                                                                                                                                          'N50,000, or up to 3 years\' imprisonment, or both.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                             [
-                                                                                                                                                                                                                          '**Fraud in relation to stamps** (s.113 NTAA) — '
-                                                                                                                                                                                                                          'removing a revenue stamp for reuse, affixing a '
-                                                                                                                                                                                                                          'removed stamp to evade duty, selling/offering a '
-                                                                                                                                                                                                                          'removed stamp for sale, or forging a '
-                                                                                                                                                                                                                          'stamp/denoting implement',
-                                                                                                                                                                                                                          'On conviction: up to 3 years\' imprisonment, or a '
-                                                                                                                                                                                                                          'fine of not less than N2,000,000, or both.',
-                                                                                                                                                                                                                        ],
-                                                                                                                                                                           ],
-                                                                                                                        },
-                                                                              },
-                                                          {
-                                                                                'h4': '8.29.4  Other offences and penalties of general application',
-                                                                              },
-                                                          {
-                                                                                'note': 'Other general-application offences and penalties '
-                                                                                        '(non-registration, late filing of returns, etc.) are covered in '
-                                                                                        'Chapter 4, or ss.100-137 NTAA.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '8.29.1  Failure to stamp - section 110 of NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Offence', 'Penalty'],
+            'rows': [['**Failure to stamp** (s.110 NTAA)',
+                      '10% of the unpaid duty, plus interest at the prevailing CBN Monetary Policy Rate.']]}},
+ {'h4': '8.29.2  Failure to disclose facts in a dutiable instrument - section 111 of NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Offence', 'Penalty'],
+            'rows': [['**Failure to disclose facts in a dutiable instrument, or underpayment of duty** '
+                      '(s.111 NTAA)',
+                      'Administrative penalty of N100,000 (in addition to the duty due), OR on conviction: a '
+                      "fine of N50,000, or up to 3 years' imprisonment, or both."]]}},
+ {'h4': '8.29.3  Fraud in relation to stamps - section 113 of NTAA'},
+ {'table': {'align': 'll',
+            'head': ['Offence', 'Penalty'],
+            'rows': [['**Fraud in relation to stamps** (s.113 NTAA) — removing a revenue stamp for reuse, '
+                      'affixing a removed stamp to evade duty, selling/offering a removed stamp for sale, or '
+                      'forging a stamp/denoting implement',
+                      "On conviction: up to 3 years' imprisonment, or a fine of not less than N2,000,000, or "
+                      'both.']]}},
+ {'h4': '8.29.4  Other offences and penalties of general application'},
+ {'note': 'Other general-application offences and penalties (non-registration, late filing of returns, etc.) '
+          'are covered in Chapter 4, or ss.100-137 NTAA.'}],
                                },
                     {
                                  'n': '8.30',

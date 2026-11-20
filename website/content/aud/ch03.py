@@ -19,44 +19,40 @@ CH = {
    'Discuss how an accountant should respond to a suspected instance of NOCLAR',
  ],
  'secs': [
-  {'n': '3.1', 't': 'Fundamental principles of the ICAN Code of Ethics', 'b': [
-    {'def': {'t': 'Ethics', 'd': 'a system or code of conduct based on moral duties, values and '
-                  'obligations that indicates how we should behave within a constituted body or '
-                  'society.'}},
-    {'p': 'In Nigeria, auditors must comply with the rules of professional conduct issued by '
-          'their professional bodies, and accounting standards issued by the Financial '
-          'Reporting Council of Nigeria. This chapter is built on **IFAC\'s Code of Ethics for '
-          'Professional Accountants**, published by the IESBA (referred to throughout as "The '
-          'Code").'},
-    {'key': 'ICAN adopted the IESBA Code into its own localised code, the **"Professional Code '
-            'of Conduct and Guide for Members"** — the substance remains largely unchanged. The '
-            'ICAN Code must be followed by **all members (including student members)**, whether '
-            'operating as external auditors, assurance providers or internal auditors — and also '
-            'applies to the staff of an ICAN practice, regardless of whether they belong to ICAN '
-            'or any other professional body.'},
-    {'note': 'Although the guidance applies to all members, the examination is primarily '
-             'concerned with how the rules apply to an **external auditor or assurance '
-             'provider**. By providing a code of ethics, ICAN performs a core regulatory '
-             'function — ensuring statutory audits are performed only by fit and proper persons '
-             'acting with professional integrity.'},
-    {'p': 'The ethical code covers:'},
-    {'ol': [
-      'Fundamental principles;',
-      'Integrity, objectivity and independence;',
-      'Conflicts of interest;',
-      'Confidentiality;',
-      'Changes in professional appointment;',
-      'Consultancy;',
-      'Association with non-members;',
-      'Fees;',
-      'Obtaining professional work;',
-      'The names and letterheads of practising firms;',
-      'Members in business; and',
-      'Enforcement of ethical standards.',
-    ]},
-  ]},
+  {'sourceN': '1.1', 'n': '3.1', 't': 'Fundamental principles of the ICAN Code of Ethics', 'b': [{'note': 'The source misprints the first four section numbers as 1.1–1.4 and the chapter summary as 1.5. '
+          'Those printed references are retained here within Chapter 3.',
+  'lbl': 'Source numbering'},
+ {'def': {'t': 'Ethics',
+          'd': 'a system or code of conduct based on moral duties, values and obligations that indicates how '
+               'we should behave within a constituted body or society.'}},
+ {'p': 'In Nigeria, auditors must comply with the rules of professional conduct issued by their professional '
+       'bodies, and accounting standards issued by the Financial Reporting Council of Nigeria. This chapter '
+       "is built on **IFAC's Code of Ethics for Professional Accountants**, published by the IESBA (referred "
+       'to throughout as "The Code").'},
+ {'key': 'ICAN adopted the IESBA Code into its own localised code, the **"Professional Code of Conduct and '
+         'Guide for Members"** — the substance remains largely unchanged. The ICAN Code must be followed by '
+         '**all members (including student members)**, whether operating as external auditors, assurance '
+         'providers or internal auditors — and also applies to the staff of an ICAN practice, regardless of '
+         'whether they belong to ICAN or any other professional body.'},
+ {'note': 'Although the guidance applies to all members, the examination is primarily concerned with how the '
+          'rules apply to an **external auditor or assurance provider**. By providing a code of ethics, ICAN '
+          'performs a core regulatory function — ensuring statutory audits are performed only by fit and '
+          'proper persons acting with professional integrity.'},
+ {'p': 'The ethical code covers:'},
+ {'ol': ['Fundamental principles;',
+         'Integrity, objectivity and independence;',
+         'Conflicts of interest;',
+         'Confidentiality;',
+         'Changes in professional appointment;',
+         'Consultancy;',
+         'Association with non-members;',
+         'Fees;',
+         'Obtaining professional work;',
+         'The names and letterheads of practising firms;',
+         'Members in business; and',
+         'Enforcement of ethical standards.']}]},
 
-  {'n': '3.2', 't': 'Professional conduct for members of ICAN', 'b': [
+  {'sourceN': '1.2', 'n': '3.2', 't': 'Professional conduct for members of ICAN', 'b': [
     {'p': 'The Professional Code of Conduct and Guide for Members guides members in the '
           'efficient discharge of their professional duties, requiring **strict observance** as '
           'a condition of Institute membership.'},
@@ -94,7 +90,7 @@ CH = {
     ]},
   ]},
 
-  {'n': '3.3', 't': 'Actual and perceived independence', 'b': [
+  {'sourceN': '1.3', 'n': '3.3', 't': 'Actual and perceived independence', 'b': [
     {'p': 'For an audit or other assurance report to be of value, the assurance provider:'},
     {'ol': [
       'must **be** independent (**actual** independence); and also',
@@ -127,7 +123,7 @@ CH = {
     ]},
   ]},
 
-  {'n': '3.4', 't': 'The conceptual framework: five threats to the fundamental principles', 'b': [
+  {'sourceN': '1.4', 'n': '3.4', 't': 'The conceptual framework: five threats to the fundamental principles', 'b': [
     {'p': 'The Code considers how the fundamental principles are applied within a **conceptual '
           'framework**, acknowledging they might be threatened by a broad range of '
           'circumstances. This identifies five potential categories of threat:'},
@@ -364,7 +360,7 @@ CH = {
             'opinion or decisions only on that data and the profession\'s guiding principles.'},
   ]},
 
-  {'n': '3.8', 't': 'Auditors\' responsibilities with regard to confidentiality', 'b': [
+  {'sourceN': '1.5', 'n': '3.8', 't': 'Auditors\' responsibilities with regard to confidentiality', 'b': [
     {'p': 'The IFAC Code states that professional accountants must respect the confidentiality '
           'of information about a client\'s or employer\'s affairs, acquired through professional '
           'services.'},

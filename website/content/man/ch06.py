@@ -17,67 +17,39 @@ CH = {
                     {
                                  'n': '6.1',
                                  't': 'Business process re-engineering (BPR)',
-                                 'b': [
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Business Process Re-engineering (BPR)',
-                                                                                                                      'd': 'the process of recreating a core business process, aiming '
-                                                                                                                           'to improve output quality or reduce cost through '
-                                                                                                                           'introducing information technology — seeking to radically '
-                                                                                                                           'restructure the organisation via ground-up redesign of '
-                                                                                                                           'its business processes. It means changing the process '
-                                                                                                                           'FUNDAMENTALLY, not incrementally. Also called business '
-                                                                                                                           'process redesign, business transformation, or business '
-                                                                                                                           'process change management.',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'p': 'BPR involves the radical redesign of core business processes to '
-                                                                                     'achieve DRAMATIC improvements in cost, quality, service and speed, '
-                                                                                     'delivering more value to the customer — the entire technological, '
-                                                                                     'human and organisational dimensions may change. Information '
-                                                                                     'technology plays a major role, enabling office automation, '
-                                                                                     'multi-location branch operation, flexible manufacturing, quicker '
-                                                                                     'customer delivery, better online customer service, and paperless '
-                                                                                     'transactions.',
-                                                                              },
-                                                          {
-                                                                                'key': 'BPR generally involves: discovering how business processes '
-                                                                                       'currently operate; redesigning them to eliminate '
-                                                                                       'wasted/redundant effort and improve efficiency; and implementing '
-                                                                                       'the changes to gain competitiveness. Per Sherwood-Smith (1994), '
-                                                                                       'BPR\'s aim is "seeking to devise new ways of organising tasks, '
-                                                                                       'organising people and redesigning IT systems so that the '
-                                                                                       'processes support the organisation to realise its goals."',
-                                                                              },
-                                                          {
-                                                                                'h4': '10 factors influencing the need to adopt BPR',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'poor performance of the old process;',
-                                                                                                                    'obsolescence of the old process;',
-                                                                                                                    'breakdown of existing machines/equipment;',
-                                                                                                                    'threat from competitor performance;',
-                                                                                                                    'changing trends in customer expectations;',
-                                                                                                                    'redeployment of insufficient resources;',
-                                                                                                                    'securing better management;',
-                                                                                                                    'improving efficiency;',
-                                                                                                                    'reducing cost; and',
-                                                                                                                    'reducing waste.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '15 areas commonly adopting BPR',
-                                                                              },
-                                                          {
-                                                                                'p': 'E-learning; e-marketing; e-payment; ATM (Automatic Teller Machine) '
-                                                                                     'processes; manufacturing process; virtual meetings; payroll '
-                                                                                     'process; claims processes; marketing and sales process; inventory '
-                                                                                     'control; customer complaints; employee appraisal; HR recruitment; '
-                                                                                     'contract bidding/approval; and online office processes.',
-                                                                              },
-                                                        ],
+                                 'b': [{'def': {'t': 'Business Process Re-engineering (BPR)',
+          'd': 'the process of recreating a core business process, aiming to improve output quality or '
+               'reduce cost through introducing information technology — seeking to radically restructure '
+               'the organisation via ground-up redesign of its business processes. It means changing the '
+               'process FUNDAMENTALLY, not incrementally. Also called business process redesign, business '
+               'transformation, or business process change management.'}},
+ {'p': 'BPR involves the radical redesign of core business processes to achieve DRAMATIC improvements in '
+       'cost, quality, service and speed, delivering more value to the customer — the entire technological, '
+       'human and organisational dimensions may change. Information technology plays a major role, enabling '
+       'office automation, multi-location branch operation, flexible manufacturing, quicker customer '
+       'delivery, better online customer service, and paperless transactions.'},
+ {'key': [{'p': 'BPR generally involves:'},
+          {'ul': ['discovering how business processes currently operate',
+                  'redesigning them to eliminate wasted/redundant effort and improve efficiency',
+                  "and implementing the changes to gain competitiveness. Per Sherwood-Smith (1994), BPR's "
+                  'aim is "seeking to devise new ways of organising tasks, organising people and redesigning '
+                  'IT systems so that the processes support the organisation to realise its goals."']}]},
+ {'h4': '10 factors influencing the need to adopt BPR'},
+ {'ol': ['poor performance of the old process;',
+         'obsolescence of the old process;',
+         'breakdown of existing machines/equipment;',
+         'threat from competitor performance;',
+         'changing trends in customer expectations;',
+         'redeployment of insufficient resources;',
+         'securing better management;',
+         'improving efficiency;',
+         'reducing cost; and',
+         'reducing waste.']},
+ {'h4': '15 areas commonly adopting BPR'},
+ {'p': 'E-learning; e-marketing; e-payment; ATM (Automatic Teller Machine) processes; manufacturing process; '
+       'virtual meetings; payroll process; claims processes; marketing and sales process; inventory control; '
+       'customer complaints; employee appraisal; HR recruitment; contract bidding/approval; and online '
+       'office processes.'}],
                                },
                     {
                                  'n': '6.2',

@@ -25,7 +25,7 @@ for this one.
 ## Where things stand (read this first, every session)
 
 **Implementation and QA complete; localhost active; Vercel deployment is the
-user's responsibility. Updated 2026-11-11.**
+user's responsibility. Updated 2026-11-20.**
 
 **Explicit user correction: work locally and leave publishing to the user.
 Do not deploy through Sites, Vercel or any other host without a new explicit
@@ -35,14 +35,15 @@ requested release workflow.**
 Local site: http://localhost:4000/ — serves website/ directly.
 The user's full completion request covers source preservation, all past
 questions, exact reading links, current-law notes, revision, UI and release.
-Skills was resumed on 2026-11-11 and remains a separate local project; it
-does not gate the completed ATSWA III work.
+The latest user instruction (2026-11-20) is to finish ATSWA III thoroughly and
+leave Skills for now. Skills is on hold at 9/119 chapters; no Skills source
+files were changed during this audit.
 
 The verified site contains **62 chapters** (CA 15, AUD 12, TAX 25, MAN 10),
 **60 papers from 15 diets**, **1,800 MCQ + 1,200 SAQ + 360 essays**. Every one
 of the **3,360 questions links to a chapter, section and original PDF page**.
 Final Revision preserves all 3,360 source identities. There are 171 additional
-passage links for multi-topic essays and 1,386 individually reviewed citation
+passage links for multi-topic essays and 1,434 individually reviewed citation
 overrides. Retrieval confidence gates were not reduced.
 
 Original questions, printed answers, workings and available examiner reports
@@ -52,7 +53,7 @@ extraction loss of small standalone numbers, currency glyphs and misspelled
 examiner headings. Source defects remain labelled, including irregular 2020
 Management numbering, the four-option 2024 Tax question, bonus/dual keys.
 
-The site has **384 question flags**, **7 reviewed MCQ corrections** and
+The site has **386 question flags**, **7 reviewed MCQ corrections** and
 **7 reviewed short-answer corrections**, with printed originals retained.
 Current-law notes use the corrected primary 2025 tax Acts, NIIRA 2025 and
 IAASB quality-management sources. The standalone Tax transition guide provides
@@ -62,8 +63,8 @@ original chapter text was not removed. Literal answer-phrase candidates are
 review aids, not proof of an omission. Review evidence and limits are in
 website/data/answer-audit-review.json and law-review.json.
 
-The final full rebuild from PDFs passes **7 Python source regressions and
-29 jsdom UI regressions**. All four exam-filtered abbreviation audits have
+The final full rebuild from PDFs passes **13 Python source regressions and
+30 jsdom UI regressions**. All four exam-filtered abbreviation audits have
 zero unresolved candidates. **38 real Chrome checks** passed across five
 viewport widths, plus additional checks for guide filters, exact question
 landing, multi-topic readings and timed reference tables. The UI adds a
@@ -81,6 +82,30 @@ release record, PROGRESS.md for dated history, and ../HANDOVER.md for the
 short checkpoint. Historical intermediate counts below/in the log remain
 historical. Do not claim independent recomputation of every historic answer
 or individual legal adjudication of every question.
+
+## Completion re-audit — 2026-11-20
+
+The previous completion record missed real source material. Restored full
+letters/questionnaires/report specimens, original figure/table pages, omitted
+modern-costing discussions, product details and 19 worked Management answers.
+Restored 61 specific heading references and 70 main-section reference mappings;
+62 Taxation/Management sections received source-number/content corrections.
+Source-key conflicts are flagged with printed originals retained. After all
+changes, 48 individually reviewed citations resolve new ambiguities and old
+incorrect targets; the automatic confidence gates are unchanged.
+
+All 62 chapters, 60 papers, 3,360 source identities and their chapter/section/PDF
+links pass the final integrity audit. There are 37 original study-text pages
+preserving 42 figure/table captions, in addition to seven past-paper figure
+recoveries. Final tests pass: 13 Python, 30 jsdom, 38 Chrome, all 62 chapter
+layouts at two widths (124 checks), and additional source/guide/timed checks.
+The release remains local for the user's manual Vercel deployment.
+
+Review evidence: website/data/source-fidelity-review.json and
+website/data/study-figures.json. Heading/caption inventories and targeted body
+comparisons support this repair record. They do not prove a word-for-word
+certification of every prose line or independent computation of every answer.
+The five previously unavailable older diets remain outside the available corpus.
 
 ## Part A — What this project actually is
 
@@ -680,7 +705,7 @@ Expected total, if Part III yields the same per-paper counts as Part II:
       output (Part B.3 — pipeline bugs hide as "bad citations"). Target
       **≥84% chapter and ≥68% section** coverage, the measured `ATSWA II`
       benchmark in §B.3a. Do not reach the number by loosening the gates.
-      Final coverage is 100% at both levels, with 1,386 human-reviewed targets
+      Final coverage is 100% at both levels, with 1,434 human-reviewed targets
       and 171 secondary essay passage links. Sources and targets are validated.
 - [x] **Scheme-change flagging** — see the next sub-section. This is new to
       this project; `ATSWA II` had no equivalent problem at this scale.

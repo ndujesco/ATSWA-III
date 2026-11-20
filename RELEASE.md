@@ -30,3 +30,20 @@ owner-private; it has not been removed. The source snapshot/archive under
 
 Five older target diets remain externally unavailable after retries; evidence
 is in website/data/source-availability.json and ../DOWNLOADS_LOG.md.
+
+
+## Local release refreshed — 2026-11-20
+
+The source-fidelity audit restored missing letters, forms, reports, figures,
+modern-costing discussions, product details and worked review answers. Current
+inventory: 62 chapters, 60 papers, all 3,360 linked questions, 1,434 reviewed
+citations and 386 labelled flags. An additional 37 original study-text pages
+preserve 42 figure/table captions.
+
+The source-to-site pipeline and integrity audit pass, with 13 Python source
+tests, 30 jsdom tests, 38 Chrome checks, 124 chapter-layout checks and extra
+guide/source-restoration checks. Runtime dist/ contains current inventory and
+file hashes. The site remains at localhost:4000; the user handles Vercel.
+No hosting or Git publication occurred. Skills is on hold under the latest
+instruction. Review method and limits are recorded in PROGRESS.md and
+website/data/source-fidelity-review.json.

@@ -42,68 +42,36 @@ CH = {
                     {
                                  'n': '20.3',
                                  't': 'Persons chargeable to companies income tax',
-                                 'b': [
-                                                          {
-                                                                                'h4': '20.3.1  Definition of Nigerian company — section 147 of NTAA',
-                                                                              },
-                                                          {
-                                                                                'def': {
-                                                                                                                      't': 'Nigerian company (s.147 NTAA)',
-                                                                                                                      'd': 'any company formed/incorporated under Nigerian law; or '
-                                                                                                                           'any company whose effective place of management/control '
-                                                                                                                           'is Nigeria (the Minister may prescribe what constitutes '
-                                                                                                                           'this by regulation).',
-                                                                                                                    },
-                                                                              },
-                                                          {
-                                                                                'h4': '20.3.2  Chargeability to tax — section 5 of NTA',
-                                                                              },
-                                                          {
-                                                                                'p': 'A company is charged to tax: in its own name; in the name of its '
-                                                                                     'principal officer/attorney/factor/agent/representative in Nigeria, '
-                                                                                     'in the same manner/amount the company itself would be charged; or '
-                                                                                     'in the name of its receiver/liquidator/administrator, as if none '
-                                                                                     'had been appointed.',
-                                                                              },
-                                                          {
-                                                                                'h4': '20.3.3  Taxation of resident persons — section 6 of NTA',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'a Nigerian company\'s profits are deemed to accrue in Nigeria '
-                                                                                                                    '**wherever** they arise, whether or not brought into/received '
-                                                                                                                    'in Nigeria;',
-                                                                                                                    'where a Nigerian-controlled **foreign** company has not '
-                                                                                                                    'distributed profits in a year, the proportion attributable to '
-                                                                                                                    'the Nigerian parent that could have been distributed without '
-                                                                                                                    'business detriment is **construed as distributed** and included '
-                                                                                                                    'in the Nigerian company\'s own profits (a '
-                                                                                                                    'controlled-foreign-company rule);',
-                                                                                                                    'where a non-resident subsidiary\'s (or multinational-group '
-                                                                                                                    'member\'s) income tax yields **less** than the prescribed '
-                                                                                                                    'minimum effective tax rate, the Nigerian parent must pay a '
-                                                                                                                    '**top-up amount** to bring that subsidiary\'s tax to the minimum '
-                                                                                                                    'rate; and',
-                                                                                                                    'the NRS provides detailed implementation rules for the above.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'h4': '20.3.4  Taxation of non-resident persons — section 17 of NTA',
-                                                                              },
-                                                          {
-                                                                                'p': 'A non-resident\'s Nigerian-accruing/derived income is chargeable. '
-                                                                                     'Chargeable-asset disposal gains are taxable where they relate to a '
-                                                                                     'Nigerian trade/business/profession/vocation, a Nigerian-located '
-                                                                                     'asset, or a deemed-Nigerian-located asset. Trade/business profits '
-                                                                                     'are taxable where the non-resident has a permanent establishment '
-                                                                                     '(PE) or significant economic presence (SEP) in Nigeria (to the '
-                                                                                     'extent attributable to it); where a Nigerian resident/PE pays for '
-                                                                                     'services furnished from outside Nigeria (except '
-                                                                                     'employee/teaching/foreign-PE-borne payments); or where payment is '
-                                                                                     'made for insurance premiums/risks insured from Nigeria. The full '
-                                                                                     'PE/SEP tests are already set out in Chapter 18.',
-                                                                              },
-                                                        ],
+                                 'b': [{'h4': '20.3.1  Definition of Nigerian company — section 147 of NTAA'},
+ {'def': {'t': 'Nigerian company (s.147 NTAA)',
+          'd': 'any company formed/incorporated under Nigerian law; or any company whose effective place of '
+               'management/control is Nigeria (the Minister may prescribe what constitutes this by '
+               'regulation).'}},
+ {'h4': '20.3.2  Chargeability to tax — section 5 of NTA'},
+ {'p': 'A company is charged to tax:'},
+ {'ul': ['in its own name',
+         'in the name of its principal officer/attorney/factor/agent/representative in Nigeria, in the same '
+         'manner/amount the company itself would be charged',
+         'or in the name of its receiver/liquidator/administrator, as if none had been appointed.']},
+ {'h4': '20.3.3  Taxation of resident persons — section 6 of NTA'},
+ {'ol': ["a Nigerian company's profits are deemed to accrue in Nigeria **wherever** they arise, whether or "
+         'not brought into/received in Nigeria;',
+         'where a Nigerian-controlled **foreign** company has not distributed profits in a year, the '
+         'proportion attributable to the Nigerian parent that could have been distributed without business '
+         "detriment is **construed as distributed** and included in the Nigerian company's own profits (a "
+         'controlled-foreign-company rule);',
+         "where a non-resident subsidiary's (or multinational-group member's) income tax yields **less** "
+         'than the prescribed minimum effective tax rate, the Nigerian parent must pay a **top-up amount** '
+         "to bring that subsidiary's tax to the minimum rate; and",
+         'the NRS provides detailed implementation rules for the above.']},
+ {'h4': '20.3.4  Taxation of non-resident persons — section 17 of NTA'},
+ {'p': "A non-resident's Nigerian-accruing/derived income is chargeable. Chargeable-asset disposal gains are "
+       'taxable where they relate to a Nigerian trade/business/profession/vocation, a Nigerian-located '
+       'asset, or a deemed-Nigerian-located asset. Trade/business profits are taxable where the non-resident '
+       'has a permanent establishment (PE) or significant economic presence (SEP) in Nigeria (to the extent '
+       'attributable to it); where a Nigerian resident/PE pays for services furnished from outside Nigeria '
+       '(except employee/teaching/foreign-PE-borne payments); or where payment is made for insurance '
+       'premiums/risks insured from Nigeria. The full PE/SEP tests are already set out in Chapter 18.'}],
                                },
                     {
                                  'n': '20.4',
@@ -228,71 +196,46 @@ CH = {
                     {
                                  'n': '20.7',
                                  't': 'Income, profits or gains that are tax exempt — section 162 of NTA',
-                                 'b': [
-                                                          {
-                                                                                'p': 'Exempt income:',
-                                                                              },
-                                                          {
-                                                                                'ol': [
-                                                                                                                    'profits/gains from a statutory/registered friendly society, a '
-                                                                                                                    'registered co-operative society, an '
-                                                                                                                    'educational/religious/charitable body, or a registered trade '
-                                                                                                                    'union — in each case, **only** where not derived from a '
-                                                                                                                    'trade/business the body itself carries on;',
-                                                                                                                    'a Federal/State/Local Government (and their MDAs/public '
-                                                                                                                    'institutions), except profits from trade/business or a '
-                                                                                                                    'trade/business instrumentality; and a government purchasing '
-                                                                                                                    'authority empowered to acquire commodities for '
-                                                                                                                    'export/redistribution;',
-                                                                                                                    'dividend distributed by an authorised collective investment '
-                                                                                                                    'scheme;',
-                                                                                                                    'dividend/rental income a REIT receives on behalf of '
-                                                                                                                    'shareholders, where ≥75% is distributed within 12 months of the '
-                                                                                                                    'relevant financial year — without exempting the shareholder\'s '
-                                                                                                                    'own tax on it, the REIT\'s own management-fee/other income, or a '
-                                                                                                                    'non-compliant REIT;',
-                                                                                                                    'compensating payments qualifying as dividends/interest in a '
-                                                                                                                    'Regulated Securities Lending Transaction;',
-                                                                                                                    'consular fees for a foreign State, and a consular officer\'s '
-                                                                                                                    'employment income — excluding trade/business/other-employment '
-                                                                                                                    'income, domestic-duty employees, or an officer ordinarily '
-                                                                                                                    'resident in Nigeria who is not a national of that State;',
-                                                                                                                    'income exempt/remitted under the Diplomatic Immunities and '
-                                                                                                                    'Privileges Act;',
-                                                                                                                    'pension funds/assets, and pension/gratuity/retirement benefits, '
-                                                                                                                    'under the Pension Reform Act;',
-                                                                                                                    'wound/disability pensions to armed-forces/defence-organisation '
-                                                                                                                    'members, or persons injured by enemy action;',
-                                                                                                                    'death gratuities or consolidated death/injury compensation;',
-                                                                                                                    'redundancy lump sums and other capital-nature compensation for '
-                                                                                                                    'loss of employment;',
-                                                                                                                    'gains on an angel investor/venture capitalist/private equity '
-                                                                                                                    'fund/accelerator/incubator disposing of a labelled startup\'s '
-                                                                                                                    'assets, held in Nigeria ≥24 months;',
-                                                                                                                    'income from Federal/State government bonds;',
-                                                                                                                    'emoluments of other-rank personnel in combat zones/hazardous '
-                                                                                                                    'areas/designated operations (non-emolument income remains '
-                                                                                                                    'taxable);',
-                                                                                                                    'income from agricultural businesses (crop production, '
-                                                                                                                    'livestock, aquaculture, forestry, dairy, and other Thirteenth '
-                                                                                                                    'Schedule businesses), for the **first 5 years** of business;',
-                                                                                                                    'dividend from investment in a wholly export-oriented business;',
-                                                                                                                    'profits of a company engaged in sporting activities;',
-                                                                                                                    'dividend/interest/rent/royalty from outside Nigeria, brought in '
-                                                                                                                    'through approved channels;',
-                                                                                                                    'employment income where gross income is at or below the '
-                                                                                                                    '**National Minimum Wage**; and',
-                                                                                                                    'wages/salaries of military officers.',
-                                                                                                                  ],
-                                                                              },
-                                                          {
-                                                                                'note': '**Not chargeable gains**: pension funds/assets approved under '
-                                                                                        'the Pension Reform Act; an individual\'s disposal of investment '
-                                                                                        'held under a national provident fund/retirement scheme; and '
-                                                                                        'gains on disposing of a valour/gallantry decoration acquired '
-                                                                                        'other than for money/money\'s worth consideration.',
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'Exempt income:'},
+ {'ol': ['profits/gains from a statutory/registered friendly society, a registered co-operative society, an '
+         'educational/religious/charitable body, or a registered trade union — in each case, **only** where '
+         'not derived from a trade/business the body itself carries on;',
+         'a Federal/State/Local Government (and their MDAs/public institutions), except profits from '
+         'trade/business or a trade/business instrumentality; and a government purchasing authority '
+         'empowered to acquire commodities for export/redistribution;',
+         'dividend distributed by an authorised collective investment scheme;',
+         'dividend/rental income a REIT receives on behalf of shareholders, where ≥75% is distributed within '
+         "12 months of the relevant financial year — without exempting the shareholder's own tax on it, the "
+         "REIT's own management-fee/other income, or a non-compliant REIT;",
+         'compensating payments qualifying as dividends/interest in a Regulated Securities Lending '
+         'Transaction;',
+         "consular fees for a foreign State, and a consular officer's employment income — excluding "
+         'trade/business/other-employment income, domestic-duty employees, or an officer ordinarily resident '
+         'in Nigeria who is not a national of that State;',
+         'income exempt/remitted under the Diplomatic Immunities and Privileges Act;',
+         'pension funds/assets, and pension/gratuity/retirement benefits, under the Pension Reform Act;',
+         'wound/disability pensions to armed-forces/defence-organisation members, or persons injured by '
+         'enemy action;',
+         'death gratuities or consolidated death/injury compensation;',
+         'redundancy lump sums and other capital-nature compensation for loss of employment;',
+         'gains on an angel investor/venture capitalist/private equity fund/accelerator/incubator disposing '
+         "of a labelled startup's assets, held in Nigeria ≥24 months;",
+         'income from Federal/State government bonds;',
+         'emoluments of other-rank personnel in combat zones/hazardous areas/designated operations '
+         '(non-emolument income remains taxable);',
+         'income from agricultural businesses (crop production, livestock, aquaculture, forestry, dairy, and '
+         'other Thirteenth Schedule businesses), for the **first 5 years** of business;',
+         'dividend from investment in a wholly export-oriented business;',
+         'profits of a company engaged in sporting activities;',
+         'dividend/interest/rent/royalty from outside Nigeria, brought in through approved channels;',
+         'employment income where gross income is at or below the **National Minimum Wage**; and',
+         'wages/salaries of military officers.']},
+ {'note': [{'p': '**Not chargeable gains**:'},
+           {'ul': ['pension funds/assets approved under the Pension Reform Act',
+                   "an individual's disposal of investment held under a national provident fund/retirement "
+                   'scheme',
+                   'and gains on disposing of a valour/gallantry decoration acquired other than for '
+                   "money/money's worth consideration."]}]}],
                                },
                     {
                                  'n': '20.8',
@@ -1270,457 +1213,170 @@ CH = {
                     {
                                  'n': '20.13',
                                  't': 'Worked examples — study text questions and suggested solutions',
-                                 'b': [
-                                                          {
-                                                                                'p': 'The study text sets **three questions** at §20.13.1 — one theory '
-                                                                                     'question and two computations — with its own suggested solutions '
-                                                                                     'at §20.13.2. All three are reproduced here in full, with the '
-                                                                                     'book\'s answers, every figure independently recomputed, and added '
-                                                                                     'explanation.',
-                                                                              },
-                                                          {
-                                                                                'note': 'A numbering defect in the book, flagged rather than silently '
-                                                                                        'corrected: the first question carries **no number at all** — '
-                                                                                        'the requirement simply follows the preamble, and the next '
-                                                                                        'question is labelled "(2)". It is numbered 1 here, matching the '
-                                                                                        'solutions, which are correctly numbered (1), 2 and 3.',
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 20.13.1, Question 1',
-                                                                                                                    't': 'Tax implications of business restructuring under section '
-                                                                                                                         '189 of NTA',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Section 189 of NTA explains the tax implications '
-                                                                                                                                                                                                          'of business restructuring in the case of: **(a)** '
-                                                                                                                                                                                                          'a merger of two or more trades or businesses; '
-                                                                                                                                                                                                          '**(b)** the sale or transfer of a trade or '
-                                                                                                                                                                                                          'business; and **(c)** the sale or transfer of a '
-                                                                                                                                                                                                          'business asset which does **not** result in the '
-                                                                                                                                                                                                          'cessation of the trade or business.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Required:** Discuss the tax implications of '
-                                                                                                                                                                                                          'business restructuring.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': '(a)  In the case of a merger of two or more '
-                                                                                                                                                                                                           'trades or businesses',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'a **new trade or business shall not be deemed '
-                                                                                                                                                                                                                                                          'to have commenced** as a result of the merger, '
-                                                                                                                                                                                                                                                          'and the provisions of the Act relating to '
-                                                                                                                                                                                                                                                          '**cessation** of trade or business shall **not '
-                                                                                                                                                                                                                                                          'apply** to the trade or business that ceased '
-                                                                                                                                                                                                                                                          'as a result of the merger;',
-                                                                                                                                                                                                                                                          'the provisions of Part VIII of Chapter Two of '
-                                                                                                                                                                                                                                                          'the Act — ascertainment of chargeable gains — '
-                                                                                                                                                                                                                                                          'as they relate to chargeable gains shall **not '
-                                                                                                                                                                                                                                                          'apply** to the assets transferred to the new '
-                                                                                                                                                                                                                                                          'or surviving trade or business as a result of '
-                                                                                                                                                                                                                                                          'the merger;',
-                                                                                                                                                                                                                                                          'assets of the merging trades or businesses '
-                                                                                                                                                                                                                                                          'shall be deemed to have been transferred at '
-                                                                                                                                                                                                                                                          'the **residue of the qualifying capital '
-                                                                                                                                                                                                                                                          'expenditure** on the day following the merger;',
-                                                                                                                                                                                                                                                          'the provisions of the First Schedule (capital '
-                                                                                                                                                                                                                                                          'allowance) shall apply on the **remaining '
-                                                                                                                                                                                                                                                          'useful life** of the asset transferred because '
-                                                                                                                                                                                                                                                          'of the merger;',
-                                                                                                                                                                                                                                                          '**unutilised capital allowance** on the assets '
-                                                                                                                                                                                                                                                          'transferred **shall be available** for the use '
-                                                                                                                                                                                                                                                          'of the new or surviving trade or business;',
-                                                                                                                                                                                                                                                          '**unabsorbed losses** of the merging entities '
-                                                                                                                                                                                                                                                          '**shall be available** to the surviving trade '
-                                                                                                                                                                                                                                                          'or business, provided that such losses were '
-                                                                                                                                                                                                                                                          'incurred by the merged trade or business; and',
-                                                                                                                                                                                                                                                          '**taxes deducted at source** in respect of the '
-                                                                                                                                                                                                                                                          'merged trades or businesses **shall be '
-                                                                                                                                                                                                                                                          'available** to the merged trade or business.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': '(b)  In the case of a sale or transfer of a '
-                                                                                                                                                                                                           'trade or business which results in the cessation '
-                                                                                                                                                                                                           'of a trade or business',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'the provisions of Part V of Chapter Two of the '
-                                                                                                                                                                                                                                                          'Act as regards **cessation** of trade, '
-                                                                                                                                                                                                                                                          'business, profession or vocation **shall '
-                                                                                                                                                                                                                                                          'apply** to the trade or business that was sold '
-                                                                                                                                                                                                                                                          'or transferred;',
-                                                                                                                                                                                                                                                          'for the purposes of the First Schedule '
-                                                                                                                                                                                                                                                          '(capital allowance), the asset sold or '
-                                                                                                                                                                                                                                                          'transferred shall be recognised **at the value '
-                                                                                                                                                                                                                                                          'at which it is sold or transferred**;',
-                                                                                                                                                                                                                                                          '**unutilised capital allowance** on the assets '
-                                                                                                                                                                                                                                                          'sold or transferred **shall not be available** '
-                                                                                                                                                                                                                                                          'for use in the new or surviving trade or '
-                                                                                                                                                                                                                                                          'business;',
-                                                                                                                                                                                                                                                          '**unabsorbed losses** of the old business '
-                                                                                                                                                                                                                                                          '**shall not be available** for use in the new '
-                                                                                                                                                                                                                                                          'or surviving trade, business, profession or '
-                                                                                                                                                                                                                                                          'vocation; and',
-                                                                                                                                                                                                                                                          '**taxes deducted at source** from the old '
-                                                                                                                                                                                                                                                          'trade or business **shall not be available** '
-                                                                                                                                                                                                                                                          'for use by the new or surviving trade or '
-                                                                                                                                                                                                                                                          'business.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'h4': '(c)  In the case of a sale or transfer of a '
-                                                                                                                                                                                                           'business asset which does not result in the '
-                                                                                                                                                                                                           'cessation of the trade or business',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'Where the parties agreed to sell or transfer the '
-                                                                                                                                                                                                          'asset for an amount **not exceeding the sum of '
-                                                                                                                                                                                                          'the residue of the qualifying capital expenditure '
-                                                                                                                                                                                                          'and the unutilised capital allowance** of the '
-                                                                                                                                                                                                          'asset:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'ol': [
-                                                                                                                                                                                                                                                          'capital allowance under the First Schedule '
-                                                                                                                                                                                                                                                          'shall apply to the **residue of the asset '
-                                                                                                                                                                                                                                                          'only**;',
-                                                                                                                                                                                                                                                          'the **unutilised capital allowance** on the '
-                                                                                                                                                                                                                                                          'asset sold or transferred **shall be available '
-                                                                                                                                                                                                                                                          'for use by the buying** trade or business;',
-                                                                                                                                                                                                                                                          'the trade or business that sold or transferred '
-                                                                                                                                                                                                                                                          'the asset **shall not claim any part** of the '
-                                                                                                                                                                                                                                                          'unutilised capital allowance pertaining to it; '
-                                                                                                                                                                                                                                                          'and',
-                                                                                                                                                                                                                                                          'the provisions of Part VIII of Chapter Two as '
-                                                                                                                                                                                                                                                          'regards **chargeable gains shall not apply** '
-                                                                                                                                                                                                                                                          'to the asset sold or transferred under this '
-                                                                                                                                                                                                                                                          'paragraph.',
-                                                                                                                                                                                                                                                        ],
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The three scenarios are best learned as a '
-                                                                                                                                                                                                            'single contrast — **does tax history travel '
-                                                                                                                                                                                                            'with the business?** On a **merger** it does: '
-                                                                                                                                                                                                            'no cessation, no chargeable gains, assets '
-                                                                                                                                                                                                            'carried over at tax written-down value, and '
-                                                                                                                                                                                                            '**unutilised capital allowances, unabsorbed '
-                                                                                                                                                                                                            'losses and WHT credits all pass to the '
-                                                                                                                                                                                                            'survivor**. On a **sale or transfer that causes '
-                                                                                                                                                                                                            'cessation** it does **not**: cessation rules '
-                                                                                                                                                                                                            'bite, assets are recognised at **sale value**, '
-                                                                                                                                                                                                            'and allowances, losses and WHT credits are '
-                                                                                                                                                                                                            '**all lost**. On a **sale of a single asset '
-                                                                                                                                                                                                            'with the business continuing**, the treatment '
-                                                                                                                                                                                                            'is in between — no chargeable gain, and the '
-                                                                                                                                                                                                            'unutilised allowance **follows the asset to the '
-                                                                                                                                                                                                            'buyer**, with the seller claiming none.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Scenario (c) carries a condition easy to miss: '
-                                                                                                                                                                                                             'it applies only where the price does **not '
-                                                                                                                                                                                                             'exceed the residue of qualifying expenditure '
-                                                                                                                                                                                                             'plus unutilised capital allowance**. Sell the '
-                                                                                                                                                                                                             'asset for more than that and the paragraph '
-                                                                                                                                                                                                             'does not apply, so the chargeable-gains '
-                                                                                                                                                                                                             'provisions come back into play.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'warn': 'A numbering defect in the book\'s printed '
-                                                                                                                                                                                                             'solution, flagged rather than silently '
-                                                                                                                                                                                                             'corrected: its three limbs are introduced as '
-                                                                                                                                                                                                             'an unlabelled "in the case of a merger…", then '
-                                                                                                                                                                                                             '**"(b)"**, then **"(c)"** — the first has no '
-                                                                                                                                                                                                             'letter, so the lettering does not match the '
-                                                                                                                                                                                                             'question\'s own (a), (b), (c). They are '
-                                                                                                                                                                                                             'lettered (a) to (c) above.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 20.13.1, Question 2',
-                                                                                                                    't': 'D Limited — assessable profits on a change of accounting '
-                                                                                                                         'date',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**D Limited** changed its accounting date from '
-                                                                                                                                                                                                          '**31 December to 30 June**. The following '
-                                                                                                                                                                                                          'information is made available:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'lr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    '',
-                                                                                                                                                                                                                                                                                                                                    'N',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '12 months to 31/12/2025',
-                                                                                                                                                                                                                                                                                                                                                                                                  '5,288,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '6 months to 30/06/2026',
-                                                                                                                                                                                                                                                                                                                                                                                                  '3,320,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '12 months to 30/06/2027 — '
-                                                                                                                                                                                                                                                                                                                                                                                                  'projected',
-                                                                                                                                                                                                                                                                                                                                                                                                  '7,250,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Required:** Compute the assessable profits for '
-                                                                                                                                                                                                          'the relevant assessment years.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'llr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'YOA',
-                                                                                                                                                                                                                                                                                                                                    'Basis period',
-                                                                                                                                                                                                                                                                                                                                    'Amount (N)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2026',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1/1/25 – 31/12/25',
-                                                                                                                                                                                                                                                                                                                                                                                                  '5,288,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2027',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1/1/26 – 30/06/26 (six months)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '3,320,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2028',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1/07/26 – 30/06/27',
-                                                                                                                                                                                                                                                                                                                                                                                                  '7,250,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**Total**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**15,858,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'Section 23 of the NTA (§20.10.2) gives the rule '
-                                                                                                                                                                                                            'applied here: on a change of accounting date, '
-                                                                                                                                                                                                            'the basis period for the year of assessment in '
-                                                                                                                                                                                                            'which the change falls runs **from the first '
-                                                                                                                                                                                                            'day after the previous basis period to the new '
-                                                                                                                                                                                                            'accounting date** — here 1 January to 30 June '
-                                                                                                                                                                                                            '2026, a **six-month** basis period — and '
-                                                                                                                                                                                                            'subsequent years are computed on the **new** '
-                                                                                                                                                                                                            'accounting period. There is no apportionment, '
-                                                                                                                                                                                                            'no averaging and no choice of basis: the short '
-                                                                                                                                                                                                            'period stands as its own basis period, which is '
-                                                                                                                                                                                                            'why only six months\' profit is assessed in 2027.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'warn': 'The study text\'s printed solution shows the '
-                                                                                                                                                                                                             '2028 assessable profit as **N7,200,000**, with '
-                                                                                                                                                                                                             'a total of N15,808,000. The question states '
-                                                                                                                                                                                                             'the projected profit for the 12 months to 30 '
-                                                                                                                                                                                                             'June 2027 as **N7,250,000**, which is the '
-                                                                                                                                                                                                             'figure used above, giving a total of '
-                                                                                                                                                                                                             '**N15,858,000**. The book\'s own figures are '
-                                                                                                                                                                                                             'internally consistent with its N7,200,000, so '
-                                                                                                                                                                                                             'the discrepancy is in transcribing the '
-                                                                                                                                                                                                             'question into the solution, a difference of '
-                                                                                                                                                                                                             'N50,000.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'The company must also **notify the relevant '
-                                                                                                                                                                                                             'tax authority of the change not later than 30 '
-                                                                                                                                                                                                             'days before the usual due date for filing** '
-                                                                                                                                                                                                             'its income tax returns (s.23(b) — see '
-                                                                                                                                                                                                             '§20.10.2). A question about a change of date '
-                                                                                                                                                                                                             'often carries a mark for that procedural '
-                                                                                                                                                                                                             'point, which no computation reveals.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                          {
-                                                                                'eg': {
-                                                                                                                    'tag': 'Study text — 20.13.1, Question 3',
-                                                                                                                    't': 'KAO Bank Limited — agricultural loan interest exempted '
-                                                                                                                         'from tax',
-                                                                                                                    'open': True,
-                                                                                                                    'q': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The interest on loans relating to **primary '
-                                                                                                                                                                                                          'agricultural production** included in the income '
-                                                                                                                                                                                                          'of **KAO Bank Limited** for the year ended **31 '
-                                                                                                                                                                                                          'December 2025** amounted to **N5 million**. The '
-                                                                                                                                                                                                          'breakdown of the interest income based on the '
-                                                                                                                                                                                                          'loan terms is as follows:',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'llrr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    'Repayment period',
-                                                                                                                                                                                                                                                                                                                                    'Moratorium period',
-                                                                                                                                                                                                                                                                                                                                    'Interest rate p.a. (%)',
-                                                                                                                                                                                                                                                                                                                                    'Agric loan interest (N)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '5 years',
-                                                                                                                                                                                                                                                                                                                                                                                                  '24 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '15',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '3 years',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '20',
-                                                                                                                                                                                                                                                                                                                                                                                                  '800,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '2 years',
-                                                                                                                                                                                                                                                                                                                                                                                                  '18 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '14',
-                                                                                                                                                                                                                                                                                                                                                                                                  '700,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '5 years',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '35',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**5,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': 'The **base lending rate** in respect of the '
-                                                                                                                                                                                                          'facilities is **21% p.a.**',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**Required:** Compute the loan interest exempted '
-                                                                                                                                                                                                          'from tax.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                    'a': [
-                                                                                                                                                              {
-                                                                                                                                                                                                     'p': '**KAO Bank Limited — loan interest exempted from '
-                                                                                                                                                                                                          'tax for the year ended 31 December 2025 '
-                                                                                                                                                                                                          '(assessment year 2026):**',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'table': {
-                                                                                                                                                                                                                                                                'align': 'llrrr',
-                                                                                                                                                                                                                                                                'head': [
-                                                                                                                                                                                                                                                                                                                                    '',
-                                                                                                                                                                                                                                                                                                                                    'Moratorium period',
-                                                                                                                                                                                                                                                                                                                                    'Interest rate (%)',
-                                                                                                                                                                                                                                                                                                                                    'Agric loan interest (N)',
-                                                                                                                                                                                                                                                                                                                                    'Exempt interest income (N)',
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                                'rows': [
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '(i)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '24 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '15',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '2,500,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '(ii)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '20',
-                                                                                                                                                                                                                                                                                                                                                                                                  '800,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '—',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '(iii)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '18 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '14',
-                                                                                                                                                                                                                                                                                                                                                                                                  '700,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '700,000',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '(iv)',
-                                                                                                                                                                                                                                                                                                                                                                                                  '6 months',
-                                                                                                                                                                                                                                                                                                                                                                                                  '35',
-                                                                                                                                                                                                                                                                                                                                                                                                  '1,000,000',
-                                                                                                                                                                                                                                                                                                                                                                                                  '—',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                    [
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**5,000,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                  '**3,200,000**',
-                                                                                                                                                                                                                                                                                                                                                                                                ],
-                                                                                                                                                                                                                                                                                                                                  ],
-                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'key': 'The exemption has **two cumulative '
-                                                                                                                                                                                                            'conditions**, and a loan must satisfy **both**: '
-                                                                                                                                                                                                            'the **moratorium must be not less than 12 '
-                                                                                                                                                                                                            'months**, and the **interest rate must not '
-                                                                                                                                                                                                            'exceed the base lending rate** at the time the '
-                                                                                                                                                                                                            'loan was granted, refinanced or restructured — '
-                                                                                                                                                                                                            'here **21%**. Loan (i) passes on 24 months and '
-                                                                                                                                                                                                            '15%; loan (iii) passes on 18 months and 14%. '
-                                                                                                                                                                                                            'Loans (ii) and (iv) fail, so **N3,200,000 of '
-                                                                                                                                                                                                            'the N5,000,000 is exempt** and the remaining '
-                                                                                                                                                                                                            'N1,800,000 is taxable.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'Be more precise than the book\'s own note, '
-                                                                                                                                                                                                             'which says "(ii) & (iv) are not tax exempt as '
-                                                                                                                                                                                                             'they fail to meet the two conditions as to '
-                                                                                                                                                                                                             'moratorium period and base lending rate". In '
-                                                                                                                                                                                                             'fact **loan (ii) fails only one** condition — '
-                                                                                                                                                                                                             'its moratorium of 6 months is too short, but '
-                                                                                                                                                                                                             'its 20% rate is **below** the 21% base rate. '
-                                                                                                                                                                                                             '**Loan (iv) fails both** — 6 months and 35%. '
-                                                                                                                                                                                                             'Failing either is enough, so the conclusion is '
-                                                                                                                                                                                                             'right, but say which condition each loan fails.',
-                                                                                                                                                                                                   },
-                                                                                                                                                              {
-                                                                                                                                                                                                     'note': 'The **repayment period** column is deliberate '
-                                                                                                                                                                                                             'noise — the exemption says nothing about how '
-                                                                                                                                                                                                             'long the borrower has to repay, only about the '
-                                                                                                                                                                                                             '**moratorium** and the **rate**. The statutory '
-                                                                                                                                                                                                             'provision is at §14.5.4(d), and it applies to '
-                                                                                                                                                                                                             'a bank loan granted on or after **1 January '
-                                                                                                                                                                                                             '1997** to a person engaged in agricultural '
-                                                                                                                                                                                                             'trade or business, the fabrication of local '
-                                                                                                                                                                                                             'plant and machinery, or a Family Economic '
-                                                                                                                                                                                                             'Advancement Programme cottage industry.',
-                                                                                                                                                                                                   },
-                                                                                                                                                            ],
-                                                                                                                  },
-                                                                              },
-                                                        ],
+                                 'b': [{'p': 'The study text sets **three questions** at §20.13.1 — one theory question and two computations — '
+       "with its own suggested solutions at §20.13.2. All three are reproduced here in full, with the book's "
+       'answers, every figure independently recomputed, and added explanation.'},
+ {'note': 'A numbering defect in the book, flagged rather than silently corrected: the first question '
+          'carries **no number at all** — the requirement simply follows the preamble, and the next question '
+          'is labelled "(2)". It is numbered 1 here, matching the solutions, which are correctly numbered '
+          '(1), 2 and 3.'},
+ {'eg': {'tag': 'Study text — 20.13.1, Question 1',
+         't': 'Tax implications of business restructuring under section 189 of NTA',
+         'open': True,
+         'q': [{'p': 'Section 189 of NTA explains the tax implications of business restructuring in the case '
+                     'of:'},
+               {'ul': ['**(a)** a merger of two or more trades or businesses',
+                       '**(b)** the sale or transfer of a trade or business',
+                       'and **(c)** the sale or transfer of a business asset which does **not** result in '
+                       'the cessation of the trade or business.']},
+               {'p': '**Required:** Discuss the tax implications of business restructuring.'}],
+         'a': [{'h4': '(a)  In the case of a merger of two or more trades or businesses'},
+               {'ol': ['a **new trade or business shall not be deemed to have commenced** as a result of the '
+                       'merger, and the provisions of the Act relating to **cessation** of trade or business '
+                       'shall **not apply** to the trade or business that ceased as a result of the merger;',
+                       'the provisions of Part VIII of Chapter Two of the Act — ascertainment of chargeable '
+                       'gains — as they relate to chargeable gains shall **not apply** to the assets '
+                       'transferred to the new or surviving trade or business as a result of the merger;',
+                       'assets of the merging trades or businesses shall be deemed to have been transferred '
+                       'at the **residue of the qualifying capital expenditure** on the day following the '
+                       'merger;',
+                       'the provisions of the First Schedule (capital allowance) shall apply on the '
+                       '**remaining useful life** of the asset transferred because of the merger;',
+                       '**unutilised capital allowance** on the assets transferred **shall be available** '
+                       'for the use of the new or surviving trade or business;',
+                       '**unabsorbed losses** of the merging entities **shall be available** to the '
+                       'surviving trade or business, provided that such losses were incurred by the merged '
+                       'trade or business; and',
+                       '**taxes deducted at source** in respect of the merged trades or businesses **shall '
+                       'be available** to the merged trade or business.']},
+               {'h4': '(b)  In the case of a sale or transfer of a trade or business which results in the '
+                      'cessation of a trade or business'},
+               {'ol': ['the provisions of Part V of Chapter Two of the Act as regards **cessation** of '
+                       'trade, business, profession or vocation **shall apply** to the trade or business '
+                       'that was sold or transferred;',
+                       'for the purposes of the First Schedule (capital allowance), the asset sold or '
+                       'transferred shall be recognised **at the value at which it is sold or transferred**;',
+                       '**unutilised capital allowance** on the assets sold or transferred **shall not be '
+                       'available** for use in the new or surviving trade or business;',
+                       '**unabsorbed losses** of the old business **shall not be available** for use in the '
+                       'new or surviving trade, business, profession or vocation; and',
+                       '**taxes deducted at source** from the old trade or business **shall not be '
+                       'available** for use by the new or surviving trade or business.']},
+               {'h4': '(c)  In the case of a sale or transfer of a business asset which does not result in '
+                      'the cessation of the trade or business'},
+               {'p': 'Where the parties agreed to sell or transfer the asset for an amount **not exceeding '
+                     'the sum of the residue of the qualifying capital expenditure and the unutilised '
+                     'capital allowance** of the asset:'},
+               {'ol': ['capital allowance under the First Schedule shall apply to the **residue of the asset '
+                       'only**;',
+                       'the **unutilised capital allowance** on the asset sold or transferred **shall be '
+                       'available for use by the buying** trade or business;',
+                       'the trade or business that sold or transferred the asset **shall not claim any '
+                       'part** of the unutilised capital allowance pertaining to it; and',
+                       'the provisions of Part VIII of Chapter Two as regards **chargeable gains shall not '
+                       'apply** to the asset sold or transferred under this paragraph.']},
+               {'key': 'The three scenarios are best learned as a single contrast — **does tax history '
+                       'travel with the business?** On a **merger** it does: no cessation, no chargeable '
+                       'gains, assets carried over at tax written-down value, and **unutilised capital '
+                       'allowances, unabsorbed losses and WHT credits all pass to the survivor**. On a '
+                       '**sale or transfer that causes cessation** it does **not**: cessation rules bite, '
+                       'assets are recognised at **sale value**, and allowances, losses and WHT credits are '
+                       '**all lost**. On a **sale of a single asset with the business continuing**, the '
+                       'treatment is in between — no chargeable gain, and the unutilised allowance **follows '
+                       'the asset to the buyer**, with the seller claiming none.'},
+               {'note': 'Scenario (c) carries a condition easy to miss: it applies only where the price does '
+                        '**not exceed the residue of qualifying expenditure plus unutilised capital '
+                        'allowance**. Sell the asset for more than that and the paragraph does not apply, so '
+                        'the chargeable-gains provisions come back into play.'},
+               {'warn': "A numbering defect in the book's printed solution, flagged rather than silently "
+                        'corrected: its three limbs are introduced as an unlabelled "in the case of a '
+                        'merger…", then **"(b)"**, then **"(c)"** — the first has no letter, so the '
+                        "lettering does not match the question's own (a), (b), (c). They are lettered (a) to "
+                        '(c) above.'}]}},
+ {'eg': {'tag': 'Study text — 20.13.1, Question 2',
+         't': 'D Limited — assessable profits on a change of accounting date',
+         'open': True,
+         'q': [{'p': '**D Limited** changed its accounting date from **31 December to 30 June**. The '
+                     'following information is made available:'},
+               {'table': {'align': 'lr',
+                          'head': ['', 'N'],
+                          'rows': [['12 months to 31/12/2025', '5,288,000'],
+                                   ['6 months to 30/06/2026', '3,320,000'],
+                                   ['12 months to 30/06/2027 — projected', '7,250,000']]}},
+               {'p': '**Required:** Compute the assessable profits for the relevant assessment years.'}],
+         'a': [{'table': {'align': 'llr',
+                          'head': ['YOA', 'Basis period', 'Amount (N)'],
+                          'rows': [['2026', '1/1/25 – 31/12/25', '5,288,000'],
+                                   ['2027', '1/1/26 – 30/06/26 (six months)', '3,320,000'],
+                                   ['2028', '1/07/26 – 30/06/27', '7,250,000'],
+                                   ['', '**Total**', '**15,858,000**']]}},
+               {'key': 'Section 23 of the NTA (§20.10.2) gives the rule applied here: on a change of '
+                       'accounting date, the basis period for the year of assessment in which the change '
+                       'falls runs **from the first day after the previous basis period to the new '
+                       'accounting date** — here 1 January to 30 June 2026, a **six-month** basis period — '
+                       'and subsequent years are computed on the **new** accounting period. There is no '
+                       'apportionment, no averaging and no choice of basis: the short period stands as its '
+                       "own basis period, which is why only six months' profit is assessed in 2027."},
+               {'warn': "The study text's printed solution shows the 2028 assessable profit as "
+                        '**N7,200,000**, with a total of N15,808,000. The question states the projected '
+                        'profit for the 12 months to 30 June 2027 as **N7,250,000**, which is the figure '
+                        "used above, giving a total of **N15,858,000**. The book's own figures are "
+                        'internally consistent with its N7,200,000, so the discrepancy is in transcribing '
+                        'the question into the solution, a difference of N50,000.'},
+               {'note': 'The company must also **notify the relevant tax authority of the change not later '
+                        'than 30 days before the usual due date for filing** its income tax returns (s.23(b) '
+                        '— see §20.10.2). A question about a change of date often carries a mark for that '
+                        'procedural point, which no computation reveals.'}]}},
+ {'eg': {'tag': 'Study text — 20.13.1, Question 3',
+         't': 'KAO Bank Limited — agricultural loan interest exempted from tax',
+         'open': True,
+         'q': [{'p': 'The interest on loans relating to **primary agricultural production** included in the '
+                     'income of **KAO Bank Limited** for the year ended **31 December 2025** amounted to '
+                     '**N5 million**. The breakdown of the interest income based on the loan terms is as '
+                     'follows:'},
+               {'table': {'align': 'llrr',
+                          'head': ['Repayment period',
+                                   'Moratorium period',
+                                   'Interest rate p.a. (%)',
+                                   'Agric loan interest (N)'],
+                          'rows': [['5 years', '24 months', '15', '2,500,000'],
+                                   ['3 years', '6 months', '20', '800,000'],
+                                   ['2 years', '18 months', '14', '700,000'],
+                                   ['5 years', '6 months', '35', '1,000,000'],
+                                   ['', '', '', '**5,000,000**']]}},
+               {'p': 'The **base lending rate** in respect of the facilities is **21% p.a.**'},
+               {'p': '**Required:** Compute the loan interest exempted from tax.'}],
+         'a': [{'p': '**KAO Bank Limited — loan interest exempted from tax for the year ended 31 December '
+                     '2025 (assessment year 2026):**'},
+               {'table': {'align': 'llrrr',
+                          'head': ['',
+                                   'Moratorium period',
+                                   'Interest rate (%)',
+                                   'Agric loan interest (N)',
+                                   'Exempt interest income (N)'],
+                          'rows': [['(i)', '24 months', '15', '2,500,000', '2,500,000'],
+                                   ['(ii)', '6 months', '20', '800,000', '—'],
+                                   ['(iii)', '18 months', '14', '700,000', '700,000'],
+                                   ['(iv)', '6 months', '35', '1,000,000', '—'],
+                                   ['', '', '', '**5,000,000**', '**3,200,000**']]}},
+               {'key': 'The exemption has **two cumulative conditions**, and a loan must satisfy **both**: '
+                       'the **moratorium must be not less than 12 months**, and the **interest rate must not '
+                       'exceed the base lending rate** at the time the loan was granted, refinanced or '
+                       'restructured — here **21%**. Loan (i) passes on 24 months and 15%; loan (iii) passes '
+                       'on 18 months and 14%. Loans (ii) and (iv) fail, so **N3,200,000 of the N5,000,000 is '
+                       'exempt** and the remaining N1,800,000 is taxable.'},
+               {'note': 'Be more precise than the book\'s own note, which says "(ii) & (iv) are not tax '
+                        'exempt as they fail to meet the two conditions as to moratorium period and base '
+                        'lending rate". In fact **loan (ii) fails only one** condition — its moratorium of 6 '
+                        'months is too short, but its 20% rate is **below** the 21% base rate. **Loan (iv) '
+                        'fails both** — 6 months and 35%. Failing either is enough, so the conclusion is '
+                        'right, but say which condition each loan fails.'},
+               {'note': 'The **repayment period** column is deliberate noise — the exemption says nothing '
+                        'about how long the borrower has to repay, only about the **moratorium** and the '
+                        '**rate**. The statutory provision is at §14.5.4(d), and it applies to a bank loan '
+                        'granted on or after **1 January 1997** to a person engaged in agricultural trade or '
+                        'business, the fabrication of local plant and machinery, or a Family Economic '
+                        'Advancement Programme cottage industry.'}]}}],
                                },
                   ],
  'formulas': [

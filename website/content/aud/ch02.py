@@ -22,34 +22,23 @@ CH = {
    'Know the scope of audit functions under CAMA, BOFIA and the Insurance Act',
  ],
  'secs': [
-  {'n': '2.1', 't': 'Keeping proper books of accounts', 'b': [
-    {'note': 'A word on this chapter\'s numbering. The study text\'s own section numbers break '
-             'down after §2.6: it runs 2.6, then 2.61, 2.6.2, 2.6.3 (sub-sections of 2.6), then '
-             '**2.62, 2.63, 2.64, 2.65, 2.66, 2.67, 2.68, 2.69** for what are plainly eight '
-             'further *main* sections. Those are read here as **2.7 to 2.14**, which is what '
-             'they must be. The mapping, for cross-reference against the PDF: book 2.62 = '
-             '§2.7 here; 2.63 = §2.8; 2.64 = §2.9; 2.65 = §2.10; 2.66 = §2.11; 2.67 = §2.12; '
-             '2.68 = §2.13; 2.69 = §2.14 (chapter summary). Sections 2.1 to 2.6 are unchanged.',
-     'lbl': 'Section numbering — the book\'s own scheme, and the mapping used here'},
-    {'p': 'Section 374 of CAMA makes it obligatory, by statute, for every company to keep '
-          'proper books of accounts. Books are **not** deemed properly kept unless they:'},
-    {'ol': [
-      'portray a true and fair view of the state of the company\'s affairs;',
-      'explain transactions; and',
-      'enable the preparation of the Statement of Comprehensive Income and the Statement of '
-      'Financial Position.',
-    ]},
-    {'key': 'The books of accounts must always be open to inspection by the directors, '
-            'secretary and auditors of the company. Each public company shall also host its '
-            'audited accounts on its website.'},
-    {'p': 'The books must generally show, in particular, details of:'},
-    {'ul': [
-      'all sums received and expended, and the matters to which the receipts and expenditure '
-      'relate;',
-      'all sales and purchases of property, goods and services; and',
-      'the company\'s assets and liabilities and the interest of shareholders.',
-    ]},
-  ]},
+  {'n': '2.1', 't': 'Keeping proper books of accounts', 'b': [{'note': 'The printed text numbers its main sections after 2.6 as 2.62–2.69 and uses 2.61 for the first '
+          'subsection of 2.6. The headings show those original main-section numbers. Subheadings retain '
+          'their conventional chapter references; for example, 2.9.1–2.9.5 below belong to printed main '
+          'section 2.64.',
+  'lbl': 'Source numbering'},
+ {'p': 'Section 374 of CAMA makes it obligatory, by statute, for every company to keep proper books of '
+       'accounts. Books are **not** deemed properly kept unless they:'},
+ {'ol': ["portray a true and fair view of the state of the company's affairs;",
+         'explain transactions; and',
+         'enable the preparation of the Statement of Comprehensive Income and the Statement of Financial '
+         'Position.']},
+ {'key': 'The books of accounts must always be open to inspection by the directors, secretary and auditors '
+         'of the company. Each public company shall also host its audited accounts on its website.'},
+ {'p': 'The books must generally show, in particular, details of:'},
+ {'ul': ['all sums received and expended, and the matters to which the receipts and expenditure relate;',
+         'all sales and purchases of property, goods and services; and',
+         "the company's assets and liabilities and the interest of shareholders."]}]},
 
   {'n': '2.2', 't': 'Mandatory requirement to have accounts audited', 'b': [
     {'p': 'It is a mandatory requirement that the auditor\'s report be attached to every '
@@ -92,82 +81,69 @@ CH = {
           'period expiring at the conclusion of the next AGM.'},
   ]},
 
-  {'n': '2.4', 't': 'Removal and resignation of auditors', 'b': [
-    {'h4': '§2.4.1 Resignation of an auditor'},
-    {'p': 'Section 412 of CAMA 2020 provides for auditor resignation:'},
-    {'ol': [
-      'An auditor may resign by depositing a written notice at the company\'s registered '
-      'office — the notice brings the term of office to an end on the day deposited, or on a '
-      'later date it specifies;',
-      'The notice is **not effective** unless it contains either a statement that there are no '
-      'circumstances connected with the resignation which should be brought to members\' or '
-      'creditors\' notice, or a statement of what those circumstances are;',
-      'Where a notice is deposited, the company must, within 14 days, send a copy to the '
-      'Commission — and if the notice contains a circumstances statement, to all persons '
-      'entitled to receive copies of the company\'s financial statements. The company or any '
-      'aggrieved person may, within 14 days of the company receiving the notice, apply to the '
-      'court for an order;',
-      'If the court is satisfied the auditor is using the notice to secure needless publicity '
-      'for defamatory matter, it may order that copies need not be sent out, and may order the '
-      'company\'s costs on the application to be paid, in whole or part, by the auditor — even '
-      'though the auditor is not a party to the application;',
-      'The company shall, within 14 days of the court\'s decision, send the Commission, '
-      'shareholders and debenture holders a statement of the order\'s effect (if the court makes '
-      'one), or a copy of the notice containing the statement (if it makes no order).',
-    ]},
-    {'note': 'Ghana\'s Companies Code makes virtually identical provision, with a few added '
-             'procedural rights: the resigning auditor may attach a signed requisition for the '
-             'directors to convene an extraordinary general meeting so the resignation '
-             'circumstances can be brought to members\' attention; may request the company to '
-             'circulate a written statement of circumstances (read out at the meeting if this '
-             'fails to happen for any reason); and retains the right to receive all notices of, '
-             'attend, and speak at, both the meeting at which their term would have expired and '
-             'any meeting to fill the resulting casual vacancy.'},
-
-    {'h4': '§2.4.2 Removal of an auditor'},
-    {'p': 'Section 409 of CAMA:'},
-    {'ol': [
-      'A company may, by ordinary resolution, remove an auditor before the expiration of their '
-      'term of office, notwithstanding anything in any agreement between the company and the '
-      'auditor;',
-      'Where a removal resolution is passed at a general meeting, the company shall, within 14 '
-      'days, give notice of that fact in the prescribed form to the Commission;',
-      'Removal does not deprive the auditor of compensation or damages payable to them.',
-    ]},
-    {'p': 'Ghana\'s Companies Code makes similar, more detailed provision — for removal to take '
-          'effect:'},
-    {'ol': [
-      'There must be a resolution to remove the auditor or appoint a replacement;',
-      'The resolution must be passed at an annual general meeting;',
-      'Written notice of intent to move the resolution must be given to the company at least '
-      '35 days before the AGM (14 days, if the resolution removes/replaces a director-'
-      'appointed auditor);',
-      'On receipt, the company must forthwith send a copy to the auditor concerned;',
-      'Notice of the resolution must be given to members at the same time and in the same '
-      'manner as notice of the meeting itself, or, failing that, at least 21 days before the '
-      'meeting (7 days for a resolution affecting a director-appointed auditor);',
-      'The auditor\'s right to be heard on the resolution at the meeting must not be withheld;',
-      'The company should send, with every AGM notice, copies of any written statement the '
-      'auditor submits — if received too late, the company must circulate it forthwith, in the '
-      'same manner as meeting notices;',
-      'The court may, on application, decide against circulating the auditor\'s statement if it '
-      'is unreasonably long or amounts to an abuse of the right or an attempt to secure '
-      'needless publicity for defamatory matter — without prejudice to the auditor\'s right to '
-      'be heard orally, and to have the written statement read, at the meeting;',
-      'If duly passed, the resolution takes effect only after the AGM concludes.',
-    ]},
-    {'key': 'The **object** of these statutory removal provisions is to preserve two things at '
-            'once: the shareholders\' right to appoint the auditors of their choice, and the '
-            'auditors\' independence from the directors — by not permitting directors who '
-            'disagree with the auditors to simply dismiss them.'},
-
-    {'h4': '§2.4.3 Other types of departure from office'},
-    {'p': 'Auditors may also be removed by a resolution, at the AGM, to appoint new auditors — '
-          'special notice is required, and the outgoing auditors may make representations '
-          'beforehand as to why they should stay. Alternatively, auditors may simply decline to '
-          'offer themselves for re-election, in which case they may still make representations '
-          'about the resolution to appoint new auditors before the relevant meeting.'},
-  ]},
+  {'n': '2.4', 't': 'Removal and resignation of auditors', 'b': [{'h4': '§2.4.1 Resignation of an auditor'},
+ {'p': 'Section 412 of CAMA 2020 provides for auditor resignation:'},
+ {'ol': ["An auditor may resign by depositing a written notice at the company's registered office — the "
+         'notice brings the term of office to an end on the day deposited, or on a later date it specifies;',
+         'The notice is **not effective** unless it contains either a statement that there are no '
+         "circumstances connected with the resignation which should be brought to members' or creditors' "
+         'notice, or a statement of what those circumstances are;',
+         'Where a notice is deposited, the company must, within 14 days, send a copy to the Commission — and '
+         'if the notice contains a circumstances statement, to all persons entitled to receive copies of the '
+         "company's financial statements. The company or any aggrieved person may, within 14 days of the "
+         'company receiving the notice, apply to the court for an order;',
+         'If the court is satisfied the auditor is using the notice to secure needless publicity for '
+         "defamatory matter, it may order that copies need not be sent out, and may order the company's "
+         'costs on the application to be paid, in whole or part, by the auditor — even though the auditor is '
+         'not a party to the application;',
+         "The company shall, within 14 days of the court's decision, send the Commission, shareholders and "
+         "debenture holders a statement of the order's effect (if the court makes one), or a copy of the "
+         'notice containing the statement (if it makes no order).']},
+ {'note': [{'p': "Ghana's Companies Code makes virtually identical provision, with a few added procedural "
+                 'rights:'},
+           {'ul': ['the resigning auditor may attach a signed requisition for the directors to convene an '
+                   'extraordinary general meeting so the resignation circumstances can be brought to '
+                   "members' attention",
+                   'may request the company to circulate a written statement of circumstances (read out at '
+                   'the meeting if this fails to happen for any reason)',
+                   'and retains the right to receive all notices of, attend, and speak at, both the meeting '
+                   'at which their term would have expired and any meeting to fill the resulting casual '
+                   'vacancy.']}]},
+ {'h4': '§2.4.2 Removal of an auditor'},
+ {'p': 'Section 409 of CAMA:'},
+ {'ol': ['A company may, by ordinary resolution, remove an auditor before the expiration of their term of '
+         'office, notwithstanding anything in any agreement between the company and the auditor;',
+         'Where a removal resolution is passed at a general meeting, the company shall, within 14 days, give '
+         'notice of that fact in the prescribed form to the Commission;',
+         'Removal does not deprive the auditor of compensation or damages payable to them.']},
+ {'p': "Ghana's Companies Code makes similar, more detailed provision — for removal to take effect:"},
+ {'ol': ['There must be a resolution to remove the auditor or appoint a replacement;',
+         'The resolution must be passed at an annual general meeting;',
+         'Written notice of intent to move the resolution must be given to the company at least 35 days '
+         'before the AGM (14 days, if the resolution removes/replaces a director-appointed auditor);',
+         'On receipt, the company must forthwith send a copy to the auditor concerned;',
+         'Notice of the resolution must be given to members at the same time and in the same manner as '
+         'notice of the meeting itself, or, failing that, at least 21 days before the meeting (7 days for a '
+         'resolution affecting a director-appointed auditor);',
+         "The auditor's right to be heard on the resolution at the meeting must not be withheld;",
+         'The company should send, with every AGM notice, copies of any written statement the auditor '
+         'submits — if received too late, the company must circulate it forthwith, in the same manner as '
+         'meeting notices;',
+         "The court may, on application, decide against circulating the auditor's statement if it is "
+         'unreasonably long or amounts to an abuse of the right or an attempt to secure needless publicity '
+         "for defamatory matter — without prejudice to the auditor's right to be heard orally, and to have "
+         'the written statement read, at the meeting;',
+         'If duly passed, the resolution takes effect only after the AGM concludes.']},
+ {'key': 'The **object** of these statutory removal provisions is to preserve two things at once: the '
+         "shareholders' right to appoint the auditors of their choice, and the auditors' independence from "
+         'the directors — by not permitting directors who disagree with the auditors to simply dismiss '
+         'them.'},
+ {'h4': '§2.4.3 Other types of departure from office'},
+ {'p': 'Auditors may also be removed by a resolution, at the AGM, to appoint new auditors — special notice '
+       'is required, and the outgoing auditors may make representations beforehand as to why they should '
+       'stay. Alternatively, auditors may simply decline to offer themselves for re-election, in which case '
+       'they may still make representations about the resolution to appoint new auditors before the relevant '
+       'meeting.'}]},
 
   {'n': '2.5', 't': 'Rights and responsibilities of auditors', 'b': [
     {'h4': '§2.5.1 Duties of the auditor'},
@@ -283,7 +259,7 @@ CH = {
     ]},
   ]},
 
-  {'n': '2.7', 't': 'Requirements for objectivity and independence', 'b': [
+  {'sourceN': '2.62', 'n': '2.7', 't': 'Requirements for objectivity and independence', 'b': [
     {'p': 'An auditor\'s objectivity must be beyond question — assured only if the auditor **is, '
           'and is seen to be,** independent. Threats to independence can be reduced by the '
           'nature and extent of the precautions the practice takes. Thirteen circumstances may '
@@ -361,7 +337,7 @@ CH = {
     ]},
   ]},
 
-  {'n': '2.8', 't': 'Procedure for the appointment of auditors', 'b': [
+  {'sourceN': '2.63', 'n': '2.8', 't': 'Procedure for the appointment of auditors', 'b': [
     {'p': 'Having covered who qualifies, their rights/responsibilities, and the professional '
           'requirements of skill, competence, integrity and independence, this section covers '
           'the procedure of actually appointing external auditors.'},
@@ -460,652 +436,731 @@ CH = {
     ]},
   ]},
 
-  {'n': '2.9', 't': 'Letter of engagement', 'b': [
-    {'p': 'Prior to any audit work, the auditor should agree in writing the precise scope and '
-          'nature of the work to be undertaken — this is the purpose of the letter of '
-          'engagement.'},
-    {'def': {'t': 'Letter of engagement', 'd': 'a letter sent by the auditors to a client at the '
-                  'start of any audit, setting out the terms of the engagement and forming the '
-                  'basis of the contract.'}},
-    {'h4': '§2.9.1 Purposes of the letter of engagement'},
-    {'ol': [
-      'To define clearly the extent of the auditors\' and directors\' responsibilities;',
-      'To help minimise the possibilities of misunderstanding between auditors and client, by '
-      'formalising the terms of engagement;',
-      'To provide written confirmation of the auditors\' acceptance of the appointment; and',
-      'To confirm in writing verbal arrangements on the scope of the audit, the form of their '
-      'report, and the scope of any non-audit service.',
-    ]},
+  {'sourceN': '2.64', 'n': '2.9', 't': 'Letter of engagement', 'b': [{'p': 'Prior to any audit work, the auditor should agree in writing the precise scope and nature of the '
+       'work to be undertaken — this is the purpose of the letter of engagement.'},
+ {'def': {'t': 'Letter of engagement',
+          'd': 'a letter sent by the auditors to a client at the start of any audit, setting out the terms '
+               'of the engagement and forming the basis of the contract.'}},
+ {'h4': '§2.9.1 Purposes of the letter of engagement'},
+ {'ol': ["To define clearly the extent of the auditors' and directors' responsibilities;",
+         'To help minimise the possibilities of misunderstanding between auditors and client, by formalising '
+         'the terms of engagement;',
+         "To provide written confirmation of the auditors' acceptance of the appointment; and",
+         'To confirm in writing verbal arrangements on the scope of the audit, the form of their report, and '
+         'the scope of any non-audit service.']},
+ {'h4': '§2.9.2 Contents of the letter of engagement'},
+ {'p': 'The main emphasis is on the respective responsibilities of directors and auditors, and the scope of '
+       'the audit — it should also identify any report the auditor must submit beyond the statutory audit '
+       'report. Specific contents:'},
+ {'ol': ["The board's responsibilities for proper books of accounts and financial statements; the auditors' "
+         'responsibilities to report on the financial statements; the scope and basis of the audit work;',
+         'Fees and billing arrangements (it does **not** state the fees payable);',
+         'Where appropriate, arrangements concerning other auditors/experts involved in some aspect of the '
+         'audit;',
+         'Any agreement for the auditor to provide taxation services;',
+         'Arrangements, if any, with predecessor auditors;',
+         "Any restriction of the auditors' liability to the client (not possible with limited companies);",
+         'A reference to any further agreements between the auditors and client;',
+         'A proposed timetable for the engagement; and',
+         'A request for written acknowledgement of the letter.']},
+ {'h4': '§2.9.3 Issuing and revising engagement letters'},
+ {'ul': ['The letter should be issued to a new client before audit work begins, and reviewed annually to '
+         'stay up to date;',
+         'Whenever circumstances change (extra duties, new auditing guidelines, a change in the nature of '
+         'services or other terms), a new letter must be issued to an existing client;',
+         'Specific factors that may necessitate a new letter: an indication the client misunderstands the '
+         'objective/scope of the audit; a recent change of management, board or audit committee; a '
+         'significant change in ownership (e.g. a new holding company); a relevant change in the nature/size '
+         "of the client's business; and a relevant change in legal or professional requirements;",
+         'In a year where a new letter is deemed unnecessary, it may still be appropriate to remind the '
+         'client of the original letter;',
+         'The letter is addressed to the board of directors or audit committee of the client company.']},
+ {'h4': '§2.9.4 Public sector perspective'},
+ {'p': "The engagement letter's purpose — informing the auditee of the engagement's nature and clarifying "
+       'responsibilities — holds in the public sector too, though legislation generally mandates the '
+       'appointment of a public sector auditor, so engagement letters may not be as widespread a practice. '
+       "Nevertheless, a letter setting out the engagement's nature, or recognising an engagement not "
+       'indicated in the legislative mandate, can be useful to both parties. Specific requirements may exist '
+       'within the audit mandate — e.g. requiring the auditor to report directly to a minister, the '
+       "legislature or the public if management attempts to limit the audit's scope."},
+ {'h4': '§2.9.5 Example letter of engagement — structure'},
+ {'p': 'A real letter of engagement (here, from a fictitious firm, "Babatunde & Co.," to a fictitious '
+       'client, "Primetime Plc") follows a consistent structure, reproduced below by its constituent '
+       'clauses:'},
+ {'table': {'align': 'll',
+            'head': ['Clause', 'What it states'],
+            'rows': [["**Directors' responsibility**",
+                      'The directors are responsible for maintaining proper accounting records, preparing '
+                      'financial statements giving a true and fair view, and making available all accounting '
+                      'records, other records, related information and minutes of management/shareholder '
+                      'meetings, as and when required.'],
+                     ["**Auditors' responsibility**",
+                      "A statutory responsibility to report to members whether, in the auditors' opinion, "
+                      'the financial statements give a true and fair view and have been properly prepared '
+                      'under CAMA/the Companies Code — reporting specifically on: whether proper accounting '
+                      'records/branch returns were kept/received; whether the SFP and Statement of Profit or '
+                      'Loss agree with the records/returns; whether all necessary information/explanations '
+                      "were obtained; and whether the directors' report is consistent with the financial "
+                      'statements. Also covers the professional duty to report non-compliance (in any '
+                      'material respect) with applicable accounting standards, unless the departure is '
+                      'justified — considering whether the departure is needed for a true and fair view, and '
+                      'whether it is adequately disclosed.'],
+                     ['**Scope and basis of audit**',
+                      'The audit will follow approved auditing standards, including tests of transactions '
+                      'and of existence/ownership/valuation of assets and liabilities as considered '
+                      'necessary; an understanding of accounting and internal control systems will be '
+                      'obtained to assess their adequacy and establish whether proper records were '
+                      'maintained; the audit is not designed to identify all significant weaknesses, but any '
+                      'that come to notice and warrant attention will be reported (not to third parties '
+                      'without prior written consent).'],
+                     ['**Written representations**',
+                      'The auditors may request written confirmation of oral representations received during '
+                      'the audit on matters with a material effect on the financial statements — noting it '
+                      'is an offence for a company officer to mislead the auditors.'],
+                     ['**Access rights**',
+                      'The auditors will request sighting of all documents accompanying the financial '
+                      "statements (chairman's statement, operating/financial review, directors' report), and "
+                      'are entitled to attend all general meetings and receive notice of them.'],
+                     ['**Fraud/error responsibility**',
+                      'Safeguarding assets and preventing/detecting fraud, error and non-compliance rests '
+                      'with the directors — the auditors will endeavour to plan the audit for a reasonable '
+                      'expectation of detecting material misstatements, but the audit should not be relied '
+                      'upon to disclose every such misstatement that may exist.'],
+                     ['**Post-report responsibility**',
+                      'Once the report is issued, the auditors have no further responsibility for that '
+                      "financial year's statements — but expect to be informed of any material event between "
+                      'the report date and the AGM that may affect the financial statements.'],
+                     ['**Other services**',
+                      'Other requested services (e.g. taxation, investment business advice) are dealt with '
+                      'in separate letters.'],
+                     ['**Fees**',
+                      'Computed on time spent by partners/staff and their level of skill/responsibility, '
+                      'billed at appropriate intervals and due on presentation, unless otherwise agreed.'],
+                     ['**Applicable law**',
+                      'The letter is governed by the laws of the relevant West African country, whose courts '
+                      'have exclusive jurisdiction over any related claim or dispute.'],
+                     ['**Continuity**',
+                      'Once agreed, the letter remains effective from one audit appointment to the next '
+                      'until replaced — the client is asked to confirm agreement in writing by signing and '
+                      'returning a copy.']]}},
+ {'h4': 'Full study-text specimen — letter of engagement'},
+ {'note': 'Original specimen at source §2.64.5, PDF pages 71–74 (printed 45–48). Names, dates, original '
+          'statutory language and all clauses are retained; the preceding clause table is an additional '
+          'explanation.'},
+ {'pre': '                              Example of Letter of Engagement\n'
+         '                                Babatunde & Co. (Chartered Accountants)\n'
+         '                                          26 Prime Street\n'
+         '                                      Victoria Island Lagos\n'
+         '\n'
+         '\n'
+         '                                                                                  30th April, '
+         '2025\n'
+         '\n'
+         '\n'
+         '         The Board of\n'
+         '         Directors,\n'
+         '         Primetime Plc,\n'
+         '         Lagos.\n'
+         '\n'
+         '         Dear Sir,\n'
+         '\n'
+         '         Letter of Engagement\n'
+         '\n'
+         '         The purpose of this is to set out the basis on which we are to act as auditors of your '
+         'company\n'
+         '         and the respective areas of our responsibility and that of the directors.\n'
+         '\n'
+         '         Responsibility of Directors\n'
+         '\n'
+         '         As Directors of Primetime Plc, you are responsible for ensuring that the company '
+         'maintains\n'
+         '         proper accounting records for preparing financial statements which give a true and fair\n'
+         '         view of the financial statements. You are also responsible for making available to us, '
+         'as\n'
+         '\n'
+         'and when required, all the company’s accounting records and all other records and related\n'
+         '       information, including minutes of all management and shareholders’ meetings.\n'
+         '\n'
+         '       Responsibility of Auditors\n'
+         '\n'
+         '       As auditors, we have a statutory responsibility to report to the members whether in our\n'
+         '       opinion the financial statements give the true and fair view of the state of the company’s\n'
+         '       affairs and of the profit or loss for the year and whether they have been properly '
+         'prepared\n'
+         '       in accordance with the Companies and Allied Matters Act / Companies Code. In arriving\n'
+         '       at our opinion, we are required to consider the following matters, and report on any in\n'
+         '       respect of which we are not satisfied.\n'
+         '\n'
+         '       We are required to report:\n'
+         '       •      Whether proper accounting records have been kept by the company and proper\n'
+         '              returns have been received from branches not visited by us,\n'
+         '       •      Whether the company’s Statement of Financial Position and Statement of Profit or\n'
+         '              Loss and Other Comprehensive Income are in agreement with the accounting\n'
+         '              records and returns,\n'
+         '       •      Whether we have obtained all information and explanations which we think are\n'
+         '              necessary for the purpose of our audit; and\n'
+         '       •      Whether the information in the directors’ report is consistent with the financial\n'
+         '              statements.\n'
+         '\n'
+         '       In addition, there are certain other matters which, according to the circumstances, may '
+         'need\n'
+         '       to be dealt with in our report. For example, where the financial statements do not give '
+         'full\n'
+         '       details of directors’ remuneration or their transactions with the company, the Companies\n'
+         '       Act/Code requires us to disclose such matters.\n'
+         '\n'
+         '       We have professional responsibility to report if the financial statements do not comply '
+         '(in\n'
+         '       any material respect) with applicable accounting standards, unless in our opinion, the '
+         'non-\n'
+         '       compliance is justified in the circumstance. In determining whether the departure is\n'
+         '       required, we consider:\n'
+         '\n'
+         '       Whether the departure is required in order for the financial statements to give a true and\n'
+         '       fair view; and whether adequate disclosure has been made concerning the departure.\n'
+         '\n'
+         '       Our professional responsibilities also include:\n'
+         '2.64.5.1   Including in our report, a description of the directors’ responsibilities for the '
+         'financial\n'
+         '\n'
+         'statements where the financial statements and accompanying information do not\n'
+         '            include such a description; and\n'
+         '2.64.5.2    Considering whether other information in documents containing audited financial\n'
+         '            statements is consistent with those financial statements.\n'
+         '\n'
+         'Scope and Basis of Audit\n'
+         '\n'
+         'Our audit will be conducted in accordance with approved auditing standards and will include such\n'
+         'tests of transactions and of existence, ownership and valuation of assets and liabilities, as we\n'
+         'consider necessary. We shall obtain an understanding of accounting and internal control systems\n'
+         'in order to assess their adequacy as a basis for the preparation of the financial statements and '
+         'to\n'
+         'establish whether proper accounting records have been maintained by the company. We shall\n'
+         'expect to obtain such appropriate evidence, as we consider sufficient to enable us draw '
+         'reasonable\n'
+         'conclusions therefrom.\n'
+         'The nature and extent of our procedures will vary according to our assessment of the company’s\n'
+         'accounting system and where we wish to place reliance on it, the internal control system and may\n'
+         'cover any aspect of the business operations. Our audit is not designed to identify all '
+         'significant\n'
+         'weaknesses in the company’s system but, if such weakness come to our notice during the course\n'
+         'of our audit which we think should be brought to your attention, we shall report them to you. Any\n'
+         'such report would not be provided to third parties without your prior written consent. Such '
+         'consent\n'
+         'will be granted only on the basis that such reports are not prepared in the interest of anyone '
+         'other\n'
+         'than the company in mind.\n'
+         'As part of our normal audit procedures, we may request you to provide written confirmation of\n'
+         'oral representations which we have received from you during the course of the audit on matters\n'
+         'having a material effect on the financial statements. In connection with representation and '
+         'supply\n'
+         'of information to us generally, we draw your attention to the provisions in the Companies '
+         'Act/Code\n'
+         'under which it is an offence for an officer of the company to mislead the auditors.\n'
+         '\n'
+         'In order to assist us in the examination of your financial statements, we shall request sighting '
+         'of\n'
+         'all documents or statements, including the chairman’s statement; operating and financial review\n'
+         'and the directors’ report, which are due to be used with the financial statements. We are also\n'
+         'entitled to attend all general meetings and receive notices of all such meetings.\n'
+         '\n'
+         'The responsibility for safeguarding the assets of the company and prevention and detection of '
+         'fraud,\n'
+         'error and non-compliance with laws or regulations rests with yourselves. However, we shall\n'
+         '\n'
+         'endeavor to plan our audit so that we have a reasonable expectation of detecting material\n'
+         'misstatements in the financial statements or accounting records (including those resulting from\n'
+         'fraud, error or non-compliance with law or regulation), but our examination should not be relied\n'
+         'upon to disclose all such material misstatements or fraud, errors, or instances of non-compliance\n'
+         'as may exist.\n'
+         'Once we have issued our report, we have no further responsibility in relation to the financial\n'
+         'statements for the financial year. However, we expect that you will inform us of any material\n'
+         'event occurring between the date of our report and that of the Annual General Meeting which may\n'
+         'affect the financial statements.\n'
+         '\n'
+         'Other Services\n'
+         'You have requested that we provide other services in respect of taxation. The terms under which\n'
+         'we provide these other services are dealt with in a separate letter. We will also agree in a '
+         'separate\n'
+         'letter, the provision of any services relating to investment business advice.\n'
+         '\n'
+         'Our fees are computed on the basis of the time spent on your affairs by the partners and our '
+         'staff\n'
+         'and on levels of skill and responsibility involved. Unless otherwise agreed, our fees will be '
+         'billed\n'
+         'at appropriate intervals during the course of the year and will be due on presentation.\n'
+         ' Applicable Law\n'
+         '        The engagement letter shall be governed by, and construed in accordance with the laws of\n'
+         '        West African Countries. The courts of countries in West Africa shall have exclusive\n'
+         '        jurisdiction relating to any claim, dispute or differences concerning the engagement '
+         'letter\n'
+         '        and any matter arising from it.\n'
+         '\n'
+         '\n'
+         '        Once it has been agreed, this letter shall remain effective from one audit appointment to\n'
+         '        another, until it is replaced. We shall be grateful if you could confirm in writing your\n'
+         '        agreement to these terms by signing and returning the enclosed copy of this letter or '
+         'letting\n'
+         '        us know if they are not in accordance with your understanding of our terms of engagement.\n'
+         '\n'
+         '\n'
+         '        Yours faithfully,\n'
+         '\n'
+         '\n'
+         '        Babatunde & Co. (Chartered Accountants)'}]},
 
-    {'h4': '§2.9.2 Contents of the letter of engagement'},
-    {'p': 'The main emphasis is on the respective responsibilities of directors and auditors, '
-          'and the scope of the audit — it should also identify any report the auditor must '
-          'submit beyond the statutory audit report. Specific contents:'},
-    {'ol': [
-      'The board\'s responsibilities for proper books of accounts and financial statements; the '
-      'auditors\' responsibilities to report on the financial statements; the scope and basis '
-      'of the audit work;',
-      'Fees and billing arrangements (it does **not** state the fees payable);',
-      'Where appropriate, arrangements concerning other auditors/experts involved in some '
-      'aspect of the audit;',
-      'Any agreement for the auditor to provide taxation services;',
-      'Arrangements, if any, with predecessor auditors;',
-      'Any restriction of the auditors\' liability to the client (not possible with limited '
-      'companies);',
-      'A reference to any further agreements between the auditors and client;',
-      'A proposed timetable for the engagement; and',
-      'A request for written acknowledgement of the letter.',
-    ]},
+  {'sourceN': '2.65', 'n': '2.10', 't': 'Auditors\' responsibility to consider fraud and error', 'b': [{'p': 'When planning, performing, evaluating and reporting on audit procedures, auditors should consider '
+       'the risk of material misstatement in the financial statements, including those resulting from fraud '
+       'or error.'},
+ {'table': {'align': 'll',
+            'head': ['Term', 'Definition and examples'],
+            'rows': [['**Fraud**',
+                      'The use of deception to obtain an unjust or illegal financial advantage, and '
+                      'intentional misrepresentations affecting the financial statements by management, '
+                      'employees, or third parties — involving: manipulation, falsification or alteration of '
+                      'records/documents; misappropriation of assets or theft; suppression or omission of '
+                      'the effects of transactions from records/documents; recording of transactions without '
+                      'substance; or intentional misapplication of accounting policies.'],
+                     ['**Error**',
+                      'Unintentional mistakes in financial statements — mathematical or clerical mistakes in '
+                      'underlying records/data; inadvertent omission or misinterpretation of accounting '
+                      'policies; and unintentional misapplication of accounting policies.']]}},
+ {'key': 'The **essential distinguishing feature** between fraud and error is **intent**. Responsibility for '
+         'preventing and detecting both rests with the **directors**, through the implementation and '
+         'continued operation of adequate accounting and internal control systems — which reduce, but never '
+         'eliminate, the possibility of either.'},
+ {'h4': '§2.10.1 Responsibility of the auditors'},
+ {'p': "**Prevention**: it is not the auditor's function to prevent fraud and error — though the fact of an "
+       'annual audit may act as a deterrent.'},
+ {'p': '**Risk assessment**: when planning, the auditor assesses the risk that fraud or error may cause '
+       'material misstatement. Beyond weaknesses in accounting/internal control system design and '
+       'non-compliance with identified controls, conditions/events raising this risk include:'},
+ {'ul': ['questions over the integrity or competence of management;',
+         'unusual pressures within an entity;',
+         'unusual transactions; and',
+         'problems obtaining sufficient appropriate audit evidence.']},
+ {'p': '**Detection**: based on the risk assessment, the auditor designs procedures with a reasonable '
+       'expectation of detecting material misstatements from fraud or error, seeking sufficient appropriate '
+       'evidence that fraud/error material to the financial statements has not occurred, or, if it has, that '
+       'its effect is properly reflected or corrected.'},
+ {'key': 'Detecting **errors** is ordinarily easier than detecting the **concealment** of fraud (e.g. '
+         'collusion between employees, or falsification of records) — because fraud is, by definition, '
+         'designed to evade detection, while error is not. Due to the inherent limitations of an audit, '
+         'there remains an unavoidable risk that material misstatement from fraud (and, to a lesser extent, '
+         'error) goes undetected. The **subsequent discovery** of a material misstatement after the audit '
+         'report is issued does **not**, by itself, indicate the auditors failed to follow the basic '
+         'principles and essential procedures of an audit.'},
+ {'note': 'Unless the audit reveals contrary evidence, auditors are entitled to accept representations as '
+          'truthful and records/documents as genuine — while still maintaining professional scepticism '
+          'throughout. Even an effective internal control system carries some risk of failing to operate as '
+          'designed, and may be wholly ineffective against fraud involving **collusion among employees**, or '
+          'fraud committed by **management overriding** the very controls meant to prevent it — e.g. '
+          'directing subordinates to record transactions incorrectly, conceal them, or suppress related '
+          'information.'},
+ {'h4': '§2.10.2 Procedures when fraud or error is indicated'},
+ {'p': 'When audit procedures indicate fraud or error may exist, the auditor considers the potential effect '
+       'on the financial statements. If it could be material, the auditor performs modified or additional '
+       'procedures, with extent depending on judgment as to: the type of fraud/error indicated; its '
+       'likelihood of occurrence; and the likelihood that this type of fraud/error could materially affect '
+       'the financial statements.'},
+ {'key': 'Unless circumstances clearly indicate otherwise, auditors **cannot assume** a suspected '
+         'fraud/error is an isolated occurrence — they should adjust the nature, timing and extent of '
+         'substantive procedures accordingly. If suspicion is not dispelled, the auditors discuss the matter '
+         'with management/directors/audit committee, consider whether it has been properly reflected or '
+         'corrected, and consider the implications for the reliability of management representations more '
+         'broadly. If the suspicion is supported, the auditors consider legal consequences — whether to '
+         "contact the entity's lawyers or seek their own legal advice, and what action to take."},
+ {'h4': '§2.10.3 Reporting fraud and error to management'},
+ {'p': 'The auditors should communicate factual findings to management/the board/the audit committee as soon '
+       'as practicable if they suspect fraud (even if the potential effect is immaterial) or if material '
+       'error is found to exist. In choosing who to report to, they consider all circumstances — reporting '
+       'to the next higher level of authority not suspected of involvement (e.g. to the audit committee, if '
+       'senior management/board members are suspected). Where no higher authority exists, or the auditors '
+       'are precluded from obtaining sufficient evidence, believe a report may not be acted on, or are '
+       'unsure who to report to, they may seek legal advice.'},
+ {'h4': '§2.10.4 Reporting fraud and error to members'},
+ {'p': 'Auditors consider the implications for their report if they conclude a suspected fraud/error has a '
+       'material effect and they disagree with the accounting treatment or disclosure (or lack of it), or if '
+       'they cannot determine whether fraud/error has occurred. They should **not** refrain from qualifying '
+       'their opinion merely because the position has since been corrected, or because of the possible '
+       'consequences of qualification.'},
+ {'h4': '§2.10.5 Reporting fraud and error to third parties'},
+ {'p': 'Where aware of a suspected instance supported by strong evidence, and considering the matter may '
+       'warrant reporting to a proper authority in the public interest, the auditors ensure the matter '
+       'reaches the directors/audit committee first. Having considered any views expressed and any legal '
+       'advice obtained, they may report it themselves if under statutory duty to do so, or if the entity '
+       'does not report it itself (or cannot provide evidence that it has). In **extreme** cases, auditors '
+       'may report directly to a proper authority, without first discussing with the entity, where the '
+       'matter has caused a **loss of confidence in the integrity of the directors** — e.g. where the '
+       'directors are themselves suspected or known to be involved and have not reported it.'},
+ {'key': "Confidentiality is an **implied** term of the auditor's contract, but is **not absolute** — in "
+         'exceptional circumstances auditors have the right to report to a proper authority in the public '
+         'interest, weighing the public interest in confidentiality against the public interest in '
+         'disclosure. Auditors are protected from liability for breach of confidence where: disclosure is in '
+         'the public interest; made to an appropriate body/person; and not motivated by malice. They are '
+         'protected from liability for defamation where disclosure is made in their capacity as auditors of '
+         'the entity, and there is no malice.'},
+ {'p': 'Factors relevant to whether public-interest disclosure is justified:'},
+ {'ul': ['the extent to which the suspected fraud is likely to affect the public',
+         'whether directors have rectified or are taking effective corrective action',
+         'the extent to which non-disclosure would let the fraud recur with impunity',
+         'the gravity of the matter',
+         "and the weight of evidence/degree of the auditors' suspicion. Proper authorities may include: the "
+         'Serious Fraud Office, the Police Service, the Bureau of National Investigations, recognised '
+         'professional bodies, the Stock Exchange, the Central Bank, the Internal/Inland Revenue Service, '
+         'the VAT Office, and the Customs, Excise & Preventive Service.']},
+ {'h4': '§2.10.6 Withdrawal from the engagement'},
+ {'p': 'Auditors may conclude withdrawal is necessary — e.g. if shareholders have not been given required '
+       'information, and there is no opportunity to report it while remaining auditors. Relevant factors: '
+       "implications of fraud involvement by the entity's highest authority (affecting management "
+       'representation reliability), and the effects of continued association. Legal advice may be needed to '
+       'reach this conclusion.'},
+ {'warn': 'Resignation is a **step of last resort** — it is normally preferable for auditors to remain in '
+          'place to fulfil their statutory duties, particularly where minority interests are involved. But '
+          'there are circumstances with no real alternative — e.g. where directors refuse to issue financial '
+          'statements, or the auditors wish to inform shareholders/creditors of concerns with no other '
+          'immediate way to do so.'}]},
 
-    {'h4': '§2.9.3 Issuing and revising engagement letters'},
-    {'ul': [
-      'The letter should be issued to a new client before audit work begins, and reviewed '
-      'annually to stay up to date;',
-      'Whenever circumstances change (extra duties, new auditing guidelines, a change in the '
-      'nature of services or other terms), a new letter must be issued to an existing client;',
-      'Specific factors that may necessitate a new letter: an indication the client '
-      'misunderstands the objective/scope of the audit; a recent change of management, board '
-      'or audit committee; a significant change in ownership (e.g. a new holding company); a '
-      'relevant change in the nature/size of the client\'s business; and a relevant change in '
-      'legal or professional requirements;',
-      'In a year where a new letter is deemed unnecessary, it may still be appropriate to '
-      'remind the client of the original letter;',
-      'The letter is addressed to the board of directors or audit committee of the client '
-      'company.',
-    ]},
+  {'sourceN': '2.66', 'n': '2.11', 't': 'Auditors\' responsibility to consider non-compliance with laws and '
+    'regulations (NOCLAR)', 'b': [{'p': "Auditors should plan, perform and report on their audit recognising that an entity's non-compliance "
+       'with law or regulations may materially affect the financial statements.'},
+ {'key': 'Whether an act constitutes non-compliance is a **legal determination**, ordinarily beyond the '
+         "auditor's professional competence — though training, experience and understanding of the "
+         'entity/industry may let them recognise acts that may constitute non-compliance. The determination '
+         'is generally based on the advice of a qualified legal expert, but can ultimately only be decided '
+         'by a court of law.'},
+ {'p': 'Laws and regulations relevant to the audit fall into **two categories**: (1) those relating directly '
+       'to the preparation, inclusion or disclosure of specific items in the financial statements; and (2) '
+       'those providing the **legal framework** within which the entity conducts business, where '
+       'non-compliance may fundamentally affect operations and hence the financial statements.'},
+ {'h4': '§2.11.1 Responsibilities of the directors'},
+ {'p': 'Directors are responsible for ensuring compliance with applicable law and regulations, and for '
+       'establishing effective arrangements to prevent and detect non-compliance. Neither assigning '
+       'particular responsibilities to management, nor the audit process, relieves them of this. Assisting '
+       'policies/procedures include:'},
+ {'ol': ["maintaining an up-to-date register of significant laws/regulations applicable to the entity's "
+         'industry;',
+         'monitoring legal requirements and changes, ensuring operating procedures meet them;',
+         'instituting and operating appropriate internal control systems;',
+         'developing, publicising and following a code of conduct;',
+         'ensuring employees are properly trained and understand the code of conduct;',
+         'monitoring compliance with the code and disciplining employees who fail to comply;',
+         'engaging legal advisers to assist monitoring legal requirements; and',
+         'maintaining a record of complaints.']},
+ {'note': 'In larger entities, these policies may be supplemented by assigning responsibilities to an '
+          'internal audit function, a legal department, a compliance function, and an audit committee. In '
+          'some sectors (e.g. financial services), detailed laws specifically require directors to have '
+          'compliance systems, breach of which could materially affect the financial statements — directors '
+          'are also required to report certain instances of non-compliance to proper authorities on a timely '
+          'basis.'},
+ {'h4': '§2.11.2 Responsibilities of the auditors'},
+ {'p': "**Prevention**: it is not the auditors' function to prevent non-compliance — though the annual audit "
+       'may act as a deterrent. **Detection**: auditors plan, perform and evaluate their work for a '
+       'reasonable expectation of detecting material misstatement — recognising it may arise from '
+       'non-compliance — but an audit cannot be expected to detect **all** possible non-compliance.'},
+ {'p': 'This risk (of undetected non-compliance) is higher than for other misstatements, due to:'},
+ {'ol': ['many laws/regulations relating to operating aspects typically have no material effect on the '
+         'financial statements, and their non-compliance is not captured by accounting/internal control '
+         'systems;',
+         'the effectiveness of audit procedures is affected by inherent control-system limitations and the '
+         'use of testing;',
+         'much of the evidence obtained is persuasive rather than conclusive; and',
+         'non-compliance may involve conduct designed to conceal it — collusion, forgery, override of '
+         'controls, or intentional misrepresentation to the auditors.']},
+ {'h4': '§2.11.3 Auditors in the public sector'},
+ {'p': 'Public sector auditors may have duties beyond those of private-sector auditors — e.g. auditors of '
+       "local authorities must keep under review the legality of the authority's transactions, with a "
+       'specific duty to act on prospective unlawful expenditure. Auditors of central government accounts '
+       'have a statutory duty to confirm grants have been applied to their intended purpose and that '
+       'expenditure conforms with the governing authority.'},
+ {'h4': "§2.11.4 Auditors' consideration of compliance"},
+ {'p': 'For laws relating directly to financial statement preparation/disclosure, the auditors should obtain '
+       "sufficient appropriate audit evidence of compliance. For laws providing the entity's broader legal "
+       'framework, auditors should perform procedures to help **identify** possible non-compliance, by:'},
+ {'ol': ['obtaining a general understanding of the applicable legal/regulatory framework and how the entity '
+         'complies with it;',
+         'inspecting correspondence with relevant licensing/regulatory authorities;',
+         'enquiring of directors whether they are aware of possible non-compliance; and',
+         'obtaining written confirmation from directors that they have disclosed all known events involving '
+         'possible non-compliance, and their actual/contingent consequences.']},
+ {'p': "Building this general understanding uses existing knowledge of the entity's industry and regulatory "
+       'environment to:'},
+ {'ul': ['enquire of management about applicable laws/regulations (and changes)',
+         "enquire about the entity's compliance policies and procedures",
+         'discuss policies for identifying/evaluating litigation, claims and assessments',
+         'and discuss the legal/regulatory framework with auditors of foreign subsidiaries where relevant.']},
+ {'key': 'Beyond this, auditors are **not required** to plan and perform other procedures specifically to '
+         'identify non-compliance — doing so is outside the scope of a financial statement audit. But when '
+         'carrying out procedures to form their opinion, they should stay alert for possible non-compliance '
+         'that might affect the financial statements — via reading board/management minutes, enquiring of '
+         'directors/legal counsel about litigation, and performing substantive tests of '
+         'transactions/balances.'},
+ {'h4': '§2.11.5 Procedure when possible non-compliance is discovered'},
+ {'p': 'On becoming aware of possible non-compliance, the auditor obtains an understanding of the act and '
+       'its circumstances, and enough information to evaluate its possible effect. Indications that '
+       'non-compliance may have occurred include:'},
+ {'ul': ['investigations by a government department, or payment of fines/penalties;',
+         'payments for unspecified services, or loans to consultants/related parties/employees/government '
+         'employees;',
+         "sales commissions or agents' fees appearing excessive relative to the norm;",
+         'purchasing at prices significantly above or below market price;',
+         'unusual transactions with companies not registered with tax authorities;',
+         'payments for goods/services made other than to the country of origin;',
+         'an accounting system that fails, by design or accident, to provide an adequate audit trail or '
+         'sufficient evidence;',
+         'unauthorised or improperly recorded transactions; and',
+         'media comment.']},
+ {'p': 'In evaluating possible effects, the auditors consider:'},
+ {'ul': ['the potential financial consequences (fines, damages, expropriation of assets, enforced '
+         'discontinuance, litigation)',
+         'whether those consequences require disclosure',
+         'and whether they are serious enough to call into question the view the financial statements '
+         'give.']},
+ {'p': 'Where non-compliance is suspected, findings are documented (e.g. copies of records, minutes of '
+       'conversations) and, subject to any third-party reporting requirement, discussed with directors. If '
+       'directors do not provide sufficient information to show compliance, the auditors may seek legal '
+       "advice — normally consulting the entity's own lawyers with the entity's permission, or, where that "
+       'is not possible or appropriate, seeking their own advice.'},
+ {'p': 'Where non-compliance is suspected or has occurred, the auditors reconsider their audit risk '
+       'assessment and the validity of management representations. Relevant factors:'},
+ {'ul': ['any apparent failure of specific control procedures',
+         'the level of management/employees involved',
+         'and any concealment of the act.']},
+ {'h4': '§2.11.6 Reporting non-compliance to management'},
+ {'p': 'As soon as practicable, the auditors should communicate non-compliance that comes to their attention '
+       'to management/the board/the audit committee — without delay, if in their judgment it is material or '
+       'believed intentional. As with fraud, reporting goes to the next higher authority not suspected of '
+       'involvement, with legal advice sought where no such authority exists or the auditors are unsure how '
+       'to proceed.'},
+ {'h4': '§2.11.7 Reporting non-compliance to shareholders'},
+ {'p': 'Auditors consider report implications if they conclude a suspected instance has a material effect '
+       'and disagree with the treatment/disclosure, or cannot determine whether it occurred — not refraining '
+       'from qualifying the opinion merely because the position was since regularised, or because of the '
+       'consequences of qualification. Even where the immediate financial effect is immaterial, disclosure '
+       'may still be required because of potential **future** material consequences (e.g. an illegal payment '
+       'leading to criminal proceedings or loss of business).'},
+ {'h4': '§2.11.8 Reporting non-compliance to third parties'},
+ {'p': 'Following the same structure as fraud reporting (§2.10.5): the matter first reaches the '
+       'directors/audit committee, extreme cases may warrant direct reporting to a proper authority without '
+       "prior discussion where confidence in directors' integrity is lost, and the same "
+       'confidentiality-vs-public-interest balancing and qualified-privilege protections apply. Proper '
+       'authorities can include the Serious Fraud Office, Police Service, Securities Commission, recognised '
+       'professional bodies, the Stock Exchange, Central Bank, Local Authorities, Internal Revenue Service, '
+       'Customs/Excise & Preventive Service, and the Ministry of Trade and Industry.'}]},
 
-    {'h4': '§2.9.4 Public sector perspective'},
-    {'p': 'The engagement letter\'s purpose — informing the auditee of the engagement\'s nature '
-          'and clarifying responsibilities — holds in the public sector too, though legislation '
-          'generally mandates the appointment of a public sector auditor, so engagement letters '
-          'may not be as widespread a practice. Nevertheless, a letter setting out the '
-          'engagement\'s nature, or recognising an engagement not indicated in the legislative '
-          'mandate, can be useful to both parties. Specific requirements may exist within the '
-          'audit mandate — e.g. requiring the auditor to report directly to a minister, the '
-          'legislature or the public if management attempts to limit the audit\'s scope.'},
+  {'sourceN': '2.67', 'n': '2.12', 't': 'Impact of laws and accounting standards on audit', 'b': [{'h4': 'Companies and Allied Matters Act (CAMA)'},
+ {'p': 'Statutory audit in Nigeria is regulated by CAMA 2020, BOFIA 2020 and the Insurance Act 2003 — '
+       'containing detailed regulation on the conduct of an audit, the accounting records the auditor works '
+       "from, the financial statements reported on, and the auditor's relationship with the company."},
+ {'p': 'Schedule 2 of CAMA specifically requires every company to keep accounting records sufficient to show '
+       'and explain its transactions such as to:'},
+ {'ul': ["(a) disclose, with reasonable accuracy at any time, the company's financial position",
+         "and (b) enable directors to ensure financial statements comply with CAMA's form/content "
+         'requirements. Records must, in particular, contain day-to-day entries of all sums '
+         'received/expended (and the matters they relate to), and a record of assets/liabilities. Where the '
+         'business deals in goods, records must additionally contain: a statement of inventories held at '
+         'year end',
+         'all stock-taking statements from which such inventory statements were prepared',
+         'and (except for ordinary retail sales) a statement of all goods sold and purchased, identifying '
+         'buyers/sellers in sufficient detail.']},
+ {'h4': 'Financial Reporting Council of Nigeria (FRCN)'},
+ {'p': 'The FRCN Act 2023 regulates financial reporting and corporate governance standards, including '
+       'assurance services, strengthening audit oversight and quality assurance:'},
+ {'table': {'align': 'll',
+            'head': ['Function', 'What it covers'],
+            'rows': [['**Establishment and mandate**',
+                      'Empowered to develop and enforce accounting, auditing, actuarial, valuation and '
+                      'corporate governance standards; regulates the conduct of financial reporting/auditing '
+                      'professionals.'],
+                     ['**Registration and licensing**',
+                      'Practising auditors must be registered with the FRCN; firms offering audit/assurance '
+                      'services must comply with FRCN registration and submit to its oversight.'],
+                     ['**Monitoring and inspection**',
+                      'Conducts quality control inspections and practice reviews of audit firms for '
+                      'compliance — non-compliance can bring suspension, fines, or revocation of practice '
+                      'licences.'],
+                     ['**Adoption of standards**',
+                      "Adopts and customises international standards (e.g. ISAs) for Nigeria's environment — "
+                      'auditors must comply when carrying out assurance engagements.'],
+                     ['**Whistleblowing and public interest**',
+                      'Encourages whistleblowing on misconduct in financial reporting/auditing, and protects '
+                      'whistleblowers against retaliation.'],
+                     ['**Disciplinary actions**',
+                      'Investigates and disciplines erring auditors/firms — sanctions may include '
+                      'publication of the disciplinary action, suspension, fines, or blacklisting.']]}},
+ {'warn': [{'p': "Penalties under the FRCN Act (at the board's discretion) include:"},
+           {'ul': ['a fine of **N5 million**',
+                   "one year's imprisonment, or both, on conviction",
+                   'and proscription or de-listing of the accountancy firm.']}]}]},
 
-    {'h4': '§2.9.5 Example letter of engagement — structure'},
-    {'p': 'A real letter of engagement (here, from a fictitious firm, "Babatunde & Co.," to a '
-          'fictitious client, "Primetime Plc") follows a consistent structure, reproduced below '
-          'by its constituent clauses:'},
-    {'table': {'align': 'll', 'head': ['Clause', 'What it states'], 'rows': [
-      ['**Directors\' responsibility**', 'The directors are responsible for maintaining proper '
-       'accounting records, preparing financial statements giving a true and fair view, and '
-       'making available all accounting records, other records, related information and '
-       'minutes of management/shareholder meetings, as and when required.'],
-      ['**Auditors\' responsibility**', 'A statutory responsibility to report to members '
-       'whether, in the auditors\' opinion, the financial statements give a true and fair view '
-       'and have been properly prepared under CAMA/the Companies Code — reporting specifically '
-       'on: whether proper accounting records/branch returns were kept/received; whether the '
-       'SFP and Statement of Profit or Loss agree with the records/returns; whether all '
-       'necessary information/explanations were obtained; and whether the directors\' report is '
-       'consistent with the financial statements. Also covers the professional duty to report '
-       'non-compliance (in any material respect) with applicable accounting standards, unless '
-       'the departure is justified — considering whether the departure is needed for a true '
-       'and fair view, and whether it is adequately disclosed.'],
-      ['**Scope and basis of audit**', 'The audit will follow approved auditing standards, '
-       'including tests of transactions and of existence/ownership/valuation of assets and '
-       'liabilities as considered necessary; an understanding of accounting and internal '
-       'control systems will be obtained to assess their adequacy and establish whether proper '
-       'records were maintained; the audit is not designed to identify all significant '
-       'weaknesses, but any that come to notice and warrant attention will be reported (not to '
-       'third parties without prior written consent).'],
-      ['**Written representations**', 'The auditors may request written confirmation of oral '
-       'representations received during the audit on matters with a material effect on the '
-       'financial statements — noting it is an offence for a company officer to mislead the '
-       'auditors.'],
-      ['**Access rights**', 'The auditors will request sighting of all documents accompanying '
-       'the financial statements (chairman\'s statement, operating/financial review, directors\' '
-       'report), and are entitled to attend all general meetings and receive notice of them.'],
-      ['**Fraud/error responsibility**', 'Safeguarding assets and preventing/detecting fraud, '
-       'error and non-compliance rests with the directors — the auditors will endeavour to '
-       'plan the audit for a reasonable expectation of detecting material misstatements, but '
-       'the audit should not be relied upon to disclose every such misstatement that may '
-       'exist.'],
-      ['**Post-report responsibility**', 'Once the report is issued, the auditors have no '
-       'further responsibility for that financial year\'s statements — but expect to be '
-       'informed of any material event between the report date and the AGM that may affect the '
-       'financial statements.'],
-      ['**Other services**', 'Other requested services (e.g. taxation, investment business '
-       'advice) are dealt with in separate letters.'],
-      ['**Fees**', 'Computed on time spent by partners/staff and their level of skill/'
-       'responsibility, billed at appropriate intervals and due on presentation, unless '
-       'otherwise agreed.'],
-      ['**Applicable law**', 'The letter is governed by the laws of the relevant West African '
-       'country, whose courts have exclusive jurisdiction over any related claim or dispute.'],
-      ['**Continuity**', 'Once agreed, the letter remains effective from one audit appointment '
-       'to the next until replaced — the client is asked to confirm agreement in writing by '
-       'signing and returning a copy.'],
-    ]}},
-  ]},
+  {'sourceN': '2.68', 'n': '2.13', 't': 'Scope of audit functions under CAMA, BOFIA and the Insurance Act', 'b': [{'p': 'CAMA 2020 is the principal law governing incorporation and business conduct in Nigeria; BOFIA 2020 '
+       'regulates banks and other financial institutions; the Insurance Act 2003 regulates insurance '
+       'companies.'},
+ {'h4': '§2.13.1 Companies and Allied Matters Act'},
+ {'p': 'Section 404(1) requires the auditor to report to members on the accounts examined, and on every '
+       'Statement of Financial Position, Statement of Comprehensive Income and group financial statement '
+       "laid before the company in general meeting during the auditors' tenure."},
+ {'p': 'For a **public** company, the auditor must **also** report to an audit committee — consisting of an '
+       '**equal number of directors and shareholder representatives** (maximum six members total), which '
+       "examines the auditor's report and makes recommendations to the AGM as it sees fit. Subject to any "
+       "additional powers the articles may stipulate, the audit committee's objectives/functions are to:"},
+ {'ol': ["ascertain whether the company's accounting and reporting policies accord with legal requirements "
+         'and agreed ethical practices;',
+         'review the scope and planning of audit requirements;',
+         'review findings on management matters with the external auditor, and departmental responses '
+         'thereon;',
+         "keep under review the effectiveness of the company's accounting/internal control systems;",
+         'make recommendations to the board on the appointment, removal and remuneration of the external '
+         'auditors; and',
+         'authorise the internal auditor to investigate any activity of interest or concern to the '
+         'committee.']},
+ {'p': 'Section 407(1) requires the auditor, in preparing their report, to carry out such investigations as '
+       'enable an opinion on whether: (i) proper accounting records were kept, and proper returns adequate '
+       'for the audit received from branches not visited; and (ii) the SFP and (if not consolidated) the '
+       'Statement of Comprehensive Income agree with the accounting records and returns.'},
+ {'p': 'Section 407(2): if the auditors are of the opinion that proper returns were not received, or the '
+       'statements do not agree with the records/returns, they must state that fact in their report. Section '
+       "407(3): every auditor has a right of access at all times to the company's books, accounts and "
+       'vouchers, and is entitled to require from company officers whatever information/explanations they '
+       "think necessary. Section 407(4): it is the auditor's duty to consider whether the directors' report "
+       'is consistent with the accounts, stating the fact in their report if it is not.'},
+ {'h4': '§2.13.2 Banks and Other Financial Institutions Act 2020 (BOFIA)'},
+ {'p': 'BOFIA 2020 regulates banks and other financial institutions in Nigeria, administered by the '
+       '**Central Bank of Nigeria (CBN)**, aiming for high banking-practice standards and financial '
+       'stability.'},
+ {'h4': 'Publication of annual accounts of banks'},
+ {'ol': ["Subject to the CBN's prior written approval, a bank shall, not later than 4 months after its "
+         'financial year-end: cause publication in an approved daily newspaper; exhibit the accounts '
+         'conspicuously in each office/branch in Nigeria; and forward signed copies to the CBN, containing '
+         "the full and correct names of the bank's directors;",
+         'Every published account must disclose in detail penalties paid for contravening the Act or any '
+         "policy guideline in force during the year, and the auditor's report shall reflect such "
+         'contravention;',
+         'The SFP and Statement of Comprehensive Income shall bear on their face the report of an "approved '
+         'auditor" (one approved under s.28), and contain any statements specified by the bank from time to '
+         'time;',
+         'Non-compliance is an offence, liable to a penalty of **not less than ₦5,000,000**, plus **₦100,000 '
+         'for each day** the contravention continues.']},
+ {'h4': 'Contents and form of accounts'},
+ {'ol': ["Every SFP and Statement of Comprehensive Income must give a true and fair view of the bank's state "
+         'of affairs as at the end of the reporting period;',
+         'Accounts forwarded to the CBN must comply with any CBN circular issued on the matter;',
+         'A director who fails to take reasonable steps to secure compliance with prescribed provisions is '
+         'guilty of an offence, liable to a fine of **₦2,000,000** payable to the bank.']},
+ {'h4': 'Appointment, powers and report of the approved auditor'},
+ {'ol': ['Every bank shall annually appoint an "approved auditor" (approved by the CBN), whose duty is to '
+         'report to shareholders on the annual SFP and Statement of Comprehensive Income, containing such '
+         'other information as the CBN may prescribe;',
+         'The approved auditor must be: a member of a recognised professional body in Nigeria; approved by '
+         'the CBN; resident in Nigeria; and carrying on professional practice as accountant/auditor in '
+         'Nigeria;',
+         'The following are **ineligible** for appointment (and cease to hold office if they later acquire '
+         'the disqualifying status): anyone with an interest in the bank other than as a depositor; a '
+         'director, officer or agent of the bank; a firm in which a bank director has an interest as '
+         'partner/director; or anyone indebted to the bank;',
+         'If a bank fails to appoint an approved auditor, the CBN shall appoint one and fix the remuneration '
+         'payable by the bank;',
+         'An approved auditor contravening, or deliberately/negligently failing to comply with, required '
+         'provisions is guilty of an offence, liable to a fine of **not less than ₦200,000 and not exceeding '
+         '₦500,000**;',
+         "The approved auditor's report is read together with the board's report at the AGM, and two copies "
+         'of each (with an analysis of bad and doubtful advances) sent to the CBN;',
+         'If, in the course of duty, the approved auditor is satisfied that: (i) the Act (or any other law) '
+         'has been contravened by the bank or another person; (ii) losses have substantially reduced the '
+         "bank's capital funds; (iii) an irregularity jeopardises depositors'/creditors' interests; or (iv) "
+         "they cannot confirm depositor/creditor claims are covered by the bank's assets — they must "
+         '**immediately report** the matter to the CBN;',
+         "The approved auditor forwards two copies of a domestic report on the bank's activities to the CBN, "
+         'not later than 3 months after the financial year-end;',
+         'Contravention here is an offence liable to a fine of **not less than ₦2,000,000**, and where the '
+         'approved auditor is a firm, individual partners are additionally liable to imprisonment for **not '
+         'less than 3 years**, or a fine of not less than ₦2,000,000, or both;',
+         "A bank cannot terminate an approved auditor's appointment without prior CBN approval (s.28)."]},
+ {'h4': '§2.13.3 Insurance Act 2003 (as amended)'},
+ {'p': 'Insurance business is a special type of business — providing economic protection from identifiable '
+       'risks over a specific period — so specific legal and regulatory requirements apply, including the '
+       'Insurance Act 2020, CAMA 2020, IFRS 4 (now replaced by **IFRS 17**, effective January 2023), and '
+       'relevant NAICOM circulars.'},
+ {'p': 'Insurance business is classified into two main classes, with life insurance further split into three '
+       'categories and general insurance into eight:'},
+ {'table': {'align': 'll',
+            'head': ['Life insurance categories', 'General insurance categories'],
+            'rows': [['Individual life insurance business', 'Fire insurance business'],
+                     ['Group life insurance and pension business', 'General accident insurance business'],
+                     ['Health insurance business', 'Motor vehicle insurance business'],
+                     ['—', 'Marine and aviation insurance business'],
+                     ['—', 'Oil and gas insurance business'],
+                     ['—', 'Engineering insurance business'],
+                     ['—', 'Bonds, credit guarantee and suretyship insurance business'],
+                     ['—', 'Miscellaneous insurance business']]}},
+ {'def': {'t': 'Re-insurance business',
+          'd': 'an advanced type of insurance business, beyond the two broad classes above, whereby '
+               'insurance companies buy their own insurance against losses that might result from claims '
+               'made against them by those they insure.'}},
+ {'h4': 'Capital (s.10, as amended by NAICOM circular NAICOM/DPR/CIR/25/2019)'},
+ {'table': {'align': 'lr',
+            'head': ['Business type', 'Minimum share capital'],
+            'rows': [['Life insurance business', 'Not less than N8 billion'],
+                     ['General insurance business', 'Not less than N10 billion'],
+                     ['Composite insurance business', 'Not less than N18 billion'],
+                     ['Re-insurance business', 'Not less than N20 billion']]}},
+ {'h4': 'Records of insurance companies (ss.17-19)'},
+ {'p': 'Where an insurer carries on both classes of business, separate and distinct accounts must be kept '
+       'and carried to a separate insurance fund, appropriately named — each fund representing the '
+       'liabilities for all contracts of that class, consisting of the reserves/provisions specified in '
+       's.19(2)(a) and (b).'},
+ {'p': "Records to be kept and maintained at the insurer's principal office:"},
+ {'ol': ['The memorandum and articles of association (or other evidence of constitution), and a record of '
+         'the names/addresses of the business owners (shareholders or otherwise);',
+         'Minutes of any meeting of the owners and of the policy-making executive (board of directors or '
+         'otherwise);',
+         'A register of all policies — names/addresses of policyholders, dates policies were effected, and '
+         'records of transfer/assignment/nomination the insurer has notice of;',
+         "A register of claims — date of claim, claimant's name/address, date settled (or, for a repudiated "
+         "claim, the date and grounds of rejection; or, for litigation, its particulars and the court's "
+         'decision);',
+         'A register of investments, showing those attributable to insurance funds and those not, and any '
+         'value changes over time;',
+         'A register of assets;',
+         'A register of reinsurance ceded, showing separately those ceded within and outside Nigeria;',
+         'A cash book;',
+         'A current account book;',
+         'A register of open policies for marine insurance transactions;',
+         'Management report by external auditors; and',
+         'For life insurance business specifically: a register of assured under group policies; a register '
+         'of loans on policies; a register of cash surrender values; and a register of lapsed and expired '
+         'policies.']},
+ {'h4': 'Provisions and reserves (ss.20-23)'},
+ {'p': 'Every insurance company must establish and maintain:'},
+ {'ul': ['provision for unexpired risk;',
+         'provision for outstanding claims;',
+         'contingency reserves; and',
+         'a contingency reserve fund.']},
+ {'note': 'The specific rates and conditions for calculating each provision/reserve are set out in the '
+          "corresponding sections of the Act — the auditor's work necessarily includes verifying these were "
+          'computed on the prescribed basis.'},
+ {'h4': 'Investment in assets (s.25) and returns to NAICOM (s.26)'},
+ {'p': 'Section 25 provides guidelines on how an insurance company must invest and hold Nigerian assets '
+       "equivalent to, and not less than, the amount of policyholders' funds, specifying the types of "
+       'property/securities those funds can be invested in.'},
+ {'p': 'Section 26 requires an insurance company to submit to NAICOM, not later than 30 June each year:'},
+ {'ul': ['(a) a Statement of Financial Position as at the last financial year-end, plus the relevant profit '
+         'and loss account for presentation at the AGM',
+         '(b) a revenue account for each registered class of insurance business, kept as separate '
+         'receipts/payments accounts',
+         "and (c) a statement of investments representing the insurance funds. After NAICOM's approval, the "
+         'company must publish its general SFP together with its Statement of Profit or Loss and OCI in at '
+         'least one newspaper of wide circulation, covering general insurance, life assurance and composite '
+         'business as applicable, disclosing (per class): premium recognition, expenses, claims (life only), '
+         'policy liabilities (life only), valuation surplus/deficiency (life only), unexpired risk (general '
+         'only), and the required financial statement disclosures.']},
+ {'key': 'A composite insurer (life and general) follows the **same** disclosure requirements as above for '
+         'both classes, and must additionally include a **separate Statement of Financial Position**. As '
+         'with banks, the auditor should factor these insurance-specific issues into the audit from the '
+         "planning stage onward, and the auditor's report should reference compliance with **both** CAMA and "
+         'the Insurance Act 2003 (and relevant circulars) — not CAMA alone.'}]},
 
-  {'n': '2.10', 't': 'Auditors\' responsibility to consider fraud and error', 'b': [
-    {'p': 'When planning, performing, evaluating and reporting on audit procedures, auditors '
-          'should consider the risk of material misstatement in the financial statements, '
-          'including those resulting from fraud or error.'},
-    {'table': {'align': 'll', 'head': ['Term', 'Definition and examples'], 'rows': [
-      ['**Fraud**', 'The use of deception to obtain an unjust or illegal financial advantage, '
-       'and intentional misrepresentations affecting the financial statements by management, '
-       'employees, or third parties — involving: manipulation, falsification or alteration of '
-       'records/documents; misappropriation of assets or theft; suppression or omission of the '
-       'effects of transactions from records/documents; recording of transactions without '
-       'substance; or intentional misapplication of accounting policies.'],
-      ['**Error**', 'Unintentional mistakes in financial statements — mathematical or clerical '
-       'mistakes in underlying records/data; inadvertent omission or misinterpretation of '
-       'accounting policies; and unintentional misapplication of accounting policies.'],
-    ]}},
-    {'key': 'The **essential distinguishing feature** between fraud and error is **intent**. '
-            'Responsibility for preventing and detecting both rests with the **directors**, '
-            'through the implementation and continued operation of adequate accounting and '
-            'internal control systems — which reduce, but never eliminate, the possibility of '
-            'either.'},
-
-    {'h4': '§2.10.1 Responsibility of the auditors'},
-    {'p': '**Prevention**: it is not the auditor\'s function to prevent fraud and error — though '
-          'the fact of an annual audit may act as a deterrent.'},
-    {'p': '**Risk assessment**: when planning, the auditor assesses the risk that fraud or error '
-          'may cause material misstatement. Beyond weaknesses in accounting/internal control '
-          'system design and non-compliance with identified controls, conditions/events raising '
-          'this risk include:'},
-    {'ul': [
-      'questions over the integrity or competence of management;',
-      'unusual pressures within an entity;',
-      'unusual transactions; and',
-      'problems obtaining sufficient appropriate audit evidence.',
-    ]},
-    {'p': '**Detection**: based on the risk assessment, the auditor designs procedures with a '
-          'reasonable expectation of detecting material misstatements from fraud or error, '
-          'seeking sufficient appropriate evidence that fraud/error material to the financial '
-          'statements has not occurred, or, if it has, that its effect is properly reflected or '
-          'corrected.'},
-    {'key': 'Detecting **errors** is ordinarily easier than detecting the **concealment** of '
-            'fraud (e.g. collusion between employees, or falsification of records) — because '
-            'fraud is, by definition, designed to evade detection, while error is not. Due to '
-            'the inherent limitations of an audit, there remains an unavoidable risk that '
-            'material misstatement from fraud (and, to a lesser extent, error) goes undetected. '
-            'The **subsequent discovery** of a material misstatement after the audit report is '
-            'issued does **not**, by itself, indicate the auditors failed to follow the basic '
-            'principles and essential procedures of an audit.'},
-    {'note': 'Unless the audit reveals contrary evidence, auditors are entitled to accept '
-             'representations as truthful and records/documents as genuine — while still '
-             'maintaining professional scepticism throughout. Even an effective internal '
-             'control system carries some risk of failing to operate as designed, and may be '
-             'wholly ineffective against fraud involving **collusion among employees**, or fraud '
-             'committed by **management overriding** the very controls meant to prevent it — e.g. '
-             'directing subordinates to record transactions incorrectly, conceal them, or '
-             'suppress related information.'},
-
-    {'h4': '§2.10.2 Procedures when fraud or error is indicated'},
-    {'p': 'When audit procedures indicate fraud or error may exist, the auditor considers the '
-          'potential effect on the financial statements. If it could be material, the auditor '
-          'performs modified or additional procedures, with extent depending on judgment as to: '
-          'the type of fraud/error indicated; its likelihood of occurrence; and the likelihood '
-          'that this type of fraud/error could materially affect the financial statements.'},
-    {'key': 'Unless circumstances clearly indicate otherwise, auditors **cannot assume** a '
-            'suspected fraud/error is an isolated occurrence — they should adjust the nature, '
-            'timing and extent of substantive procedures accordingly. If suspicion is not '
-            'dispelled, the auditors discuss the matter with management/directors/audit '
-            'committee, consider whether it has been properly reflected or corrected, and '
-            'consider the implications for the reliability of management representations more '
-            'broadly. If the suspicion is supported, the auditors consider legal consequences — '
-            'whether to contact the entity\'s lawyers or seek their own legal advice, and what '
-            'action to take.'},
-
-    {'h4': '§2.10.3 Reporting fraud and error to management'},
-    {'p': 'The auditors should communicate factual findings to management/the board/the audit '
-          'committee as soon as practicable if they suspect fraud (even if the potential effect '
-          'is immaterial) or if material error is found to exist. In choosing who to report to, '
-          'they consider all circumstances — reporting to the next higher level of authority not '
-          'suspected of involvement (e.g. to the audit committee, if senior management/board '
-          'members are suspected). Where no higher authority exists, or the auditors are '
-          'precluded from obtaining sufficient evidence, believe a report may not be acted on, '
-          'or are unsure who to report to, they may seek legal advice.'},
-
-    {'h4': '§2.10.4 Reporting fraud and error to members'},
-    {'p': 'Auditors consider the implications for their report if they conclude a suspected '
-          'fraud/error has a material effect and they disagree with the accounting treatment or '
-          'disclosure (or lack of it), or if they cannot determine whether fraud/error has '
-          'occurred. They should **not** refrain from qualifying their opinion merely because '
-          'the position has since been corrected, or because of the possible consequences of '
-          'qualification.'},
-
-    {'h4': '§2.10.5 Reporting fraud and error to third parties'},
-    {'p': 'Where aware of a suspected instance supported by strong evidence, and considering the '
-          'matter may warrant reporting to a proper authority in the public interest, the '
-          'auditors ensure the matter reaches the directors/audit committee first. Having '
-          'considered any views expressed and any legal advice obtained, they may report it '
-          'themselves if under statutory duty to do so, or if the entity does not report it '
-          'itself (or cannot provide evidence that it has). In **extreme** cases, auditors may '
-          'report directly to a proper authority, without first discussing with the entity, '
-          'where the matter has caused a **loss of confidence in the integrity of the '
-          'directors** — e.g. where the directors are themselves suspected or known to be '
-          'involved and have not reported it.'},
-    {'key': 'Confidentiality is an **implied** term of the auditor\'s contract, but is **not '
-            'absolute** — in exceptional circumstances auditors have the right to report to a '
-            'proper authority in the public interest, weighing the public interest in '
-            'confidentiality against the public interest in disclosure. Auditors are protected '
-            'from liability for breach of confidence where: disclosure is in the public '
-            'interest; made to an appropriate body/person; and not motivated by malice. They are '
-            'protected from liability for defamation where disclosure is made in their capacity '
-            'as auditors of the entity, and there is no malice.'},
-    {'p': 'Factors relevant to whether public-interest disclosure is justified: the extent to '
-          'which the suspected fraud is likely to affect the public; whether directors have '
-          'rectified or are taking effective corrective action; the extent to which '
-          'non-disclosure would let the fraud recur with impunity; the gravity of the matter; '
-          'and the weight of evidence/degree of the auditors\' suspicion. Proper authorities may '
-          'include: the Serious Fraud Office, the Police Service, the Bureau of National '
-          'Investigations, recognised professional bodies, the Stock Exchange, the Central '
-          'Bank, the Internal/Inland Revenue Service, the VAT Office, and the Customs, Excise & '
-          'Preventive Service.'},
-
-    {'h4': '§2.10.6 Withdrawal from the engagement'},
-    {'p': 'Auditors may conclude withdrawal is necessary — e.g. if shareholders have not been '
-          'given required information, and there is no opportunity to report it while remaining '
-          'auditors. Relevant factors: implications of fraud involvement by the entity\'s '
-          'highest authority (affecting management representation reliability), and the effects '
-          'of continued association. Legal advice may be needed to reach this conclusion.'},
-    {'warn': 'Resignation is a **step of last resort** — it is normally preferable for auditors '
-             'to remain in place to fulfil their statutory duties, particularly where minority '
-             'interests are involved. But there are circumstances with no real alternative — '
-             'e.g. where directors refuse to issue financial statements, or the auditors wish to '
-             'inform shareholders/creditors of concerns with no other immediate way to do so.'},
-  ]},
-
-  {'n': '2.11', 't': 'Auditors\' responsibility to consider non-compliance with laws and '
-    'regulations (NOCLAR)', 'b': [
-    {'p': 'Auditors should plan, perform and report on their audit recognising that an entity\'s '
-          'non-compliance with law or regulations may materially affect the financial '
-          'statements.'},
-    {'key': 'Whether an act constitutes non-compliance is a **legal determination**, ordinarily '
-            'beyond the auditor\'s professional competence — though training, experience and '
-            'understanding of the entity/industry may let them recognise acts that may '
-            'constitute non-compliance. The determination is generally based on the advice of '
-            'a qualified legal expert, but can ultimately only be decided by a court of law.'},
-    {'p': 'Laws and regulations relevant to the audit fall into **two categories**: (1) those '
-          'relating directly to the preparation, inclusion or disclosure of specific items in '
-          'the financial statements; and (2) those providing the **legal framework** within '
-          'which the entity conducts business, where non-compliance may fundamentally affect '
-          'operations and hence the financial statements.'},
-
-    {'h4': '§2.11.1 Responsibilities of the directors'},
-    {'p': 'Directors are responsible for ensuring compliance with applicable law and '
-          'regulations, and for establishing effective arrangements to prevent and detect '
-          'non-compliance. Neither assigning particular responsibilities to management, nor the '
-          'audit process, relieves them of this. Assisting policies/procedures include:'},
-    {'ol': [
-      'maintaining an up-to-date register of significant laws/regulations applicable to the '
-      'entity\'s industry;',
-      'monitoring legal requirements and changes, ensuring operating procedures meet them;',
-      'instituting and operating appropriate internal control systems;',
-      'developing, publicising and following a code of conduct;',
-      'ensuring employees are properly trained and understand the code of conduct;',
-      'monitoring compliance with the code and disciplining employees who fail to comply;',
-      'engaging legal advisers to assist monitoring legal requirements; and',
-      'maintaining a record of complaints.',
-    ]},
-    {'note': 'In larger entities, these policies may be supplemented by assigning '
-             'responsibilities to an internal audit function, a legal department, a compliance '
-             'function, and an audit committee. In some sectors (e.g. financial services), '
-             'detailed laws specifically require directors to have compliance systems, breach of '
-             'which could materially affect the financial statements — directors are also '
-             'required to report certain instances of non-compliance to proper authorities on a '
-             'timely basis.'},
-
-    {'h4': '§2.11.2 Responsibilities of the auditors'},
-    {'p': '**Prevention**: it is not the auditors\' function to prevent non-compliance — though '
-          'the annual audit may act as a deterrent. **Detection**: auditors plan, perform and '
-          'evaluate their work for a reasonable expectation of detecting material '
-          'misstatement — recognising it may arise from non-compliance — but an audit cannot be '
-          'expected to detect **all** possible non-compliance.'},
-    {'p': 'This risk (of undetected non-compliance) is higher than for other misstatements, due '
-          'to:'},
-    {'ol': [
-      'many laws/regulations relating to operating aspects typically have no material effect '
-      'on the financial statements, and their non-compliance is not captured by accounting/'
-      'internal control systems;',
-      'the effectiveness of audit procedures is affected by inherent control-system '
-      'limitations and the use of testing;',
-      'much of the evidence obtained is persuasive rather than conclusive; and',
-      'non-compliance may involve conduct designed to conceal it — collusion, forgery, '
-      'override of controls, or intentional misrepresentation to the auditors.',
-    ]},
-
-    {'h4': '§2.11.3 Auditors in the public sector'},
-    {'p': 'Public sector auditors may have duties beyond those of private-sector auditors — e.g. '
-          'auditors of local authorities must keep under review the legality of the authority\'s '
-          'transactions, with a specific duty to act on prospective unlawful expenditure. '
-          'Auditors of central government accounts have a statutory duty to confirm grants have '
-          'been applied to their intended purpose and that expenditure conforms with the '
-          'governing authority.'},
-
-    {'h4': '§2.11.4 Auditors\' consideration of compliance'},
-    {'p': 'For laws relating directly to financial statement preparation/disclosure, the '
-          'auditors should obtain sufficient appropriate audit evidence of compliance. For laws '
-          'providing the entity\'s broader legal framework, auditors should perform procedures '
-          'to help **identify** possible non-compliance, by:'},
-    {'ol': [
-      'obtaining a general understanding of the applicable legal/regulatory framework and how '
-      'the entity complies with it;',
-      'inspecting correspondence with relevant licensing/regulatory authorities;',
-      'enquiring of directors whether they are aware of possible non-compliance; and',
-      'obtaining written confirmation from directors that they have disclosed all known '
-      'events involving possible non-compliance, and their actual/contingent consequences.',
-    ]},
-    {'p': 'Building this general understanding uses existing knowledge of the entity\'s industry '
-          'and regulatory environment to: enquire of management about applicable laws/'
-          'regulations (and changes); enquire about the entity\'s compliance policies and '
-          'procedures; discuss policies for identifying/evaluating litigation, claims and '
-          'assessments; and discuss the legal/regulatory framework with auditors of foreign '
-          'subsidiaries where relevant.'},
-    {'key': 'Beyond this, auditors are **not required** to plan and perform other procedures '
-            'specifically to identify non-compliance — doing so is outside the scope of a '
-            'financial statement audit. But when carrying out procedures to form their opinion, '
-            'they should stay alert for possible non-compliance that might affect the financial '
-            'statements — via reading board/management minutes, enquiring of directors/legal '
-            'counsel about litigation, and performing substantive tests of transactions/'
-            'balances.'},
-
-    {'h4': '§2.11.5 Procedure when possible non-compliance is discovered'},
-    {'p': 'On becoming aware of possible non-compliance, the auditor obtains an understanding of '
-          'the act and its circumstances, and enough information to evaluate its possible '
-          'effect. Indications that non-compliance may have occurred include:'},
-    {'ul': [
-      'investigations by a government department, or payment of fines/penalties;',
-      'payments for unspecified services, or loans to consultants/related parties/employees/'
-      'government employees;',
-      'sales commissions or agents\' fees appearing excessive relative to the norm;',
-      'purchasing at prices significantly above or below market price;',
-      'unusual transactions with companies not registered with tax authorities;',
-      'payments for goods/services made other than to the country of origin;',
-      'an accounting system that fails, by design or accident, to provide an adequate audit '
-      'trail or sufficient evidence;',
-      'unauthorised or improperly recorded transactions; and',
-      'media comment.',
-    ]},
-    {'p': 'In evaluating possible effects, the auditors consider: the potential financial '
-          'consequences (fines, damages, expropriation of assets, enforced discontinuance, '
-          'litigation); whether those consequences require disclosure; and whether they are '
-          'serious enough to call into question the view the financial statements give.'},
-    {'p': 'Where non-compliance is suspected, findings are documented (e.g. copies of records, '
-          'minutes of conversations) and, subject to any third-party reporting requirement, '
-          'discussed with directors. If directors do not provide sufficient information to show '
-          'compliance, the auditors may seek legal advice — normally consulting the entity\'s own '
-          'lawyers with the entity\'s permission, or, where that is not possible or appropriate, '
-          'seeking their own advice.'},
-    {'p': 'Where non-compliance is suspected or has occurred, the auditors reconsider their '
-          'audit risk assessment and the validity of management representations. Relevant '
-          'factors: any apparent failure of specific control procedures; the level of '
-          'management/employees involved; and any concealment of the act.'},
-
-    {'h4': '§2.11.6 Reporting non-compliance to management'},
-    {'p': 'As soon as practicable, the auditors should communicate non-compliance that comes to '
-          'their attention to management/the board/the audit committee — without delay, if in '
-          'their judgment it is material or believed intentional. As with fraud, reporting goes '
-          'to the next higher authority not suspected of involvement, with legal advice sought '
-          'where no such authority exists or the auditors are unsure how to proceed.'},
-
-    {'h4': '§2.11.7 Reporting non-compliance to shareholders'},
-    {'p': 'Auditors consider report implications if they conclude a suspected instance has a '
-          'material effect and disagree with the treatment/disclosure, or cannot determine '
-          'whether it occurred — not refraining from qualifying the opinion merely because the '
-          'position was since regularised, or because of the consequences of qualification. '
-          'Even where the immediate financial effect is immaterial, disclosure may still be '
-          'required because of potential **future** material consequences (e.g. an illegal '
-          'payment leading to criminal proceedings or loss of business).'},
-
-    {'h4': '§2.11.8 Reporting non-compliance to third parties'},
-    {'p': 'Following the same structure as fraud reporting (§2.10.5): the matter first reaches '
-          'the directors/audit committee, extreme cases may warrant direct reporting to a proper '
-          'authority without prior discussion where confidence in directors\' integrity is lost, '
-          'and the same confidentiality-vs-public-interest balancing and qualified-privilege '
-          'protections apply. Proper authorities can include the Serious Fraud Office, Police '
-          'Service, Securities Commission, recognised professional bodies, the Stock Exchange, '
-          'Central Bank, Local Authorities, Internal Revenue Service, Customs/Excise & '
-          'Preventive Service, and the Ministry of Trade and Industry.'},
-  ]},
-
-  {'n': '2.12', 't': 'Impact of laws and accounting standards on audit', 'b': [
-    {'h4': 'Companies and Allied Matters Act (CAMA)'},
-    {'p': 'Statutory audit in Nigeria is regulated by CAMA 2020, BOFIA 2020 and the Insurance '
-          'Act 2003 — containing detailed regulation on the conduct of an audit, the accounting '
-          'records the auditor works from, the financial statements reported on, and the '
-          'auditor\'s relationship with the company.'},
-    {'p': 'Schedule 2 of CAMA specifically requires every company to keep accounting records '
-          'sufficient to show and explain its transactions such as to: (a) disclose, with '
-          'reasonable accuracy at any time, the company\'s financial position; and (b) enable '
-          'directors to ensure financial statements comply with CAMA\'s form/content '
-          'requirements. Records must, in particular, contain day-to-day entries of all sums '
-          'received/expended (and the matters they relate to), and a record of assets/'
-          'liabilities. Where the business deals in goods, records must additionally contain: '
-          'a statement of inventories held at year end; all stock-taking statements from which '
-          'such inventory statements were prepared; and (except for ordinary retail sales) a '
-          'statement of all goods sold and purchased, identifying buyers/sellers in sufficient '
-          'detail.'},
-
-    {'h4': 'Financial Reporting Council of Nigeria (FRCN)'},
-    {'p': 'The FRCN Act 2023 regulates financial reporting and corporate governance standards, '
-          'including assurance services, strengthening audit oversight and quality assurance:'},
-    {'table': {'align': 'll', 'head': ['Function', 'What it covers'], 'rows': [
-      ['**Establishment and mandate**', 'Empowered to develop and enforce accounting, '
-       'auditing, actuarial, valuation and corporate governance standards; regulates the '
-       'conduct of financial reporting/auditing professionals.'],
-      ['**Registration and licensing**', 'Practising auditors must be registered with the '
-       'FRCN; firms offering audit/assurance services must comply with FRCN registration and '
-       'submit to its oversight.'],
-      ['**Monitoring and inspection**', 'Conducts quality control inspections and practice '
-       'reviews of audit firms for compliance — non-compliance can bring suspension, fines, or '
-       'revocation of practice licences.'],
-      ['**Adoption of standards**', 'Adopts and customises international standards (e.g. ISAs) '
-       'for Nigeria\'s environment — auditors must comply when carrying out assurance '
-       'engagements.'],
-      ['**Whistleblowing and public interest**', 'Encourages whistleblowing on misconduct in '
-       'financial reporting/auditing, and protects whistleblowers against retaliation.'],
-      ['**Disciplinary actions**', 'Investigates and disciplines erring auditors/firms — '
-       'sanctions may include publication of the disciplinary action, suspension, fines, or '
-       'blacklisting.'],
-    ]}},
-    {'warn': 'Penalties under the FRCN Act (at the board\'s discretion) include: a fine of '
-             '**N5 million**; one year\'s imprisonment, or both, on conviction; and proscription '
-             'or de-listing of the accountancy firm.'},
-  ]},
-
-  {'n': '2.13', 't': 'Scope of audit functions under CAMA, BOFIA and the Insurance Act', 'b': [
-    {'p': 'CAMA 2020 is the principal law governing incorporation and business conduct in '
-          'Nigeria; BOFIA 2020 regulates banks and other financial institutions; the Insurance '
-          'Act 2003 regulates insurance companies.'},
-
-    {'h4': '§2.13.1 Companies and Allied Matters Act'},
-    {'p': 'Section 404(1) requires the auditor to report to members on the accounts examined, '
-          'and on every Statement of Financial Position, Statement of Comprehensive Income and '
-          'group financial statement laid before the company in general meeting during the '
-          'auditors\' tenure.'},
-    {'p': 'For a **public** company, the auditor must **also** report to an audit committee — '
-          'consisting of an **equal number of directors and shareholder representatives** '
-          '(maximum six members total), which examines the auditor\'s report and makes '
-          'recommendations to the AGM as it sees fit. Subject to any additional powers the '
-          'articles may stipulate, the audit committee\'s objectives/functions are to:'},
-    {'ol': [
-      'ascertain whether the company\'s accounting and reporting policies accord with legal '
-      'requirements and agreed ethical practices;',
-      'review the scope and planning of audit requirements;',
-      'review findings on management matters with the external auditor, and departmental '
-      'responses thereon;',
-      'keep under review the effectiveness of the company\'s accounting/internal control '
-      'systems;',
-      'make recommendations to the board on the appointment, removal and remuneration of the '
-      'external auditors; and',
-      'authorise the internal auditor to investigate any activity of interest or concern to '
-      'the committee.',
-    ]},
-    {'p': 'Section 407(1) requires the auditor, in preparing their report, to carry out such '
-          'investigations as enable an opinion on whether: (i) proper accounting records were '
-          'kept, and proper returns adequate for the audit received from branches not visited; '
-          'and (ii) the SFP and (if not consolidated) the Statement of Comprehensive Income '
-          'agree with the accounting records and returns.'},
-    {'p': 'Section 407(2): if the auditors are of the opinion that proper returns were not '
-          'received, or the statements do not agree with the records/returns, they must state '
-          'that fact in their report. Section 407(3): every auditor has a right of access at '
-          'all times to the company\'s books, accounts and vouchers, and is entitled to require '
-          'from company officers whatever information/explanations they think necessary. '
-          'Section 407(4): it is the auditor\'s duty to consider whether the directors\' report is '
-          'consistent with the accounts, stating the fact in their report if it is not.'},
-
-    {'h4': '§2.13.2 Banks and Other Financial Institutions Act 2020 (BOFIA)'},
-    {'p': 'BOFIA 2020 regulates banks and other financial institutions in Nigeria, administered '
-          'by the **Central Bank of Nigeria (CBN)**, aiming for high banking-practice standards '
-          'and financial stability.'},
-    {'h4': 'Publication of annual accounts of banks'},
-    {'ol': [
-      'Subject to the CBN\'s prior written approval, a bank shall, not later than 4 months '
-      'after its financial year-end: cause publication in an approved daily newspaper; exhibit '
-      'the accounts conspicuously in each office/branch in Nigeria; and forward signed copies '
-      'to the CBN, containing the full and correct names of the bank\'s directors;',
-      'Every published account must disclose in detail penalties paid for contravening the '
-      'Act or any policy guideline in force during the year, and the auditor\'s report shall '
-      'reflect such contravention;',
-      'The SFP and Statement of Comprehensive Income shall bear on their face the report of an '
-      '"approved auditor" (one approved under s.28), and contain any statements specified by '
-      'the bank from time to time;',
-      'Non-compliance is an offence, liable to a penalty of **not less than ₦5,000,000**, plus '
-      '**₦100,000 for each day** the contravention continues.',
-    ]},
-    {'h4': 'Contents and form of accounts'},
-    {'ol': [
-      'Every SFP and Statement of Comprehensive Income must give a true and fair view of the '
-      'bank\'s state of affairs as at the end of the reporting period;',
-      'Accounts forwarded to the CBN must comply with any CBN circular issued on the matter;',
-      'A director who fails to take reasonable steps to secure compliance with prescribed '
-      'provisions is guilty of an offence, liable to a fine of **₦2,000,000** payable to the '
-      'bank.',
-    ]},
-    {'h4': 'Appointment, powers and report of the approved auditor'},
-    {'ol': [
-      'Every bank shall annually appoint an "approved auditor" (approved by the CBN), whose '
-      'duty is to report to shareholders on the annual SFP and Statement of Comprehensive '
-      'Income, containing such other information as the CBN may prescribe;',
-      'The approved auditor must be: a member of a recognised professional body in Nigeria; '
-      'approved by the CBN; resident in Nigeria; and carrying on professional practice as '
-      'accountant/auditor in Nigeria;',
-      'The following are **ineligible** for appointment (and cease to hold office if they '
-      'later acquire the disqualifying status): anyone with an interest in the bank other than '
-      'as a depositor; a director, officer or agent of the bank; a firm in which a bank '
-      'director has an interest as partner/director; or anyone indebted to the bank;',
-      'If a bank fails to appoint an approved auditor, the CBN shall appoint one and fix the '
-      'remuneration payable by the bank;',
-      'An approved auditor contravening, or deliberately/negligently failing to comply with, '
-      'required provisions is guilty of an offence, liable to a fine of **not less than '
-      '₦200,000 and not exceeding ₦500,000**;',
-      'The approved auditor\'s report is read together with the board\'s report at the AGM, and '
-      'two copies of each (with an analysis of bad and doubtful advances) sent to the CBN;',
-      'If, in the course of duty, the approved auditor is satisfied that: (i) the Act (or any '
-      'other law) has been contravened by the bank or another person; (ii) losses have '
-      'substantially reduced the bank\'s capital funds; (iii) an irregularity jeopardises '
-      'depositors\'/creditors\' interests; or (iv) they cannot confirm depositor/creditor claims '
-      'are covered by the bank\'s assets — they must **immediately report** the matter to the '
-      'CBN;',
-      'The approved auditor forwards two copies of a domestic report on the bank\'s activities '
-      'to the CBN, not later than 3 months after the financial year-end;',
-      'Contravention here is an offence liable to a fine of **not less than ₦2,000,000**, and '
-      'where the approved auditor is a firm, individual partners are additionally liable to '
-      'imprisonment for **not less than 3 years**, or a fine of not less than ₦2,000,000, or '
-      'both;',
-      'A bank cannot terminate an approved auditor\'s appointment without prior CBN approval '
-      '(s.28).',
-    ]},
-
-    {'h4': '§2.13.3 Insurance Act 2003 (as amended)'},
-    {'p': 'Insurance business is a special type of business — providing economic protection '
-          'from identifiable risks over a specific period — so specific legal and regulatory '
-          'requirements apply, including the Insurance Act 2020, CAMA 2020, IFRS 4 (now '
-          'replaced by **IFRS 17**, effective January 2023), and relevant NAICOM circulars.'},
-    {'p': 'Insurance business is classified into two main classes, with life insurance further '
-          'split into three categories and general insurance into eight:'},
-    {'table': {'align': 'll', 'head': ['Life insurance categories', 'General insurance '
-      'categories'], 'rows': [
-      ['Individual life insurance business', 'Fire insurance business'],
-      ['Group life insurance and pension business', 'General accident insurance business'],
-      ['Health insurance business', 'Motor vehicle insurance business'],
-      ['—', 'Marine and aviation insurance business'],
-      ['—', 'Oil and gas insurance business'],
-      ['—', 'Engineering insurance business'],
-      ['—', 'Bonds, credit guarantee and suretyship insurance business'],
-      ['—', 'Miscellaneous insurance business'],
-    ]}},
-    {'def': {'t': 'Re-insurance business', 'd': 'an advanced type of insurance business, beyond '
-                  'the two broad classes above, whereby insurance companies buy their own '
-                  'insurance against losses that might result from claims made against them by '
-                  'those they insure.'}},
-    {'h4': 'Capital (s.10, as amended by NAICOM circular NAICOM/DPR/CIR/25/2019)'},
-    {'table': {'align': 'lr', 'head': ['Business type', 'Minimum share capital'], 'rows': [
-      ['Life insurance business', 'Not less than N8 billion'],
-      ['General insurance business', 'Not less than N10 billion'],
-      ['Composite insurance business', 'Not less than N18 billion'],
-      ['Re-insurance business', 'Not less than N20 billion'],
-    ]}},
-    {'h4': 'Records of insurance companies (ss.17-19)'},
-    {'p': 'Where an insurer carries on both classes of business, separate and distinct accounts '
-          'must be kept and carried to a separate insurance fund, appropriately named — each '
-          'fund representing the liabilities for all contracts of that class, consisting of the '
-          'reserves/provisions specified in s.19(2)(a) and (b).'},
-    {'p': 'Records to be kept and maintained at the insurer\'s principal office:'},
-    {'ol': [
-      'The memorandum and articles of association (or other evidence of constitution), and a '
-      'record of the names/addresses of the business owners (shareholders or otherwise);',
-      'Minutes of any meeting of the owners and of the policy-making executive (board of '
-      'directors or otherwise);',
-      'A register of all policies — names/addresses of policyholders, dates policies were '
-      'effected, and records of transfer/assignment/nomination the insurer has notice of;',
-      'A register of claims — date of claim, claimant\'s name/address, date settled (or, for a '
-      'repudiated claim, the date and grounds of rejection; or, for litigation, its particulars '
-      'and the court\'s decision);',
-      'A register of investments, showing those attributable to insurance funds and those not, '
-      'and any value changes over time;',
-      'A register of assets;',
-      'A register of reinsurance ceded, showing separately those ceded within and outside '
-      'Nigeria;',
-      'A cash book;',
-      'A current account book;',
-      'A register of open policies for marine insurance transactions;',
-      'Management report by external auditors; and',
-      'For life insurance business specifically: a register of assured under group policies; a '
-      'register of loans on policies; a register of cash surrender values; and a register of '
-      'lapsed and expired policies.',
-    ]},
-    {'h4': 'Provisions and reserves (ss.20-23)'},
-    {'p': 'Every insurance company must establish and maintain:'},
-    {'ul': [
-      'provision for unexpired risk;',
-      'provision for outstanding claims;',
-      'contingency reserves; and',
-      'a contingency reserve fund.',
-    ]},
-    {'note': 'The specific rates and conditions for calculating each provision/reserve are set '
-             'out in the corresponding sections of the Act — the auditor\'s work necessarily '
-             'includes verifying these were computed on the prescribed basis.'},
-    {'h4': 'Investment in assets (s.25) and returns to NAICOM (s.26)'},
-    {'p': 'Section 25 provides guidelines on how an insurance company must invest and hold '
-          'Nigerian assets equivalent to, and not less than, the amount of policyholders\' '
-          'funds, specifying the types of property/securities those funds can be invested in.'},
-    {'p': 'Section 26 requires an insurance company to submit to NAICOM, not later than 30 June '
-          'each year: (a) a Statement of Financial Position as at the last financial year-end, '
-          'plus the relevant profit and loss account for presentation at the AGM; (b) a revenue '
-          'account for each registered class of insurance business, kept as separate receipts/'
-          'payments accounts; and (c) a statement of investments representing the insurance '
-          'funds. After NAICOM\'s approval, the company must publish its general SFP together '
-          'with its Statement of Profit or Loss and OCI in at least one newspaper of wide '
-          'circulation, covering general insurance, life assurance and composite business as '
-          'applicable, disclosing (per class): premium recognition, expenses, claims (life '
-          'only), policy liabilities (life only), valuation surplus/deficiency (life only), '
-          'unexpired risk (general only), and the required financial statement disclosures.'},
-    {'key': 'A composite insurer (life and general) follows the **same** disclosure '
-            'requirements as above for both classes, and must additionally include a **separate '
-            'Statement of Financial Position**. As with banks, the auditor should factor these '
-            'insurance-specific issues into the audit from the planning stage onward, and the '
-            'auditor\'s report should reference compliance with **both** CAMA and the Insurance '
-            'Act 2003 (and relevant circulars) — not CAMA alone.'},
-  ]},
-
-  {'n': '2.14', 't': 'Chapter summary', 'b': [
+  {'sourceN': '2.69', 'n': '2.14', 't': 'Chapter summary', 'b': [
     {'ol': [
       'Every company, by law, should have its financial statements audited before circulation '
       'to members and other stakeholders.',

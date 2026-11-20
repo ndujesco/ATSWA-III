@@ -16,6 +16,7 @@ def main():
     if args.extract:
         commands.append([sys.executable, 'tools/extract_papers.py'])
     commands += [
+        [sys.executable, 'tools/recover_study_figures.py'],
         [sys.executable, 'tools/build_content.py'],
         [sys.executable, 'tools/aim.py'],
         [sys.executable, 'tools/aim_sec.py', 'AUD', 'CA', 'TAX', 'MAN'],
